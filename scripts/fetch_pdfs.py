@@ -7,7 +7,7 @@ Usage :
     python3 scripts/fetch_pdfs.py --topic mucite-orale
 
 Écrit pdfs/<PMID>.pdf (+ data/fulltext/<PMID>.txt, non versionné, pour l'analyse).
-Seuls les articles sous licence CC sont téléchargés : la redistribution est
+Seuls les articles ayant une fiche rédigée (data/curation) et sous licence CC sont téléchargés : la redistribution est
 autorisée sous réserve de citer la source (affichée sur chaque fiche).
 """
 from __future__ import annotations
@@ -44,6 +44,8 @@ def main() -> None:
     p.add_argument("--topic", required=True)
     args = p.parse_args()
     recs = json.loads((ROOT / "data/raw" / f"{args.topic}.json").read_text())
+    curated = {c["pmid"] for f in (ROOT / "data/curation" / args.topic).glob("[0-9]*.json") for c in json.loads(f.read_text())}
+    recs = [r for r in recs if r["pmid"] in curated]
     (ROOT / "pdfs").mkdir(exist_ok=True)
     (ROOT / "data/fulltext").mkdir(parents=True, exist_ok=True)
     for r in recs:

@@ -6,7 +6,7 @@
  "status": "actif",
  "description": "Photobiomodulation en gynécologie et obstétrique : sécheresse et atrophie vulvovaginale (syndrome génito-urinaire de la ménopause), effets secondaires après cancer gynécologique ou mammaire, douleurs vulvaires et pelviennes, périnée et allaitement, fertilité.",
  "hero": "la gynécologie",
- "since": "2020-01-01",
+ "since": "2000-01-01",
  "cadence": "hebdomadaire",
  "pubmed_query": "(\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"low-intensity laser\"[tiab] OR \"LLLT\"[tiab] OR \"low-level light\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"PBMT\"[tiab] OR \"light-emitting diode\"[tiab] OR \"laser acupuncture\"[tiab]) AND (\"vagina*\"[tiab] OR \"vulva*\"[tiab] OR \"vulvodynia\"[tiab] OR \"dyspareunia\"[tiab] OR \"genitourinary syndrome\"[tiab] OR \"menopaus*\"[tiab] OR \"lichen sclerosus\"[tiab] OR \"gynecolog*\"[tiab] OR \"gynaecolog*\"[tiab] OR \"cervical cancer\"[tiab] OR \"endometrial cancer\"[tiab] OR \"ovar*\"[tiab] OR \"uterine\"[tiab] OR \"dysmenorrh*\"[tiab] OR \"endometriosis\"[tiab] OR \"pelvic pain\"[tiab] OR \"perine*\"[tiab] OR \"episiotomy\"[tiab] OR \"nipple\"[tiab] OR \"breastfeeding\"[tiab] OR \"polycystic ovary\"[tiab] OR \"infertil*\"[tiab] OR \"urinary incontinence\"[tiab] OR \"Genital Diseases, Female\"[MeSH])",
  "exclusions_note": "lasers vaginaux ablatifs CO2 et Er:YAG (ce n'est pas de la photobiomodulation), lymphœdème du membre supérieur, études animales sans rapport gynécologique…",

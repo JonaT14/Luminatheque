@@ -2,7 +2,21 @@
  "id": "dermatologie",
  "label": "Dermatologie",
  "short": "Dermatologie",
- "status": "à venir",
- "description": "Radiodermite, cicatrisation, alopécie, acné et autres indications cutanées.",
- "cadence": "—"
+ "status": "actif",
+ "since": "2000-01-01",
+ "cadence": "hebdomadaire",
+ "hero": "la dermatologie",
+ "description": "Photobiomodulation en dermatologie : plaies et ulcères, cicatrices et brûlures, radiodermite, alopécie, acné et dermatoses inflammatoires, vieillissement cutané, infections et pigmentation.",
+ "exclusions_note": "photothérapie dynamique, lasers ablatifs ou vasculaires, épilation, études sans rapport avec la peau…",
+ "subgroups": [
+  "plaies",
+  "cicatrices",
+  "radiodermite",
+  "alopécie",
+  "inflammatoire",
+  "esthétique",
+  "infections",
+  "pigmentation"
+ ],
+ "pubmed_query": "(\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"low-intensity laser\"[tiab] OR \"LLLT\"[tiab] OR \"low-level light\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"PBMT\"[tiab] OR \"light-emitting diode\"[tiab] OR \"laser acupuncture\"[tiab] OR \"high-intensity laser\"[tiab]) AND (\"skin\"[tiab] OR \"cutaneous\"[tiab] OR \"wound*\"[tiab] OR \"dermatitis\"[tiab] OR \"radiodermatitis\"[tiab] OR \"acne\"[tiab] OR \"alopecia\"[tiab] OR \"hair loss\"[tiab] OR \"psoriasis\"[tiab] OR \"scar*\"[tiab] OR \"keloid*\"[tiab] OR \"ulcer*\"[tiab] OR \"burn*\"[tiab] OR \"vitiligo\"[tiab] OR \"herpes\"[tiab] OR \"rosacea\"[tiab] OR \"photoaging\"[tiab] OR \"wrinkle*\"[tiab] OR \"Skin Diseases\"[MeSH]) NOT (\"photodynamic\"[ti] OR \"hair removal\"[ti] OR \"epilation\"[ti])"
 }

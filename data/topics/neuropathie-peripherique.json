@@ -6,7 +6,7 @@
  "status": "actif",
  "description": "Prévention et traitement des neuropathies périphériques par photobiomodulation : neuropathie induite par la chimiothérapie (CIPN), neuropathie diabétique et autres atteintes nerveuses périphériques.",
  "pubmed_query": "(\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"LLLT\"[tiab] OR \"low-level light\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"PBMT\"[tiab] OR \"laser therapy\"[tiab] OR \"light-emitting diode\"[tiab] OR \"high-intensity laser\"[tiab]) AND (\"peripheral neuropathy\"[tiab] OR \"polyneuropathy\"[tiab] OR \"Peripheral Nervous System Diseases\"[MeSH] OR \"neuropathic\"[tiab] OR \"neuropathy\"[tiab] OR \"CIPN\"[tiab]) NOT (\"trigeminal\"[ti] OR \"burning mouth\"[ti])",
- "since": "2024-01-01",
+ "since": "2000-01-01",
  "cadence": "hebdomadaire",
  "hero": "les neuropathies périphériques",
  "exclusions_note": "ulcères du pied diabétique, glaucome, lésions de la moelle épinière, radiculopathies (réservées au futur thème musculo-squelettique)…"

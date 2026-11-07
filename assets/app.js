@@ -17,7 +17,7 @@ const TYPES = {
   rct: ["Essai randomisé", "rct"], nrct: ["Essai non randomisé", "clin"], cohort: ["Cohorte / observationnelle", "clin"],
   cases: ["Série de cas", "clin"], review: ["Revue narrative", "fond"], preclinical: ["Préclinique", "fond"],
   protocol: ["Protocole", "autre"], survey: ["Enquête", "autre"], qualitative: ["Étude qualitative", "autre"],
-  biblio: ["Bibliométrie", "autre"], methodo: ["Méta-recherche", "autre"], letter: ["Correspondance", "autre"],
+  biblio: ["Bibliométrie", "autre"], methodo: ["Méta-recherche", "autre"], letter: ["Correspondance", "autre"], autre: ["Article (non classé)", "autre"],
 };
 const GROUPS = [
   { id: "syn", label: "Synthèses systématiques", color: "var(--s1)" },
@@ -35,8 +35,8 @@ const LEVELS = {
   0: ["Non gradé", "Protocole, enquête, étude qualitative, bibliométrie, correspondance"],
 };
 const EFFECTS = { favorable: ["Favorable à la PBM", "var(--fav)"], "mitigé": ["Mitigé", "var(--mit)"], neutre: ["Neutre / équivalent", "var(--neu)"], "défavorable": ["Défavorable", "var(--def)"] };
-const CTX = { ORL: "Radiothérapie ORL", chimio: "Chimiothérapie", CSH: "Greffe de CSH", mixte: "Contextes mixtes", CIPN: "Neuropathie chimio-induite", "diabète": "Neuropathie diabétique", compression: "Compressions nerveuses", "lésion nerveuse": "Lésions nerveuses", orofaciale: "Orofaciale", autres: "Autres", GSM: "Sécheresse & syndrome génito-urinaire", onco: "Après cancer & sénologie", vulve: "Vulve & vagin", pelvien: "Dysménorrhée & douleurs pelviennes", "obstétrique": "Périnée, accouchement & allaitement", "fertilité": "Fertilité & ovaire", "général": "Revues & recommandations" };
-const SUB_DESC = { GSM: "Atrophie vulvovaginale, sécheresse, dyspareunie, incontinence de la ménopause", onco: "Toxicités vulvovaginales après cancer du sein ou gynécologique, sténose, plaies", vulve: "Vulvodynie, vestibulodynie, lichen scléreux, candidose et vaginose", pelvien: "Dysménorrhée, douleur pelvienne chronique, cystite interstitielle", "obstétrique": "Périnée post-partum, travail, crevasses de l'allaitement", "fertilité": "Ovaire, ovocytes, endomètre, oncofertilité" };
+const CTX = { ORL: "Radiothérapie ORL", chimio: "Chimiothérapie", CSH: "Greffe de CSH", mixte: "Contextes mixtes", CIPN: "Neuropathie chimio-induite", "diabète": "Neuropathie diabétique", compression: "Compressions nerveuses", "lésion nerveuse": "Lésions nerveuses", orofaciale: "Orofaciale", autres: "Autres", GSM: "Sécheresse & syndrome génito-urinaire", onco: "Après cancer & sénologie", vulve: "Vulve & vagin", pelvien: "Dysménorrhée & douleurs pelviennes", "obstétrique": "Périnée, accouchement & allaitement", "fertilité": "Fertilité & ovaire", "général": "Revues & recommandations", tendon: "Tendinopathies & enthèses", arthrose: "Arthrose & arthrites", rachis: "Rachis : lombalgie, cervicalgie, radiculopathie", ATM: "ATM & douleurs orofaciales", fibro: "Fibromyalgie & douleur myofasciale", "épaule": "Épaule", os: "Os, fractures & implants", muscle: "Muscle, sport & récupération", plaies: "Plaies & ulcères", cicatrices: "Cicatrices & brûlures", radiodermite: "Radiodermite", "alopécie": "Alopécie", inflammatoire: "Acné & dermatoses inflammatoires", "esthétique": "Vieillissement & esthétique", infections: "Herpès & infections cutanées", pigmentation: "Vitiligo & pigmentation" };
+const SUB_DESC = { GSM: "Atrophie vulvovaginale, sécheresse, dyspareunie, incontinence de la ménopause", onco: "Toxicités vulvovaginales après cancer du sein ou gynécologique, sténose, plaies", vulve: "Vulvodynie, vestibulodynie, lichen scléreux, candidose et vaginose", pelvien: "Dysménorrhée, douleur pelvienne chronique, cystite interstitielle", "obstétrique": "Périnée post-partum, travail, crevasses de l'allaitement", "fertilité": "Ovaire, ovocytes, endomètre, oncofertilité", tendon: "Épicondylite, tendinopathie d'Achille, aponévrosite plantaire", arthrose: "Gonarthrose, coxarthrose, polyarthrite", rachis: "Lombalgie, cervicalgie, hernie discale, radiculopathie", ATM: "Dysfonction temporo-mandibulaire, bruxisme", fibro: "Fibromyalgie, points gâchettes", "épaule": "Capsulite, conflit sous-acromial, coiffe des rotateurs", os: "Consolidation osseuse, fractures, ostéo-intégration", muscle: "Performance, fatigue, récupération, lésions musculaires", plaies: "Ulcères diabétiques, veineux, escarres, plaies chroniques", cicatrices: "Cicatrisation, chéloïdes, brûlures", radiodermite: "Prévention et traitement des radiodermites", "alopécie": "Alopécie androgénétique, chimio-induite", inflammatoire: "Acné, psoriasis, dermatite atopique, rosacée", "esthétique": "Rides, photovieillissement, rajeunissement cutané", infections: "Herpès labial, onychomycose, infections", pigmentation: "Vitiligo, mélasma" };
 const yearsOf = (list) => [...new Set(list.map((a) => a.year))].sort();
 const READ = { 1: ["Express", "1–2 lignes"], 2: ["Essentiel", "1–2 paragraphes"], 3: ["Approfondi", "analyse complète"] };
 const MONTHS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
@@ -53,7 +53,8 @@ const state = {
   topic: store.get("topic", D.topics[0]?.id),
   level: store.get("level", 1),
   q: "",
-  f: { years: new Set(), groups: new Set(), levels: new Set(), pops: new Set(), ctx: new Set(), effects: new Set(), themes: new Set(), pdf: false, key: false, from: "", to: "" },
+  limit: 60,
+  f: { fiche: new Set(), years: new Set(), groups: new Set(), levels: new Set(), pops: new Set(), ctx: new Set(), effects: new Set(), themes: new Set(), pdf: false, key: false, from: "", to: "" },
   sort: "date",
   cardLevel: new Map(),
   selected: new Set(store.get("selected", [])),
@@ -62,8 +63,26 @@ const state = {
 };
 const topic = () => D.topics.find((t) => t.id === state.topic) || D.topics[0];
 const isSoon = (t = topic()) => t.status === "à venir";
+D.articles = D.articles || [];
+const LOADED = new Set();
+const loadScript0 = (src) => new Promise((ok, ko) => { const s = document.createElement("script"); s.src = src; s.onload = ok; s.onerror = ko; document.head.appendChild(s); });
+async function ensureTopic(id) {
+  if (LOADED.has(id)) return;
+  const t = D.topics.find((x) => x.id === id);
+  if (!t || !t.file) { LOADED.add(id); return; }
+  await loadScript0(t.file);
+  const arts = (window.LUMINA_T || {})[id] || [];
+  D.articles.push(...arts); LOADED.add(id); INDEX.clear();
+}
 const all = () => D.articles.filter((a) => a.topic === state.topic);
-const byId = (id) => D.articles.find((a) => a.pmid === id);
+const byId = (id) => D.articles.find((a) => a.pmid === id && a.topic === state.topic) || D.articles.find((a) => a.pmid === id);
+const ABS = new Map();
+async function abstractOf(a) {
+  if (a.abstract) return a.abstract;
+  const key = `${a.topic}/${String(Number(a.pmid) % (D.n_chunks || 40)).padStart(2, "0")}`;
+  if (!ABS.has(key)) ABS.set(key, fetch(`assets/abs/${key}.json`).then((r) => r.json()).catch(() => ({})));
+  return (await ABS.get(key))[a.pmid] || [];
+}
 const typeLabel = (a) => (TYPES[a.type] || [a.type])[0];
 const groupOf = (a) => (TYPES[a.type] || [, "autre"])[1];
 
@@ -96,7 +115,7 @@ function indexOf(a) {
   const l3 = a.l3 ? [...(a.l3.points || []), ...(a.l3.limites || []), a.l3.pratique || ""].join(" ") : "";
   const fields = [
     [5, a.title_fr + " " + a.title], [4, a.theme + " " + typeLabel(a)], [3, a.l1 + " " + (a.keywords || []).join(" ")],
-    [2, a.l2 + " " + a.journal + " " + (a.authors || []).join(" ") + " " + (a.nm || []).join(" nm ") + " nm " + (a.mode || []).join(" ") + " " + (a.ctx || []).map((c) => CTX[c] || c).join(" ") + " " + a.pop],
+    [2, (a.l2 || "") + " " + (a.kw || "") + " " + a.journal + " " + (a.authors || []).join(" ") + " " + (a.nm || []).join(" nm ") + " nm " + (a.mode || []).join(" ") + " " + (a.ctx || []).map((c) => CTX[c] || c).join(" ") + " " + a.pop],
     [1, l3 + " " + (a.abstract || []).map((x) => x.text).join(" ") + " " + a.pmid + " " + (a.doi || "")],
   ].map(([w, t]) => [w, fold(t)]);
   INDEX.set(a.pmid, fields); return fields;
@@ -129,6 +148,7 @@ function filtered(list = all()) {
     if (f.themes.size && !f.themes.has(a.theme)) return false;
     if (f.pdf && !a.pdf) return false;
     if (f.key && !a.key) return false;
+    if (f.fiche.size && !f.fiche.has(a.curated === false ? "indexée" : "rédigée")) return false;
     if (f.from && a.date < f.from) return false;
     if (f.to && a.date > f.to) return false;
     return true;
@@ -161,7 +181,17 @@ function l3Html(a) {
 }
 const paras = (t) => String(t || "").split(/\n\n+/).map((p) => `<p>${hl(p, state.q)}</p>`).join("");
 
+function cardRaw(a, opts = {}) {
+  return `<article class="card raw" data-pmid="${a.pmid}">
+    <div class="card-top"><div class="badges"><span class="badge raw-badge">Non analysé</span>${typeBadge(a)}${lvlBadge(a)}${(a.ctx || []).slice(0, 2).map((c) => `<span class="badge">${esc(CTX[c] || c)}</span>`).join("")}</div>
+    ${opts.noSel ? "" : `<label class="sel"><input type="checkbox" data-sel="${a.pmid}" ${state.selected.has(a.pmid) ? "checked" : ""}> Sélectionner</label>`}</div>
+    <h3 lang="en"><a href="#article-${a.pmid}">${hl(a.title, state.q)}</a></h3>
+    <div class="src">${metaLine(a)}</div>
+    ${a.l1 ? `<p class="l1" lang="en"><span class="eyebrow" style="display:block;margin-bottom:4px">Conclusion des auteurs (VO)</span>${hl(a.l1, state.q)}</p>` : ""}
+    <div class="card-actions"><a class="btn small" href="#article-${a.pmid}">Résumé complet</a><a class="btn small" href="https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/" target="_blank" rel="noopener">PubMed ↗</a></div></article>`;
+}
 function card(a, opts = {}) {
+  if (!a.curated && a.curated !== undefined) return cardRaw(a, opts);
   const lv = state.cardLevel.get(a.pmid) || state.level;
   const body = lv === 1 ? `<p class="l1">${hl(a.l1, state.q)}</p>`
     : lv === 2 ? `<p class="l1">${hl(a.l1, state.q)}</p><div class="more prose">${paras(a.l2)}</div>`
@@ -192,7 +222,21 @@ document.addEventListener("pointermove", (e) => {
 });
 const legend = (items) => `<div class="legend">${items.map(([l, c]) => `<span><i style="background:${c}"></i>${esc(l)}</span>`).join("")}</div>`;
 
+function chartYearly(list) {
+  const ys = yearsOf(list); const years = []; for (let y = ys[0]; y <= ys[ys.length - 1]; y++) years.push(y);
+  const data = years.map((y) => { const xs = list.filter((a) => a.year === y); return { y, n: xs.length, by: GROUPS.map((g) => xs.filter((a) => groupOf(a) === g.id).length) }; });
+  const max = Math.max(4, ...data.map((d) => d.n)); const step = max > 200 ? 100 : max > 80 ? 40 : max > 20 ? 10 : 2; const top = Math.ceil(max / step) * step;
+  const W = 720, H = 240, L = 34, R = 6, T = 10, B = 28; const bw = (W - L - R) / years.length; const y = (v) => T + (H - T - B) * (1 - v / top);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Publications par an et par type d'étude">`;
+  for (let v = 0; v <= top; v += step) s += `<g class="grid"><line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/></g><text x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${v}</text>`;
+  data.forEach((d, i) => { let acc = 0; const x = L + i * bw + 1.5; const w = Math.max(2, bw - 3);
+    d.by.forEach((c, gi) => { if (!c) return; const y0 = y(acc), y1 = y(acc + c); acc += c; s += `<rect x="${x}" y="${y1 + 1}" width="${w}" height="${Math.max(0, y0 - y1 - 1)}" fill="${GROUPS[gi].color}" rx="${acc === d.n ? 3 : 0}"/>`; });
+    if (d.y % 5 === 0 || i === years.length - 1) s += `<text x="${x + w / 2}" y="${H - B + 16}" text-anchor="middle">${d.y}</text>`;
+    s += `<rect class="hit" x="${L + i * bw}" y="${T}" width="${bw}" height="${H - T - B}" data-tip="${esc(`<b>${d.y}</b> · ${d.n} publication(s)<br>` + GROUPS.map((g, gi) => d.by[gi] ? `${g.label} : ${d.by[gi]}` : "").filter(Boolean).join("<br>"))}"/>`; });
+  return `<div class="chart">${s}<line x1="${L}" x2="${W - R}" y1="${y(0)}" y2="${y(0)}" stroke="var(--ink-2)"/></svg></div>${legend(GROUPS.map((g) => [g.label, g.color]))}`;
+}
 function chartMonthly(list) {
+  if (yearsOf(list).length > 6) return chartYearly(list);
   const months = []; const start = parse(topic().since || "2024-01-01"); const end = parse(today());
   for (let d = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), 1)); d <= end; d.setUTCMonth(d.getUTCMonth() + 1)) months.push(iso(d).slice(0, 7));
   const data = months.map((m) => { const xs = list.filter((a) => a.date.startsWith(m)); return { m, xs, by: GROUPS.map((g) => xs.filter((a) => groupOf(a) === g.id).length) }; });
@@ -283,7 +327,7 @@ function chartSpectrum(list) {
 function chartEffects(list) {
   const years = [...new Set(list.map((a) => a.year))].sort();
   const keys = Object.keys(EFFECTS);
-  const rows = years.map((y) => { const xs = list.filter((a) => a.year === y && EFFECTS[a.effect]); return { y, n: xs.length, by: keys.map((k) => xs.filter((a) => a.effect === k).length) }; });
+  const rows = years.map((y) => { const xs = list.filter((a) => a.year === y && EFFECTS[a.effect]); return { y, n: xs.length, by: keys.map((k) => xs.filter((a) => a.effect === k).length) }; }).filter((r) => r.n);
   return `<div class="bars-h">${rows.map((r) => `<div class="row" style="grid-template-columns:52px minmax(0,1fr) 64px"><b class="mono">${r.y}</b>
     <div style="display:flex;height:22px;border-radius:4px;overflow:hidden;gap:2px;background:var(--surface)">${r.by.map((c, i) => c ? `<span style="flex:${c};background:${EFFECTS[keys[i]][1]}" data-tip="${esc(`<b>${r.y} · ${EFFECTS[keys[i]][0]}</b><br>${c} sur ${r.n} (${Math.round(100 * c / r.n)} %)`)}"></span>` : "").join("")}</div>
     <span class="vals">${r.n} études</span></div>`).join("")}</div>${legend(keys.map((k) => EFFECTS[k]))}
@@ -299,10 +343,10 @@ function setNav(id) {
 }
 function renderTopics() {
   const box = $("#side-topics"); if (!box) return;
-  box.innerHTML = D.topics.map((t) => { const n = D.articles.filter((a) => a.topic === t.id).length;
+  box.innerHTML = D.topics.map((t) => { const n = t.n ?? 0;
     return `<button type="button" class="side-link" data-topic="${t.id}" aria-pressed="${t.id === state.topic}"><span class="topic-dot"></span>${esc(t.label)}${isSoon(t) ? '<span class="soon">À venir</span>' : `<span class="count">${n}</span>`}</button>`; }).join("");
   $("#topic").innerHTML = D.topics.map((t) => `<option value="${t.id}" ${t.id === state.topic ? "selected" : ""}>${esc(t.short || t.label)}${isSoon(t) ? " · à venir" : ""}</option>`).join("");
-  const nc = $("#nav-count"); if (nc) nc.textContent = isSoon() ? "" : all().length;
+  const nc = $("#nav-count"); if (nc) nc.textContent = isSoon() ? "" : (topic().n ?? "");
   const up = $("#side-update"); if (up) up.textContent = `Mise à jour : ${fmtDate(D.generated)}`;
 }
 function setTopic(id) {
@@ -343,9 +387,10 @@ function viewHome() {
     </div>
     <div style="display:grid;gap:16px">
       <div class="kpis">
-        <div class="kpi"><b>${list.length}</b><span>publications analysées, de ${yearsOf(list)[0]} à ${yearsOf(list).slice(-1)[0]}</span></div>
+        <div class="kpi"><b>${list.length.toLocaleString("fr-FR")}</b><span>notices indexées, de ${yearsOf(list)[0]} à ${yearsOf(list).slice(-1)[0]}</span></div>
+        <div class="kpi"><b>${list.filter((a) => a.curated !== false).length}</b><span>fiches rédigées en 3 niveaux</span></div>
         <div class="kpi"><b>${rct}</b><span>essais randomisés</span></div>
-        <div class="kpi"><b>${syn}</b><span>revues systématiques, méta-analyses et revues parapluie</span></div>
+        <div class="kpi"><b>${syn}</b><span>revues systématiques, méta-analyses et recommandations</span></div>
         <div class="kpi"><b>${list.filter((a) => a.pdf).length}</b><span>PDF en accès libre lisibles sur le site</span></div>
       </div>
       <div class="panel"><div class="panel-head"><h3>Niveaux de preuve</h3><a class="btn small" href="#methode">Comprendre</a></div>${chartPyramid(list)}</div>
@@ -360,7 +405,7 @@ function viewHome() {
     <div class="panel"><div class="panel-head"><h2>À retenir</h2><p>Les essais et synthèses les plus solides</p></div><div style="display:grid;gap:10px">${keys.map((a) => card(a, { noSel: true })).join("")}</div></div>
   </section>
 
-  <section class="panel"><div class="panel-head"><h2>Rythme de publication</h2><p>Publications par mois, selon le type d'étude</p></div>${chartMonthly(list)}</section>
+  <section class="panel"><div class="panel-head"><h2>Rythme de publication</h2><p>Publications selon le type d'étude (par an au-delà de 6 ans)</p></div>${chartMonthly(list)}</section>
   <section class="grid-2">
     <div class="panel"><div class="panel-head"><h2>Méta-analyses : taille de l'effet</h2></div>${chartForest(list)}</div>
     <div class="panel"><div class="panel-head"><h2>Essais : bras par bras</h2><p>Taux d'événements rapportés</p></div>${chartDumbbell(list)}</div>
@@ -383,9 +428,11 @@ function viewPubs() {
   const active = state.q || Object.values(state.f).some((v) => v instanceof Set ? v.size : v);
   const groupsHtml = (() => {
     if (!list.length) return `<div class="empty">Aucune publication ne correspond. Essayez un autre mot-clé ou <button class="btn small" data-reset>réinitialisez les filtres</button>.</div>`;
-    if (state.sort !== "date") return `<div style="display:grid;gap:10px">${list.map((a) => card(a)).join("")}</div>`;
-    const wk = new Map(); list.forEach((a) => { if (!wk.has(a.week)) wk.set(a.week, []); wk.get(a.week).push(a); });
-    return [...wk.entries()].map(([k, xs]) => `<section class="week-group"><div class="week-label"><span class="mono">${k.replace("-S", " · semaine ")}</span><span>${weekLabel(k)}</span><span class="muted">${xs.length} publication${xs.length > 1 ? "s" : ""}</span></div>${xs.map((a) => card(a)).join("")}</section>`).join("");
+    const shown = list.slice(0, state.limit);
+    const more = list.length > shown.length ? `<div style="display:flex;justify-content:center;margin-top:20px"><button class="btn" data-morelist>Afficher ${Math.min(120, list.length - shown.length)} de plus <span class="muted">(${shown.length} sur ${list.length})</span></button></div>` : "";
+    if (state.sort !== "date") return `<div style="display:grid;gap:10px">${shown.map((a) => card(a)).join("")}</div>${more}`;
+    const wk = new Map(); shown.forEach((a) => { if (!wk.has(a.week)) wk.set(a.week, []); wk.get(a.week).push(a); });
+    return [...wk.entries()].map(([k, xs]) => `<section class="week-group"><div class="week-label"><span class="mono">${k.replace("-S", " · semaine ")}</span><span>${weekLabel(k)}</span><span class="muted">${xs.length} publication${xs.length > 1 ? "s" : ""}</span></div>${xs.map((a) => card(a)).join("")}</section>`).join("") + more;
   })();
   const ord = (m, order) => [...m.entries()].sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0]));
   app().innerHTML = `<div class="pubs-layout">
@@ -397,6 +444,7 @@ function viewPubs() {
         <div class="dates"><label class="muted" style="font-size:.75rem">Du<input type="date" id="f-from" value="${state.f.from}"></label><label class="muted" style="font-size:.75rem">Au<input type="date" id="f-to" value="${state.f.to}"></label></div>
         <select id="f-week" aria-label="Aller à une semaine"><option value="">Choisir une semaine…</option>${weeks.map(([k, n]) => `<option value="${k}">${k.replace("-S", " · S")} (${weekLabel(k)}) · ${n}</option>`).join("")}</select>
       </div>
+      ${filterGroup("Fiche", "fiche", [...countBy(base, (a) => a.curated === false ? "indexée" : "rédigée").entries()].sort(), (v) => v === "rédigée" ? "Fiche rédigée (3 niveaux)" : "Notice indexée")}
       ${filterGroup("Année", "years", [...countBy(base, (a) => a.year).entries()].sort((a, b) => b[0] - a[0]))}
       ${filterGroup("Type d'étude", "groups", ord(countBy(base, groupOf), GROUPS.map((g) => g.id)), (v) => GROUPS.find((g) => g.id === v).label)}
       ${filterGroup("Niveau de preuve", "levels", ord(countBy(base, (a) => a.level), [1, 2, 3, 4, 5, 0]), (v) => v ? `${v} · ${LEVELS[v][0]}` : "Non gradé")}
@@ -415,10 +463,28 @@ function viewPubs() {
     </section></div>`;
 }
 
+async function viewArticleRaw(a) {
+  const links = [a.doi && [`https://doi.org/${a.doi}`, "Article original (DOI)"], [`https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/`, "PubMed"],
+    a.pmcid && [`https://pmc.ncbi.nlm.nih.gov/articles/${a.pmcid}/`, "PMC (texte intégral)"], [`https://europepmc.org/article/MED/${a.pmid}`, "Europe PMC"]].filter(Boolean);
+  app().innerHTML = `<div class="article"><div style="display:grid;gap:22px;min-width:0">
+    <a href="#publications" class="btn small" style="justify-self:start">← Publications</a>
+    <header><div class="badges"><span class="badge raw-badge">Non analysé</span>${typeBadge(a)}${lvlBadge(a)}</div>
+      <h1 lang="en" style="font-size:clamp(1.3rem,1.05rem + 1.2vw,1.9rem)">${esc(a.title)}</h1>
+      <p class="src muted" style="font:500 .85rem var(--f-display)">${esc((a.authors || []).join(", "))} · <i>${esc(a.journal)}</i><br>${metaLine(a)}</p></header>
+    <div class="callout">Cette notice est indexée mais n'a pas encore de fiche en trois niveaux. Le type d'étude, le niveau de preuve et le sous-groupe sont détectés automatiquement à partir de PubMed et peuvent être imprécis.</div>
+    <section class="panel"><h3 style="margin-bottom:10px">Résumé des auteurs (PubMed, en anglais)</h3><div class="abstract" id="raw-abs" lang="en"><p class="muted">Chargement du résumé…</p></div></section>
+    </div><aside style="display:grid;gap:18px;min-width:0"><div class="panel"><h3 style="margin-bottom:6px">Fiche technique</h3><dl class="facts">
+      ${[["Type (auto)", typeLabel(a)], ["Niveau (indicatif)", a.level ? `${a.level} · ${LEVELS[a.level][0]}` : "Non gradé"], ["Sous-groupe (auto)", (a.ctx || []).map((c) => CTX[c] || c).join(", ") || "—"], ["Mise en ligne", fmtDate(a.date)], ["PMID", a.pmid], ["Types PubMed", (a.pub_types || []).join(", ") || "—"]].map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>
+      <div class="panel"><h3 style="margin-bottom:10px">Sources</h3><div class="links">${links.map(([h, l]) => `<a class="btn small" href="${h}" target="_blank" rel="noopener">${l} ↗</a>`).join("")}</div></div></aside></div>`;
+  scrollTo(0, 0);
+  const ab = await abstractOf(a); const box = $("#raw-abs");
+  if (box) box.innerHTML = ab.length ? ab.map((x) => `<p>${x.label ? `<b>${esc(x.label)}</b> ` : ""}${esc(x.text)}</p>`).join("") : `<p class="muted">Résumé indisponible ici. <a href="https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/" target="_blank" rel="noopener">Voir sur PubMed</a>.</p>`;
+}
 function viewArticle(pmid) {
   setNav("publications");
   const a = byId(pmid);
   if (!a) { app().innerHTML = `<div class="empty">Publication introuvable (PMID ${esc(pmid)}). <a href="#publications">Retour aux publications</a></div>`; return; }
+  if (a.curated === false) return viewArticleRaw(a);
   const lv = state.cardLevel.get(pmid) || state.level;
   const related = all().filter((x) => x.pmid !== a.pmid && x.theme === a.theme).slice(0, 4);
   const body = lv === 1 ? `<div class="prose l1"><p>${esc(a.l1)}</p></div>`
@@ -499,9 +565,10 @@ function viewSyntheses() {
   const yearList = all().filter((a) => inTab(a, state.synTab));
   const body = !cur ? "" : state.level === 1 ? `<div class="prose l1"><p>${esc(cur.l1)}</p></div>` : state.level === 2 ? `<div class="prose">${paras(cur.l2)}</div>` : `<div class="prose">${cur.l3.map((s) => `<h4>${esc(s.h)}</h4><p>${esc(s.p)}</p>`).join("")}</div>`;
   const tbl = state.synTab === "global" && S.global?.table ? `<section class="panel"><div class="panel-head"><h2>Tableau comparatif</h2><p>Les faits marquants de chaque année, côte à côte</p></div><div class="cmp-table"><table><thead><tr><th></th>${S.global.table.cols.map((c) => `<th>${c}</th>`).join("")}</tr></thead><tbody>${S.global.table.rows.map((r) => `<tr><th>${esc(r.label)}</th>${r.cells.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div></section>` : "";
-  const counts = (y) => { const xs = all().filter((a) => a.year === y); return [xs.length, xs.filter((a) => a.type === "rct").length, xs.filter((a) => groupOf(a) === "syn").length, xs.filter((a) => a.level && a.level <= 2).length, xs.filter((a) => a.effect === "favorable").length]; };
-  const stats = state.synTab === "global" ? `<section class="panel"><div class="panel-head"><h2>La période en chiffres</h2></div><div class="cmp-table"><table><thead><tr><th></th>${yearsOf(all()).map((y) => `<th style="text-align:right">${y}</th>`).join("")}</tr></thead><tbody>
-      ${["Publications", "Essais randomisés", "Synthèses systématiques", "Niveau de preuve 1–2", "Résultat favorable"].map((l, i) => `<tr><th>${l}</th>${yearsOf(all()).map((y) => `<td class="num">${counts(y)[i]}</td>`).join("")}</tr>`).join("")}</tbody></table></div></section>` : "";
+  const periods = [...new Set(yearsOf(all()).map((y) => (y < 2020 ? `${Math.floor(y / 10) * 10}–${Math.floor(y / 10) * 10 + 9}` : String(y))))];
+  const counts = (y) => { const xs = all().filter((a) => inTab(a, y)); return [xs.length, xs.filter((a) => a.type === "rct").length, xs.filter((a) => groupOf(a) === "syn").length, xs.filter((a) => a.level && a.level <= 2).length, xs.filter((a) => a.effect === "favorable").length]; };
+  const stats = state.synTab === "global" ? `<section class="panel"><div class="panel-head"><h2>La période en chiffres</h2></div><div class="cmp-table"><table><thead><tr><th></th>${periods.map((y) => `<th style="text-align:right">${y}</th>`).join("")}</tr></thead><tbody>
+      ${["Publications", "Essais randomisés", "Synthèses systématiques", "Niveau de preuve 1–2", "Résultat favorable"].map((l, i) => `<tr><th>${l}</th>${periods.map((y) => `<td class="num">${counts(y)[i]}</td>`).join("")}</tr>`).join("")}</tbody></table></div></section>` : "";
   app().innerHTML = `<div class="view">
     <div style="display:grid;gap:14px"><span class="eyebrow">Synthèses · ${esc(topic().label)}</span><h1>Bilans annuels et étude comparative</h1>
       <div class="syn-tabs">${tabs.map(([k, l]) => `<button class="chip" data-syn="${k}" aria-pressed="${state.synTab === k}">${l}</button>`).join("")}</div>
@@ -516,6 +583,8 @@ function viewSyntheses() {
 
 /* ---------------- comparateur / fusion ---------------- */
 function allWeeks() {
+  const have = [...new Set(all().map((a) => a.week))].sort().reverse();
+  if (have.length) return have;
   const out = []; const s = weekOf(topic().since || "2024-01-01"); const e = weekOf(today());
   let d = isoWeekStart(s.y, s.w); const end = isoWeekStart(e.y, e.w);
   while (d <= end) { out.push(weekOf(iso(d)).key); d.setUTCDate(d.getUTCDate() + 7); }
@@ -629,14 +698,23 @@ function viewMethode() {
 }
 
 /* ---------------- routage & événements ---------------- */
-function route() {
+async function route() {
   const h = decodeURIComponent(location.hash.slice(1));
-  if (h.startsWith("article-")) return viewArticle(h.slice(8));
+  if (!isSoon() && !LOADED.has(state.topic)) {
+    app().innerHTML = `<div class="empty">Chargement de ${esc(topic().label)}…</div>`;
+    try { await ensureTopic(state.topic); } catch { app().innerHTML = `<div class="empty">Impossible de charger ce thème. Rechargez la page.</div>`; return; }
+    renderTopics();
+  }
+  if (h.startsWith("article-")) {
+    const id = h.slice(8);
+    if (!byId(id)) for (const t of D.topics.filter((x) => !isSoon(x))) { await ensureTopic(t.id); if (byId(id)) break; }
+    return viewArticle(id);
+  }
   if (isSoon() && h !== "methode") return viewSoon(NAV_LABEL[h] ? h : "accueil");
   ({ publications: viewPubs, syntheses: viewSyntheses, comparer: viewCompare, methode: viewMethode }[h] || viewHome)();
   if (!h.startsWith("article-")) $("#selbar")?.toggleAttribute("hidden", !state.selected.size || h === "comparer");
 }
-function rerender() { const y = scrollY; route(); scrollTo(0, y); updateSelbar(); }
+async function rerender() { const y = scrollY; await route(); scrollTo(0, y); updateSelbar(); }
 function updateSelbar() {
   const bar = $("#selbar"); const n = state.selected.size; store.set("selected", [...state.selected]);
   bar.hidden = !n || location.hash === "#comparer"; $("#selcount").textContent = n;
@@ -648,6 +726,8 @@ document.addEventListener("click", async (e) => {
   const d = t.dataset;
   if (d.topic) { setTopic(d.topic); return; }
   if (d.sub) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : ""); state.f.ctx.add(d.sub); state.filtersOpen = true; location.hash = "publications"; return; }
+  if ("morelist" in d) { state.limit += 120; rerender(); return; }
+  if (d.f || d.preset || "reset" in d) state.limit = 60;
   if (d.read) { state.level = +d.read; state.cardLevel.clear(); store.set("level", state.level); rerender(); }
   else if (d.aread) { state.cardLevel.set(location.hash.slice(9), +d.aread); rerender(); }
   else if (d.more) { state.cardLevel.set(d.more, Math.min(3, (state.cardLevel.get(d.more) || state.level) + 1)); rerender(); }

@@ -2,7 +2,21 @@
  "id": "musculo-squelettique",
  "label": "Musculo-squelettique",
  "short": "Musculo-squelettique",
- "status": "à venir",
- "description": "Douleurs et pathologies de l'appareil locomoteur : tendinopathies, arthrose, lombalgies, troubles temporo-mandibulaires.",
- "cadence": "—"
+ "status": "actif",
+ "since": "2000-01-01",
+ "cadence": "hebdomadaire",
+ "hero": "l'appareil locomoteur",
+ "description": "Photobiomodulation et laser haute intensité dans les pathologies de l'appareil locomoteur : tendinopathies, arthrose, rachis, ATM, fibromyalgie, épaule, os et fractures, muscle et sport.",
+ "exclusions_note": "études hors appareil locomoteur, lasers chirurgicaux ou ablatifs, photothérapie dynamique…",
+ "subgroups": [
+  "tendon",
+  "arthrose",
+  "rachis",
+  "ATM",
+  "fibro",
+  "épaule",
+  "os",
+  "muscle"
+ ],
+ "pubmed_query": "(\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"low-intensity laser\"[tiab] OR \"LLLT\"[tiab] OR \"low-level light\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"PBMT\"[tiab] OR \"light-emitting diode\"[tiab] OR \"laser acupuncture\"[tiab] OR \"high-intensity laser\"[tiab]) AND (\"musculoskeletal\"[tiab] OR \"tendin*\"[tiab] OR \"tendon*\"[tiab] OR \"osteoarthritis\"[tiab] OR \"arthritis\"[tiab] OR \"low back pain\"[tiab] OR \"neck pain\"[tiab] OR \"radiculopathy\"[tiab] OR \"temporomandibular\"[tiab] OR \"fibromyalgia\"[tiab] OR \"myofascial\"[tiab] OR \"shoulder\"[tiab] OR \"knee\"[tiab] OR \"epicondyl*\"[tiab] OR \"plantar fasci*\"[tiab] OR \"fracture*\"[tiab] OR \"bone\"[tiab] OR \"muscle*\"[tiab] OR \"Musculoskeletal Diseases\"[MeSH]) NOT (\"photodynamic\"[ti])"
 }

@@ -69,13 +69,22 @@ def efetch(pmids: list[str]) -> list[dict]:
     out = []
     for i in range(0, len(pmids), 100):
         chunk = pmids[i:i + 100]
-        r = requests.post(f"{EUTILS}/efetch.fcgi", data={"db": "pubmed", "id": ",".join(chunk), "retmode": "xml"},
-                          headers=UA, timeout=120)
-        r.raise_for_status()
+        for attempt in range(6):
+            try:
+                r = requests.post(f"{EUTILS}/efetch.fcgi", data={"db": "pubmed", "id": ",".join(chunk), "retmode": "xml"},
+                                  headers=UA, timeout=120)
+                r.raise_for_status()
+                break
+            except requests.RequestException as e:
+                wait = 5 * (attempt + 1)
+                print(f"  efetch : {e} — nouvel essai dans {wait} s", file=sys.stderr)
+                time.sleep(wait)
+        else:
+            raise SystemExit("PubMed indisponible, relancer plus tard")
         root = etree.fromstring(r.content)
         for art in root.findall("PubmedArticle"):
             out.append(parse_article(art))
-        time.sleep(0.4)
+        time.sleep(0.7)
     return out
 
 
@@ -117,28 +126,37 @@ def parse_article(art) -> dict:
     }
 
 
-def europepmc(rec: dict) -> dict:
-    q = f"EXT_ID:{rec['pmid']} AND SRC:MED"
-    try:
-        r = requests.get(EPMC, params={"query": q, "format": "json", "resultType": "core"}, headers=UA, timeout=60)
-        r.raise_for_status()
-        res = r.json().get("resultList", {}).get("result", [])
-    except Exception as e:  # noqa: BLE001
-        print("  Europe PMC KO", rec["pmid"], e, file=sys.stderr)
-        return {}
-    if not res:
-        return {}
-    x = res[0]
-    urls = [u for u in x.get("fullTextUrlList", {}).get("fullTextUrl", [])]
+def _epmc_parse(x: dict) -> dict:
+    urls = x.get("fullTextUrlList", {}).get("fullTextUrl", [])
     return {
         "open_access": x.get("isOpenAccess") == "Y",
         "license": x.get("license"),
-        "pmcid": x.get("pmcid") or rec.get("pmcid"),
+        "pmcid": x.get("pmcid"),
         "has_pdf": x.get("hasPDF") == "Y",
         "cited_by": x.get("citedByCount", 0),
         "fulltext_urls": [{"site": u.get("site"), "style": u.get("documentStyle"),
                            "availability": u.get("availability"), "url": u.get("url")} for u in urls],
     }
+
+
+def europepmc_batch(pmids: list[str]) -> dict[str, dict]:
+    """Interroge Europe PMC par lots de 100 PMID (une requête au lieu de 100)."""
+    out: dict[str, dict] = {}
+    for i in range(0, len(pmids), 60):
+        chunk = pmids[i:i + 60]
+        q = "SRC:MED AND (" + " OR ".join(f"EXT_ID:{p}" for p in chunk) + ")"
+        for attempt in range(3):
+            try:
+                r = requests.get(EPMC, params={"query": q, "format": "json", "resultType": "core", "pageSize": 1000},
+                                 headers=UA, timeout=120)
+                r.raise_for_status()
+                for x in r.json().get("resultList", {}).get("result", []):
+                    out[str(x.get("pmid") or x.get("id"))] = _epmc_parse(x)
+                break
+            except Exception as e:  # noqa: BLE001
+                print("  Europe PMC KO (lot)", i, e, file=sys.stderr)
+                time.sleep(3)
+    return out
 
 
 def main() -> None:
@@ -147,10 +165,22 @@ def main() -> None:
     p.add_argument("--since", required=True)
     p.add_argument("--until", default=dt.date.today().isoformat())
     p.add_argument("--refresh", action="store_true")
+    p.add_argument("--backfill-epmc", action="store_true", help="complète les métadonnées Europe PMC manquantes")
     args = p.parse_args()
 
     topic = json.loads((ROOT / "data/topics" / f"{args.topic}.json").read_text())
     term = topic["pubmed_query"]
+    if args.backfill_epmc:
+        out_path = ROOT / "data/raw" / f"{args.topic}.json"
+        data = json.loads(out_path.read_text())
+        miss = [r["pmid"] for r in data if "open_access" not in r]
+        meta = europepmc_batch(miss)
+        for r in data:
+            if r["pmid"] in meta:
+                r.update({k: v for k, v in meta[r["pmid"]].items() if v is not None})
+        out_path.write_text(json.dumps(data, ensure_ascii=False, indent=1))
+        print(f"{len(miss)} notices sans métadonnées Europe PMC, {len(meta)} complétées")
+        return
     ids = set(esearch(term, args.since, args.until, "edat")) | set(esearch(term, args.since, args.until, "pdat"))
     print(f"{len(ids)} PMID trouvés pour {args.topic} ({args.since} → {args.until})")
 
@@ -159,15 +189,15 @@ def main() -> None:
     todo = sorted(ids if args.refresh else ids - set(existing))
     print(f"{len(todo)} nouveaux à récupérer")
     recs = efetch(todo)
+    meta = europepmc_batch([r["pmid"] for r in recs])
     for rec in recs:
-        rec.update({k: v for k, v in europepmc(rec).items() if v is not None})
+        rec.update({k: v for k, v in meta.get(rec["pmid"], {}).items() if v is not None})
         rec["fetched"] = dt.date.today().isoformat()
         existing[rec["pmid"]] = rec
-        time.sleep(0.15)
     data = sorted(existing.values(), key=lambda r: r["date_online"] or "", reverse=True)
     out_path.write_text(json.dumps(data, ensure_ascii=False, indent=1))
     print(f"→ {out_path.relative_to(ROOT)} : {len(data)} articles au total")
-    for rec in recs:
+    for rec in recs[:50]:
         print(f"  NEW {rec['pmid']} {rec['date_online']} {rec['title'][:90]}")
 
 
