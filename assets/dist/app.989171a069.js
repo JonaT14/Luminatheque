@@ -264,10 +264,20 @@ function chartMonthly(list) {
   return `<div class="chart">${s}</div>${legend(GROUPS.map((g) => [g.label, g.color]))}`;
 }
 
+const TIERS = [["solid", "Preuve solide", "niveaux 1–2", [1, 2]], ["mid", "Preuve intermédiaire", "niveau 3", [3]], ["weak", "Preuve faible", "niveaux 4–5", [4, 5]]];
 function chartPyramid(list) {
   const counts = countBy(list, (a) => a.level);
-  const rows = [1, 2, 3, 4, 5].map((l, i) => `<div style="width:${36 + i * 16}%;background:var(--ev${l});color:var(--evt${l})" data-tip="${esc(`<b>Niveau ${l} · ${LEVELS[l][0]}</b><br>${LEVELS[l][1]}<br>${counts.get(l) || 0} publication(s)`)}"><span>${l} · ${LEVELS[l][0]}</span><span>${counts.get(l) || 0}</span></div>`).join("");
-  return `<div class="pyramid">${rows}</div><p class="muted" style="font-size:.8rem;margin-top:10px;text-align:center">Non gradés (protocoles, enquêtes, lettres…) : <span class="mono">${counts.get(0) || 0}</span></p>`;
+  const graded = [1, 2, 3, 4, 5].reduce((t, l) => t + (counts.get(l) || 0), 0);
+  const max = Math.max(1, ...[1, 2, 3, 4, 5].map((l) => counts.get(l) || 0));
+  const legend = `<div class="ev-legend">${TIERS.map(([k, label, sub]) => `<span class="ev-chip ev-${k}"><i></i>${label.replace("Preuve ", "").replace(/^./, (c) => c.toUpperCase())} · ${sub}</span>`).join("")}</div>`;
+  const groups = TIERS.map(([k, label, , levels]) => `<div class="ev-group ev-${k}"><div class="ev-tier">${label}</div>${levels.map((l) => {
+    const n = counts.get(l) || 0; const pct = graded ? Math.round(100 * n / graded) : 0;
+    return `<div class="ev-row" data-tip="${esc(`<b>Niveau ${l} · ${LEVELS[l][0]}</b><br>${LEVELS[l][1]}<br>${n} publication(s), ${pct} %`)}">
+      <span class="ev-badge">${l}</span>
+      <span class="ev-name"><b>${LEVELS[l][0]}</b><span class="ev-gauge" aria-hidden="true">${[0, 1, 2, 3, 4].map((i) => `<i class="${i < 6 - l ? "on" : ""}"></i>`).join("")}</span></span>
+      <span class="ev-bar"><i style="width:${Math.max(2, 100 * n / max)}%"></i><b>${n}<small> · ${pct} %</small></b></span></div>`;
+  }).join("")}</div>`).join("");
+  return `<div class="evidence">${legend}${groups}<p class="ev-foot"><span>Non gradés (protocoles, enquêtes, lettres…)</span><b class="mono">${counts.get(0) || 0}</b></p></div>`;
 }
 
 function chartForest(list) {
@@ -309,36 +319,59 @@ function chartDumbbell(list) {
   return `<div class="chart">${s}</svg></div>${legend([["Bras étudié (PBM ou modalité testée)", "var(--s1)"], ["Comparateur (placebo, standard ou autre voie)", "var(--s2)"]])}`;
 }
 
+const WL_BANDS = [["Visible", "Bleu", 400, 499, "b"], ["Visible", "Vert-jaune", 500, 599, "g"], ["Visible", "Rouge", 600, 649, "r"], ["Visible", "Rouge", 650, 699, "r"],
+  ["Visible", "Rouge lointain", 700, 799, "fr"], ["Proche infrarouge (invisible)", "Infrarouge", 800, 899, "ir"], ["Proche infrarouge (invisible)", "Infrarouge", 900, 999, "ir"], ["Proche infrarouge (invisible)", "Infrarouge", 1000, 1200, "ir"]];
+const wlClass = (nm) => (WL_BANDS.find((b) => nm >= b[2] && nm <= b[3]) || [, , , , "ir"])[4];
 function chartSpectrum(list) {
-  const counts = countBy(list.filter((a) => a.nm?.length), (a) => a.nm.map((n) => Math.round(n)));
-  const W = 560, H = 190, L = 16, R = 16, band = 120; const lo = 400, hi = 1100; const x = (v) => L + (W - L - R) * (v - lo) / (hi - lo);
-  const max = Math.max(1, ...counts.values());
-  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Longueurs d'onde utilisées dans les études"><defs><linearGradient id="spec" x1="0" x2="1">
-    <stop offset="0" stop-color="#7a3cff"/><stop offset="${(450 - lo) / (hi - lo)}" stop-color="#2f6bff"/><stop offset="${(500 - lo) / (hi - lo)}" stop-color="#00b3a6"/>
-    <stop offset="${(560 - lo) / (hi - lo)}" stop-color="#7cc242"/><stop offset="${(590 - lo) / (hi - lo)}" stop-color="#ffd23f"/><stop offset="${(620 - lo) / (hi - lo)}" stop-color="#ff7a1a"/>
-    <stop offset="${(680 - lo) / (hi - lo)}" stop-color="#d4002a"/><stop offset="${(750 - lo) / (hi - lo)}" stop-color="#5c0016"/><stop offset="1" stop-color="#1d0a12"/></linearGradient></defs>`;
-  s += `<rect x="${L}" y="${band}" width="${W - L - R}" height="14" rx="3" fill="url(#spec)"/>`;
-  s += `<text x="${x(550)}" y="${band + 34}" text-anchor="middle">Visible</text><text x="${x(900)}" y="${band + 34}" text-anchor="middle">Proche infrarouge</text>`;
-  for (const v of [400, 600, 800, 1000]) s += `<text x="${x(v)}" y="${band + 52}" text-anchor="middle" class="mono">${v}</text>`;
-  let lastLabel = -99;
-  [...counts.entries()].sort((a, b) => a[0] - b[0]).forEach(([nm, c]) => {
-    const h = 12 + (band - 30) * c / max; const cx = x(nm);
-    const who = list.filter((a) => a.nm?.map(Math.round).includes(nm)).map((a) => `${a.journal_abbr} ${a.year}`).slice(0, 6).join("<br>");
-    s += `<line x1="${cx}" x2="${cx}" y1="${band - 2}" y2="${band - h}" stroke="var(--ink-2)" stroke-width="2"/><circle cx="${cx}" cy="${band - h}" r="${c > 3 ? 7 : 5}" fill="var(--surface)" stroke="var(--accent)" stroke-width="2.5"/>`;
-    if ((c >= 3 || nm === 940 || nm === 1064) && cx - lastLabel > 26 && (lastLabel = cx)) s += `<text x="${cx}" y="${band - h - 12}" text-anchor="middle" style="font-weight:700;fill:var(--ink)" class="mono">${nm}</text>`;
-    s += `<rect class="hit" x="${cx - 9}" y="${band - h - 12}" width="18" height="${h + 14}" data-tip="${esc(`<b>${nm} nm</b> · ${c} étude(s)<br>${who}`)}"/>`;
-  });
-  return `<div class="chart spectrum-wrap">${s}</svg></div>`;
+  const withNm = list.filter((a) => a.nm?.length);
+  if (!withNm.length) return `<div class="empty small">Aucune fiche rédigée ne précise encore de longueur d'onde pour ce thème.</div>`;
+  const per = withNm.map((a) => [...new Set(a.nm.map(Math.round))]);
+  const counts = new Map(); per.forEach((ns) => ns.forEach((n) => counts.set(n, (counts.get(n) || 0) + 1)));
+  const top = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0] - b[0]).slice(0, 6);
+  const bands = WL_BANDS.map(([g, name, lo, hi, k]) => [g, name, lo, hi, k, per.filter((ns) => ns.some((n) => n >= lo && n <= hi)).length]).filter((b) => b[5] || b[4] === "r" || b[4] === "ir");
+  const max = Math.max(1, ...bands.map((b) => b[5]));
+  let prev = "";
+  const rows = bands.map(([g, name, lo, hi, k, c]) => {
+    const head = g !== prev; const first = !prev; prev = g;
+    return `${head ? `<div class="wl-group${first ? "" : " sep"}">${g}</div>` : ""}<div class="wl-row" data-tip="${esc(`<b>${name} · ${lo}–${hi} nm</b><br>${c} étude(s)`)}"><i class="wl-${k} wl-chip"></i><span><b>${name}</b> <small class="mono">${hi > 1100 ? "≥ " + lo : lo + "–" + hi}</small></span><span class="wl-bar"><i class="wl-${k}" style="width:${Math.max(c ? 2 : 0, 100 * c / max)}%"></i><b>${c}</b></span></div>`;
+  }).join("");
+  return `<div class="wl">
+    <p class="wl-sub">${withNm.length} études précisent leur longueur d'onde · une étude peut en tester plusieurs</p>
+    <div class="wl-label">Les plus utilisées</div>
+    <div class="wl-top">${top.map(([nm, c]) => `<span class="wl-${wlClass(nm)}" data-tip="${esc(`<b>${nm} nm</b> · ${c} étude(s)<br>${withNm.filter((a) => a.nm.map(Math.round).includes(nm)).slice(0, 6).map((a) => `${a.journal_abbr} ${a.year}`).join("<br>")}`)}"><b class="mono">${nm}</b> nm · ${c}</span>`).join("")}</div>
+    <div class="wl-label sep">Par bande</div>${rows}</div>`;
 }
 
+const EFF_GLYPH = {
+  favorable: '<path d="M5 9.2l2.6 2.6L13 6.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
+  "mitigé": '<path d="M4.5 10c1.5-2 3-2 4.5 0s3 2 4.5 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+  neutre: '<path d="M5 7.3h8M5 10.7h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+  "défavorable": '<path d="M6 6l6 6M12 6l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+};
+const EFF_CLS = { favorable: "fav", "mitigé": "mit", neutre: "neu", "défavorable": "def" };
+function effPeriod(y, last) {
+  if (y > last - 3) return String(y);
+  if (y >= 2020) return last - 3 > 2020 ? `2020–${last - 3}` : "2020";
+  if (y >= 2015) return "2015–2019";
+  if (y >= 2010) return "2010–2014";
+  return `${Math.floor(y / 10) * 10}–${Math.floor(y / 10) * 10 + 9}`;
+}
 function chartEffects(list) {
-  const years = [...new Set(list.map((a) => a.year))].sort();
   const keys = Object.keys(EFFECTS);
-  const rows = years.map((y) => { const xs = list.filter((a) => a.year === y && EFFECTS[a.effect]); return { y, n: xs.length, by: keys.map((k) => xs.filter((a) => a.effect === k).length) }; }).filter((r) => r.n);
-  return `<div class="bars-h">${rows.map((r) => `<div class="row" style="grid-template-columns:52px minmax(0,1fr) 64px"><b class="mono">${r.y}</b>
-    <div style="display:flex;height:22px;border-radius:4px;overflow:hidden;gap:2px;background:var(--surface)">${r.by.map((c, i) => c ? `<span style="flex:${c};background:${EFFECTS[keys[i]][1]}" data-tip="${esc(`<b>${r.y} · ${EFFECTS[keys[i]][0]}</b><br>${c} sur ${r.n} (${Math.round(100 * c / r.n)} %)`)}"></span>` : "").join("")}</div>
-    <span class="vals">${r.n} études</span></div>`).join("")}</div>${legend(keys.map((k) => EFFECTS[k]))}
-    <p class="muted" style="font-size:.8rem;margin-top:6px">Seules les études qui mesurent un effet clinique ou biologique sont comptées (hors revues sans conclusion, protocoles et lettres).</p>`;
+  const xs0 = list.filter((a) => EFFECTS[a.effect]);
+  if (!xs0.length) return `<div class="empty small">Graphique disponible quand des fiches auront été rédigées pour ce thème.</div>`;
+  const last = Math.max(...xs0.map((a) => a.year));
+  const span = last - Math.min(...xs0.map((a) => a.year));
+  const per = (y) => (span > 6 ? effPeriod(y, last) : String(y));
+  const labels = [...new Set(xs0.map((a) => a.year).sort((a, b) => a - b).map(per))];
+  const rows = labels.map((p) => { const xs = xs0.filter((a) => per(a.year) === p); return { p, n: xs.length, by: keys.map((k) => xs.filter((a) => a.effect === k).length) }; });
+  const legend = `<div class="eff-legend">${keys.map((k) => `<span class="eff-chip eff-${EFF_CLS[k]}"><svg viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" rx="5"/>${EFF_GLYPH[k]}</svg>${EFFECTS[k][0]}</span>`).join("")}</div>`;
+  return `<div class="effchart">${legend}
+    <div class="eff-row eff-head"><span>Période</span><span>Répartition des études</span><span>Favorable</span></div>
+    ${rows.map((r) => `<div class="eff-row"><span class="eff-p"><b class="mono">${r.p}</b><small>${r.n} étude${r.n > 1 ? "s" : ""}</small></span>
+      <span class="eff-bar">${r.by.map((c, i) => c ? `<span class="eff-${EFF_CLS[keys[i]]}" style="flex:${c} 1 0" data-tip="${esc(`<b>${r.p} · ${EFFECTS[keys[i]][0]}</b><br>${c} sur ${r.n} (${Math.round(100 * c / r.n)} %)`)}">${c / r.n >= 0.08 ? c : ""}</span>` : "").join("")}</span>
+      <b class="eff-pct">${Math.round(100 * r.by[0] / r.n)} %</b></div>`).join("")}
+    <p class="muted" style="font-size:.8rem;margin:4px 0 0">Les chiffres dans les barres sont des nombres d'études${span > 6 ? " ; les années anciennes sont regroupées" : ""}. Seules les études qui mesurent un effet clinique ou biologique sont comptées (hors revues sans conclusion, protocoles et lettres).</p></div>`;
 }
 
 /* ---------------- vues ---------------- */
@@ -418,8 +451,8 @@ function viewHome() {
     <div class="panel"><div class="panel-head"><h2>Essais : bras par bras</h2><p>Taux d'événements rapportés</p></div>${chartDumbbell(list)}</div>
   </section>
   <section class="grid-2">
-    <div class="panel"><div class="panel-head"><h2>Longueurs d'onde étudiées</h2><p>Nombre d'études par longueur d'onde (nm)</p></div>${chartSpectrum(list)}</div>
-    <div class="panel"><div class="panel-head"><h2>Sens des résultats</h2><p>Par année de publication</p></div>${chartEffects(list)}</div>
+    <div class="panel"><div class="panel-head"><h2>Longueurs d'onde étudiées</h2><p>Fiches rédigées</p></div>${chartSpectrum(list)}</div>
+    <div class="panel"><div class="panel-head"><h2>Sens des résultats</h2><p>Par période · fiches rédigées</p></div>${chartEffects(list)}</div>
   </section></div>`;
 }
 
