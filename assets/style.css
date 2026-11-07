@@ -256,7 +256,7 @@ footer { border-top: 1px solid var(--line); padding-block: 22px; font: 500 .8rem
 }
 
 /* logo : posé sur une pastille claire en mode sombre pour garder le texte noir lisible */
-.brand-logo { display: block; height: 46px; width: auto; max-width: 100%; }
+.brand-logo { display: block; height: 54px; width: auto; max-width: 100%; }
 .brand { border-radius: 8px; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .brand { background: #fff; padding: 4px 8px; } }
 :root[data-theme="dark"] .brand { background: #fff; padding: 4px 8px; }
