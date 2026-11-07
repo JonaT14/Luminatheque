@@ -79,6 +79,24 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict]:
     return meta, articles, syntheses
 
 
+def stamp_assets() -> None:
+    """Ajoute une empreinte (?v=…) aux fichiers CSS/JS/images d'index.html : chaque mise à jour change l'adresse,
+    le navigateur ne peut donc jamais mélanger une page récente avec une ancienne feuille de style."""
+    import hashlib
+    import re
+    idx = ROOT / "index.html"
+    html = idx.read_text()
+    def repl(m):
+        path = m.group(2)
+        f = ROOT / path
+        if not f.exists():
+            return m.group(0)
+        h = hashlib.sha1(f.read_bytes()).hexdigest()[:10]
+        return f'{m.group(1)}{path}?v={h}"'
+    html = re.sub(r'((?:src|href)=")(assets/[^"?]+)(?:\?v=[0-9a-f]+)?"', repl, html)
+    idx.write_text(html)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--prune-pdfs", action="store_true")
@@ -106,6 +124,7 @@ def main() -> None:
     payload = {"generated": dt.date.today().isoformat(), "topics": topics, "articles": articles, "syntheses": syntheses}
     out = ROOT / "assets/data.js"
     out.write_text("window.LUMINA = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n")
+    stamp_assets()
     print(f"→ {out.relative_to(ROOT)} : {len(articles)} articles, {sum(1 for a in articles if a['pdf'])} PDF, "
           f"{out.stat().st_size // 1024} Ko")
 
