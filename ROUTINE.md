@@ -5,11 +5,12 @@ Procédure suivie à chaque mise à jour (par défaut chaque semaine). Elle peut
 
 ## 1. Collecter les nouveautés
 
-Pour chaque thème de `data/topics/` (aujourd'hui : `mucite-orale`), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :
+Pour chaque thème actif de `data/topics/` (aujourd'hui : `mucite-orale` et `neuropathie-peripherique` ; les thèmes marqués `"status": "à venir"` sont ignorés), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :
 
 ```bash
 python3 scripts/fetch_pubmed.py --topic mucite-orale --since AAAA-MM-JJ
 python3 scripts/fetch_pdfs.py --topic mucite-orale
+python3 scripts/compress_pdfs.py   # allège les PDF de plus de 3 Mo
 python3 scripts/build_site.py
 ```
 
@@ -28,10 +29,10 @@ Schéma d'une fiche :
 |---|---|
 | `pmid` | identifiant PubMed |
 | `title_fr` | titre traduit en français |
-| `type` | `ma`, `sr`, `umbrella`, `rct`, `nrct`, `cohort`, `cases`, `review`, `preclinical`, `protocol`, `survey`, `qualitative`, `biblio`, `methodo`, `letter` |
+| `type` | `ma`, `sr`, `umbrella`, `guideline`, `rct`, `nrct`, `cohort`, `cases`, `review`, `preclinical`, `protocol`, `survey`, `qualitative`, `biblio`, `methodo`, `letter` |
 | `level` | niveau de preuve 1–5 (0 = non gradé) : 1 synthèse d'ECR · 2 ECR · 3 contrôlé non randomisé ou revue mixte · 4 cohorte sans témoin concurrent, série · 5 avis, mécanismes, préclinique |
 | `pop` | `adulte`, `pédiatrie`, `mixte`, `—` |
-| `ctx` | liste parmi `ORL`, `chimio`, `CSH`, `mixte` |
+| `ctx` | mucite : `ORL`, `chimio`, `CSH`, `mixte` · neuropathies : `CIPN`, `diabète`, `compression`, `lésion nerveuse`, `orofaciale`, `autres` |
 | `aim` | `prévention`, `traitement`, `les deux`, `—` |
 | `mode` | ex. `intrabuccal`, `extrabuccal`, `LED`, `laser`, `haute puissance`, `domicile`, `PDT` |
 | `nm` | longueurs d'onde en nm (liste de nombres) |
@@ -62,5 +63,6 @@ Terminer par un court compte rendu : nouvelles publications (niveau 1 de chacune
 
 ## Ajouter une pathologie ou changer le rythme
 
+- **Activer un thème « à venir »** (musculo-squelettique, dermatologie) : ajouter `pubmed_query`, `since`, `hero`, `exclusions_note` et `"status": "actif"` dans son fichier, créer `data/curation/<id>/`, puis suivre les étapes 1 à 4.
 - **Nouvelle pathologie** : copier `data/topics/mucite-orale.json` sous un autre nom (ex. `radiodermite.json`), adapter `id`, `label`, `pubmed_query` et `since`, créer `data/curation/<id>/`, puis lancer la collecte. Le sélecteur « Thème » du site l'affiche automatiquement.
 - **Rythme** : modifier `cadence` dans le fichier du thème (affiché sur le site) et la fréquence de la tâche planifiée.

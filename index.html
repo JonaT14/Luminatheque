@@ -6,38 +6,63 @@
 <title>Luminathèque</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Veille scientifique sur la photobiomodulation : publications analysées en trois niveaux de lecture, niveaux de preuve, synthèses et comparateur de périodes.">
+<link rel="icon" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header class="topbar">
-  <div class="wrap">
-    <a class="brand" href="#accueil" aria-label="Luminathèque, veille photobiomodulation : accueil"><img class="brand-logo" src="assets/logo.png" alt="Luminathèque, veille photobiomodulation" width="640" height="158"></a>
-    <div class="search" role="search">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
-      <input id="q" type="search" placeholder="Rechercher : extrabuccal, 660 nm, pédiatrie, morphine, méta-analyse…" aria-label="Rechercher dans les publications" autocomplete="off">
-      <kbd>/</kbd>
+<div class="shell">
+  <aside class="sidebar" aria-label="Navigation">
+    <a class="side-logo" href="#accueil" aria-label="Luminathèque, accueil"><img src="assets/logo.png" alt="Luminathèque, veille photobiomodulation" width="640" height="158"></a>
+    <nav class="side-group" aria-label="Sections">
+      <span class="eyebrow">Explorer</span>
+      <a class="side-link" href="#accueil" data-nav="accueil"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>Tableau de bord</a>
+      <a class="side-link" href="#publications" data-nav="publications"><svg viewBox="0 0 24 24"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M10 12h6M10 16h6"/></svg>Publications<span class="count" id="nav-count"></span></a>
+      <a class="side-link" href="#syntheses" data-nav="syntheses"><svg viewBox="0 0 24 24"><path d="M4 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H4zM20 5h-4a3 3 0 0 0-3 3"/><path d="M20 5v13h-6"/></svg>Synthèses</a>
+      <a class="side-link" href="#comparer" data-nav="comparer"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="7" height="16" rx="1.5"/><rect x="14" y="4" width="7" height="16" rx="1.5"/></svg>Comparateur</a>
+      <a class="side-link" href="#methode" data-nav="methode"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>Méthode</a>
+    </nav>
+    <div class="side-group" aria-label="Thèmes suivis">
+      <span class="eyebrow">Thèmes</span>
+      <div id="side-topics" style="display:grid;gap:2px"></div>
     </div>
-    <label class="topic-pick">Thème <select id="topic" aria-label="Pathologie suivie"></select></label>
+    <div class="side-foot"><span id="side-update"></span><span>Sources : PubMed · Europe PMC</span></div>
+  </aside>
+
+  <div class="col">
+    <header class="topbar">
+      <div class="wrap topbar-in">
+        <a class="top-logo" href="#accueil" aria-label="Luminathèque, accueil"><img src="assets/logo.png" alt="Luminathèque" width="640" height="158"></a>
+        <span class="crumb" id="crumb"></span>
+        <div class="search" role="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+          <input id="q" type="search" placeholder="Rechercher un article, un paramètre, une population…" aria-label="Rechercher dans les publications" autocomplete="off">
+          <kbd>/</kbd>
+        </div>
+        <label class="topic-pick"><span class="eyebrow" hidden>Thème</span><select id="topic" aria-label="Thème suivi"></select></label>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Basculer entre thème clair et sombre"><svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+      </div>
+    </header>
+    <nav class="mnav" aria-label="Navigation principale"><div class="wrap">
+      <a href="#accueil" data-nav="accueil">Tableau de bord</a>
+      <a href="#publications" data-nav="publications">Publications</a>
+      <a href="#syntheses" data-nav="syntheses">Synthèses</a>
+      <a href="#comparer" data-nav="comparer">Comparateur</a>
+      <a href="#methode" data-nav="methode">Méthode</a>
+    </div></nav>
+    <main class="wrap" id="app" tabindex="-1"><noscript>Ce site nécessite JavaScript.</noscript></main>
+    <footer><div class="wrap">Luminathèque · données PubMed (NLM) et Europe PMC · PDF issus de PMC Open Access, sous licences Creative Commons, avec citation de leurs auteurs. Outil de veille, il ne remplace ni l'avis médical ni les recommandations officielles.</div></footer>
   </div>
-  <nav class="nav" aria-label="Navigation principale"><div class="wrap">
-    <a href="#accueil" data-nav="accueil">Tableau de bord</a>
-    <a href="#publications" data-nav="publications">Publications</a>
-    <a href="#syntheses" data-nav="syntheses">Synthèses</a>
-    <a href="#comparer" data-nav="comparer">Comparateur</a>
-    <a href="#methode" data-nav="methode">Méthode</a>
-  </div></nav>
-</header>
-<main class="wrap" id="app" tabindex="-1"><noscript>Ce site nécessite JavaScript.</noscript></main>
+</div>
 <div class="selbar" id="selbar" hidden><div class="wrap">
   <span><b id="selcount">0</b> article(s) sélectionné(s)</span>
-  <button class="btn primary" data-selcompare="merge">Synthétiser la sélection</button>
+  <span style="flex:1"></span>
+  <button class="btn primary" data-selcompare="merge">Synthétiser</button>
   <button class="btn" data-selcompare="compare">Comparer à une période</button>
   <button class="btn" data-selclear>Vider</button>
 </div></div>
-<footer><div class="wrap">Luminathèque · données PubMed (NLM) et Europe PMC · PDF issus de PMC Open Access, sous licences Creative Commons, avec citation de leurs auteurs. Outil de veille, ne remplace pas l'avis médical ni les recommandations officielles.</div></footer>
 <script src="assets/data.js"></script>
 <script src="assets/app.js"></script>
 </body>

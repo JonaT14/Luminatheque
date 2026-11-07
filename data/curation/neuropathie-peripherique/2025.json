@@ -1,0 +1,91 @@
+[
+{"pmid":"40090424","title_fr":"PBM et biomarqueurs neuronaux dans la neuropathie diabétique de type 2 : essai randomisé en simple aveugle","type":"rct","level":2,"pop":"adulte","ctx":["diabète"],"aim":"traitement","mode":["laser"],"nm":[632.8],"n":200,"effect":"favorable","theme":"Neuropathie diabétique","key":true,
+"l1":"Le plus grand essai de la période (200 diabétiques) : dix jours de laser He-Ne sur les pieds réduisent la douleur, améliorent la sensibilité vibratoire et la qualité de vie, avec des biomarqueurs (NSE, CGRP) qui évoluent dans le même sens.",
+"l2":"Essai indien randomisé 100/100 contre laser simulé : laser He-Ne 632,8 nm, 3,1 J/cm², 9 minutes sur le dos et la plante des pieds. Évaluation à 4 semaines.\n\nAmélioration significative de l'énolase neurospécifique (NSE), du CGRP, du score MNSI, du seuil de perception vibratoire, de la douleur (NPRS) et de la qualité de vie (Norfolk QOL-DN), mais pas du NGF. Les auteurs proposent NSE et CGRP comme marqueurs de réponse.",
+"l3":{"points":["Randomisation 1:1, 200 patients.","Toutes les différences cliniques p < 0,001 ; NGF inchangé (p = 0,937)."],"limites":["Simple aveugle ; suivi de 4 semaines."],"pratique":"Argument solide pour la PBM dans la neuropathie diabétique douloureuse, à court terme."}},
+
+{"pmid":"41093021","title_fr":"Laser 10,6 μm (moxibustion laser) dans la neuropathie diabétique : essai randomisé en double aveugle","type":"rct","level":2,"pop":"adulte","ctx":["diabète"],"aim":"traitement","mode":["laser"],"nm":[10600],"n":68,"effect":"favorable","theme":"Neuropathie diabétique",
+"l1":"Chez 68 diabétiques, un laser infrarouge lointain à 10,6 μm appliqué sur des points d'acupuncture améliore les symptômes à 4 semaines et la qualité de vie jusqu'à 12 semaines, sans changer la conduction nerveuse.",
+"l2":"Essai chinois contre simulation, 12 séances en 4 semaines ; 58 patients ont terminé. Les deux groupes s'améliorent, mais le groupe laser a un score MNSI plus bas à la 4e semaine et une meilleure qualité de vie aux semaines 4, 8 et 12.\n\nIl s'agit d'une technique différente de la PBM classique (CO₂, chaleur, points d'acupuncture).",
+"l3":{"points":["Enregistrement ChiCTR2000029329.","Vitesse de conduction : pas de différence à S4."],"limites":["Technique proche de la moxibustion : transposabilité limitée à la PBM rouge et infrarouge proche."],"pratique":"—"}},
+
+{"pmid":"41320698","title_fr":"Laser basse puissance et ultrasons basse fréquence contre la douleur de la polyneuropathie diabétique : essai randomisé","type":"rct","level":2,"pop":"adulte","ctx":["diabète"],"aim":"traitement","mode":["laser"],"nm":[808,905],"n":55,"effect":"mitigé","theme":"Neuropathie diabétique",
+"l1":"Chez 55 diabétiques, le laser (808/905 nm) améliore la qualité de vie liée à la neuropathie plus que les témoins, mais pas significativement le score de symptômes.",
+"l2":"Trois groupes (laser n = 18, ultrasons n = 15, témoins n = 22), trois séances par semaine pendant quatre semaines à 6 J/cm², en plus des soins standards.\n\nLe score MNSI baisse dans tous les groupes sans différence (p = 0,292). Le laser améliore davantage le score « problèmes » du QOL-DN (p = 0,006 contre témoins). Les auteurs jugent l'utilité clinique incertaine.",
+"l3":{"points":["Déséquilibre de départ sur le MNSI (p = 0,001)."],"limites":["Groupes déséquilibrés, petits effectifs."],"pratique":"Effet modeste ; ne pas promettre une amélioration neurologique."}},
+
+{"pmid":"40186772","title_fr":"PBM, symptômes sensitifs, équilibre et vitesse de marche dans la neuropathie chimio-induite","type":"nrct","level":4,"pop":"adulte","ctx":["CIPN"],"aim":"traitement","mode":["LED","laser"],"nm":[630,850],"n":47,"effect":"favorable","theme":"Neuropathie chimio-induite","key":true,
+"l1":"Chez 47 patients avec neuropathie chimio-induite des membres inférieurs, quatre séances de PBM (630/850 nm) sur le trajet nerveux améliorent les symptômes sensitifs, l'équilibre et la vitesse de marche.",
+"l2":"Étude prospective brésilienne sans groupe témoin : deux séances par semaine pendant deux semaines. Le DN-4 (p < 0,0001) et le FANPIQ (p = 0,0031) s'améliorent, pas l'échelle fonctionnelle LEFS.\n\nLes oscillations posturales sur plateforme diminuent et la vitesse de marche augmente (p = 0,0315). Un résultat pertinent pour le risque de chute, mais sans comparateur.",
+"l3":{"points":["Équilibre mesuré sur surfaces rigide et déformable.","Marche sur 10 m améliorée."],"limites":["Avant-après sans témoin, suivi très court."],"pratique":"Piste peu coûteuse pour les troubles de l'équilibre liés à la neuropathie chimio-induite."}},
+
+{"pmid":"41302361","title_fr":"Exercice et kinésithérapie dans la neuropathie chimio-induite : revue systématique","type":"sr","level":1,"pop":"adulte","ctx":["CIPN"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Neuropathie chimio-induite",
+"l1":"26 essais randomisés : l'exercice et les techniques de kinésithérapie, dont la PBM, améliorent symptômes, équilibre, force et qualité de vie dans la neuropathie chimio-induite.",
+"l2":"Revue PRISMA (jusqu'en mai 2025) ; 19 essais d'exercice et 7 de modalités physiques (thérapie manuelle, PBM, Scrambler, ultrasons, électrostimulation). Observance de 70 à 95 %, aucun effet grave.\n\nLa PBM n'est qu'une des modalités étudiées et le résumé ne donne pas d'effet propre.",
+"l3":{"points":["Qualité évaluée par l'échelle PEDro ; pas de méta-analyse."],"limites":["Effet spécifique de la PBM non isolé."],"pratique":"Associer la PBM à l'exercice plutôt que la proposer seule."}},
+
+{"pmid":"40253006","title_fr":"Consensus fondé sur les preuves pour l'usage clinique de la PBM (JAAD)","type":"guideline","level":1,"pop":"adulte","ctx":["autres"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Recommandations","key":true,
+"l1":"Un panel international de 21 experts (méthode Delphi) conclut que la PBM est sûre chez l'adulte et efficace dans la neuropathie périphérique, l'alopécie androgénétique, les ulcères et la radiodermite aiguë.",
+"l2":"Recommandation de pratique publiée dans le Journal of the American Academy of Dermatology, fondée sur une revue systématique (Embase, MEDLINE, juin 2022), deux tours de Delphi et deux réunions de consensus.\n\nLa lumière rouge n'induit pas de lésions de l'ADN. La neuropathie périphérique fait partie des indications retenues comme efficaces.",
+"l3":{"points":["21 experts, consensus unanime."],"limites":["Recherche bibliographique de 2022.","Détail des niveaux de preuve par indication dans le texte intégral."],"pratique":"Référence de consensus pour justifier la PBM dans la neuropathie périphérique."}},
+
+{"pmid":"40315975","title_fr":"Traitements conservateurs du canal carpien : revue systématique et méta-analyse en réseau","type":"ma","level":1,"pop":"adulte","ctx":["compression"],"aim":"traitement","mode":["laser"],"nm":[],"n":3323,"effect":"favorable","theme":"Canal carpien","key":true,
+"l1":"49 essais (3 323 patients) : thérapie manuelle et injections de glucosé arrivent en tête dans le canal carpien ; le laser basse énergie est efficace contre témoin (DMS −1,45).",
+"l2":"Méta-analyse en réseau de 11 traitements conservateurs (jusqu'en avril 2024). Classement pour la douleur à court et moyen terme : thérapie manuelle (SUCRA 87,6 % et 99,3 %), puis glucosé 5 % et PRP.\n\nLe laser basse énergie (DMS −1,45 ; IC95 % −2,16 à −0,74) et les ondes de choc (DMS −1,03) sont significativement supérieurs au contrôle, sans figurer en tête.",
+"l3":{"points":["49 ECR, 3 323 participants, 6 bases dont CNKI."],"limites":["Hétérogénéité des comparateurs."],"pratique":"Le laser est une option efficace mais pas prioritaire dans le canal carpien ; l'associer à la thérapie manuelle."}},
+
+{"pmid":"40121869","title_fr":"Laser haute intensité dans le canal carpien : revue systématique et méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["compression"],"aim":"traitement","mode":["haute puissance"],"nm":[],"n":null,"effect":"favorable","theme":"Canal carpien",
+"l1":"Neuf essais : le laser haute intensité réduit la douleur et le handicap et améliore la conduction nerveuse dans le canal carpien ; certitude modérée à faible.",
+"l2":"Revue enregistrée (PROSPERO) avec RoB 2 et GRADE. Douleur : DMS de 0,7 à 1,6 ; handicap : DMS 0,68 ; latence motrice distale : DMS 0,98 ; vitesse sensitive : DMS 0,8, surtout combiné au glissement nerveux ou à l'attelle.\n\nLes auteurs demandent des comparaisons directes avec le laser basse intensité : l'essai pakistanais de 2026 en apporte une.",
+"l3":{"points":["9 ECR ; risque de biais global 44 %."],"limites":["Certitude modérée à faible."],"pratique":"Le laser haute intensité est une option validée en complément de l'attelle et des exercices."}},
+
+{"pmid":"39776290","title_fr":"PBM dans le canal carpien (douleur, force, fonction) : revue systématique et méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["compression"],"aim":"traitement","mode":["laser","LED"],"nm":[],"n":null,"effect":"mitigé","theme":"Canal carpien",
+"l1":"Treize essais : la PBM basse intensité améliore la fonction de la main dans le canal carpien, mais la méta-analyse ne montre pas d'effet significatif sur la douleur ni sur la force.",
+"l2":"Revue avec RoB 2 ; 61,5 % des essais à faible risque de biais. Pas d'avantage du laser pour la douleur (p = 0,08) ni la force de préhension (p = 0,11) ; amélioration de la fonctionnalité.\n\nCe résultat nuance la méta-analyse en réseau de 2025 : selon les essais retenus, l'effet sur la douleur varie.",
+"l3":{"points":["13 ECR sur 1 613 notices."],"limites":["Dosimétrie hétérogène."],"pratique":"Attendre surtout un gain fonctionnel."}},
+
+{"pmid":"40523998","title_fr":"PBM dans les lésions médullaires incomplètes et les lésions nerveuses périphériques : revue systématique d'essais randomisés","type":"sr","level":1,"pop":"adulte","ctx":["lésion nerveuse","compression"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Synthèse des preuves",
+"l1":"Dix-neuf essais, dont 14 dans le canal carpien : tendance à l'amélioration de la force, de la sensibilité et de la douleur, mais paramètres trop hétérogènes pour conclure fermement.",
+"l2":"Revue (2012–2024) excluant les neuropathies diabétiques et chimio-induites. Un essai porte sur la compression ulnaire, un sur le plexus brachial, un sur la radiculopathie lombaire, deux sur la moelle épinière.",
+"l3":{"points":["Longueurs d'onde 620–1 400 nm."],"limites":["Petits effectifs, suivis courts."],"pratique":"—"}},
+
+{"pmid":"39929358","title_fr":"Laser basse énergie dans les neuropathies maxillo-faciales : revue systématique d'essais randomisés","type":"ma","level":1,"pop":"adulte","ctx":["orofaciale","lésion nerveuse"],"aim":"traitement","mode":["laser"],"nm":[],"n":1220,"effect":"favorable","theme":"Neuropathies orofaciales",
+"l1":"Dix-huit essais (1 220 patients) : le laser réduit la douleur de 3,5 points en moyenne et accélère de 45 % la récupération sensitive dans les paresthésies, névralgies et paralysies faciales.",
+"l2":"Revue (jusqu'en décembre 2024) avec synthèse quantitative. Douleur EVA : −3,5 (IC95 % −4,2 à −2,8). Récupération des seuils sensitifs 45 % plus rapide. Effets indésirables légers (érythème) dans moins de 5 % des cas.",
+"l3":{"points":["18 ECR, 841 notices initiales."],"limites":["Dosimétrie variable, petits essais."],"pratique":"Après lésion du nerf alvéolaire inférieur ou lingual, la PBM est une option documentée."}},
+
+{"pmid":"40663207","title_fr":"Douleur neuropathique de la lèpre : kinésithérapie associée à la PBM, essai randomisé","type":"rct","level":2,"pop":"adulte","ctx":["autres"],"aim":"traitement","mode":[],"nm":[],"n":30,"effect":"mitigé","theme":"Autres neuropathies",
+"l1":"Chez 30 patients atteints de lèpre, la PBM ajoutée à la kinésithérapie améliore certaines limitations fonctionnelles, mais pas plus la douleur que la kinésithérapie seule.",
+"l2":"Essai brésilien en double aveugle. La douleur (EVA) baisse dans les deux groupes sans différence. Le groupe PBM montre des gains sur certains nerfs (médian, tibial, fibulaire) et sur la limitation d'activité (SALSA).",
+"l3":{"points":["SF-36 : amélioration de la douleur dans les deux groupes."],"limites":["Petit effectif, critères multiples."],"pratique":"—"}},
+
+{"pmid":"41091232","title_fr":"Paramètres dosimétriques et résultats cliniques de la PBM dans la neuropathie diabétique : revue","type":"review","level":3,"pop":"adulte","ctx":["diabète"],"aim":"traitement","mode":[],"nm":[630,670,808,904],"n":null,"effect":"favorable","theme":"Dosimétrie","key":true,
+"l1":"23 études (2015–2025) : les meilleurs résultats sont obtenus à 630–670 nm ou 808–904 nm, 3 à 10 J/cm², 45 à 100 mW et au moins 12 séances.",
+"l2":"Revue de six bases (dont LILACS et SciELO), études cliniques et précliniques. Elle fournit une fenêtre de paramètres utilisable pour un protocole.",
+"l3":{"points":["Fluence 3–10 J/cm² ; puissance 45–100 mW ; ≥ 12 séances."],"limites":["Revue non quantitative."],"pratique":"Fenêtre de paramètres pratique pour la neuropathie diabétique."}},
+
+{"pmid":"39829285","title_fr":"PBM chez le diabétique : douleur, qualité de vie et cicatrisation","type":"nrct","level":4,"pop":"adulte","ctx":["diabète"],"aim":"traitement","mode":["LED"],"nm":[660],"n":20,"effect":"favorable","theme":"Neuropathie diabétique",
+"l1":"Chez 20 diabétiques, la PBM à 660 nm deux fois par semaine pendant 7 semaines améliore la douleur neuropathique, la sensibilité, la qualité de vie et la cicatrisation des plaies.",
+"l2":"Étude brésilienne avant-après avec tests sensitifs quantitatifs et culture de fibroblastes cutanés. In vitro, la PBM stimule la prolifération via ERK et module les métalloprotéases.",
+"l3":{"points":["Moins d'anxiété et de dépression après traitement."],"limites":["Pas de témoin, 20 patients."],"pratique":"—"}},
+
+{"pmid":"41316574","title_fr":"Mobilisation neurale et laser haute intensité dans la neuropathie diabétique chronique : protocole","type":"protocol","level":0,"pop":"adulte","ctx":["diabète"],"aim":"traitement","mode":["haute puissance"],"nm":[],"n":16,"effect":"—","theme":"Neuropathie diabétique",
+"l1":"Protocole indien d'étude mixte (quantitative et qualitative) en cross-over sur 16 patients : mobilisation neurale contre laser haute intensité.",
+"l2":"Mesures : douleur (S-LANSS), équilibre, pressions plantaires, conduction nerveuse, réponse cutanée sympathique, qualité de vie, entretiens. Pas encore de résultats.",
+"l3":{"points":["CTRI/2023/12/060929."],"limites":["Protocole."],"pratique":"—"}},
+
+{"pmid":"41146696","title_fr":"Paresthésie et dysesthésie après traitement endodontique d'une molaire : cas clinique","type":"cases","level":4,"pop":"adulte","ctx":["lésion nerveuse","orofaciale"],"aim":"traitement","mode":["laser"],"nm":[],"n":1,"effect":"—","theme":"Neuropathies orofaciales",
+"l1":"Lésion du nerf alvéolaire inférieur par matériau d'obturation : retrait chirurgical, corticoïdes, vitamine B et laser basse énergie en appoint, avec récupération complète en un mois.",
+"l2":"Le cas illustre surtout l'importance du diagnostic radiologique précoce. Le rôle propre du laser n'est pas isolable.",
+"l3":{"points":["Suivi à 12 mois sans symptôme."],"limites":["Cas unique, traitements multiples."],"pratique":"—"}},
+
+{"pmid":"41114857","title_fr":"Synergie entre natation et PBM dans un modèle de douleur neuropathique (rat)","type":"preclinical","level":5,"pop":"—","ctx":["lésion nerveuse"],"aim":"traitement","mode":["laser"],"nm":[904],"n":null,"effect":"favorable","theme":"Préclinique",
+"l1":"Chez le rat avec lésion du sciatique, PBM (904 nm) et natation soulagent chacune la douleur ; leur association fait mieux et protège davantage le muscle.",
+"l2":"Trois semaines de traitement, tests de Von Frey et de Hargreaves, histologie du gastrocnémien. Argument pour associer PBM et exercice, comme le suggère la revue sur la neuropathie chimio-induite.",
+"l3":{"points":["6 J/cm² ; natation 10 à 30 min, 5 jours sur 7."],"limites":["Modèle animal."],"pratique":"—"}},
+
+{"pmid":"40070012","title_fr":"PBM par LED 807 nm et lésion nerveuse périphérique (cellules et rat)","type":"preclinical","level":5,"pop":"—","ctx":["lésion nerveuse"],"aim":"traitement","mode":["LED"],"nm":[807],"n":null,"effect":"favorable","theme":"Préclinique",
+"l1":"Une LED 807 nm stimule les cellules de Schwann in vitro et améliore chez le rat la fonction et la myélinisation du nerf sciatique lésé.",
+"l2":"Paramètres optimisés sur cellules (10 mW/cm², 30 min) puis transposés en tenant compte de la transmission à travers la peau et le muscle (environ 30 %). Montre la faisabilité de la PBM par LED pour la régénération nerveuse.",
+"l3":{"points":["Rat : 33 mW/cm², 30 min par jour pendant 21 jours."],"limites":["Modèle animal."],"pratique":"—"}}
+]

@@ -22,7 +22,7 @@ def iso_week(d: str) -> str:
     return f"{y}-S{w:02d}"
 
 
-def build_topic(topic_id: str, prune: bool) -> tuple[dict, list, dict]:
+def build_topic(topic_id: str) -> tuple[dict, list, dict]:
     topic = json.loads((ROOT / "data/topics" / f"{topic_id}.json").read_text())
     raw = {r["pmid"]: r for r in json.loads((ROOT / "data/raw" / f"{topic_id}.json").read_text())}
     cur_dir = ROOT / "data/curation" / topic_id
@@ -70,16 +70,9 @@ def build_topic(topic_id: str, prune: bool) -> tuple[dict, list, dict]:
         })
     articles.sort(key=lambda a: a["date"], reverse=True)
 
-    if prune:
-        keep = {a["pmid"] for a in articles}
-        for p in (ROOT / "pdfs").glob("*.pdf"):
-            if p.stem not in keep:
-                p.unlink()
-                print("  PDF retiré (article non retenu) :", p.name)
-
     syn_path = cur_dir / "syntheses.json"
     syntheses = json.loads(syn_path.read_text()) if syn_path.exists() else {}
-    meta = {k: topic[k] for k in ("id", "label", "short", "color", "description", "cadence", "since")}
+    meta = {k: topic.get(k) for k in ("id", "label", "short", "color", "description", "cadence", "since", "status", "hero", "exclusions_note")}
     meta["pubmed_query"] = topic["pubmed_query"]
     meta["n_raw"] = len(raw)
     meta["n_excluded"] = len(excluded)
@@ -93,11 +86,23 @@ def main() -> None:
     topics, articles, syntheses = [], [], {}
     for t in sorted((ROOT / "data/topics").glob("*.json")):
         if not (ROOT / "data/curation" / t.stem).exists():
+            info = json.loads(t.read_text())
+            topics.append({k: info.get(k) for k in ("id", "label", "short", "description", "status")} | {"status": "à venir"})
             continue
-        meta, arts, syn = build_topic(t.stem, args.prune_pdfs)
+        meta, arts, syn = build_topic(t.stem)
         topics.append(meta)
         articles += arts
         syntheses[t.stem] = syn
+    if args.prune_pdfs:
+        keep = {a["pmid"] for a in articles}
+        for p in (ROOT / "pdfs").glob("*.pdf"):
+            if p.stem not in keep:
+                p.unlink()
+                print("  PDF retiré (article non retenu) :", p.name)
+        for a in articles:
+            a["pdf"] = a["pdf"] if (ROOT / "pdfs" / f"{a['pmid']}.pdf").exists() else None
+    order = {"actif": 0, None: 0, "à venir": 1}
+    topics.sort(key=lambda t: (order.get(t.get("status"), 0), t["label"]))
     payload = {"generated": dt.date.today().isoformat(), "topics": topics, "articles": articles, "syntheses": syntheses}
     out = ROOT / "assets/data.js"
     out.write_text("window.LUMINA = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n")

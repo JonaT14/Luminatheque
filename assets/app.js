@@ -13,7 +13,7 @@ const store = {
 
 /* ---------------- référentiels ---------------- */
 const TYPES = {
-  ma: ["Méta-analyse", "syn"], sr: ["Revue systématique", "syn"], umbrella: ["Revue parapluie", "syn"],
+  ma: ["Méta-analyse", "syn"], sr: ["Revue systématique", "syn"], umbrella: ["Revue parapluie", "syn"], guideline: ["Recommandation", "syn"],
   rct: ["Essai randomisé", "rct"], nrct: ["Essai non randomisé", "clin"], cohort: ["Cohorte / observationnelle", "clin"],
   cases: ["Série de cas", "clin"], review: ["Revue narrative", "fond"], preclinical: ["Préclinique", "fond"],
   protocol: ["Protocole", "autre"], survey: ["Enquête", "autre"], qualitative: ["Étude qualitative", "autre"],
@@ -35,7 +35,7 @@ const LEVELS = {
   0: ["Non gradé", "Protocole, enquête, étude qualitative, bibliométrie, correspondance"],
 };
 const EFFECTS = { favorable: ["Favorable à la PBM", "var(--fav)"], "mitigé": ["Mitigé", "var(--mit)"], neutre: ["Neutre / équivalent", "var(--neu)"], "défavorable": ["Défavorable", "var(--def)"] };
-const CTX = { ORL: "Radiothérapie ORL", chimio: "Chimiothérapie", CSH: "Greffe de CSH", mixte: "Contextes mixtes" };
+const CTX = { ORL: "Radiothérapie ORL", chimio: "Chimiothérapie", CSH: "Greffe de CSH", mixte: "Contextes mixtes", CIPN: "Neuropathie chimio-induite", "diabète": "Neuropathie diabétique", compression: "Compressions nerveuses", "lésion nerveuse": "Lésions nerveuses", orofaciale: "Orofaciale", autres: "Autres" };
 const READ = { 1: ["Express", "1–2 lignes"], 2: ["Essentiel", "1–2 paragraphes"], 3: ["Approfondi", "analyse complète"] };
 const MONTHS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
 const ICON = {
@@ -59,6 +59,7 @@ const state = {
   cmp: null,
 };
 const topic = () => D.topics.find((t) => t.id === state.topic) || D.topics[0];
+const isSoon = (t = topic()) => t.status === "à venir";
 const all = () => D.articles.filter((a) => a.topic === state.topic);
 const byId = (id) => D.articles.find((a) => a.pmid === id);
 const typeLabel = (a) => (TYPES[a.type] || [a.type])[0];
@@ -288,7 +289,34 @@ function chartEffects(list) {
 
 /* ---------------- vues ---------------- */
 const app = () => $("#app");
-function setNav(id) { $$(".nav a").forEach((a) => a.setAttribute("aria-current", a.dataset.nav === id ? "page" : "false")); }
+const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", methode: "Méthode" };
+function setNav(id) {
+  $$("[data-nav]").forEach((a) => a.setAttribute("aria-current", a.dataset.nav === id ? "page" : "false"));
+  const c = $("#crumb"); if (c) c.innerHTML = `${esc(topic().label)} <span aria-hidden="true">/</span> <b>${NAV_LABEL[id] || ""}</b>`;
+}
+function renderTopics() {
+  const box = $("#side-topics"); if (!box) return;
+  box.innerHTML = D.topics.map((t) => { const n = D.articles.filter((a) => a.topic === t.id).length;
+    return `<button type="button" class="side-link" data-topic="${t.id}" aria-pressed="${t.id === state.topic}"><span class="topic-dot"></span>${esc(t.label)}${isSoon(t) ? '<span class="soon">À venir</span>' : `<span class="count">${n}</span>`}</button>`; }).join("");
+  $("#topic").innerHTML = D.topics.map((t) => `<option value="${t.id}" ${t.id === state.topic ? "selected" : ""}>${esc(t.short || t.label)}${isSoon(t) ? " · à venir" : ""}</option>`).join("");
+  const nc = $("#nav-count"); if (nc) nc.textContent = isSoon() ? "" : all().length;
+  const up = $("#side-update"); if (up) up.textContent = `Mise à jour : ${fmtDate(D.generated)}`;
+}
+function setTopic(id) {
+  state.topic = id; store.set("topic", id); INDEX.clear(); state.cmp = null; state.synTab = "global"; state.cardLevel.clear();
+  for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : "");
+  renderTopics(); route(); scrollTo(0, 0);
+}
+function viewSoon(id) {
+  setNav(id); const t = topic(); const actives = D.topics.filter((x) => !isSoon(x));
+  app().innerHTML = `<div class="view"><section class="soon-hero">
+    <span class="soon-badge"><i></i>Thème à venir</span>
+    <h1>${esc(t.label)}</h1>
+    <p class="muted" style="max-width:56ch;font-size:1.02rem">${esc(t.description || "")}</p>
+    <p class="muted" style="max-width:56ch">Ce thème suivra le même principe que les autres : revue de la littérature depuis 2024, fiches en trois niveaux de lecture, niveaux de preuve, synthèses annuelles et étude comparative, puis veille hebdomadaire.</p>
+    <div class="chips" style="justify-content:center">${actives.map((x) => `<button class="chip" data-topic="${x.id}">Voir ${esc(x.label)}</button>`).join("")}</div>
+  </section></div>`;
+}
 
 function viewHome() {
   setNav("accueil");
@@ -302,11 +330,11 @@ function viewHome() {
   <section class="hero">
     <div class="hero-text">
       <span class="eyebrow">Veille photobiomodulation · ${esc(t.label)}</span>
-      <h1>Ce que la recherche a publié sur la <em>PBM et la mucite</em> depuis 2024</h1>
-      <p class="muted" style="max-width:62ch">${list.length} publications PubMed analysées une par une, chacune lisible en trois niveaux, avec son niveau de preuve et, quand il est en accès libre, le PDF intégré.</p>
+      <h1>Ce que la recherche a publié sur la <em>PBM et ${esc(t.hero || t.label.toLowerCase())}</em> depuis 2024</h1>
+      <p class="lead">${list.length} publications PubMed analysées une par une, chacune lisible en trois niveaux, avec son niveau de preuve et, quand l'article est en accès libre, le PDF intégré.</p>
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="eyebrow">Niveau de lecture</span>${levelSwitch(state.level)}</div>
-      <div class="panel" style="display:grid;gap:12px">
-        <div class="panel-head" style="margin:0"><h3>${esc(g?.headline || "Synthèse")}</h3><a href="#syntheses" class="btn small">Toutes les synthèses</a></div>
+      <div class="syn-card">
+        <div class="panel-head" style="margin:0"><div style="display:grid;gap:6px"><span class="eyebrow">Synthèse 2024 → aujourd'hui</span><h3 style="font-size:1.08rem">${esc(g?.headline || "Synthèse")}</h3></div><a href="#syntheses" class="btn small">Toutes les synthèses</a></div>
         <div class="prose ${state.level === 1 ? "l1" : ""}">${synBody}</div>
       </div>
     </div>
@@ -318,7 +346,7 @@ function viewHome() {
         <div class="kpi"><b>${list.filter((a) => a.pdf).length}</b><span>PDF en accès libre lisibles sur le site</span></div>
       </div>
       <div class="panel"><div class="panel-head"><h3>Niveaux de preuve</h3><a class="btn small" href="#methode">Comprendre</a></div>${chartPyramid(list)}</div>
-      <p class="muted" style="font-size:.8rem">Dernière mise à jour : <span class="mono">${fmtDate(D.generated)}</span> · veille ${esc(t.cadence)} · source PubMed + Europe PMC</p>
+      <p class="muted" style="font-size:.78rem">Dernière mise à jour : <span class="mono">${fmtDate(D.generated)}</span> · veille ${esc(t.cadence)} · PubMed + Europe PMC</p>
     </div>
   </section>
 
@@ -587,7 +615,7 @@ function viewMethode() {
     <section class="panel prose" style="max-width:none"><h2>Sources et sélection</h2>
       <p>Chaque semaine, la veille interroge PubMed (date de mise en ligne et date de publication) puis Europe PMC pour l'accès libre et la licence. Requête actuelle :</p>
       <pre class="mono" style="white-space:pre-wrap;font-size:.75rem;background:var(--surface-2);padding:12px;border-radius:8px;margin:0">${esc(t.pubmed_query)}</pre>
-      <p>${t.n_raw} notices retrouvées, ${t.n_excluded} écartées car hors sujet (aphtes récurrents, stomatites prothétiques, péri-implantite, laser haute intensité en rhumatologie…), ${all().length} analysées. Les dates correspondent à la mise en ligne de l'article. Les semaines suivent la norme ISO (lundi à dimanche).</p>
+      <p>${t.n_raw} notices retrouvées, ${t.n_excluded} écartées car hors sujet (${esc(t.exclusions_note || "")}), ${all().length} analysées. Les dates correspondent à la mise en ligne de l'article. Les semaines suivent la norme ISO (lundi à dimanche).</p>
       <p>Les fiches sont rédigées à partir du résumé PubMed et, pour les articles en accès libre, du texte intégral. Les PDF proviennent du dépôt officiel PMC Open Access de la NLM et ne sont repris que sous licence Creative Commons, avec mention de la licence sur la fiche. Pour les autres articles, le site renvoie vers la source originale (DOI, PubMed).</p>
       <div class="callout">Ce site est un outil de veille et ne remplace pas la lecture critique des articles ni les recommandations (MASCC/ISOO, sociétés savantes). Les chiffres sont recopiés des résumés : en cas de doute, la source originale fait foi.</div></section>
     <section class="panel prose" style="max-width:none"><h2>Mise à jour</h2><p>Rythme actuel : <b>${esc(t.cadence)}</b>, modifiable à tout moment. La procédure est décrite dans <span class="mono">ROUTINE.md</span> : collecte des nouveautés, rédaction des fiches en trois niveaux, mise à jour des synthèses, publication. Ajouter une pathologie revient à créer un fichier de thème (requête PubMed) ; le site l'affiche automatiquement dans le sélecteur.</p></section>
@@ -598,6 +626,7 @@ function viewMethode() {
 function route() {
   const h = decodeURIComponent(location.hash.slice(1));
   if (h.startsWith("article-")) return viewArticle(h.slice(8));
+  if (isSoon() && h !== "methode") return viewSoon(NAV_LABEL[h] ? h : "accueil");
   ({ publications: viewPubs, syntheses: viewSyntheses, comparer: viewCompare, methode: viewMethode }[h] || viewHome)();
   if (!h.startsWith("article-")) $("#selbar")?.toggleAttribute("hidden", !state.selected.size || h === "comparer");
 }
@@ -611,6 +640,7 @@ addEventListener("hashchange", () => { route(); updateSelbar(); if (!location.ha
 document.addEventListener("click", async (e) => {
   const t = e.target.closest("button, [data-sel]"); if (!t) return;
   const d = t.dataset;
+  if (d.topic) { setTopic(d.topic); return; }
   if (d.read) { state.level = +d.read; state.cardLevel.clear(); store.set("level", state.level); rerender(); }
   else if (d.aread) { state.cardLevel.set(location.hash.slice(9), +d.aread); rerender(); }
   else if (d.more) { state.cardLevel.set(d.more, Math.min(3, (state.cardLevel.get(d.more) || state.level) + 1)); rerender(); }
@@ -656,7 +686,7 @@ document.addEventListener("change", (e) => {
   else if (t.id === "f-week" && t.value) { const [a, b] = weekRange(t.value, t.value); state.f.from = a; state.f.to = b; state.sort = "date"; rerender(); }
   else if (t.id === "f-pdf" || t.id === "f-key") { state.f[t.id.slice(2)] = t.checked; rerender(); }
   else if (t.id === "sort") { state.sort = t.value; rerender(); }
-  else if (t.id === "topic") { state.topic = t.value; store.set("topic", t.value); INDEX.clear(); rerender(); }
+  else if (t.id === "topic") setTopic(t.value);
   else if (t.dataset.wk) { const [id, side] = t.dataset.wk.split("-"); const P = state.cmp[id]; const other = $(`[data-wk="${id}-${side === "from" ? "to" : "from"}"]`).value;
     const [a, b] = weekRange(side === "from" ? t.value : other, side === "from" ? other : t.value); Object.assign(P, { from: a, to: b, label: `${weekOf(a).key.replace("-S", " S")} → ${weekOf(b).key.replace("-S", " S")}` }); rerender(); }
   else if (t.dataset.pd) { const [id, side] = t.dataset.pd.split("-"); const P = state.cmp[id]; P[side] = t.value; P.label = ""; rerender(); }
@@ -670,6 +700,12 @@ $("#q").addEventListener("input", (e) => {
 });
 document.addEventListener("keydown", (e) => { if (e.key === "/" && !/input|textarea|select/i.test(document.activeElement.tagName)) { e.preventDefault(); $("#q").focus(); } });
 
-$("#topic").innerHTML = D.topics.map((t) => `<option value="${t.id}" ${t.id === state.topic ? "selected" : ""}>${esc(t.short || t.label)}</option>`).join("");
-route(); updateSelbar();
+/* thème clair / sombre : choix mémorisé, sinon réglage du système */
+const themeBtn = $("#theme-toggle");
+const sysDark = () => matchMedia("(prefers-color-scheme: dark)").matches;
+function applyTheme(t) { if (t) document.documentElement.setAttribute("data-theme", t); themeBtn?.setAttribute("aria-pressed", String((t || (sysDark() ? "dark" : "light")) === "dark")); }
+applyTheme(store.get("theme", null));
+themeBtn?.addEventListener("click", () => { const cur = document.documentElement.getAttribute("data-theme") || (sysDark() ? "dark" : "light"); const next = cur === "dark" ? "light" : "dark"; store.set("theme", next); applyTheme(next); });
+if (!D.topics.some((t) => t.id === state.topic)) state.topic = D.topics[0].id;
+renderTopics(); route(); updateSelbar();
 })();

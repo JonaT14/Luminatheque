@@ -1,0 +1,116 @@
+[
+{"pmid":"39327309","title_fr":"Laser basse énergie dans la neuropathie ulnaire au coude : essai randomisé en double aveugle","type":"rct","level":2,"pop":"adulte","ctx":["compression"],"aim":"traitement","mode":["laser"],"nm":[],"n":68,"effect":"favorable","theme":"Autres compressions nerveuses","key":true,
+"l1":"Chez 68 patients, le laser ajouté à l'attelle réduit davantage la douleur de jour et de nuit et améliore la fonction à 3 mois, sans différence sur la force ni l'électrophysiologie.",
+"l2":"Essai turc contre laser simulé, en double aveugle. Évaluations à J15 et à 3 mois : EVA, paresthésies, force, tests de provocation, QuickDASH, conduction nerveuse.\n\nL'attelle seule est efficace ; le laser renforce l'effet sur la douleur et la fonction. La conduction sensitive est meilleure à J15 seulement.",
+"l3":{"points":["Douleur jour et nuit : meilleure à J15 et M3 (p < 0,05).","QuickDASH meilleur à M3."],"limites":["Pas d'effet électrophysiologique durable."],"pratique":"Le laser est un complément utile de l'attelle dans la neuropathie ulnaire au coude."}},
+
+{"pmid":"39397682","title_fr":"PBM dans le syndrome du canal cubital : essai randomisé","type":"rct","level":2,"pop":"adulte","ctx":["compression"],"aim":"traitement","mode":["laser"],"nm":[],"n":64,"effect":"mitigé","theme":"Autres compressions nerveuses",
+"l1":"Chez 64 patients, le laser associé à l'attelle et aux exercices est supérieur à la simulation à 3 semaines, mais l'effet devient équivalent à 3 mois.",
+"l2":"Essai en simple aveugle. Les deux groupes s'améliorent. Le laser fait mieux sur la douleur au repos et en mouvement et sur le score PRUNES à 3 semaines ; seule la douleur PRUNES reste meilleure à 3 mois.",
+"l3":{"points":["32 patients par groupe."],"limites":["Bénéfice qui s'estompe à moyen terme."],"pratique":"Attendre un bénéfice surtout à court terme."}},
+
+{"pmid":"38278695","title_fr":"Ondes de choc versus laser basse énergie ajoutés à la kinésithérapie dans le canal carpien léger à modéré","type":"rct","level":2,"pop":"adulte","ctx":["compression"],"aim":"traitement","mode":["laser"],"nm":[],"n":36,"effect":"neutre","theme":"Canal carpien",
+"l1":"Dans le canal carpien léger à modéré, le laser et les ondes de choc réduisent autant la douleur (−4,4 points) ; les ondes de choc réduisent un peu plus le gonflement du nerf.",
+"l2":"Essai iranien en simple aveugle ; seuls 18 patients sur 36 ont terminé. Critère principal : section du nerf médian à l'échographie.",
+"l3":{"points":["Section : −1,2 mm² (ondes de choc) contre −0,76 mm² (laser)."],"limites":["Forte attrition, pas de bras sans technique."],"pratique":"—"}},
+
+{"pmid":"38239124","title_fr":"Apport de la phonophorèse et du laser aux exercices dans le canal carpien modéré","type":"rct","level":2,"pop":"adulte","ctx":["compression"],"aim":"traitement","mode":["laser"],"nm":[],"n":45,"effect":"neutre","theme":"Canal carpien",
+"l1":"Chez 45 patients, ni la phonophorèse ni le laser n'apportent de bénéfice supplémentaire aux exercices de glissement tendineux et nerveux dans le canal carpien modéré.",
+"l2":"Trois groupes de 15, évaluations clinique, électrophysiologique et échographique à 6 et 12 semaines. Tous s'améliorent de façon similaire.",
+"l3":{"points":["Section du nerf médian réduite dans tous les groupes à S12."],"limites":["Petits groupes."],"pratique":"Résultat négatif à garder en tête : les exercices seuls sont déjà efficaces."}},
+
+{"pmid":"39446663","title_fr":"Laser-acupuncture et canal carpien du post-partum : essai randomisé","type":"rct","level":2,"pop":"adulte","ctx":["compression"],"aim":"traitement","mode":["laser"],"nm":[],"n":36,"effect":"favorable","theme":"Canal carpien",
+"l1":"Chez 36 femmes en post-partum, ajouter la laser-acupuncture à l'attelle de nuit améliore la conduction nerveuse, la force de pince et la fonction de la main.",
+"l2":"Essai égyptien : 12 séances de 12 minutes sur des points d'acupuncture, trois fois par semaine. Les deux groupes s'améliorent, davantage sous laser.",
+"l3":{"points":["Latences et vitesses motrices et sensitives améliorées."],"limites":["Pas de simulation ; petit effectif."],"pratique":"—"}},
+
+{"pmid":"38207201","title_fr":"Laser haute intensité dans le canal carpien : revue systématique et méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["compression"],"aim":"traitement","mode":["haute puissance"],"nm":[],"n":308,"effect":"favorable","theme":"Canal carpien",
+"l1":"Études de 16 à 98 patients (308 au total) : preuve modérée d'efficacité à court terme du laser haute intensité sur la douleur du canal carpien ; données à long terme limitées.",
+"l2":"À 4 semaines, le laser haute intensité est supérieur au placebo, à la TENS, au laser basse intensité à 20 J/cm² et aux exercices pour la douleur. Effet électrophysiologique incertain, sauf pour le potentiel d'action sensitif et la vitesse de conduction sensitive.",
+"l3":{"points":["Douleur : p = 0,0191 contre placebo."],"limites":["Suivis courts."],"pratique":"Voir aussi la méta-analyse de 2025 sur le même sujet."}},
+
+{"pmid":"40065850","title_fr":"Tecar et laser basse énergie, séparés ou combinés, dans la neuropathie diabétique : symptômes et qualité de vie à 3 mois","type":"rct","level":2,"pop":"adulte","ctx":["diabète"],"aim":"traitement","mode":["laser"],"nm":[],"n":45,"effect":"mitigé","theme":"Neuropathie diabétique",
+"l1":"Chez 45 diabétiques, l'association Tecar + laser donne l'effet le plus durable sur la douleur à 3 mois ; le laser seul fait moins bien que les groupes avec Tecar.",
+"l2":"Essai iranien en double aveugle, trois groupes de 15, dix séances, suivi à 3 mois. Tous les groupes s'améliorent ; le laser seul améliore surtout la qualité de vie et les symptômes neuropathiques à 3 mois.\n\nMême essai que l'article sur les critères neurophysiologiques (PMID 39679116).",
+"l3":{"points":["Critères : WHOQOL-BREF, EVA, Timed Up and Go, Michigan."],"limites":["Publications multiples d'un même essai."],"pratique":"—"}},
+
+{"pmid":"39679116","title_fr":"Tecar et laser basse énergie dans la neuropathie diabétique des membres inférieurs : critères neurologiques","type":"rct","level":2,"pop":"adulte","ctx":["diabète"],"aim":"traitement","mode":["laser"],"nm":[],"n":45,"effect":"mitigé","theme":"Neuropathie diabétique",
+"l1":"Volet neurophysiologique du même essai de 45 diabétiques : l'association Tecar + laser améliore plus durablement la conduction motrice tibiale et l'index de pression systolique.",
+"l2":"Mesures : vitesse de conduction motrice tibiale, amplitude du nerf sural, sensibilité plantaire, index cheville-bras, après 10 séances et à 3 mois. Le laser seul améliore la sensibilité plantaire et l'index cheville-bras.",
+"l3":{"points":["Même population que PMID 40065850 : ne pas additionner les effectifs."],"limites":["Petits groupes."],"pratique":"—"}},
+
+{"pmid":"38351691","title_fr":"Chaussure laser de PBM pour la douleur neuropathique et les pressions plantaires du diabétique","type":"nrct","level":4,"pop":"adulte","ctx":["diabète"],"aim":"traitement","mode":["laser"],"nm":[],"n":60,"effect":"favorable","theme":"Nouveaux dispositifs",
+"l1":"Chez 60 diabétiques, une chaussure laser qui irradie tout le pied réduit la douleur neuropathique et les pressions plantaires.",
+"l2":"Dispositif indien à faible coût. Améliorations du seuil vibratoire, de l'EVA, du score de Michigan et de l'index cheville-bras. Étude sans groupe témoin.",
+"l3":{"points":["Âge moyen 62 ans, diabète depuis 11 ans."],"limites":["Pas de témoin."],"pratique":"—"}},
+
+{"pmid":"39186566","title_fr":"Efficacité et sécurité de la PBM dans la neuropathie diabétique : protocole de méta-analyse","type":"protocol","level":0,"pop":"adulte","ctx":["diabète"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"—","theme":"Synthèse des preuves",
+"l1":"Protocole de méta-analyse des essais randomisés de PBM dans la neuropathie diabétique, incluant les bases chinoises. Résultats à surveiller.",
+"l2":"Critères principaux : symptômes et vitesse de conduction ; secondaires : qualité de vie, douleur, glycémie, HbA1c, effets indésirables.",
+"l3":{"points":["PROSPERO CRD42023466586."],"limites":["Protocole."],"pratique":"—"}},
+
+{"pmid":"39801094","title_fr":"Fréquence et prise en charge des lésions nerveuses après pose d'implant mandibulaire : revue systématique","type":"sr","level":3,"pop":"adulte","ctx":["lésion nerveuse","orofaciale"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"—","theme":"Neuropathies orofaciales",
+"l1":"Après implant mandibulaire, 12 % des patients ont une neuropathie à une semaine et 5 % à 3 mois (90 % et 42 % avec latéralisation du nerf) ; le laser fait partie des traitements proposés.",
+"l2":"Revue de 38 études avec méta-analyse de prévalence. Le traitement le plus fréquent reste médicamenteux ; le laser et la dépose de l'implant sont les autres options.",
+"l3":{"points":["Latéralisation du nerf : risque multiplié par 8."],"limites":["Qualité des études variable."],"pratique":"—"}},
+
+{"pmid":"39119125","title_fr":"Laser basse puissance comme adjuvant dans la paresthésie : deux cas","type":"cases","level":4,"pop":"adulte","ctx":["lésion nerveuse","orofaciale"],"aim":"traitement","mode":["laser"],"nm":[],"n":2,"effect":"favorable","theme":"Neuropathies orofaciales",
+"l1":"Deux paresthésies après extraction dentaire nettement améliorées par laser basse puissance.",
+"l2":"Cas péruviens rapportés en espagnol. Pas de mesure standardisée.",
+"l3":{"points":["Traitement indolore, séances courtes."],"limites":["Deux cas."],"pratique":"—"}},
+
+{"pmid":"38567306","title_fr":"Le diabète sous les projecteurs : connaissances et perspectives de la PBM","type":"review","level":5,"pop":"adulte","ctx":["diabète"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Revue générale",
+"l1":"Revue : 87 essais cliniques de PBM dans le diabète sont recensés ; dans la neuropathie, ils montrent une baisse de la douleur et un possible gain de qualité de vie.",
+"l2":"Revue des études précliniques et cliniques et des essais enregistrés (5 837 patients prévus). Elle signale aussi un effet sur la glycémie sans risque d'hypoglycémie.",
+"l3":{"points":["Variabilité des paramètres."],"limites":["Revue narrative."],"pratique":"—"}},
+
+{"pmid":"39607829","title_fr":"PBM du diabète et de ses complications : présentation, mécanismes et efficacité","type":"review","level":5,"pop":"adulte","ctx":["diabète"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Revue générale",
+"l1":"Revue générale de la PBM dans les complications du diabète (rétinopathie, ulcères, neuropathie, parodontite).",
+"l2":"Présentation des mécanismes et des avantages et limites. Sans données nouvelles.",
+"l3":{"points":["Revue générale."],"limites":["Revue narrative."],"pratique":"—"}},
+
+{"pmid":"39463219","title_fr":"Potentiel thérapeutique de la PBM dans les complications du diabète","type":"review","level":5,"pop":"adulte","ctx":["diabète"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"—","theme":"Revue générale",
+"l1":"Revue : rouge et proche infrarouge sont utilisés pour la neuropathie, le bleu pour les plaies ; peu d'essais et des paramètres non standardisés.",
+"l2":"Revue par longueur d'onde (bleu, rouge, proche infrarouge). Elle constate le petit nombre d'essais cliniques pour la plupart des complications.",
+"l3":{"points":["Approche par longueur d'onde."],"limites":["Revue narrative."],"pratique":"—"}},
+
+{"pmid":"37858427","title_fr":"La photobiomodulation dans la prévention et la prise en charge des effets secondaires des traitements anticancéreux (Bulletin du Cancer)","type":"sr","level":3,"pop":"mixte","ctx":["CIPN"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"mitigé","theme":"Neuropathie chimio-induite",
+"l1":"Synthèse française : pour la neuropathie chimio-induite, les études sont trop rares pour un niveau de preuve solide, contrairement à la mucite ou au lymphœdème.",
+"l2":"Revue systématique des études prospectives. La PBM est efficace en essais randomisés pour la mucite, l'épithélite et le lymphœdème ; pour la neuropathie périphérique, le niveau de preuve reste faible.\n\nLes auteurs définissent des paramètres de pratique sûre et recommandent la prudence près d'une tumeur.",
+"l3":{"points":["Neuropathie : études limitées, preuve affaiblie."],"limites":["Recherche antérieure aux essais 2025–2026."],"pratique":"Référence francophone ; les essais récents (NEUROLIGHT, étude brésilienne) commencent à combler ce manque."}},
+
+{"pmid":"38759478","title_fr":"PBM et douleur : estimation par modélisation des doses efficaces au niveau du nerf","type":"methodo","level":5,"pop":"—","ctx":["autres"],"aim":"traitement","mode":[],"nm":[633,808,830],"n":null,"effect":"—","theme":"Dosimétrie","key":true,
+"l1":"En modélisant la lumière qui atteint réellement le nerf, les auteurs séparent clairement les doses efficaces des doses inefficaces pour bloquer les petites fibres douloureuses.",
+"l2":"Logiciel de propagation des photons appliqué à des jeux de données publiés (633 nm et 808–830 nm). Le seuil d'irradiance efficace dépend de la durée : séances courtes à forte irradiance, ou longues à faible irradiance.\n\nTravail utile pour expliquer l'hétérogénéité des essais : c'est la dose au nerf qui compte, pas la puissance de l'appareil.",
+"l3":{"points":["Mécanisme supposé : blocage de la conduction des petites fibres."],"limites":["Modélisation à partir de données hétérogènes."],"pratique":"Adapter la dose à la profondeur du nerf ciblé."}},
+
+{"pmid":"40124311","title_fr":"PBM et douleur cornéenne neuropathique : étude chez la souris","type":"preclinical","level":5,"pop":"—","ctx":["lésion nerveuse"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Préclinique",
+"l1":"Chez la souris avec lésion des nerfs cornéens, la PBM réduit la sensibilité douloureuse jusqu'à J56 ; une intervention précoce serait déterminante.",
+"l2":"Quatre modèles (témoin, simulation, nerf tiré, section complète), tests de Von Frey et d'essuyage oculaire.",
+"l3":{"points":["Effet significatif à J56 dans les deux modèles lésionnels."],"limites":["Modèle animal."],"pratique":"—"}},
+
+{"pmid":"39344359","title_fr":"Le laser basse énergie réduit l'allodynie dans des modèles de douleur postopératoire et neuropathique (rat)","type":"preclinical","level":5,"pop":"—","ctx":["lésion nerveuse"],"aim":"les deux","mode":["laser"],"nm":[],"n":null,"effect":"favorable","theme":"Préclinique",
+"l1":"Chez le rat, le laser soulage la douleur après ligature de nerf spinal mais ne la prévient pas, contrairement à la douleur d'incision où il est aussi préventif.",
+"l2":"Baisse de l'IL-1β et du NGF dans la peau, le muscle et la corne dorsale de la moelle dans le modèle d'incision.",
+"l3":{"points":["Pas d'effet préventif sur la douleur neuropathique."],"limites":["Modèle animal."],"pratique":"—"}},
+
+{"pmid":"39187036","title_fr":"Prévention et réversion de la douleur neuropathique par PBM proche infrarouge chez le rat mâle et femelle","type":"preclinical","level":5,"pop":"—","ctx":["lésion nerveuse"],"aim":"les deux","mode":[],"nm":[850],"n":null,"effect":"favorable","theme":"Préclinique",
+"l1":"Une PBM à 850 nm, avant ou après la lésion du sciatique, diminue l'allodynie chez les rats des deux sexes, sans protéger la structure du nerf en microscopie électronique.",
+"l2":"Deux minutes, trois fois par semaine, pendant 3 à 4 semaines. L'effet antalgique ne s'explique pas par une préservation des axones.",
+"l3":{"points":["Moins de fibres C sous PBM."],"limites":["Modèle animal."],"pratique":"—"}},
+
+{"pmid":"39168867","title_fr":"La voie RAGE–NF-κB et l'inflammation dans la neuropathie diabétique sous PBM (rat)","type":"preclinical","level":5,"pop":"—","ctx":["diabète"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Préclinique",
+"l1":"Chez le rat diabétique, dix séances de PBM diminuent RAGE et NF-κB dans les nerfs périphériques et augmentent l'IL-10 anti-inflammatoire.",
+"l2":"Modèle de diabète de type 1 induit par streptozotocine. TNF-α réduit dans le système nerveux central.",
+"l3":{"points":["Axe RAGE/NF-κB modulé."],"limites":["Modèle animal."],"pratique":"—"}},
+
+{"pmid":"38157112","title_fr":"Le laser Nd:YAG pulsé favorise la régénération nerveuse en inhibant l'apoptose (rat)","type":"preclinical","level":5,"pop":"—","ctx":["lésion nerveuse"],"aim":"traitement","mode":["haute puissance"],"nm":[1064],"n":54,"effect":"favorable","theme":"Préclinique",
+"l1":"Après écrasement du sciatique chez le rat, le laser Nd:YAG pulsé réduit l'apoptose et améliore la fonction et la densité axonale à 4 semaines.",
+"l2":"54 rats, 500 J par jour pendant 9 jours. Indice fonctionnel du sciatique meilleur dès la première semaine.",
+"l3":{"points":["Moins de cellules TUNEL positives à S1."],"limites":["Modèle animal."],"pratique":"—"}},
+
+{"pmid":"37332186","title_fr":"Facteurs épigénétiques et de douleur après PBM dans un modèle de douleur neuropathique","type":"preclinical","level":5,"pop":"—","ctx":["lésion nerveuse"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Préclinique",
+"l1":"Chez le rat, la PBM ramène le seuil douloureux près de la normale en trois semaines et augmente TGF-β et GAD65, sans modifier les enzymes épigénétiques étudiées.",
+"l2":"Première étude des facteurs épigénétiques (HDAC, DNMT) sous PBM dans la douleur neuropathique : résultat négatif sur ces cibles.",
+"l3":{"points":["Allodynie et hyperalgésie réduites avec deux protocoles."],"limites":["Modèle animal."],"pratique":"—"}}
+]
