@@ -87,7 +87,7 @@ const ABS = new Map();
 async function abstractOf(a) {
   if (a.abstract) return a.abstract;
   const key = `${a.topic}/${String(Number(a.pmid) % (D.n_chunks || 40)).padStart(2, "0")}`;
-  if (!ABS.has(key)) ABS.set(key, fetch(`assets/abs/${key}.json`).then((r) => r.json()).catch(() => ({})));
+  if (!ABS.has(key)) ABS.set(key, fetch(`${(D.topics.find((x) => x.id === a.topic) || {}).abs || "assets/abs/" + a.topic}/${key.split("/")[1]}.json`).then((r) => r.json()).catch(() => ({})));
   return (await ABS.get(key))[a.pmid] || [];
 }
 const typeLabel = (a) => (TYPES[a.type] || [a.type])[0];

@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import hashlib
+import shutil
 import json
 import pathlib
 import re
@@ -203,18 +204,26 @@ def write_versioned(path: pathlib.Path, text: str) -> str:
 
 
 def stamp_assets() -> None:
-    """Ajoute une empreinte (?v=…) aux fichiers CSS/JS/images d'index.html : chaque mise à jour change l'adresse,
-    le navigateur ne peut donc jamais mélanger une page récente avec une ancienne feuille de style."""
+    """Copie app.js, style.css, data.js et les images d'index.html sous un nom contenant leur empreinte
+    (assets/dist/app.<hash>.js). Le CDN de Render ignore les « ?v= » : seul un nouveau nom garantit qu'une
+    mise à jour est servie tout de suite, sans mélange entre une page récente et une ancienne feuille de style."""
     idx = ROOT / "index.html"
     html = idx.read_text()
+    dist = ROOT / "assets/dist"
+    if dist.exists():
+        shutil.rmtree(dist)
+    dist.mkdir(parents=True)
+    pat = re.compile(r'((?:src|href)=")assets/(?:dist/)?([a-z0-9_-]+)(?:\.[0-9a-f]{10})?(\.[a-z]+)(?:\?v=[0-9a-f]+)?"')
 
     def repl(m):
-        path = m.group(2)
-        f = ROOT / path
+        name, ext = m.group(2), m.group(3)
+        f = ROOT / "assets" / f"{name}{ext}"
         if not f.exists():
             return m.group(0)
-        return f'{m.group(1)}{path}?v={hashlib.sha1(f.read_bytes()).hexdigest()[:10]}"'
-    idx.write_text(re.sub(r'((?:src|href)=")(assets/[^"?]+)(?:\?v=[0-9a-f]+)?"', repl, html))
+        h = hashlib.sha1(f.read_bytes()).hexdigest()[:10]
+        shutil.copyfile(f, dist / f"{name}.{h}{ext}")
+        return f'{m.group(1)}assets/dist/{name}.{h}{ext}"'
+    idx.write_text(pat.sub(repl, html))
 
 
 def main() -> None:
@@ -233,17 +242,27 @@ def main() -> None:
         chunks: dict[int, dict] = {}
         for pmid, ab in abstracts.items():
             chunks.setdefault(int(pmid) % N_CHUNKS, {})[pmid] = ab
-        for i, ch in chunks.items():
-            write_versioned(ROOT / "assets/abs" / t.stem / f"{i:02d}.json", json.dumps(ch, ensure_ascii=False, separators=(",", ":")))
+        texts = {i: json.dumps(ch, ensure_ascii=False, separators=(",", ":")) for i, ch in sorted(chunks.items())}
+        ah = hashlib.sha1("".join(texts.values()).encode()).hexdigest()[:10]
+        for old in (ROOT / "assets/abs").glob(f"{t.stem}*"):
+            if old.name != f"{t.stem}.{ah}":
+                shutil.rmtree(old) if old.is_dir() else old.unlink()
+        for i, txt in texts.items():
+            write_versioned(ROOT / "assets/abs" / f"{t.stem}.{ah}" / f"{i:02d}.json", txt)
+        meta["abs"] = f"assets/abs/{t.stem}.{ah}"
         js = f'(window.LUMINA_T = window.LUMINA_T || {{}})["{t.stem}"] = ' + json.dumps([slim(a) for a in arts], ensure_ascii=False, separators=(",", ":")) + ";\n"
-        h = write_versioned(ROOT / "assets/topics" / f"{t.stem}.js", js)
-        meta["file"] = f"assets/topics/{t.stem}.js?v={h}"
+        h = hashlib.sha1(js.encode()).hexdigest()[:10]
+        for old in (ROOT / "assets/topics").glob(f"{t.stem}.*js"):
+            if old.name != f"{t.stem}.{h}.js":
+                old.unlink()
+        write_versioned(ROOT / "assets/topics" / f"{t.stem}.{h}.js", js)
+        meta["file"] = f"assets/topics/{t.stem}.{h}.js"
         meta["years"] = sorted({a["year"] for a in arts})
         topics.append(meta)
         syntheses[t.stem] = syn
         all_articles += arts
         print(f"[{t.stem}] {meta['n']} notices ({meta['n_curated']} fiches rédigées), "
-              f"{(ROOT / 'assets/topics' / f'{t.stem}.js').stat().st_size // 1024} Ko")
+              f"{len(js.encode()) // 1024} Ko")
     if args.prune_pdfs:
         keep = {a["pmid"] for a in all_articles if a["curated"]}
         for p in (ROOT / "pdfs").glob("*.pdf"):
