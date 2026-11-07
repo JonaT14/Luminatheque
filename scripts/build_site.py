@@ -44,7 +44,7 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict]:
         if not r:
             raise SystemExit(f"PMID {pmid} curé mais absent de data/raw")
         date = r["date_online"]
-        if date[:4] < topic.get("since", "0000")[:4] and r.get("date_pub"):
+        if date[:4] < topic.get("since", "0000")[:4] and r.get("date_pub") and r["date_pub"][:4] >= topic.get("since", "0000")[:4]:
             date = r["date_pub"]  # mis en ligne avant la période, paru dans un numéro de la période
         pdf = ROOT / "pdfs" / f"{pmid}.pdf"
         authors = r.get("authors") or []
@@ -72,7 +72,7 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict]:
 
     syn_path = cur_dir / "syntheses.json"
     syntheses = json.loads(syn_path.read_text()) if syn_path.exists() else {}
-    meta = {k: topic.get(k) for k in ("id", "label", "short", "color", "description", "cadence", "since", "status", "hero", "exclusions_note")}
+    meta = {k: topic.get(k) for k in ("id", "label", "short", "color", "description", "cadence", "since", "status", "hero", "exclusions_note", "subgroups")}
     meta["pubmed_query"] = topic["pubmed_query"]
     meta["n_raw"] = len(raw)
     meta["n_excluded"] = len(excluded)

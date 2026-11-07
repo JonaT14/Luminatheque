@@ -1,0 +1,132 @@
+[
+{"pmid":"42060269","title_fr":"PBM dans le syndrome génito-urinaire de la ménopause : essai en double aveugle contre placebo","type":"rct","level":2,"pop":"adulte","ctx":["GSM"],"aim":"traitement","mode":["laser","intravaginal"],"nm":[808],"n":null,"effect":"favorable","theme":"Syndrome génito-urinaire","key":true,
+"l1":"Chez des femmes ménopausées, quatre séances de laser 808 nm intravaginal réduisent les fuites urinaires et améliorent sécheresse et brûlures par rapport au placebo, sans effet sur la sexualité.",
+"l2":"Essai brésilien randomisé en double aveugle chez des femmes de plus de 50 ans présentant au moins un symptôme du syndrome génito-urinaire. Laser 808 nm, 8 points vaginaux, 4 J par point, une séance par semaine pendant 4 semaines ; le groupe placebo suivait le même protocole, appareil éteint.\n\nLes pertes urinaires diminuent nettement et le score ICIQ-SF s'améliore sous PBM. La sécheresse et les brûlures vaginales sont améliorées. La pression pelvienne et la fonction sexuelle ne diffèrent pas du placebo. C'est la publication des résultats du protocole paru en 2024 (PLoS One).",
+"l3":{"points":["Protocole : 808 nm, 4 J/point, 40 s, 8 points, 4 séances hebdomadaires.","Critère principal : fuites urinaires ; ICIQ-SF amélioré.","Fonction sexuelle et pression du plancher pelvien : pas de différence."],"limites":["Effectif non précisé dans le résumé ; suivi court."],"pratique":"Option non hormonale pour l'incontinence et la sécheresse de la ménopause, notamment quand les œstrogènes locaux sont contre-indiqués."}},
+
+{"pmid":"42566226","title_fr":"PBM et rééducation périnéale dans le syndrome génito-urinaire : résultats d'un essai randomisé","type":"rct","level":2,"pop":"adulte","ctx":["GSM"],"aim":"traitement","mode":["laser","intravaginal"],"nm":[],"n":null,"effect":"mitigé","theme":"Syndrome génito-urinaire",
+"l1":"Ajouter une PBM intravaginale active à la rééducation du plancher pelvien améliore la fonction sexuelle (FSFI +4,6 points) et l'incontinence (ICIQ-SF −3 points) par rapport à la PBM simulée, sans gain mesurable de force musculaire.",
+"l2":"Essai à trois bras chez des femmes de 45 à 65 ans ménopausées depuis au moins un an : rééducation + PBM active, rééducation + PBM simulée, rééducation seule ; 16 séances de 50 minutes sur 8 semaines.\n\nLa manométrie ne montre pas de différence. Le score FSFI total (différence 4,55 ; IC95 % 0,57–8,52) et le sous-score orgasme sont meilleurs avec la PBM active. L'ICIQ-SF s'améliore de 3,06 points, un seuil cliniquement significatif. Résultats du protocole publié dans PeerJ en 2024.",
+"l3":{"points":["FSFI : DM 4,55 (IC95 % 0,57–8,52 ; d = 1,05).","ICIQ-SF : −3,06 points en faveur de la PBM active.","Manométrie périnéale : pas de différence."],"limites":["Effectif non précisé dans le résumé."],"pratique":"La PBM peut compléter utilement la rééducation périnéale, surtout pour la sexualité et les fuites."}},
+
+{"pmid":"42329990","title_fr":"PBM 660 nm intravaginale dans le syndrome génito-urinaire de la ménopause : étude prospective","type":"nrct","level":4,"pop":"adulte","ctx":["GSM"],"aim":"traitement","mode":["LED","intravaginal"],"nm":[660],"n":27,"effect":"favorable","theme":"Syndrome génito-urinaire",
+"l1":"Chez 27 femmes ménopausées, huit séances de PBM 660 nm par sonde vaginale ramènent toutes les patientes au-dessus du seuil d'atrophie (index de santé vaginale) à 3 mois, et améliorent les symptômes urinaires.",
+"l2":"Étude taïwanaise monocentrique (NCT06074120) : PBM pulsée à 660 nm par sonde en silicone, 30 minutes par semaine pendant 8 semaines ; fluence de 29 J/cm² au fond vaginal et 12 J/cm² sur la paroi. L'index de santé vaginale s'améliore à chaque visite.\n\nLes questionnaires urinaires (UDI-6, IIQ-7, OABSS) s'améliorent durablement. Le FSFI progresse, mais seules 13,3 % des femmes atteignent le seuil de fonction sexuelle normale. Aucun effet indésirable.",
+"l3":{"points":["Âge moyen 62,9 ans ; suivi à 3 mois.","100 % au-dessus du seuil non atrophique à 3 mois.","FSFI ≥ 26,5 chez 13,3 % seulement."],"limites":["Sans groupe témoin."],"pratique":"Option non hormonale intéressante chez les femmes âgées polymédiquées."}},
+
+{"pmid":"42228167","title_fr":"PBM contre la dysfonction sexuelle induite par l'hormonothérapie chez les femmes atteintes de cancer du sein","type":"nrct","level":3,"pop":"adulte","ctx":["onco"],"aim":"traitement","mode":["LED","intravaginal"],"nm":[440,660],"n":32,"effect":"favorable","theme":"Après cancer","key":true,
+"metric":{"kind":"values","outcome":"Douleur vaginale (EVA 0–10)","a_label":"Avant PBM","a":9.46,"b_label":"Après 4 séances","b":1.04,"unit":"/10"},
+"l1":"Chez 24 femmes sous hormonothérapie pour un cancer du sein, quatre séances de PBM LED (bleu 440 nm + rouge 660 nm) font passer la douleur vaginale de 9,5 à 1/10 ; 79 % n'ont plus de douleur.",
+"l2":"Étude brésilienne quasi expérimentale : PBM intra- et extracavitaire hebdomadaire (8 min de bleu, 20 min de rouge). Huit femmes éligibles qui ont refusé par gêne servent de groupe d'observation.\n\nLa fonction sexuelle (QS-F) passe de 23 à 87, et 95,8 % des femmes déclarent une fonction bonne à excellente. Le groupe non traité ne change pas. Aucun effet indésirable. Un résultat important car les œstrogènes locaux sont souvent évités dans cette population.",
+"l3":{"points":["EVA : 9,46 ± 0,98 → 1,04 ± 2,17 (p < 0,0001).","QS-F : 23,25 → 87,21 (p < 0,0001).","Groupe observationnel non traité (n = 8) : pas d'évolution."],"limites":["Non randomisé ; groupe témoin auto-sélectionné et petit."],"pratique":"Piste non hormonale prioritaire pour la sécheresse et la dyspareunie sous inhibiteurs de l'aromatase ; à confirmer par essai randomisé."}},
+
+{"pmid":"41704470","title_fr":"PBM d'un phénomène de rappel radique déclenché par le cisplatine chez une patiente atteinte de cancer du col : cas et revue","type":"cases","level":4,"pop":"adulte","ctx":["onco"],"aim":"traitement","mode":["laser","LED"],"nm":[450,590,660,808],"n":1,"effect":"favorable","theme":"Après cancer",
+"l1":"Une patiente avec réaction de rappel radique vulvaire, anale et inguinale après cisplatine s'améliore nettement en une semaine de PBM multi-longueurs d'onde (laser 660/808 nm, LED 450 et 590 nm).",
+"l2":"Revue exploratoire (8 études : traitements surtout corticoïdes topiques et antihistaminiques) et cas clinique. La PBM associe réparation tissulaire (660/808 nm), traitement de la sténose vaginale (450 nm) et de l'hyperpigmentation (590 nm).",
+"l3":{"points":["Sténose vaginale et fissures améliorées."],"limites":["Cas unique."],"pratique":"Option à connaître pour les toxicités cutanéomuqueuses pelviennes rares."}},
+
+{"pmid":"41975391","title_fr":"Traitements de la vulvodynie : revue systématique et méta-analyse en réseau","type":"ma","level":1,"pop":"adulte","ctx":["vulve"],"aim":"traitement","mode":[],"nm":[],"n":1893,"effect":"favorable","theme":"Vulvodynie","key":true,
+"l1":"34 essais (1 893 femmes) : les thérapies « tissulaires » (PBM, laser basse énergie, TENS vaginale, ondes de choc) arrivent en tête contre placebo pour la douleur de la vulvodynie ; les médicaments ne font pas mieux que le placebo.",
+"l2":"Méta-analyse bayésienne en réseau, risques de biais RoB 2, confiance évaluée par CINeMA. Douleur juste après traitement : les thérapies tissulaires réduisent la douleur de 16 points sur 100 contre placebo (IC95 % −24,1 à −7,9, confiance modérée) et sont classées premières (SUCRA 85 %).\n\nComparés à l'absence de traitement, la kinésithérapie multimodale, l'acupuncture et les approches psychologiques sont aussi efficaces. Limite : la PBM est regroupée avec d'autres techniques physiques.",
+"l3":{"points":["Thérapies tissulaires : POMP −16,1 contre placebo ; SUCRA 85,2 %.","Médicaments : pas de supériorité sur le placebo."],"limites":["PBM regroupée avec TENS et ondes de choc."],"pratique":"Dans la vulvodynie, la PBM a sa place dans une prise en charge physique et multimodale."}},
+
+{"pmid":"41786091","title_fr":"Efficacité et critères prédictifs de succès de la PBM dans les douleurs vulvaires et vaginales","type":"cohort","level":4,"pop":"adulte","ctx":["vulve"],"aim":"traitement","mode":["laser","intravaginal"],"nm":[],"n":52,"effect":"mitigé","theme":"Vulvodynie",
+"l1":"Étude française sur 52 femmes : la PBM endovaginale réussit dans 52 % des douleurs vulvaires et vaginales, plutôt sans atrophie, sans brûlure et avant la ménopause, mais sans facteur prédictif confirmé.",
+"l2":"Cohorte rétrospective monocentrique (6 à 8 séances par sonde endovaginale). Succès défini par un PGI-I de 1 ou 2. En analyse univariée, moins de brûlures (OR 0,13), absence d'atrophie et statut non ménopausé sont associés au succès ; aucun facteur ne résiste en multivarié.",
+"l3":{"points":["Taux de succès 52 %."],"limites":["Rétrospectif, sans témoin."],"pratique":"Informer les patientes d'un taux de réponse d'environ une sur deux."}},
+
+{"pmid":"41896860","title_fr":"Laser vaginal dans la prise en charge du syndrome douloureux vésical et de la vulvodynie","type":"review","level":5,"pop":"adulte","ctx":["vulve","pelvien"],"aim":"traitement","mode":["intravaginal"],"nm":[],"n":null,"effect":"favorable","theme":"Vulvodynie",
+"l1":"Revue narrative : la PBM transvaginale émerge, avec les lasers non ablatifs Er:YAG et Nd:YAG, pour le syndrome douloureux vésical associé à la vulvodynie.",
+"l2":"Les auteurs mettent en avant des mécanismes communs (épithélium, neuro-inflammation, hypertonie du plancher pelvien) et une prise en charge multidisciplinaire. Les données spécifiques restent limitées.",
+"l3":{"points":["PBM transvaginale : effets mitochondriaux, anti-inflammatoires, neuromodulateurs."],"limites":["Revue narrative."],"pratique":"—"}},
+
+{"pmid":"42809639","title_fr":"Nouvelles interventions régénératives en médecine sexuelle : recommandations de l'ICSM 2024","type":"guideline","level":1,"pop":"mixte","ctx":["général"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"mitigé","theme":"Recommandations","key":true,
+"l1":"La 5e consultation internationale de médecine sexuelle juge les preuves de la PBM (et des autres techniques régénératives) insuffisantes pour une recommandation, malgré une bonne tolérance.",
+"l2":"Comité d'experts : cellules souches, PRP, électrostimulation, PBM, radiofréquence, laser et ondes de choc. Les études souffrent de limites méthodologiques importantes. Les preuves les plus fortes concernent les ondes de choc dans la dysfonction érectile et le laser CO2 dans le syndrome génito-urinaire.",
+"l3":{"points":["Pas de consensus pour recommander la PBM en médecine sexuelle."],"limites":["Avis d'experts."],"pratique":"Proposer la PBM comme option complémentaire, en expliquant le niveau de preuve encore limité."}},
+
+{"pmid":"41567046","title_fr":"Gynécologie régénérative et fonctionnelle en 2025 : promesses, preuves et applications","type":"review","level":5,"pop":"adulte","ctx":["général"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"mitigé","theme":"Revue générale",
+"l1":"Revue de la Revue médicale suisse : PRP, toxine, acide hyaluronique, lasers, radiofréquence et PBM sont prometteurs dans les pathologies vulvaires, la vulvodynie et le périnée post-partum, avec un niveau de preuve encore inégal.",
+"l2":"Synthèse francophone récente. Ces techniques doivent compléter la prise en charge conventionnelle et être réalisées par des praticiens formés.",
+"l3":{"points":["Article en français."],"limites":["Revue narrative."],"pratique":"Bonne introduction francophone."}},
+
+{"pmid":"42889154","title_fr":"Paramètres et mécanisme de la photothérapie LED dans un modèle de vaginose bactérienne (rat)","type":"preclinical","level":5,"pop":"—","ctx":["vulve"],"aim":"traitement","mode":["LED"],"nm":[405,415,430,630,850],"n":null,"effect":"favorable","theme":"Infections vulvovaginales",
+"l1":"La LED bleue 415 nm (50 mW/cm², 30 min) détruit Gardnerella vaginalis et E. coli sans toxicité pour les cellules vaginales, et réduit l'inflammation chez le rat.",
+"l2":"Comparaison de cinq longueurs d'onde ; le 415 nm est le plus efficace. Mécanisme : production d'espèces réactives de l'oxygène dans les bactéries et fragmentation de leur ADN.",
+"l3":{"points":["Dose optimale : 90 J/cm²."],"limites":["Modèle animal."],"pratique":"—"}},
+
+{"pmid":"41939583","title_fr":"Mécanismes de la PBM dans la dysménorrhée primaire : revue narrative","type":"review","level":5,"pop":"adulte","ctx":["pelvien"],"aim":"traitement","mode":[],"nm":[610,630],"n":null,"effect":"—","theme":"Dysménorrhée",
+"l1":"La lumière rouge (610–630 nm) agirait sur la dysménorrhée via les médiateurs inflammatoires et le métabolisme des lipides (prostaglandines).",
+"l2":"Synthèse des études avec biomarqueurs et des travaux mécanistiques, utile pour choisir la longueur d'onde.",
+"l3":{"points":["Cibles : prostaglandines, mitochondries, lipides."],"limites":["Revue narrative."],"pratique":"—"}},
+
+{"pmid":"42239956","title_fr":"PBM sur points d'acupuncture locaux ou distaux dans la dysménorrhée primaire : protocole","type":"protocol","level":0,"pop":"adulte","ctx":["pelvien"],"aim":"traitement","mode":["LED"],"nm":[],"n":60,"effect":"—","theme":"Dysménorrhée",
+"l1":"Protocole d'essai pilote (60 femmes) comparant la photothérapie sur points locaux et distaux, 7 jours avant les règles pendant trois cycles.",
+"l2":"Critère principal : EVA ; biosignaux multiples (ECG, EMG, conductance cutanée).",
+"l3":{"points":["Pas encore de résultats."],"limites":["Protocole."],"pratique":"—"}},
+
+{"pmid":"42207758","title_fr":"PBM contre la douleur de pose du stérilet au cuivre : protocole d'essai en double aveugle","type":"protocol","level":0,"pop":"adulte","ctx":["pelvien"],"aim":"prévention","mode":[],"nm":[],"n":72,"effect":"—","theme":"Douleurs pelviennes",
+"l1":"Protocole brésilien (72 femmes) : la PBM peut-elle réduire la douleur lors de la pose d'un DIU au cuivre, un frein majeur à son utilisation ?",
+"l2":"PBM active contre simulation, mesure par EVA. Pas encore de résultats.",
+"l3":{"points":["Randomisation 36/36."],"limites":["Protocole."],"pratique":"—"}},
+
+{"pmid":"42307744","title_fr":"PBM contre la douleur, pour la cicatrisation et la consommation d'antalgiques après déchirure périnéale : essai en double aveugle","type":"rct","level":2,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[660],"n":59,"effect":"neutre","theme":"Périnée post-partum","key":true,
+"l1":"Chez 59 accouchées avec déchirure ou épisiotomie, la PBM 660 nm (4 J) n'améliore ni la douleur ni la cicatrisation par rapport au placebo, mais réduit un peu la consommation d'antalgiques.",
+"l2":"Essai chilien en double aveugle, intention de traiter. Douleur et cicatrisation (REEDA) s'améliorent dans les deux groupes sans différence. Le groupe PBM prend moins d'antalgiques et les espace davantage.",
+"l3":{"points":["Évaluation jusqu'à 7–15 jours post-partum."],"limites":["Dose faible (4 J)."],"pratique":"Résultat négatif cohérent avec les méta-analyses périnéales de 2025–2026."}},
+
+{"pmid":"41892840","title_fr":"PBM et douleur et cicatrisation des épisiotomies et déchirures de grade 2–3 : cohorte prospective","type":"cohort","level":3,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[808],"n":183,"effect":"favorable","theme":"Périnée post-partum",
+"l1":"Dans une maternité portugaise, la PBM 808 nm quotidienne réduit la douleur périnéale de 1,7 point par rapport aux femmes non traitées (appariement par score de propension), avec une tendance à mieux cicatriser.",
+"l2":"149 femmes traitées et 34 non traitées. PBM routinière : 808 nm, 100 mW, 5 points périlésionnels, 4 J/cm² par jour pendant l'hospitalisation.",
+"l3":{"points":["Différence de douleur : 1,68 point (p < 0,001)."],"limites":["Non randomisé, groupe témoin petit et auto-sélectionné."],"pratique":"Les lésions plus sévères (grade 2–3) pourraient mieux répondre que les petites déchirures."}},
+
+{"pmid":"42217018","title_fr":"Infrarouge et laser contre la douleur et pour la cicatrisation des lésions périnéales post-partum : méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":null,"effect":"neutre","theme":"Périnée post-partum",
+"l1":"Neuf études : ni l'infrarouge lointain ni le laser basse énergie ne font mieux que le placebo ou les soins habituels sur la douleur et la cicatrisation périnéales post-partum.",
+"l2":"Revue enregistrée (PROSPERO). Deux essais laser contre placebo : pas de différence de douleur à 20–24 h ni à 40–48 h, ni de cicatrisation.",
+"l3":{"points":["LLLT contre placebo : DM 0,12 (IC95 % −1,74 à 1,98) à 20–24 h."],"limites":["Très peu d'essais poolés."],"pratique":"—"}},
+
+{"pmid":"41682644","title_fr":"PBM et douleur et cicatrisation après épisiotomie : revue systématique et méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":null,"effect":"neutre","theme":"Périnée post-partum",
+"l1":"Huit études : pas de bénéfice significatif de la PBM sur la douleur (DMS 0,04) ni la cicatrisation après épisiotomie ; certitude GRADE très faible.",
+"l2":"Méta-analyse incluant essais randomisés et non randomisés. Hétérogénéité considérable (I² 91–94 %), plusieurs essais à risque de biais élevé.",
+"l3":{"points":["Douleur : DMS 0,04 (IC95 % −0,60 à 0,68)."],"limites":["Hétérogénéité très forte."],"pratique":"—"}},
+
+{"pmid":"41616809","title_fr":"Moyens électrophysiques contre la douleur périnéale aiguë après accouchement : méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":1970,"effect":"neutre","theme":"Périnée post-partum","key":true,
+"l1":"17 essais (1 970 accouchées) : la cryothérapie est la mieux prouvée contre la douleur périnéale ; le laser basse énergie n'est pas plus efficace que le placebo (confiance modérée).",
+"l2":"Méta-analyse avec GRADE. Cryothérapie : −1,57 point jusqu'à 4 h (confiance élevée). TENS : efficace associée aux soins de routine (confiance modérée). Laser : DM 0,03 contre placebo.",
+"l3":{"points":["LLLT contre placebo : DM 0,03 (IC95 % −0,69 à 0,76)."],"limites":["Protocoles laser souvent à faible dose."],"pratique":"Préférer la cryothérapie en première intention pour la douleur périnéale immédiate."}},
+
+{"pmid":"42857478","title_fr":"Rééducation physique de la morbidité périnéale post-partum : méta-analyse d'essais randomisés","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":null,"effect":"neutre","theme":"Périnée post-partum",
+"l1":"Neuf essais : la TENS réduit la douleur périnéale à court terme (DMS −1,19), pas le laser basse énergie (DMS −0,16).",
+"l2":"Méta-analyse PRISMA 2020 (recherche jusqu'en avril 2026). Le refroidissement est favorable sur l'œdème et la douleur immédiate.",
+"l3":{"points":["LLLT : DMS −0,16 (IC95 % −0,52 à 0,19)."],"limites":["Peu d'essais par modalité."],"pratique":"—"}},
+
+{"pmid":"42742785","title_fr":"PBM contre le traumatisme périnéal après accouchement : protocole d'essai randomisé","type":"protocol","level":0,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[808],"n":null,"effect":"—","theme":"Périnée post-partum",
+"l1":"Protocole d'essai en double aveugle : une séance de laser 808 nm dans les 12 h suivant l'accouchement contre la douleur périnéale et l'œdème vulvaire.",
+"l2":"Suivi jusqu'à 3 mois : douleur, œdème, fonctionnement maternel, incontinence, sexualité.",
+"l3":{"points":["Analyse en intention de traiter, modèles mixtes."],"limites":["Protocole."],"pratique":"—"}},
+
+{"pmid":"41740971","title_fr":"Laser basse énergie et douleur des mamelons en post-partum précoce : essai randomisé","type":"rct","level":2,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":60,"effect":"favorable","theme":"Allaitement",
+"l1":"Chez 60 accouchées allaitantes, le laser (rouge sur le mamelon, infrarouge sur l'aréole) réduit la douleur dès 30 minutes et jusqu'à 7 jours par rapport à la simulation.",
+"l2":"Essai multicentrique en double aveugle. Douleur plus faible à 1 h, 6 h, 12 h et 7 jours. Pas de différence de satisfaction ; aucun effet indésirable.",
+"l3":{"points":["Protocole : 2 J rouge au centre du mamelon, 4 J infrarouge en croix sur l'aréole."],"limites":["Cicatrisation non différente dans le résumé."],"pratique":"Option utile pour éviter un sevrage précoce lié à la douleur."}},
+
+{"pmid":"42615775","title_fr":"PBM précoce contre la douleur et les lésions des mamelons : essai pilote randomisé","type":"rct","level":2,"pop":"adulte","ctx":["obstétrique"],"aim":"prévention","mode":["laser"],"nm":[],"n":58,"effect":"—","theme":"Allaitement",
+"l1":"Essai pilote brésilien (58 accouchées, 4 bras dont ILIB) : un grand essai est faisable ; pas de résultat d'efficacité.",
+"l2":"Les données ont servi à ajuster le protocole et le calcul d'effectif ; 20 % de perdues de vue.",
+"l3":{"points":["Bras : PBM locale, ILIB, les deux, témoin."],"limites":["Pilote de faisabilité."],"pratique":"—"}},
+
+{"pmid":"42446177","title_fr":"L'électrothérapie dans l'accompagnement de l'allaitement","type":"review","level":5,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Allaitement",
+"l1":"Retour d'expérience irlandais : des consultantes en lactation utilisent la PBM pour les lésions du mamelon et les ultrasons pour l'engorgement, avec une forte satisfaction.",
+"l2":"Article de pratique décrivant l'introduction de ces outils en santé communautaire.",
+"l3":{"points":["Indication PBM : traumatismes du mamelon."],"limites":["Retour d'expérience."],"pratique":"—"}},
+
+{"pmid":"42030720","title_fr":"PBM proche infrarouge et maturation in vitro d'ovocytes humains immatures","type":"preclinical","level":5,"pop":"—","ctx":["fertilité"],"aim":"traitement","mode":["laser"],"nm":[810],"n":260,"effect":"favorable","theme":"Fertilité","key":true,
+"l1":"Sur 260 ovocytes humains immatures, une minute de laser 810 nm accélère la maturation (deux fois plus rapide) et augmente l'ATP, sans stress oxydatif.",
+"l2":"Ovocytes de 114 femmes en stimulation ovarienne, randomisés PBM ou témoin. L'activité de phosphorylation oxydative augmente de 194 à 240 %. Les auteurs demandent une évaluation de la sécurité embryonnaire avant usage clinique.",
+"l3":{"points":["810 nm, 1 W, 60 J/cm², 1 min."],"limites":["In vitro ; sécurité embryonnaire non évaluée."],"pratique":"—"}},
+
+{"pmid":"42272970","title_fr":"LED 630 nm, fonction ovarienne et fertilité chez la femme d'âge reproductif avancé","type":"preclinical","level":4,"pop":"adulte","ctx":["fertilité"],"aim":"traitement","mode":["LED"],"nm":[630],"n":null,"effect":"favorable","theme":"Fertilité",
+"l1":"La LED 630 nm améliore la fonction mitochondriale des ovocytes chez la souris âgée ; dans un pilote clinique, un dispositif portable augmente le compte de follicules antraux (2 → 6).",
+"l2":"Mécanisme : activation du complexe II mitochondrial (SDHB). Chez les femmes à réserve ovarienne diminuée, le nombre d'ovocytes recueillis tend à augmenter (2 → 5, NS).",
+"l3":{"points":["AFC : médiane 2 → 6 (p = 0,011)."],"limites":["Pilote sans témoin."],"pratique":"—"}}
+]

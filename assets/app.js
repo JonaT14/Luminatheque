@@ -35,7 +35,9 @@ const LEVELS = {
   0: ["Non gradé", "Protocole, enquête, étude qualitative, bibliométrie, correspondance"],
 };
 const EFFECTS = { favorable: ["Favorable à la PBM", "var(--fav)"], "mitigé": ["Mitigé", "var(--mit)"], neutre: ["Neutre / équivalent", "var(--neu)"], "défavorable": ["Défavorable", "var(--def)"] };
-const CTX = { ORL: "Radiothérapie ORL", chimio: "Chimiothérapie", CSH: "Greffe de CSH", mixte: "Contextes mixtes", CIPN: "Neuropathie chimio-induite", "diabète": "Neuropathie diabétique", compression: "Compressions nerveuses", "lésion nerveuse": "Lésions nerveuses", orofaciale: "Orofaciale", autres: "Autres" };
+const CTX = { ORL: "Radiothérapie ORL", chimio: "Chimiothérapie", CSH: "Greffe de CSH", mixte: "Contextes mixtes", CIPN: "Neuropathie chimio-induite", "diabète": "Neuropathie diabétique", compression: "Compressions nerveuses", "lésion nerveuse": "Lésions nerveuses", orofaciale: "Orofaciale", autres: "Autres", GSM: "Sécheresse & syndrome génito-urinaire", onco: "Après cancer & sénologie", vulve: "Vulve & vagin", pelvien: "Dysménorrhée & douleurs pelviennes", "obstétrique": "Périnée, accouchement & allaitement", "fertilité": "Fertilité & ovaire", "général": "Revues & recommandations" };
+const SUB_DESC = { GSM: "Atrophie vulvovaginale, sécheresse, dyspareunie, incontinence de la ménopause", onco: "Toxicités vulvovaginales après cancer du sein ou gynécologique, sténose, plaies", vulve: "Vulvodynie, vestibulodynie, lichen scléreux, candidose et vaginose", pelvien: "Dysménorrhée, douleur pelvienne chronique, cystite interstitielle", "obstétrique": "Périnée post-partum, travail, crevasses de l'allaitement", "fertilité": "Ovaire, ovocytes, endomètre, oncofertilité" };
+const yearsOf = (list) => [...new Set(list.map((a) => a.year))].sort();
 const READ = { 1: ["Express", "1–2 lignes"], 2: ["Essentiel", "1–2 paragraphes"], 3: ["Approfondi", "analyse complète"] };
 const MONTHS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
 const ICON = {
@@ -267,11 +269,12 @@ function chartSpectrum(list) {
   s += `<rect x="${L}" y="${band}" width="${W - L - R}" height="14" rx="3" fill="url(#spec)"/>`;
   s += `<text x="${x(550)}" y="${band + 34}" text-anchor="middle">Visible</text><text x="${x(900)}" y="${band + 34}" text-anchor="middle">Proche infrarouge</text>`;
   for (const v of [400, 600, 800, 1000]) s += `<text x="${x(v)}" y="${band + 52}" text-anchor="middle" class="mono">${v}</text>`;
+  let lastLabel = -99;
   [...counts.entries()].sort((a, b) => a[0] - b[0]).forEach(([nm, c]) => {
     const h = 12 + (band - 30) * c / max; const cx = x(nm);
     const who = list.filter((a) => a.nm?.map(Math.round).includes(nm)).map((a) => `${a.journal_abbr} ${a.year}`).slice(0, 6).join("<br>");
     s += `<line x1="${cx}" x2="${cx}" y1="${band - 2}" y2="${band - h}" stroke="var(--ink-2)" stroke-width="2"/><circle cx="${cx}" cy="${band - h}" r="${c > 3 ? 7 : 5}" fill="var(--surface)" stroke="var(--accent)" stroke-width="2.5"/>`;
-    if (c >= 3 || nm === 940 || nm === 1064) s += `<text x="${cx}" y="${band - h - 12}" text-anchor="middle" style="font-weight:700;fill:var(--ink)" class="mono">${nm}</text>`;
+    if ((c >= 3 || nm === 940 || nm === 1064) && cx - lastLabel > 26 && (lastLabel = cx)) s += `<text x="${cx}" y="${band - h - 12}" text-anchor="middle" style="font-weight:700;fill:var(--ink)" class="mono">${nm}</text>`;
     s += `<rect class="hit" x="${cx - 9}" y="${band - h - 12}" width="18" height="${h + 14}" data-tip="${esc(`<b>${nm} nm</b> · ${c} étude(s)<br>${who}`)}"/>`;
   });
   return `<div class="chart spectrum-wrap">${s}</svg></div>`;
@@ -313,7 +316,7 @@ function viewSoon(id) {
     <span class="soon-badge"><i></i>Thème à venir</span>
     <h1>${esc(t.label)}</h1>
     <p class="muted" style="max-width:56ch;font-size:1.02rem">${esc(t.description || "")}</p>
-    <p class="muted" style="max-width:56ch">Ce thème suivra le même principe que les autres : revue de la littérature depuis 2024, fiches en trois niveaux de lecture, niveaux de preuve, synthèses annuelles et étude comparative, puis veille hebdomadaire.</p>
+    <p class="muted" style="max-width:56ch">Ce thème suivra le même principe que les autres : revue de la littérature sur plusieurs années, fiches en trois niveaux de lecture, niveaux de preuve, synthèses annuelles et étude comparative, puis veille hebdomadaire.</p>
     <div class="chips" style="justify-content:center">${actives.map((x) => `<button class="chip" data-topic="${x.id}">Voir ${esc(x.label)}</button>`).join("")}</div>
   </section></div>`;
 }
@@ -330,17 +333,17 @@ function viewHome() {
   <section class="hero">
     <div class="hero-text">
       <span class="eyebrow">Veille photobiomodulation · ${esc(t.label)}</span>
-      <h1>Ce que la recherche a publié sur la <em>PBM et ${esc(t.hero || t.label.toLowerCase())}</em> depuis 2024</h1>
+      <h1>Ce que la recherche a publié sur la <em>PBM et ${esc(t.hero || t.label.toLowerCase())}</em> depuis ${esc((t.since || "2024").slice(0, 4))}</h1>
       <p class="lead">${list.length} publications PubMed analysées une par une, chacune lisible en trois niveaux, avec son niveau de preuve et, quand l'article est en accès libre, le PDF intégré.</p>
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="eyebrow">Niveau de lecture</span>${levelSwitch(state.level)}</div>
       <div class="syn-card">
-        <div class="panel-head" style="margin:0"><div style="display:grid;gap:6px"><span class="eyebrow">Synthèse 2024 → aujourd'hui</span><h3 style="font-size:1.08rem">${esc(g?.headline || "Synthèse")}</h3></div><a href="#syntheses" class="btn small">Toutes les synthèses</a></div>
+        <div class="panel-head" style="margin:0"><div style="display:grid;gap:6px"><span class="eyebrow">Synthèse ${esc((t.since || "2024").slice(0, 4))} → aujourd'hui</span><h3 style="font-size:1.08rem">${esc(g?.headline || "Synthèse")}</h3></div><a href="#syntheses" class="btn small">Toutes les synthèses</a></div>
         <div class="prose ${state.level === 1 ? "l1" : ""}">${synBody}</div>
       </div>
     </div>
     <div style="display:grid;gap:16px">
       <div class="kpis">
-        <div class="kpi"><b>${list.length}</b><span>publications analysées (${[2024, 2025, 2026].map((y) => list.filter((a) => a.year === y).length).join(" · ")} en 2024 · 2025 · 2026)</span></div>
+        <div class="kpi"><b>${list.length}</b><span>publications analysées, de ${yearsOf(list)[0]} à ${yearsOf(list).slice(-1)[0]}</span></div>
         <div class="kpi"><b>${rct}</b><span>essais randomisés</span></div>
         <div class="kpi"><b>${syn}</b><span>revues systématiques, méta-analyses et revues parapluie</span></div>
         <div class="kpi"><b>${list.filter((a) => a.pdf).length}</b><span>PDF en accès libre lisibles sur le site</span></div>
@@ -350,6 +353,8 @@ function viewHome() {
     </div>
   </section>
 
+  ${t.subgroups ? `<section class="panel"><div class="panel-head"><h2>Sous-groupes</h2><p>Cliquez pour voir les publications du sous-groupe</p></div><div class="grid-3">${t.subgroups.map((g) => { const xs = list.filter((a) => (a.ctx || []).includes(g));
+      return `<button type="button" class="card" data-sub="${g}" style="text-align:left;cursor:pointer;font:inherit;color:inherit"><span class="eyebrow">${xs.length} publications · ${xs.filter((a) => a.type === "rct").length} ECR · ${xs.filter((a) => groupOf(a) === "syn").length} synthèses</span><h3>${esc(CTX[g])}</h3><span class="muted" style="font-size:.85rem">${esc(SUB_DESC[g] || "")}</span><span class="badges">${Object.keys(EFFECTS).map((k) => { const n = xs.filter((a) => a.effect === k).length; return n ? `<span class="eff" data-e="${k}">${EFF_ICON[k]}${n}</span>` : ""; }).join("")}</span></button>`; }).join("")}</div></section>` : ""}
   <section class="grid-2">
     <div class="panel"><div class="panel-head"><h2>Dernières parutions</h2><a class="btn small" href="#publications">Tout voir</a></div><div style="display:grid;gap:10px">${latest.map((a) => card(a, { noSel: true })).join("")}</div></div>
     <div class="panel"><div class="panel-head"><h2>À retenir</h2><p>Les essais et synthèses les plus solides</p></div><div style="display:grid;gap:10px">${keys.map((a) => card(a, { noSel: true })).join("")}</div></div>
@@ -396,7 +401,7 @@ function viewPubs() {
       ${filterGroup("Type d'étude", "groups", ord(countBy(base, groupOf), GROUPS.map((g) => g.id)), (v) => GROUPS.find((g) => g.id === v).label)}
       ${filterGroup("Niveau de preuve", "levels", ord(countBy(base, (a) => a.level), [1, 2, 3, 4, 5, 0]), (v) => v ? `${v} · ${LEVELS[v][0]}` : "Non gradé")}
       ${filterGroup("Résultat", "effects", ord(countBy(base.filter((a) => EFFECTS[a.effect]), (a) => a.effect), Object.keys(EFFECTS)), (v) => EFFECTS[v][0])}
-      ${filterGroup("Contexte", "ctx", [...countBy(base, (a) => a.ctx || []).entries()].sort((a, b) => b[1] - a[1]), (v) => CTX[v] || v)}
+      ${filterGroup(topic().subgroups ? "Sous-groupe" : "Contexte", "ctx", [...countBy(base, (a) => a.ctx || []).entries()].sort((a, b) => b[1] - a[1]), (v) => CTX[v] || v)}
       ${filterGroup("Population", "pops", [...countBy(base.filter((a) => a.pop !== "—"), (a) => a.pop).entries()])}
       ${filterGroup("Thème", "themes", [...countBy(base, (a) => a.theme).entries()].sort((a, b) => b[1] - a[1]))}
       <div class="fgroup"><label class="check"><input type="checkbox" id="f-pdf" ${state.f.pdf ? "checked" : ""}> PDF disponible sur le site</label><label class="check"><input type="checkbox" id="f-key" ${state.f.key ? "checked" : ""}> Seulement « À retenir »</label></div>
@@ -490,12 +495,13 @@ function viewSyntheses() {
   setNav("syntheses");
   const S = D.syntheses[state.topic] || {}; const tabs = [["global", "Étude comparative 2024–2026"], ...Object.keys(S.years || {}).sort().reverse().map((y) => [y, "Bilan " + y])];
   const cur = state.synTab === "global" ? S.global : S.years?.[state.synTab];
-  const yearList = state.synTab === "global" ? all() : all().filter((a) => String(a.year) === state.synTab);
+  const inTab = (a, k) => { if (k === "global") return true; const m = String(k).match(/^(\d{4})\s*[–-]\s*(\d{4})$/); return m ? a.year >= +m[1] && a.year <= +m[2] : String(a.year) === String(k); };
+  const yearList = all().filter((a) => inTab(a, state.synTab));
   const body = !cur ? "" : state.level === 1 ? `<div class="prose l1"><p>${esc(cur.l1)}</p></div>` : state.level === 2 ? `<div class="prose">${paras(cur.l2)}</div>` : `<div class="prose">${cur.l3.map((s) => `<h4>${esc(s.h)}</h4><p>${esc(s.p)}</p>`).join("")}</div>`;
   const tbl = state.synTab === "global" && S.global?.table ? `<section class="panel"><div class="panel-head"><h2>Tableau comparatif</h2><p>Les faits marquants de chaque année, côte à côte</p></div><div class="cmp-table"><table><thead><tr><th></th>${S.global.table.cols.map((c) => `<th>${c}</th>`).join("")}</tr></thead><tbody>${S.global.table.rows.map((r) => `<tr><th>${esc(r.label)}</th>${r.cells.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div></section>` : "";
   const counts = (y) => { const xs = all().filter((a) => a.year === y); return [xs.length, xs.filter((a) => a.type === "rct").length, xs.filter((a) => groupOf(a) === "syn").length, xs.filter((a) => a.level && a.level <= 2).length, xs.filter((a) => a.effect === "favorable").length]; };
-  const stats = state.synTab === "global" ? `<section class="panel"><div class="panel-head"><h2>Les trois années en chiffres</h2></div><div class="cmp-table"><table><thead><tr><th></th><th>2024</th><th>2025</th><th>2026</th></tr></thead><tbody>
-      ${["Publications", "Essais randomisés", "Synthèses systématiques", "Niveau de preuve 1–2", "Résultat favorable"].map((l, i) => `<tr><th>${l}</th>${[2024, 2025, 2026].map((y) => `<td class="num">${counts(y)[i]}</td>`).join("")}</tr>`).join("")}</tbody></table></div></section>` : "";
+  const stats = state.synTab === "global" ? `<section class="panel"><div class="panel-head"><h2>La période en chiffres</h2></div><div class="cmp-table"><table><thead><tr><th></th>${yearsOf(all()).map((y) => `<th style="text-align:right">${y}</th>`).join("")}</tr></thead><tbody>
+      ${["Publications", "Essais randomisés", "Synthèses systématiques", "Niveau de preuve 1–2", "Résultat favorable"].map((l, i) => `<tr><th>${l}</th>${yearsOf(all()).map((y) => `<td class="num">${counts(y)[i]}</td>`).join("")}</tr>`).join("")}</tbody></table></div></section>` : "";
   app().innerHTML = `<div class="view">
     <div style="display:grid;gap:14px"><span class="eyebrow">Synthèses · ${esc(topic().label)}</span><h1>Bilans annuels et étude comparative</h1>
       <div class="syn-tabs">${tabs.map(([k, l]) => `<button class="chip" data-syn="${k}" aria-pressed="${state.synTab === k}">${l}</button>`).join("")}</div>
@@ -565,7 +571,7 @@ function claudePrompt(c, xs, ys) {
 function periodPicker(id, p, weeks) {
   return `<div class="period panel"><div style="display:flex;gap:10px;align-items:center"><span class="period-tag ${id.toLowerCase()}">${id}</span><b style="font-family:var(--f-display)">${esc(periodName(p))}</b></div>
     ${p.pmids ? `<p class="muted" style="font-size:.85rem">Articles cochés dans la liste des publications. <button class="btn small" data-clearsel="${id}">Revenir à une période</button></p>` : `
-    <div class="chips">${["2024", "2025", "2026"].map((y) => `<button class="chip" data-pp="${id}" data-y="${y}">${y}</button>`).join("")}<button class="chip" data-pp="${id}" data-y="s1">S1 → S20 de 2026</button><button class="chip" data-pp="${id}" data-y="4w">4 dernières semaines</button></div>
+    <div class="chips">${yearsOf(all()).slice(-4).map(String).map((y) => `<button class="chip" data-pp="${id}" data-y="${y}">${y}</button>`).join("")}<button class="chip" data-pp="${id}" data-y="s1">S1 → S20 de 2026</button><button class="chip" data-pp="${id}" data-y="4w">4 dernières semaines</button></div>
     <div class="dates"><label class="muted" style="font-size:.75rem">De la semaine<select data-wk="${id}-from" style="width:100%;border:1px solid var(--line);border-radius:8px;padding:6px;background:var(--surface);font:500 .8rem var(--f-display)">${weeks.map((k) => `<option ${k === weekOf(p.from).key ? "selected" : ""}>${k}</option>`).join("")}</select></label>
       <label class="muted" style="font-size:.75rem">à la semaine<select data-wk="${id}-to" style="width:100%;border:1px solid var(--line);border-radius:8px;padding:6px;background:var(--surface);font:500 .8rem var(--f-display)">${weeks.map((k) => `<option ${k === weekOf(p.to).key ? "selected" : ""}>${k}</option>`).join("")}</select></label></div>
     <div class="dates"><label class="muted" style="font-size:.75rem">ou du<input type="date" data-pd="${id}-from" value="${p.from}"></label><label class="muted" style="font-size:.75rem">au<input type="date" data-pd="${id}-to" value="${p.to}"></label></div>`}
@@ -641,6 +647,7 @@ document.addEventListener("click", async (e) => {
   const t = e.target.closest("button, [data-sel]"); if (!t) return;
   const d = t.dataset;
   if (d.topic) { setTopic(d.topic); return; }
+  if (d.sub) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : ""); state.f.ctx.add(d.sub); state.filtersOpen = true; location.hash = "publications"; return; }
   if (d.read) { state.level = +d.read; state.cardLevel.clear(); store.set("level", state.level); rerender(); }
   else if (d.aread) { state.cardLevel.set(location.hash.slice(9), +d.aread); rerender(); }
   else if (d.more) { state.cardLevel.set(d.more, Math.min(3, (state.cardLevel.get(d.more) || state.level) + 1)); rerender(); }

@@ -1,0 +1,86 @@
+[
+{"pmid":"39470875","title_fr":"Laser diode non ablatif à double longueur d'onde dans le syndrome génito-urinaire de la ménopause : étude prospective","type":"nrct","level":4,"pop":"adulte","ctx":["GSM"],"aim":"traitement","mode":["laser","intravaginal"],"nm":[],"n":22,"effect":"favorable","theme":"Syndrome génito-urinaire",
+"l1":"Chez 22 femmes ménopausées ne pouvant pas prendre d'hormones, trois séances de laser diode non ablatif réduisent la sécheresse (7,7 → 3,7/10), les brûlures et la dyspareunie jusqu'à 6 mois.",
+"l2":"Étude italienne (laser Leonardo, deux longueurs d'onde). Index de santé vaginale 12 → 19,3 à 6 mois ; fonction sexuelle améliorée ; aucun effet indésirable.",
+"l3":{"points":["Dyspareunie : 8,1 → 3,9.","FSFI-6 : 12,3 → 19,3."],"limites":["Sans témoin ; laser à effet thermique doux, à la frontière de la PBM."],"pratique":"Alternative non hormonale à court terme."}},
+
+{"pmid":"39621728","title_fr":"PBM vulvaire dans le syndrome génito-urinaire post-ménopausique : protocole d'essai en double aveugle","type":"protocol","level":0,"pop":"adulte","ctx":["GSM"],"aim":"traitement","mode":["laser"],"nm":[808],"n":60,"effect":"—","theme":"Syndrome génito-urinaire",
+"l1":"Protocole brésilien (60 femmes) : laser 808 nm vulvaire, 4 séances, contre placebo ; résultats publiés en 2026.",
+"l2":"808 nm, 100 mW, 4 J par point, 8 points vulvaires. Voir la fiche de 2026 (Climacteric).",
+"l3":{"points":["Résultats : PMID 42060269."],"limites":["Protocole."],"pratique":"—"}},
+
+{"pmid":"39624135","title_fr":"Rééducation périnéale associée à la PBM dans le syndrome génito-urinaire : protocole","type":"protocol","level":0,"pop":"adulte","ctx":["GSM"],"aim":"traitement","mode":["intravaginal"],"nm":[],"n":null,"effect":"—","theme":"Syndrome génito-urinaire",
+"l1":"Protocole d'essai à trois bras (rééducation seule, + PBM active, + PBM simulée) ; résultats publiés en 2026.",
+"l2":"16 séances, deux par semaine ; évaluation à la fin et à un mois. Voir PMID 42566226.",
+"l3":{"points":["Résultats : PMID 42566226."],"limites":["Protocole."],"pratique":"—"}},
+
+{"pmid":"38843530","title_fr":"Les lasers en gynécologie (série d'experts, Obstetrics & Gynecology)","type":"review","level":5,"pop":"adulte","ctx":["général"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"mitigé","theme":"Revue générale","key":true,
+"l1":"Revue de référence : les lasers fractionnés améliorent l'atrophie vaginale et le lichen à court terme avec des preuves faibles, et rien ne soutient solidement le laser basse énergie dans la douleur pelvienne chronique.",
+"l2":"Série « Clinical Expert » de l'ACOG. Elle rappelle la biophysique des lasers et la différence entre lasers ablatifs fractionnés et PBM. Les essais sont sous-dimensionnés, à risque de biais et sans suivi long.",
+"l3":{"points":["Pas de preuve forte pour le laser basse énergie dans la douleur pelvienne chronique."],"limites":["Avis d'experts."],"pratique":"Utile pour expliquer la différence entre laser vaginal ablatif et PBM."}},
+
+{"pmid":"39963016","title_fr":"Laser diode bleu en soutien du traitement du lichen scléreux vulvaire","type":"cohort","level":4,"pop":"adulte","ctx":["vulve"],"aim":"traitement","mode":["laser"],"nm":[],"n":12,"effect":"favorable","theme":"Lichen scléreux",
+"l1":"Chez 12 femmes, six séances de laser bleu en 2 semaines réduisent prurit, douleur, érythème et fissures du lichen scléreux vulvaire, sans effet indésirable à 4 mois.",
+"l2":"Étude italienne ; trois séances par semaine puis suivi sur 16 semaines.",
+"l3":{"points":["Signes objectifs et subjectifs améliorés."],"limites":["12 patientes, sans témoin."],"pratique":"—"}},
+
+{"pmid":"38727718","title_fr":"Laser basse énergie en complément du traitement du lichen scléreux vulvaire pour améliorer la qualité de vie","type":"cohort","level":4,"pop":"adulte","ctx":["vulve"],"aim":"traitement","mode":["laser"],"nm":[808],"n":100,"effect":"favorable","theme":"Lichen scléreux","key":true,
+"l1":"Chez 100 femmes danoises avec lichen scléreux insuffisamment contrôlé par les dermocorticoïdes, dix séances de laser 808 nm améliorent 7 des 8 domaines de qualité de vie.",
+"l2":"Étude prospective descriptive (2016–2018) ; 94 patientes ont terminé. Laser 808 nm, 500 mW, 10 séances en 8 semaines.",
+"l3":{"points":["Âge médian 62 ans."],"limites":["Sans témoin."],"pratique":"Complément aux corticoïdes en cas de réponse insuffisante."}},
+
+{"pmid":"39223951","title_fr":"LED bleue dans la candidose vulvovaginale récidivante : essai randomisé avec évaluateur en aveugle","type":"rct","level":2,"pop":"adulte","ctx":["vulve"],"aim":"traitement","mode":["LED"],"nm":[],"n":60,"effect":"favorable","theme":"Infections vulvovaginales","key":true,
+"l1":"Chez 60 femmes avec candidose récidivante, deux séances de LED bleue ajoutées à l'antifongique réduisent beaucoup plus la charge en Candida que l'antifongique seul, sans modifier le pH vaginal.",
+"l2":"Essai égyptien : crème Gynoconazol 0,8 % 3 nuits ± deux séances de 60 minutes de LED bleue sur vagin et vulve.",
+"l3":{"points":["Différence de Candida : DM 8,27 (IC95 % 6,72–9,81)."],"limites":["Suivi d'une semaine seulement."],"pratique":"Piste d'adjuvant antifongique non médicamenteux."}},
+
+{"pmid":"39676335","title_fr":"La PBM rouge pulsée inhibe la dysménorrhée induite par l'ocytocine chez la souris (stress oxydatif, inflammation)","type":"preclinical","level":5,"pop":"—","ctx":["pelvien"],"aim":"traitement","mode":["LED"],"nm":[],"n":null,"effect":"favorable","theme":"Dysménorrhée",
+"l1":"Chez la souris, la lumière rouge pulsée diminue la douleur, les prostaglandines et le stress oxydatif mieux que la lumière continue.",
+"l2":"Mécanismes : espèces réactives de l'oxygène, NO/NOS, calcium dans le muscle utérin.",
+"l3":{"points":["iNOS diminuée."],"limites":["Modèle animal."],"pratique":"—"}},
+
+{"pmid":"39662253","title_fr":"Lumière rouge pulsée et léonure contre la dysménorrhée chez la souris","type":"preclinical","level":5,"pop":"—","ctx":["pelvien"],"aim":"traitement","mode":["LED"],"nm":[],"n":null,"effect":"favorable","theme":"Dysménorrhée",
+"l1":"L'association lumière rouge pulsée + léonure (plante chinoise) est plus efficace que chacune seule contre la dysménorrhée de la souris.",
+"l2":"Effets sur la signalisation calcique et l'inflammation.",
+"l3":{"points":["Synergie démontrée chez l'animal."],"limites":["Modèle animal."],"pratique":"—"}},
+
+{"pmid":"38348528","title_fr":"La PBM soulage la dysménorrhée primaire induite par la PGF2α","type":"preclinical","level":5,"pop":"—","ctx":["pelvien"],"aim":"traitement","mode":["LED"],"nm":[460,630,850],"n":null,"effect":"favorable","theme":"Dysménorrhée",
+"l1":"Chez l'animal et sur cellules musculaires utérines, 460, 630 et 850 nm réduisent la douleur ; le rouge 630 nm est le plus efficace.",
+"l2":"Le rouge restaure le calcium intracellulaire, les ROS, l'ATP et le potentiel mitochondrial.",
+"l3":{"points":["630 nm supérieur."],"limites":["Préclinique."],"pratique":"—"}},
+
+{"pmid":"38364185","title_fr":"Électroacupuncture versus laser-acupuncture dans la dysménorrhée : essai croisé randomisé","type":"rct","level":2,"pop":"adulte","ctx":["pelvien"],"aim":"traitement","mode":["laser"],"nm":[],"n":43,"effect":"favorable","theme":"Dysménorrhée",
+"l1":"Chez 43 femmes, laser-acupuncture et électroacupuncture réduisent toutes deux la douleur et améliorent la qualité de vie, sans différence entre elles.",
+"l2":"Essai croisé taïwanais ; l'électroacupuncture baisse davantage les prostaglandines.",
+"l3":{"points":["Laser : EVA p = 0,010."],"limites":["Pas de simulation."],"pratique":"—"}},
+
+{"pmid":"39167877","title_fr":"PBM versus cryothérapie après déchirure périnéale ou épisiotomie : essai randomisé","type":"rct","level":2,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":56,"effect":"favorable","theme":"Périnée post-partum",
+"l1":"Chez 56 accouchées, la PBM rouge et infrarouge soulage davantage la douleur périnéale que la cryothérapie, immédiatement et surtout à 24 h.",
+"l2":"Essai brésilien, 28 femmes par groupe. Résultat en contradiction avec les méta-analyses qui placent la cryothérapie en tête : la comparaison directe mérite d'être répétée.",
+"l3":{"points":["Douleur : p = 0,008 immédiatement, p < 0,001 à 24 h."],"limites":["Pas d'aveugle possible."],"pratique":"—"}},
+
+{"pmid":"39046567","title_fr":"La PBM peut-elle aider les femmes allaitantes et leurs nouveau-nés ?","type":"rct","level":2,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":50,"effect":"favorable","theme":"Allaitement",
+"l1":"Chez 50 femmes avec crevasses, 12 séances de laser diode font mieux qu'une crème anti-inflammatoire sur la douleur et la rougeur, avec plus de lait et un meilleur gain de poids du bébé.",
+"l2":"Étude égyptienne, deux groupes de 25, sur 4 semaines.",
+"l3":{"points":["Différences aux semaines 3 et 4."],"limites":["Randomisation peu décrite dans le résumé."],"pratique":"—"}},
+
+{"pmid":"38837198","title_fr":"Interventions non médicamenteuses contre la douleur des mamelons pendant l'allaitement : méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":null,"effect":"neutre","theme":"Allaitement",
+"l1":"Dix-neuf essais : effet incertain de la PBM contre placebo sur la douleur des mamelons (deux essais, DM −0,15) ; toutes les interventions ont des preuves imprécises.",
+"l2":"Revue Cochrane-like avec GRADE. Risque de biais incertain à élevé.",
+"l3":{"points":["PBM contre placebo : DM −0,15 (139 participantes)."],"limites":["Très peu d'essais par comparaison."],"pratique":"—"}},
+
+{"pmid":"39685560","title_fr":"PBM transdermique rouge et proche infrarouge et fertilité féminine : série de cas","type":"cases","level":4,"pop":"adulte","ctx":["fertilité"],"aim":"traitement","mode":["laser"],"nm":[],"n":3,"effect":"favorable","theme":"Fertilité",
+"l1":"Trois femmes avec infertilité inexpliquée ont mené une grossesse à terme après une cure de PBM multi-longueurs d'onde.",
+"l2":"Échecs antérieurs : FIV, fausses couches, môle. Aucun effet indésirable. Trois cas sans témoin.",
+"l3":{"points":["Suivi de 9 mois."],"limites":["Trois cas."],"pratique":"—"}},
+
+{"pmid":"39276447","title_fr":"La PBM limite le vieillissement ovarien (souris et cellules de granulosa)","type":"preclinical","level":5,"pop":"—","ctx":["fertilité"],"aim":"traitement","mode":["laser"],"nm":[650],"n":null,"effect":"favorable","theme":"Fertilité",
+"l1":"Chez la souris âgée, deux mois de laser 650 nm (4 J/cm²) restaurent les hormones sexuelles et augmentent le nombre de follicules.",
+"l2":"Moins de stress oxydatif et d'inflammation ovarienne, meilleure fonction mitochondriale ; effets reproduits sur cellules humaines.",
+"l3":{"points":["4 J/cm² efficace, 2 J/cm² moins."],"limites":["Modèle animal."],"pratique":"—"}},
+
+{"pmid":"39051004","title_fr":"Exosomes et PBM régulent les micro-ARN et le glutathion d'ovocytes de SOPK (in vitro)","type":"preclinical","level":5,"pop":"—","ctx":["fertilité"],"aim":"traitement","mode":[],"nm":[640],"n":36,"effect":"favorable","theme":"Fertilité",
+"l1":"Sur 36 ovocytes de femmes avec SOPK, la PBM 640 nm modifie l'expression de micro-ARN et augmente le glutathion et l'acétylation nucléaire.",
+"l2":"Étude in vitro comparant exosomes et PBM.",
+"l3":{"points":["Glutathion augmenté (p < 0,0001)."],"limites":["In vitro."],"pratique":"—"}}
+]

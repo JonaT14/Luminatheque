@@ -5,7 +5,7 @@ Procédure suivie à chaque mise à jour (par défaut chaque semaine). Elle peut
 
 ## 1. Collecter les nouveautés
 
-Pour chaque thème actif de `data/topics/` (aujourd'hui : `mucite-orale` et `neuropathie-peripherique` ; les thèmes marqués `"status": "à venir"` sont ignorés), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :
+Pour chaque thème actif de `data/topics/` (aujourd'hui : `mucite-orale`, `neuropathie-peripherique` et `gynecologie` ; les thèmes marqués `"status": "à venir"` sont ignorés), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :
 
 ```bash
 python3 scripts/fetch_pubmed.py --topic mucite-orale --since AAAA-MM-JJ
@@ -32,7 +32,7 @@ Schéma d'une fiche :
 | `type` | `ma`, `sr`, `umbrella`, `guideline`, `rct`, `nrct`, `cohort`, `cases`, `review`, `preclinical`, `protocol`, `survey`, `qualitative`, `biblio`, `methodo`, `letter` |
 | `level` | niveau de preuve 1–5 (0 = non gradé) : 1 synthèse d'ECR · 2 ECR · 3 contrôlé non randomisé ou revue mixte · 4 cohorte sans témoin concurrent, série · 5 avis, mécanismes, préclinique |
 | `pop` | `adulte`, `pédiatrie`, `mixte`, `—` |
-| `ctx` | mucite : `ORL`, `chimio`, `CSH`, `mixte` · neuropathies : `CIPN`, `diabète`, `compression`, `lésion nerveuse`, `orofaciale`, `autres` |
+| `ctx` | mucite : `ORL`, `chimio`, `CSH`, `mixte` · neuropathies : `CIPN`, `diabète`, `compression`, `lésion nerveuse`, `orofaciale`, `autres` · gynécologie (sous-groupes) : `GSM`, `onco`, `vulve`, `pelvien`, `obstétrique`, `fertilité`, `général` |
 | `aim` | `prévention`, `traitement`, `les deux`, `—` |
 | `mode` | ex. `intrabuccal`, `extrabuccal`, `LED`, `laser`, `haute puissance`, `domicile`, `PDT` |
 | `nm` | longueurs d'onde en nm (liste de nombres) |

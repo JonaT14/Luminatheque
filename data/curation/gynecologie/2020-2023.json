@@ -1,0 +1,181 @@
+[
+{"pmid":"38017192","title_fr":"PBM associée au renforcement du plancher pelvien dans l'incontinence urinaire : essai en double aveugle contre placebo","type":"rct","level":2,"pop":"adulte","ctx":["GSM"],"aim":"traitement","mode":["laser","intravaginal"],"nm":[808],"n":22,"effect":"favorable","theme":"Incontinence urinaire",
+"l1":"Chez 22 femmes avec incontinence d'effort, ajouter un laser 808 nm intravaginal au renforcement par cônes augmente la force et l'endurance du périnée par rapport au placebo.",
+"l2":"Essai brésilien : 808 nm, 100 mW, 3 J par point, 3 points à l'entrée et 3 dans le vagin. La PBM limiterait la fatigue musculaire pendant la rééducation ; la qualité de vie s'améliore.",
+"l3":{"points":["Force : 8,4 → 13,8 dans le groupe laser."],"limites":["Petit effectif."],"pratique":"—"}},
+
+{"pmid":"36769752","title_fr":"Pilates et/ou PBM associée à un champ magnétique statique dans l'incontinence urinaire d'effort : essai en double aveugle","type":"rct","level":2,"pop":"adulte","ctx":["GSM"],"aim":"traitement","mode":["laser"],"nm":[],"n":33,"effect":"favorable","theme":"Incontinence urinaire",
+"l1":"Chez 33 femmes avec incontinence d'effort, la PBM avec champ magnétique, le Pilates ou les deux améliorent force, tonus, fuites et qualité de vie.",
+"l2":"Essai à trois bras (NCT05096936) ; tous les groupes progressent, sans supériorité nette de l'association.",
+"l3":{"points":["Pad test à 1, 2 et 3 mois."],"limites":["Petits groupes."],"pratique":"—"}},
+
+{"pmid":"35389054","title_fr":"Photothérapie basse énergie adhésive dans l'hyperactivité vésicale : essai de phase III","type":"rct","level":2,"pop":"adulte","ctx":["GSM"],"aim":"traitement","mode":["LED","domicile"],"nm":[],"n":null,"effect":"favorable","theme":"Incontinence urinaire","key":true,
+"l1":"Essai coréen multicentrique de phase III contre simulation : un patch lumineux appliqué à domicile 3 fois par jour pendant 12 semaines réduit les fuites par urgence (−1,0 contre −0,4 par jour).",
+"l2":"Double aveugle. Fuites totales −1,1 contre −0,5 par jour ; tendance favorable sur les scores de symptômes. Effets indésirables comparables.",
+"l3":{"points":["Fuites par urgence : p = 0,003 ; fuites totales : p = 0,002."],"limites":["Population mixte (pas uniquement gynécologique)."],"pratique":"Un des rares essais de phase III en urogynécologie avec PBM."}},
+
+{"pmid":"32419791","title_fr":"La laser-acupuncture soulage l'hyperactivité vésicale chez la femme : essai pilote en double aveugle","type":"rct","level":2,"pop":"adulte","ctx":["GSM"],"aim":"traitement","mode":["laser"],"nm":[],"n":30,"effect":"favorable","theme":"Incontinence urinaire",
+"l1":"Chez 30 femmes, 9 séances de laser-acupuncture réduisent le score d'hyperactivité vésicale de 3 à 4,6 points par rapport au témoin.",
+"l2":"Essai taïwanais, sept points d'acupuncture, 3 fois par semaine pendant 3 semaines.",
+"l3":{"points":["OABSS −3,13 à −4,60 (p ≤ 0,001)."],"limites":["Pilote."],"pratique":"—"}},
+
+{"pmid":"33757917","title_fr":"Prise en charge de l'atrophie vulvovaginale : traitements physiques (recommandations CNGOF et GEMVi)","type":"guideline","level":1,"pop":"adulte","ctx":["GSM","général"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"mitigé","theme":"Recommandations","key":true,
+"l1":"Recommandations françaises : les lasers vaginaux CO2 ou Er:YAG ne sont pas un traitement de première ligne de l'atrophie vulvovaginale (grade C) ; les données sur la PBM et les autres techniques physiques sont faibles.",
+"l2":"Revue systématique (2014–2020) du Collège national des gynécologues et obstétriciens français et du Groupe d'étude sur la ménopause. Le laser CO2 n'a pas montré de supériorité sur les œstrogènes locaux ; des cas de sténose ou de douleur chronique sont rapportés.\n\nLa PBM est citée parmi les alternatives, sans preuve suffisante pour une recommandation.",
+"l3":{"points":["Lasers ablatifs : pas en première ligne (grade C)."],"limites":["Antérieur aux essais de PBM de 2024–2026."],"pratique":"Référence française à citer ; à réévaluer avec les essais récents."}},
+
+{"pmid":"37183056","title_fr":"Photobiomodulation et troubles vulvovaginaux après traitements anticancéreux","type":"cohort","level":4,"pop":"adulte","ctx":["onco"],"aim":"traitement","mode":["intravaginal"],"nm":[],"n":28,"effect":"favorable","theme":"Après cancer","key":true,
+"l1":"Au CHU de Nîmes, 28 patientes en échec des traitements, dont la moitié après cancer : 72 % se sentent mieux ou beaucoup mieux après au moins 6 séances de PBM, avec une amélioration médiane estimée à 65 %.",
+"l2":"Cohorte prospective française (Bulletin du Cancer). Symptôme principal : sécheresse vaginale (72 %) ; toutes avaient une dysfonction sexuelle. Antécédents de chimiothérapie (78 %), radiothérapie (36 %) ou hormonothérapie (36 %).\n\nAucun effet indésirable grave. Les auteurs soulignent l'absence de groupe témoin.",
+"l3":{"points":["PGI-I ≤ 2 chez 72 %.","Amélioration médiane 65 % (Q1 50 %, Q3 72,5 %)."],"limites":["Petit effectif hétérogène, sans témoin."],"pratique":"Référence française pour proposer la PBM en soins de support gynécologiques après cancer."}},
+
+{"pmid":"34447833","title_fr":"LED bleue contre la sténose vaginale après radiothérapie pelvienne : deux cas","type":"cases","level":4,"pop":"adulte","ctx":["onco"],"aim":"traitement","mode":["LED","intravaginal"],"nm":[],"n":2,"effect":"favorable","theme":"Après cancer",
+"l1":"Deux patientes avec sténose vaginale après cancer du col ou de l'endomètre s'améliorent cliniquement et cytologiquement avec une LED bleue vaginale et vulvaire hebdomadaire.",
+"l2":"Questionnaires validés et frottis répétés montrent une amélioration des symptômes les plus gênants.",
+"l3":{"points":["Sténose sévère et légère traitées."],"limites":["Deux cas."],"pratique":"—"}},
+
+{"pmid":"34776164","title_fr":"Kinésithérapie et cancer gynécologique : revue systématique","type":"sr","level":3,"pop":"adulte","ctx":["onco"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Après cancer",
+"l1":"Cinq études seulement : exercice supervisé, PBM et rééducation périnéale semblent utiles contre les complications des traitements des cancers gynécologiques.",
+"l2":"Revue (10 ans, 405 articles) en portugais, anglais et espagnol.",
+"l3":{"points":["5 études incluses."],"limites":["Très peu d'études."],"pratique":"—"}},
+
+{"pmid":"35835442","title_fr":"Rubus idaeus homéopathique et laser 680 nm sur des cellules de cancer du col (in vitro)","type":"preclinical","level":5,"pop":"—","ctx":["onco"],"aim":"—","mode":["laser"],"nm":[680],"n":null,"effect":"—","theme":"Sécurité oncologique",
+"l1":"In vitro, l'association laser 680 nm + extrait de framboisier augmente l'ATP des cellules HeLa, ce qui suggère un effet Warburg plutôt qu'une mort cellulaire.",
+"l2":"Étude exploratoire ; aucune conclusion clinique.",
+"l3":{"points":["Fluences 5, 10 et 15 J/cm²."],"limites":["In vitro."],"pratique":"—"}},
+
+{"pmid":"35155170","title_fr":"Laser basse énergie et sinensétine sur cellules tumorales HeLa et cellules normales","type":"preclinical","level":5,"pop":"—","ctx":["onco"],"aim":"—","mode":["laser"],"nm":[660],"n":null,"effect":"—","theme":"Sécurité oncologique",
+"l1":"In vitro, un prétraitement laser 660 nm puis sinensétine augmente la mort des cellules de cancer du col HeLa (et des cellules normales).",
+"l2":"Production accrue d'espèces réactives de l'oxygène.",
+"l3":{"points":["Effet non sélectif sur les cellules normales."],"limites":["In vitro."],"pratique":"—"}},
+
+{"pmid":"35727394","title_fr":"Photomodulation LED de cellules d'adénocarcinome utérin : inhibition de l'angiogenèse via les exosomes","type":"preclinical","level":5,"pop":"—","ctx":["onco"],"aim":"—","mode":["LED"],"nm":[],"n":null,"effect":"—","theme":"Sécurité oncologique",
+"l1":"In vitro, la LED réduit la viabilité et la migration de cellules de cancer de l'endomètre et freine leur capacité à stimuler l'angiogenèse.",
+"l2":"Effets dépendants de la dose (4 à 64 J/cm²). Plutôt rassurant pour la sécurité, sur un seul modèle cellulaire.",
+"l3":{"points":["Biogenèse des exosomes modifiée."],"limites":["In vitro."],"pratique":"—"}},
+
+{"pmid":"37794569","title_fr":"Tous les lasers ne se valent pas : revue exploratoire du laser dans la vulvodynie","type":"sr","level":3,"pop":"adulte","ctx":["vulve"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"mitigé","theme":"Vulvodynie",
+"l1":"Huit études (un seul essai randomisé) : de la PBM douce aux lasers ablatifs, les résultats sur la douleur de la vulvodynie sont encourageants mais de faible qualité.",
+"l2":"Trois études sur six montrent une baisse significative de la douleur. Les auteurs insistent sur la distinction entre types de lasers.",
+"l3":{"points":["8 études, qualité faible."],"limites":["Hétérogénéité des lasers."],"pratique":"—"}},
+
+{"pmid":"37686314","title_fr":"PBM et microbiome vaginal : revue critique","type":"review","level":5,"pop":"—","ctx":["vulve"],"aim":"—","mode":[],"nm":[],"n":null,"effect":"—","theme":"Infections vulvovaginales",
+"l1":"Revue théorique : la PBM pourrait moduler le microbiome vaginal, un champ encore à ses débuts.",
+"l2":"Les auteurs transposent les données sur le microbiome intestinal.",
+"l3":{"points":["Hypothèses mécanistiques."],"limites":["Revue narrative."],"pratique":"—"}},
+
+{"pmid":"36395084","title_fr":"LED bleue contre les symptômes de vulvovaginite chronique : série de cas","type":"cases","level":4,"pop":"adulte","ctx":["vulve"],"aim":"traitement","mode":["LED"],"nm":[405],"n":8,"effect":"favorable","theme":"Infections vulvovaginales",
+"l1":"Huit femmes avec vulvovaginite chronique : toutes améliorent au moins un symptôme après trois séances de LED bleue 405 nm.",
+"l2":"Cinq améliorent aussi leurs scores de sexualité et de qualité de vie.",
+"l3":{"points":["NCT03075046."],"limites":["8 cas."],"pratique":"—"}},
+
+{"pmid":"31900692","title_fr":"Lumière bleue contre la vaginite à Candida : comparaison de trois longueurs d'onde (in vitro)","type":"preclinical","level":5,"pop":"—","ctx":["vulve"],"aim":"traitement","mode":["LED"],"nm":[405,415,450],"n":null,"effect":"favorable","theme":"Infections vulvovaginales",
+"l1":"In vitro, le 415 nm est la longueur d'onde la plus efficace contre Candida albicans avec le moins de dommages pour les cellules vaginales.",
+"l2":"Comparaison 405, 415 et 450 nm à 50 mW/cm².",
+"l3":{"points":["Survie des cellules épithéliales : 0,77 à 415 nm pour 80 % d'inhibition de Candida."],"limites":["In vitro."],"pratique":"Justifie le choix de 415 nm dans les essais cliniques."}},
+
+{"pmid":"36915513","title_fr":"Métabolomique de la photothérapie sur points d'acupuncture contre contraceptif oral dans la dysménorrhée","type":"rct","level":2,"pop":"adulte","ctx":["pelvien"],"aim":"traitement","mode":["LED"],"nm":[],"n":69,"effect":"—","theme":"Dysménorrhée",
+"l1":"Chez 69 femmes, la LED sur deux points d'acupuncture et la pilule modifient différemment les métabolites sanguins ; la LED abaisse la prostaglandine D2.",
+"l2":"Volet biologique d'un essai multicentrique chinois.",
+"l3":{"points":["76 métabolites modifiés sous LED."],"limites":["Critères biologiques."],"pratique":"—"}},
+
+{"pmid":"35028764","title_fr":"Photothérapie basse énergie versus pilule œstroprogestative dans la dysménorrhée primaire : essai multicentrique","type":"rct","level":2,"pop":"adulte","ctx":["pelvien"],"aim":"traitement","mode":["LED"],"nm":[],"n":156,"effect":"mitigé","theme":"Dysménorrhée","key":true,
+"l1":"Chez 156 femmes, la LED sur deux points d'acupuncture soulage la dysménorrhée chez 73,6 % (contre 85,7 % sous pilule, NS), mais la pilule réduit davantage la douleur.",
+"l2":"Essai chinois randomisé sur trois cycles. Baisse de la douleur 39 % contre 60 % ; PGE2 diminuée de façon similaire. Option sans hormone pour les femmes qui ne veulent pas de contraception.",
+"l3":{"points":["Taux d'efficacité : 73,6 % contre 85,7 % (p = 0,084)."],"limites":["Pas de simulation."],"pratique":"Alternative non hormonale, un peu moins efficace que la pilule."}},
+
+{"pmid":"34539076","title_fr":"Laser haute intensité pulsé versus laser basse énergie dans la dysménorrhée primaire","type":"rct","level":2,"pop":"adulte","ctx":["pelvien"],"aim":"traitement","mode":["laser","haute puissance"],"nm":[],"n":30,"effect":"favorable","theme":"Dysménorrhée",
+"l1":"Chez 30 femmes, laser haute intensité et laser basse énergie réduisent autant la douleur de la dysménorrhée.",
+"l2":"Trois séances par cycle pendant trois cycles ; pas de groupe témoin.",
+"l3":{"points":["Pas de différence entre les deux lasers."],"limites":["Sans témoin."],"pratique":"—"}},
+
+{"pmid":"36116559","title_fr":"PBM transvaginale et douleur du syndrome douloureux vésical avec sensibilité musculaire pelvienne","type":"cohort","level":4,"pop":"adulte","ctx":["pelvien"],"aim":"traitement","mode":["intravaginal","laser"],"nm":[],"n":140,"effect":"favorable","theme":"Douleurs pelviennes","key":true,
+"l1":"Dans 17 cabinets américains, 64 % des femmes avec cystite interstitielle ayant fait 8 séances de PBM transvaginale ont une baisse cliniquement significative de la douleur pelvienne.",
+"l2":"140 patientes ont débuté, 83 ont terminé 8 séances. Douleur à la miction, à l'effort et pendant les rapports diminuée d'environ 2,5 points.",
+"l3":{"points":["Douleur sévère ou modérée : 83 % → 38 %."],"limites":["Observationnel, abandons fréquents."],"pratique":"—"}},
+
+{"pmid":"34841398","title_fr":"PBM transvaginale dans la douleur pelvienne chronique : étude pilote","type":"cohort","level":4,"pop":"adulte","ctx":["pelvien"],"aim":"traitement","mode":["intravaginal","laser"],"nm":[],"n":13,"effect":"favorable","theme":"Douleurs pelviennes",
+"l1":"Chez 13 femmes, neuf séances de PBM transvaginale divisent par deux le score de douleur (19,7 → 8,2) avec un effet maintenu à 6 mois.",
+"l2":"Étude avant-après ; grandes tailles d'effet (d = 1,6 à 1,9).",
+"l3":{"points":["60 % améliorées."],"limites":["Très petit effectif."],"pratique":"—"}},
+
+{"pmid":"34490787","title_fr":"PBM du plancher pelvien dans la douleur pelvienne chronique : cohorte observationnelle","type":"cohort","level":4,"pop":"adulte","ctx":["pelvien"],"aim":"traitement","mode":["intravaginal","laser"],"nm":[],"n":128,"effect":"favorable","theme":"Douleurs pelviennes",
+"l1":"Chez 128 femmes, neuf séances de PBM transvaginale améliorent la douleur pelvienne chronique chez 64,5 %, y compris pendant les rapports et en position assise.",
+"l2":"Baisse de 2 à 3 points de la douleur selon les activités ; aucun effet indésirable grave.",
+"l3":{"points":["Douleur vulvaire : −3,1 points."],"limites":["Sans témoin."],"pratique":"—"}},
+
+{"pmid":"35028769","title_fr":"Étirements vaginaux et laser vaginal de classe IIIB dans la douleur myofasciale du plancher pelvien : essai randomisé","type":"rct","level":2,"pop":"adulte","ctx":["pelvien"],"aim":"traitement","mode":["laser","intravaginal"],"nm":[808],"n":103,"effect":"neutre","theme":"Douleurs pelviennes","key":true,
+"l1":"Chez 103 femmes avec douleur myofasciale pelvienne, ajouter une PBM 808 nm aux étirements vaginaux n'apporte pas plus de soulagement que les étirements seuls (sauf sur la constipation).",
+"l2":"Essai brésilien en double aveugle contre simulation : 10 séances en 2 semaines. Douleur sévère : plus de 50 % avant, moins de 20 % après dans les deux groupes.",
+"l3":{"points":["Douleur : p = 0,46 entre groupes."],"limites":["Effet important des étirements seuls."],"pratique":"Les étirements font l'essentiel ; la PBM n'ajoute pas de bénéfice dans ce protocole."}},
+
+{"pmid":"34955173","title_fr":"Étirements vaginaux et PBM sur la fonction sexuelle dans la douleur myofasciale pelvienne : essai randomisé","type":"rct","level":2,"pop":"adulte","ctx":["pelvien"],"aim":"traitement","mode":["laser","intravaginal"],"nm":[808],"n":103,"effect":"neutre","theme":"Douleurs pelviennes",
+"l1":"Même essai (103 femmes), volet sexualité : la dyspareunie diminue dans les deux groupes, sans avantage de la PBM active.",
+"l2":"Rapports douloureux : 90 % → 55 % (PBM) et 87 % → 46 % (simulation).",
+"l3":{"points":["Même population que PMID 35028769."],"limites":["Publication double d'un même essai."],"pratique":"—"}},
+
+{"pmid":"33855615","title_fr":"Nouveau laser transvaginal proche infrarouge pour tissus profonds : évaluation chez la brebis","type":"preclinical","level":5,"pop":"—","ctx":["pelvien"],"aim":"—","mode":["intravaginal","haute puissance"],"nm":[],"n":null,"effect":"—","theme":"Dosimétrie",
+"l1":"Chez la brebis, seulement 3 % de l'irradiance vaginale atteint le muscle releveur de l'anus : il faut 5 W en surface pour une dose thérapeutique, 0,5 W ne suffit pas.",
+"l2":"Étude de dosimétrie du dispositif SoLá ; utile pour comprendre les échecs à faible puissance.",
+"l3":{"points":["Bladder : 4,4 % de l'irradiance de surface."],"limites":["Modèle animal."],"pratique":"Pour cibler les muscles pelviens, la dose de surface doit être élevée."}},
+
+{"pmid":"34749319","title_fr":"Facteurs physiques dans la rééducation des accouchées avec plaie périnéale après ventouse","type":"rct","level":2,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":154,"effect":"favorable","theme":"Périnée post-partum",
+"l1":"Chez 154 accouchées après ventouse, le laser magnétique basse intensité améliore la force du périnée et réduit les complications, encore plus avec une stimulation magnétique.",
+"l2":"Étude géorgienne à trois groupes (randomisation simple). Complications divisées par 4,6 avec laser, par 6,5 avec laser + stimulation.",
+"l3":{"points":["Force pelvienne +36 % (laser) et +48 % (laser + stimulation)."],"limites":["Méthode peu détaillée."],"pratique":"—"}},
+
+{"pmid":"33760671","title_fr":"PBM et analgésie pendant l'accouchement : essai randomisé","type":"rct","level":2,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["LED"],"nm":[660,850],"n":29,"effect":"favorable","theme":"Accouchement",
+"l1":"Chez 29 parturientes, une plaque LED rouge et infrarouge posée 10 minutes sur le bas du dos réduit la douleur du travail, sans effet sur le bébé ni la durée du travail.",
+"l2":"Essai brésilien contre douche chaude. 216 J au total de T10 à S4. Apgar et rythme cardiaque fœtal inchangés.",
+"l3":{"points":["Bonne sécurité fœtale."],"limites":["Petit effectif ; comparateur actif."],"pratique":"—"}},
+
+{"pmid":"38101852","title_fr":"PBM contre la douleur des traumatismes du mamelon ou du périnée en post-partum : protocole","type":"protocol","level":0,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":120,"effect":"—","theme":"Périnée post-partum",
+"l1":"Protocole brésilien de 120 femmes (deux bras : mamelon et périnée) ; volet périnée publié en 2025 (pas de supériorité d'une séance unique).",
+"l2":"Une application de PBM entre 6 et 36 h après l'accouchement contre simulation.",
+"l3":{"points":["Résultats périnée : PMID 41255349."],"limites":["Protocole."],"pratique":"—"}},
+
+{"pmid":"32868711","title_fr":"PBM contre la douleur ou le traumatisme du mamelon chez la femme allaitante : protocole de revue systématique","type":"protocol","level":0,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"—","theme":"Allaitement",
+"l1":"Protocole de revue JBI sur la PBM des lésions du mamelon.",
+"l2":"Critères : douleur, cicatrisation, allaitement exclusif, qualité de vie, satisfaction.",
+"l3":{"points":["Méthode JBI."],"limites":["Protocole."],"pratique":"—"}},
+
+{"pmid":"31030379","title_fr":"Une seule irradiation de laser basse énergie contre la douleur des mamelons : essai randomisé","type":"rct","level":2,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[660],"n":80,"effect":"neutre","theme":"Allaitement",
+"l1":"Chez 80 femmes allaitantes (São Paulo), une séance de laser 660 nm ne réduit pas plus la douleur des mamelons que le placebo ; 31 % ressentent des picotements.",
+"l2":"Essai en double aveugle : 2 J, 66,7 J/cm², 20 s. La douleur baisse d'environ 1 point dans les deux groupes. Publié en ligne en 2019, dans le numéro de 2020.",
+"l3":{"points":["Effets secondaires : picotements (10/36), piqûres (2/36)."],"limites":["Séance unique."],"pratique":"Une seule séance ne suffit pas ; les essais positifs utilisent plusieurs séances."}},
+
+{"pmid":"34733773","title_fr":"Laser thérapeutique pendant la grossesse : revue systématique","type":"sr","level":3,"pop":"adulte","ctx":["obstétrique"],"aim":"—","mode":[],"nm":[],"n":null,"effect":"—","theme":"Sécurité",
+"l1":"Revue : le laser basse énergie pour les troubles musculosquelettiques n'est pas recommandé pendant la grossesse faute de données de sécurité.",
+"l2":"53 articles analysés en urologie, dermatologie, obstétrique et orthopédie.",
+"l3":{"points":["Pas de recommandation pour la PBM musculosquelettique pendant la grossesse."],"limites":["Peu de données."],"pratique":"Prudence : éviter la PBM sur l'abdomen et le bassin pendant la grossesse hors protocole."}},
+
+{"pmid":"37583503","title_fr":"Vésicules extracellulaires de sang de cordon et PBM sur des ovocytes de SOPK (in vitro)","type":"preclinical","level":5,"pop":"—","ctx":["fertilité"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Fertilité",
+"l1":"In vitro, la PBM augmente la proportion d'ovocytes de SOPK atteignant la métaphase II et réduit les marqueurs d'apoptose et d'autophagie.",
+"l2":"Ovocytes de femmes en parcours d'infertilité.",
+"l3":{"points":["Taux de MII augmenté (p < 0,05)."],"limites":["In vitro."],"pratique":"—"}},
+
+{"pmid":"37544939","title_fr":"Laser basse énergie et syndrome des ovaires polykystiques chez le rat : trois doses","type":"preclinical","level":5,"pop":"—","ctx":["fertilité"],"aim":"traitement","mode":["laser"],"nm":[],"n":40,"effect":"favorable","theme":"Fertilité",
+"l1":"Chez le rat avec SOPK induit, la dose de 2 J/cm² ramène le mieux les hormones (LH, FSH, progestérone) vers la normale.",
+"l2":"Comparaison 1, 2 et 6 J/cm².",
+"l3":{"points":["Dose optimale 2 J/cm²."],"limites":["Modèle animal."],"pratique":"—"}},
+
+{"pmid":"37212452","title_fr":"La PBM 632 nm améliore les synéchies utérines via la voie cAMP/PKA/CREB (rat)","type":"preclinical","level":5,"pop":"—","ctx":["fertilité"],"aim":"traitement","mode":["laser"],"nm":[632],"n":null,"effect":"favorable","theme":"Fertilité",
+"l1":"Chez le rat avec synéchies utérines, une PBM intra-utérine épaissit l'endomètre, réduit la fibrose et restaure en partie la fertilité.",
+"l2":"Mécanisme confirmé sur cellules stromales endométriales humaines.",
+"l3":{"points":["Voie cAMP/PKA/CREB."],"limites":["Modèle animal."],"pratique":"—"}},
+
+{"pmid":"34662815","title_fr":"Organoïdes endométriaux de souris stimulés par laser basse énergie : modèle de régénération","type":"preclinical","level":5,"pop":"—","ctx":["fertilité"],"aim":"—","mode":["laser"],"nm":[632.8],"n":null,"effect":"favorable","theme":"Fertilité",
+"l1":"Le laser He-Ne stimule la prolifération d'organoïdes d'endomètre de souris, un modèle pour étudier le syndrome d'Asherman.",
+"l2":"Étude in vitro avec matrice utérine décellularisée.",
+"l3":{"points":["Ki67 et PCNA augmentés."],"limites":["In vitro."],"pratique":"—"}},
+
+{"pmid":"33989716","title_fr":"Le laser basse énergie local protège les ovaires de la toxicité du cyclophosphamide chez la souris","type":"preclinical","level":5,"pop":"—","ctx":["fertilité","onco"],"aim":"prévention","mode":["laser"],"nm":[],"n":null,"effect":"favorable","theme":"Préservation de la fertilité","key":true,
+"l1":"Chez la souris, un laser appliqué sur les ovaires avant le cyclophosphamide préserve les follicules, l'AMH et la vascularisation : piste de préservation de la fertilité en cancérologie.",
+"l2":"64 J/cm² ; moins d'apoptose folliculaire et de follicules atrétiques.",
+"l3":{"points":["Follicules primordiaux préservés."],"limites":["Modèle animal."],"pratique":"Piste de recherche en oncofertilité."}},
+
+{"pmid":"31928249","title_fr":"Laser He-Ne avant transfert d'embryon congelé chez des femmes en échecs d'implantation répétés","type":"nrct","level":3,"pop":"adulte","ctx":["fertilité"],"aim":"traitement","mode":["laser"],"nm":[632.8],"n":60,"effect":"neutre","theme":"Fertilité",
+"l1":"Chez 60 femmes en échecs d'implantation répétés, le laser He-Ne avant transfert donne des taux de grossesse un peu plus élevés (37,9 % contre 35,5 %), différence non significative.",
+"l2":"Essai contrôlé non randomisé (choix des patientes). Naissances vivantes 27,6 % contre 25,8 % ; fausses couches 18,2 % contre 27,3 %.",
+"l3":{"points":["Aucune complication."],"limites":["Non randomisé, effectif faible."],"pratique":"—"}}
+]
