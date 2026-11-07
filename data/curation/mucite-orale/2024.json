@@ -1,0 +1,189 @@
+[
+{"pmid":"39794168","title_fr":"Les preuves du laser basse énergie contre la mucite en radiothérapie ORL (éditorial)","type":"letter","level":0,"pop":"adulte","ctx":["ORL"],"aim":"—","mode":[],"nm":[],"n":null,"effect":"—","theme":"Correspondance",
+"l1":"Éditorial de Clinical Oncology sur le niveau de preuve du laser basse énergie en radiothérapie ORL. Pas de résumé disponible.",
+"l2":"Éditorial publié par la revue du Royal College of Radiologists. Le titre indique une mise au point sur les preuves en radiothérapie ORL, un sujet discuté au Royaume-Uni où la PBM est encore peu déployée.\n\nContenu non indexé sur PubMed.",
+"l3":{"points":["Éditorial, sans données originales."],"limites":["Résumé indisponible."],"pratique":"—"}},
+
+{"pmid":"39625051","title_fr":"Interventions pour prévenir la mucite chez les personnes traitées pour un cancer : photobiomodulation (protocole Cochrane)","type":"protocol","level":0,"pop":"mixte","ctx":["mixte"],"aim":"prévention","mode":[],"nm":[],"n":null,"effect":"—","theme":"Synthèse des preuves","key":true,
+"l1":"Protocole de la future revue Cochrane dédiée à la PBM pour prévenir la mucite (cancers ORL, autres tumeurs solides, hémopathies). Revue très attendue.",
+"l2":"Cochrane annonce une revue spécifique à la PBM, qui détaillera ses effets selon le type de cancer et de traitement.\n\nLorsqu'elle paraîtra, elle deviendra probablement la référence méthodologique. À surveiller dans la veille.",
+"l3":{"points":["Populations : ORL, tumeurs solides, hémopathies."],"limites":["Protocole sans résultats."],"pratique":"Surveiller la publication de la revue complète."}},
+
+{"pmid":"39615560","title_fr":"Thérapie photodynamique pour la mucite en cancérologie : revue systématique et méta-analyse","type":"ma","level":3,"pop":"mixte","ctx":["chimio"],"aim":"traitement","mode":["PDT"],"nm":[],"n":null,"effect":"favorable","theme":"Associations",
+"l1":"Sept études : associer thérapie photodynamique et PBM accélère la cicatrisation et réduit la douleur mieux que la PBM seule (DMS −0,51).",
+"l2":"Revue d'essais randomisés et non randomisés (2000–mai 2024). Méta-analyse sur 4 études : différence moyenne standardisée −0,51 (IC95 % −0,88 à −0,15), toutes les estimations allant dans le même sens.\n\nPiste curative, à confirmer sur des effectifs plus larges.",
+"l3":{"points":["DMS −0,5138 (−0,8799 à −0,1477), k = 4."],"limites":["Études non randomisées incluses ; petit nombre d'études."],"pratique":"Combinaison PDT + PBM à envisager pour les mucites installées, dans un cadre de recherche."}},
+
+{"pmid":"39926956","title_fr":"Revue générale du laser basse énergie en odontologie","type":"review","level":5,"pop":"mixte","ctx":["mixte"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Revue générale",
+"l1":"Panorama des usages du laser basse énergie en odontologie, dont la mucite. Sans méthode systématique.",
+"l2":"Revue courte des effets anti-inflammatoires, antalgiques et biostimulants : douleur postopératoire, cicatrisation, troubles temporo-mandibulaires, mucite, orthodontie.\n\nPas de données nouvelles.",
+"l3":{"points":["Revue pédagogique."],"limites":["Méthode non décrite."],"pratique":"—"}},
+
+{"pmid":"39523254","title_fr":"PBM et mucite chez l'enfant : revue systématique","type":"sr","level":3,"pop":"pédiatrie","ctx":["mixte"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Synthèse des preuves",
+"l1":"Vingt études pédiatriques : aucun effet indésirable et une seule étude sans bénéfice ; la PBM soulage la douleur et accélère la cicatrisation.",
+"l2":"Revue enregistrée (PROSPERO) sur PubMed, Embase, Cochrane et la littérature grise. L'effet antalgique est le plus constant ; la réduction de la sévérité, de la durée voire de l'incidence est aussi rapportée.\n\nL'effet préventif et les protocoles optimaux restent à préciser par des études de meilleure qualité.",
+"l3":{"points":["20 études, designs variés."],"limites":["Qualité des études hétérogène, pas de méta-analyse."],"pratique":"Encourage l'usage de la PBM en pédiatrie, surtout pour la douleur."}},
+
+{"pmid":"39501907","title_fr":"PBM pour prévenir la mucite chimio-induite chez l'enfant atteint de leucémie aiguë myéloïde : essai randomisé en double aveugle","type":"rct","level":2,"pop":"pédiatrie","ctx":["chimio"],"aim":"prévention","mode":["laser"],"nm":[660],"n":42,"effect":"favorable","theme":"Efficacité vs placebo",
+"l1":"Chez 42 enfants atteints de LAM (Le Caire), cinq jours de PBM à 660 nm réduisent l'incidence et la sévérité de la mucite à J12, J19 et J30 par rapport à la simulation.",
+"l2":"Essai en double aveugle contre simulation, en plus du protocole préventif standard. Laser diode 660 nm, 10 s par point, J1 à J5 de la chimiothérapie. Mucite cotée OMS et NCI à J5, J12, J19 et J30.\n\nEffets importants (tailles d'effet 0,58 à 0,80) en faveur de la PBM à chaque temps.",
+"l3":{"points":["Tailles d'effet : 0,796 (J12), 0,670 (J19), 0,576 (J30), p < 0,001."],"limites":["Monocentrique ; puissance annoncée (« 15 watt ») probablement erronée dans le résumé."],"pratique":"Soutient la PBM préventive en LAM pédiatrique."}},
+
+{"pmid":"39491499","title_fr":"Laser haute puissance contre la mucite chimio-induite de l'enfant : réponse au Dr Morankar","type":"letter","level":0,"pop":"pédiatrie","ctx":["chimio"],"aim":"traitement","mode":["haute puissance"],"nm":[],"n":null,"effect":"—","theme":"Correspondance",
+"l1":"Échange de correspondance sur un article évaluant le laser haute puissance en oncopédiatrie. Pas de résumé.",
+"l2":"Fait partie d'une série de trois lettres (Dr Morankar, Dr Jin, correspondance de juin 2024) dans l'International Journal of Paediatric Dentistry, qui discutent la méthodologie d'un article sur la PBM haute puissance chez l'enfant.\n\nLe débat porte sur une modalité encore peu validée.",
+"l3":{"points":["Correspondance."],"limites":["Contenu non indexé."],"pratique":"—"}},
+
+{"pmid":"39480546","title_fr":"PBM pour prévenir et traiter la mucite en greffe de cellules souches : évaluation de la qualité des soins","type":"cohort","level":4,"pop":"adulte","ctx":["CSH"],"aim":"les deux","mode":[],"nm":[],"n":35,"effect":"favorable","theme":"Implantation",
+"l1":"Chez 35 greffés, des indicateurs qualité (SQUIRE 2.0) montrent 100 % de conformité du protocole PBM et des mucites surtout de grade 1.",
+"l2":"PBM pendant le conditionnement puis à J1, J5 et J10 post-greffe. 66,6 % des patients ont eu une mucite à au moins un moment, majoritairement de grade 1 ; quatre patients (16,7 %) ont eu des douleurs.\n\nÉtude surtout utile pour sa méthode d'évaluation de la qualité d'un programme de PBM.",
+"l3":{"points":["4 indicateurs de processus, 13 indicateurs de résultat."],"limites":["Sans témoin, petit effectif."],"pratique":"Modèle d'indicateurs pour auditer un programme de PBM."}},
+
+{"pmid":"39482275","title_fr":"Laser haute puissance contre la mucite chimio-induite de l'enfant : réponse au Dr Jin","type":"letter","level":0,"pop":"pédiatrie","ctx":["chimio"],"aim":"traitement","mode":["haute puissance"],"nm":[],"n":null,"effect":"—","theme":"Correspondance",
+"l1":"Suite de l'échange sur le laser haute puissance en oncopédiatrie. Pas de résumé.",
+"l2":"Réponse des auteurs à une lettre critique. Voir aussi les lettres du 3 juin et du 3 novembre 2024.",
+"l3":{"points":["Correspondance."],"limites":["Contenu non indexé."],"pratique":"—"}},
+
+{"pmid":"39461860","title_fr":"PBM pour prévenir la mucite et l'altération fonctionnelle chez l'adulte greffé : protocole d'essai randomisé (POMFITT)","type":"protocol","level":0,"pop":"adulte","ctx":["CSH"],"aim":"prévention","mode":["laser"],"nm":[],"n":30,"effect":"—","theme":"Efficacité vs soins standards",
+"l1":"Protocole de l'essai chilien POMFITT (30 greffés) ; les résultats sont parus en juillet 2026 (0 % de mucite sévère sous PBM contre 26,6 %).",
+"l2":"Essai randomisé avec évaluateur et statisticien en aveugle, PBM trois fois par semaine du conditionnement à J+3. Critères : mucite (OMS), test de marche de 2 min, force de préhension, lever de chaise, FACT-BMT, acceptabilité.\n\nExemple de suivi d'un essai du protocole à la publication.",
+"l3":{"points":["NCT06260111 ; résultats : PMID 42399564."],"limites":["Protocole."],"pratique":"Voir la fiche des résultats 2026."}},
+
+{"pmid":"39422592","title_fr":"Domaines peu explorés de la PBM en oncologie buccale : analyse d'experts","type":"review","level":5,"pop":"mixte","ctx":["mixte"],"aim":"les deux","mode":["extrabuccal"],"nm":[],"n":null,"effect":"favorable","theme":"Nouvelles indications",
+"l1":"Panel d'experts : résultats prometteurs pour la xérostomie, la dysgueusie, l'odynophagie, le trismus et la mucite (extrabuccale, pédiatrie), mais études petites et sécurité à surveiller.",
+"l2":"Revue narrative où chaque thème est confié à deux spécialistes : justification, preuves, rapport bénéfice/risque, pistes de recherche.\n\nConclusion : impression globalement positive, mais il faut de grands essais multicentriques avant une généralisation.",
+"l3":{"points":["Thèmes : mucite, xérostomie, dysgueusie, dysphagie, trismus/fibrose."],"limites":["Avis d'experts."],"pratique":"Feuille de route des indications émergentes."}},
+
+{"pmid":"39457676","title_fr":"Rapport coût-efficacité de la PBM pour prévenir et traiter la mucite : revue systématique","type":"sr","level":1,"pop":"adulte","ctx":["ORL"],"aim":"les deux","mode":[],"nm":[],"n":229,"effect":"favorable","theme":"Médico-économie","key":true,
+"l1":"Trois essais (229 patients ORL) : la PBM coûte un peu plus à court terme mais fait économiser à moyen et long terme en évitant les mucites sévères. Certitude GRADE modérée.",
+"l2":"Revue PRISMA 2020 d'essais randomisés PBM contre placebo chez des patients ORL. Le surcoût initial est compensé par la réduction des complications : hospitalisations, nutrition, antalgiques.\n\nArgument utile pour convaincre une direction d'établissement, même si la base reste étroite (trois essais).",
+"l3":{"points":["Certitude GRADE : modérée.","Enregistrement CRD42024498825."],"limites":["Trois essais seulement, contextes de coûts différents."],"pratique":"Argument médico-économique pour financer un programme de PBM."}},
+
+{"pmid":"39670136","title_fr":"La PBM, une nouvelle ère pour des soins de support personnalisés en cancérologie","type":"review","level":5,"pop":"mixte","ctx":["mixte"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Revue générale",
+"l1":"Courte revue narrative : la PBM est désormais recommandée en routine contre la mucite en ORL, en chimiothérapie et en greffe ; elle insiste sur l'harmonisation des doses.",
+"l2":"Rappel des mécanismes moléculaires et des preuves cliniques, avec plaidoyer pour des schémas de dose harmonisés.\n\nSans données nouvelles.",
+"l3":{"points":["Revue narrative."],"limites":["Vision plutôt promotionnelle."],"pratique":"—"}},
+
+{"pmid":"39439950","title_fr":"Efficacité et sécurité de la PBM en traitement oncologique : revue","type":"sr","level":5,"pop":"—","ctx":["mixte"],"aim":"—","mode":["laser","LED"],"nm":[],"n":null,"effect":"mitigé","theme":"Sécurité oncologique","key":true,
+"l1":"Vingt-trois études surtout précliniques : la PBM peut tuer certaines cellules tumorales, mais la lumière rouge a aussi augmenté l'invasivité de cellules de cancer buccal. La sécurité dépend des paramètres.",
+"l2":"Revue (PRISMA) de 14 études laser et 9 études LED. In vitro, le laser peut induire apoptose et chimiosensibilisation, mais certaines longueurs d'onde stimulent la prolifération in vitro tout en freinant la croissance des xénogreffes.\n\nLa lumière bleue freine mélanome et pancréas ; la lumière rouge LED a suscité une inquiétude sur l'invasivité du cancer buccal. Cliniquement, les deux modalités réduisent mucite, xérostomie et neuropathie.",
+"l3":{"points":["Résultats discordants entre in vitro et in vivo.","Signal d'alerte : lumière rouge et invasivité du carcinome buccal."],"limites":["Majoritairement préclinique."],"pratique":"Garder des doses dans les fourchettes recommandées et informer les patients ; la question de la sécurité tumorale reste ouverte."}},
+
+{"pmid":"39294629","title_fr":"PBM et affections buccales chimio- et radio-induites : revue parapluie","type":"umbrella","level":1,"pop":"mixte","ctx":["mixte"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"mitigé","theme":"Synthèse des preuves","key":true,
+"l1":"21 revues systématiques et 40 méta-analyses : 87,5 % concluent à un effet significatif, mais les revues sont de qualité faible à très faible et une seule estimation atteint le niveau « fortement suggestif ».",
+"l2":"Revue parapluie (PROSPERO) des revues publiées jusqu'en novembre 2023. Selon AMSTAR 2, 71 % des revues sont de qualité critiquement faible et 29 % de qualité faible.\n\nSur 40 estimations méta-analytiques, 33 sont significatives, mais une seule est classée « fortement suggestive » et les autres « faibles ». Le recouvrement des études entre revues est modéré. C'est le contrepoint critique indispensable aux méta-analyses très favorables.",
+"l3":{"points":["21 revues ; AMSTAR 2 : 15 critiquement faibles, 6 faibles.","40 estimations : 33 significatives ; 1 « fortement suggestive ».","Recouvrement : CA 12,1 %, CCA 7,75 %."],"limites":["Analyse des revues existantes, sans nouvelle méta-analyse."],"pratique":"L'effet de la PBM est constant, mais sa démonstration repose sur des revues fragiles : d'où l'intérêt de grands essais et de la future revue Cochrane."}},
+
+{"pmid":"39223301","title_fr":"PBM associée au phytomédicament FITOPROT (Bidens pilosa et curcuma) contre la mucite radio-induite : essai randomisé","type":"rct","level":2,"pop":"adulte","ctx":["ORL"],"aim":"prévention","mode":["laser"],"nm":[660],"n":52,"effect":"neutre","theme":"Associations",
+"l1":"Chez 52 patients ORL, ajouter le gel FITOPROT à la PBM (660 nm, 25 mW) ne réduit pas davantage la mucite que la PBM seule, malgré un meilleur équilibre des cytokines salivaires.",
+"l2":"Essai brésilien : FITOPROT + PBM (n = 25) contre PBM seule (n = 27), avec programme préventif de soins buccaux pour tous. PBM quotidienne à 0,25 J par point.\n\nPas de différence de grade de mucite ; la dose de radiothérapie était le facteur déterminant. Les auteurs évoquent un effet sur le nitrite et les cytokines.",
+"l3":{"points":["Enregistrement ReBEC RBR-9vddmr.","Cytokines mesurées : IL-1, TNF-α, IL-6, IL-8, IL-12p70, IL-10."],"limites":["Effectif modeste."],"pratique":"Pas d'intérêt démontré de l'ajout de FITOPROT."}},
+
+{"pmid":"39164917","title_fr":"Réponse : le laser haute puissance peut-il soulager la douleur de la mucite ?","type":"letter","level":0,"pop":"adulte","ctx":["mixte"],"aim":"traitement","mode":["haute puissance"],"nm":[],"n":null,"effect":"—","theme":"Correspondance",
+"l1":"Réponse des auteurs à une lettre sur leur étude du laser haute puissance contre la mucite réfractaire. Pas de résumé.",
+"l2":"Échange dans Oral Diseases autour de l'étude publiée en 2023–2024 (PMID 37203784). Voir aussi l'étude 2026 de la même équipe sur l'odynophagie.",
+"l3":{"points":["Correspondance."],"limites":["Contenu non indexé."],"pratique":"—"}},
+
+{"pmid":"39164930","title_fr":"Le laser haute puissance peut-il soulager la douleur de la mucite réfractaire ?","type":"letter","level":0,"pop":"adulte","ctx":["mixte"],"aim":"traitement","mode":["haute puissance"],"nm":[],"n":null,"effect":"—","theme":"Correspondance",
+"l1":"Lettre interrogeant les résultats de l'étude sur le laser haute puissance en mucite réfractaire. Pas de résumé.",
+"l2":"Commentaire critique dans Oral Diseases. Le débat porte sur l'absence de groupe témoin et sur la sécurité des fortes puissances.",
+"l3":{"points":["Correspondance."],"limites":["Contenu non indexé."],"pratique":"—"}},
+
+{"pmid":"39032055","title_fr":"Effet de différents paramètres de laser basse énergie, utilisés contre la mucite, sur des cellules de carcinome épidermoïde buccal","type":"preclinical","level":5,"pop":"—","ctx":[],"aim":"—","mode":["laser"],"nm":[660],"n":null,"effect":"—","theme":"Sécurité oncologique",
+"l1":"In vitro, un laser 660 nm à 20 mW réduit la viabilité de cellules de cancer buccal ; à 40 et 80 mW, pas d'effet sur la viabilité. Plaide pour la dose la plus faible possible.",
+"l2":"Cellules Cal-27 irradiées à 20, 40 et 80 mW (2 J/cm², 30 s). Viabilité par MTT, expression de Bax et Bcl-2 par RT-PCR.\n\nSeule la puissance de 20 mW réduit la viabilité ; Bax baisse à 40 et 80 mW, Bcl-2 ne change pas. Résultat rassurant à faible puissance.",
+"l3":{"points":["Viabilité réduite à 20 mW (p = 0,001)."],"limites":["Une seule lignée cellulaire, in vitro."],"pratique":"Va dans le sens des recommandations de faible dose chez les patients avec tumeur en place."}},
+
+{"pmid":"39032372","title_fr":"PBM dépendante de la longueur d'onde : prolifération et angiogenèse du mélanome in vitro et in vivo","type":"preclinical","level":5,"pop":"—","ctx":[],"aim":"—","mode":["laser"],"nm":[405,532,635,808],"n":null,"effect":"défavorable","theme":"Sécurité oncologique","key":true,
+"l1":"Chez la souris, une PBM à 808 nm a favorisé la croissance et la vascularisation d'un mélanome (B16F10), contrairement à 405, 532 et 635 nm : un signal de sécurité à prendre au sérieux.",
+"l2":"Quatre longueurs d'onde testées. À 808 nm, prolifération et migration augmentent in vitro ; in vivo, le volume tumoral augmente avec une angiogenèse accrue (VEGF, HIF-1α) et l'activation de voies de prolifération.\n\nCe modèle (mélanome murin) est éloigné de la muqueuse buccale, mais il rappelle que l'infrarouge n'est pas neutre sur des cellules tumorales.",
+"l3":{"points":["808 nm : augmentation du volume tumoral relatif et surexpression de VEGF et HIF-1α."],"limites":["Mélanome murin ; doses non transposables directement."],"pratique":"Éviter d'irradier une tumeur en place ; respecter les recommandations de sécurité (voir Bulletin du Cancer 2024)."}},
+
+{"pmid":"38992294","title_fr":"La PBM modifie-t-elle la fréquence des mucites sévères et des candidoses ? Analyse rétrospective en ORL","type":"cohort","level":4,"pop":"adulte","ctx":["ORL"],"aim":"prévention","mode":["intrabuccal","laser"],"nm":[660],"n":74,"effect":"mitigé","theme":"Facteurs de risque",
+"l1":"Chez 74 patients ORL, la PBM n'a pas changé la fréquence globale des mucites ni des candidoses, mais a réduit les formes sévères ; les tumeurs de la cavité buccale font plus de mucites.",
+"l2":"Dossiers 2016–2019 d'un service public brésilien. Protocole : 660 nm, 2 J par point en 3 s, 28 points (56 J), trois fois par semaine pendant 5 semaines.\n\nLes grades 1–2 dominaient, avec ou sans PBM. Les candidoses étaient plus fréquentes après la 12e séance. La localisation buccale et la limite d'irradiation des zones tumorales expliqueraient les moins bons résultats dans ces tumeurs.",
+"l3":{"points":["Dosimétrie détaillée : 28 points, 2 J/point, 56 J/séance."],"limites":["Rétrospectif, petit effectif."],"pratique":"La PBM n'empêche pas les candidoses : continuer la surveillance fongique."}},
+
+{"pmid":"38944404","title_fr":"Survie à long terme des patients ORL ayant reçu une PBM contre la mucite","type":"cohort","level":4,"pop":"adulte","ctx":["ORL"],"aim":"les deux","mode":[],"nm":[],"n":751,"effect":"favorable","theme":"Sécurité oncologique","key":true,
+"l1":"Sur 751 patients ORL (2000–2016), ceux qui ont reçu une PBM ont vécu plus longtemps (médiane 1,66 contre 1,07 an). Rassurant pour la sécurité, mais très exposé aux biais.",
+"l2":"Analyse rétrospective des dossiers d'un hôpital brésilien, PBM réalisée par un seul opérateur. Plus il y avait de séances, meilleure était la survie, notamment aux stades III–IV.\n\nCe lien s'explique très probablement par des biais : les patients qui vivent plus longtemps ont plus d'occasions de recevoir des séances (biais de temps immortel), et les plus fragiles arrêtent plus tôt. Le message utile est l'absence de signal de surmortalité.",
+"l3":{"points":["Survie médiane : 1,07 an (sans PBM) contre 1,66 an (avec).","Stades III–IV, radiochimiothérapie, plus de 5 séances : 1,83 an."],"limites":["Biais de temps immortel et de sélection majeurs.","Rétrospectif, mono-opérateur."],"pratique":"Absence de signal de surmortalité ; ne pas en conclure que la PBM prolonge la survie."}},
+
+{"pmid":"38840131","title_fr":"Interventions non médicamenteuses et nutrition, complications et qualité de vie en radiothérapie ORL : méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["ORL"],"aim":"prévention","mode":[],"nm":[],"n":2814,"effect":"favorable","theme":"Synthèse des preuves",
+"metric":{"kind":"rr","outcome":"Mucite (toutes interventions non médicamenteuses)","rr":0.54,"lo":0.37,"hi":0.80,"k":27},
+"l1":"27 essais (2 814 patients ORL) : les interventions non médicamenteuses, dont le laser basse énergie, limitent la perte de poids et réduisent la mucite (RR 0,54).",
+"l2":"Méta-analyse de cinq familles d'interventions : nutrition, exercice, rééducation de la déglutition, soutien psychologique et laser basse énergie. En sous-groupes, le laser contribue à limiter la perte de poids.\n\nL'estimation sur la mucite mélange plusieurs interventions et ne reflète pas la PBM seule.",
+"l3":{"points":["Perte de poids : DM 1,66 kg ; mucite : RR 0,54 (0,37–0,80) ; dénutrition : RR 0,76."],"limites":["Estimation globale sur des interventions différentes."],"pratique":"La PBM aide aussi à préserver le statut nutritionnel."}},
+
+{"pmid":"38831515","title_fr":"Correspondance sur l'évaluation du laser haute puissance contre la mucite de l'enfant","type":"letter","level":0,"pop":"pédiatrie","ctx":["chimio"],"aim":"traitement","mode":["haute puissance"],"nm":[],"n":null,"effect":"—","theme":"Correspondance",
+"l1":"Première lettre du débat sur le laser haute puissance en oncopédiatrie (Int J Paediatr Dent). Pas de résumé.",
+"l2":"Voir aussi les réponses des 31 octobre et 3 novembre 2024.",
+"l3":{"points":["Correspondance."],"limites":["Contenu non indexé."],"pratique":"—"}},
+
+{"pmid":"38792366","title_fr":"Effet de la PBM sur les cytokines salivaires des patients ORL avec mucite : revue systématique","type":"sr","level":3,"pop":"adulte","ctx":["ORL"],"aim":"les deux","mode":["laser"],"nm":[660],"n":null,"effect":"favorable","theme":"Mécanismes",
+"l1":"Quatre études brésiliennes (660 nm) : la PBM réduit la sévérité de la mucite ; l'IL-6 est la cytokine la plus liée à la mucite.",
+"l2":"Première revue sur la PBM et les cytokines salivaires (recherche jusqu'en février 2024). Cytokines étudiées : IL-12p70, TNF-α, IL-6, IL-8, IL-10, CXCL8, IL-1β.\n\nRésultats variables selon les traitements anticancéreux et le recueil de salive.",
+"l3":{"points":["4 études, toutes InGaAlP 660 nm."],"limites":["Très peu d'études, toutes d'un même pays."],"pratique":"L'IL-6 salivaire pourrait servir de biomarqueur dans les essais."}},
+
+{"pmid":"39051003","title_fr":"Effet in vitro du laser basse énergie sur des colonies de Candida albicans de patients irradiés","type":"preclinical","level":5,"pop":"—","ctx":["ORL"],"aim":"—","mode":["laser"],"nm":[976],"n":11,"effect":"neutre","theme":"Préclinique",
+"l1":"In vitro, un laser 976 nm ne réduit pas significativement Candida albicans (−7 à −11 %), contrairement à la nystatine.",
+"l2":"Onze souches isolées de la salive de patients ORL irradiés (plus de 30 Gy). Laser 976 nm à 5 ou 10 J/cm², 50 s.\n\nLa PBM seule n'est pas antifongique.",
+"l3":{"points":["Réduction 7,01 % et 10,94 % (NS)."],"limites":["In vitro."],"pratique":"Ne pas compter sur la PBM pour traiter une candidose."}},
+
+{"pmid":"38688628","title_fr":"Prévention et traitement de la mucite chez l'enfant : méta-analyse d'essais randomisés","type":"ma","level":1,"pop":"pédiatrie","ctx":["mixte"],"aim":"les deux","mode":["laser"],"nm":[],"n":null,"effect":"neutre","theme":"Synthèse des preuves","key":true,
+"metric":{"kind":"rr","outcome":"Mucite grade ≥ 2 (prévention, enfant)","rr":0.99,"lo":null,"hi":null,"k":null},
+"l1":"Seule méta-analyse discordante de la période : chez l'enfant, le laser basse énergie ne réduit pas la mucite de grade ≥ 2 (RR 0,99), alors que le miel raccourcit l'hospitalisation.",
+"l2":"Revue de 34 essais randomisés pédiatriques (MEDLINE et Scopus, 2000–2023) ; cinq essais méta-analysables pour le laser ou le miel.\n\nEn prévention, laser : RR 0,99 (p = 0,99) ; en curatif : RR 0,48 (p = 0,58), non significatif. Ce résultat repose sur très peu d'essais et contraste avec la méta-analyse pédiatrique de 2025 (J Dent) et avec les recommandations du Children's Oncology Group.",
+"l3":{"points":["34 ECR repérés, 5 méta-analysés.","Laser préventif : RR 0,99 ; curatif : RR 0,48 (NS).","Miel : hospitalisation raccourcie (DM −4,33 jours)."],"limites":["Deux bases de données seulement ; très peu d'essais par comparaison ; IC non rapportés dans le résumé."],"pratique":"À connaître comme contrepoint ; l'ensemble des preuves pédiatriques reste plutôt favorable à la PBM."}},
+
+{"pmid":"38672630","title_fr":"Prise en charge de la mucite chez l'enfant sous traitement anticancéreux : revue systématique","type":"sr","level":3,"pop":"pédiatrie","ctx":["mixte"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Synthèse des preuves",
+"l1":"39 articles pédiatriques : laser basse énergie, palifermine, miel et zinc réduisent incidence, durée, sévérité et douleur de la mucite, mais les preuves restent insuffisantes pour un protocole précis.",
+"l2":"Revue de 2 655 articles avec comparaison des approches : cryothérapie, laser, composés naturels.\n\nConclusion prudente : plusieurs options efficaces, sans protocole clinique consensuel.",
+"l3":{"points":["39 articles inclus."],"limites":["Pas de méta-analyse."],"pratique":"La PBM fait partie des options validées chez l'enfant."}},
+
+{"pmid":"38619258","title_fr":"Soulagement immédiat de la douleur dans la mucite et les ulcérations buccales par PBM : le concept de traitement préemptif","type":"review","level":5,"pop":"mixte","ctx":["mixte"],"aim":"traitement","mode":["haute puissance"],"nm":[],"n":null,"effect":"favorable","theme":"Douleur",
+"l1":"Revue cartographique : certains protocoles de PBM soulagent la douleur immédiatement. Les auteurs proposent une PBM « préemptive », débutée dès les premiers signes.",
+"l2":"Revue PubMed : la plupart des essais rapportent un soulagement retardé, mais certains protocoles donnent un effet immédiat, proche de la disparition de la douleur.\n\nLe concept s'étend aux aphtes et à la GVH chronique. Même école que les travaux sur la PBM haute puissance (2023, 2026).",
+"l3":{"points":["Concept : PBM préemptive, précoce et répétée pendant tout le traitement."],"limites":["Revue non systématique, une seule base."],"pratique":"Penser à l'effet antalgique immédiat comme critère à part entière."}},
+
+{"pmid":"38615257","title_fr":"PBM quotidienne versus un jour sur trois pour prévenir la mucite pendant la radiochimiothérapie du cancer buccal : essai en triple aveugle","type":"rct","level":2,"pop":"adulte","ctx":["ORL"],"aim":"prévention","mode":["intrabuccal","laser"],"nm":[660],"n":16,"effect":"favorable","theme":"Dosimétrie & fréquence","key":true,
+"l1":"Chez 16 patients atteints de cancer buccal, espacer la PBM (un jour sur trois au lieu de chaque jour) augmente les mucites de grade 2–3, la douleur et la perte salivaire : la PBM quotidienne est supérieure.",
+"l2":"Essai brésilien en triple aveugle : PBM quotidienne contre PBM tous les trois jours intercalée de simulations. Laser 660 nm, 0,1 W, 1 J par point, 9 points par zone, du début à la fin de la radiochimiothérapie.\n\nLe groupe espacé a plus de mucites de grade 2 et 3, plus de douleur et une baisse du débit salivaire plus marquée. Résultat à opposer à la pratique fréquente de trois séances par semaine.",
+"l3":{"points":["Zones : lèvres, joues, bords et corps de langue, plancher.","Mesures quotidiennes : OMS, douleur, EVA ; poids, débit salivaire, OHIP-14, CAOD."],"limites":["Très petit effectif (8 par groupe)."],"pratique":"Quand c'est possible, préférer une PBM quotidienne pendant la radiochimiothérapie du cancer buccal."}},
+
+{"pmid":"38556719","title_fr":"Création d'une équipe de photothérapie pour administrer la PBM en greffe pédiatrique : protocole standardisé","type":"cohort","level":4,"pop":"pédiatrie","ctx":["CSH"],"aim":"les deux","mode":[],"nm":[],"n":62,"effect":"favorable","theme":"Implantation","key":true,
+"l1":"Dans un centre américain de greffe pédiatrique, une infirmière dédiée à la PBM a rendu le programme faisable : mucite plus courte (9 contre 11,3 jours), moins de sorties sous nutrition parentérale (18 % contre 61 %) et coûts réduits.",
+"l2":"PBM du premier jour du conditionnement à J+20 chez 62 enfants (octobre 2022–septembre 2023), comparés aux patients de 2021. Le brossage des dents augmentait (90 % contre 75 %).\n\nCoûts de support liés à la mucite (nutrition parentérale, PCA) : médiane 31 230 $ contre 37 371 $. L'étude insiste sur le rôle d'une infirmière dédiée.",
+"l3":{"points":["Sortie sous nutrition parentérale : 18 % contre 61 % (p < 0,001).","Coûts médians : 31 229,87 $ contre 37 370,66 $ (p = 0,02)."],"limites":["Comparaison avant-après."],"pratique":"Modèle d'organisation : infirmière dédiée et protocole écrit."}},
+
+{"pmid":"38438625","title_fr":"PBM préventive versus curative dans le myélome multiple en autogreffe","type":"cohort","level":4,"pop":"adulte","ctx":["CSH"],"aim":"les deux","mode":[],"nm":[],"n":24,"effect":"favorable","theme":"Moment d'application",
+"l1":"Chez 24 patients atteints de myélome en autogreffe, la PBM débutée dès le conditionnement réduit beaucoup plus la sévérité et la douleur de la mucite que la PBM débutée à l'apparition des lésions.",
+"l2":"Série rétrospective italienne avec le même conditionnement et le même protocole de greffe. Préventif : du premier jour du conditionnement à J+2. Curatif : quatre jours dès l'apparition de la mucite.\n\nTous les patients ont eu une mucite, mais la sévérité et la douleur étaient bien moindres en préventif (p < 0,0001), avec moins de gêne pour avaler, mâcher et parler. Aucun effet indésirable.",
+"l3":{"points":["Sévérité et douleur : p < 0,0001 en faveur du préventif."],"limites":["Rétrospectif, petit effectif."],"pratique":"En autogreffe pour myélome, débuter la PBM dès le premier jour du conditionnement."}},
+
+{"pmid":"38377968","title_fr":"Utilisation de la PBM pour prévenir et traiter la mucite en greffe pédiatrique","type":"cohort","level":4,"pop":"pédiatrie","ctx":["CSH"],"aim":"les deux","mode":[],"nm":[],"n":40,"effect":"favorable","theme":"Vie réelle",
+"l1":"Chez 40 enfants allogreffés, une PBM quotidienne sur six sites est faisable (93 %) ; 20 % ont eu une mucite de grade 3 contre 51 % attendus, avec une hospitalisation plus courte.",
+"l2":"Étude américaine de faisabilité : traitement quotidien jusqu'à J+20 ou la prise de greffe. 979 des 1 035 rencontres ont permis de traiter au moins quatre sites.\n\nPar rapport à des témoins appariés : moins de jours d'hospitalisation (p = 0,009) et une mucite moins sévère (p = 0,03). Le Children's Oncology Group recommande désormais la PBM.",
+"l3":{"points":["Faisabilité 93,3 % ; mucite de grade 3 : 20 % (IC95 % 9,1–35,6)."],"limites":["Témoins appariés non randomisés."],"pratique":"Faisable en routine en greffe pédiatrique."}},
+
+{"pmid":"38265122","title_fr":"Efficacité de la PBM dans la mucite des patients ORL : revue systématique et méta-analyse d'essais randomisés","type":"ma","level":1,"pop":"adulte","ctx":["ORL"],"aim":"les deux","mode":["laser"],"nm":[632.8,660],"n":869,"effect":"favorable","theme":"Synthèse des preuves","key":true,
+"metric":{"kind":"rr","outcome":"Mucite sévère en fin de traitement","rr":0.45,"lo":0.24,"hi":0.85,"k":14},
+"l1":"Quatorze essais (869 patients ORL) : la PBM réduit la mucite sévère (RR 0,45 en fin de traitement) et la douleur ; les meilleurs résultats sont obtenus à faible puissance (10–25 mW).",
+"l2":"Méta-analyse dans Head & Neck (PubMed, Embase, Cochrane, LILACS, Web of Science ; 2000–octobre 2023). L'incidence de mucite baisse dès la 2e semaine (RR 0,49) et jusqu'à la 7e (RR 0,77) ; la mucite sévère baisse dès la 3e semaine (RR 0,51) et jusqu'à la fin (RR 0,45 ; IC95 % 0,24–0,85).\n\nLa douleur diminue d'environ 1 point (DMP −1,09). Les lasers He-Ne ou InGaAlP de 10 à 25 mW donnent les meilleurs résultats. L'hétérogénéité est forte sur certaines estimations (I² jusqu'à 89 %).",
+"l3":{"points":["14 ECR, 869 patients.","Mucite sévère fin de traitement : RR 0,45 (0,24–0,85), I² = 80 %.","Douleur : DMP −1,09 (−1,38 à −0,88), I² = 13 %.","Paramètres favorables : He-Ne (632,8 nm) ou InGaAlP (660 nm), 10–25 mW."],"limites":["Forte hétérogénéité pour plusieurs critères."],"pratique":"Référence de début 2024 en ORL ; cohérente avec les méta-analyses de 2026."}},
+
+{"pmid":"38183418","title_fr":"Dispositif de PBM auto-administré : la prochaine génération de prévention et de traitement de la mucite","type":"letter","level":0,"pop":"—","ctx":["mixte"],"aim":"prévention","mode":["domicile"],"nm":[],"n":null,"effect":"—","theme":"PBM à domicile",
+"l1":"Lettre défendant les dispositifs de PBM auto-administrés. Pas de résumé ; le sujet a été repris en 2025 par une étude pilote à domicile.",
+"l2":"Courrier dans Supportive Care in Cancer. Voir la fiche « Du cabinet au canapé » (novembre 2025) pour les premières données de faisabilité.",
+"l3":{"points":["Correspondance."],"limites":["Contenu non indexé."],"pratique":"—"}},
+
+{"pmid":"37858427","title_fr":"La photobiomodulation dans la prévention et la prise en charge des effets secondaires des traitements anticancéreux : bases, résultats et perspectives","type":"sr","level":3,"pop":"mixte","ctx":["mixte"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Sécurité oncologique","key":true,
+"l1":"Synthèse française (Bulletin du Cancer) : la PBM est efficace en essais randomisés contre la mucite aiguë, la radiodermite et le lymphœdème ; elle doit rester dans les doses recommandées, avec consentement éclairé près d'une tumeur.",
+"l2":"Revue systématique des études prospectives (Embase, Medline, Cochrane, EBSCO, Scopus, LILACS) sur de nombreuses toxicités. Le niveau de preuve est hétérogène, globalement modéré ; la principale faiblesse est l'imprécision des protocoles.\n\nPour les autres effets (dysgueusie, ostéonécrose, neuropathie, alopécie, syndrome main-pied, GVH), les études sont trop limitées. Les auteurs ont pu définir des paramètres et doses de pratique sûre, et recommandent la prudence et l'information du patient en zone tumorale.",
+"l3":{"points":["Efficacité en ECR : mucite aiguë, épithélite, lymphœdème du membre supérieur.","Recommandation : rester dans les paramètres validés ; informer et recueillir le consentement en zone tumorale."],"limites":["Études rétrospectives exclues ; analyse en partie qualitative."],"pratique":"Référence francophone pour rédiger le consentement et le protocole de sécurité."}},
+
+{"pmid":"37203784","title_fr":"PBM laser haute puissance pour soulager immédiatement la douleur de la mucite réfractaire","type":"cases","level":4,"pop":"adulte","ctx":["mixte"],"aim":"traitement","mode":["intrabuccal","haute puissance"],"nm":[],"n":25,"effect":"favorable","theme":"Douleur",
+"l1":"Chez 25 patients avec mucite résistante aux traitements de première ligne, une PBM haute puissance soulage immédiatement la douleur dans 94 % des séances (−60 à −72 %), pendant environ 6 jours.",
+"l2":"Étude rétrospective israélienne : laser diode InGaAsP intrabuccal (1,4 W/cm²), douleur mesurée juste avant et après la séance. 16 patients sous chimiothérapie, 9 sous radiothérapie.\n\nLa douleur disparaît complètement dans 35 % des séances. Une sensation de brûlure transitoire a été rapportée une fois. Publiée en ligne en 2023, parue dans le numéro de 2024.",
+"l3":{"points":["79 séances ; baisse immédiate dans 94 %, plus de 50 % de baisse dans 61 %.","Baisse moyenne : 4,8 ± 2,5 (chimiothérapie) et 4,5 ± 2,8 (radiothérapie) ; effet de 6,0 ± 5,1 jours."],"limites":["Rétrospectif, sans témoin."],"pratique":"Option de recours pour les douleurs réfractaires, dans un centre formé à la haute puissance."}}
+]

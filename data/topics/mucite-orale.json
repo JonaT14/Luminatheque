@@ -1,0 +1,10 @@
+{
+  "id": "mucite-orale",
+  "label": "Mucite buccale",
+  "short": "Mucite",
+  "color": "#d9480f",
+  "description": "Prévention et traitement des mucites induites par la chimiothérapie, la radiothérapie ou la greffe de cellules souches hématopoïétiques par photobiomodulation (PBM / LLLT).",
+  "pubmed_query": "(\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"LLLT\"[tiab] OR \"low-level light\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"laser therapy\"[tiab] OR \"PBMT\"[tiab]) AND (\"mucositis\"[tiab] OR \"Stomatitis\"[MeSH] OR \"Mucositis\"[MeSH]) NOT (\"peri-implant\"[tiab] OR \"periimplant\"[tiab] OR \"peri-implantitis\"[tiab])",
+  "since": "2024-01-01",
+  "cadence": "hebdomadaire"
+}
