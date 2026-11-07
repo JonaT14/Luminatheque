@@ -1,74 +1,229 @@
 {
-"years": {
-"2020–2023": {
- "headline": "Les débuts : douleurs pelviennes, dysménorrhée et premières recommandations",
- "l1": "De 2020 à 2023, la PBM en gynécologie se développe surtout dans la douleur pelvienne chronique (PBM transvaginale), la dysménorrhée et l'urogynécologie. Les recommandations françaises (CNGOF 2021) jugent les preuves insuffisantes, et une première cohorte française après cancer est encourageante.",
- "l2": "Les essais randomisés de cette période donnent des résultats contrastés. Dans la douleur myofasciale pelvienne, la PBM 808 nm n'ajoute rien aux étirements vaginaux (103 femmes, double aveugle). Dans la dysménorrhée, la LED sur points d'acupuncture soulage presque autant que la pilule (156 femmes). En urogynécologie, un patch lumineux de phase III réduit les fuites par urgence, et des essais plus petits améliorent l'incontinence d'effort en complément de la rééducation.\n\nEn obstétrique, une séance unique de laser ne soulage pas plus les mamelons qu'un placebo (80 femmes). La PBM transvaginale montre de bons résultats en cohortes (douleur pelvienne chronique, cystite interstitielle), sans groupe témoin. Après cancer, la cohorte du CHU de Nîmes (Bulletin du Cancer 2023) rapporte 72 % de patientes améliorées. Les recommandations CNGOF/GEMVi de 2021 ne recommandent pas les lasers ablatifs en première ligne et jugent les données sur la PBM trop faibles.",
- "l3": [
-  {"h":"Douleurs pelviennes","p":"PBM transvaginale : cohortes de 13, 128 et 140 femmes, avec 60 à 65 % de répondeuses. Mais l'essai contre simulation dans la douleur myofasciale (103 femmes) ne montre aucun bénéfice ajouté aux étirements. Dosimétrie chez la brebis : seulement 3 % de l'irradiance atteint le muscle releveur, ce qui pourrait expliquer les échecs à faible puissance."},
-  {"h":"Dysménorrhée","p":"LED sur points CV4 et CV6 contre pilule (156 femmes) : 73,6 % contre 85,7 % de répondeuses (NS), pilule plus antalgique. Laser haute intensité équivalent au basse énergie (30 femmes)."},
-  {"h":"Urogynécologie","p":"Patch LED de phase III dans l'hyperactivité vésicale : fuites par urgence −1,0 contre −0,4 par jour. Laser-acupuncture dans l'hyperactivité vésicale et PBM + rééducation dans l'incontinence d'effort : petits essais favorables."},
-  {"h":"Après cancer et recommandations","p":"CNGOF/GEMVi 2021 : lasers ablatifs non recommandés en première ligne (grade C), PBM insuffisamment évaluée. Cohorte de Nîmes (28 patientes) : 72 % améliorées. Deux cas de sténose vaginale post-radique traités par LED bleue."},
-  {"h":"Fertilité (préclinique)","p":"Protection ovarienne contre le cyclophosphamide chez la souris, synéchies utérines, SOPK chez le rat : une base mécanistique pour l'oncofertilité."}
- ]
-},
-"2024": {
- "headline": "Lichen scléreux, candidose et premiers protocoles randomisés",
- "l1": "En 2024, de nouvelles indications vulvaires apparaissent : le lichen scléreux (100 femmes en complément des corticoïdes) et la candidose récidivante (LED bleue). Deux protocoles d'essais randomisés sont lancés dans le syndrome génito-urinaire de la ménopause, et l'ACOG rappelle la faiblesse des preuves.",
- "l2": "Vulve : une cohorte danoise de 100 femmes avec lichen scléreux réfractaire améliore sa qualité de vie avec un laser 808 nm, et un laser bleu réduit prurit et fissures chez 12 patientes. Dans la candidose récidivante, un essai randomisé de 60 femmes montre que deux séances de LED bleue ajoutées à l'antifongique réduisent nettement la charge en Candida.\n\nMénopause : un laser diode non ablatif améliore sécheresse et dyspareunie à 6 mois (22 femmes), et deux protocoles d'essais contre placebo sont publiés ; leurs résultats sortiront en 2026. En obstétrique, la PBM fait mieux que la cryothérapie sur la douleur périnéale (56 femmes) et qu'une crème sur les crevasses (50 femmes), mais la méta-analyse sur les mamelons reste incertaine. La série d'experts de l'ACOG distingue clairement lasers ablatifs et PBM et ne retient pas de preuve forte pour la douleur pelvienne.",
- "l3": [
-  {"h":"Vulve et infections","p":"Lichen scléreux : 100 femmes, 10 séances de 808 nm, 7 domaines de qualité de vie sur 8 améliorés. Candidose : DM de 8,27 sur la charge en Candida avec LED bleue + antifongique."},
-  {"h":"Ménopause","p":"Laser diode non ablatif : VHI 12 → 19,3, sécheresse 7,7 → 3,7. Protocoles PBM vulvaire 808 nm et PBM + rééducation."},
-  {"h":"Obstétrique","p":"PBM supérieure à la cryothérapie (douleur à 24 h, p < 0,001). Crevasses : PBM supérieure à une crème anti-inflammatoire. Méta-analyse des mamelons : PBM contre placebo DM −0,15, incertain."},
-  {"h":"Dysménorrhée et fertilité","p":"Chez l'animal, le rouge 630 nm pulsé est le plus efficace contre la dysménorrhée. Vieillissement ovarien amélioré chez la souris ; trois grossesses après PBM dans une série de cas d'infertilité inexpliquée."}
- ]
-},
-"2025": {
- "headline": "Méta-analyses : favorable sur la dysménorrhée et l'allaitement, neutre sur le périnée",
- "l1": "En 2025, les méta-analyses tranchent : la PBM réduit la douleur de la dysménorrhée (−4 points contre simulation) et la douleur des crevasses (OR 0,43), mais pas la douleur périnéale après accouchement. Un premier essai contre simulation est positif dans la vestibulodynie.",
- "l2": "Dysménorrhée : la méta-analyse de 12 essais (645 femmes) montre une baisse de la douleur de 4 points à 12 semaines contre simulation. Allaitement : la méta-analyse de 7 essais est favorable (OR 0,43 sur la douleur de succion), alors qu'une autre plus ancienne, à 3 essais, ne l'était pas. Périnée : l'infrarouge aide un peu, mais pas le laser basse énergie (13 études), et une séance unique de PBM ne bat pas la simulation (60 femmes).\n\nVulve : l'essai canadien dans la vestibulodynie provoquée (30 femmes, 15 séances) réduit la douleur avec des tailles d'effet de 0,6 à 0,9, sans gain sur la sexualité. La lumière bleue soulage 79 % des candidoses récidivantes résistantes aux azolés. Ménopause : en France, la première étude chez l'humain de la sonde MILTA GYNECO montre une bonne tolérance et une dyspareunie réduite de moitié. En sénologie, la lumière bleue aide à cicatriser les plaies compliquées de reconstruction mammaire.",
- "l3": [
-  {"h":"Dysménorrhée","p":"Méta-analyse : DM −4,02 contre simulation à 12 semaines ; avantage contre la pilule. Laser-acupuncture équivalente à l'électroacupuncture (114 femmes)."},
-  {"h":"Obstétrique","p":"Mamelons : OR 0,43 (7 ECR, certitude faible). Périnée : laser contre placebo DMS −0,31 (NS) ; séance unique non supérieure. Une séance ne suffit pas, et la dose semble déterminante."},
-  {"h":"Vulve","p":"Vestibulodynie : premier ECR contre simulation positif sur la douleur. Candidose : 79 % d'amélioration immédiate, 58 % à 6 mois (62 femmes résistantes)."},
-  {"h":"Ménopause et urogynécologie","p":"Sonde MILTA GYNECO : 146 événements mineurs sur 148, VHI 12,7 → 17,6, dyspareunie 7,7 → 3,9. Laser basse énergie dans l'incontinence d'effort et le syndrome génito-urinaire : cohorte de 41 femmes favorable."},
-  {"h":"Après cancer et sénologie","p":"Lumière bleue sur plaies de reconstruction mammaire (27 patientes, 5 séances médianes). Infection de prothèse traitée par pression négative + PBM."}
- ]
-},
-"2026": {
- "headline": "Les essais contre placebo arrivent dans la ménopause et après cancer du sein",
- "l1": "En 2026, deux essais contre placebo montrent que la PBM intravaginale améliore l'incontinence et la sécheresse de la ménopause. Une étude brésilienne fait passer la douleur vaginale de 9,5 à 1/10 chez des femmes sous hormonothérapie pour cancer du sein. Sur le périnée post-partum, en revanche, les méta-analyses restent négatives.",
- "l2": "Syndrome génito-urinaire : l'essai en double aveugle contre placebo (808 nm, 4 séances) réduit les fuites urinaires et la sécheresse ; un deuxième essai montre qu'ajoutée à la rééducation, la PBM améliore la sexualité (FSFI +4,6) et l'incontinence. Une étude taïwanaise (660 nm par sonde) ramène toutes les patientes au-dessus du seuil d'atrophie. Après cancer : la PBM LED bleu + rouge soulage presque complètement la douleur vaginale sous inhibiteurs de l'aromatase (24 femmes, groupe d'observation non traité).\n\nVulvodynie : la méta-analyse en réseau de 34 essais classe les thérapies tissulaires, PBM comprise, en tête contre placebo ; une cohorte française ne trouve que 52 % de succès. Obstétrique : quatre méta-analyses et un essai en double aveugle ne trouvent pas de bénéfice du laser sur la douleur périnéale, alors qu'un essai sur les mamelons est positif. La consultation internationale de médecine sexuelle (ICSM) juge les preuves encore insuffisantes pour recommander la PBM.",
- "l3": [
-  {"h":"Ménopause","p":"Essai contre placebo 808 nm : fuites et ICIQ-SF améliorés, sexualité inchangée. PBM + rééducation : FSFI DM 4,55, ICIQ-SF −3,06. Étude 660 nm : 100 % au-dessus du seuil non atrophique à 3 mois, mais seulement 13 % retrouvent une fonction sexuelle normale."},
-  {"h":"Après cancer","p":"Cancer du sein sous hormonothérapie : EVA 9,46 → 1,04, QS-F 23 → 87. Rappel radique après cisplatine dans un cancer du col : amélioration en une semaine avec une PBM multi-longueurs d'onde."},
-  {"h":"Vulve","p":"Méta-analyse en réseau vulvodynie : thérapies tissulaires POMP −16 contre placebo (confiance modérée), en tête du classement. LED 415 nm efficace dans un modèle de vaginose bactérienne."},
-  {"h":"Obstétrique","p":"Périnée : 4 méta-analyses (LLLT contre placebo DM 0,03 ; DMS 0,04 ; DMS −0,16) et un ECR à 660 nm sans bénéfice, mais moins d'antalgiques ; une cohorte portugaise (808 nm, lésions de grade 2–3) est positive. Mamelons : ECR multicentrique positif dès 30 minutes."},
-  {"h":"Fertilité","p":"Ovocytes humains immatures : maturation deux fois plus rapide sous 810 nm, sans stress oxydatif. LED portable 630 nm : compte de follicules antraux 2 → 6 dans un pilote."}
- ]
-}
-},
-"global": {
- "headline": "2020 → 2026 : ce que la PBM apporte, ou non, en gynécologie",
- "l1": "Sur sept ans, la PBM gynécologique se précise. Elle est la mieux étayée dans la dysménorrhée, les crevasses de l'allaitement, la sécheresse et l'incontinence de la ménopause, et dans la vulvodynie. Elle ne fait pas ses preuves sur la douleur périnéale après accouchement. Après cancer, les résultats sont spectaculaires mais encore non randomisés.",
- "l2": "Ce qui se confirme : dysménorrhée (méta-analyse 2025, −4 points contre simulation), crevasses (méta-analyse 2025, OR 0,43 ; essai 2026 positif), syndrome génito-urinaire de la ménopause (deux essais contre placebo en 2026, effet net sur l'incontinence et la sécheresse), vulvodynie (essai contre simulation 2025, méta-analyse en réseau 2026). Ce qui ne se confirme pas : la douleur périnéale post-partum (quatre méta-analyses négatives), et l'ajout de la PBM aux étirements dans la douleur myofasciale pelvienne.\n\nCe qui est prometteur : la sécheresse et la douleur vaginale après cancer (cohorte de Nîmes 2023, cancer du sein sous hormonothérapie 2026), la candidose récidivante (LED bleue) et le lichen scléreux réfractaire. En fertilité, tout reste préclinique ou pilote. Les recommandations (CNGOF 2021, ICSM 2024/2026) restent prudentes : la PBM est une option complémentaire, sans indication validée en première ligne.",
- "l3": [
-  {"h":"1. Une différence essentielle : PBM et lasers ablatifs","p":"Les lasers vaginaux CO2 et Er:YAG (ablatifs, thermiques) dominent la littérature et ne sont pas de la PBM ; ils sont exclus de ce thème. Les recommandations françaises et l'ACOG les évaluent séparément. La PBM utilise des puissances faibles (rouge, proche infrarouge, bleu) sans destruction tissulaire."},
-  {"h":"2. Sécheresse et ménopause : le sous-groupe qui progresse le plus","p":"Il n'y avait que des protocoles en 2024. En 2026, deux essais contre placebo positifs sur l'incontinence et les symptômes vaginaux, et une étude à 660 nm avec normalisation de l'index de santé vaginale. La fonction sexuelle reste le critère le moins amélioré."},
-  {"h":"3. Après cancer : un besoin fort, des preuves en construction","p":"Les œstrogènes locaux sont souvent évités après cancer du sein. La PBM y montre des résultats spectaculaires (douleur 9,5 → 1/10), mais dans des études non randomisées. Un essai contre placebo est la priorité. Les données in vitro sur cellules de cancer gynécologique sont plutôt rassurantes, mais limitées."},
-  {"h":"4. Obstétrique : allaitement oui, périnée non","p":"Sur les crevasses, les essais à plusieurs séances sont positifs, alors qu'une séance unique ne suffit pas. Sur le périnée, la convergence des méta-analyses de 2025–2026 est négative ; la cryothérapie reste le premier choix. Pendant la grossesse, faute de données, la PBM abdominopelvienne est à éviter hors protocole."},
-  {"h":"5. Vulve et douleurs pelviennes","p":"Vulvodynie : premier essai contre simulation positif (2025) et méta-analyse en réseau favorable (2026), avec environ une répondeuse sur deux en pratique. Dysménorrhée : méta-analyse favorable ; la LED est presque aussi efficace que la pilule, sans hormones. Candidose récidivante : la LED bleue 415 nm est un adjuvant prometteur."}
- ],
- "table": {
-  "cols": ["2020–2023","2024","2025","2026"],
-  "rows": [
-   {"label":"Sécheresse / ménopause","cells":["Incontinence : petits ECR ; patch phase III (hyperactivité vésicale)","Diode non ablatif ; 2 protocoles ECR","Sonde MILTA (France) : tolérance","2 ECR contre placebo positifs"]},
-   {"label":"Après cancer","cells":["Cohorte Nîmes : 72 % améliorées","—","Plaies de reconstruction mammaire","Cancer du sein : douleur 9,5 → 1/10"]},
-   {"label":"Vulve & vagin","cells":["Revue lasers vulvodynie","Lichen scléreux (100) ; candidose ECR","Vestibulodynie : ECR positif","Méta-analyse en réseau vulvodynie"]},
-   {"label":"Douleurs pelviennes","cells":["PBM transvaginale (cohortes) ; ECR myofascial négatif","Dysménorrhée (préclinique)","Méta-analyse dysménorrhée : −4 points","Protocoles stérilet, acupoints"]},
-   {"label":"Obstétrique","cells":["Mamelons : séance unique négative","PBM > cryothérapie (périnée)","Mamelons : OR 0,43 ; périnée négatif","Périnée : 4 méta-analyses négatives ; mamelons ECR +"]},
-   {"label":"Recommandations","cells":["CNGOF 2021 : preuves insuffisantes","ACOG : pas de preuve forte","—","ICSM : pas de consensus"]}
-  ]
+ "years": {
+  "2020–2023": {
+   "headline": "Les débuts : douleurs pelviennes, dysménorrhée et premières recommandations",
+   "l1": "De 2020 à 2023, la PBM en gynécologie se développe surtout dans la douleur pelvienne chronique (PBM transvaginale), la dysménorrhée et l'urogynécologie. Les recommandations françaises (CNGOF 2021) jugent les preuves insuffisantes, et une première cohorte française après cancer est encourageante.",
+   "l2": "Les essais randomisés de cette période donnent des résultats contrastés. Dans la douleur myofasciale pelvienne, la PBM 808 nm n'ajoute rien aux étirements vaginaux (103 femmes, double aveugle). Dans la dysménorrhée, la LED sur points d'acupuncture soulage presque autant que la pilule (156 femmes). En urogynécologie, un patch lumineux de phase III réduit les fuites par urgence, et des essais plus petits améliorent l'incontinence d'effort en complément de la rééducation.\n\nEn obstétrique, une séance unique de laser ne soulage pas plus les mamelons qu'un placebo (80 femmes). La PBM transvaginale montre de bons résultats en cohortes (douleur pelvienne chronique, cystite interstitielle), sans groupe témoin. Après cancer, la cohorte du CHU de Nîmes (Bulletin du Cancer 2023) rapporte 72 % de patientes améliorées. Les recommandations CNGOF/GEMVi de 2021 ne recommandent pas les lasers ablatifs en première ligne et jugent les données sur la PBM trop faibles.",
+   "l3": [
+    {
+     "h": "Douleurs pelviennes",
+     "p": "PBM transvaginale : cohortes de 13, 128 et 140 femmes, avec 60 à 65 % de répondeuses. Mais l'essai contre simulation dans la douleur myofasciale (103 femmes) ne montre aucun bénéfice ajouté aux étirements. Dosimétrie chez la brebis : seulement 3 % de l'irradiance atteint le muscle releveur, ce qui pourrait expliquer les échecs à faible puissance."
+    },
+    {
+     "h": "Dysménorrhée",
+     "p": "LED sur points CV4 et CV6 contre pilule (156 femmes) : 73,6 % contre 85,7 % de répondeuses (NS), pilule plus antalgique. Laser haute intensité équivalent au basse énergie (30 femmes)."
+    },
+    {
+     "h": "Urogynécologie",
+     "p": "Patch LED de phase III dans l'hyperactivité vésicale : fuites par urgence −1,0 contre −0,4 par jour. Laser-acupuncture dans l'hyperactivité vésicale et PBM + rééducation dans l'incontinence d'effort : petits essais favorables."
+    },
+    {
+     "h": "Après cancer et recommandations",
+     "p": "CNGOF/GEMVi 2021 : lasers ablatifs non recommandés en première ligne (grade C), PBM insuffisamment évaluée. Cohorte de Nîmes (28 patientes) : 72 % améliorées. Deux cas de sténose vaginale post-radique traités par LED bleue."
+    },
+    {
+     "h": "Fertilité (préclinique)",
+     "p": "Protection ovarienne contre le cyclophosphamide chez la souris, synéchies utérines, SOPK chez le rat : une base mécanistique pour l'oncofertilité."
+    }
+   ]
+  },
+  "2024": {
+   "headline": "Lichen scléreux, candidose et premiers protocoles randomisés",
+   "l1": "En 2024, de nouvelles indications vulvaires apparaissent : le lichen scléreux (100 femmes en complément des corticoïdes) et la candidose récidivante (LED bleue). Deux protocoles d'essais randomisés sont lancés dans le syndrome génito-urinaire de la ménopause, et l'ACOG rappelle la faiblesse des preuves.",
+   "l2": "Vulve : une cohorte danoise de 100 femmes avec lichen scléreux réfractaire améliore sa qualité de vie avec un laser 808 nm, et un laser bleu réduit prurit et fissures chez 12 patientes. Dans la candidose récidivante, un essai randomisé de 60 femmes montre que deux séances de LED bleue ajoutées à l'antifongique réduisent nettement la charge en Candida.\n\nMénopause : un laser diode non ablatif améliore sécheresse et dyspareunie à 6 mois (22 femmes), et deux protocoles d'essais contre placebo sont publiés ; leurs résultats sortiront en 2026. En obstétrique, la PBM fait mieux que la cryothérapie sur la douleur périnéale (56 femmes) et qu'une crème sur les crevasses (50 femmes), mais la méta-analyse sur les mamelons reste incertaine. La série d'experts de l'ACOG distingue clairement lasers ablatifs et PBM et ne retient pas de preuve forte pour la douleur pelvienne.",
+   "l3": [
+    {
+     "h": "Vulve et infections",
+     "p": "Lichen scléreux : 100 femmes, 10 séances de 808 nm, 7 domaines de qualité de vie sur 8 améliorés. Candidose : DM de 8,27 sur la charge en Candida avec LED bleue + antifongique."
+    },
+    {
+     "h": "Ménopause",
+     "p": "Laser diode non ablatif : VHI 12 → 19,3, sécheresse 7,7 → 3,7. Protocoles PBM vulvaire 808 nm et PBM + rééducation."
+    },
+    {
+     "h": "Obstétrique",
+     "p": "PBM supérieure à la cryothérapie (douleur à 24 h, p < 0,001). Crevasses : PBM supérieure à une crème anti-inflammatoire. Méta-analyse des mamelons : PBM contre placebo DM −0,15, incertain."
+    },
+    {
+     "h": "Dysménorrhée et fertilité",
+     "p": "Chez l'animal, le rouge 630 nm pulsé est le plus efficace contre la dysménorrhée. Vieillissement ovarien amélioré chez la souris ; trois grossesses après PBM dans une série de cas d'infertilité inexpliquée."
+    }
+   ]
+  },
+  "2025": {
+   "headline": "Méta-analyses : favorable sur la dysménorrhée et l'allaitement, neutre sur le périnée",
+   "l1": "En 2025, les méta-analyses tranchent : la PBM réduit la douleur de la dysménorrhée (−4 points contre simulation) et la douleur des crevasses (OR 0,43), mais pas la douleur périnéale après accouchement. Un premier essai contre simulation est positif dans la vestibulodynie.",
+   "l2": "Dysménorrhée : la méta-analyse de 12 essais (645 femmes) montre une baisse de la douleur de 4 points à 12 semaines contre simulation. Allaitement : la méta-analyse de 7 essais est favorable (OR 0,43 sur la douleur de succion), alors qu'une autre plus ancienne, à 3 essais, ne l'était pas. Périnée : l'infrarouge aide un peu, mais pas le laser basse énergie (13 études), et une séance unique de PBM ne bat pas la simulation (60 femmes).\n\nVulve : l'essai canadien dans la vestibulodynie provoquée (30 femmes, 15 séances) réduit la douleur avec des tailles d'effet de 0,6 à 0,9, sans gain sur la sexualité. La lumière bleue soulage 79 % des candidoses récidivantes résistantes aux azolés. Ménopause : en France, la première étude chez l'humain de la sonde MILTA GYNECO montre une bonne tolérance et une dyspareunie réduite de moitié. En sénologie, la lumière bleue aide à cicatriser les plaies compliquées de reconstruction mammaire.",
+   "l3": [
+    {
+     "h": "Dysménorrhée",
+     "p": "Méta-analyse : DM −4,02 contre simulation à 12 semaines ; avantage contre la pilule. Laser-acupuncture équivalente à l'électroacupuncture (114 femmes)."
+    },
+    {
+     "h": "Obstétrique",
+     "p": "Mamelons : OR 0,43 (7 ECR, certitude faible). Périnée : laser contre placebo DMS −0,31 (NS) ; séance unique non supérieure. Une séance ne suffit pas, et la dose semble déterminante."
+    },
+    {
+     "h": "Vulve",
+     "p": "Vestibulodynie : premier ECR contre simulation positif sur la douleur. Candidose : 79 % d'amélioration immédiate, 58 % à 6 mois (62 femmes résistantes)."
+    },
+    {
+     "h": "Ménopause et urogynécologie",
+     "p": "Sonde MILTA GYNECO : 146 événements mineurs sur 148, VHI 12,7 → 17,6, dyspareunie 7,7 → 3,9. Laser basse énergie dans l'incontinence d'effort et le syndrome génito-urinaire : cohorte de 41 femmes favorable."
+    },
+    {
+     "h": "Après cancer et sénologie",
+     "p": "Lumière bleue sur plaies de reconstruction mammaire (27 patientes, 5 séances médianes). Infection de prothèse traitée par pression négative + PBM."
+    }
+   ]
+  },
+  "2026": {
+   "headline": "Les essais contre placebo arrivent dans la ménopause et après cancer du sein",
+   "l1": "En 2026, deux essais contre placebo montrent que la PBM intravaginale améliore l'incontinence et la sécheresse de la ménopause. Une étude brésilienne fait passer la douleur vaginale de 9,5 à 1/10 chez des femmes sous hormonothérapie pour cancer du sein. Sur le périnée post-partum, en revanche, les méta-analyses restent négatives.",
+   "l2": "Syndrome génito-urinaire : l'essai en double aveugle contre placebo (808 nm, 4 séances) réduit les fuites urinaires et la sécheresse ; un deuxième essai montre qu'ajoutée à la rééducation, la PBM améliore la sexualité (FSFI +4,6) et l'incontinence. Une étude taïwanaise (660 nm par sonde) ramène toutes les patientes au-dessus du seuil d'atrophie. Après cancer : la PBM LED bleu + rouge soulage presque complètement la douleur vaginale sous inhibiteurs de l'aromatase (24 femmes, groupe d'observation non traité).\n\nVulvodynie : la méta-analyse en réseau de 34 essais classe les thérapies tissulaires, PBM comprise, en tête contre placebo ; une cohorte française ne trouve que 52 % de succès. Obstétrique : quatre méta-analyses et un essai en double aveugle ne trouvent pas de bénéfice du laser sur la douleur périnéale, alors qu'un essai sur les mamelons est positif. La consultation internationale de médecine sexuelle (ICSM) juge les preuves encore insuffisantes pour recommander la PBM.",
+   "l3": [
+    {
+     "h": "Ménopause",
+     "p": "Essai contre placebo 808 nm : fuites et ICIQ-SF améliorés, sexualité inchangée. PBM + rééducation : FSFI DM 4,55, ICIQ-SF −3,06. Étude 660 nm : 100 % au-dessus du seuil non atrophique à 3 mois, mais seulement 13 % retrouvent une fonction sexuelle normale."
+    },
+    {
+     "h": "Après cancer",
+     "p": "Cancer du sein sous hormonothérapie : EVA 9,46 → 1,04, QS-F 23 → 87. Rappel radique après cisplatine dans un cancer du col : amélioration en une semaine avec une PBM multi-longueurs d'onde."
+    },
+    {
+     "h": "Vulve",
+     "p": "Méta-analyse en réseau vulvodynie : thérapies tissulaires POMP −16 contre placebo (confiance modérée), en tête du classement. LED 415 nm efficace dans un modèle de vaginose bactérienne."
+    },
+    {
+     "h": "Obstétrique",
+     "p": "Périnée : 4 méta-analyses (LLLT contre placebo DM 0,03 ; DMS 0,04 ; DMS −0,16) et un ECR à 660 nm sans bénéfice, mais moins d'antalgiques ; une cohorte portugaise (808 nm, lésions de grade 2–3) est positive. Mamelons : ECR multicentrique positif dès 30 minutes."
+    },
+    {
+     "h": "Fertilité",
+     "p": "Ovocytes humains immatures : maturation deux fois plus rapide sous 810 nm, sans stress oxydatif. LED portable 630 nm : compte de follicules antraux 2 → 6 dans un pilote."
+    }
+   ]
+  },
+  "2000–2019": {
+   "headline": "Vingt ans de pionniers : obstétrique, dysménorrhée et premiers essais vulvaires",
+   "l1": "Avant 2020, la PBM en gynécologie reste marginale : une vingtaine d'études, surtout en obstétrique (mamelons, épisiotomie), dans la dysménorrhée et, à la fin de la période, dans la vulve (vestibulodynie, lichen scléreux). Les patchs lumineux contre la dysménorrhée et le laser contre les crevasses sont positifs ; le laser après épisiotomie ne l'est pas.",
+   "l2": "En obstétrique, le laser après épisiotomie échoue dans trois essais (52, 114 et 54 femmes), alors que la LED et le laser 660 nm soulagent les lésions et la douleur des mamelons (8 et 59 femmes). Le laser sur la cicatrice de césarienne ne perturbe pas l'allaitement. La laser-acupuncture ne réduit ni les bouffées de chaleur (40 femmes) ni la dysménorrhée (48 femmes), mais un patch lumineux adhésif est efficace dans deux essais coréens (31 puis 88 femmes, −4,3 contre −1,8 points).\n\nÀ la fin de la décennie apparaissent les premiers essais vulvaires et pelviens : vestibulodynie (78 % contre 44 % d'amélioration, critère principal seulement), lichen scléreux (Nd:YAG non ablatif > dermocorticoïdes), endométriose (laser haute intensité pulsé, douleur et qualité de vie). Trois protocoles brésiliens annoncent les essais de la décennie suivante.",
+   "l3": [
+    {
+     "h": "Obstétrique",
+     "p": "Épisiotomie : trois essais négatifs (doses faibles, 0,45 J par séance dans l'un). Mamelons : LED (8 séances) et laser 660 nm (−2 points à 24 h) favorables. Césarienne : prolactine et allaitement préservés."
+    },
+    {
+     "h": "Dysménorrhée et ménopause",
+     "p": "Patch lumineux sur acupoints : 83 % de soulagement (pilote), puis −4,3 contre −1,8 points (88 femmes, multicentrique). Laser-acupuncture : négative dans la dysménorrhée et les bouffées de chaleur."
+    },
+    {
+     "h": "Vulve et pelvis",
+     "p": "Vestibulodynie (34 femmes) : amélioration chez 78 % contre 44 %. Lichen scléreux : Nd:YAG non ablatif > corticoïdes jusqu'à 6 mois (40 femmes). Endométriose : laser haute intensité pulsé, douleur et adhérences réduites (40 femmes)."
+    }
+   ]
+  }
+ },
+ "global": {
+  "headline": "2020 → 2026 : ce que la PBM apporte, ou non, en gynécologie",
+  "l1": "Sur sept ans, la PBM gynécologique se précise. Elle est la mieux étayée dans la dysménorrhée, les crevasses de l'allaitement, la sécheresse et l'incontinence de la ménopause, et dans la vulvodynie. Elle ne fait pas ses preuves sur la douleur périnéale après accouchement. Après cancer, les résultats sont spectaculaires mais encore non randomisés.",
+  "l2": "Ce qui se confirme : dysménorrhée (méta-analyse 2025, −4 points contre simulation), crevasses (méta-analyse 2025, OR 0,43 ; essai 2026 positif), syndrome génito-urinaire de la ménopause (deux essais contre placebo en 2026, effet net sur l'incontinence et la sécheresse), vulvodynie (essai contre simulation 2025, méta-analyse en réseau 2026). Ce qui ne se confirme pas : la douleur périnéale post-partum (quatre méta-analyses négatives), et l'ajout de la PBM aux étirements dans la douleur myofasciale pelvienne.\n\nCe qui est prometteur : la sécheresse et la douleur vaginale après cancer (cohorte de Nîmes 2023, cancer du sein sous hormonothérapie 2026), la candidose récidivante (LED bleue) et le lichen scléreux réfractaire. En fertilité, tout reste préclinique ou pilote. Les recommandations (CNGOF 2021, ICSM 2024/2026) restent prudentes : la PBM est une option complémentaire, sans indication validée en première ligne.",
+  "l3": [
+   {
+    "h": "0. Avant 2020 : les pionniers",
+    "p": "De 2000 à 2019, une vingtaine d'études seulement, surtout en obstétrique et dans la dysménorrhée. On y trouve déjà les deux tendances qui se confirment ensuite : la PBM soulage les mamelons de l'allaitante et la dysménorrhée (patchs lumineux), mais pas la douleur après épisiotomie."
+   },
+   {
+    "h": "1. Une différence essentielle : PBM et lasers ablatifs",
+    "p": "Les lasers vaginaux CO2 et Er:YAG (ablatifs, thermiques) dominent la littérature et ne sont pas de la PBM ; ils sont exclus de ce thème. Les recommandations françaises et l'ACOG les évaluent séparément. La PBM utilise des puissances faibles (rouge, proche infrarouge, bleu) sans destruction tissulaire."
+   },
+   {
+    "h": "2. Sécheresse et ménopause : le sous-groupe qui progresse le plus",
+    "p": "Il n'y avait que des protocoles en 2024. En 2026, deux essais contre placebo positifs sur l'incontinence et les symptômes vaginaux, et une étude à 660 nm avec normalisation de l'index de santé vaginale. La fonction sexuelle reste le critère le moins amélioré."
+   },
+   {
+    "h": "3. Après cancer : un besoin fort, des preuves en construction",
+    "p": "Les œstrogènes locaux sont souvent évités après cancer du sein. La PBM y montre des résultats spectaculaires (douleur 9,5 → 1/10), mais dans des études non randomisées. Un essai contre placebo est la priorité. Les données in vitro sur cellules de cancer gynécologique sont plutôt rassurantes, mais limitées."
+   },
+   {
+    "h": "4. Obstétrique : allaitement oui, périnée non",
+    "p": "Sur les crevasses, les essais à plusieurs séances sont positifs, alors qu'une séance unique ne suffit pas. Sur le périnée, la convergence des méta-analyses de 2025–2026 est négative ; la cryothérapie reste le premier choix. Pendant la grossesse, faute de données, la PBM abdominopelvienne est à éviter hors protocole."
+   },
+   {
+    "h": "5. Vulve et douleurs pelviennes",
+    "p": "Vulvodynie : premier essai contre simulation positif (2025) et méta-analyse en réseau favorable (2026), avec environ une répondeuse sur deux en pratique. Dysménorrhée : méta-analyse favorable ; la LED est presque aussi efficace que la pilule, sans hormones. Candidose récidivante : la LED bleue 415 nm est un adjuvant prometteur."
+   }
+  ],
+  "table": {
+   "cols": [
+    "2000–2019",
+    "2020–2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "rows": [
+    {
+     "label": "Sécheresse / ménopause",
+     "cells": [
+      "Laser-acupuncture : bouffées de chaleur, négatif",
+      "Incontinence : petits ECR ; patch phase III (hyperactivité vésicale)",
+      "Diode non ablatif ; 2 protocoles ECR",
+      "Sonde MILTA (France) : tolérance",
+      "2 ECR contre placebo positifs"
+     ]
+    },
+    {
+     "label": "Après cancer",
+     "cells": [
+      "—",
+      "Cohorte Nîmes : 72 % améliorées",
+      "—",
+      "Plaies de reconstruction mammaire",
+      "Cancer du sein : douleur 9,5 → 1/10"
+     ]
+    },
+    {
+     "label": "Vulve & vagin",
+     "cells": [
+      "Vestibulodynie (pilote) ; lichen Nd:YAG > corticoïdes",
+      "Revue lasers vulvodynie",
+      "Lichen scléreux (100) ; candidose ECR",
+      "Vestibulodynie : ECR positif",
+      "Méta-analyse en réseau vulvodynie"
+     ]
+    },
+    {
+     "label": "Douleurs pelviennes",
+     "cells": [
+      "Patch dysménorrhée : 2 ECR positifs ; endométriose",
+      "PBM transvaginale (cohortes) ; ECR myofascial négatif",
+      "Dysménorrhée (préclinique)",
+      "Méta-analyse dysménorrhée : −4 points",
+      "Protocoles stérilet, acupoints"
+     ]
+    },
+    {
+     "label": "Obstétrique",
+     "cells": [
+      "Épisiotomie : 3 ECR négatifs ; mamelons positifs",
+      "Mamelons : séance unique négative",
+      "PBM > cryothérapie (périnée)",
+      "Mamelons : OR 0,43 ; périnée négatif",
+      "Périnée : 4 méta-analyses négatives ; mamelons ECR +"
+     ]
+    },
+    {
+     "label": "Recommandations",
+     "cells": [
+      "—",
+      "CNGOF 2021 : preuves insuffisantes",
+      "ACOG : pas de preuve forte",
+      "—",
+      "ICSM : pas de consensus"
+     ]
+    }
+   ]
+  }
  }
-}
 }

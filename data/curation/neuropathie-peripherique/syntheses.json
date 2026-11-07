@@ -1,59 +1,236 @@
 {
-"years": {
-"2024": {
- "headline": "Beaucoup de compressions nerveuses, peu de neuropathies systémiques",
- "l1": "En 2024, les essais portent surtout sur le canal carpien et le nerf ulnaire, avec des bénéfices surtout à court terme ; les neuropathies diabétiques et chimio-induites n'ont que des petits essais et beaucoup d'études animales.",
- "l2": "Les compressions nerveuses dominent : deux essais sur le nerf ulnaire (bénéfice à court terme, qui s'estompe à 3 mois), trois sur le canal carpien, dont un négatif (le laser n'ajoute rien aux exercices), et une méta-analyse favorable au laser haute intensité à court terme. Dans la neuropathie diabétique, un essai iranien Tecar + laser (publié deux fois) et une chaussure laser sans témoin restent des preuves faibles.\n\nLa recherche fondamentale est active : six études chez le rat montrent un effet antalgique (constriction du sciatique, ligature spinale, diabète induit), sans toujours protéger la structure du nerf. Un travail de modélisation montre que c'est la dose de lumière au niveau du nerf, et non la puissance de l'appareil, qui sépare les protocoles efficaces des autres. La synthèse du Bulletin du Cancer juge le niveau de preuve encore faible pour la neuropathie chimio-induite.",
- "l3": [
-  {"h":"Compressions nerveuses","p":"Nerf ulnaire au coude (68 patients, double aveugle) : douleur et fonction améliorées à 3 mois, sans effet électrophysiologique. Canal cubital (64 patients) : avantage à 3 semaines, équivalence à 3 mois. Canal carpien : laser équivalent aux ondes de choc, sans apport en plus des exercices, et méta-analyse haute intensité (308 patients) favorable à court terme."},
-  {"h":"Neuropathie diabétique","p":"Tecar + laser (45 patients, double aveugle, deux publications) : l'association est la plus durable ; le laser seul fait moins bien. Chaussure laser (60 patients, sans témoin) : douleur et pressions plantaires réduites. Protocole d'une méta-analyse dédiée."},
-  {"h":"Préclinique et dosimétrie","p":"Effet antalgique reproductible chez le rat à 850–904 nm, mécanismes inflammatoires (RAGE/NF-κB, IL-1β, NGF), régénération après écrasement (Nd:YAG pulsé). La modélisation de l'irradiance au nerf donne un cadre pour choisir la dose selon la profondeur."},
-  {"h":"Neuropathie chimio-induite","p":"Pas d'essai clinique spécifique en 2024 ; la synthèse française classe la PBM comme encore peu étayée dans cette indication."}
- ]
-},
-"2025": {
- "headline": "Le premier grand essai dans la neuropathie diabétique et les premières méta-analyses",
- "l1": "En 2025, un essai de 200 diabétiques montre un effet de la PBM sur la douleur et les biomarqueurs nerveux. Les méta-analyses sur le canal carpien et les neuropathies orofaciales sont favorables, et un consensus international (JAAD) retient la neuropathie périphérique comme indication.",
- "l2": "La neuropathie diabétique gagne en preuves : essai indien de 200 patients contre simulation (laser He-Ne sur les pieds, douleur, sensibilité vibratoire, qualité de vie, NSE et CGRP améliorés), essai chinois à 10,6 μm favorable, et essai à trois bras au résultat modeste. Une revue dosimétrique propose une fenêtre : 630–670 nm ou 808–904 nm, 3 à 10 J/cm², au moins 12 séances.\n\nLes synthèses se multiplient. Dans le canal carpien, la méta-analyse en réseau (49 essais) place le laser parmi les traitements efficaces mais derrière la thérapie manuelle ; une autre méta-analyse ne trouve d'effet que sur la fonction ; le laser haute intensité est confirmé. Dans les neuropathies orofaciales, 18 essais montrent une baisse de 3,5 points de la douleur. Côté chimio-induite, une étude brésilienne sans témoin montre de meilleurs symptômes, équilibre et marche.",
- "l3": [
-  {"h":"Neuropathie diabétique","p":"Essai de 200 patients (Diabetes Res Clin Pract) : le plus solide de la période. Essai 10,6 μm (68 patients, double aveugle) : symptômes et qualité de vie améliorés, pas la conduction. Essai laser contre ultrasons (55 patients) : effet sur la qualité de vie, pas sur le score de symptômes."},
-  {"h":"Canal carpien et compressions","p":"Méta-analyse en réseau : laser DMS −1,45 contre contrôle, mais thérapie manuelle et glucosé en tête. Méta-analyse PBM basse intensité (13 essais) : fonction améliorée, pas la douleur. Méta-analyse haute intensité (9 essais) : douleur, handicap et conduction améliorés, certitude modérée à faible."},
-  {"h":"Neuropathie chimio-induite","p":"Étude brésilienne (47 patients, 630/850 nm) : DN-4, équilibre et marche améliorés, sans témoin. Revue de 26 essais d'exercice et de kinésithérapie : la PBM est l'une des modalités utiles, à combiner avec l'exercice."},
-  {"h":"Consensus et orofacial","p":"Consensus Delphi du JAAD (21 experts) : PBM sûre et efficace dans la neuropathie périphérique. Revue maxillo-faciale (18 essais, 1 220 patients) : douleur −3,5 et récupération sensitive plus rapide."}
- ]
-},
-"2026": {
- "headline": "Des essais contre simulation et une première recommandation",
- "l1": "En 2026, un essai multicentrique américain contre simulation valide un laser à domicile dans la neuropathie diabétique douloureuse (72,7 % de répondeurs contre 32,3 %). Le premier essai belge dans la neuropathie chimio-induite est encourageant, et la WALT publie des recommandations pour les douleurs neuropathiques orofaciales.",
- "l2": "La neuropathie diabétique douloureuse dispose de son essai de référence : dispositif rouge + violet utilisé à domicile, quatre centres, double aveugle, 40 points de répondeurs en plus qu'avec la simulation à 3 semaines. Un pilote brésilien avec ILIB ne montre pas de supériorité sur la simulation. Dans la neuropathie chimio-induite, l'essai NEUROLIGHT (60 patients) améliore le score de neuropathie, la marche et la douleur, mieux à 6 J/cm², sans groupe placebo.\n\nLes compressions nerveuses passent au laser haute intensité : canal carpien (supérieur au laser basse intensité), méralgie paresthésique (double aveugle contre simulation) et canal cubital après brûlure (supérieur aux ondes de choc). La WALT recommande la PBM dans le syndrome de la bouche brûlante et émet un avis favorable pour les névralgies trigéminale et post-zostérienne. La recherche animale se tourne vers la neuropathie chimio-induite (paclitaxel, cisplatine) et la myéline.",
- "l3": [
-  {"h":"Neuropathie diabétique","p":"Essai multicentrique NCT05291975 (64 patients) : 72,7 % contre 32,3 % de répondeurs, EVA −33,4 contre −20,0, effet maintenu à 7 semaines. Pilote PBM ± ILIB (26 patients) : douleur en baisse dans le temps, sans interaction avec le groupe."},
-  {"h":"Neuropathie chimio-induite","p":"NEUROLIGHT (Belgique, 60 patients, 6 contre 8 J/cm²) : mTNS, 6MWT et douleur améliorés, qualité de vie inchangée, sans bras placebo. Préclinique : PBM 808 nm chez la souris sous paclitaxel (fibres nerveuses restaurées), PBM 660 nm sur cellules exposées au cisplatine (voie AMPK)."},
-  {"h":"Compressions nerveuses","p":"Canal carpien subaigu (69 patients) : haute intensité supérieure à basse intensité, toutes deux meilleures que la simulation. Méralgie paresthésique (62 patients, 1 064 nm) : douleur, fonction et conduction améliorées à 12 semaines. Canal cubital post-brûlure (75 patients) : haute intensité supérieure aux ondes de choc. Laser He-Ne après acupotomie : aussi efficace que les corticoïdes, sans hyperglycémie."},
-  {"h":"Recommandations","p":"WALT 2026 : bouche brûlante (niveau I), névralgie trigéminale idiopathique et post-zostérienne (niveau II, avis d'experts). Revue de 14 essais sur la douleur chronique : effets les plus nets dans la fibromyalgie et la neuropathie."}
- ]
-}
-},
-"global": {
- "headline": "2024 → 2026 : des compressions nerveuses vers la neuropathie diabétique et chimio-induite",
- "l1": "En trois ans, la PBM dans les neuropathies périphériques passe de petits essais sur le canal carpien à de vrais essais contre simulation dans la neuropathie diabétique douloureuse. La neuropathie chimio-induite reste le parent pauvre, malgré des données animales et un premier essai encourageants.",
- "l2": "Acquis : dans les neuropathies de compression (canal carpien, nerf ulnaire, méralgie), la PBM, surtout à haute intensité, améliore la douleur et la fonction à court terme, en complément de l'attelle et des exercices ; l'effet à moyen terme est moins net, et un essai montre qu'elle n'ajoute rien à des exercices bien conduits. Dans la neuropathie diabétique douloureuse, deux essais contre simulation solides (200 patients en 2025, multicentrique en 2026) confirment un soulagement de court terme.\n\nCe qui manque : un essai contre simulation dans la neuropathie chimio-induite (NEUROLIGHT compare deux doses), des suivis au-delà de 3 mois, une dosimétrie raisonnée selon la profondeur du nerf, et la méta-analyse annoncée en 2024 dans la neuropathie diabétique. Les recommandations apparaissent (consensus JAAD 2025, WALT 2026 pour l'orofacial) mais restent portées par des sociétés de PBM.",
- "l3": [
-  {"h":"1. Les compressions nerveuses, terrain le plus étudié","p":"Le canal carpien concentre la recherche (analyse bibliométrique 2026). Les méta-analyses divergent sur la douleur (réseau : DMS −1,45 ; autre méta-analyse : non significatif) mais s'accordent sur la fonction. Le laser haute intensité s'impose entre 2024 et 2026, avec trois essais en 2026 qui le donnent supérieur au basse intensité ou aux ondes de choc."},
-  {"h":"2. La neuropathie diabétique, l'indication qui progresse le plus","p":"En 2024, il n'y avait que des petits essais combinés (Tecar) ou sans témoin. En 2025 paraît un essai de 200 patients contre simulation, avec biomarqueurs. En 2026, un essai multicentrique en double aveugle teste un dispositif à domicile. L'effet porte sur la douleur et la qualité de vie plus que sur la conduction nerveuse."},
-  {"h":"3. La neuropathie chimio-induite, une preuve encore à construire","p":"Bulletin du Cancer 2024 : preuve faible. 2025 : étude avant-après (équilibre, marche). 2026 : NEUROLIGHT, sans placebo, et deux études précliniques solides (paclitaxel, cisplatine). La question de la prévention pendant la chimiothérapie reste ouverte ; c'est la priorité de recherche pour les soins de support."},
-  {"h":"4. Mécanismes : antalgie avant réparation","p":"Les modèles animaux montrent un effet antalgique constant, mais pas toujours une protection structurelle du nerf (2024). Les études de 2026 retrouvent des effets sur le NGF, la myéline et les mitochondries. L'antalgie passerait en partie par un blocage des petites fibres, selon la dose au nerf."},
-  {"h":"5. Les paramètres","p":"Fenêtre proposée pour la neuropathie diabétique : 630–670 nm ou 808–904 nm, 3–10 J/cm², 45–100 mW, au moins 12 séances. NEUROLIGHT suggère une fluence modérée (6 J/cm²) plus antalgique. Le laser haute intensité (1 064 nm) gagne du terrain dans les compressions."}
- ],
- "table": {
-  "cols": ["2024","2025","2026"],
-  "rows": [
-   {"label":"Question dominante","cells":["Compressions nerveuses, mécanismes","Neuropathie diabétique, méta-analyses","Essais contre simulation, recommandations"]},
-   {"label":"Essai phare","cells":["Nerf ulnaire, double aveugle (n = 68)","Neuropathie diabétique He-Ne (n = 200)","Laser à domicile multicentrique (n = 64)"]},
-   {"label":"Synthèse phare","cells":["Haute intensité canal carpien (308 patients)","Réseau canal carpien (49 ECR) ; orofacial (18 ECR)","WALT orofacial ; douleur chronique (14 ECR)"]},
-   {"label":"Neuropathie chimio-induite","cells":["Preuve faible (Bulletin du Cancer)","Avant-après, équilibre et marche (n = 47)","NEUROLIGHT (n = 60) ; préclinique"]},
-   {"label":"Haute intensité","cells":["Méta-analyse canal carpien","Méta-analyse canal carpien","3 essais : carpien, méralgie, cubital"]}
-  ]
+ "years": {
+  "2024": {
+   "headline": "Beaucoup de compressions nerveuses, peu de neuropathies systémiques",
+   "l1": "En 2024, les essais portent surtout sur le canal carpien et le nerf ulnaire, avec des bénéfices surtout à court terme ; les neuropathies diabétiques et chimio-induites n'ont que des petits essais et beaucoup d'études animales.",
+   "l2": "Les compressions nerveuses dominent : deux essais sur le nerf ulnaire (bénéfice à court terme, qui s'estompe à 3 mois), trois sur le canal carpien, dont un négatif (le laser n'ajoute rien aux exercices), et une méta-analyse favorable au laser haute intensité à court terme. Dans la neuropathie diabétique, un essai iranien Tecar + laser (publié deux fois) et une chaussure laser sans témoin restent des preuves faibles.\n\nLa recherche fondamentale est active : six études chez le rat montrent un effet antalgique (constriction du sciatique, ligature spinale, diabète induit), sans toujours protéger la structure du nerf. Un travail de modélisation montre que c'est la dose de lumière au niveau du nerf, et non la puissance de l'appareil, qui sépare les protocoles efficaces des autres. La synthèse du Bulletin du Cancer juge le niveau de preuve encore faible pour la neuropathie chimio-induite.",
+   "l3": [
+    {
+     "h": "Compressions nerveuses",
+     "p": "Nerf ulnaire au coude (68 patients, double aveugle) : douleur et fonction améliorées à 3 mois, sans effet électrophysiologique. Canal cubital (64 patients) : avantage à 3 semaines, équivalence à 3 mois. Canal carpien : laser équivalent aux ondes de choc, sans apport en plus des exercices, et méta-analyse haute intensité (308 patients) favorable à court terme."
+    },
+    {
+     "h": "Neuropathie diabétique",
+     "p": "Tecar + laser (45 patients, double aveugle, deux publications) : l'association est la plus durable ; le laser seul fait moins bien. Chaussure laser (60 patients, sans témoin) : douleur et pressions plantaires réduites. Protocole d'une méta-analyse dédiée."
+    },
+    {
+     "h": "Préclinique et dosimétrie",
+     "p": "Effet antalgique reproductible chez le rat à 850–904 nm, mécanismes inflammatoires (RAGE/NF-κB, IL-1β, NGF), régénération après écrasement (Nd:YAG pulsé). La modélisation de l'irradiance au nerf donne un cadre pour choisir la dose selon la profondeur."
+    },
+    {
+     "h": "Neuropathie chimio-induite",
+     "p": "Pas d'essai clinique spécifique en 2024 ; la synthèse française classe la PBM comme encore peu étayée dans cette indication."
+    }
+   ]
+  },
+  "2025": {
+   "headline": "Le premier grand essai dans la neuropathie diabétique et les premières méta-analyses",
+   "l1": "En 2025, un essai de 200 diabétiques montre un effet de la PBM sur la douleur et les biomarqueurs nerveux. Les méta-analyses sur le canal carpien et les neuropathies orofaciales sont favorables, et un consensus international (JAAD) retient la neuropathie périphérique comme indication.",
+   "l2": "La neuropathie diabétique gagne en preuves : essai indien de 200 patients contre simulation (laser He-Ne sur les pieds, douleur, sensibilité vibratoire, qualité de vie, NSE et CGRP améliorés), essai chinois à 10,6 μm favorable, et essai à trois bras au résultat modeste. Une revue dosimétrique propose une fenêtre : 630–670 nm ou 808–904 nm, 3 à 10 J/cm², au moins 12 séances.\n\nLes synthèses se multiplient. Dans le canal carpien, la méta-analyse en réseau (49 essais) place le laser parmi les traitements efficaces mais derrière la thérapie manuelle ; une autre méta-analyse ne trouve d'effet que sur la fonction ; le laser haute intensité est confirmé. Dans les neuropathies orofaciales, 18 essais montrent une baisse de 3,5 points de la douleur. Côté chimio-induite, une étude brésilienne sans témoin montre de meilleurs symptômes, équilibre et marche.",
+   "l3": [
+    {
+     "h": "Neuropathie diabétique",
+     "p": "Essai de 200 patients (Diabetes Res Clin Pract) : le plus solide de la période. Essai 10,6 μm (68 patients, double aveugle) : symptômes et qualité de vie améliorés, pas la conduction. Essai laser contre ultrasons (55 patients) : effet sur la qualité de vie, pas sur le score de symptômes."
+    },
+    {
+     "h": "Canal carpien et compressions",
+     "p": "Méta-analyse en réseau : laser DMS −1,45 contre contrôle, mais thérapie manuelle et glucosé en tête. Méta-analyse PBM basse intensité (13 essais) : fonction améliorée, pas la douleur. Méta-analyse haute intensité (9 essais) : douleur, handicap et conduction améliorés, certitude modérée à faible."
+    },
+    {
+     "h": "Neuropathie chimio-induite",
+     "p": "Étude brésilienne (47 patients, 630/850 nm) : DN-4, équilibre et marche améliorés, sans témoin. Revue de 26 essais d'exercice et de kinésithérapie : la PBM est l'une des modalités utiles, à combiner avec l'exercice."
+    },
+    {
+     "h": "Consensus et orofacial",
+     "p": "Consensus Delphi du JAAD (21 experts) : PBM sûre et efficace dans la neuropathie périphérique. Revue maxillo-faciale (18 essais, 1 220 patients) : douleur −3,5 et récupération sensitive plus rapide."
+    }
+   ]
+  },
+  "2026": {
+   "headline": "Des essais contre simulation et une première recommandation",
+   "l1": "En 2026, un essai multicentrique américain contre simulation valide un laser à domicile dans la neuropathie diabétique douloureuse (72,7 % de répondeurs contre 32,3 %). Le premier essai belge dans la neuropathie chimio-induite est encourageant, et la WALT publie des recommandations pour les douleurs neuropathiques orofaciales.",
+   "l2": "La neuropathie diabétique douloureuse dispose de son essai de référence : dispositif rouge + violet utilisé à domicile, quatre centres, double aveugle, 40 points de répondeurs en plus qu'avec la simulation à 3 semaines. Un pilote brésilien avec ILIB ne montre pas de supériorité sur la simulation. Dans la neuropathie chimio-induite, l'essai NEUROLIGHT (60 patients) améliore le score de neuropathie, la marche et la douleur, mieux à 6 J/cm², sans groupe placebo.\n\nLes compressions nerveuses passent au laser haute intensité : canal carpien (supérieur au laser basse intensité), méralgie paresthésique (double aveugle contre simulation) et canal cubital après brûlure (supérieur aux ondes de choc). La WALT recommande la PBM dans le syndrome de la bouche brûlante et émet un avis favorable pour les névralgies trigéminale et post-zostérienne. La recherche animale se tourne vers la neuropathie chimio-induite (paclitaxel, cisplatine) et la myéline.",
+   "l3": [
+    {
+     "h": "Neuropathie diabétique",
+     "p": "Essai multicentrique NCT05291975 (64 patients) : 72,7 % contre 32,3 % de répondeurs, EVA −33,4 contre −20,0, effet maintenu à 7 semaines. Pilote PBM ± ILIB (26 patients) : douleur en baisse dans le temps, sans interaction avec le groupe."
+    },
+    {
+     "h": "Neuropathie chimio-induite",
+     "p": "NEUROLIGHT (Belgique, 60 patients, 6 contre 8 J/cm²) : mTNS, 6MWT et douleur améliorés, qualité de vie inchangée, sans bras placebo. Préclinique : PBM 808 nm chez la souris sous paclitaxel (fibres nerveuses restaurées), PBM 660 nm sur cellules exposées au cisplatine (voie AMPK)."
+    },
+    {
+     "h": "Compressions nerveuses",
+     "p": "Canal carpien subaigu (69 patients) : haute intensité supérieure à basse intensité, toutes deux meilleures que la simulation. Méralgie paresthésique (62 patients, 1 064 nm) : douleur, fonction et conduction améliorées à 12 semaines. Canal cubital post-brûlure (75 patients) : haute intensité supérieure aux ondes de choc. Laser He-Ne après acupotomie : aussi efficace que les corticoïdes, sans hyperglycémie."
+    },
+    {
+     "h": "Recommandations",
+     "p": "WALT 2026 : bouche brûlante (niveau I), névralgie trigéminale idiopathique et post-zostérienne (niveau II, avis d'experts). Revue de 14 essais sur la douleur chronique : effets les plus nets dans la fibromyalgie et la neuropathie."
+    }
+   ]
+  },
+  "2000–2009": {
+   "headline": "Le canal carpien, premier terrain d'essai",
+   "l1": "Entre 2000 et 2009, la PBM dans les neuropathies périphériques se résume presque au canal carpien, avec des essais contradictoires : plusieurs sont positifs contre placebo, d'autres négatifs, et les ultrasons font parfois mieux. Le premier essai dans la neuropathie diabétique (Diabetes Care 2004) est négatif.",
+   "l2": "Une dizaine d'essais randomisés étudient le laser dans le canal carpien. Les résultats sont partagés : amélioration de la douleur, de la force et des latences contre placebo dans plusieurs essais (2007–2009), mais absence d'effet dans d'autres (15 et 81 patients) et supériorité des ultrasons dans un essai de 2004. L'association laser + attelle fait mieux que l'attelle seule chez 50 femmes. Une revue de 2007 (33 essais) juge les preuves limitées ou contradictoires pour le laser, fortes pour les corticoïdes.\n\nHors canal carpien, deux essais ouvrent des pistes : la neuropathie diabétique douloureuse (Diabetes Care 2004 : tendance non significative, −1 point) et les lésions nerveuses périphériques anciennes (780 nm, amélioration motrice sur 6 mois en double aveugle).",
+   "l3": [
+    {
+     "h": "Canal carpien",
+     "p": "Essais positifs : 2007 (polyarthrite), 2008 (latences et force), 2008 (ligament transverse), 2009 (laser + attelle > ultrasons + attelle). Négatifs : 860 nm (n = 15), 81 patients (seule la force s'améliore), ultrasons > laser (2004). Revue de 2007 : preuves limitées."
+    },
+    {
+     "h": "Neuropathie diabétique",
+     "p": "Diabetes Care 2004 : −1 point de douleur, non significatif, sans effet sur la conduction ni la sensibilité."
+    },
+    {
+     "h": "Lésions nerveuses",
+     "p": "Lésions incomplètes anciennes : 780 nm, amélioration motrice sur 6 mois contre placebo en double aveugle. Une base pour les essais de régénération nerveuse."
+    }
+   ]
+  },
+  "2010–2019": {
+   "headline": "Méta-analyses discordantes dans le canal carpien, premier essai positif dans la neuropathie chimio-induite",
+   "l1": "Entre 2010 et 2019, les méta-analyses du canal carpien divergent : effet sur la force, la douleur et le potentiel sensitif à 12 semaines pour l'une, pas mieux que le placebo pour l'autre. Le fait marquant de la décennie est le premier essai contre simulation dans la neuropathie chimio-induite (2016), avec 53 % de réduction du score à 8 semaines.",
+   "l2": "Dans le canal carpien, les essais s'accumulent : laser haute intensité supérieur à la TENS, laser + attelle supérieur à l'attelle seule, laser-acupuncture efficace, mais aussi essais négatifs et supériorité de la manipulation fasciale. Les synthèses de 2016 à 2018 concluent à un effet à court terme, surtout sur la force, dont la portée est discutée (un essai pèse plus de 95 % d'une méta-analyse). Les paramètres les plus efficaces semblent se situer entre 780 et 860 nm, à 9–11 J/cm².\n\nLa neuropathie chimio-induite apparaît avec l'essai de Gynecologic Oncology (2016, −32 % puis −53 % du score de neuropathie), et une revue de 2018 classe la PBM avec la duloxétine parmi les deux options de bénéfice modéré. Dans la neuropathie diabétique, une revue de six études et un essai pilote chez le sujet âgé sont favorables. En chirurgie maxillo-faciale, le laser améliore la récupération sensitive du nerf alvéolaire inférieur.",
+   "l3": [
+    {
+     "h": "Canal carpien",
+     "p": "Méta-analyse 2016 (7 ECR) : force, douleur et potentiel sensitif à 12 semaines, mais un essai domine. Méta-analyse 2017 : seule la force s'améliore. Revue 2017 : 780–860 nm à 9–11 J/cm². Haute intensité > TENS (2013). Laser-acupuncture positive (2019)."
+    },
+    {
+     "h": "Neuropathie chimio-induite",
+     "p": "Essai contre simulation (2016) : −32 % du score à 4 semaines, −53 % à 8 semaines. Revue 2018 (35 études) : PBM et duloxétine, bénéfice modéré. Revue de sécurité 2019 : pas de signal tumoral."
+    },
+    {
+     "h": "Neuropathie diabétique",
+     "p": "Essai iranien mitigé (2013) ; laser profond chez l'âgé : douleur et mobilité améliorées (2019) ; revue de six études favorable ; laser et LED améliorent les signes neuropathiques des ulcères."
+    },
+    {
+     "h": "Autres",
+     "p": "Nerf ulnaire au coude : laser ≈ ultrasons. Nerf alvéolaire inférieur après ostéotomie : six études favorables. Douleur neuropathique (revue de 14 articles, surtout animaux) : effet meilleur au-delà de 70 mW."
+    }
+   ]
+  },
+  "2020–2023": {
+   "headline": "Diversification : haute intensité, chirurgie nerveuse et prévention de la neuropathie chimio-induite",
+   "l1": "De 2020 à 2023, la recherche se diversifie : laser haute intensité dans le canal carpien, PBM après chirurgie nerveuse (plexus brachial, libération du carpe), prévention de la neuropathie chimio-induite (NEUROLASER) et neuropathie diabétique. Les synthèses restent prudentes, mais la WALT 2022 propose des paramètres pour la neuropathie chimio-induite.",
+   "l2": "Dans le canal carpien, une méta-analyse en réseau juge l'ajout du laser à l'attelle non cliniquement significatif (−0,5 cm), et une revue parapluie de 17 revues reste non concluante. Le laser égale l'infiltration de corticoïde à 6 mois, et le laser haute intensité fait mieux que le laser basse énergie. Après libération chirurgicale, la PBM accélère la récupération ; après neurotisation du plexus brachial, elle accélère la réinnervation.\n\nPour la neuropathie chimio-induite, l'essai pilote NEUROLASER (cancer du sein) montre une stabilisation des symptômes sous PBM préventive, alors qu'un essai de phase II chez des survivants donne des taux de réponse proches (48 % contre 53 %). Dans la neuropathie diabétique, l'ILIB modifiée et une revue de huit études sont favorables (douleur, conduction, pressions plantaires).",
+   "l3": [
+    {
+     "h": "Canal carpien",
+     "p": "Réseau de 6 ECR (2020) : −0,5 cm, non recommandé. Parapluie (2023) : non concluant. Laser ≈ corticoïde à 6 mois. Haute intensité 1,6 W > basse énergie. Méta-analyse 2023 : −1,3 point contre simulation."
+    },
+    {
+     "h": "Chirurgie nerveuse",
+     "p": "Plexus brachial (Oberlin) : réinnervation et force à 3 mois. Après libération du carpe : fonction, douleur et force de pince améliorées."
+    },
+    {
+     "h": "Neuropathie chimio-induite",
+     "p": "NEUROLASER : symptômes stables sous PBM contre aggravation sous placebo. Phase II : 48 % contre 53 % de répondeurs à 6 semaines, maintien meilleur à 12 semaines. WALT 2022 : paramètres proposés."
+    },
+    {
+     "h": "Diabète et orofacial",
+     "p": "ILIB modifiée (660 nm, 30 séances) favorable ; revue de 8 études : douleur, conduction et pressions plantaires. Orofacial (13 études) : névralgie trigéminale et bouche brûlante soulagées."
+    }
+   ]
+  }
+ },
+ "global": {
+  "headline": "2024 → 2026 : des compressions nerveuses vers la neuropathie diabétique et chimio-induite",
+  "l1": "En trois ans, la PBM dans les neuropathies périphériques passe de petits essais sur le canal carpien à de vrais essais contre simulation dans la neuropathie diabétique douloureuse. La neuropathie chimio-induite reste le parent pauvre, malgré des données animales et un premier essai encourageants.",
+  "l2": "Acquis : dans les neuropathies de compression (canal carpien, nerf ulnaire, méralgie), la PBM, surtout à haute intensité, améliore la douleur et la fonction à court terme, en complément de l'attelle et des exercices ; l'effet à moyen terme est moins net, et un essai montre qu'elle n'ajoute rien à des exercices bien conduits. Dans la neuropathie diabétique douloureuse, deux essais contre simulation solides (200 patients en 2025, multicentrique en 2026) confirment un soulagement de court terme.\n\nCe qui manque : un essai contre simulation dans la neuropathie chimio-induite (NEUROLIGHT compare deux doses), des suivis au-delà de 3 mois, une dosimétrie raisonnée selon la profondeur du nerf, et la méta-analyse annoncée en 2024 dans la neuropathie diabétique. Les recommandations apparaissent (consensus JAAD 2025, WALT 2026 pour l'orofacial) mais restent portées par des sociétés de PBM.",
+  "l3": [
+   {
+    "h": "0. Le temps long : 2000 → 2023",
+    "p": "Pendant vingt ans, la PBM dans les neuropathies périphériques a été dominée par le canal carpien, avec des résultats constamment partagés : effet à court terme sur la force et parfois la douleur, sans bénéfice clinique net à moyen terme dans les synthèses. Les deux tournants sont l'essai de 2016 dans la neuropathie chimio-induite et l'essor, après 2019, des essais dans la neuropathie diabétique et après chirurgie nerveuse."
+   },
+   {
+    "h": "1. Les compressions nerveuses, terrain le plus étudié",
+    "p": "Le canal carpien concentre la recherche (analyse bibliométrique 2026). Les méta-analyses divergent sur la douleur (réseau : DMS −1,45 ; autre méta-analyse : non significatif) mais s'accordent sur la fonction. Le laser haute intensité s'impose entre 2024 et 2026, avec trois essais en 2026 qui le donnent supérieur au basse intensité ou aux ondes de choc."
+   },
+   {
+    "h": "2. La neuropathie diabétique, l'indication qui progresse le plus",
+    "p": "En 2024, il n'y avait que des petits essais combinés (Tecar) ou sans témoin. En 2025 paraît un essai de 200 patients contre simulation, avec biomarqueurs. En 2026, un essai multicentrique en double aveugle teste un dispositif à domicile. L'effet porte sur la douleur et la qualité de vie plus que sur la conduction nerveuse."
+   },
+   {
+    "h": "3. La neuropathie chimio-induite, une preuve encore à construire",
+    "p": "Bulletin du Cancer 2024 : preuve faible. 2025 : étude avant-après (équilibre, marche). 2026 : NEUROLIGHT, sans placebo, et deux études précliniques solides (paclitaxel, cisplatine). La question de la prévention pendant la chimiothérapie reste ouverte ; c'est la priorité de recherche pour les soins de support."
+   },
+   {
+    "h": "4. Mécanismes : antalgie avant réparation",
+    "p": "Les modèles animaux montrent un effet antalgique constant, mais pas toujours une protection structurelle du nerf (2024). Les études de 2026 retrouvent des effets sur le NGF, la myéline et les mitochondries. L'antalgie passerait en partie par un blocage des petites fibres, selon la dose au nerf."
+   },
+   {
+    "h": "5. Les paramètres",
+    "p": "Fenêtre proposée pour la neuropathie diabétique : 630–670 nm ou 808–904 nm, 3–10 J/cm², 45–100 mW, au moins 12 séances. NEUROLIGHT suggère une fluence modérée (6 J/cm²) plus antalgique. Le laser haute intensité (1 064 nm) gagne du terrain dans les compressions."
+   }
+  ],
+  "table": {
+   "cols": [
+    "2000–2009",
+    "2010–2019",
+    "2020–2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "rows": [
+    {
+     "label": "Question dominante",
+     "cells": [
+      "Canal carpien : est-ce efficace ?",
+      "Méta-analyses du canal carpien",
+      "Diversification des indications",
+      "Compressions nerveuses, mécanismes",
+      "Neuropathie diabétique, méta-analyses",
+      "Essais contre simulation, recommandations"
+     ]
+    },
+    {
+     "label": "Essai phare",
+     "cells": [
+      "Diabetes Care 2004 (négatif)",
+      "Neuropathie chimio-induite contre simulation (2016)",
+      "NEUROLASER ; plexus brachial",
+      "Nerf ulnaire, double aveugle (n = 68)",
+      "Neuropathie diabétique He-Ne (n = 200)",
+      "Laser à domicile multicentrique (n = 64)"
+     ]
+    },
+    {
+     "label": "Synthèse phare",
+     "cells": [
+      "Revue 2007 : preuves limitées",
+      "Méta-analyses 2016–2017 discordantes",
+      "Parapluie canal carpien : non concluant",
+      "Haute intensité canal carpien (308 patients)",
+      "Réseau canal carpien (49 ECR) ; orofacial (18 ECR)",
+      "WALT orofacial ; douleur chronique (14 ECR)"
+     ]
+    },
+    {
+     "label": "Neuropathie chimio-induite",
+     "cells": [
+      "—",
+      "−53 % à 8 semaines ; revue 2018",
+      "Prévention (NEUROLASER) ; phase II mitigée",
+      "Preuve faible (Bulletin du Cancer)",
+      "Avant-après, équilibre et marche (n = 47)",
+      "NEUROLIGHT (n = 60) ; préclinique"
+     ]
+    },
+    {
+     "label": "Haute intensité",
+     "cells": [
+      "—",
+      "Haute intensité > TENS (2013)",
+      "1,6 W > basse énergie (2020)",
+      "Méta-analyse canal carpien",
+      "Méta-analyse canal carpien",
+      "3 essais : carpien, méralgie, cubital"
+     ]
+    }
+   ]
+  }
  }
-}
 }

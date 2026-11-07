@@ -66,12 +66,19 @@ const isSoon = (t = topic()) => t.status === "à venir";
 D.articles = D.articles || [];
 const LOADED = new Set();
 const loadScript0 = (src) => new Promise((ok, ko) => { const s = document.createElement("script"); s.src = src; s.onload = ok; s.onerror = ko; document.head.appendChild(s); });
+// Les notices non analysées sont allégées à la construction (valeurs par défaut omises) : on les restaure ici.
+function hydrate(a, id) {
+  a.topic = id;
+  if (a.curated !== false) { if (!a.week) a.week = weekOf(a.date).key; return a; }
+  return Object.assign({ theme: "Non analysé", effect: "—", pop: "—", aim: "—", mode: [], nm: [], n: null, doi: null, pmcid: null,
+    license: null, pdf: null, oa: false, cited_by: 0, pub_types: [], title_fr: a.title, journal: a.journal_abbr, week: weekOf(a.date).key }, a);
+}
 async function ensureTopic(id) {
   if (LOADED.has(id)) return;
   const t = D.topics.find((x) => x.id === id);
   if (!t || !t.file) { LOADED.add(id); return; }
   await loadScript0(t.file);
-  const arts = (window.LUMINA_T || {})[id] || [];
+  const arts = ((window.LUMINA_T || {})[id] || []).map((a) => hydrate(a, id));
   D.articles.push(...arts); LOADED.add(id); INDEX.clear();
 }
 const all = () => D.articles.filter((a) => a.topic === state.topic);
@@ -559,7 +566,7 @@ async function renderPdf(url) {
 
 function viewSyntheses() {
   setNav("syntheses");
-  const S = D.syntheses[state.topic] || {}; const tabs = [["global", "Étude comparative 2024–2026"], ...Object.keys(S.years || {}).sort().reverse().map((y) => [y, "Bilan " + y])];
+  const S = D.syntheses[state.topic] || {}; const tabs = [["global", "Étude comparative"], ...Object.keys(S.years || {}).sort().reverse().map((y) => [y, "Bilan " + y])];
   const cur = state.synTab === "global" ? S.global : S.years?.[state.synTab];
   const inTab = (a, k) => { if (k === "global") return true; const m = String(k).match(/^(\d{4})\s*[–-]\s*(\d{4})$/); return m ? a.year >= +m[1] && a.year <= +m[2] : String(a.year) === String(k); };
   const yearList = all().filter((a) => inTab(a, state.synTab));
@@ -574,7 +581,7 @@ function viewSyntheses() {
       <div class="syn-tabs">${tabs.map(([k, l]) => `<button class="chip" data-syn="${k}" aria-pressed="${state.synTab === k}">${l}</button>`).join("")}</div>
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="eyebrow">Niveau de lecture</span>${levelSwitch(state.level)}</div></div>
     <section class="panel syn-body"><h2>${esc(cur?.headline || "")}</h2>${body}
-      <p class="muted" style="font-size:.85rem">Rédigé à partir des ${yearList.length} fiches de la période. Pour un autre découpage (semaines, trimestres, sélection d'articles), utilisez le <a href="#comparer">comparateur</a>.</p></section>
+      <p class="muted" style="font-size:.85rem">Rédigé à partir des ${yearList.filter((a) => a.curated !== false).length} fiches rédigées de la période (${yearList.length} notices indexées). Pour un autre découpage (semaines, trimestres, sélection d'articles), utilisez le <a href="#comparer">comparateur</a>.</p></section>
     ${tbl}${stats}
     <section class="grid-2"><div class="panel"><div class="panel-head"><h2>Méta-analyses de la période</h2></div>${chartForest(yearList)}</div>
       <div class="panel"><div class="panel-head"><h2>Essais de la période</h2></div>${chartDumbbell(yearList)}</div></section>

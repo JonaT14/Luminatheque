@@ -166,7 +166,7 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
         articles.append({
             **common(r, topic_id, date), "curated": False, "type": t, "level": lvl, "effect": "—",
             "theme": "Non analysé", "ctx": auto_subgroups(topic_id, r), "pop": "—", "aim": "—", "mode": [], "nm": [], "n": None,
-            "title_fr": r["title"], "l1": conclusion(r), "kw": " ".join((r.get("keywords") or [])[:8] + (r.get("mesh") or [])[:8]),
+            "title_fr": r["title"], "l1": conclusion(r, 240), "kw": " ".join((r.get("keywords") or [])[:6] + (r.get("mesh") or [])[:6])[:160],
         })
         if r.get("abstract"):
             abstracts[pmid] = r["abstract"]
@@ -178,6 +178,22 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
                                       "hero", "exclusions_note", "subgroups", "pubmed_query")}
     meta.update(n_raw=len(raw), n_excluded=len(excluded), n=len(articles), n_curated=sum(a["curated"] for a in articles))
     return meta, articles, syntheses, abstracts
+
+
+RAW_DEFAULTS = {"theme": "Non analysé", "effect": "—", "pop": "—", "aim": "—", "mode": [], "nm": [], "n": None,
+                "doi": None, "pmcid": None, "license": None, "pdf": None, "oa": False, "cited_by": 0, "pub_types": []}
+
+
+def slim(a: dict) -> dict:
+    """Allège les notices non analysées : les valeurs par défaut sont restaurées par app.js (hydrate)."""
+    if a.get("curated"):
+        return a
+    out = {k: v for k, v in a.items() if k not in ("topic", "week") and RAW_DEFAULTS.get(k, object()) != v}
+    if out.get("title_fr") == out.get("title"):
+        out.pop("title_fr")
+    if out.get("journal_abbr"):
+        out.pop("journal", None)
+    return out
 
 
 def write_versioned(path: pathlib.Path, text: str) -> str:
@@ -219,7 +235,7 @@ def main() -> None:
             chunks.setdefault(int(pmid) % N_CHUNKS, {})[pmid] = ab
         for i, ch in chunks.items():
             write_versioned(ROOT / "assets/abs" / t.stem / f"{i:02d}.json", json.dumps(ch, ensure_ascii=False, separators=(",", ":")))
-        js = f'(window.LUMINA_T = window.LUMINA_T || {{}})["{t.stem}"] = ' + json.dumps(arts, ensure_ascii=False, separators=(",", ":")) + ";\n"
+        js = f'(window.LUMINA_T = window.LUMINA_T || {{}})["{t.stem}"] = ' + json.dumps([slim(a) for a in arts], ensure_ascii=False, separators=(",", ":")) + ";\n"
         h = write_versioned(ROOT / "assets/topics" / f"{t.stem}.js", js)
         meta["file"] = f"assets/topics/{t.stem}.js?v={h}"
         meta["years"] = sorted({a["year"] for a in arts})

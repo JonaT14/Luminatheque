@@ -1,22 +1,27 @@
 # Luminathèque
 
-Veille scientifique personnelle sur la **photobiomodulation (PBM)**, avec toutes les publications PubMed depuis 2024.
+Veille scientifique personnelle sur la **photobiomodulation (PBM)**, avec toutes les publications PubMed **depuis 2000**.
 
-| Thème | État |
-|---|---|
-| Mucite buccale (traitements du cancer) | 110 publications analysées |
-| Neuropathies périphériques (chimio-induites, diabétiques, compressions, lésions nerveuses, névralgies) | 64 publications analysées |
-| Gynécologie 2020–2026 (sécheresse et syndrome génito-urinaire, après cancer, vulve et vagin, douleurs pelviennes, obstétrique et allaitement, fertilité) | 98 publications analysées |
-| Musculo-squelettique | à venir |
-| Dermatologie | à venir |
+Chaque thème contient deux sortes d'entrées :
+
+- les **fiches rédigées** (3 niveaux de lecture, niveau de preuve, résultats chiffrés) pour toutes les études clés des thèmes complétés : essais randomisés, méta-analyses, revues systématiques, recommandations ;
+- les **notices indexées** (titre, conclusion des auteurs en VO, résumé complet à la demande), classées automatiquement par type d'étude, niveau de preuve indicatif et sous-groupe. Elles sont cherchables et filtrables comme les fiches (filtre « Fiche »).
+
+| Thème | Notices indexées | Fiches rédigées |
+|---|---|---|
+| Mucite buccale (traitements du cancer) | 463 | 198 |
+| Neuropathies périphériques (chimio-induites, diabétiques, compressions, lésions nerveuses, névralgies) | 317 | 120 |
+| Gynécologie (sécheresse et syndrome génito-urinaire, après cancer, vulve et vagin, douleurs pelviennes, obstétrique et allaitement, fertilité) | 278 | 116 |
+| Musculo-squelettique (tendons, arthrose, rachis, ATM, fibromyalgie, épaule, os, muscle) | 3 616 | en cours |
+| Dermatologie (plaies, cicatrices et brûlures, radiodermite, alopécie, dermatoses inflammatoires, esthétique, infections, pigmentation) | 5 234 | en cours |
 
 ## Ce que fait le site
 
 - **Tableau de bord** : chiffres clés, pyramide des niveaux de preuve, rythme de publication, forest plot des méta-analyses, résultats des essais bras par bras, longueurs d'onde étudiées et sens des résultats.
 - **Publications** : recherche plein texte (insensible aux accents), filtres par période (dates, semaine ISO, année), type d'étude, niveau de preuve, résultat, contexte, population, thème et PDF disponible. Les articles sont groupés par semaine.
 - **Trois niveaux de lecture** partout : *Express* (1–2 lignes), *Essentiel* (1–2 paragraphes), *Approfondi* (méthode, résultats, limites, pratique, résumé original).
-- **Fiche article** : fiche technique, graphique du résultat principal, liens vers les sources et **lecteur PDF intégré** pour les 109 articles en accès libre (licences Creative Commons, dépôt PMC Open Access).
-- **Synthèses** : bilan 2024, 2025, 2026 et étude comparative 2024–2026 avec tableau.
+- **Fiche article** : fiche technique, graphique du résultat principal, liens vers les sources et **lecteur PDF intégré** pour les fiches dont l'article est en accès libre (licences Creative Commons, dépôt PMC Open Access).
+- **Synthèses** : bilans 2000–2009, 2010–2019, 2020–2023, 2024, 2025, 2026 et étude comparative avec tableau.
 - **Comparateur** : fusionner une période (par exemple semaines 1 à 20) ou comparer deux périodes, ou une sélection d'articles cochés. Le récapitulatif et les graphiques sont recalculés, et une demande de synthèse rédigée peut être copiée pour Claude.
 
 ## Ouvrir le site

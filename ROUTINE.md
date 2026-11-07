@@ -5,7 +5,7 @@ Procédure suivie à chaque mise à jour (par défaut chaque semaine). Elle peut
 
 ## 1. Collecter les nouveautés
 
-Pour chaque thème actif de `data/topics/` (aujourd'hui : `mucite-orale`, `neuropathie-peripherique` et `gynecologie` ; les thèmes marqués `"status": "à venir"` sont ignorés), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :
+Pour chaque thème actif de `data/topics/` (aujourd'hui : `mucite-orale`, `neuropathie-peripherique`, `gynecologie`, `musculo-squelettique` et `dermatologie` ; les thèmes marqués `"status": "à venir"` sont ignorés), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :
 
 ```bash
 python3 scripts/fetch_pubmed.py --topic mucite-orale --since AAAA-MM-JJ
@@ -14,7 +14,13 @@ python3 scripts/compress_pdfs.py   # allège les PDF de plus de 3 Mo
 python3 scripts/build_site.py
 ```
 
-`build_site.py` liste les PMID « à analyser » : présents dans `data/raw/`, ni curés, ni exclus.
+Toutes les nouvelles notices apparaissent automatiquement sur le site en « notice indexée ». Pour lister les **études clés** (essais randomisés, méta-analyses, revues systématiques, recommandations) qui n'ont pas encore de fiche :
+
+```bash
+python3 scripts/pending.py --topic mucite-orale > a_analyser.txt
+```
+
+Seules ces études clés reçoivent une fiche rédigée ; les autres restent indexées. `build_site.py --prune-pdfs` retire les PDF sans fiche. Si Europe PMC a échoué pendant la collecte, relancer `fetch_pubmed.py --topic X --backfill-epmc`.
 
 ## 2. Analyser chaque nouvel article
 
