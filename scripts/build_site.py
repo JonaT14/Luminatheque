@@ -226,7 +226,7 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
 
     syn_path = cur_dir / "syntheses.json"
     syntheses = json.loads(syn_path.read_text()) if syn_path.exists() else {}
-    meta = {k: topic.get(k) for k in ("id", "code", "label", "short", "color", "description", "cadence", "since", "status",
+    meta = {k: topic.get(k) for k in ("id", "code", "abbr", "nav", "label", "short", "color", "description", "cadence", "since", "status",
                                       "hero", "exclusions_note", "subgroups", "pubmed_query")}
     par_path = cur_dir / "parametres.json"
     meta["params"] = json.loads(par_path.read_text()) if par_path.exists() else []

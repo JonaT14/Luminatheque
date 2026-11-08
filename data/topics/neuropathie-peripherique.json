@@ -3,7 +3,7 @@
  "code": "np",
  "label": "Neuropathies périphériques",
  "short": "Neuropathies",
- "color": "#2a78d6",
+ "color": "#0b7285",
  "status": "actif",
  "description": "Prévention et traitement des neuropathies périphériques par photobiomodulation : neuropathie induite par la chimiothérapie (CIPN), neuropathie diabétique et autres atteintes nerveuses périphériques.",
  "pubmed_query": "(\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"LLLT\"[tiab] OR \"low-level light\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"PBMT\"[tiab] OR \"laser therapy\"[tiab] OR \"light-emitting diode\"[tiab] OR \"high-intensity laser\"[tiab]) AND (\"peripheral neuropathy\"[tiab] OR \"polyneuropathy\"[tiab] OR \"Peripheral Nervous System Diseases\"[MeSH] OR \"neuropathic\"[tiab] OR \"neuropathy\"[tiab] OR \"CIPN\"[tiab]) NOT (\"trigeminal\"[ti] OR \"burning mouth\"[ti])",
@@ -11,5 +11,7 @@
  "cadence": "hebdomadaire",
  "hero": "les neuropathies périphériques",
  "exclusions_note": "ulcères du pied diabétique, glaucome, lésions de la moelle épinière, radiculopathies (réservées au futur thème musculo-squelettique)…",
- "trials_cond": "neuropathy OR \"peripheral nerve\" OR \"nerve injury\" OR \"carpal tunnel\" OR \"trigeminal neuralgia\" OR \"Bell palsy\" OR paresthesia OR \"burning mouth\""
+ "trials_cond": "neuropathy OR \"peripheral nerve\" OR \"nerve injury\" OR \"carpal tunnel\" OR \"trigeminal neuralgia\" OR \"Bell palsy\" OR paresthesia OR \"burning mouth\"",
+ "abbr": "Np",
+ "nav": "Neuropathies"
 }

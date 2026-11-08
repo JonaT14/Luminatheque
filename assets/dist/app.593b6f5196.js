@@ -381,15 +381,28 @@ function setNav(id) {
   $$("[data-nav]").forEach((a) => a.setAttribute("aria-current", a.dataset.nav === id ? "page" : "false"));
   const c = $("#crumb"); if (c) c.innerHTML = `${esc(topic().label)} <span aria-hidden="true">/</span> <b>${NAV_LABEL[id] || ""}</b>`;
 }
+const SUB_ICON = {
+  accueil: '<rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/>',
+  publications: '<path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M10 12h6M10 16h6"/>',
+  syntheses: '<path d="M4 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H4zM20 5h-4a3 3 0 0 0-3 3"/><path d="M20 5v13h-6"/>',
+  essais: '<path d="M9 3h6M10 3v6l-5.5 9.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7.5 15h9"/>' };
+const kfmt = (n) => n >= 1000 ? (n / 1000).toLocaleString("fr-FR", { maximumFractionDigits: 1 }) + " k" : String(n ?? "");
 function renderTopics() {
   const box = $("#side-topics"); if (!box) return;
   const sub = [["accueil", "Tableau de bord"], ["publications", "Publications"], ["syntheses", "Synthèses"], ["essais", "Études en cours"]];
   const cur = decodeURIComponent(location.hash.slice(1)).split("-")[0];
-  box.innerHTML = D.topics.map((t) => { const n = t.n ?? 0; const on = t.id === state.topic;
-    return `<button type="button" class="side-link" data-topic="${t.id}" aria-pressed="${on}" aria-expanded="${on && !isSoon(t)}"><span class="topic-dot"></span>${esc(t.label)}${isSoon(t) ? '<span class="soon">À venir</span>' : `<span class="count">${n}</span>`}</button>`
-      + (on && !isSoon(t) ? `<div class="side-sub">${sub.map(([k, l]) => `<a class="side-link" href="#${k}" data-nav="${k}" aria-current="${cur === k || (k === "accueil" && (!cur || cur === "article")) ? "page" : "false"}">${l}${k === "publications" ? `<span class="count">${n}</span>` : ""}${k === "essais" && t.trials && t.trials.now + t.trials.soon ? `<span class="count">${t.trials.now + t.trials.soon}</span>` : ""}</a>`).join("")}</div>` : ""); }).join("");
+  const q = ($("#side-find")?.value || "").trim().toLowerCase();
+  const norm = (x) => x.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const tile = (t) => `<span class="tile" aria-hidden="true">${esc(t.abbr || t.label.slice(0, 2))}</span>`;
+  box.innerHTML = D.topics.map((t) => { const n = t.n ?? 0; const on = t.id === state.topic && !isSoon(t);
+    const name = t.nav || t.short || t.label;
+    if (!on && q && !norm(t.label + " " + name).includes(norm(q))) return "";
+    if (!on) return `<button type="button" class="tp" data-topic="${t.id}" aria-pressed="false" title="${esc(t.label)}" style="--tc:${t.color || "var(--accent)"}">${tile(t)}<span class="tp-l">${esc(name)}</span>${isSoon(t) ? '<span class="soon">À venir</span>' : `<span class="count">${kfmt(n)}</span>`}</button>`;
+    const tr = t.trials ? t.trials.now + t.trials.soon : 0;
+    return `<div class="tp-card" style="--tc:${t.color || "var(--accent)"}"><button type="button" class="tp on" data-topic="${t.id}" aria-pressed="true" title="${esc(t.label)}">${tile(t)}<span class="tp-l">${esc(name)}</span><svg class="chev" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg></button>
+      <div class="side-sub">${sub.map(([k, l]) => `<a class="sub" href="#${k}" data-nav="${k}" aria-current="${cur === k || (k === "accueil" && (!cur || cur === "article")) ? "page" : "false"}"><svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true">${SUB_ICON[k]}</svg><span>${l}</span>${k === "publications" ? `<span class="count">${kfmt(n)}</span>` : k === "essais" && tr ? `<span class="count">${tr}</span>` : ""}</a>`).join("")}</div></div>`; }).join("") || `<p class="muted" style="padding:8px 10px;font-size:.85rem">Aucune spécialité ne correspond.</p>`;
   $("#topic").innerHTML = D.topics.map((t) => `<option value="${t.id}" ${t.id === state.topic ? "selected" : ""}>${esc(t.short || t.label)}${isSoon(t) ? " · à venir" : ""}</option>`).join("");
-  const up = $("#side-update"); if (up) up.textContent = `Mise à jour : ${fmtDate(D.generated)}`;
+  const up = $("#side-update"); if (up) up.textContent = `Mis à jour le ${fmtDate(D.generated)}`;
 }
 function setTopic(id) {
   state.topic = id; store.set("topic", id); INDEX.clear(); state.cmp = null; state.synTab = "global"; state.essCtx = ""; state.essReg = ""; state.cardLevel.clear();
@@ -1315,6 +1328,13 @@ $("#q").addEventListener("input", (e) => {
 document.addEventListener("keydown", (e) => { if (e.key === "/" && !/input|textarea|select/i.test(document.activeElement.tagName)) { e.preventDefault(); $("#q").focus(); } });
 
 /* thème clair / sombre : choix mémorisé, sinon réglage du système */
+function setMenu(open) { document.body.classList.toggle("menu-open", open); $("#scrim").hidden = !open; $("#menu-btn")?.setAttribute("aria-expanded", String(open)); }
+$("#menu-btn")?.addEventListener("click", () => setMenu(true));
+$("#menu-close")?.addEventListener("click", () => setMenu(false));
+$("#scrim")?.addEventListener("click", () => setMenu(false));
+addEventListener("hashchange", () => setMenu(false));
+addEventListener("keydown", (e) => { if (e.key === "Escape" && document.body.classList.contains("menu-open")) setMenu(false); });
+$("#side-find")?.addEventListener("input", () => renderTopics());
 const sideBtn = $("#side-toggle");
 function applySide(off) { document.body.classList.toggle("side-off", off); sideBtn?.setAttribute("aria-expanded", String(!off)); sideBtn?.setAttribute("aria-label", off ? "Afficher le menu" : "Masquer le menu"); }
 applySide(store.get("side-off", false));

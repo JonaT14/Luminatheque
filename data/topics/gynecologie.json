@@ -3,7 +3,7 @@
  "code": "gy",
  "label": "Gynécologie",
  "short": "Gynécologie",
- "color": "#c2185b",
+ "color": "#d6336c",
  "status": "actif",
  "description": "Photobiomodulation en gynécologie et obstétrique : sécheresse et atrophie vulvovaginale (syndrome génito-urinaire de la ménopause), effets secondaires après cancer gynécologique ou mammaire, douleurs vulvaires et pelviennes, périnée et allaitement, fertilité.",
  "hero": "la gynécologie",
@@ -19,5 +19,7 @@
   "obstétrique",
   "fertilité"
  ],
- "trials_cond": "vulvodynia OR dysmenorrhea OR \"genitourinary syndrome\" OR \"vaginal atrophy\" OR \"vaginal dryness\" OR \"pelvic pain\" OR \"urinary incontinence\" OR \"nipple pain\" OR episiotomy OR perineal OR endometriosis OR \"lichen sclerosus\" OR menopause OR infertility"
+ "trials_cond": "vulvodynia OR dysmenorrhea OR \"genitourinary syndrome\" OR \"vaginal atrophy\" OR \"vaginal dryness\" OR \"pelvic pain\" OR \"urinary incontinence\" OR \"nipple pain\" OR episiotomy OR perineal OR endometriosis OR \"lichen sclerosus\" OR menopause OR infertility",
+ "abbr": "Gy",
+ "nav": "Gynécologie"
 }

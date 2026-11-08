@@ -21,5 +21,8 @@
   "EDS"
  ],
  "pubmed_query": "((\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"low-intensity laser\"[tiab] OR \"LLLT\"[tiab] OR \"low-level light\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"PBMT\"[tiab] OR \"light-emitting diode\"[tiab] OR \"laser acupuncture\"[tiab] OR \"high-intensity laser\"[tiab]) AND (\"musculoskeletal\"[tiab] OR \"tendin*\"[tiab] OR \"tendon*\"[tiab] OR \"osteoarthritis\"[tiab] OR \"arthritis\"[tiab] OR \"low back pain\"[tiab] OR \"neck pain\"[tiab] OR \"radiculopathy\"[tiab] OR \"temporomandibular\"[tiab] OR \"fibromyalgia\"[tiab] OR \"myofascial\"[tiab] OR \"shoulder\"[tiab] OR \"knee\"[tiab] OR \"epicondyl*\"[tiab] OR \"plantar fasci*\"[tiab] OR \"fracture*\"[tiab] OR \"bone\"[tiab] OR \"muscle*\"[tiab] OR \"Musculoskeletal Diseases\"[MeSH] OR \"Ehlers-Danlos\"[tiab] OR \"hypermobility\"[tiab]) NOT (\"photodynamic\"[ti])) OR ((\"Ehlers-Danlos\"[tiab] OR \"joint hypermobility\"[tiab] OR \"hypermobility spectrum\"[tiab]) AND (\"laser therapy\"[tiab] OR \"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab]))",
- "trials_cond": "osteoarthritis OR tendinopathy OR tendinitis OR \"low back pain\" OR \"neck pain\" OR temporomandibular OR fibromyalgia OR myofascial OR shoulder OR epicondylitis OR \"plantar fasciitis\" OR fracture OR \"muscle fatigue\" OR \"muscle damage\" OR \"Ehlers-Danlos\" OR hypermobility OR \"knee pain\" OR \"musculoskeletal pain\""
+ "trials_cond": "osteoarthritis OR tendinopathy OR tendinitis OR \"low back pain\" OR \"neck pain\" OR temporomandibular OR fibromyalgia OR myofascial OR shoulder OR epicondylitis OR \"plantar fasciitis\" OR fracture OR \"muscle fatigue\" OR \"muscle damage\" OR \"Ehlers-Danlos\" OR hypermobility OR \"knee pain\" OR \"musculoskeletal pain\"",
+ "abbr": "Ms",
+ "nav": "Musculo-squelettique",
+ "color": "#1971c2"
 }

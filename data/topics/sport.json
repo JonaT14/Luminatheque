@@ -3,7 +3,7 @@
  "code": "sp",
  "label": "Médecine du sport & performance",
  "short": "Sport",
- "color": "#e8590c",
+ "color": "#2f9e44",
  "status": "actif",
  "description": "Photobiomodulation en médecine du sport : performance musculaire (préconditionnement), récupération et courbatures, marqueurs de lésion musculaire, blessures sportives, populations particulières (sujets âgés, maladies chroniques).",
  "since": "2000-01-01",
@@ -17,5 +17,7 @@
   "populations"
  ],
  "pubmed_query": "(\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"low-intensity laser\"[tiab] OR \"low-power laser\"[tiab] OR \"LLLT\"[tiab] OR \"PBMT\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"light-emitting diode\"[tiab] OR \"laser acupuncture\"[tiab] OR \"repeated low-level red-light\"[tiab] OR \"low-level red light\"[tiab] OR \"red light therapy\"[tiab] OR \"high-intensity laser\"[tiab] OR \"laser biostimulation\"[tiab]) AND (\"athlete*\"[tiab] OR \"sport*\"[tiab] OR \"exercise performance\"[tiab] OR \"muscle fatigue\"[tiab] OR \"muscle damage\"[tiab] OR \"delayed onset muscle soreness\"[tiab] OR \"muscle performance\"[tiab] OR \"muscular performance\"[tiab] OR \"ergogenic\"[tiab] OR \"muscle strength\"[tiab] OR (\"recovery\"[tiab] AND \"exercise\"[tiab])) NOT (\"photodynamic\"[ti])",
- "trials_cond": "\"muscle fatigue\" OR \"muscle damage\" OR \"delayed onset muscle soreness\" OR \"athletic performance\" OR athletes OR \"sports injury\" OR \"muscle strength\" OR \"exercise recovery\""
+ "trials_cond": "\"muscle fatigue\" OR \"muscle damage\" OR \"delayed onset muscle soreness\" OR \"athletic performance\" OR athletes OR \"sports injury\" OR \"muscle strength\" OR \"exercise recovery\"",
+ "abbr": "Sp",
+ "nav": "Sport & performance"
 }
