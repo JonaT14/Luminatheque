@@ -327,7 +327,7 @@ def write_feeds(topics: list, all_articles: list, sv: dict) -> None:
     """Flux Atom par thème (flux/<thème>.xml) et toutes thématiques (flux/tout.xml) : 50 dernières arrivées."""
     from xml.sax.saxutils import escape as x
     out = ROOT / "flux"; out.mkdir(exist_ok=True)
-    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    now = dt.date.today().isoformat() + "T06:00:00Z"  # stable dans la journée : pas de modification inutile des flux
     labels = {t["id"]: t["label"] for t in topics}
 
     def entry(a: dict) -> str:
