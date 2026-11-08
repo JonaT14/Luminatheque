@@ -130,7 +130,8 @@
    ],
    "n_sites": 1,
    "matched": [
-    "neurologie"
+    "neurologie",
+    "oncologie-support"
    ]
   },
   {
@@ -354,7 +355,8 @@
    "sites": [],
    "n_sites": 0,
    "matched": [
-    "musculo-squelettique"
+    "musculo-squelettique",
+    "sport"
    ]
   },
   {
@@ -962,6 +964,67 @@
    ]
   },
   {
+   "nct": "NCT07886723",
+   "title": "Photobiomodulation After Nonsurgical Root Canal Treatment",
+   "official": "Effect of Adjunctive Photobiomodulation on Mechanical Allodynia and Postoperative Pain Following Nonsurgical Root Canal Treatment in Teeth With Symptomatic Apical Periodontitis",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-10-19",
+   "end": "2027-05-31",
+   "completion": "2027-05-31",
+   "first_posted": "2026-10-21",
+   "updated": "2026-10-21",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Symptomatic Apical Periodontitis",
+    "Postoperative Pain",
+    "Mechanical Allodynia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Adjunctive Photobiomodulation"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham Photobiomodulation"
+    }
+   ],
+   "summary": "This randomized, double-blind controlled clinical trial will evaluate whether adjunctive photobiomodulation improves recovery after nonsurgical root canal treatment in adults with teeth diagnosed with symptomatic apical periodontitis.\n\nParticipants will receive standard nonsurgical root canal treatment and will be randomized to adjunctive photobiomodulation using the Fotona LightWalker Nd:YAG laser or to an identical simulated laser procedure without laser energy delivery.\n\nThe study will evaluate mechanical allodynia using maximum occlusal force measurements comparing the treated tooth with the contralateral asymptomatic tooth. Postoperative pain will also be assessed using the Numeric Rating Scale after percussion testing.",
+   "outcome": "Change in Mechanical Allodynia Measured by Maximum Occlusal Force Difference",
+   "sponsor": "University of Minnesota",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Ronald Ordinola-Zapata",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "University of Minnesota"
+    }
+   ],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "University of Minnesota School of Dentistry Graduate Endodontic Clinic",
+     "city": "Minneapolis",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
    "nct": "NCT07903142",
    "title": "Comparison of High-Intensity and Conventional Physical Therapy in Musculoskeletal Disorders",
    "official": "Comparison of the Clinical Effectiveness of High-Intensity and Conventional Physical Therapy Modalities in the Treatment of Selected Musculoskeletal Disorders: A Pilot Randomized Controlled Trial",
@@ -1334,6 +1397,59 @@
    "n_sites": 0,
    "matched": [
     "dermatologie"
+   ]
+  },
+  {
+   "nct": "NCT07554690",
+   "title": "Photobiomodulation Laser for Reticular Pseudodrusen in Age-Related Macular Degeneration",
+   "official": "Photobiomodulation Laser in Reticular Pseudodrusen Secondary to Age-related Macular Degeneration",
+   "acronym": "PBM in iAMD",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-10",
+   "end": "2027-12-31",
+   "completion": "2027-12-31",
+   "first_posted": "2026-04-28",
+   "updated": "2026-09-04",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 67,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "AMD - Age-Related Macular Degeneration"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "Photobiomodulation Therapy"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Sham Photobiomodulation"
+    }
+   ],
+   "summary": "This study evaluates whether a low-energy laser treatment called photobiomodulation (PBM) can improve visual function and retinal structure in patients with age-related macular degeneration (AMD) who have reticular pseudodrusen. PBM is a non-invasive therapy that uses specific wavelengths of light to stimulate cellular activity and reduce inflammation without causing tissue damage.\n\nParticipants will be randomly assigned to receive either active PBM treatment or a sham (inactive) treatment. The study will assess changes in visual performance under low-light conditions and retinal structure over a 12-month period.\n\nThe goal is to determine whether PBM can slow disease progression and improve visual function in patients with early stages of AMD.",
+   "outcome": "Change in Low-Luminance Visual Acuity (LLVA)",
+   "sponsor": "Fondazione G.B. Bietti, IRCCS",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "Italy"
+   ],
+   "sites": [
+    {
+     "facility": "IRCCS Fondazione G.B.Bietti c/o Ospedale Britannico",
+     "city": "Roma",
+     "country": "Italy"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
@@ -1839,6 +1955,78 @@
    "n_sites": 1,
    "matched": [
     "neuropathie-peripherique"
+   ]
+  },
+  {
+   "nct": "NCT07795073",
+   "title": "Acceleration of Tooth Movement Using PRP and Photobiomodulation With Clear Aligners",
+   "official": "Evaluation and Comparison of Acceleration of Tooth Movement Using Platelet-Rich Plasma (PRP) and Photobiomodulation (PBM) With Clear Orthodontic Appliances (Aligners): A Randomized Controlled Clinical Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-09-01",
+   "end": "2027-04-01",
+   "completion": "2027-05-01",
+   "first_posted": "2026-08-31",
+   "updated": "2026-08-31",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "n": 42,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Orthodontic Tooth Movement"
+   ],
+   "interventions": [
+    {
+     "type": "BIOLOGICAL",
+     "name": "Platelet Rich Plasma (PRP) injection"
+    },
+    {
+     "type": "DEVICE",
+     "name": "photobiomodulation (PBM) Therapy"
+    },
+    {
+     "type": "DEVICE",
+     "name": "clear aligner(12-hour wear protocol)"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Clear aligner(22-hour wear protocol)"
+    }
+   ],
+   "summary": "This study compares the effectiveness of two adjunct therapies- photobiomodulation (low-level laser therapy) (PBM) and localized platelet-rich plasma (PRP) injections in accelerating orthodontic tooth movement. Participants receiving clear aligner therapy will be randomly assigned to one of three groups: clear aligners with PBM, clear aligners with PRP, or clear aligners alone (control group). The goal is to evaluate the efficiency, tooth movement tracking and safety.",
+   "outcome": "Rate of clinical tooth movement via intraoral digital scans",
+   "sponsor": "Sana'a University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Arij Lutf Abdulrhman Abdul Majid",
+    "title": "PhD student",
+    "affiliation": "Sana'a University"
+   },
+   "officials": [
+    {
+     "name": "Arij L Abdulmajid, MSc",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Sanaa University"
+    }
+   ],
+   "countries": [
+    "Yemen"
+   ],
+   "sites": [
+    {
+     "facility": "Faculty of Dentistry Sanaa university",
+     "city": "Sanaa",
+     "country": "Yemen"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
    ]
   },
   {
@@ -3222,6 +3410,69 @@
    ]
   },
   {
+   "nct": "NCT07658235",
+   "title": "Micro-osteoperforation Versus Photobiomodulation Therapy for Accelerating Maxillary Canine Retraction",
+   "official": "Micro-osteoperforation Versus Photobiomodulation Therapy for Accelerating Maxillary Canine Retraction: A Three-Arm Parallel Randomized Controlled Clinical Trial.",
+   "acronym": "MOP-PBMT",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-07-01",
+   "end": "2027-03-28",
+   "completion": "2027-05-28",
+   "first_posted": "2026-06-18",
+   "updated": "2026-06-18",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 75,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Malocclusion",
+    "Orthodontic Tooth Movement",
+    "Maxillary Canine Retraction"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "Micro-osteoperforation (MOP)"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Photobiomodulation Therapy using 976 nm Diode Laser"
+    },
+    {
+     "type": "OTHER",
+     "name": "Conventional orthodontic canine retraction"
+    }
+   ],
+   "summary": "Orthodontic treatment often requires moving the upper canine teeth (the pointed teeth) into the spaces left after removing premolar teeth. This process is usually slow and can take many months, making the total treatment time longer.This study will compare two techniques that may speed up this tooth movement:\n\nMicro-osteoperforation (MOP): A minimally invasive procedure in which a small device is used to create tiny holes in the jawbone near the canine tooth under local anesthesia. These micro-perforations stimulate the bone to remodel faster, which allows the tooth to move more quickly.\n\nPhotobiomodulation therapy (PBMT) / Low-Level Laser Therapy (LLLT): A painless, non-invasive technique that uses a low-power laser light applied to the gum tissue near the canine tooth. The laser energy stimulates cells in the bone and supporting tissues to accelerate tooth movement without any cutting ",
+   "outcome": "Rate of maxillary canine retraction",
+   "sponsor": "Kufa University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Almustafa Alhumadi",
+    "title": "lecturer",
+    "affiliation": "Kufa University"
+   },
+   "officials": [],
+   "countries": [
+    "Iraq"
+   ],
+   "sites": [
+    {
+     "facility": "University of Kufa College of Dentistry",
+     "city": "Najaf",
+     "country": "Iraq"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
    "nct": "NCT07667998",
    "title": "High-intensity Laser Therapy Versus Extracorporeal Shock Wave on Tendon Thickness and Occupation Ratio In Patients With Chronic Supraspinatus Tendinopathy",
    "official": "High-intensity Laser Therapy Versus Extracorporeal Shock Wave on Tendon Thickness and Occupation Ratio In Patients With Chronic Supraspinatus Tendinopathy",
@@ -3457,6 +3708,51 @@
    ]
   },
   {
+   "nct": "NCT07591948",
+   "title": "The Effect of Low-Level Laser Therapy on Accelerating Tooth Movement and Reducing Pain During Orthodontic Treatment",
+   "official": "The Effect of Low-Level Laser Therapy on Accelerating Tooth Movement and Reducing Pain During Orthodontic Treatment",
+   "acronym": "LLLT",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-06-02",
+   "end": "2028-02-02",
+   "completion": "2028-02-02",
+   "first_posted": "2026-05-18",
+   "updated": "2026-05-18",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 30,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Acceleration of Tooth Movement"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "Low level laser therapy"
+    }
+   ],
+   "summary": "Orthodontic treatment is a common and effective approach to correcting dental malocclusions and improving oral function and aesthetics. The process involves applying mechanical forces to move teeth into their desired positions, which can lead to discomfort and pain for patients, especially during the initial stages of treatment. While the ultimate goal of orthodontic therapy is to achieve proper alignment, the associated pain and the time required to complete the treatment often become significant concerns for patients. (Jheon et al., 2017). The duration of treatment, which typically spans several months or even years, is influenced by various factors including the type of malocclusion, the force applied, and the biological response of the periodontal tissues to the applied forces. (Sangle et al., 2023). Recent advancements in orthodontic care have focused on finding ways to accelerate t",
+   "outcome": "tooth movement measurement",
+   "sponsor": "Sana'a University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Faris Mohammed Ali Aljobur",
+    "title": "Principal Investigator",
+    "affiliation": "Sana'a University"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
    "nct": "NCT07605234",
    "title": "Phase II Single Arm Open Label Study Evaluating the Feasibility and Safety of Photobiomodulation as an Adjunct to Standard Supportive Care for Chemotherapy Induced Oral Mucositis in Pediatric Patients With Hematolymphoid Malignancies",
    "official": "Phase II Single Arm Study of Photobiomodulation as an Adjunct to Standard Supportive Care for Chemotherapy Induced Oral Mucositis in Pediatric Patients",
@@ -3646,7 +3942,8 @@
    ],
    "n_sites": 1,
    "matched": [
-    "musculo-squelettique"
+    "musculo-squelettique",
+    "sport"
    ]
   },
   {
@@ -3769,6 +4066,67 @@
    ]
   },
   {
+   "nct": "NCT07626580",
+   "title": "Comparison of Rate of Tooth Movement Between MOPs vs MOPs & LLLT Combined",
+   "official": "Comparison of Rate of Tooth Movement Between Micro-osteoperforations Versus Micro-osteoperforations and Low Level Laser Therapy Combined",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-06",
+   "end": "2026-09",
+   "completion": "2026-12",
+   "first_posted": "2026-06-04",
+   "updated": "2026-06-04",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 33,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Orthodontic Tooth Movement",
+    "Low Level Laser Therapy",
+    "Canine Retraction"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "Micro-osteoperforation"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Low Level Laser Therapy and Micro-osteoperforations Combined"
+    }
+   ],
+   "summary": "Orthodontic treatment is often prolonged, requiring years to achieve desirable outcomes. The prolonged duration of treatment increases the risk of complications such as root resorption, periodontal damage, and patient non-compliance.\n\nTo address these concerns, various methods have been explored to accelerate orthodontic tooth movement, including pharmacological agents, mechanical vibration, corticotomies, and minimally invasive techniques like Micro-Osteoperforations (MOPs) and Low-Level Laser Therapy (LLLT). Micro-Osteoperforations (MOPs) have gained popularity as a minimally invasive technique that enhances bone remodeling by inducing a localized inflammatory response, thereby accelerating tooth movement.\n\nStudies have shown that MOPs can effectively stimulate the expression of cytokines, increasing osteoclastic activity and facilitating rapid orthodontic tooth movement. However, the ",
+   "outcome": "Rate of Tooth Movement",
+   "sponsor": "Riphah International University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Ulfat Bashir",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Riphah International University"
+    }
+   ],
+   "countries": [
+    "Pakistan"
+   ],
+   "sites": [
+    {
+     "facility": "Islamic International Dental Hospital",
+     "city": "Islamabad",
+     "country": "Pakistan"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
    "nct": "NCT07646327",
    "title": "Sustained Natural Apophyseal Glides With and Without Facilitated Positional Release Technique in Cervicogenic Dizziness",
    "official": "Effects of Sustained Natural Apophyseal Glides With and Without Facilitated Positional Release Technique on Pain, Dizziness, Range of Motion, and Functional Status Among Patients With Cervicogenic Dizziness",
@@ -3824,7 +4182,8 @@
    ],
    "n_sites": 1,
    "matched": [
-    "musculo-squelettique"
+    "musculo-squelettique",
+    "orl"
    ]
   },
   {
@@ -3934,7 +4293,8 @@
    ],
    "n_sites": 1,
    "matched": [
-    "neurologie"
+    "neurologie",
+    "sport"
    ]
   },
   {
@@ -4571,6 +4931,164 @@
    ]
   },
   {
+   "nct": "NCT07379515",
+   "title": "Effects of Topical Anesthesia Approaches on Dental Pain During and After Restorative Management of Dental Caries",
+   "official": "Effects of Topical Anesthesia Approaches on Dental Pain During and After Restorative Management of Dental Caries - Randomized Clinical Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-04-15",
+   "end": "2026-07-31",
+   "completion": "2027-03-31",
+   "first_posted": "2026-01-30",
+   "updated": "2026-04-13",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 204,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Pulpitis",
+    "Pain Management"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Photobiomodulation (PBM)-induced analgesia device using multi-wavelength LED"
+    },
+    {
+     "type": "OTHER",
+     "name": "Medicated analgesia"
+    },
+    {
+     "type": "OTHER",
+     "name": "Placebo"
+    }
+   ],
+   "summary": "The purpose of the Research Study and Overview of Participation: This study will compare different approaches used to prevent pain when giving local anesthesia to numb the teeth while managing dental cavities and decay. Specifically, it seeks to determine which approach will reduce the pain and discomfort during or after the procedure. This will help dentists to choose the best approach to reduce patient's pain and discomfort and improve the overall experience of dental treatment.\n\nParticipants in the study would likely undergo the following:\n\n1. Screening and Consent: Participants would be assessed for eligibility (e.g., age, health status, and presence of dental caries requiring treatment) and would provide informed consent.\n2. Intervention: Participants would be randomly assigned to different groups based on the type or method of topical anesthesia being tested.\n3. Treatment Procedure",
+   "outcome": "Pain score after local anesthesia administration, dental procedure, and 48 hours postoperatively.",
+   "sponsor": "Dubai Health",
+   "sponsor_class": "OTHER_GOV",
+   "collaborators": [],
+   "responsible": {
+    "name": "Sameeha Husain Al Marzooqi",
+    "title": "Consultant",
+    "affiliation": "Dubai Health"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
+   "nct": "NCT07511803",
+   "title": "Photobiomodulation on Recovery in Female Futsal Athletes",
+   "official": "Effects of Photobiomodulation Therapy on Recovery After Exercise in Female Futsal Athletes",
+   "acronym": "PBMT",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-04-15",
+   "end": "2026-06-01",
+   "completion": "2026-06-10",
+   "first_posted": "2026-04-06",
+   "updated": "2026-04-06",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 15,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Muscle Recovery",
+    "Exercise",
+    "Phototherapy",
+    "Futsal"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Active PBMT"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Placebo PBMT"
+    }
+   ],
+   "summary": "The aim of this study is to investigate the effects of photobiomodulation therapy (PBMT) on recovery after high-intensity, intermittent exercises in female futsal athletes. It is hypothesized that PBMT is superior to placebo condition in improving the recovery of muscle function after high-intensity, intermittent exercises.",
+   "outcome": "Physical performance in the Bangsbo Sprint Test",
+   "sponsor": "Universidade Norte do Paraná",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Andreo Fernando Aguiar",
+    "title": "Principal Investigator",
+    "affiliation": "Universidade Norte do Paraná"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "sport"
+   ]
+  },
+  {
+   "nct": "NCT07511790",
+   "title": "Photobiomodulation on Performance in Female Futsal Athletes",
+   "official": "Effects of Photobiomodulation Therapy on Physical Performance in Female Futsal Athletes",
+   "acronym": "PBMT",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-04-15",
+   "end": "2026-06-01",
+   "completion": "2026-06-10",
+   "first_posted": "2026-04-06",
+   "updated": "2026-04-06",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 15,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Muscle Performance",
+    "Exercise",
+    "Phototherapy",
+    "Futsal"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Active PBMT"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Placebo PBMT"
+    }
+   ],
+   "summary": "The aim of this study is to investigate the effects of photobiomodulation therapy (PBMT) on physical performance in female futsal athletes. It is hypothesized that PBMT is superior to placebo condition in improving the ability to perform repeated sprints and aerobic capacity in high-intensity, intermittent activity (i.e., Bangsbo sprint test and yoyo intermittent recovery level-1, respectively).",
+   "outcome": "Physical performance in the Bangsbo Sprint Test",
+   "sponsor": "Universidade Norte do Paraná",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Andreo Fernando Aguiar",
+    "title": "Principal Investigator",
+    "affiliation": "Universidade Norte do Paraná"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "sport"
+   ]
+  },
+  {
    "nct": "NCT07542899",
    "title": "Photobiomodulation on Core Symptoms of Autism",
    "official": "Efficacy of Photobiomodulation on Core Symptoms of Autism",
@@ -4808,6 +5326,180 @@
    ]
   },
   {
+   "nct": "NCT07449169",
+   "title": "Diode Laser Plus CPP-ACPF vs CPP-ACPF Alone for Dentin Hypersensitivity",
+   "official": "Comparative Efficacy of Diode Laser Photobiomodulation Combined With CPP-ACPF Varnish Versus CPP-ACPF Varnish Alone in the Management of Dentin Hypersensitivity: A Randomized Clinical Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-04-01",
+   "end": "2027-06-01",
+   "completion": "2027-10-01",
+   "first_posted": "2026-03-04",
+   "updated": "2026-03-04",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 70,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Dentin Hypersensitivity",
+    "Tooth Hypersensitivity"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Diode laser photobiomodulation combined with CPP-ACPF varnish"
+    },
+    {
+     "type": "OTHER",
+     "name": "CPP-ACPF varnish"
+    }
+   ],
+   "summary": "This study aims to compare the effectiveness of diode laser photobiomodulation combined with CPP-ACPF varnish versus CPP-ACPF varnish alone in reducing dentin hypersensitivity. Participants diagnosed with dentin hypersensitivity will receive either the combined treatment or varnish application alone. Pain levels will be evaluated using a standardized visual analog scale before and after treatment sessions. The results of this study may help determine whether adding diode laser therapy enhances the effectiveness of conventional varnish treatment in managing dentin hypersensitivity.",
+   "outcome": "Reduction in dentin hypersensitivity in response to evaporative (air-blast) stimulus",
+   "sponsor": "Cairo University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Mariam Mamdouh Mohamed Kamal",
+    "title": "Dentist",
+    "affiliation": "Cairo University"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
+   "nct": "NCT07466641",
+   "title": "LLLLT vs Piezocision in Accelerating Orthodontic Canine Retraction",
+   "official": "Effectiveness of Piezocision Versus Low-level Laser Therapy During Orthodontic Canine Retraction: A Comparative Controlled Clinical Study",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2026-04-01",
+   "end": "2027-02",
+   "completion": "2027-06",
+   "first_posted": "2026-03-12",
+   "updated": "2026-05-11",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 21,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Malocclusion, Angle Class II, Division 1",
+    "Bimaxillary Protrusion",
+    "Class I Malocclusion"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "Low Level Laser Therapy"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Piezocision"
+    }
+   ],
+   "summary": "This comparative controlled clinical study aims to evaluate and compare the effectiveness of piezocision and low-level laser therapy (LLLT) as adjunctive interventions to accelerate orthodontic canine retraction. Participants will be randomly assigned to one of three groups: piezocision, LLLT, or a control group (no adjunctive procedure). The study will assess the impact of these interventions on the rate of tooth movement, the type of tooth movement, and patient experience.",
+   "outcome": "Rate of canine retraction",
+   "sponsor": "Hesham Nabil Ali Al-Qamhawy",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Al-Azhar University"
+   ],
+   "responsible": {
+    "name": "Hesham Nabil Ali Al-Qamhawy",
+    "title": "Principal Investigator",
+    "affiliation": "Al-Azhar University"
+   },
+   "officials": [
+    {
+     "name": "Farouk A Hussein, Professor",
+     "role": "STUDY_CHAIR",
+     "affiliation": "Professor in Orthodontics; Faculty of Dental Medicine, Boys, Cairo; Al-Azhar University"
+    }
+   ],
+   "countries": [
+    "Egypt"
+   ],
+   "sites": [
+    {
+     "facility": "Outpatient Clinics of the Department of Orthodontics, Faculty of Dental Medicine, Boys, Cairo, Al-Azhar University.",
+     "city": "Cairo",
+     "country": "Egypt"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
+   "nct": "NCT07476209",
+   "title": "Sialendoscopy Versus Photobiomodulation in Prevention of Radiation Induced Xerostomia",
+   "official": "Sialendoscopic Management Versus Photobiomodulation in Prevention of Radiation-induced Xerostomia in Head and Neck Cancer Patients (Randomized Clinical Trial)",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2026-04-01",
+   "end": "2026-12-31",
+   "completion": "2027-03-01",
+   "first_posted": "2026-03-17",
+   "updated": "2026-03-25",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 42,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Radiation Induced Xerostomia"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "Sialendoscopy"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Photobiomodulation"
+    }
+   ],
+   "summary": "Radiation induced xerostomia (RIX) represents a common debilitating side effect for (RT), adversely affecting oral health and hindering head and neck cancer (HNC) patients' quality of life (QOL). To date, managing (RIX) is mainly symptomatic, while the only FDA-approved preventive therapeutic agent is Amifostine, with associated systemic toxicities. Sialendoscopic management is a minimally invasive technique that can help in restoring ductal patency, decreasing inflammation and improving salivary flow. Laser Photobiomodulation (PBM) is a noninvasive approach that enhances salivary gland function by stimulating cellular activity, increasing blood flow and attenuating oxidative stress.\n\nAim: The present study aims to evaluate and compare the efficacy of sialendoscopic management and photobiomodulation in managing (RIX) in (HNC) patients.\n\nMaterials and Methods: A randomized clinical trial ",
+   "outcome": "Xerostomia grade",
+   "sponsor": "Alexandria University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Basma Morsy",
+    "title": "Principal Investigator",
+    "affiliation": "Alexandria University"
+   },
+   "officials": [],
+   "countries": [
+    "Egypt"
+   ],
+   "sites": [
+    {
+     "facility": "Faculty of Dentistry, Alexandria University",
+     "city": "Alexandria",
+     "country": "Egypt"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "oncologie-support"
+   ]
+  },
+  {
    "nct": "NCT07810530",
    "title": "Study of a Copaiba-Based Mouthwash Combined With Low-Level Laser Therapy in the Prevention of Oral Mucositis in Patients Undergoing Hematopoietic Stem Cell Transplantation",
    "official": "Randomized, Double-Blind, Placebo-Controlled Phase II Study to Evaluate the Efficacy of a Copaiba-Based Mouthwash Combined With Low-Level Laser Therapy in the Prevention of Oral Mucositis in Patients Undergoing Hematopoietic Stem Cell Transplantation",
@@ -4989,7 +5681,8 @@
    ],
    "n_sites": 1,
    "matched": [
-    "dermatologie"
+    "dermatologie",
+    "sport"
    ]
   },
   {
@@ -5305,6 +5998,70 @@
    ]
   },
   {
+   "nct": "NCT07446517",
+   "title": "Low-Level Laser Therapy for Osgood-Schlatter or Sever Pain in Youth Athletes",
+   "official": "Effect of Low-Level Laser Photobiomodulation on Pain, Function, and Ultrasound Findings in Youth Athletes With Osgood-Schlatter Disease or Sever Disease: A Randomized, Participant-Blinded, Sham-Controlled Pilot Trial",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2026-03-01",
+   "end": "2027-04-30",
+   "completion": "2027-05-31",
+   "first_posted": "2026-03-03",
+   "updated": "2026-10-09",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 36,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Osgood-Schlatter Disease",
+    "Sever's Disease"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Photobiomodulation (Low-Level Laser Therapy)"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham Photobiomodulation (Sham Laser Treatment)"
+    }
+   ],
+   "summary": "The goal of this clinical trial is to learn if low-level laser therapy (also called photobiomodulation) works to treat knee or heel pain in physically active children and adolescents with Osgood-Schlatter disease or Sever disease. It will also learn about the safety of this treatment. The main questions it aims to answer are:\n\n1. Does low-level laser therapy lower pain more than a sham (placebo) laser treatment?\n2. Does low-level laser therapy improve daily and sport-related function more than a sham laser treatment?\n3. What medical problems, if any, do participants have during the study?\n\nResearchers will compare active low-level laser therapy to a sham (placebo) laser treatment. The sham treatment looks and feels the same but does not deliver therapeutic light. This comparison will show whether the laser therapy works better than placebo.\n\nParticipants will:\n\n* Complete screening and a",
+   "outcome": "Recruitment feasibility: proportion of eligible participants enrolled",
+   "sponsor": "Medical University of Gdansk",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Bartosz Wilczyński",
+    "title": "Principal Investigator",
+    "affiliation": "Medical University of Gdansk"
+   },
+   "officials": [
+    {
+     "name": "Bartosz Wilczyński, PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Medical University of Gdansk"
+    }
+   ],
+   "countries": [
+    "Poland"
+   ],
+   "sites": [
+    {
+     "facility": "Department of Immunobiology and Environment Microbiology, Debinki 7",
+     "city": "Gdansk",
+     "country": "Poland"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "sport"
+   ]
+  },
+  {
    "nct": "NCT07287046",
    "title": "A Single-Blind Randomized Controlled Study Comparing the Efficacy of High-Intensity Laser Therapy and Focused Extracorporeal Shock Wave Therapy in Patients With Plantar Fasciitis",
    "official": "A Comparison of Efficacy Between High-intensity Laser Therapy and Focused Extracorporeal Shock Wave Therapy in Patient With Plantar Fasciitis; Single Blinded Randomize Controlled Study",
@@ -5605,6 +6362,63 @@
    ]
   },
   {
+   "nct": "NCT07747350",
+   "title": "Comparison Between the Effectiveness of Low-Grade Laser Therapy vs. Conventional Analgesics for Pain Reduction During Orthodontic Treatment in Malay Female Population",
+   "official": "Comparison Between the Effectiveness of Low-Grade Laser Therapy vs. Conventional Analgesics for Pain Reduction During Orthodontic Treatment in Malay Female Population",
+   "acronym": "LLTvsANALG",
+   "status": "RECRUITING",
+   "start": "2026-02-01",
+   "end": "2026-02-01",
+   "completion": "2027-02-20",
+   "first_posted": "2026-08-05",
+   "updated": "2026-08-07",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 30,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Orthodontic Pain"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Low-Level Laser Therapy (LLLT)"
+    },
+    {
+     "type": "DRUG",
+     "name": "Conventional Analgesic (Paracetamol)"
+    }
+   ],
+   "summary": "All patients will be treated using the fixed appliance on the upper and lower arches.\n\n0.014\" Niti(Nickel-Titanium) archwire is used to ensure all patients will receive the same force.\n\nAll participants will receive a pain diary. In the pain diary, they are required to complete a KAP(Knowledge, Attitudes, and Practices) questionnaire regarding pain before the procedure. They are also required to record the pain VAS (Visual Analog Scale) score at different times (before procedure, 6 hours, 12 hours, 24 hours, 3 days, 5 days and 7 days after procedure). For PCM (Paracetamol) 650mg group, 1 tablet will be given 1 hour before the procedure and every 6 hours for 24 hours (5 doses in total) as pain begins two hours after activation, peak at 24 hours and reduces after two days . Paracetamol if taken more than 4g per day may cause serious liver damage. United State of Food and Drugs Administrati",
+   "outcome": "Pain Intensity Score",
+   "sponsor": "ROA RAAD FADHEL",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "ROA RAAD FADHEL",
+    "title": "dentist",
+    "affiliation": "Universiti Sains Malaysia"
+   },
+   "officials": [],
+   "countries": [
+    "Malaysia"
+   ],
+   "sites": [
+    {
+     "facility": "School of Dental Sciences Universiti Sains Malaysia",
+     "city": "Kota Bharu",
+     "country": "Malaysia"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
    "nct": "NCT07080008",
    "title": "Evaluation of Lumitrace for Visualizing Ureters During Abdominopelvic Surgeries",
    "official": "A Single Center, Open Label Pilot Study to Assess the Feasibility and Safety of Lumitrace Injection for Intraoperative Ureter Visualization Comparing White Light (WL) Fluorescence (BLUE) in Participants Undergoing Minimally Invasive Abdominopelvic Surgeries",
@@ -5712,6 +6526,71 @@
    "n_sites": 1,
    "matched": [
     "dermatologie"
+   ]
+  },
+  {
+   "nct": "NCT06837480",
+   "title": "Photobiomodulation in Head and Neck Cancer-Related Chronic Lymphedema",
+   "official": "Placebo-Controlled Phase II Randomized Clinical Trial of Photobiomodulation Therapy in Head and Neck Cancer Survivors With Chronic Lymphedema",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2026-01-15",
+   "end": "2029-08-30",
+   "completion": "2029-11-30",
+   "first_posted": "2025-02-20",
+   "updated": "2026-06-23",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 150,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Head and Neck Cancer",
+    "Lymphedema of the Head and Neck"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "LTU-904 Portable Laser Therapy Unit (active laser device)"
+    },
+    {
+     "type": "DEVICE",
+     "name": "LTU-904 Portable Laser Therapy Unit (sham/inactive laser device)"
+    }
+   ],
+   "summary": "The U.S. Food and Drug Administration approved photobiomodulation therapy (PBMT) as a treatment for breast cancer-related arm lymphedema (BCRL) in 2006. The investigators conducted two pilot clinical trials. Results demonstrated the feasibility, acceptability, and preliminary efficacy of PBMT for the treatment of chronic lymphedema in head and neck cancer (HNC) survivors. The objective of this study is to further investigate and confirm the positive effects of PBMT on HNC-related chronic lymphedema.",
+   "outcome": "Total Severity of External Lymphedema",
+   "sponsor": "Abramson Cancer Center at Penn Medicine",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "National Cancer Institute (NCI)"
+   ],
+   "responsible": {
+    "name": "Jie Deng",
+    "title": "Professor, PhD",
+    "affiliation": "Abramson Cancer Center at Penn Medicine"
+   },
+   "officials": [],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "University of Pennsylvania Abramson Cancer Center",
+     "city": "Philadelphia",
+     "country": "United States"
+    },
+    {
+     "facility": "Vanderbilt University Medical Center",
+     "city": "Nashville",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "oncologie-support"
    ]
   },
   {
@@ -5944,6 +6823,59 @@
    ]
   },
   {
+   "nct": "NCT07810699",
+   "title": "Diode Laser Versus LED for Maxillary Canine Retraction in Orthodontic Patients",
+   "official": "Comparative Effects of Diode Laser and LED Photobiomodulation on Maxillary Canine Retraction During Orthodontic Treatment",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2026-01-03",
+   "end": "2027-07",
+   "completion": "2027-07",
+   "first_posted": "2026-09-09",
+   "updated": "2026-09-09",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 34,
+   "allocation": "NON_RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Malocclusion Class I"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Diode Laser Photobiomodulation"
+    },
+    {
+     "type": "DEVICE",
+     "name": "LED Photobiomodulation"
+    }
+   ],
+   "summary": "This study aims to compare the effects of diode laser and light-emitting diode (LED) photobiomodulation on maxillary canine retraction during fixed orthodontic treatment. Participants requiring bilateral maxillary first premolar extraction will receive both interventions using a split-mouth design. One maxillary canine will receive diode laser photobiomodulation, while the contralateral maxillary canine will receive LED photobiomodulation.\n\nMaxillary canine movement will be evaluated at 4, 8, 12, and 16 weeks during retraction to compare the amount and rate of tooth movement between the two interventions. Pain associated with orthodontic tooth movement will also be assessed.\n\nPulp oxygen saturation (SpO₂) of the maxillary canines will be measured to evaluate changes in pulpal oxygenation during orthodontic canine retraction. SpO₂ will be assessed at baseline and at predefined follow-up t",
+   "outcome": "Amount of Maxillary Canine Retraction",
+   "sponsor": "Can Tho University of Medicine and Pharmacy",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "Vietnam"
+   ],
+   "sites": [
+    {
+     "facility": "Saigon Dental Clinic - Dr. Lam",
+     "city": "Can Tho",
+     "country": "Vietnam"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
    "nct": "NCT07315841",
    "title": "Accuracy of Indocyanine Green (ICG) Fluorescence Imaging in Tenosynovial Giant Cell Tumor Surgery",
    "official": "A Prospective Study Evaluating the Accuracy of Indocyanine Green Fluorescence Imaging in Detecting Lesions During Tenosynovial Giant Cell Tumor Surgery",
@@ -5994,6 +6926,195 @@
    "n_sites": 1,
    "matched": [
     "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT07286474",
+   "title": "Effects of Laser Therapy and Vitamin D Pills on Braces Tooth Movement: A Random Controlled Study",
+   "official": "The Effects of Combined Low-Level Laser Therapy (LLLT) and Oral Vitamin D3 Supplements on Orthodontic Tooth Movements: A Randomized Controlled Trial.",
+   "acronym": "LLLT",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2026-01-01",
+   "end": "2026-10-31",
+   "completion": "2026-12-31",
+   "first_posted": "2025-12-16",
+   "updated": "2026-04-28",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 50,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Malocclusion of Anterior Teeth"
+   ],
+   "interventions": [
+    {
+     "type": "DIETARY_SUPPLEMENT",
+     "name": "Cholecalciferol (Vit D3)"
+    },
+    {
+     "type": "RADIATION",
+     "name": "Low-Level Laser Therapy"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Fixed Orthodontic Appliance"
+    }
+   ],
+   "summary": "This clinical trial aims to evaluate the efficacy of low-level laser therapy (LLLT) in conjunction with oral vitamin D3 supplementation in accelerating orthodontic tooth movement in adults with crowded mandibular anterior teeth undergoing orthodontic treatment. Additionally, the study seeks to assess the safety profile and potential adverse effects, including pain and root resorption.\n\nThe primary research questions are as follows:\n\n1. Does vitamin D3 enhance the rate of orthodontic tooth movement?\n2. Does the combination of vitamin D3 and LLLT result in a greater acceleration of tooth movement compared to either intervention alone?\n3. Do vitamin D3 and LLLT influence the extent of root resorption?\n4. Do vitamin D3 and LLLT mitigate pain associated with orthodontic treatment?\n5. Do vitamin D3 and LLLT reduce the frequency of required clinical visits?\n\nThe study will compare the outcomes ",
+   "outcome": "Rate of Orthodontic Tooth Movement",
+   "sponsor": "Universiti Sains Malaysia",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Syed Abid Altaf Bukhari",
+    "title": "PhD Student",
+    "affiliation": "Universiti Sains Malaysia"
+   },
+   "officials": [
+    {
+     "name": "Rozita Hassan, BDS, MS, MOrtho RCSEd",
+     "role": "STUDY_DIRECTOR",
+     "affiliation": "Universiti Sains Malayisa"
+    }
+   ],
+   "countries": [
+    "Saudi Arabia"
+   ],
+   "sites": [
+    {
+     "facility": "Armed Forces Hospital",
+     "city": "Madinah",
+     "country": "Saudi Arabia"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
+   "nct": "NCT07493941",
+   "title": "Effect of Bleaching Regimen With Different Activation Modes on Color Stability, Surface Roughness, Tooth Sensitivity and Patient Satisfaction",
+   "official": "Effect of Bleaching Regimen With Different Activation Modes on Color Stability, Surface Roughness, Tooth Sensitivity and Patient Satisfaction",
+   "acronym": null,
+   "status": "ENROLLING_BY_INVITATION",
+   "start": "2026-01-01",
+   "end": "2026-07-02",
+   "completion": "2026-07-03",
+   "first_posted": "2026-03-27",
+   "updated": "2026-06-29",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 45,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Bleaching; Satisfactory",
+    "Bleaching Sensitivity",
+    "Bleaching Efficacy"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "35% Hydrogen Peroxide Bleaching Gel (Bleach 'n Smile®, Schutz Dental, Germany) with Laser Activation"
+    },
+    {
+     "type": "OTHER",
+     "name": "35% Hydrogen Peroxide Bleaching Gel (Bleach 'n Smile®, Schutz Dental, Germany) with LED/Light Activation"
+    },
+    {
+     "type": "OTHER",
+     "name": "35% Hydrogen Peroxide Bleaching Gel (Bleach 'n Smile®, Schutz Dental, Germany) - Chemical Activation Only"
+    }
+   ],
+   "summary": "The purpose of this study was to conduct a randomized double-blind clinical trial to examine the efficacy of an in-office bleaching regimen with varied activation modes on color stability, surface roughness, tooth sensitivity, and patient satisfaction.",
+   "outcome": "Color Change (ΔE)",
+   "sponsor": "Tanta University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Mohammed Abd El Ghany Mohammed",
+    "title": "Principal Investigator",
+    "affiliation": "Tanta University"
+   },
+   "officials": [],
+   "countries": [
+    "Egypt"
+   ],
+   "sites": [
+    {
+     "facility": "Restorative Department, Faculty of Dentistry, Tanta University",
+     "city": "Tanta",
+     "country": "Egypt"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
+   "nct": "NCT07446127",
+   "title": "Adjunctive Diode Laser Therapy in Non-Surgical Periodontal Therapy",
+   "official": "Evaluation of the Effect of Adjunctive Diode Laser Therapy in Mechanical Scaling and Root Surface Debridement in Non-Surgical Periodontal Therapy",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2026-01-01",
+   "end": "2026-12-31",
+   "completion": "2026-12-31",
+   "first_posted": "2026-03-03",
+   "updated": "2026-03-03",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 20,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Periodontal Disease",
+    "Periodontal Pockets",
+    "Periodontal Attachment Loss"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "LASER assisted SRP"
+    },
+    {
+     "type": "DEVICE",
+     "name": "RsD"
+    }
+   ],
+   "summary": "The goal of this clinical trial is to evaluate the efficacy of adjunctive application of diode laser to mechanical, non-surgical root surface debridement in patients attending periodontal office. The main question it aims to answer is:\n\nTo compare the clinical effectiveness of adjunctive application of a 940-nm diode laser with root surface debridement to the effectiveness of root surface debridement alone.\n\nThis study is a split-mouth design, where each quadrant will be randomly allocated to one of the following groups:\n\nControl group (root surface debridement - RsD): scaling and root planing alone. Laser group (RsD + laser): scaling and root planing with adjunctive diode laser therapy Quadrants will be randomly allocated to the treatment groups",
+   "outcome": "PPD",
+   "sponsor": "Tel Aviv University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Michael Saminsky",
+    "title": "Doctor",
+    "affiliation": "Tel Aviv University"
+   },
+   "officials": [],
+   "countries": [
+    "Israel"
+   ],
+   "sites": [
+    {
+     "facility": "Dr Younis Mahmoud",
+     "city": "Afula",
+     "country": "Israel"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
    ]
   },
   {
@@ -6439,6 +7560,69 @@
    ]
   },
   {
+   "nct": "NCT07532694",
+   "title": "Diode Laser-Assisted Periodontal Therapy in Kidney Transplant Recipients",
+   "official": "Periodontal Status in Kidney Transplant Patients and the Effectiveness of Adjunctive Diode Laser Therapy",
+   "acronym": "KTRs",
+   "status": "RECRUITING",
+   "start": "2025-12-09",
+   "end": "2026-06-09",
+   "completion": "2026-06-09",
+   "first_posted": "2026-04-16",
+   "updated": "2026-04-16",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 80,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Periodontitis",
+    "Kidney Transplant Recipients"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "Scaling and Root Planing"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Diode Laser"
+    }
+   ],
+   "summary": "This randomized controlled trial evaluates the efficacy of diode laser-assisted non-surgical periodontal therapy in kidney transplant recipients with periodontitis. Eighty participants will be allocated to two parallel groups: scaling and root planing (SRP) with adjunctive diode laser therapy or SRP alone. Clinical periodontal parameters, blood biomarkers, radiographic findings, and subgingival microbiome profiles will be assessed at baseline and during follow-up. The study aims to determine whether adjunctive diode laser therapy provides superior clinical and biological improvement compared with SRP alone.",
+   "outcome": "Change in clinical attachment level (CAL)",
+   "sponsor": "Military Hospital 103",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "VietThang Dinh",
+    "title": "Principal Investigator",
+    "affiliation": "Military Hospital 103"
+   },
+   "officials": [],
+   "countries": [
+    "Vietnam"
+   ],
+   "sites": [
+    {
+     "facility": "103 Military Hospital",
+     "city": "Hanoi",
+     "country": "Vietnam"
+    },
+    {
+     "facility": "Vietnam Military Medical University",
+     "city": "Hanoi",
+     "country": "Vietnam"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
    "nct": "NCT07311928",
    "title": "HELIOS: Human Embryo Illumination to Enhance Development",
    "official": "HELIOS: Human Embryo Illumination to Enhance Development",
@@ -6562,7 +7746,8 @@
    ],
    "n_sites": 1,
    "matched": [
-    "dermatologie"
+    "dermatologie",
+    "odontologie"
    ]
   },
   {
@@ -6727,6 +7912,64 @@
    "n_sites": 0,
    "matched": [
     "neurologie"
+   ]
+  },
+  {
+   "nct": "NCT07558720",
+   "title": "Effect of Diode Laser and 20% Benzocaine Anesthetic Gel on Pain Reduction Following Tooth Separation With Elastomeric Separators in Fixed Orthodontic Patients: A Randomized Trial in Karachi-Pakistan",
+   "official": "Effect of Diode Laser and 20% Benzocaine Anesthetic Gel on Pain Reduction Following Tooth Separation With Elastomeric Separators in Fixed Orthodontic Patients: A Randomized Trial in Karachi-Pakistan",
+   "acronym": null,
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2025-12-01",
+   "end": "2026-04",
+   "completion": "2026-04",
+   "first_posted": "2026-04-30",
+   "updated": "2026-04-30",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 72,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "We Are Not Studying a Disease or Condition",
+    "Pain Reduction"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "Laser"
+    },
+    {
+     "type": "OTHER",
+     "name": "Benzocaine 20%"
+    }
+   ],
+   "summary": "The goal of this clinical trial is to learn if low level laser therapy works equivalent to benzocaine in reducing the pain caused by separators in fixed orthodontic treatment. The main questions it aims to answer are:\n\nIs there any difference in mean pain scores with Low Level Laser Therapy (LLLT) and 20% Benzocaine anesthetic gel of patients receiving elastomeric separators in fixed orthodontic treatment?\n\nResearchers will compare low level laser therapy to benzoaine gel to evaluate reduction in pain\n\nParticipants will be applied low level laser at the appointment of separator placement and patient himself will apply benzocaine gel thrice daily at the site of separator placement. patient will use placebo on the other side. Gel and placebo would be applied for one month.\n\nPatient will take the gel for 7 days.",
+   "outcome": "mean difference in pain scores",
+   "sponsor": "Dow University of Health Sciences",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Muhammad Ashfaq",
+    "title": "Docter",
+    "affiliation": "Dow University of Health Sciences"
+   },
+   "officials": [],
+   "countries": [
+    "Pakistan"
+   ],
+   "sites": [
+    {
+     "facility": "Dow Dental College",
+     "city": "Karachi",
+     "country": "Pakistan"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
    ]
   },
   {
@@ -6966,6 +8209,124 @@
    "n_sites": 1,
    "matched": [
     "dermatologie"
+   ]
+  },
+  {
+   "nct": "NCT07287709",
+   "title": "Evaluation Of Laser Versus Conventional Pulpotomies In Mature Molar Teeth With Irreversible Pulpitis",
+   "official": "Evaluation Of Laser Versus Conventional Pulpotomies In Mature Molar Teeth With Irreversible Pulpitis (A Randomized Controlled Clinical Trial)",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2025-11-07",
+   "end": "2026-05",
+   "completion": "2026-05",
+   "first_posted": "2025-12-17",
+   "updated": "2025-12-17",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Irreversible Pulpitis (Toothache)"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Diode laser"
+    },
+    {
+     "type": "OTHER",
+     "name": "Sodium Hypochlorite Solution"
+    }
+   ],
+   "summary": "this clinical trial is evaluating the outcome of laser assisted pulpotomy compared to conventional pulpotomy in mature teeth with symptomatic irreversible pulpitis (SIP) assessed by CBCT followed by automated segmentation using Artificial intelligence (AI).",
+   "outcome": "Assessment of healing progress",
+   "sponsor": "Rana Hegaz",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Alexandria University"
+   ],
+   "responsible": {
+    "name": "Rana Hegaz",
+    "title": "Assistant lecturer ,Endodontics, Department of Conservative Dentistry, Faculty of Dentistry, Alexandria University, Alexandria, Egypt.",
+    "affiliation": "Alexandria University"
+   },
+   "officials": [
+    {
+     "name": "Rania Noaman ELbackly, Professor",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Endodontics, Conservative Dentistry Department, Faculty of Dentistry, Alexandria University, Alexandria, Egypt. Tissue Engineering Laboratories, Faculty of Dentistry, Alexandria University, Alexandria, Egypt."
+    }
+   ],
+   "countries": [
+    "Egypt"
+   ],
+   "sites": [
+    {
+     "facility": "Faculty of Dentistry",
+     "city": "Alexandria",
+     "country": "Egypt"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
+   "nct": "NCT07329712",
+   "title": "Comparing Tear Proteomics Profile in Dry Eye Disease pre-and Post-treatment With Low Level Light Therapy",
+   "official": "Comparing Tear Proteomics Profile in Dry Eye Disease pre-and Post-treatment With Low Level Light Therapy",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2025-11-05",
+   "end": "2026-12-31",
+   "completion": "2027-12-31",
+   "first_posted": "2026-01-09",
+   "updated": "2026-01-09",
+   "type": "OBSERVATIONAL",
+   "phases": [],
+   "n": 30,
+   "allocation": null,
+   "masking": null,
+   "conditions": [
+    "Dry Eye",
+    "Meibomian Gland Dysfunction (Disorder)"
+   ],
+   "interventions": [],
+   "summary": "The purpose of this research study is to understand the mechanism of action of low level light therapy and also potentially yield markers associated with good treatment response. Low-level light therapy is light-based treatment delivered through advance eye-light device. This therapy uses light energy to provide energy to the meibomian gland cells to slow down age-ing, improve tear stability and reduce inflammation.",
+   "outcome": "Comparing tear proteomics profile in dry eye disease pre-and post-treatment with low level light therapy",
+   "sponsor": "Singapore National Eye Centre",
+   "sponsor_class": "OTHER_GOV",
+   "collaborators": [],
+   "responsible": {
+    "name": "Louis Tong",
+    "title": "Clinician-Scientist, Senior Consultant",
+    "affiliation": "Singapore National Eye Centre"
+   },
+   "officials": [
+    {
+     "name": "Louis Tong, PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Singapore Eye Research Institute"
+    }
+   ],
+   "countries": [
+    "Singapore"
+   ],
+   "sites": [
+    {
+     "facility": "Singapore Eye Research Insititute",
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
@@ -7258,6 +8619,55 @@
    "n_sites": 1,
    "matched": [
     "neurologie"
+   ]
+  },
+  {
+   "nct": "NCT07369804",
+   "title": "Study on Safety and Efficacy of Focused LED-Based Red-Light Therapy in Myopic Adults",
+   "official": "Safety and Efficacy of Focused LED-Based Repeated Low-Level Red-Light Therapy in Myopic Adults: A Single-Arm Pilot Study",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2025-10-08",
+   "end": "2026-07-31",
+   "completion": "2026-07-31",
+   "first_posted": "2026-01-27",
+   "updated": "2026-01-27",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 14,
+   "allocation": "NA",
+   "masking": "NONE",
+   "conditions": [
+    "Myopia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "fLED-based red-light therapy"
+    }
+   ],
+   "summary": "This research project is a prospective, single-arm, open-label pilot study designed to evaluate the efficacy and safety of focused LED-based repeated low-level red-light (fLED-RLRL) therapy in myopic adults. The primary objective is to assess whether the therapy can increase choroidal thickness and improve choroidal blood flow. The secondary objective is to evaluate the safety and tolerability of red light therapy in adult myopes.\n\nThe study will enroll 14 myopic adults aged 18 to 50 years, with spherical equivalent refractions ranging from -0.50 to -6.00 diopters. Participants will receive home-based fLED-RLRL therapy (wavelength 650 ± 10 nm, power 0.20 mW) twice daily for 3 minutes per session, 5 days per week, over a total of 28 days, combined with single-vision spectacles. The fLED red-light device employs a standard LED semiconductor chip integrated with a total internal reflection ",
+   "outcome": "Changes in choroidal thickness measured by OCT",
+   "sponsor": "The Hong Kong Polytechnic University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "China"
+   ],
+   "sites": [
+    {
+     "facility": "The Hong Kong Polytechnic University",
+     "city": "Hong Kong",
+     "country": "China"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
@@ -7661,6 +9071,67 @@
    ]
   },
   {
+   "nct": "NCT07160036",
+   "title": "Repeatability of AO-SLO (Mona IIa) Technology and Cone Cell Density of Individuals Use Repeated Low-level Red-light Therapy",
+   "official": "Exploring the Repeatability of Adaptive Optics Scanning Laser Ophthalmoscope Technology (AO-SLO Mona IIa) and the Differences in Cone Cell Density Between Individuals Who Undergone and Not Undergone Repeated Low-level Red-light",
+   "acronym": "AO-SLO",
+   "status": "RECRUITING",
+   "start": "2025-09-20",
+   "end": "2025-11-20",
+   "completion": "2025-12-20",
+   "first_posted": "2025-09-08",
+   "updated": "2025-09-15",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 180,
+   "allocation": "NON_RANDOMIZED",
+   "masking": "QUADRUPLE",
+   "conditions": [
+    "Myopia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "RLRL(Model RS-200-2A, Eyerising; Suzhou Xuanjia Optoelectronic Technology Co., Ltd., Suzhou, China))"
+    }
+   ],
+   "summary": "To explore the repeatability of AO-SLO (Mona IIa) technology and the difference of cone cell density between individuals who used or not used repeated low-intensity red light treatment",
+   "outcome": "The density of cone cells",
+   "sponsor": "Ruihua Wei",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Tianjin Medical University Eye Hospital"
+   ],
+   "responsible": {
+    "name": "Ruihua Wei",
+    "title": "Professor",
+    "affiliation": "Tianjin Medical University Eye Hospital"
+   },
+   "officials": [
+    {
+     "name": "Ruihua Wei",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Tianjin Medical University Eye Hospital, Tianjin, Tianjin 120120 Recruiting"
+    }
+   ],
+   "countries": [
+    "China"
+   ],
+   "sites": [
+    {
+     "facility": "Tianjin Medical University Eye Hospital",
+     "city": "Tianjin",
+     "country": "China"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT07155356",
    "title": "Effect of Red and Blue Light Irradiation on Postoperative Wound Healing in Perianal Absces",
    "official": "Effect of Red and Blue Light Irradiation on Postoperative Wound Healing in Perianal Abscess: a Single-center Prospective Open-label Randomized Clinical Trial",
@@ -7897,7 +9368,8 @@
    ],
    "n_sites": 1,
    "matched": [
-    "musculo-squelettique"
+    "musculo-squelettique",
+    "sport"
    ]
   },
   {
@@ -8198,6 +9670,69 @@
    ]
   },
   {
+   "nct": "NCT06925477",
+   "title": "Direct vs. Conventional SLT in Open-Angle Glaucoma: A RCT",
+   "official": "Direct Selective Laser Trabeculoplasty (DSLT) and Selective Laser Trabeculoplasty (SLT) in Reducing Intraocular Pressure in Open-Angle Glaucoma",
+   "acronym": null,
+   "status": "ENROLLING_BY_INVITATION",
+   "start": "2025-08-07",
+   "end": "2027-10-31",
+   "completion": "2027-11-30",
+   "first_posted": "2025-04-13",
+   "updated": "2026-09-14",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 51,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "GLAUCOMA 1, OPEN ANGLE, D (Disorder)"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "DSLT treatment for Open-Angle Glaucoma"
+    },
+    {
+     "type": "DEVICE",
+     "name": "SLT treatment for Open-Angle Glaucoma"
+    }
+   ],
+   "summary": "This study compares two laser treatments for open-angle glaucoma: Selective Laser Trabeculoplasty (SLT) and Direct Selective Laser Trabeculoplasty (DSLT). SLT is a widely used procedure that requires a manual technique with a goniolens, while DSLT is a new, automated, non-contact method using the Eagle system. The study will evaluate whether DSLT is as effective as SLT in reducing intraocular pressure (IOP). Participants will be randomly assigned to receive either treatment and will be monitored over 12 months to assess changes in IOP, medication use, and safety outcomes. The goal is to determine if the simpler DSLT procedure can provide similar results to SLT, potentially improving patient comfort and access to glaucoma care.",
+   "outcome": "Primary Endpoint",
+   "sponsor": "Medical University of South Carolina",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Jella An",
+    "title": "Clinical Professor-Faculty",
+    "affiliation": "Medical University of South Carolina"
+   },
+   "officials": [
+    {
+     "name": "Jella An, MD, MBA",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Medical University of South Carolina"
+    }
+   ],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "MUSC Health West Ophthalmology Clinic",
+     "city": "Charleston",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT06918210",
    "title": "Indocyanine Green Fluorescence During Fundus First Laparoscopic Cholecystectomy",
    "official": "Indocyanine Green Fluorescence During Fundus First Laparoscopic Cholecystectomy",
@@ -8313,6 +9848,70 @@
    "n_sites": 1,
    "matched": [
     "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT07332988",
+   "title": "Effect of Low-Level Light Therapy on Ocular Surface Parameters in Patients With Graves Disease",
+   "official": "Effect of Low-Level Light Therapy on Ocular Surface Parameters in Patients With Graves Disease",
+   "acronym": "LLLT-Graves",
+   "status": "ENROLLING_BY_INVITATION",
+   "start": "2025-08-01",
+   "end": "2026-08",
+   "completion": "2026-08",
+   "first_posted": "2026-01-12",
+   "updated": "2026-01-12",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 30,
+   "allocation": "RANDOMIZED",
+   "masking": "QUADRUPLE",
+   "conditions": [
+    "Dry Eye Disease (DED)",
+    "Graves Ophthalmopathy"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Sham (No Treatment)"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Low Light Level therapy"
+    }
+   ],
+   "summary": "This prospective, interventional, randomized, controlled, double-blind clinical study evaluates the effect of Low-Level Light Therapy (LLLT) delivered by a polychromatic periocular mask (Eye-light®️) versus a sham device in adults with dry eye disease (DED) associated with Graves' ophthalmopathy, refractory to conventional topical treatment. The LLLT protocol applies photobiomodulation to eyelid and periocular tissues to support meibomian gland function and reduce tear inflammatory biomarkers. The primary endpoint is the change in tear film stability measured by Non-Invasive Tear Break-Up Time (NIBUT) and Fluorescein Tear Break-Up Time (FBUT). Secondary outcomes include symptom scores (OSDI), Schirmer I test, tear osmolarity, ocular surface staining scales, automated conjunctival hyperemia, blink analysis, meibomian gland morphology (meibography/meiboscale), tear inflammatory biomarkers,",
+   "outcome": "Changes in tear film stability (NIBUT and FBUT) from baseline during the treatment and in the follow-up period in patients with Graves' ophthalmopathy who undergo low-level light therapy (LLLT)",
+   "sponsor": "Grigore T. Popa University of Medicine and Pharmacy",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Timofte Zorila Mihaela Madalina",
+    "title": "Principal Investigator",
+    "affiliation": "Grigore T. Popa University of Medicine and Pharmacy"
+   },
+   "officials": [
+    {
+     "name": "Mihaela Madalina Timofte Zorila",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "University of Medicine \"Gr. T. Popa\", Iasi, Romania"
+    }
+   ],
+   "countries": [
+    "Romania"
+   ],
+   "sites": [
+    {
+     "facility": "University of Medicine and Pharmacy \"Grigore T. Popa\"",
+     "city": "Iași",
+     "country": "Romania"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
@@ -8503,6 +10102,137 @@
    ]
   },
   {
+   "nct": "NCT06691269",
+   "title": "Photobiomodulation and Tooth Analgesia",
+   "official": "Evaluation of a Photobiomodulation Device for Dental Analgesia in Pediatric Patients",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2025-07-07",
+   "end": "2027-06",
+   "completion": "2027-06",
+   "first_posted": "2024-11-15",
+   "updated": "2026-08-12",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 200,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Dental Anaesthesia",
+    "Dental Pain",
+    "Dental Analgesia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Photobiomodulation"
+    },
+    {
+     "type": "DRUG",
+     "name": "Topical Benzocaine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Local Anesthesia"
+    }
+   ],
+   "summary": "The purpose of this study is to test photobiomodulation (PBM) with a non-invasive light device for reducing discomfort during dental treatments in children. We plan to conduct a series of three clinical studies in 200 school-aged children requiring routine dental treatment. The first study aims to test if PBM works for tooth and soft tissue by assessing response to cold testing and probing of gums. The second study aims to test if use of PBM on soft tissues before injection reduces discomfort. The third study aims to test if PBM can be used to do simple dental fillings in baby teeth without numbing injection.",
+   "outcome": "Study 1- Response to Cold Pulp (Pulp sensibility) testing",
+   "sponsor": "University of Maryland, Baltimore",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "University of Maryland School of Dentistry, Pediatric Clinics",
+     "city": "Baltimore",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
+   "nct": "NCT07013162",
+   "title": "Efficacy of Laser Therapy for Periodontitis",
+   "official": "Efficacy of Diode Laser and Non-Surgical Periodontal Therapy in the Treatment of Periodontitis: A Clinical and Immunological Study",
+   "acronym": null,
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2025-07-01",
+   "end": "2026-06-01",
+   "completion": "2026-08-01",
+   "first_posted": "2025-06-10",
+   "updated": "2026-05-07",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 21,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Periodontal Disease"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "High power diode laser + SRT"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Low diode diode laser + SRT"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Curettage (SRT) only"
+    }
+   ],
+   "summary": "The aim of this study is to evaluate the efficacy of diode laser in addition to periodontal treatment in periodontitis patients and to investigate their effects on gingival crevicular fluid (GCF) cytokine levels before and after treatment, among some Yemeni individuals in Sana'a city.",
+   "outcome": "Plaque Index (PI)",
+   "sponsor": "University of Science and Technology, Yemen",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Amani Abdulhakeem Alsharani",
+    "title": "Assistant Lecturer and principal investigator",
+    "affiliation": "University of Science and Technology, Yemen"
+   },
+   "officials": [
+    {
+     "name": "Waddah N Al-Hajj, Assoc prof",
+     "role": "STUDY_CHAIR",
+     "affiliation": "Faculty of dentistry -Thamar university"
+    }
+   ],
+   "countries": [
+    "Yemen"
+   ],
+   "sites": [
+    {
+     "facility": "University of Science and Technology Dental Clinic",
+     "city": "Sanaa",
+     "country": "Yemen"
+    },
+    {
+     "facility": "University of Science and Technology Dental Clinic",
+     "city": "Sanaa",
+     "country": "Yemen"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
    "nct": "NCT06999239",
    "title": "Evaluation of the Effect of Laser Therapy on Lateral Pterygoid Muscle in Patients With Wilke's Stage I and II Temporomandibular Disorders (TMD): Case Series Study",
    "official": "Evaluation of the Effect of Laser Therapy on Lateral Pterygoid Muscle in Patients With Wilke's Stage I and II Temporomandibular Disorders (TMD): Case Series Study",
@@ -8547,6 +10277,79 @@
    "n_sites": 0,
    "matched": [
     "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT07018531",
+   "title": "Vertical Soft Tissue Augmentation With Tent Pole Technique and Its Influence on Marginal Bone Loss Around Dental Implants",
+   "official": "Vertical Soft Tissue Augmentation Using the Tent-Pole Technique With Adjunctive Therapies and Its Influence on Marginal Bone Loss Around Dental Implants: A Randomized Controlled Clinical Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2025-07",
+   "end": "2026-06",
+   "completion": "2026-08",
+   "first_posted": "2025-06-12",
+   "updated": "2025-06-17",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 112,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Soft Tissue Augmentation Around Dental Implants"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "VST augmentation with TPT"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "TPT-PRF"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "TPT-PBM"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Group control: implant placement without TPT"
+    }
+   ],
+   "summary": "This study aims to evaluate the effectiveness of the tent pole technique in vertical peri-implant soft tissue augmentation and to assess its impact on marginal bone loss. Additionally, the adjunctive use of platelet-rich fibrin and photobiomodulation will be explored to determine their influence on the clinical outcomes of this procedure.",
+   "outcome": "vertical soft tissue height",
+   "sponsor": "University of Santiago de Compostela",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Galimplant Dental Implants"
+   ],
+   "responsible": {
+    "name": "Mario Pérez Sayáns",
+    "title": "Full Professor in Oral Medicine, Oral Surgery and Implantology, Faculty of Dental Medicine, University of Santiago de Compostela",
+    "affiliation": "University of Santiago de Compostela"
+   },
+   "officials": [],
+   "countries": [
+    "Spain",
+    "Tunisia"
+   ],
+   "sites": [
+    {
+     "facility": "Oral Medicine, Oral Surgery and Implantology Unit (Medoralres), Faculty of Medicine and Dentistry, University of Santiago de Compostela",
+     "city": "Santiago de Compostela",
+     "country": "Spain"
+    },
+    {
+     "facility": "Oral Health and Oral Rehabilitation Research Laboratory, LR12ES11, Faculty of Dental Medecine of Monastir, University of Monastir",
+     "city": "Monastir",
+     "country": "Tunisia"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "odontologie"
    ]
   },
   {
@@ -8824,6 +10627,60 @@
    ]
   },
   {
+   "nct": "NCT07173530",
+   "title": "Low Level Light Therapy & Skin Pigmentation",
+   "official": "Low Level Light Therapy & Skin Pigmentation",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2025-06-11",
+   "end": "2026-08",
+   "completion": "2026-08",
+   "first_posted": "2025-09-15",
+   "updated": "2025-09-15",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 40,
+   "allocation": "NON_RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Dry Eye",
+    "Meibomian Gland Dysfunction (Disorder)"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Three 15-minute low-level light therapy sessions using Light Emitting Diodes of wavelength 633nm (Essilor epi-c plus)."
+    }
+   ],
+   "summary": "The goal of this clinical trial is to determine if there is a difference in eyelid temperature after low-level light therapy (LLLT) in individuals with different amounts of skin pigmentation and dry eye/meibomian gland disease. Participants will have 3 fifteen minute in office LLLT therapy sessions over a period of approximately 7 to 14 days.",
+   "outcome": "Eyelid temperature",
+   "sponsor": "University of Houston",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Eric R. Ritchey",
+    "title": "Associate Professor",
+    "affiliation": "University of Houston"
+   },
+   "officials": [],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "The University of Houston College of Optometry",
+     "city": "Houston",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT07093229",
    "title": "Knee Osteoarthritis in Elderly People - Gait Analysis",
    "official": "Gait Analysis as a Measure of Physical Performance in Managing Bilateral Knee Osteoarthritis in Elderly People",
@@ -8885,6 +10742,63 @@
    "n_sites": 1,
    "matched": [
     "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT06963684",
+   "title": "Glaucoma Laser Assessment of Stability and Sustainability",
+   "official": "Glaucoma Laser Assessment of Stability and Sustainability: Evaluating Long-Term Stability and Retreatment Efficacy of DSLT in Patients With Ocular Hypertension, Glaucoma Suspects, and Mild/Moderate POAG.",
+   "acronym": "GLASS",
+   "status": "RECRUITING",
+   "start": "2025-06",
+   "end": "2027-06",
+   "completion": "2027-08",
+   "first_posted": "2025-05-09",
+   "updated": "2025-05-14",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 48,
+   "allocation": "NA",
+   "masking": "NONE",
+   "conditions": [
+    "Glaucoma"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Dual-Treatment Direct Selective Laser Trabeculoplasty (DSLT)"
+    }
+   ],
+   "summary": "The GLASS Study is designed to help researchers learn whether repeating a non-invasive laser treatment called DSLT (Direct Selective Laser Trabeculoplasty) can better control eye pressure in patients with early-stage glaucoma or ocular hypertension. All participants will receive the laser treatment in both eyes. After three months, one eye will be randomly selected to receive a second treatment, while the other eye will serve as a comparison. The goal is to see whether two treatments work better than one at keeping eye pressure low without using daily eye drops. This study will help doctors decide the best way to use this laser treatment to manage glaucoma and delay the need for medication. Participants will be followed for one year to monitor safety, eye pressure, and the need for any additional treatments.",
+   "outcome": "Mean Decrease in Intraocular Pressure (IOP) from Baseline",
+   "sponsor": "Twin Cities Eye Consultants",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Alcon Research"
+   ],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "George R Wandling, MD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Twin Cities Eye Consultants - Partner"
+    }
+   ],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "Twin Cities Eye Consultants",
+     "city": "Coon Rapids",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
@@ -9016,6 +10930,61 @@
    "n_sites": 2,
    "matched": [
     "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT06854068",
+   "title": "Evaluation of the Combined Effect of Bioactive Toothpastes, Desensitizing Agents and Er-YAG Laser on Dentin Hypersensitivity: an In-Vivo Study",
+   "official": "In-Vivo Evaluation of the Effect of Bioactive Material-Containing Toothpastes and Combined Use of Er-YAG Laser on Dentin Hypersensitivity",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2025-05-01",
+   "end": "2026-05-01",
+   "completion": "2026-09-01",
+   "first_posted": "2025-03-03",
+   "updated": "2025-03-03",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 40,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Dentin Hypersensitivity"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "laser treatment"
+    },
+    {
+     "type": "DEVICE",
+     "name": "application of desensitizing agent"
+    },
+    {
+     "type": "OTHER",
+     "name": "Placebo"
+    }
+   ],
+   "summary": "Here's the revised version with the corrected treatment and follow-up session schedule:\n\n\\---\n\nThe aim of this clinical trial is to evaluate the effectiveness of bioactive toothpastes, desensitizing agents, and Er-YAG laser treatments in reducing dentin hypersensitivity. This study also aims to assess the safety and comparative efficiency of these treatment methods. The main research questions are:\n\n* Do bioactive toothpastes, desensitizing agents, and laser treatments individually or in combination reduce dentin hypersensitivity?\n* Are there any adverse effects associated with these treatments?\n\nParticipants will:\n\n* Be randomly assigned to one of four treatment groups, each using a specific toothpaste (Pro-Argin, Nano-Hydroxyapatite, NovaMin, or CPP-ACP), alongside desensitizing agents, laser treatments, or a placebo.\n* Receive two treatment sessions: the first at baseline and the seco",
+   "outcome": "Change from Baseline in Dentin Hypersensitivity Scores Using VAS at 1 Week, 2 Weeks, 1 Month, and 3 Months After Treatment",
+   "sponsor": "Ege University",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "The Scientific and Technological Research Council of Turkey"
+   ],
+   "responsible": {
+    "name": "Cem Peskersoy",
+    "title": "Doç. Dr.",
+    "affiliation": "Ege University"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "odontologie"
    ]
   },
   {
@@ -9397,6 +11366,60 @@
    "n_sites": 1,
    "matched": [
     "neurologie"
+   ]
+  },
+  {
+   "nct": "NCT06538142",
+   "title": "Photobiomodulation and New Restorative Material for Teeth With MIH on Control of Hypersensitivity and Longevity",
+   "official": "Assessment of Photobiomodulation Combined With New Restorative Material for Teeth With Molar Incisor Hypomineralization on Control of Hypersensitivity and Longevity of Restorations: Randomized Controlled Blind Clinical Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2025-04-01",
+   "end": "2026-04-01",
+   "completion": "2026-09-01",
+   "first_posted": "2024-08-05",
+   "updated": "2025-01-22",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 100,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Hypomineralization Molar Incisor",
+    "Hypersensitivity Dentin"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "Photobiomodulation + Restoration with Self-cure Composite Resin"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Restoration with Self-cure Composite Resin"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Photobiomodulation + Restoration with Photopolymerizable Bulk-fill Composite Resin"
+    }
+   ],
+   "summary": "Introduction: Molar incisor hypomineralization (MIH) is a qualitative defect of enamel development that occurs in the mineralization phase. MIH affects one or more permanent molars and, occasionally, permanent incisors.\n\nObjective: The aim of the proposed study is to determine whether photobiomodulation combined with a new self-cure resin improves hypersensitivity in molars with MIH and caries (primary outcome). Secondary outcomes include assessing the clinical performance of the self-cure composite resin in terms of restoration longevity and comparing the effectiveness of three interventions-photobiomodulation combined with self-cure resin, self-cure resin alone, and photobiomodulation combined with bulkfill photopolymerizable resin-in controlling hypersensitivity over time.\n\nMethods and analysis: Permanent molars with MIH in patients eight to 12 years of age will be allocated to three ",
+   "outcome": "Hypersensitivity Assessment",
+   "sponsor": "University of Nove de Julho",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Sandra Kalil Bussadori",
+    "title": "Principal Investigator",
+    "affiliation": "University of Nove de Julho"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "odontologie"
    ]
   },
   {
@@ -9990,7 +12013,8 @@
    ],
    "n_sites": 1,
    "matched": [
-    "dermatologie"
+    "dermatologie",
+    "oncologie-support"
    ]
   },
   {
@@ -10044,6 +12068,82 @@
    "n_sites": 1,
    "matched": [
     "neurologie"
+   ]
+  },
+  {
+   "nct": "NCT06780293",
+   "title": "Laser Acupuncture on Dry Eye and Sjögren's Syndrome-related Dry Eye Symptoms (LADESJS)",
+   "official": "Exploring the Long-term Therapeutic Effects of Laser Acupuncture on Dry Eye and Sjögren's Syndrome-related Dry Eye Symptoms",
+   "acronym": "LADESJS",
+   "status": "RECRUITING",
+   "start": "2025-02-03",
+   "end": "2025-04-30",
+   "completion": "2026-12-31",
+   "first_posted": "2025-01-17",
+   "updated": "2025-04-09",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "PHASE2"
+   ],
+   "n": 140,
+   "allocation": "RANDOMIZED",
+   "masking": "QUADRUPLE",
+   "conditions": [
+    "Dry Eye Syndrome (DES)",
+    "Laser Acupuncture",
+    "Sjögren's Syndrome (SS)"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "Laser acupuncture (LA)"
+    },
+    {
+     "type": "DIAGNOSTIC_TEST",
+     "name": "Numerical Rating Scale (NRS)"
+    },
+    {
+     "type": "DIAGNOSTIC_TEST",
+     "name": "Schirmer's test"
+    },
+    {
+     "type": "DIAGNOSTIC_TEST",
+     "name": "Ocular Surface Disease Index (OSDI)"
+    },
+    {
+     "type": "DIAGNOSTIC_TEST",
+     "name": "EULAR Sjögren's Syndrome Patient Reported Index (ESSPRI)"
+    },
+    {
+     "type": "DIAGNOSTIC_TEST",
+     "name": "Traditional Chinese Medicine (TCM) tongue diagnosis"
+    }
+   ],
+   "summary": "This randomized, double-blind, placebo-controlled clinical trial aims to evaluate the efficacy of adding laser acupuncture at Fengchi (GB20), Zanzhu (BL2), Hegu (LI4), and Quchi (LI11) acupoints to standard care for the treatment of dry eye symptoms in both Sjögren's Syndrome-related dry eye (SJS-DES) and non-Sjögren's Syndrome-related dry eye (Non-SJS-DES) populations. A total of 140 dry eye patients will be recruited and divided into two groups: 70 participants with SJS-DES and 70 with Non-SJS-DES. Participants will be randomly assigned into three groups: Sham+LA group (60 participants receiving 4 weeks of placebo laser acupuncture followed by 4 weeks of active laser acupuncture), LA+LA group (60 participants receiving 4 weeks of active laser acupuncture followed by another 4 weeks of active laser acupuncture), and a Waiting List group (20 participants receiving no laser acupuncture tr",
+   "outcome": "Numerical Rating Scale (NRS)",
+   "sponsor": "Taipei Veterans General Hospital, Taiwan",
+   "sponsor_class": "OTHER_GOV",
+   "collaborators": [],
+   "responsible": {
+    "name": "Ching-Mao Chang",
+    "title": "Director of Division of Integrative Medicine, Center for Traditional Medicine",
+    "affiliation": "Taipei Veterans General Hospital, Taiwan"
+   },
+   "officials": [],
+   "countries": [
+    "Taiwan"
+   ],
+   "sites": [
+    {
+     "facility": "Ching-Mao Chang",
+     "city": "Taipei",
+     "country": "Taiwan"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "oncologie-support",
+    "ophtalmologie"
    ]
   },
   {
@@ -10396,7 +12496,8 @@
    ],
    "n_sites": 1,
    "matched": [
-    "musculo-squelettique"
+    "musculo-squelettique",
+    "sport"
    ]
   },
   {
@@ -10575,6 +12676,73 @@
    ]
   },
   {
+   "nct": "NCT06719674",
+   "title": "Diode Laser as an Adjunct to Professional Mechanical Plaque Removal",
+   "official": "Impact of Diode Laser as an Adjunct to Professional Mechanical Plaque Removal (PMPR) in Patients With Periodontitis: A Randomized Clinical Trial",
+   "acronym": null,
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2025-01-01",
+   "end": "2026-06-01",
+   "completion": "2026-12-01",
+   "first_posted": "2024-12-06",
+   "updated": "2026-05-04",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 40,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Periodontitis",
+    "Pocket, Periodontal"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "Professional mechanical plaque removal and Laser"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Professional mechanical plaque removal"
+    }
+   ],
+   "summary": "This study will utilize diode laser to determine its effects on improving periodontal parameters and inflammatory biomarkers, comparing with conventional treatment alone, and evaluate its effectiveness in improving periodontal disease's clinical parameters. Several studies have compared the effects of lasers and conventional periodontal treatment, comparing only its microbiological and clinical parameter levels and therapy to determine their effectiveness in key periodontal pathogens eradication and their effects on improving the clinical parameters of periodontal disease, in this study, salivary biomarkers will be collected and assessed to do a comparison between two treatment modalities. To the best of our knowledge, this is the first study to examine the effect of diode lasers on salivary biomarker levels.",
+   "outcome": "Reduction in probing pocket depth (mm)",
+   "sponsor": "University of Sulaimani",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "University of Dundee",
+    "Sulaimani Polytechnic University"
+   ],
+   "responsible": {
+    "name": "Sarhang Gul",
+    "title": "Asst. Prof. Dr.",
+    "affiliation": "University of Sulaimani"
+   },
+   "officials": [
+    {
+     "name": "Sarhang S Gul",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "University of Sulaimani"
+    }
+   ],
+   "countries": [
+    "Iraq"
+   ],
+   "sites": [
+    {
+     "facility": "College of Dentistry, University of Sulaimani",
+     "city": "Sulaymaniyah",
+     "country": "Iraq"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
    "nct": "NCT06763419",
    "title": "Internal Photobiomodulation For Management Of Temporomandibular Joint Internal Derangement",
    "official": "Internal Photobiomodulation For Management Of Temporomandibular Joint Internal Derangement: A Randomized Clinical Trial",
@@ -10715,7 +12883,8 @@
    ],
    "n_sites": 2,
    "matched": [
-    "dermatologie"
+    "dermatologie",
+    "odontologie"
    ]
   },
   {
@@ -10933,7 +13102,8 @@
    ],
    "n_sites": 1,
    "matched": [
-    "musculo-squelettique"
+    "musculo-squelettique",
+    "sport"
    ]
   },
   {
@@ -11160,6 +13330,91 @@
    ]
   },
   {
+   "nct": "NCT06610747",
+   "title": "Home- vs Hospital-based Care of Anti-VEGF Treatment for Diabetic Macular Edema: Non-inferiority RCT",
+   "official": "Home Care Monitoring of Visual Acuity and OCT Versus Standard Hospital/Clinic Care Monitoring During Diabetic Macular Edema Management: A Non-inferiority Randomized Clinical Trial",
+   "acronym": "DME HOME",
+   "status": "RECRUITING",
+   "start": "2024-10-28",
+   "end": "2027-04-30",
+   "completion": "2027-04-30",
+   "first_posted": "2024-09-24",
+   "updated": "2026-06-08",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 308,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Diabetic Macular Edema"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "Home-based Care Monitoring"
+    },
+    {
+     "type": "DRUG",
+     "name": "Aflibercept 2Mg/0.05Ml Inj,Oph"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Laser Treatment"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Standard Hospital/clinic-based Care Monitoring"
+    }
+   ],
+   "summary": "Diabetic macular edema (DME) is a common cause of central visual loss in diabetic patients and a global public health burden around the world. Most patients with DME and vision loss require pharmacological inhibition using anti-VEGF agents with multiple monitoring visits that require both visual acuity testing and optical coherence tomography (OCT) to determine if re-treatment is warranted as well as the recommended time interval to the next follow-up visit. However, this treatment regimen often requires monthly or every other month clinic visits, which places a substantial burden on ophthalmic clinics and patients.\n\nRecently, portable self-administered Home OCT devices have been developed that allow for home-based OCT scanning of retinal diseases, e.g., DME, although these devices do not include visual acuity determination. The investigators previously proposed to deliver Home OCT devic",
+   "outcome": "Change in best-corrected visual acuity (letter score) in the study eyes from the randomization visit to 96 week visit",
+   "sponsor": "Zhongshan Ophthalmic Center, Sun Yat-sen University",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Dongguan Guangming Ophthalmic Hospital",
+    "The Second People's Hospital of Foshan"
+   ],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Yingfeng Zheng, MD, PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Zhongshan Ophthalmic Center, Sun Yat-sen University"
+    }
+   ],
+   "countries": [
+    "China"
+   ],
+   "sites": [
+    {
+     "facility": "Dongguan Guangming Ophthalmic Hospital",
+     "city": "Dongguan",
+     "country": "China"
+    },
+    {
+     "facility": "The Second Peoples Hospital of Foshan",
+     "city": "Foshan",
+     "country": "China"
+    },
+    {
+     "facility": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University",
+     "city": "Guangzhou",
+     "country": "China"
+    },
+    {
+     "facility": "The First Affiliated Hospital of Jinan University",
+     "city": "Guangzhou",
+     "country": "China"
+    }
+   ],
+   "n_sites": 4,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT07523204",
    "title": "Photobiomodulation Therapy for Scar Quality After Facial Wound Closure",
    "official": "Effect of Photobiomodulation Therapy (PBMT) on Scar Quality Following Traumatic Facial Wound Closure: A Prospective Pilot Randomized Controlled Trial",
@@ -11327,6 +13582,63 @@
    "n_sites": 1,
    "matched": [
     "dermatologie"
+   ]
+  },
+  {
+   "nct": "NCT07229001",
+   "title": "Treating Meibomian Gland Disease in a Pediatric Population",
+   "official": "A Randomized Clinical Trial of Treating Meibomian Gland Disease in a Pediatric Population",
+   "acronym": "LLLT in Peds",
+   "status": "ENROLLING_BY_INVITATION",
+   "start": "2024-10-01",
+   "end": "2026-12-30",
+   "completion": "2026-12-30",
+   "first_posted": "2025-11-14",
+   "updated": "2025-11-14",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 15,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Dry Eye Disease, Meibomian Gland Disease"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "Low level light treatment"
+    },
+    {
+     "type": "OTHER",
+     "name": "warm compress and artificial tear"
+    }
+   ],
+   "summary": "Dry Eye Disease (DED) is commonly encountered among eye care professionals. DED is a disease of the tears and ocular surface that is multi-factorial resulting in a wide range of symptoms and signs with potentially damaging effects. As technology continues to evolve and as digital devices become more available in social, work environments, and in school settings, patients are increasingly complaining of ocular discomfort and fluctuations in their vision.\n\nIn order to diagnose DED which encompasses Meibomian gland dysfunction (MGD), a detailed case history of \\\\patients' symptoms along with imaging to investigate the amount of disease present in their eyes is needed. A customized questionnaire and the Keratograph meibographer will allow for a subjective and objective investigation of dry eye disease in patients. Artificial tears and warm compress are traditional methods used to treat DED. ",
+   "outcome": "Change in MG",
+   "sponsor": "Illinois College of Optometry",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Yi Pang",
+    "title": "professor",
+    "affiliation": "Illinois College of Optometry"
+   },
+   "officials": [],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "Illinois College of Optometry",
+     "city": "Chicago",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
@@ -11508,6 +13820,204 @@
    "n_sites": 1,
    "matched": [
     "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT06639009",
+   "title": "Effect of Laser Photobiomodulation in Improving Mouth Opening in Oral Submucous Fibrosis",
+   "official": "To Determine and Compare the Adjunctive Effect of Photobiomodulation With 940nm Diode Laser on Maximal Interincisal Mouth Opening Versus Conventional Non-invasive Management in Moderate Oral Submucous Fibrosis: A Patient and Outcome Assessor Blinded, Multiple- Arm, Randomized, Placebo Controlled Clinical Trial",
+   "acronym": "OSMFPBMT",
+   "status": "RECRUITING",
+   "start": "2024-09-01",
+   "end": "2025-11-30",
+   "completion": "2027-12-31",
+   "first_posted": "2024-10-15",
+   "updated": "2024-10-15",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 315,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Oral Submucous Fibrosis"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "940nm diode laser photobiomodulation"
+    },
+    {
+     "type": "OTHER",
+     "name": "Conventional non -Invasive management in Oral Submucous fibrosis"
+    }
+   ],
+   "summary": "This a patient and outcome assessor blinded, multiple arm, randomized placebo controlled clinical trial.\n\nThe goal of the study is to study the adjunctive effect of 940nm laser photobiomodulation therapy (PBMT) in precancerous condition like moderate Oral submucous Fibrosis in increasing the mouth opening. It will also assess the the effect of PBMT on oral burning sensation cheek flexibility, electromyography of bilateral masseter muscle, inflammatory and fibrogenic cytokines and oral health quality of life at baseline and after 1 and 3 months of PBMT.\n\nAdult subjects fulfilling the selection criteria will be prospectively recruited after ethical clearance and informed written consent. They will be randomized into 3 groups in 1:1 :1 distribution\n\nThe three groups are as follows:\n\nGroup A: Photobiomodulation therapy given intraorally on bilateral buccal mucosa and extraorally (sham) with ",
+   "outcome": "Maximal Interincisal Mouth opening (mm):",
+   "sponsor": "Dr. Shalini Gupta",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Dr. Shalini Gupta",
+    "title": "Additional Professor",
+    "affiliation": "All India Institute of Medical Sciences"
+   },
+   "officials": [
+    {
+     "name": "Shalini Gupta, MDS, FDSRCS(Edin)",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "All India Institute of Medical Sciences"
+    }
+   ],
+   "countries": [
+    "India"
+   ],
+   "sites": [
+    {
+     "facility": "All India Institute of Medical Sciences",
+     "city": "New Delhi",
+     "country": "India"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "oncologie-support"
+   ]
+  },
+  {
+   "nct": "NCT07088705",
+   "title": "Subthreshold Micropulse Laser Therapy (SML) in Retinitis Pigmentosa",
+   "official": "Pioneering Verification of the Use of the Immunomodulatory Effect of Subthreshold Micropulse Laser Therapy (SML) in Retinitis Pigmentosa With an Attempt to Optimize 577 nm and 810 nm Laser Protocols",
+   "acronym": null,
+   "status": "ENROLLING_BY_INVITATION",
+   "start": "2024-09-01",
+   "end": "2026-08",
+   "completion": "2027-02-28",
+   "first_posted": "2025-07-28",
+   "updated": "2025-07-31",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Retinitis Pigmentosa (RP)"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "SML 577 nm"
+    },
+    {
+     "type": "DEVICE",
+     "name": "SML 810 nm"
+    },
+    {
+     "type": "OTHER",
+     "name": "Sham SML"
+    }
+   ],
+   "summary": "Introduction Retinitis pigmentosa (RP) is the most common form of genetic retinal degenerative disease. The disease is progressive and leads to blindness and permanent disability within a few years of diagnosis. The etiology of RP is multifactorial. It combines genetic (multiple inheritance patterns) and environmental factors, which makes it difficult to develop effective causal therapy. Many potential methods of RP treatment have been described so far, but the lack of unequivocal evidence of the therapeutic effectiveness of these methods implies a lack of RP therapy standards. Few analyzes have shown that the use of a red subthreshold micropulse laser (SML) with a wavelength of 810 nm causes a neurostimulatory effect on the retina. The subsequent introduction of a yellow laser with a wavelength of 577 nm, dedicated to edema and ischemic retinal diseases, re-initiated a series of questio",
+   "outcome": "BCDVA improvement",
+   "sponsor": "Marta P. Wiącek",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Medical Research Agency, Poland"
+   ],
+   "responsible": {
+    "name": "Marta P. Wiącek",
+    "title": "PhD",
+    "affiliation": "Pomeranian Medical University Szczecin"
+   },
+   "officials": [],
+   "countries": [
+    "Poland"
+   ],
+   "sites": [
+    {
+     "facility": "First Department of Ophthalmology, Pomeranian Medical University",
+     "city": "Szczecin",
+     "country": "Poland"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
+   "nct": "NCT06574152",
+   "title": "Effect of Photobiomodulation on Pain and Healing of the Vertical Releasing Incision After Endodontic Microsurgery",
+   "official": "Effect of Photobiomodulation on Pain and Healing of the Vertical Releasing Incision After Endodontic Microsurgery: A Randomized Clinical Trial",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2024-08-20",
+   "end": "2028-05-04",
+   "completion": "2028-05-04",
+   "first_posted": "2024-08-27",
+   "updated": "2026-08-17",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 90,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Apical Periodontitis",
+    "Endodontically Treated Teeth",
+    "Endodontic Disease",
+    "Apical Cyst",
+    "Apical Granuloma",
+    "Periradicular Disease"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "PBM treatment"
+    },
+    {
+     "type": "DEVICE",
+     "name": "PBM sham treatment"
+    },
+    {
+     "type": "DEVICE",
+     "name": "EMS"
+    }
+   ],
+   "summary": "The purpose of this study is to evaluate the effect of Photobiomodulation (PBM) in postoperative pain after endodontic microsurgery (EMS) in patients from the University of Texas Health Science Center at Houston, School of Dentistry Graduate Endodontic Clinic and to assess the soft tissue healing of the vertical releasing incision (VRI) after PBM",
+   "outcome": "Change in pain as assessed by a Visual Analogue Scale (VAS)",
+   "sponsor": "The University of Texas Health Science Center, Houston",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Juliana Barros, DDS, MS",
+    "title": "Professor",
+    "affiliation": "The University of Texas Health Science Center, Houston"
+   },
+   "officials": [
+    {
+     "name": "Juliana Barros, DDS,MS",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "The University of Texas Health Science Center, Houston"
+    }
+   ],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "The University of Texas Health Science Center at Houston",
+     "city": "Houston",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
    ]
   },
   {
@@ -11744,6 +14254,81 @@
    "n_sites": 1,
    "matched": [
     "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT06371300",
+   "title": "Photobiomodulation With REd vs BluE Light (REBEL)",
+   "official": "Photobiomodulation of the Ocular Surface and Eyelids With Different Wavelengths: REd vs BluE Light (REBEL)",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2024-05-01",
+   "end": "2026-10-30",
+   "completion": "2026-12-30",
+   "first_posted": "2024-04-17",
+   "updated": "2026-01-21",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 36,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Dry Eye Syndromes",
+    "Meibomian Gland Dysfunction",
+    "Blepharitis"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Red LLLT"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Blue LLLT"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham Red LLLT"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham Blue LLLT"
+    }
+   ],
+   "summary": "The use of photobiomodulation or low-level light therapy (LLLT) in the ophthalmic field stemmed from dermatology which has shown impact on skin blood flow and regeneration. There has been a rise in clinical interest with emerging evidence in the benefits of photobiomodulation in managing chronic inflammatory conditions such as dry eye disease including improvements in ocular discomfort symptoms, tear film stability and tear volume. Despite the observed clinical benefits, limited research has been done to compare photobiomodulation utilising different wavelengths, as most research on dry eye disease has focused on red wavelengths. It has been purported that blue wavelengths may disrupt microbial growth while red wavelengths stimulate energy production and hence increase heat in the affected tissues, although research into these differential impacts at the ocular surface and external eye h",
+   "outcome": "Change from Baseline in Bacterial Colony to the Final Follow-up 1 Month After Final Treatment Session",
+   "sponsor": "Aston University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "James S Wolffsohn, PhD",
+     "role": "STUDY_DIRECTOR",
+     "affiliation": "Aston University"
+    }
+   ],
+   "countries": [
+    "New Zealand",
+    "United Kingdom"
+   ],
+   "sites": [
+    {
+     "facility": "University of Auckland",
+     "city": "Auckland",
+     "country": "New Zealand"
+    },
+    {
+     "facility": "Aston Dry Eye Clinic",
+     "city": "Birmingham",
+     "country": "United Kingdom"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
@@ -12158,6 +14743,70 @@
    ]
   },
   {
+   "nct": "NCT06199674",
+   "title": "Effects of PBM on Fixed-appliance Orthodontic Patients",
+   "official": "Effects of Photobiomodulation Therapy (PBM) on Dental and Periodontal Health of Patients Undergoing Fixed-appliance Orthodontic Treatment",
+   "acronym": null,
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2024-01-20",
+   "end": "2027-06-01",
+   "completion": "2027-12-01",
+   "first_posted": "2024-01-10",
+   "updated": "2026-06-24",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 50,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Orthodontics",
+    "Root Resorption"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "photobiomodulation therapy"
+    },
+    {
+     "type": "OTHER",
+     "name": "orthodontic fixed-appliance"
+    }
+   ],
+   "summary": "The aim of this study is to investigate the effects of photobiomodulation therapy (PBM) on the dental and periodontal health of patients undergoing fixed-appliance orthodontic treatment, including orthodontically induced root resorption, orthodontic pain, space closing rate, and dental microbiome profile in dental plaques.",
+   "outcome": "Orthodontic-induced inflammatory root resorption (OIIRR)",
+   "sponsor": "The University of Hong Kong",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Zhiyi Shan",
+    "title": "Clinical Assistant Professor",
+    "affiliation": "The University of Hong Kong"
+   },
+   "officials": [
+    {
+     "name": "Zhiyi Shan",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "The University of Hong Kong"
+    }
+   ],
+   "countries": [
+    "Hong Kong"
+   ],
+   "sites": [
+    {
+     "facility": "The University of Hong Kong",
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
    "nct": "NCT05916417",
    "title": "TMS-fNIRS Personalized Dosing",
    "official": "TMS-fNIRS Personalized Dosing",
@@ -12342,6 +14991,70 @@
    ]
   },
   {
+   "nct": "NCT05937269",
+   "title": "Assessing Impact of Early Physiotherapy on Lymphatic Dysfunction in Head and Neck Cancer Survivorship",
+   "official": "Assessing Impact of Early Physiotherapy on Lymphatic Dysfunction in Head and Neck",
+   "acronym": null,
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2023-10-12",
+   "end": "2026-08-31",
+   "completion": "2026-10-31",
+   "first_posted": "2023-07-10",
+   "updated": "2026-08-27",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "PHASE1"
+   ],
+   "n": 14,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Lymphedema of Face",
+    "Head and Neck Cancer"
+   ],
+   "interventions": [
+    {
+     "type": "COMBINATION_PRODUCT",
+     "name": "Near-infrared fluorescence lymphatic imaging"
+    },
+    {
+     "type": "DEVICE",
+     "name": "advanced pneumatic compression therapy"
+    }
+   ],
+   "summary": "The goal of this clinical trial is to learn if treating the lymphatics in head and neck cancer survivors before clinical diagnosis of lymphedema will prevent its development or progression. The main questions it aims to answer are:\n\n* Does early lymphatic treatment, before onset of clinical symptoms, prevent the development of head and neck lymphedema?\n* Does dermal lymphatic backflow provide an early indication of lymphedema and its response to treatment?\n\nOver the course of one year, participants will undergo several sessions near-infrared fluorescence lymphatic imaging to assess whether they have abnormal dermal lymphatic backflow following head and neck cancer treatment. Subjects will be divided into two groups, a treated and a control group. The treated group will be asked to complete daily sessions of pneumatic compression therapy at home, while the control group will receive stand",
+   "outcome": "Incidence/Severity of lymphedema",
+   "sponsor": "The University of Texas Health Science Center, Houston",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "John Rasmussen",
+    "title": "Associate Professor",
+    "affiliation": "The University of Texas Health Science Center, Houston"
+   },
+   "officials": [
+    {
+     "name": "John Rasmussen, PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "The University of Texas Health Science Center, Houston"
+    }
+   ],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "The University of Texas Health Science Center at Houston",
+     "city": "Houston",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "oncologie-support"
+   ]
+  },
+  {
    "nct": "NCT06124820",
    "title": "RCT Comparing Intravaginal Laser Therapy to Sham in Post-menopausal Women with Recurrent Urinary Tract Infections",
    "official": "A Single-blinded, Randomised Controlled Trial Comparing the Use of Intravaginal Laser Therapy to Sham in Post-menopausal Women with Recurrent Urinary Tract Infections (rUTI) and the Impact on the Vaginal and Urinary Microbiome",
@@ -12456,6 +15169,134 @@
    "n_sites": 1,
    "matched": [
     "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT06351605",
+   "title": "A Registry Study to Assess Photobiomodulation in Dry Age-Related Macular Degeneration (GLOBALIGHT)",
+   "official": "A Multi-Center Registry Study to Assess the Safety and Effectiveness of Photobiomodulation (PBM) in Participants With Dry Age-Related Macular Degeneration (AMD) (GLOBALIGHT)",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2023-09-01",
+   "end": "2028-11",
+   "completion": "2028-11",
+   "first_posted": "2024-04-08",
+   "updated": "2026-09-22",
+   "type": "OBSERVATIONAL",
+   "phases": [],
+   "n": 500,
+   "allocation": null,
+   "masking": null,
+   "conditions": [
+    "Dry Age-related Macular Degeneration"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Valeda® Light Delivery System"
+    }
+   ],
+   "summary": "The purpose of this registry study is to collect real life data pertaining to the safety and clinical effectiveness of multi-wavelength photobiomodulation (PBM) as provided by the Valeda Light Delivery System in participants with dry age-related macular degeneration (AMD) in routine clinical practice. Data will be collected retrospectively and prospectively.\n\nPBM involves the use of visible light to near infrared light (NIR) (500-1000 nanometers) produced by a laser or a non-coherent light source applied to the surface of the body to activate mitochondrial respiratory chain components, stabilize metabolic function, and promote cellular proliferation.\n\nThis registry study will be conducted in Europe, the US, and select other countries approved by their regulatory agency.\n\nThis registry study was initiated as a combined retrospective and prospective data collection effort. After the acquis",
+   "outcome": "Change in Visual Acuity from Baseline at each Treatment Visit",
+   "sponsor": "LumiThera, Inc.",
+   "sponsor_class": "INDUSTRY",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Sr. Principal Clinical Trial Operations, Surgical",
+     "role": "STUDY_DIRECTOR",
+     "affiliation": "Alcon Research, LLC"
+    }
+   ],
+   "countries": [
+    "Norway",
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "Retina Vitreous Associates Medical Group",
+     "city": "Beverly Hills",
+     "country": "United States"
+    },
+    {
+     "facility": "Cincinnati Eye Institute",
+     "city": "Cincinnati",
+     "country": "United States"
+    },
+    {
+     "facility": "Carolina Eyecare Physicians",
+     "city": "Charleston",
+     "country": "United States"
+    },
+    {
+     "facility": "Valley Retina Institute",
+     "city": "McAllen",
+     "country": "United States"
+    },
+    {
+     "facility": "Pacific Northwest Retina",
+     "city": "Silverdale",
+     "country": "United States"
+    },
+    {
+     "facility": "Institutt for Oyehelse",
+     "city": "Oslo",
+     "country": "Norway"
+    }
+   ],
+   "n_sites": 6,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
+   "nct": "NCT06971081",
+   "title": "LED Application Following Dental Extraction in Patients Taking Direct Oral Anticoagulants.",
+   "official": "Blue-violet Light Emitting Diode Application Following Dental Extraction in Patients Taking Direct Oral Anticoagulants. A Randomised Controlled Clinical Trial",
+   "acronym": "DENT-DOAC",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2023-08-17",
+   "end": "2025-06-30",
+   "completion": "2025-06-30",
+   "first_posted": "2025-05-14",
+   "updated": "2025-05-14",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 50,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Direct Oral Anticoagulants (DOACs)"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "LED light"
+    }
+   ],
+   "summary": "The DENT-DOAC trial is a single-blinded RCT investigating the effectiveness of LED application following dental extractions in patients taking direct oral anticoagulants (DOACs) . The study aims to address a significant clinical challenge, as bleeding following dental extraction is a well-recognized complication in patients taking anticoagulants, and the number of patients taking DOACs requiring dental procedures has increased substantially in recent years.\n\nThe trial will be conducted at the Eastman Dental Hospital (EDH-UCLH) and will recruit 50 participants who will be randomly divided into two groups of 25 each. The test group will receive both LED light application and haemostatic sponge treatment, while the control group will receive only the haemostatic sponge.\n\nThe study population will include patients taking DOACs (rivaroxaban, apixaban, edoxaban, or dabigatran) and are schedule",
+   "outcome": "Bleeding time",
+   "sponsor": "University College, London",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "United Kingdom"
+   ],
+   "sites": [
+    {
+     "facility": "UCL",
+     "city": "London",
+     "country": "United Kingdom"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
    ]
   },
   {
@@ -12772,6 +15613,69 @@
    ]
   },
   {
+   "nct": "NCT05913063",
+   "title": "Direct Discrimination of Quantum States by the Human Eye",
+   "official": "Direct Discrimination of Quantum States by the Human Eye With Macular Degeneration",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2023-06-26",
+   "end": "2029-07-01",
+   "completion": "2029-10-01",
+   "first_posted": "2023-06-22",
+   "updated": "2026-03-18",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 50,
+   "allocation": "NA",
+   "masking": "NONE",
+   "conditions": [
+    "Age-Related Macular Degeneration"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Structured Light Imaging Microscopy"
+    }
+   ],
+   "summary": "Age-related macular degeneration (AMD), is a debilitating eye disease that causes a loss of central vision. The prevalence of AMD increases exponentially with age and causes a significant impact through both medical expenses and the social and economic costs associated with vision loss. AMD is the global leading cause of blindness among people over the age of 60. Detection of this eye disease at early stages coupled with prompt treatment can prevent vision loss; however, modern diagnosis methods are ineffective at diagnosis of AMD before vision loss occurs. While a range of available treatment options has been effective at slowing vision loss due to AMD, no treatment exists which can recover lost vision. The investigators propose to apply tools developed in quantum information science to diagnose AMD before vision has been affected, drastically improving health outcomes for patients with",
+   "outcome": "Perception of the structured light",
+   "sponsor": "Centre for Eye and Vision Research",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "University of Waterloo",
+    "The Hong Kong Polytechnic University"
+   ],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Benjamin Thompson, PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Centre for Eye and Vision Research"
+    },
+    {
+     "name": "Mukhit Kulmaganbetov, MD, PhD",
+     "role": "STUDY_DIRECTOR",
+     "affiliation": "Centre for Eye and Vision Research"
+    }
+   ],
+   "countries": [
+    "Hong Kong"
+   ],
+   "sites": [
+    {
+     "facility": "Centre for Eye and Vision Research Limited",
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT05712772",
    "title": "Neuro-affective Response to Light in Depressed Adolescents and Young Adults",
    "official": "Neuro-affective Response to Light in Depressed Adolescents and Young Adults",
@@ -12835,6 +15739,71 @@
    "n_sites": 1,
    "matched": [
     "neurologie"
+   ]
+  },
+  {
+   "nct": "NCT05907161",
+   "title": "Low Laser Therapy and Hyaluronic Acid as an Adjunct to Non-surgical Periodontal Therapy",
+   "official": "The Effect of Low Laser Therapy and Hyaluronic Acid as an Adjunct to Non-surgical Periodontal Therapy in Patients With Periodontitis",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2023-06-09",
+   "end": "2026-02",
+   "completion": "2026-02",
+   "first_posted": "2023-06-18",
+   "updated": "2025-09-19",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 45,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Periodontitis"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "SRP+LASER (Dentsply Sirona - SIROLaser Blue)"
+    },
+    {
+     "type": "DEVICE",
+     "name": "SRP+HA"
+    },
+    {
+     "type": "DEVICE",
+     "name": "SRP"
+    }
+   ],
+   "summary": "Periodontal disease is an oral disease characterized by microbially associated, host-mediated inflammation of the periodontium. In the treatment of periodontal disease, conventional periodontal therapy includes both surgical and non-surgical approaches. Non-surgical therapy (i.e. scaling and root planing - SRP) remains an essential part of periodontal therapy. Here, diseased root surface debridement utilizing different hand and ultrasonic instrumentation is performed to facilitate periodontal re-attachment and to reduce the bacterial mass in the periodontal pocket.\n\nIn the last decade, the use of lasers (light amplification by stimulated emission of radiation) has occupied part of the dialogue within periodontology due to several proposed advantages. In the arena of periodontology, laser use, as an adjunct to non-surgical therapy, was demonstrated to enhance periodontal healing; however,",
+   "outcome": "Probing pocket depth reduction",
+   "sponsor": "University of Ljubljana",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "University Medical Centre Ljubljana"
+   ],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Aleš Fidler, Dr.",
+     "role": "STUDY_DIRECTOR",
+     "affiliation": "University Medical Centre Ljubljana"
+    }
+   ],
+   "countries": [
+    "Slovenia"
+   ],
+   "sites": [
+    {
+     "facility": "Univerity Medical Center Ljubljana",
+     "city": "Ljubljana",
+     "country": "Slovenia"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
    ]
   },
   {
@@ -13123,6 +16092,113 @@
    ]
   },
   {
+   "nct": "NCT05507840",
+   "title": "Photobiomodulation for Dry Age Related Macula Degeneration",
+   "official": "Photobiomodulation for Dry Age Related Macula Degeneration",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2022-12-01",
+   "end": "2026-12-01",
+   "completion": "2027-12-01",
+   "first_posted": "2022-08-19",
+   "updated": "2022-10-12",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 121,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Photobiomodulation",
+    "Age-Related Macular Degeneration"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Valeda machine"
+    }
+   ],
+   "summary": "The study will investigate the effect of photobiomodulation treatment on the risk of developing late age related macula degeneration (AMD) in the study eye in patients with wet AMD in the fellow eye.",
+   "outcome": "Percentage of patients that develope late AMD in the study eye compared with control after 3 years of follow-up",
+   "sponsor": "Oslo University Hospital",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "ANCA ROALD",
+    "title": "Principal Investigator, MD dr. med.",
+    "affiliation": "Oslo University Hospital"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
+   "nct": "NCT05650359",
+   "title": "Study of the Use of Orthopulse Photobiomodulation",
+   "official": "A Randomized and Controlled Study of the Use of Orthopulse Photobiomodulation for Acceleration of Orthodontic Tooth Movement With Fixed Appliances",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2022-10-13",
+   "end": "2028-05-15",
+   "completion": "2028-05-15",
+   "first_posted": "2022-12-14",
+   "updated": "2024-08-07",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 42,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Orthodontics"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "OrthoPulse"
+    },
+    {
+     "type": "OTHER",
+     "name": "No intervention"
+    }
+   ],
+   "summary": "This PMCF study evaluates the safety and performance of OrthoPulse photobiomodulation to accelerate tooth movement during alignment with fixed appliances.",
+   "outcome": "The primary endpoint of this PMCF study is the rate of tooth alignment.",
+   "sponsor": "Biolux Technology GmbH",
+   "sponsor_class": "INDUSTRY",
+   "collaborators": [
+    "medXteam GmbH"
+   ],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Todd Dickerson",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Private Practice 1200 W Warner Rd, Chandler, AZ 85224"
+    }
+   ],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "Private Practice",
+     "city": "Chandler",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
    "nct": "NCT05625828",
    "title": "Evaluation of the Effects of a Cognitive-Motor Fall Prevention Program on Fall Risk Factors",
    "official": "Evaluation of the Effects of a Cognitive-Motor Fall Prevention Program \"SILVER XIII - EQUILIBRE\" on Fall Risk Factors: Functional Abilities and Executive Functions",
@@ -13265,7 +16341,8 @@
    ],
    "n_sites": 1,
    "matched": [
-    "musculo-squelettique"
+    "musculo-squelettique",
+    "sport"
    ]
   },
   {
@@ -13330,6 +16407,75 @@
    "n_sites": 2,
    "matched": [
     "dermatologie"
+   ]
+  },
+  {
+   "nct": "NCT05106608",
+   "title": "Photobiomodulation Therapy Plus M-health in Head and Neck Cancer Patients: LAXER Study",
+   "official": "Photobiomodulation Therapy With M-health Tool for the Management of Oral Health and Quality of Life in Head and Neck Cancer Patients: LAXER Study",
+   "acronym": "LAXER",
+   "status": "RECRUITING",
+   "start": "2022-07-13",
+   "end": "2027-12",
+   "completion": "2028-07",
+   "first_posted": "2021-11-04",
+   "updated": "2026-09-17",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Head and Neck Cancer",
+    "Head and Neck Neoplasms",
+    "Xerostomia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Energy density photobiomodulation (7.5)"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Energy density photobiomodulation (3)"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham placebo"
+    }
+   ],
+   "summary": "The Photobiomodulation therapy could have positive effects on quality of life and oral health in head and neck cancer survivors post-radiotherapy. The improvement in quality of life will be maintained after a follow-up period.",
+   "outcome": "General and specific quality of life.",
+   "sponsor": "Universidad de Granada",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Noelia Galiano-Castillo",
+    "title": "Principal Investigator",
+    "affiliation": "Universidad de Granada"
+   },
+   "officials": [
+    {
+     "name": "Noelia Galiano-Castillo, PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Universidad de Granada"
+    }
+   ],
+   "countries": [
+    "Spain"
+   ],
+   "sites": [
+    {
+     "facility": "Faculty of Health Sciences",
+     "city": "Granada",
+     "country": "Spain"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "oncologie-support"
    ]
   },
   {
@@ -13771,6 +16917,69 @@
    ]
   },
   {
+   "nct": "NCT04979078",
+   "title": "Photobiomodulation Therapy in the Management of Hand-foot Syndrome and Hand-foot Skin Reaction",
+   "official": "Evaluating the Effectiveness of Photobiomodulation Therapy in the Management of Hand-foot Syndrome and Hand-foot Skin Reaction: A Single-arm Trial",
+   "acronym": "DermLight",
+   "status": "RECRUITING",
+   "start": "2022-01-12",
+   "end": "2024-08",
+   "completion": "2029-08",
+   "first_posted": "2021-07-27",
+   "updated": "2023-06-18",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 40,
+   "allocation": "NA",
+   "masking": "NONE",
+   "conditions": [
+    "Hand-foot Syndrome",
+    "Hand-foot Skin Reaction"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Photobiomodulation therapy (PBMT)"
+    }
+   ],
+   "summary": "Hand-foot syndrome (HFS) is a side effect of chemotherapy. HFS is characterized by redness, swelling, and pain on the palms of the hands and/or soles of the feet, which can progress to blistering. Hand-foot skin reaction (HFSR) refers to symptoms affecting the hands and/or feet associated with multikinase inhibitors (TKIs). HFS and HFSR are painful complications that can lead to compromised daily activities, sleep-wake disturbance and impaired mobility, eventually decreasing Quality of Life (QoL).\n\nPhotobiomodulation therapy (PBMT) is a non-invasive therapy based on the application of visible and/or near-infrared light produced by a laser diode or a light-emitting diode. The scientifically proven biologic effects of PBM are improved wound healing, and a reduction in pain, inflammation, and oedema. The aim of this study is to evaluate the effectiveness of PBMT in the management of HFS and",
+   "outcome": "Skin reaction evaluation - CTCAE",
+   "sponsor": "Jessa Hospital",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Hasselt University"
+   ],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Jeroen Mebis, MD, PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Head of Medical Oncology Department"
+    }
+   ],
+   "countries": [
+    "Belgium"
+   ],
+   "sites": [
+    {
+     "facility": "Hasselt University",
+     "city": "Hasselt",
+     "country": "Belgium"
+    },
+    {
+     "facility": "Jessa Ziekenhuis VZW",
+     "city": "Hasselt",
+     "country": "Belgium"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "oncologie-support"
+   ]
+  },
+  {
    "nct": "NCT06219694",
    "title": "Laser Acupuncture for Chronic Migraine",
    "official": "Enhancing Chronic Migraine Preventive Therapy: Laser Acupuncture as an Add-On Treatment for Patients With Unsatisfactory Pharmacological Effect, a Pilot Randomized Controlled Trial",
@@ -14012,7 +17221,140 @@
    ],
    "n_sites": 3,
    "matched": [
-    "dermatologie"
+    "dermatologie",
+    "ophtalmologie"
+   ]
+  },
+  {
+   "nct": "NCT04812093",
+   "title": "Spectroscopic Evaluation of Middle Ear Infection",
+   "official": "Spectroscopic Evaluation of Middle Ear Infection",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2021-02-26",
+   "end": "2028-12-31",
+   "completion": "2028-12-31",
+   "first_posted": "2021-03-23",
+   "updated": "2026-02-13",
+   "type": "OBSERVATIONAL",
+   "phases": [],
+   "n": 150,
+   "allocation": null,
+   "masking": null,
+   "conditions": [
+    "Middle Ear Infection"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Spectroscopic otoscope measurements"
+    }
+   ],
+   "summary": "Otitis media is more common in young children and it is estimated that 75% of all children experience at least one episode before the age of three. Otitis media is one of the common pediatric diagnoses and recurrent episodes account for the most commonly performed surgical procedure. Despite this a high degree of inaccuracy exists in diagnosis of this condition which depends on subjective assessment of the ear drum via direct visualization using an otoscope. Researchers can use LED-based multi wavelength light absorption and scattering measurements for the analysis of ear drum and the middle ear.",
+   "outcome": "Middle Ear Exam",
+   "sponsor": "University of California, Irvine",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "National Institute on Deafness and Other Communication Disorders (NIDCD)"
+   ],
+   "responsible": {
+    "name": "Elliot L Botvinick",
+    "title": "Professor of Biomedical Engineering and Surgery",
+    "affiliation": "University of California, Irvine"
+   },
+   "officials": [
+    {
+     "name": "Elliot Botvinick",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "University of Calfornia Irvine"
+    }
+   ],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "Children's Hospital of Orange County (CHOC)",
+     "city": "Orange",
+     "country": "United States"
+    },
+    {
+     "facility": "UCI Otolaryngology Clinic",
+     "city": "Orange",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "orl"
+   ]
+  },
+  {
+   "nct": "NCT04690439",
+   "title": "Photobiomodulation Therapy for the Management of Breast Cancer-related Lymphedema",
+   "official": "Evaluating the Effectiveness of Photobiomodulation Therapy in the Management of Breast Cancer-Related Lymphedema: a Randomized Controlled Trial",
+   "acronym": "LymphLight",
+   "status": "RECRUITING",
+   "start": "2021-02-22",
+   "end": "2028-02",
+   "completion": "2028-02",
+   "first_posted": "2020-12-30",
+   "updated": "2023-02-28",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 104,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Breast Cancer",
+    "Breast Cancer Related Lymphedema",
+    "Lymphedema of Upper Arm"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Photobiomodulation therapy (PBMT)"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Manual Lymphatic drainage"
+    }
+   ],
+   "summary": "Up to one out of five patients with breast cancer will develop lymphedema in the upper extremity after cancer treatment. Patients with breast cancer-related lymphedema (BCRL) suffer from pain, heaviness, tightness, and a decreased range of motion. Photobiomodulation therapy (PBMT) is a non-invasive therapy based on the application of visible and/or near-infrared light produced by a laser diode or a light-emitting diode. The scientifically proven biologic effects of PBM are improved wound healing, and a reduction in pain, inflammation, and oedema. Therefore, the aim of this study is to evaluate the effectiveness of PBMT on the management of BCRL.",
+   "outcome": "Arm circumference and volume",
+   "sponsor": "Jessa Hospital",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Hasselt University"
+   ],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Jeroen Mebis, MD, PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Jessa Hospital"
+    }
+   ],
+   "countries": [
+    "Belgium"
+   ],
+   "sites": [
+    {
+     "facility": "Hasselt University",
+     "city": "Hasselt",
+     "country": "Belgium"
+    },
+    {
+     "facility": "Jessa Ziekenhuis",
+     "city": "Hasselt",
+     "country": "Belgium"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "oncologie-support"
    ]
   },
   {
@@ -14136,6 +17478,81 @@
    "n_sites": 1,
    "matched": [
     "dermatologie"
+   ]
+  },
+  {
+   "nct": "NCT04495660",
+   "title": "Restauration of the Auditory and Cognitive Functions in Cochlear Implanted Deaf Children in fNIRS",
+   "official": "Restauration of the Auditory and Cognitive Functions in Cochlear Implanted Deaf Children in fNIRS",
+   "acronym": "HearCog",
+   "status": "RECRUITING",
+   "start": "2020-05-29",
+   "end": "2027-06-03",
+   "completion": "2027-06-03",
+   "first_posted": "2020-08-03",
+   "updated": "2026-08-31",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 80,
+   "allocation": "NON_RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Deafness"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Near InfraRed Spectroscopy (fNIRS)"
+    },
+    {
+     "type": "BEHAVIORAL",
+     "name": "Passive perceptual stimulation"
+    },
+    {
+     "type": "BEHAVIORAL",
+     "name": "Task A not B"
+    },
+    {
+     "type": "BEHAVIORAL",
+     "name": "VSWMT task"
+    },
+    {
+     "type": "BEHAVIORAL",
+     "name": "Perceptual Go-No-Go"
+    },
+    {
+     "type": "BEHAVIORAL",
+     "name": "Verbal memory task"
+    }
+   ],
+   "summary": "The principal aim of this study is to evaluate the cortical developement of perceptual skills and executive functions over time, in children with cochlear implants aged 10-24 months and 3-7 years compared with normally hearing subjects (NHS). To do this, the investigator will use functional Near InfraRed Spectroscopy (fNIRS) during 4 tasks that engage the childs perceptual and cognitive skills over a period of 18 months. The performance scores obtained by each participants as well as the cortical activity will be analysed and decrypted.",
+   "outcome": "Evolution of Oxyhemoglobin (O2Hb) measure",
+   "sponsor": "University Hospital, Toulouse",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Yohan GALLOIS, MD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "University Hospital, Toulouse"
+    }
+   ],
+   "countries": [
+    "France"
+   ],
+   "sites": [
+    {
+     "facility": "Gallois Yohan",
+     "city": "Toulouse",
+     "country": "France"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "orl"
    ]
   },
   {
