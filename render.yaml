@@ -12,3 +12,27 @@ services:
       - path: /*
         name: Cache-Control
         value: no-cache
+  # Service d'abonnement aux alertes par mail (alertes/app.py) — voir ALERTES.md
+  - type: web
+    name: luminatheque-alertes
+    runtime: python
+    plan: free
+    buildCommand: "pip install -r alertes/requirements.txt"
+    startCommand: "gunicorn --chdir alertes --workers 2 --timeout 60 app:app"
+    healthCheckPath: /api/sante
+    pullRequestPreviewsEnabled: false
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: SITE_URL
+        value: https://luminatheque.onrender.com
+      - key: ALERTES_URL
+        value: https://luminatheque-alertes.onrender.com
+      - key: ALERTES_SECRET
+        generateValue: true
+      - key: BREVO_API_KEY
+        sync: false
+      - key: SENDER_EMAIL
+        sync: false
+      - key: SENDER_NAME
+        value: Luminathèque

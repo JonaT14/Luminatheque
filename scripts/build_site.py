@@ -220,7 +220,7 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
 
     syn_path = cur_dir / "syntheses.json"
     syntheses = json.loads(syn_path.read_text()) if syn_path.exists() else {}
-    meta = {k: topic.get(k) for k in ("id", "label", "short", "color", "description", "cadence", "since", "status",
+    meta = {k: topic.get(k) for k in ("id", "code", "label", "short", "color", "description", "cadence", "since", "status",
                                       "hero", "exclusions_note", "subgroups", "pubmed_query")}
     par_path = cur_dir / "parametres.json"
     meta["params"] = json.loads(par_path.read_text()) if par_path.exists() else []
@@ -271,6 +271,88 @@ def stamp_assets() -> None:
         shutil.copyfile(f, dist / f"{name}.{h}{ext}")
         return f'{m.group(1)}assets/dist/{name}.{h}{ext}"'
     idx.write_text(pat.sub(repl, html))
+
+
+SITE_URL = "https://luminatheque.onrender.com"
+ALERTS_API = "https://luminatheque-alertes.onrender.com"  # service d'abonnement (server/), voir ALERTES.md
+
+
+def track_news(all_articles: list, trials: dict) -> dict:
+    """Date de première apparition de chaque notice, de chaque fiche rédigée et de chaque essai, et historique des
+    statuts des essais (data/suivi.json). Sert aux alertes par mail, aux flux RSS et à l'aperçu des alertes.
+    Au premier passage, la date de mise en ligne (notices) ou de déclaration (essais) tient lieu de date d'arrivée."""
+    path = ROOT / "data/suivi.json"
+    today = dt.date.today().isoformat()
+    first = not path.exists()
+    sv = json.loads(path.read_text()) if not first else {"notices": {}, "fiches": {}, "essais": {}}
+    for a in all_articles:
+        k = f"{a['topic']}:{a['pmid']}"
+        if k not in sv["notices"]:
+            sv["notices"][k] = min(a["date"], today) if first else today
+        if a["curated"] and k not in sv["fiches"]:
+            sv["fiches"][k] = min(a["date"], today) if first else today
+    for tp, xs in trials.items():
+        for x in xs:
+            e = sv["essais"].get(x["nct"])
+            if not e:
+                d0 = min(x.get("first_posted") or today, today) if first else today
+                sv["essais"][x["nct"]] = {"vu": d0, "theme": tp, "statuts": [[d0, x["status"]]]}
+            elif e["statuts"][-1][1] != x["status"]:
+                e["statuts"].append([today, x["status"]])
+    path.write_text(json.dumps(sv, ensure_ascii=False, indent=0, sort_keys=True) + "\n")
+    return sv
+
+
+def recent_news(sv: dict, all_articles: list, trials: dict, days: int = 35) -> dict:
+    """Nouveautés des dernières semaines (avec les champs utiles au filtrage) embarquées dans data.js : aperçu des alertes."""
+    lim = (dt.date.today() - dt.timedelta(days=days)).isoformat()
+    by_key = {f"{a['topic']}:{a['pmid']}": a for a in all_articles}
+    arts = {}
+    for kind in ("notices", "fiches"):
+        for k, d in sv[kind].items():
+            a = by_key.get(k)
+            if d >= lim and a and (kind == "fiches" or not a["curated"]):
+                arts[k] = [d, int(a["curated"]), a.get("level") or 0, a.get("ctx") or [], (a.get("title_fr") if a["curated"] else a["title"])[:160]]
+    tr = {x["nct"]: (tp, x) for tp, xs in trials.items() for x in xs}
+    ess = {}
+    for k, v in sv["essais"].items():
+        if k in tr and (v["vu"] >= lim or v["statuts"][-1][0] >= lim):
+            tp, x = tr[k]
+            ess[k] = [v["vu"], v["statuts"][-1][0], tp, x.get("ctx"), x["titre"][:160]]
+    return {"since": lim, "a": arts, "e": ess}
+
+
+def write_feeds(topics: list, all_articles: list, sv: dict) -> None:
+    """Flux Atom par thème (flux/<thème>.xml) et toutes thématiques (flux/tout.xml) : 50 dernières arrivées."""
+    from xml.sax.saxutils import escape as x
+    out = ROOT / "flux"; out.mkdir(exist_ok=True)
+    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    labels = {t["id"]: t["label"] for t in topics}
+
+    def entry(a: dict) -> str:
+        k = f"{a['topic']}:{a['pmid']}"
+        seen = max(sv["notices"].get(k, a["date"]), sv["fiches"].get(k, ""))
+        kind = "Fiche rédigée" if a["curated"] else "Nouvelle publication"
+        title = a.get("title_fr") or a["title"]
+        summ = a.get("l1") or ""
+        return (f"<entry><id>{SITE_URL}/#article-{a['pmid']}/{a['topic']}</id><title>{x(title)}</title>"
+                f"<link href=\"{SITE_URL}/#article-{a['pmid']}\"/><updated>{seen}T08:00:00Z</updated>"
+                f"<category term=\"{x(labels.get(a['topic'], a['topic']))}\"/>"
+                f"<summary>{x(kind + ' · ' + labels.get(a['topic'], '') + ' · ' + (a.get('journal_abbr') or '') + ' — ' + summ)}</summary></entry>")
+
+    def feed(name: str, title: str, arts: list) -> None:
+        key = lambda a: max(sv["notices"].get(f"{a['topic']}:{a['pmid']}", a["date"]), sv["fiches"].get(f"{a['topic']}:{a['pmid']}", ""))
+        arts = sorted(arts, key=key, reverse=True)[:50]
+        (out / f"{name}.xml").write_text(
+            f"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<feed xmlns=\"http://www.w3.org/2005/Atom\"><title>{x(title)}</title>"
+            f"<subtitle>Veille photobiomodulation : nouvelles publications et fiches rédigées</subtitle>"
+            f"<link href=\"{SITE_URL}/\"/><link rel=\"self\" href=\"{SITE_URL}/flux/{name}.xml\"/><id>{SITE_URL}/flux/{name}.xml</id>"
+            f"<updated>{now}</updated><author><name>Luminathèque</name></author>" + "".join(entry(a) for a in arts) + "</feed>\n")
+
+    feed("tout", "Luminathèque — tous les thèmes", all_articles)
+    for t in topics:
+        if t.get("status") != "à venir":
+            feed(t["id"], f"Luminathèque — {t['label']}", [a for a in all_articles if a["topic"] == t["id"]])
 
 
 def main() -> None:
@@ -388,10 +470,13 @@ def main() -> None:
         print(f"→ {len(out_dev)} appareils détectés")
     else:
         devices_file = None
+    sv = track_news(all_articles, trials)
+    write_feeds(topics, all_articles, sv)
     order = {"actif": 0, None: 0, "à venir": 1}
     topics.sort(key=lambda x: (order.get(x.get("status"), 0), x["label"]))
     payload = {"generated": dt.date.today().isoformat(), "topics": topics, "syntheses": syntheses, "n_chunks": N_CHUNKS,
-               "trials_file": f"assets/topics/_essais.{h}.js" if trials else None, "devices_file": devices_file,
+               "trials_file": f"assets/topics/_essais.{h}.js" if trials else None, "devices_file": devices_file, "news": recent_news(sv, all_articles, trials),
+               "alerts_api": ALERTS_API,
                "patients": json.loads((ROOT / "data/fiches_patients.json").read_text()) if (ROOT / "data/fiches_patients.json").exists() else []}
     out = ROOT / "assets/data.js"
     out.write_text("window.LUMINA = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n")

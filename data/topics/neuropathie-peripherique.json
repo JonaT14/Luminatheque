@@ -1,5 +1,6 @@
 {
  "id": "neuropathie-peripherique",
+ "code": "np",
  "label": "Neuropathies périphériques",
  "short": "Neuropathies",
  "color": "#2a78d6",

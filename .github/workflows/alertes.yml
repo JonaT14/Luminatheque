@@ -1,0 +1,48 @@
+name: Envoyer les alertes par mail
+# Chaque lundi à 7 h 23 (heure de Paris, en hiver ; 8 h 23 en été), après la veille hebdomadaire.
+# Lancement manuel possible (onglet Actions → « Envoyer les alertes par mail » → Run workflow),
+# avec l'option « essai » pour générer les lettres sans rien envoyer. Voir ALERTES.md.
+on:
+  schedule:
+    - cron: "23 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      essai:
+        description: "Essai : écrire les lettres sans les envoyer"
+        type: boolean
+        default: true
+permissions:
+  contents: read
+concurrency:
+  group: alertes
+  cancel-in-progress: false
+jobs:
+  envoi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3
+      - name: Envoyer
+        if: ${{ github.event_name == 'schedule' || !inputs.essai }}
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          ALERTES_SECRET: ${{ secrets.ALERTES_SECRET }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+        run: |
+          if [ -z "$BREVO_API_KEY" ]; then echo "Secret BREVO_API_KEY absent : rien à envoyer (voir ALERTES.md)."; exit 0; fi
+          python3 alertes/envoi.py
+      - name: Essai (lettres en pièce jointe du run, rien n'est envoyé)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.essai }}
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          ALERTES_SECRET: ${{ secrets.ALERTES_SECRET }}
+        run: python3 alertes/envoi.py --essai lettres --forcer
+      - uses: actions/upload-artifact@v4
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.essai }}
+        with:
+          name: lettres-essai
+          path: lettres
+          if-no-files-found: ignore

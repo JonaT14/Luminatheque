@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Préparer le site
-        run: mkdir _site && cp -r index.html assets pdfs _site/ && touch _site/.nojekyll
+        run: mkdir _site && cp -r index.html assets pdfs flux _site/ && touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

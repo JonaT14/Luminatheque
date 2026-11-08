@@ -1,5 +1,6 @@
 {
  "id": "oncologie-support",
+ "code": "os",
  "label": "Lymphœdème & oncologie de support",
  "short": "Oncologie de support",
  "color": "#d9480f",

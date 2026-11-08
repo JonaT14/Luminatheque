@@ -376,7 +376,7 @@ function chartEffects(list) {
 
 /* ---------------- vues ---------------- */
 const app = () => $("#app");
-const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", essais: "Études en cours", appareils: "Appareils", parametres: "Paramètres", patients: "Fiches patients", methode: "Méthode" };
+const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", essais: "Études en cours", appareils: "Appareils", parametres: "Paramètres", patients: "Fiches patients", alertes: "Alertes par mail", methode: "Méthode" };
 function setNav(id) {
   $$("[data-nav]").forEach((a) => a.setAttribute("aria-current", a.dataset.nav === id ? "page" : "false"));
   const c = $("#crumb"); if (c) c.innerHTML = `${esc(topic().label)} <span aria-hidden="true">/</span> <b>${NAV_LABEL[id] || ""}</b>`;
@@ -994,6 +994,116 @@ function viewMethode() {
   </div>`;
 }
 
+/* ---------------- alertes par mail (abonnement, gestion, aperçu, flux RSS) ---------------- */
+const AL_LEVELS = [[1, "Synthèses d'essais seulement"], [2, "Synthèses et essais randomisés"], [3, "Jusqu'aux essais non randomisés"], [5, "Toutes les publications"]];
+const AL_CONTENT = [["f", "Fiches rédigées", "Les études clés analysées en français, avec le niveau de preuve et le résultat"],
+  ["n", "Toutes les nouvelles publications", "Chaque nouvel article indexé (titre et revue, en anglais), selon le niveau de preuve choisi"],
+  ["e", "Essais cliniques", "Nouveaux essais déclarés et changements de statut (ouverture, clôture des inclusions)"]];
+const alTopics = () => D.topics.filter((t) => !isSoon(t) && t.code);
+function alDefault() { return { topics: {}, content: new Set(["f", "e"]), level: 5, freq: "h", email: "", sent: null, err: "", busy: false, mode: "new", api: null, manage: null, linkSent: false }; }
+function alEncode(a) {
+  const tps = alTopics().filter((t) => a.topics[t.id] !== undefined).map((t) => { const subs = a.topics[t.id]; return t.code + (subs && subs.size && subs.size < (t.subgroups || []).length ? [...subs].map((c) => "." + t.subgroups.indexOf(c)).join("") : ""); });
+  return `1;${a.freq};${a.level};${["f", "n", "e"].filter((c) => a.content.has(c)).join("")};${tps.join(",")}`;
+}
+function alDecode(s, a) {
+  const [, freq, level, content, tps] = (s || "").split(";"); if (!tps) return;
+  a.freq = freq; a.level = +level; a.content = new Set(content.split("")); a.topics = {};
+  tps.split(",").forEach((p) => { const [code, ...idx] = p.split("."); const t = alTopics().find((x) => x.code === code); if (t) a.topics[t.id] = idx.length ? new Set(idx.map((i) => t.subgroups[+i]).filter(Boolean)) : null; });
+}
+async function alApi(path, opts = {}) {
+  const ctl = new AbortController(); const tm = setTimeout(() => ctl.abort(), opts.timeout || 70000);
+  try {
+    const r = await fetch(store.get("alerts_api", D.alerts_api) + path, { method: opts.body ? "POST" : "GET", headers: opts.body ? { "Content-Type": "application/json" } : {}, body: opts.body ? JSON.stringify(opts.body) : undefined, signal: ctl.signal });
+    const j = await r.json().catch(() => ({})); if (!r.ok || j.ok === false) throw new Error(j.erreur || `Erreur ${r.status}`); return j;
+  } finally { clearTimeout(tm); }
+}
+function alPreview(a) {
+  const N = D.news || { a: {}, e: {} }; const out = {}; const want = (tp, ctx) => a.topics[tp] !== undefined && (!a.topics[tp] || !a.topics[tp].size || (ctx || []).some((c) => a.topics[tp].has(c)));
+  for (const [k, [d, cur, lvl, ctx, ti]] of Object.entries(N.a || {})) {
+    const [tp, pmid] = k.split(":"); if (!want(tp, ctx)) continue;
+    if (cur ? a.content.has("f") : a.content.has("n") && (a.level >= 5 || (lvl > 0 && lvl <= a.level))) (out[tp] ||= { f: [], n: [], e: [] })[cur ? "f" : "n"].push({ pmid, d, ti });
+  }
+  if (a.content.has("e")) for (const [id, [vu, ch, tp, ctx, ti]] of Object.entries(N.e || {})) if (want(tp, [ctx])) (out[tp] ||= { f: [], n: [], e: [] }).e.push({ id, d: vu > ch ? vu : ch, ti });
+  return out;
+}
+function alSection(n, title, sub, body) { return `<section class="panel al-step"><div class="al-step-h"><span class="al-num">${n}</span><div><h2>${title}</h2>${sub ? `<p class="muted">${sub}</p>` : ""}</div></div>${body}</section>`; }
+async function viewAlertes(params) {
+  setNav("alertes"); const a = state.alert ||= alDefault();
+  const etat = params.get("etat"), e = params.get("e"), t = params.get("t");
+  if (e && t && (!a.manage || a.manage.e !== e)) {
+    a.manage = { e, t, loading: true }; a.mode = "manage";
+    alApi(`/api/preferences?e=${encodeURIComponent(e)}&t=${encodeURIComponent(t)}`).then((j) => { alDecode(j.prefs, a); a.manage = { e, t, statut: j.statut, last: j.dernier_envoi, since: j.depuis }; rerender(); })
+      .catch((x) => { a.manage = { e, t, error: x.message }; rerender(); });
+  }
+  if (a.api === null) { a.api = "?"; alApi("/api/sante", { timeout: 65000 }).then((j) => { a.api = j.brevo ? "ok" : "dev"; rerender(); }).catch(() => { a.api = "ko"; rerender(); }); }
+  const tps = alTopics(); const nT = Object.keys(a.topics).length;
+  const msg = { confirme: ["ok", "Votre inscription est confirmée. Votre première lettre arrivera lundi prochain s'il y a du nouveau dans vos thèmes."], desinscrit: ["ok", "Vous êtes désabonné et votre adresse a été effacée. À bientôt peut-être !"],
+    "lien-invalide": ["warn", "Ce lien n'est pas valide. Demandez un nouveau lien personnel ci-dessous."], inconnu: ["warn", "Cette adresse n'a pas (ou plus) d'abonnement."] }[etat];
+  const prev = alPreview(a); const pv = Object.entries(prev).sort((x, y) => topicShort(x[0]).localeCompare(topicShort(y[0])));
+  const cnt = (k) => pv.reduce((s, [, v]) => s + v[k].length, 0);
+  const apiNote = a.api === "ko" ? `<div class="al-banner warn">Le service d'envoi des alertes n'est pas joignable pour le moment. Réessayez plus tard, ou abonnez-vous dès maintenant aux <a href="#al-rss">flux RSS</a>.</div>` : a.api === "?" ? `<div class="al-banner">Connexion au service d'alertes… (le premier accès peut prendre jusqu'à une minute)</div>` : a.api === "dev" ? `<div class="al-banner warn">Service en mode test : les mails ne sont pas encore envoyés (clé Brevo à configurer).</div>` : "";
+  const manage = a.mode === "manage" && a.manage;
+  app().innerHTML = `<div class="view al">
+    <div style="display:grid;gap:12px"><span class="eyebrow">Alertes par mail${manage ? " · votre abonnement" : ""}</span><h1>${manage ? "Gérer mes alertes" : "Recevez les nouveautés qui vous concernent"}</h1>
+      <p class="lead" style="max-width:72ch">${manage ? `Abonnement de <b>${esc(a.manage.e)}</b>${a.manage.since ? `, depuis le ${fmtDate(a.manage.since)}` : ""}${a.manage.last ? ` · dernière lettre le ${fmtDate(a.manage.last)}` : ""}. Modifiez vos choix puis enregistrez.` : "Choisissez vos thèmes et sous-thèmes : chaque lundi, une lettre personnalisée rassemble les nouvelles fiches, les publications et les essais cliniques qui vous intéressent, et rien d'autre. Pas de compte ni de mot de passe : chaque lettre contient votre lien personnel pour modifier vos choix ou vous désabonner."}</p></div>
+    ${msg ? `<div class="al-banner ${msg[0]}">${msg[1]}</div>` : ""}${apiNote}
+    ${manage && a.manage.loading ? `<div class="empty">Chargement de vos préférences…</div>` : manage && a.manage.error ? `<div class="al-banner warn">${esc(a.manage.error)}</div>` : ""}
+    <div class="al-grid"><div class="al-form">
+      ${alSection(1, "Thèmes", "Cochez un thème pour le suivre en entier, ou affinez par sous-thème.", `<div class="al-topics">${tps.map((tp) => { const on = a.topics[tp.id] !== undefined; const subs = a.topics[tp.id];
+        return `<div class="al-topic" data-on="${on}" style="--tc:${tp.color || "var(--accent)"}"><button class="al-tbtn" data-al-topic="${tp.id}" aria-pressed="${on}"><span class="al-check"></span><span><b>${esc(tp.label)}</b><small>${tp.n.toLocaleString("fr-FR")} publications · ${tp.n_curated} fiches</small></span></button>
+          ${on && tp.subgroups?.length ? `<div class="al-subs"><button class="chip" data-al-sub="${tp.id}" data-c="" aria-pressed="${!subs || !subs.size}">Tout le thème</button>${tp.subgroups.map((c) => `<button class="chip" data-al-sub="${tp.id}" data-c="${esc(c)}" aria-pressed="${!!subs?.has(c)}">${esc(CTX[c] || c)}</button>`).join("")}</div>` : ""}</div>`; }).join("")}</div>`)}
+      ${alSection(2, "Contenu", "", `<div class="al-opts">${AL_CONTENT.map(([k, l, d]) => `<button class="al-opt" data-al-content="${k}" aria-pressed="${a.content.has(k)}"><span class="al-check"></span><span><b>${l}</b><small>${d}</small></span></button>`).join("")}</div>
+        ${a.content.has("n") ? `<div class="al-row"><span class="muted">Niveau de preuve des publications</span><div class="seg">${AL_LEVELS.map(([v, l]) => `<button data-al-level="${v}" aria-pressed="${a.level === v}">${l}</button>`).join("")}</div></div>` : ""}`)}
+      ${alSection(3, "Fréquence", "", `<div class="seg">${[["h", "Chaque lundi"], ["m", "Une fois par mois"]].map(([v, l]) => `<button data-al-freq="${v}" aria-pressed="${a.freq === v}">${l}</button>`).join("")}</div>`)}
+      ${manage ? `<section class="panel al-step"><div class="al-actions"><button class="btn primary" data-al-save ${!nT || !a.content.size || a.busy ? "disabled" : ""}>${a.busy ? "Enregistrement…" : "Enregistrer mes choix"}</button><button class="btn" data-al-unsub>Me désabonner</button>${a.sent ? `<span class="al-ok">${esc(a.sent)}</span>` : ""}${a.err ? `<span class="al-err">${esc(a.err)}</span>` : ""}</div></section>`
+      : alSection(4, "Votre adresse", "", `<form class="al-mail" onsubmit="return false"><input id="al-email" type="email" autocomplete="email" placeholder="prenom.nom@exemple.fr" value="${esc(a.email)}" aria-label="Adresse mail" required>
+          <input id="al-site" name="site" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" value="">
+          <button class="btn primary" data-al-submit ${!nT || !a.content.size || a.busy ? "disabled" : ""}>${a.busy ? "Envoi…" : "Recevoir les alertes"}</button></form>
+          <label class="al-consent"><input type="checkbox" id="al-consent" ${a.consent ? "checked" : ""}> J'accepte de recevoir ces alertes. Mon adresse sert uniquement à leur envoi, chez le routeur français Brevo ; elle est effacée dès la désinscription (un lien en bas de chaque lettre).</label>
+          ${a.sent ? `<div class="al-banner ok">${esc(a.sent)}</div>` : ""}${a.err ? `<div class="al-banner warn">${esc(a.err)}</div>` : ""}
+          ${!nT ? `<p class="muted" style="font-size:.82rem">Choisissez au moins un thème.</p>` : ""}`)}
+    </div>
+    <aside class="al-side">
+      <section class="panel al-prev"><span class="eyebrow">Aperçu</span><h2>Ce que vous auriez reçu ces ${Math.round((Date.now() - Date.parse(D.news?.since || D.generated)) / 6048e5)} dernières semaines</h2>
+        ${nT ? `<div class="al-kpis"><div><b>${cnt("f")}</b><span>fiches</span></div><div><b>${cnt("n")}</b><span>publications</span></div><div><b>${cnt("e")}</b><span>essais</span></div></div>
+          ${pv.length ? pv.map(([tp, v]) => `<div class="al-pt"><b>${esc(topicShort(tp))}</b>${[...v.f.slice(0, 3).map((x) => `<a href="#article-${x.pmid}">${esc(x.ti)}</a>`), ...v.e.slice(0, 2).map((x) => `<span>${esc(x.ti)} <em>· essai</em></span>`), ...(v.f.length < 2 ? v.n.slice(0, 2).map((x) => `<a href="#article-${x.pmid}" lang="en">${esc(x.ti)}</a>`) : [])].join("")}${v.f.length + v.n.length + v.e.length > 5 ? `<small class="muted">et ${v.f.length + v.n.length + v.e.length - Math.min(3, v.f.length) - Math.min(2, v.e.length) - (v.f.length < 2 ? Math.min(2, v.n.length) : 0)} autre(s)</small>` : ""}</div>`).join("") : `<p class="muted">Rien de neuf dans ces thèmes sur la période : vous n'auriez reçu aucune lettre (on n'envoie jamais de lettre vide).</p>`}` : `<p class="muted">Choisissez un thème pour voir un aperçu.</p>`}
+      </section>
+      ${manage ? "" : `<section class="panel"><h3>Déjà inscrit ?</h3><p class="muted" style="font-size:.85rem;margin:6px 0 10px">Recevez à nouveau votre lien personnel pour modifier vos alertes.</p>
+        <div class="al-mail"><input id="al-email2" type="email" placeholder="Votre adresse" aria-label="Adresse mail de l'abonnement"><button class="btn" data-al-link>Recevoir mon lien</button></div>${a.linkSent ? `<p class="al-ok" style="margin-top:8px">Si un abonnement existe pour cette adresse, le lien vient d'être envoyé.</p>` : ""}</section>`}
+      <section class="panel" id="al-rss"><h3>Sans inscription : flux RSS</h3><p class="muted" style="font-size:.85rem;margin:6px 0 10px">À ajouter dans un lecteur de flux (Feedly, Inoreader, Thunderbird, Outlook…) : les 50 dernières arrivées, sans adresse mail.</p>
+        <ul class="al-feeds"><li><a href="flux/tout.xml">Tous les thèmes</a></li>${tps.map((tp) => `<li><a href="flux/${tp.id}.xml">${esc(tp.label)}</a></li>`).join("")}</ul></section>
+    </aside></div>
+  </div>`;
+}
+
+async function alClick(t) {
+  const d = t.dataset, a = state.alert; if (!a) return false;
+  if (d.alTopic) { const id = d.alTopic; if (a.topics[id] !== undefined) delete a.topics[id]; else a.topics[id] = null; a.sent = a.err = ""; }
+  else if ("alSub" in d) { const id = d.alSub, c = d.c; if (!c) a.topics[id] = null; else { const s = a.topics[id] || new Set(); s.has(c) ? s.delete(c) : s.add(c); a.topics[id] = s.size ? s : null; } }
+  else if (d.alContent) { a.content.has(d.alContent) ? a.content.delete(d.alContent) : a.content.add(d.alContent); }
+  else if (d.alLevel) a.level = +d.alLevel;
+  else if (d.alFreq) a.freq = d.alFreq;
+  else if ("alSubmit" in d) {
+    a.email = $("#al-email")?.value.trim() || ""; a.consent = $("#al-consent")?.checked; a.sent = a.err = "";
+    if (!/^[^@\s]+@[^@\s]+\.[a-z]{2,}$/i.test(a.email)) a.err = "Adresse mail invalide.";
+    else if (!a.consent) a.err = "Merci de cocher la case d'accord pour recevoir les alertes.";
+    else { a.busy = true; rerender();
+      try { const j = await alApi("/api/inscription", { body: { email: a.email, prefs: alEncode(a), consentement: true, site: $("#al-site")?.value || "" } });
+        a.sent = j.etat === "deja" ? "Cette adresse est déjà abonnée : nous venons de vous envoyer votre lien personnel pour modifier vos alertes." : `Presque fini ! Un mail de confirmation vient d'être envoyé à ${a.email}. Cliquez sur le lien qu'il contient pour activer vos alertes (pensez à vérifier les indésirables).`;
+      } catch (x) { a.err = x.name === "AbortError" ? "Le service ne répond pas. Réessayez dans une minute." : x.message; }
+      a.busy = false; }
+  }
+  else if ("alSave" in d) { a.busy = true; a.sent = a.err = ""; rerender();
+    try { await alApi("/api/preferences", { body: { e: a.manage.e, t: a.manage.t, prefs: alEncode(a) } }); a.sent = "Vos choix sont enregistrés."; } catch (x) { a.err = x.message; }
+    a.busy = false; }
+  else if ("alUnsub" in d) { if (!confirm("Se désabonner et effacer votre adresse ?")) return true;
+    try { await alApi("/api/desinscription", { body: { e: a.manage.e, t: a.manage.t } }); state.alert = alDefault(); state.alert.api = a.api; location.hash = "alertes?etat=desinscrit"; return true; } catch (x) { a.err = x.message; } }
+  else if ("alLink" in d) { const em = $("#al-email2")?.value.trim(); if (!em) return true;
+    try { await alApi("/api/lien", { body: { email: em } }); a.linkSent = true; } catch (x) { a.err = x.message; } }
+  else return false;
+  rerender(); return true;
+}
+
 /* ---------------- routage & événements ---------------- */
 async function route() {
   const h = decodeURIComponent(location.hash.slice(1));
@@ -1011,6 +1121,7 @@ async function route() {
   if (h === "appareils") return viewDevices();
   if (h.startsWith("patient-")) return viewPatient(h.slice(8));
   if (h === "patients") return viewPatientsList();
+  if (h === "alertes" || h.startsWith("alertes?")) return viewAlertes(new URLSearchParams(h.split("?")[1] || ""));
   if (isSoon() && h !== "methode") return viewSoon(NAV_LABEL[h] ? h : "accueil");
   await ({ publications: viewPubs, syntheses: viewSyntheses, essais: viewEssais, parametres: viewParams, comparer: viewCompare, methode: viewMethode }[h] || viewHome)();
   if (!h.startsWith("article-")) $("#selbar")?.toggleAttribute("hidden", !state.selected.size || h === "comparer");
@@ -1025,6 +1136,7 @@ addEventListener("hashchange", () => { route(); updateSelbar(); if (!location.ha
 document.addEventListener("click", async (e) => {
   const t = e.target.closest("button, [data-sel]"); if (!t) return;
   const d = t.dataset;
+  if (Object.keys(d).some((k) => k.startsWith("al"))) { e.preventDefault(); await alClick(t); return; }
   if (d.topic) { setTopic(d.topic); return; }
   if (d.sub) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : ""); state.f.ctx.add(d.sub); state.filtersOpen = true; location.hash = "publications"; return; }
   if ("morelist" in d) { state.limit += 120; rerender(); return; }
@@ -1078,6 +1190,7 @@ document.addEventListener("change", (e) => {
   const t = e.target;
   if (t.dataset.sel) { t.checked ? state.selected.add(t.dataset.sel) : state.selected.delete(t.dataset.sel); updateSelbar(); }
   else if (t.id === "essreg") { state.essReg = t.value; rerender(); }
+  else if (t.id === "al-consent" && state.alert) state.alert.consent = t.checked;
   else if (t.id === "f-from" || t.id === "f-to") { state.f[t.id === "f-from" ? "from" : "to"] = t.value; rerender(); }
   else if (t.id === "f-week" && t.value) { const [a, b] = weekRange(t.value, t.value); state.f.from = a; state.f.to = b; state.sort = "date"; rerender(); }
   else if (t.id === "f-pdf" || t.id === "f-key") { state.f[t.id.slice(2)] = t.checked; rerender(); }
@@ -1089,6 +1202,7 @@ document.addEventListener("change", (e) => {
 });
 let qTimer;
 let essT; document.addEventListener("input", (e) => {
+  if (e.target.id === "al-email" && state.alert) { state.alert.email = e.target.value; return; }
   if (e.target.id !== "essq" && e.target.id !== "devq") return; clearTimeout(essT); const id = e.target.id;
   essT = setTimeout(async () => { state[id === "essq" ? "essQ" : "devQ"] = e.target.value; const pos = e.target.selectionStart; await rerender(); const i = $("#" + id); if (i) { i.focus(); i.setSelectionRange(pos, pos); } }, 220);
 });
