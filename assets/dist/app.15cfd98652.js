@@ -1036,13 +1036,13 @@ async function viewAlertes(params) {
     alApi(`/api/preferences?e=${encodeURIComponent(e)}&t=${encodeURIComponent(t)}`).then((j) => { alDecode(j.prefs, a); a.manage = { e, t, statut: j.statut, last: j.dernier_envoi, since: j.depuis }; rerender(); })
       .catch((x) => { a.manage = { e, t, error: x.message }; rerender(); });
   }
-  if (a.api === null) { a.api = "?"; alApi("/api/sante", { timeout: 65000 }).then((j) => { a.api = j.brevo ? "ok" : "dev"; rerender(); }).catch(() => { a.api = "ko"; rerender(); }); }
+  if (a.api === null) { a.api = "?"; alApi("/api/sante", { timeout: 65000 }).then((j) => { a.api = j.brevo ? "ok" : j.mode === "off" ? "off" : "dev"; rerender(); }).catch(() => { a.api = "ko"; rerender(); }); }
   const tps = alTopics(); const nT = Object.keys(a.topics).length;
   const msg = { confirme: ["ok", "Votre inscription est confirmée. Votre première lettre arrivera lundi prochain s'il y a du nouveau dans vos thèmes."], desinscrit: ["ok", "Vous êtes désabonné et votre adresse a été effacée. À bientôt peut-être !"],
     "lien-invalide": ["warn", "Ce lien n'est pas valide. Demandez un nouveau lien personnel ci-dessous."], inconnu: ["warn", "Cette adresse n'a pas (ou plus) d'abonnement."] }[etat];
   const prev = alPreview(a); const pv = Object.entries(prev).sort((x, y) => topicShort(x[0]).localeCompare(topicShort(y[0])));
   const cnt = (k) => pv.reduce((s, [, v]) => s + v[k].length, 0);
-  const apiNote = a.api === "ko" ? `<div class="al-banner warn">Le service d'envoi des alertes n'est pas joignable pour le moment. Réessayez plus tard, ou abonnez-vous dès maintenant aux <a href="#al-rss">flux RSS</a>.</div>` : a.api === "?" ? `<div class="al-banner">Connexion au service d'alertes… (le premier accès peut prendre jusqu'à une minute)</div>` : a.api === "dev" ? `<div class="al-banner warn">Service en mode test : les mails ne sont pas encore envoyés (clé Brevo à configurer).</div>` : "";
+  const apiNote = a.api === "ko" ? `<div class="al-banner warn">Le service d'envoi des alertes n'est pas joignable pour le moment. Réessayez plus tard, ou abonnez-vous dès maintenant aux <a href="#al-rss">flux RSS</a>.</div>` : a.api === "?" ? `<div class="al-banner">Connexion au service d'alertes… (le premier accès peut prendre jusqu'à une minute)</div>` : a.api === "dev" ? `<div class="al-banner warn">Service en mode test : les mails sont écrits dans des fichiers locaux, pas envoyés.</div>` : a.api === "off" ? `<div class="al-banner">Les alertes par mail ouvrent très bientôt. Vous pouvez déjà préparer vos choix et voir l'aperçu ; en attendant, abonnez-vous aux <a href="#al-rss">flux RSS</a>.</div>` : "";
   const manage = a.mode === "manage" && a.manage;
   app().innerHTML = `<div class="view al">
     <div style="display:grid;gap:12px"><span class="eyebrow">Alertes par mail${manage ? " · votre abonnement" : ""}</span><h1>${manage ? "Gérer mes alertes" : "Recevez les nouveautés qui vous concernent"}</h1>
@@ -1059,7 +1059,7 @@ async function viewAlertes(params) {
       ${manage ? `<section class="panel al-step"><div class="al-actions"><button class="btn primary" data-al-save ${!nT || !a.content.size || a.busy ? "disabled" : ""}>${a.busy ? "Enregistrement…" : "Enregistrer mes choix"}</button><button class="btn" data-al-unsub>Me désabonner</button>${a.sent ? `<span class="al-ok">${esc(a.sent)}</span>` : ""}${a.err ? `<span class="al-err">${esc(a.err)}</span>` : ""}</div></section>`
       : alSection(4, "Votre adresse", "", `<form class="al-mail" onsubmit="return false"><input id="al-email" type="email" autocomplete="email" placeholder="prenom.nom@exemple.fr" value="${esc(a.email)}" aria-label="Adresse mail" required>
           <input id="al-site" name="site" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" value="">
-          <button class="btn primary" data-al-submit ${!nT || !a.content.size || a.busy ? "disabled" : ""}>${a.busy ? "Envoi…" : "Recevoir les alertes"}</button></form>
+          <button class="btn primary" data-al-submit ${!nT || !a.content.size || a.busy || a.api === "off" ? "disabled" : ""}>${a.busy ? "Envoi…" : "Recevoir les alertes"}</button></form>
           <label class="al-consent"><input type="checkbox" id="al-consent" ${a.consent ? "checked" : ""}> J'accepte de recevoir ces alertes. Mon adresse sert uniquement à leur envoi, chez le routeur français Brevo ; elle est effacée dès la désinscription (un lien en bas de chaque lettre).</label>
           ${a.sent ? `<div class="al-banner ok">${esc(a.sent)}</div>` : ""}${a.err ? `<div class="al-banner warn">${esc(a.err)}</div>` : ""}
           ${!nT ? `<p class="muted" style="font-size:.82rem">Choisissez au moins un thème.</p>` : ""}`)}

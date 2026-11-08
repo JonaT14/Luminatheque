@@ -82,9 +82,22 @@ def manage_mail(email: str, already: bool = False) -> None:
            f"Gérer vos alertes Luminathèque : {url}")
 
 
+def mode() -> str:
+    """« brevo » : envoi réel ; « dev » : test local (fichiers) ; « off » : en ligne mais clé Brevo non configurée."""
+    if os.environ.get("BREVO_API_KEY"):
+        return "brevo"
+    return "dev" if os.environ.get("ALERTES_DEV") or "localhost" in C.SITE_URL or "127.0.0.1" in C.SITE_URL else "off"
+
+
+@app.before_request
+def ferme():
+    if request.method == "POST" and request.path in ("/api/inscription", "/api/lien") and mode() == "off":
+        return err("Les alertes par mail ouvrent bientôt : l'envoi n'est pas encore activé. En attendant, les flux RSS sont disponibles.", 503)
+
+
 @app.get("/api/sante")
 def sante():
-    return jsonify({"ok": True, "brevo": bool(os.environ.get("BREVO_API_KEY")), "heure": dt.datetime.now().isoformat(timespec="seconds")})
+    return jsonify({"ok": True, "brevo": mode() == "brevo", "mode": mode(), "heure": dt.datetime.now().isoformat(timespec="seconds")})
 
 
 @app.post("/api/inscription")
