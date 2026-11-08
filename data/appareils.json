@@ -493,14 +493,15 @@
  },
  {
   "id": "milta",
-  "nom": "MILTA",
+  "nom": "MILTA (Physioquanta)",
   "kind": "marque",
   "icon": "sonde",
-  "fabricant": "—",
-  "description": "Sonde associant lasers, LED et champ magnétique, utilisée notamment en gynécologie en France.",
-  "lumiere": "multi-longueurs d'onde",
+  "fabricant": "Physioquanta (France)",
+  "description": "Procédé associant laser froid nano-pulsé, diodes infrarouges et LED rouge, verte et bleue. La sonde vaginale MILTA Gyneco a été évaluée au CHU de Nîmes chez des femmes ménopausées (syndrome génito-urinaire) ; d'autres sondes et pièces à main existent pour la douleur et la cicatrisation.",
+  "lumiere": "laser nano-pulsé + infrarouge + LED RVB",
   "usage": "cabinet",
-  "rx": "\\bmilta\\b"
+  "rx": "\\bmilta\\b|physioquanta",
+  "categorie": "vaginal"
  },
  {
   "id": "intimleds",
@@ -511,7 +512,8 @@
   "description": "Sonde vaginale à LED étudiée contre la toxicité vaginale de la radiothérapie.",
   "lumiere": "rouge et proche infrarouge",
   "usage": "cabinet",
-  "rx": "intimleds"
+  "rx": "intimleds",
+  "categorie": "vaginal"
  },
  {
   "id": "sola",
@@ -522,7 +524,8 @@
   "description": "Sonde vaginale de PBM pour la douleur pelvienne chronique.",
   "lumiere": "proche infrarouge",
   "usage": "cabinet",
-  "rx": "sol[aá] pelvic"
+  "rx": "sol[aá] pelvic",
+  "categorie": "vaginal"
  },
  {
   "id": "bcure",
@@ -589,5 +592,53 @@
   "lumiere": "proche infrarouge",
   "usage": "domicile",
   "rx": "cognilum"
+ },
+ {
+  "id": "atp38",
+  "nom": "ATP38",
+  "kind": "marque",
+  "icon": "led",
+  "fabricant": "Swiss Bio Innov · Stema Care (Suisse)",
+  "categorie": "led",
+  "description": "Système de photothérapie LED sur pied à panneaux orientables, conçu en Suisse, utilisé en médecine du sport, en oncologie de support (radiodermite, mucite), en dermatologie et en esthétique. Distribué notamment par Biotech Dental.",
+  "lumiere": "LED, plusieurs longueurs d'onde du bleu au proche infrarouge",
+  "usage": "cabinet",
+  "rx": "\\batp ?38\\b|stema care"
+ },
+ {
+  "id": "bodyboost",
+  "nom": "Body Boost Bed",
+  "kind": "marque",
+  "icon": "corps",
+  "fabricant": "Beam Supreme (Royaume-Uni)",
+  "categorie": "corps",
+  "description": "Lit de photobiomodulation corps entier destiné aux cabinets, spas et centres esthétiques : environ 6 750 LED bleues, rouges et proche infrarouge, séances d'environ 25 minutes.",
+  "lumiere": "LED bleu, rouge et proche infrarouge",
+  "usage": "cabinet",
+  "rx": "body ?boost bed|beam supreme"
+ },
+ {
+  "id": "novothor",
+  "nom": "NovoTHOR",
+  "kind": "marque",
+  "icon": "corps",
+  "fabricant": "THOR Photomedicine (Royaume-Uni)",
+  "categorie": "corps",
+  "description": "Cabine corps entier à LED rouges et proche infrarouge, étudiée dans la fibromyalgie, la récupération sportive et le sommeil (études pilotes et essai contre sham en cours).",
+  "lumiere": "LED 660 + 850 nm",
+  "usage": "cabinet",
+  "rx": "novo ?thor"
+ },
+ {
+  "id": "arrc",
+  "nom": "ARRC LED Bed",
+  "kind": "marque",
+  "icon": "corps",
+  "fabricant": "ARRC (États-Unis)",
+  "categorie": "corps",
+  "description": "Lit LED corps entier de forte puissance, comparé au NovoTHOR et à un sham dans un essai randomisé américain.",
+  "lumiere": "LED rouge et proche infrarouge",
+  "usage": "cabinet",
+  "rx": "\\barrc\\b"
  }
 ]

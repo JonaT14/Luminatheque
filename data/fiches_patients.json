@@ -523,8 +523,8 @@
  },
  {
   "id": "secheresse-vaginale",
-  "titre": "Améliorer la sécheresse vaginale de la ménopause",
-  "sous_titre": "Le syndrome génito-urinaire de la ménopause",
+  "titre": "Soulager la sécheresse vaginale",
+  "sous_titre": "Sécheresse vaginale et syndrome génito-urinaire, à la ménopause comme après un cancer",
   "topic": "gynecologie",
   "ctx": [
    "GSM",
@@ -536,15 +536,15 @@
   "messages": [
    [
     "goutte",
-    "Sécheresse, brûlures, douleurs aux rapports, fuites urinaires après la ménopause."
+    "Sécheresse, brûlures, douleurs aux rapports, envies d'uriner ou fuites : à la ménopause, mais aussi après un cancer (sein, gynécologique), une hormonothérapie, une chimiothérapie, une radiothérapie pelvienne ou l'ablation des ovaires."
    ],
    [
     "lumiere",
-    "Une petite sonde lumineuse douce est utilisée au cabinet."
+    "Une petite sonde lumineuse douce, placée dans le vagin ou sur la vulve, est utilisée au cabinet."
    ],
    [
     "loupe",
-    "Premiers essais contre placebo positifs ; intéressant notamment quand les hormones sont déconseillées."
+    "Premiers essais positifs, y compris chez des femmes traitées pour un cancer ; une option sans hormones, utile quand elles sont déconseillées."
    ]
   ],
   "seance": {
@@ -558,11 +558,11 @@
    "semaines": 8,
    "texte": "Environ 8 séances, souvent une par semaine."
   },
-  "attentes": "L'amélioration apparaît au fil des séances ; les études mesurent un retour de l'hydratation et de la souplesse des tissus.",
+  "attentes": "L'amélioration apparaît au fil des séances : les études mesurent un retour de l'hydratation, de la souplesse et du confort des tissus, et moins de douleurs pendant les rapports.",
   "securite": [
-   "Ce n'est pas un laser qui brûle ou abîme les tissus (contrairement aux lasers CO2).",
-   "Utile après un cancer du sein, en accord avec votre oncologue.",
-   "Signalez toute infection en cours."
+   "Ce n'est pas un laser qui brûle ou abîme les tissus (contrairement aux lasers CO2 ou erbium).",
+   "Sans hormones : possible après un cancer du sein ou de l'endomètre, en accord avec votre oncologue.",
+   "Signalez toute infection, saignement inexpliqué ou plaie en cours."
   ],
   "faq": [
    [
@@ -570,13 +570,18 @@
     "Non, la séance est généralement bien tolérée."
    ],
    [
+    "Je ne suis pas ménopausée, est-ce pour moi ?",
+    "Oui si la sécheresse vient d'un traitement (hormonothérapie, chimiothérapie, radiothérapie, ablation des ovaires) ou d'une autre cause : parlez-en à votre soignant."
+   ],
+   [
     "Combien de temps dure l'effet ?",
-    "Les études ont surtout un recul de quelques mois."
+    "Les études ont surtout un recul de quelques mois ; des séances d'entretien peuvent être proposées."
    ]
   ],
   "sources": [
    "42329990",
-   "42228167"
+   "42228167",
+   "37183056"
   ]
  },
  {

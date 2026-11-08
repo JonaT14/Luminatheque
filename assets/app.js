@@ -763,6 +763,8 @@ async function viewDevices(sel) {
     detail = `<section class="panel dev-detail" id="dev-detail">
       <div class="panel-head"><div style="display:flex;gap:14px;align-items:center">${devIcon(d.icon, 34)}<div style="display:grid;gap:4px"><span class="eyebrow">${d.kind === "marque" ? esc(d.fabricant || "Marque") : "Type d'appareil"}</span><h2>${esc(d.nom)}</h2></div></div><a class="btn small" href="#appareils">Fermer</a></div>
       <p class="lead" style="max-width:75ch;font-size:1rem">${esc(d.description)}</p>
+      ${d.kind === "marque" && d.categorie ? `<p style="margin:-4px 0 12px">Catégorie : <a href="#appareil-${d.categorie}">${esc(devs.find((x) => x.id === d.categorie)?.nom || d.categorie)}</a></p>` : ""}
+      ${d.kind === "type" && devs.some((x) => x.categorie === d.id) ? `<div style="margin:-4px 0 14px"><span class="eyebrow">Appareils de cette catégorie</span><div class="chips" style="margin-top:8px">${devs.filter((x) => x.categorie === d.id).map((x) => `<a class="chip" href="#appareil-${x.id}" style="text-decoration:none">${esc(x.nom)}${x.n ? `<span class="n">${x.n}</span>` : ""}</a>`).join("")}</div></div>` : ""}
       <div class="dev-facts"><span><b>Lumière</b>${esc(d.lumiere)}</span><span><b>Usage</b>${USAGE[d.usage] || "—"}</span><span><b>Études citant l'appareil</b>${d.n}</span><span><b>Fiches rédigées</b>${d.nc}</span><span><b>Essais en cours</b>${d.trials.length}</span></div>
       <div class="grid-2" style="align-items:start">
         <div><h3 style="margin-bottom:10px">Par thème</h3><div class="bars-h">${Object.entries(d.topics).sort((a, b) => b[1] - a[1]).map(([t, v]) => `<div class="row"><span>${esc(topicShort(t))}</span><span class="track"><i style="width:${(100 * v / maxT).toFixed(1)}%"></i></span><b class="mono">${v}</b></div>`).join("")}</div></div>
@@ -785,6 +787,7 @@ async function viewDevices(sel) {
     <div class="dev-grid">${list.map((x) => `<a class="card dev-card" href="#appareil-${x.id}" aria-current="${x.id === sel}">
       <div class="card-top"><div style="display:flex;gap:10px;align-items:center">${devIcon(x.icon)}<div><h3>${esc(x.nom)}</h3>${x.fabricant ? `<span class="src">${esc(x.fabricant)}</span>` : ""}</div></div><span class="badge">${USAGE[x.usage] || ""}</span></div>
       <p class="src" style="margin:0">${esc(x.lumiere)}</p>
+      ${x.kind === "marque" && x.categorie ? `<span class="badge" style="justify-self:start">${esc(devs.find((y) => y.id === x.categorie)?.nom || "")}</span>` : ""}
       <div class="dev-stats"><span><b>${x.n}</b> études</span><span><b>${x.nc}</b> fiches</span>${x.trials.length ? `<span><b>${x.trials.length}</b> essais en cours</span>` : ""}</div>
       ${effBar(x.studies)}
       <div class="badges">${Object.entries(x.topics).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([t]) => `<span class="badge">${esc(topicShort(t))}</span>`).join("")}</div></a>`).join("") || '<div class="empty">Aucun appareil pour ce filtre.</div>'}</div>

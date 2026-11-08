@@ -464,7 +464,7 @@ def main() -> None:
         out_dev = []
         for d in devices:
             hs = sorted(hits[d["id"]], key=lambda h: (-h["c"], -h["y"]))
-            if not hs and not trial_hits[d["id"]]:
+            if not hs and not trial_hits[d["id"]] and not d.get("categorie"):
                 continue
             keep = hs if d["kind"] == "marque" else [h for h in hs if h["c"]][:400]
             out_dev.append({k: v for k, v in d.items() if k != "rx"} | {
