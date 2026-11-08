@@ -1,0 +1,45 @@
+{
+ "pmid": "42724412",
+ "theme": "neurologie",
+ "genere": "2026-11-08",
+ "par": "Claude",
+ "pertinent": true,
+ "raison_exclusion": "",
+ "a_verifier": [
+  "Indiquer si possible les longueurs d'onde et protocoles des deux essais inclus (absents du résumé)."
+ ],
+ "texte_integral": false,
+ "fiche": {
+  "pmid": "42724412",
+  "title_fr": "Laser-acupuncture chez l'enfant autiste : revue systématique",
+  "type": "sr",
+  "level": 1,
+  "pop": "pédiatrie",
+  "ctx": [
+   "neurodev"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": 76,
+  "effect": "mitigé",
+  "theme": "Autisme",
+  "l1": "Seuls deux essais randomisés (76 enfants) existent : ils suggèrent un bénéfice de la laser-acupuncture sur les symptômes de l'autisme, avec un niveau de preuve faible à très faible.",
+  "l2": "Revue systématique (enregistrée sur PROSPERO) des essais randomisés de laser-acupuncture chez l'enfant avec trouble du spectre de l'autisme, avec une recherche dans neuf bases occidentales et asiatiques jusqu'en novembre 2024.\n\nDeux essais (76 enfants) ont été retenus ; leur hétérogénéité empêche la méta-analyse. Les enfants traités s'améliorent davantage que ceux sans traitement, sans effet indésirable rapporté, mais la qualité des preuves est jugée faible à très faible (GRADE).",
+  "l3": {
+   "points": [
+    "Recherche large, dont bases chinoises et japonaises.",
+    "Évaluation GRADE.",
+    "Aucun effet indésirable signalé."
+   ],
+   "limites": [
+    "Deux essais seulement, pas de méta-analyse.",
+    "Comparateur « sans traitement », pas de placebo.",
+    "Paramètres laser non détaillés dans le résumé."
+   ],
+   "pratique": "Piste non invasive à explorer dans des essais contrôlés plus grands ; pas de recommandation possible à ce stade."
+  }
+ }
+}

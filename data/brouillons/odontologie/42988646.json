@@ -1,0 +1,49 @@
+{
+ "pmid": "42988646",
+ "theme": "odontologie",
+ "genere": "2026-11-08",
+ "par": "Claude",
+ "pertinent": true,
+ "raison_exclusion": "",
+ "a_verifier": [
+  "Âge des patients (13 à 24 ans) : le titre parle d'adolescents, la population est en partie adulte.",
+  "Sens exact de la résorption plus marquée sur deux dents (12 et 21) dans le groupe laser."
+ ],
+ "texte_integral": false,
+ "fiche": {
+  "pmid": "42988646",
+  "title_fr": "Laser basse énergie 980 nm contre sham : résorption radiculaire et douleur sous appareil orthodontique fixe",
+  "type": "rct",
+  "level": 2,
+  "pop": "mixte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   980
+  ],
+  "n": 40,
+  "effect": "mitigé",
+  "theme": "Douleur orthodontique",
+  "l1": "Le laser 980 nm (8 J/cm²) ne limite pas la résorption radiculaire et n'accélère pas l'alignement, mais réduit nettement la douleur des premiers jours (p < 0,001).",
+  "l2": "Essai randomisé en double aveugle contre laser factice, monocentrique, chez 40 patients de 13 à 24 ans traités par appareil fixe. Laser diode 980 nm, 100 mW, 8 J/cm², 8 s par dent sur les incisives maxillaires, à J0, J3, J7, J14 puis chaque mois pendant 12 mois.\n\nLa résorption radiculaire (radiographies rétro-alvéolaires à 6 et 12 mois) progresse dans les deux groupes sans différence, sauf sur deux dents où elle est plus marquée sous laser. La douleur (EVA) est plus faible sous laser pendant la première semaine de nivellement et de rétraction. La durée de nivellement ne change pas (124 contre 126 jours).",
+  "l3": {
+   "points": [
+    "Randomisation par blocs 1:1, double aveugle.",
+    "Protocole long : séances répétées sur 12 mois.",
+    "Effet antalgique net sur les 7 premiers jours, sauf à J5–J6.",
+    "Pas de gain sur la vitesse de déplacement."
+   ],
+   "limites": [
+    "Petit effectif, centre unique.",
+    "Résorption mesurée en 2D sur radiographies rétro-alvéolaires.",
+    "Population mêlant adolescents et jeunes adultes."
+   ],
+   "pratique": "Utile comme antalgique non médicamenteux en début de traitement ; ne pas en attendre de protection radiculaire ni d'accélération."
+  }
+ }
+}

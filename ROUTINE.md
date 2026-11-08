@@ -36,7 +36,17 @@ Le script interroge ClinicalTrials.gov pour tous les thèmes et liste les essais
 - **Appareils** (`data/appareils.json`) : la détection est automatique dans les résumés et les essais ; ajouter une entrée (avec son expression régulière) quand une nouvelle marque ou un nouveau type d'appareil apparaît.
 - **Fiches patients** (`data/fiches_patients.json`) : revoir le niveau de preuve et les sources quand la fiche paramètres correspondante change.
 
+### Autres registres (OMS)
+
+```bash
+python3 scripts/fetch_registries.py
+```
+
+Interroge le portail ICTRP de l'OMS (registres brésilien, indien, iranien, chinois, australien, britannique, coréen, japonais…) et liste les essais « à trier », à rattacher ou exclure dans `data/curation/essais.json` comme ci-dessus (clé = identifiant du registre).
+
 ## 2. Analyser chaque nouvel article
+
+Brouillons : `python3 scripts/brouillons.py --tous` (avec `ANTHROPIC_API_KEY`) prépare un brouillon pour chaque étude clé sans fiche ; ils se relisent et se valident sur la page *Brouillons* du site (voir BROUILLONS.md). Les décisions déposées dans `data/brouillons/decisions/` s'appliquent avec `python3 scripts/brouillons.py --appliquer`.
 
 Lire le résumé (`data/raw/<thème>.json`) et, s'il existe, le texte intégral (`data/fulltext/<PMID>.txt`).
 

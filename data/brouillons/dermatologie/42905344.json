@@ -1,0 +1,44 @@
+{
+ "pmid": "42905344",
+ "theme": "dermatologie",
+ "genere": "2026-11-08",
+ "par": "Claude",
+ "pertinent": false,
+ "raison_exclusion": "Douleur chronique d'épaule chez la personne âgée : l'étude relève du thème musculo-squelettique (épaule), pas de la dermatologie ; la thermographie cutanée n'y est qu'un outil de mesure.",
+ "a_verifier": [
+  "Si l'étude est gardée, la rattacher au thème musculo-squelettique (sous-groupe épaule)."
+ ],
+ "texte_integral": false,
+ "fiche": {
+  "pmid": "42905344",
+  "title_fr": "Laser-acupuncture auriculaire contre acupression par graines dans la douleur chronique d'épaule du sujet âgé (étude exploratoire)",
+  "type": "nrct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "inflammatoire"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": 20,
+  "effect": "neutre",
+  "theme": "Laser-acupuncture",
+  "l1": "Chez 20 personnes âgées douloureuses de l'épaule, la laser-acupuncture auriculaire et l'acupression par graines réduisent la douleur d'environ 2,5 points sur 10, sans différence entre elles.",
+  "l2": "Étude exploratoire non randomisée, en ouvert, avec deux cohortes successives de 10 patients de 60 à 90 ans : laser-acupuncture auriculaire ou graines d'acupression, deux fois par semaine pendant cinq semaines.\n\nL'EVA baisse de 2,7 points sous laser et de 2,5 sous graines (différence 0,2 point, IC 95 % −2,5 à 2,1). Quelques dimensions du McGill et du SF-36 évoluent ; la thermographie montre des variations de température propres à certaines régions de l'épaule.",
+  "l3": {
+   "points": [
+    "Comparaison de deux techniques auriculaires.",
+    "Mesures cliniques et thermographiques répétées."
+   ],
+   "limites": [
+    "Non randomisé, cohortes non concurrentes, ouvert.",
+    "Très petit effectif.",
+    "Pas de groupe témoin sans traitement."
+   ],
+   "pratique": "Ne permet pas de conclure à un effet propre du laser."
+  }
+ }
+}

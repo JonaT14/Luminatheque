@@ -376,7 +376,7 @@ function chartEffects(list) {
 
 /* ---------------- vues ---------------- */
 const app = () => $("#app");
-const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", essais: "Études en cours", appareils: "Appareils", parametres: "Paramètres", patients: "Fiches patients", alertes: "Alertes par mail", methode: "Méthode" };
+const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", essais: "Études en cours", appareils: "Appareils", parametres: "Paramètres", patients: "Fiches patients", alertes: "Alertes par mail", brouillons: "Brouillons", methode: "Méthode" };
 function setNav(id) {
   $$("[data-nav]").forEach((a) => a.setAttribute("aria-current", a.dataset.nav === id ? "page" : "false"));
   const c = $("#crumb"); if (c) c.innerHTML = `${esc(topic().label)} <span aria-hidden="true">/</span> <b>${NAV_LABEL[id] || ""}</b>`;
@@ -387,6 +387,7 @@ function renderTopics() {
     return `<button type="button" class="side-link" data-topic="${t.id}" aria-pressed="${t.id === state.topic}"><span class="topic-dot"></span>${esc(t.label)}${isSoon(t) ? '<span class="soon">À venir</span>' : `<span class="count">${n}</span>`}</button>`; }).join("");
   $("#topic").innerHTML = D.topics.map((t) => `<option value="${t.id}" ${t.id === state.topic ? "selected" : ""}>${esc(t.short || t.label)}${isSoon(t) ? " · à venir" : ""}</option>`).join("");
   const nc = $("#nav-count"); if (nc) nc.textContent = isSoon() ? "" : (topic().n ?? "");
+  const nd = $("#nav-drafts"); if (nd) { nd.hidden = !D.n_drafts; $("#nav-drafts-n").textContent = D.n_drafts || ""; }
   const up = $("#side-update"); if (up) up.textContent = `Mise à jour : ${fmtDate(D.generated)}`;
 }
 function setTopic(id) {
@@ -1104,6 +1105,102 @@ async function alClick(t) {
   rerender(); return true;
 }
 
+/* ---------------- brouillons de fiches préparés par Claude, à valider ---------------- */
+const BR_TYPES = ["ma", "sr", "umbrella", "guideline", "rct", "nrct", "cohort", "cases", "review", "preclinical", "protocol", "survey", "qualitative", "biblio", "methodo", "letter"];
+const BR_CTX_FALLBACK = { "mucite-orale": ["ORL", "chimio", "CSH", "mixte"], "neuropathie-peripherique": ["CIPN", "diabète", "compression", "lésion nerveuse", "orofaciale", "autres"] };
+const brStore = { get: () => store.get("br-decisions", []), set: (v) => store.set("br-decisions", v) };
+async function ensureDrafts() { if (!window.LUMINA_B && D.drafts_file) await loadScript(D.drafts_file); return window.LUMINA_B || []; }
+const brCtx = (tid) => D.topics.find((t) => t.id === tid)?.subgroups?.length ? D.topics.find((t) => t.id === tid).subgroups : BR_CTX_FALLBACK[tid] || ["autres"];
+function brReadForm(el, base) {
+  const v = (n) => el.querySelector(`[name="${n}"]`)?.value ?? ""; const lines = (n) => v(n).split("\n").map((x) => x.trim()).filter(Boolean);
+  const list = (n) => v(n).split(/[,;]/).map((x) => x.trim()).filter(Boolean);
+  const f = { pmid: base.pmid, title_fr: v("title_fr").trim(), type: v("type"), level: +v("level"), pop: v("pop"), ctx: [...el.querySelectorAll("[data-brctx][aria-pressed='true']")].map((b) => b.dataset.brctx),
+    aim: v("aim"), mode: list("mode"), nm: list("nm").map(Number).filter((x) => x > 0), n: v("n") ? +v("n") : null, effect: v("effect"), theme: v("theme").trim(),
+    l1: v("l1").trim(), l2: v("l2").trim(), l3: { points: lines("points"), limites: lines("limites"), pratique: v("pratique").trim() } };
+  if (base.key) f.key = true; if (base.metric) f.metric = base.metric; return f;
+}
+function brField(label, html, wide) { return `<label class="br-f${wide ? " wide" : ""}"><span>${label}</span>${html}</label>`; }
+function brSelect(name, val, opts) { return `<select name="${name}">${opts.map(([k, l]) => `<option value="${esc(k)}" ${String(val) === String(k) ? "selected" : ""}>${esc(l)}</option>`).join("")}</select>`; }
+function brCard(d, dec) {
+  const f = dec?.fiche || d.fiche; const t = D.topics.find((x) => x.id === d.theme); const ctxs = brCtx(d.theme);
+  const ab = (d.abstract || []).map((p) => `<p>${p.label ? `<b>${esc(p.label)}.</b> ` : ""}${esc(p.text)}</p>`).join("");
+  return `<article class="panel br-card" data-brcard="${d.pmid}" data-state="${dec?.action || ""}">
+    <div class="br-top"><div class="br-tags"><span class="badge">${esc(t?.short || d.theme)}</span><span class="br-by">Brouillon préparé par ${esc(d.par || "Claude")} le ${fmtDate(d.genere)}${d.texte_integral ? " · à partir du texte intégral" : " · à partir du résumé"}</span></div>
+      ${dec ? `<span class="br-dec" data-a="${dec.action}">${dec.action === "valider" ? "Validée" : "Exclue"} · en attente de publication <button class="btn small" data-br-undo="${d.pmid}">Annuler</button></span>` : ""}</div>
+    ${d.pertinent === false ? `<div class="al-banner warn"><b>Claude propose d'écarter cette étude.</b> ${esc(d.raison_exclusion || "")}</div>` : ""}
+    ${d.a_verifier?.length ? `<div class="br-check"><b>À vérifier</b><ul>${d.a_verifier.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
+    <div class="br-cols">
+      <form class="br-form" onsubmit="return false">
+        ${brField("Titre français", `<input name="title_fr" value="${esc(f.title_fr)}">`, true)}
+        <div class="br-row">${brField("Type", brSelect("type", f.type, BR_TYPES.map((k) => [k, TYPES[k]?.[0] || k])))}${brField("Niveau", brSelect("level", f.level, [0, 1, 2, 3, 4, 5].map((k) => [k, k ? `Niveau ${k}` : "Non gradé"])))}
+          ${brField("Résultat", brSelect("effect", f.effect, [["favorable", "Favorable"], ["neutre", "Pas de différence"], ["mitigé", "Mitigé"], ["défavorable", "Défavorable"], ["—", "Sans objet"]]))}
+          ${brField("Population", brSelect("pop", f.pop, [["adulte", "Adulte"], ["pédiatrie", "Pédiatrie"], ["mixte", "Mixte"], ["—", "—"]]))}
+          ${brField("Objectif", brSelect("aim", f.aim, [["traitement", "Traitement"], ["prévention", "Prévention"], ["les deux", "Les deux"], ["—", "—"]]))}
+          ${brField("Effectif", `<input name="n" type="number" min="0" value="${f.n ?? ""}">`)}</div>
+        <div class="br-f wide"><span>Sous-groupes</span><div class="chips">${ctxs.map((c) => `<button type="button" class="chip" data-brctx="${esc(c)}" aria-pressed="${(f.ctx || []).includes(c)}">${esc(CTX[c] || c)}</button>`).join("")}</div></div>
+        <div class="br-row">${brField("Longueurs d'onde (nm)", `<input name="nm" value="${esc((f.nm || []).join(", "))}">`)}${brField("Modalités", `<input name="mode" value="${esc((f.mode || []).join(", "))}">`)}${brField("Thème court", `<input name="theme" value="${esc(f.theme || "")}">`)}</div>
+        ${brField("Express (1–2 lignes)", `<textarea name="l1" rows="2">${esc(f.l1)}</textarea>`, true)}
+        ${brField("Essentiel", `<textarea name="l2" rows="7">${esc(f.l2)}</textarea>`, true)}
+        <div class="br-row two">${brField("Points (un par ligne)", `<textarea name="points" rows="5">${esc((f.l3?.points || []).join("\n"))}</textarea>`)}${brField("Limites (une par ligne)", `<textarea name="limites" rows="5">${esc((f.l3?.limites || []).join("\n"))}</textarea>`)}</div>
+        ${brField("En pratique", `<textarea name="pratique" rows="2">${esc(f.l3?.pratique || "")}</textarea>`, true)}
+        <div class="al-actions"><button class="btn primary" data-br-act="valider" data-pmid="${d.pmid}">Valider la fiche</button><button class="btn" data-br-act="exclure" data-pmid="${d.pmid}">Exclure l'étude</button></div>
+      </form>
+      <aside class="br-src"><span class="eyebrow">Article original</span><h3 lang="en">${esc(d.title)}</h3><p class="muted" style="font-size:.8rem">${esc(d.journal || "")} · ${d.date ? fmtDate(d.date) : ""} · <a href="https://pubmed.ncbi.nlm.nih.gov/${d.pmid}/" target="_blank" rel="noopener">PubMed ↗</a>${d.doi ? ` · <a href="https://doi.org/${esc(d.doi)}" target="_blank" rel="noopener">DOI ↗</a>` : ""}</p>
+        <div class="br-abs" lang="en">${ab || "<p class='muted'>Pas de résumé.</p>"}</div></aside>
+    </div></article>`;
+}
+async function viewBrouillons() {
+  setNav("brouillons"); app().innerHTML = `<div class="empty">Chargement des brouillons…</div>`;
+  const all = await ensureDrafts(); const decs = brStore.get(); const byP = Object.fromEntries(decs.map((x) => [x.pmid, x]));
+  const st = state.br ||= { theme: "", msg: "", err: "", busy: false };
+  const themes = [...new Set(all.map((d) => d.theme))]; const xs = all.filter((d) => !st.theme || d.theme === st.theme);
+  const tok = store.get("gh-token", "");
+  app().innerHTML = `<div class="view br">
+    <div style="display:grid;gap:12px"><span class="eyebrow">Brouillons · espace de relecture</span><h1>Fiches préparées par Claude, à valider</h1>
+      <p class="lead" style="max-width:74ch">Pour chaque nouvelle étude clé, Claude rédige un brouillon de fiche à partir du résumé (et du texte intégral quand il est en accès libre), avec les points à vérifier. Le dernier mot reste humain : corrigez si besoin, puis validez ou excluez. Ces brouillons n'apparaissent jamais parmi les fiches du site tant qu'ils ne sont pas validés.</p></div>
+    <div class="br-bar panel"><div><b>${decs.length}</b> décision${decs.length > 1 ? "s" : ""} en attente de publication${decs.length ? ` (${decs.filter((x) => x.action === "valider").length} validée(s), ${decs.filter((x) => x.action === "exclure").length} exclue(s))` : ""}</div>
+      <div class="al-actions">${tok ? `<button class="btn primary" data-br-publish ${!decs.length || st.busy ? "disabled" : ""}>${st.busy ? "Publication…" : "Publier sur le site"}</button>` : `<button class="btn primary" data-br-export ${!decs.length ? "disabled" : ""}>Télécharger les décisions</button>`}
+        <details class="br-gh"><summary class="btn small">${tok ? "Publication directe activée" : "Activer la publication directe"}</summary><div class="br-ghp">
+          <p class="muted">Collez un jeton GitHub « fine-grained » limité au dépôt ${esc(D.repo?.owner || "")}/${esc(D.repo?.name || "")}, avec la permission <i>Contents : Read and write</i>. Il reste dans ce navigateur. À chaque publication, les décisions sont déposées dans le dépôt ; une action GitHub les applique et reconstruit le site en quelques minutes.</p>
+          <div class="al-mail"><input id="br-token" type="password" placeholder="github_pat_…" value="${tok ? "••••••••" : ""}" aria-label="Jeton GitHub"><button class="btn" data-br-token>${tok ? "Remplacer" : "Enregistrer"}</button>${tok ? `<button class="btn" data-br-token-del>Oublier</button>` : ""}</div></div></details></div>
+      ${st.msg ? `<div class="al-banner ok" style="grid-column:1/-1">${esc(st.msg)}</div>` : ""}${st.err ? `<div class="al-banner warn" style="grid-column:1/-1">${esc(st.err)}</div>` : ""}</div>
+    ${themes.length > 1 ? `<div class="chips"><button class="chip" data-br-theme="" aria-pressed="${!st.theme}">Tous les thèmes<span class="n">${all.length}</span></button>${themes.map((t) => `<button class="chip" data-br-theme="${t}" aria-pressed="${st.theme === t}">${esc(topicShort(t))}<span class="n">${all.filter((d) => d.theme === t).length}</span></button>`).join("")}</div>` : ""}
+    ${xs.length ? xs.map((d) => brCard(d, byP[d.pmid])).join("") : `<div class="empty">Aucun brouillon en attente. Les prochains seront préparés à la prochaine veille.</div>`}
+  </div>`;
+}
+async function brClick(t) {
+  const d = t.dataset, st = state.br; if (!st) return false;
+  if ("brctx" in d) { t.setAttribute("aria-pressed", t.getAttribute("aria-pressed") !== "true"); return true; }
+  if ("brTheme" in d) st.theme = d.brTheme;
+  else if (d.brAct) {
+    const all = await ensureDrafts(); const draft = all.find((x) => x.pmid === d.pmid); const el = t.closest("[data-brcard]");
+    const fiche = brReadForm(el, draft.fiche);
+    if (d.brAct === "valider" && (!fiche.title_fr || !fiche.l1 || !fiche.ctx.length)) { st.err = "Titre, résumé express et au moins un sous-groupe sont nécessaires pour valider."; rerender(); return true; }
+    brStore.set([...brStore.get().filter((x) => x.pmid !== d.pmid), { theme: draft.theme, pmid: d.pmid, action: d.brAct, fiche: d.brAct === "valider" ? fiche : undefined }]); st.err = st.msg = "";
+  }
+  else if (d.brUndo) brStore.set(brStore.get().filter((x) => x.pmid !== d.brUndo));
+  else if ("brToken" in d) { const v = $("#br-token")?.value.trim(); if (v && !v.startsWith("•")) store.set("gh-token", v); }
+  else if ("brTokenDel" in d) store.set("gh-token", "");
+  else if ("brExport" in d) {
+    const blob = new Blob([JSON.stringify(brStore.get(), null, 1)], { type: "application/json" }); const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = `decisions-${new Date().toISOString().slice(0, 19).replace(/[:T]/g, "-")}.json`; a.click();
+    st.msg = "Fichier téléchargé : déposez-le dans data/brouillons/decisions/ du dépôt (ou donnez-le à Claude lors de la prochaine veille)."; }
+  else if ("brPublish" in d) {
+    const decs = brStore.get(); const R = D.repo; st.busy = true; st.err = st.msg = ""; rerender();
+    try {
+      const name = `data/brouillons/decisions/${new Date().toISOString().replace(/[:.]/g, "-")}.json`;
+      const content = btoa(String.fromCharCode(...new TextEncoder().encode(JSON.stringify(decs, null, 1))));
+      const r = await fetch(`https://api.github.com/repos/${R.owner}/${R.name}/contents/${name}`, { method: "PUT", headers: { Authorization: `Bearer ${store.get("gh-token", "")}`, Accept: "application/vnd.github+json" },
+        body: JSON.stringify({ message: `Brouillons : ${decs.filter((x) => x.action === "valider").length} fiche(s) validée(s), ${decs.filter((x) => x.action === "exclure").length} exclusion(s)`, content, branch: R.branch }) });
+      if (!r.ok) throw new Error(r.status === 401 || r.status === 403 ? "Jeton GitHub refusé (vérifiez sa validité et la permission Contents en écriture)." : `GitHub : erreur ${r.status}`);
+      brStore.set([]); st.msg = "Décisions publiées. Le site sera mis à jour d'ici quelques minutes (application des décisions puis reconstruction).";
+    } catch (x) { st.err = x.message; }
+    st.busy = false;
+  }
+  else return false;
+  rerender(); return true;
+}
+
 /* ---------------- routage & événements ---------------- */
 async function route() {
   const h = decodeURIComponent(location.hash.slice(1));
@@ -1121,6 +1218,7 @@ async function route() {
   if (h === "appareils") return viewDevices();
   if (h.startsWith("patient-")) return viewPatient(h.slice(8));
   if (h === "patients") return viewPatientsList();
+  if (h === "brouillons") return viewBrouillons();
   if (h === "alertes" || h.startsWith("alertes?")) return viewAlertes(new URLSearchParams(h.split("?")[1] || ""));
   if (isSoon() && h !== "methode") return viewSoon(NAV_LABEL[h] ? h : "accueil");
   await ({ publications: viewPubs, syntheses: viewSyntheses, essais: viewEssais, parametres: viewParams, comparer: viewCompare, methode: viewMethode }[h] || viewHome)();
@@ -1137,6 +1235,7 @@ document.addEventListener("click", async (e) => {
   const t = e.target.closest("button, [data-sel]"); if (!t) return;
   const d = t.dataset;
   if (Object.keys(d).some((k) => k.startsWith("al"))) { e.preventDefault(); await alClick(t); return; }
+  if (Object.keys(d).some((k) => k.startsWith("br"))) { e.preventDefault(); await brClick(t); return; }
   if (d.topic) { setTopic(d.topic); return; }
   if (d.sub) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : ""); state.f.ctx.add(d.sub); state.filtersOpen = true; location.hash = "publications"; return; }
   if ("morelist" in d) { state.limit += 120; rerender(); return; }

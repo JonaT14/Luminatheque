@@ -1,0 +1,48 @@
+name: Brouillons de fiches
+# 1) Appliquer : dès que la page « Brouillons » du site dépose des décisions (data/brouillons/decisions/),
+#    les fiches validées rejoignent la curation, les études exclues partent dans exclus.json, et le site est reconstruit.
+# 2) Générer : chaque lundi à 5 h 41 UTC (avant l'envoi des alertes) ou à la demande, Claude prépare des brouillons
+#    pour les nouvelles études clés (secret ANTHROPIC_API_KEY ; voir BROUILLONS.md).
+on:
+  push:
+    paths: ["data/brouillons/decisions/**"]
+  schedule:
+    - cron: "41 5 * * 1"
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "Nombre maximal de brouillons à préparer"
+        default: "30"
+permissions:
+  contents: write
+concurrency:
+  group: brouillons
+  cancel-in-progress: false
+jobs:
+  brouillons:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3 anthropic
+      - name: Appliquer les décisions
+        run: python3 scripts/brouillons.py --appliquer
+      - name: Préparer de nouveaux brouillons
+        if: ${{ github.event_name != 'push' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LUMINA_MODELE: ${{ vars.LUMINA_MODELE }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then echo "Secret ANTHROPIC_API_KEY absent : pas de génération."; exit 0; fi
+          python3 scripts/brouillons.py --tous --max "${{ inputs.max || '30' }}"
+      - name: Reconstruire le site et publier
+        run: |
+          python3 scripts/build_site.py
+          git config user.name "Luminathèque (automate)"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data assets flux index.html
+          if git diff --cached --quiet; then echo "Rien à publier."; exit 0; fi
+          git commit -m "Brouillons : décisions appliquées et nouveaux brouillons"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done

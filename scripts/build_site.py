@@ -274,6 +274,7 @@ def stamp_assets() -> None:
 
 
 SITE_URL = "https://luminatheque.onrender.com"
+REPO = {"owner": "JonaT14", "name": "Luminatheque", "branch": "claude/sleepy-tesla-zeaezf"}  # validation des brouillons
 ALERTS_API = "https://luminatheque-alertes.onrender.com"  # service d'abonnement (server/), voir ALERTES.md
 
 
@@ -470,12 +471,35 @@ def main() -> None:
         print(f"→ {len(out_dev)} appareils détectés")
     else:
         devices_file = None
+    # brouillons de fiches préparés par Claude (data/brouillons), à valider sur la page « Brouillons »
+    drafts = []
+    raw_cache: dict[str, dict] = {}
+    for f in sorted((ROOT / "data/brouillons").glob("*/*.json")):
+        d = json.loads(f.read_text())
+        if d["theme"] not in raw_cache:
+            rp = ROOT / "data/raw" / f"{d['theme']}.json"
+            raw_cache[d["theme"]] = {r["pmid"]: r for r in json.loads(rp.read_text())} if rp.exists() else {}
+        r = raw_cache[d["theme"]].get(d["pmid"])
+        if r:
+            drafts.append(d | {"title": r["title"], "journal": r.get("journal_abbr") or r.get("journal"), "date": r.get("date_online") or r.get("date_pub"),
+                               "doi": r.get("doi"), "abstract": r.get("abstract") or []})
+    drafts.sort(key=lambda d: d.get("date") or "", reverse=True)
+    drafts_file = None
+    for old in (ROOT / "assets/topics").glob("_brouillons.*js"):
+        old.unlink()
+    if drafts:
+        js = "window.LUMINA_B = " + json.dumps(drafts, ensure_ascii=False, separators=(",", ":")) + ";\n"
+        bh = hashlib.sha1(js.encode()).hexdigest()[:10]
+        write_versioned(ROOT / "assets/topics" / f"_brouillons.{bh}.js", js)
+        drafts_file = f"assets/topics/_brouillons.{bh}.js"
+        print(f"→ {len(drafts)} brouillon(s) de fiche à valider")
     sv = track_news(all_articles, trials)
     write_feeds(topics, all_articles, sv)
     order = {"actif": 0, None: 0, "à venir": 1}
     topics.sort(key=lambda x: (order.get(x.get("status"), 0), x["label"]))
     payload = {"generated": dt.date.today().isoformat(), "topics": topics, "syntheses": syntheses, "n_chunks": N_CHUNKS,
                "trials_file": f"assets/topics/_essais.{h}.js" if trials else None, "devices_file": devices_file, "news": recent_news(sv, all_articles, trials),
+               "drafts_file": drafts_file, "n_drafts": len(drafts), "repo": REPO,
                "alerts_api": ALERTS_API,
                "patients": json.loads((ROOT / "data/fiches_patients.json").read_text()) if (ROOT / "data/fiches_patients.json").exists() else []}
     out = ROOT / "assets/data.js"

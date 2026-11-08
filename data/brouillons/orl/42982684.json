@@ -1,0 +1,49 @@
+{
+ "pmid": "42982684",
+ "theme": "orl",
+ "genere": "2026-11-08",
+ "par": "Claude",
+ "pertinent": true,
+ "raison_exclusion": "",
+ "a_verifier": [
+  "Puissance et dose par point exactes (30 J au total ?) à vérifier dans le texte intégral.",
+  "Perdus de vue : 39 analysées sur 46 incluses."
+ ],
+ "texte_integral": false,
+ "fiche": {
+  "pmid": "42982684",
+  "title_fr": "Laser basse énergie ajouté à la rééducation vocale dans la dysphonie comportementale de la femme : essai en triple aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "pharynx"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 46,
+  "effect": "neutre",
+  "theme": "Gorge, amygdales & voix",
+  "l1": "Ajouter un laser infrarouge 808 nm à la rééducation vocale n'améliore ni la voix perçue ni l'auto-évaluation par rapport au placebo ; seul l'aspect du bord des cordes vocales récupère mieux.",
+  "l2": "Essai randomisé en triple aveugle contre laser placebo chez 46 femmes de 18 à 60 ans atteintes de dysphonie comportementale (39 analysées à 8 semaines). Laser infrarouge 808 nm, 100 mW, 30 J, appliqué avant chaque séance d'un programme complet de rééducation vocale.\n\nLes deux groupes s'améliorent nettement (sévérité perçue, mesures acoustiques, auto-évaluation), sans différence entre eux pour le critère principal ni pour les critères fonctionnels. En vidéostroboscopie, le contour du bord libre des cordes vocales récupère davantage sous laser actif (p = 0,005). Aucun effet indésirable.",
+  "l3": {
+   "points": [
+    "Triple aveugle, laser placebo.",
+    "Critère principal : sévérité globale perçue de la dysphonie.",
+    "Effet morphologique isolé sans traduction fonctionnelle.",
+    "Bonne tolérance."
+   ],
+   "limites": [
+    "Effectif modeste, 15 % de perdus de vue.",
+    "Analyse per protocole.",
+    "Suivi limité à 8 semaines."
+   ],
+   "pratique": "La rééducation vocale reste le traitement de fond ; le laser n'apporte pas de bénéfice fonctionnel démontré en complément."
+  }
+ }
+}
