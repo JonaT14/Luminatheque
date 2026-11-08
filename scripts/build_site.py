@@ -84,6 +84,12 @@ SUBGROUP_RULES = {
             ("odorat", r"olfact|smell|anosmia|hyposmia|taste|gustat"),
             ("pharynx", r"tonsil|pharyng|throat|laryn|voice"),
             ("vertiges", r"vertigo|vestibul|dizziness|meniere")],
+    "cardiologie": [("coronaires", r"myocard|coronar|angina|infarct|ischemic heart|ischaemic heart|restenosis|stent|angioplast"),
+                    ("insuffisance-c", r"heart failure|cardiac rehabilitation|ejection fraction|cardiomyopath"),
+                    ("chir-cardio", r"sternotom|bypass|cabg|saphen|cardiac surg|heart surg"),
+                    ("artères", r"raynaud|peripheral arter|claudication|atheroscl|microcirc|microangiopath|endotheli|arterial occlus|aneurysm"),
+                    ("HTA", r"hypertens|blood pressure|cardiometabolic|lipid|cholesterol"),
+                    ("ILIB", r"blood irradiation|irradiation of blood|intravascular laser|intravenous laser|\bilib\b|ilbi")],
     "sport": [("performance", r"performance|strength|ergogenic|endurance|time to exhaustion|repetition|torque|preconditioning"),
               ("récupération", r"recovery|soreness|doms|creatine kinase|muscle damage|fatigue"),
               ("blessures", r"injur|strain|sprain|tendin|contusion"),
@@ -286,17 +292,20 @@ def track_news(all_articles: list, trials: dict) -> dict:
     today = dt.date.today().isoformat()
     first = not path.exists()
     sv = json.loads(path.read_text()) if not first else {"notices": {}, "fiches": {}, "essais": {}}
+    known = {k.split(":")[0] for k in sv["notices"]}  # un thème nouveau est amorcé comme au premier passage
     for a in all_articles:
         k = f"{a['topic']}:{a['pmid']}"
+        boot = first or a["topic"] not in known
         if k not in sv["notices"]:
-            sv["notices"][k] = min(a["date"], today) if first else today
+            sv["notices"][k] = min(a["date"], today) if boot else today
         if a["curated"] and k not in sv["fiches"]:
-            sv["fiches"][k] = min(a["date"], today) if first else today
+            sv["fiches"][k] = min(a["date"], today) if boot else today
+    known_t = {v.get("theme") for v in sv["essais"].values()}
     for tp, xs in trials.items():
         for x in xs:
             e = sv["essais"].get(x["nct"])
             if not e:
-                d0 = min(x.get("first_posted") or today, today) if first else today
+                d0 = min(x.get("first_posted") or today, today) if first or tp not in known_t else today
                 sv["essais"][x["nct"]] = {"vu": d0, "theme": tp, "statuts": [[d0, x["status"]]]}
             elif e["statuts"][-1][1] != x["status"]:
                 e["statuts"].append([today, x["status"]])

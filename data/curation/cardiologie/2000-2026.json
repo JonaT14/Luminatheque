@@ -1,0 +1,1472 @@
+[
+ {
+  "pmid": "11530400",
+  "title_fr": "Hypoxie normobare ou laser basse énergie dans l'hypertension artérielle de stade I (MAPA)",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "HTA"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 57,
+  "effect": "favorable",
+  "theme": "Hypertension artérielle",
+  "l1": "Chez 57 hypertendus de stade I, une cure de laser basse énergie abaisse la pression artérielle sur 24 h, y compris la nuit, à l'égal de l'hypoxie normobare.",
+  "l2": "Essai randomisé russe en groupes parallèles comparant deux méthodes physiques chez 57 patients avec une hypertension essentielle de stade I, évaluées par mesure ambulatoire de la pression artérielle sur 24 h.\n\nLes deux méthodes abaissent les pressions systolique et diastolique moyennes ; le laser agit aussi sur la pression nocturne. Paramètres du laser non précisés dans le résumé.",
+  "l3": {
+   "points": [
+    "Mesure ambulatoire sur 24 h.",
+    "Effet aussi nocturne avec le laser."
+   ],
+   "limites": [
+    "Pas de groupe placebo.",
+    "Paramètres non décrits.",
+    "Résumé très succinct."
+   ],
+   "pratique": "Piste ancienne, à confirmer par des essais contre placebo."
+  }
+ },
+ {
+  "pmid": "21465774",
+  "title_fr": "Magnétolaserothérapie et acides gras oméga-3 dans l'hypertension artérielle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "HTA"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "magnétothérapie"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Hypertension artérielle",
+  "l1": "L'association magnétolaser et oméga-3 améliore le profil lipidique et la composition des membranes érythrocytaires d'hypertendus.",
+  "l2": "Étude russe chez des patients hypertendus combinant magnétolaserothérapie et acides gras polyinsaturés n-3. Les auteurs rapportent une normalisation du profil lipidique et de la composition en acides gras des membranes des globules rouges.\n\nL'effet propre du laser ne peut pas être isolé de celui des oméga-3.",
+  "l3": {
+   "points": [
+    "Critères biologiques (lipides, membranes)."
+   ],
+   "limites": [
+    "Effectif et plan non précisés.",
+    "Effet du laser non isolé.",
+    "Pas de critère tensionnel rapporté."
+   ],
+   "pratique": "Pas d'application pratique à ce stade."
+  }
+ },
+ {
+  "pmid": "30020330",
+  "title_fr": "Laser-acupuncture par des infirmiers dans l'hypertension artérielle mal contrôlée : essai en triple aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "HTA"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": 102,
+  "effect": "favorable",
+  "theme": "Hypertension artérielle",
+  "l1": "Six séances de laser-acupuncture abaissent nettement les pressions systolique et diastolique (p < 0,001) chez des hypertendus mal contrôlés, contrairement à la simulation.",
+  "l2": "Essai multicentrique randomisé en triple aveugle chez 102 hypertendus de 30 à 75 ans, traités depuis plus d'un an et restant au-dessus de 140/90 mmHg. Six séances de laser-acupuncture de 24 minutes sur six semaines, protocole appliqué par des infirmiers, contre laser simulé.\n\nLa pression systolique et la diastolique baissent significativement dans le groupe actif, pas dans le groupe simulé.",
+  "l3": {
+   "points": [
+    "Triple aveugle, multicentrique.",
+    "Patients sous traitement, mal contrôlés.",
+    "Protocole infirmier reproductible."
+   ],
+   "limites": [
+    "Suivi court (6 semaines).",
+    "Ampleur de la baisse non précisée dans le résumé.",
+    "Paramètres laser à vérifier dans l'article."
+   ],
+   "pratique": "Complément possible, à évaluer sur la durée ; ne remplace pas le traitement antihypertenseur."
+  }
+ },
+ {
+  "pmid": "38530295",
+  "title_fr": "Irradiation sanguine (ILIB) sur la carotide : pression artérielle et fréquence cardiaque de femmes mastectomisées sous hormonothérapie",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ILIB",
+   "HTA"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "ILIB"
+  ],
+  "nm": [
+   660
+  ],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Irradiation sanguine (ILIB)",
+  "l1": "Le laser 660 nm appliqué en regard de la carotide ne modifie pas la pression artérielle mais abaisse la fréquence cardiaque (de 81 à 62/min).",
+  "l2": "Essai randomisé contrôlé chez des femmes mastectomisées traitées par tamoxifène ou inhibiteurs de l'aromatase. Groupe actif : laser 660 nm transcutané sur l'artère carotide primitive (« ILIB » non invasive), séances hebdomadaires ; groupe témoin sans traitement.\n\nPas de différence significative sur les pressions systolique et diastolique, qui baissent dans les deux groupes. La fréquence cardiaque diminue davantage sous laser.",
+  "l3": {
+   "points": [
+    "Population cardio-oncologique.",
+    "Effet sur la fréquence cardiaque."
+   ],
+   "limites": [
+    "Petit effectif.",
+    "Témoin sans placebo.",
+    "Critère principal tensionnel négatif."
+   ],
+   "pratique": "Pas d'indication sur la pression artérielle."
+  }
+ },
+ {
+  "pmid": "39422591",
+  "title_fr": "ILIB sur la carotide : CRP ultrasensible et homocystéine chez des femmes mastectomisées sous hormonothérapie",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ILIB"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "ILIB"
+  ],
+  "nm": [
+   660
+  ],
+  "n": 21,
+  "effect": "mitigé",
+  "theme": "Irradiation sanguine (ILIB)",
+  "l1": "Chez 21 femmes, la CRP ultrasensible et l'homocystéine baissent sous laser 660 nm sur la carotide, sans différence nette avec le placebo dans le résumé.",
+  "l2": "Essai randomisé en aveugle contre placebo chez 21 femmes mastectomisées sous tamoxifène ou inhibiteurs de l'aromatase : laser rouge 660 nm sur la carotide (12 patientes) ou placebo (9), suivi biologique mensuel pendant 4 mois.\n\nLa CRP ultrasensible passe de 6,8 à 3,8 et l'homocystéine de 14,2 à 12,1 µmol/L sous laser ; elles baissent aussi sous placebo (CRP 9,4 à 7,6).",
+  "l3": {
+   "points": [
+    "Biomarqueurs du risque cardiovasculaire.",
+    "Suivi de 4 mois."
+   ],
+   "limites": [
+    "Très petit effectif.",
+    "Groupes déséquilibrés au départ.",
+    "Critères biologiques intermédiaires."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "26398817",
+  "title_fr": "Laser basse énergie associé à l'entraînement aérobie et en résistance : risque cardiométabolique de femmes obèses",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "HTA",
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Risque cardiométabolique",
+  "l1": "Chez des femmes obèses, le laser 808 nm après chaque séance d'exercice pendant 16 semaines améliore davantage les marqueurs de risque cardiométabolique que l'exercice seul.",
+  "l2": "Essai contre placebo chez des femmes de 20 à 40 ans (IMC ≥ 30) suivant un entraînement combiné aérobie et en résistance 3 fois par semaine pendant 16 semaines. Laser infrarouge 808 nm, 100 mW, 50 J, 16 minutes après chaque séance, ou placebo.\n\nL'association laser et exercice améliore davantage la composition corporelle et les marqueurs inflammatoires que l'exercice avec placebo.",
+  "l3": {
+   "points": [
+    "Placebo, 16 semaines.",
+    "Marqueurs inflammatoires et composition corporelle."
+   ],
+   "limites": [
+    "Effectif non précisé dans le résumé.",
+    "Critères intermédiaires.",
+    "Monocentrique."
+   ],
+   "pratique": "Piste en complément de l'exercice chez la personne obèse."
+  }
+ },
+ {
+  "pmid": "12099151",
+  "title_fr": "Laser basse énergie dans le phénomène de Raynaud primitif : essai croisé contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "artères"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 15,
+  "effect": "mitigé",
+  "theme": "Raynaud",
+  "l1": "Chez 15 patients, le laser ne réduit pas la fréquence des crises de Raynaud mais en diminue l'intensité par rapport au placebo.",
+  "l2": "Essai randomisé en double aveugle, croisé, contre placebo chez 15 patients atteints de phénomène de Raynaud primitif ; trois semaines de laser puis de placebo (ou l'inverse). Critères : fréquence et intensité des crises, thermographie infrarouge après exposition au froid.\n\nLa fréquence des crises ne change pas ; leur intensité baisse sous laser, et le gradient de température après le froid diminue.",
+  "l3": {
+   "points": [
+    "Double aveugle, croisé.",
+    "Thermographie objective."
+   ],
+   "limites": [
+    "Très petit effectif.",
+    "Trois semaines seulement."
+   ],
+   "pratique": "Bénéfice modeste sur l'intensité des crises."
+  }
+ },
+ {
+  "pmid": "15061044",
+  "title_fr": "Laser basse énergie dans le phénomène de Raynaud primitif et secondaire : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "artères"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 47,
+  "effect": "favorable",
+  "theme": "Raynaud",
+  "l1": "Dix séances de laser en hiver réduisent davantage que le placebo la fréquence et la sévérité des crises de Raynaud, jusqu'à 3 mois.",
+  "l2": "Essai randomisé en double aveugle chez 47 patients atteints de Raynaud primitif ou secondaire : 10 séances de laser à distance ou placebo pendant l'hiver. Critères : journal des crises, échelle visuelle de sévérité, thermographie après test au froid.\n\nLes deux groupes s'améliorent, mais le groupe laser davantage, à 6 semaines (fréquence p = 0,007) et à 3 mois (p = 0,02), avec une meilleure réponse thermographique.",
+  "l3": {
+   "points": [
+    "Raynaud primitif et secondaire.",
+    "Suivi à 3 mois.",
+    "Effet placebo important, dépassé par le laser."
+   ],
+   "limites": [
+    "Effectif modeste.",
+    "Paramètres à vérifier dans l'article."
+   ],
+   "pratique": "Option non médicamenteuse en hiver, notamment en complément."
+  }
+ },
+ {
+  "pmid": "15570642",
+  "title_fr": "Laser basse énergie dans le phénomène de Raynaud primitif : essai croisé de 48 patients",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "artères"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 48,
+  "effect": "favorable",
+  "theme": "Raynaud",
+  "l1": "Chez 48 patients, trois semaines de laser réduisent le nombre et l'intensité des crises de Raynaud primitif par rapport au placebo.",
+  "l2": "Essai randomisé en double aveugle, croisé, contre placebo : laser ou simulation 5 jours par semaine pendant 3 semaines. Critère principal : intensité moyenne des crises ; secondaires : nombre de crises et thermographie.\n\nNombre et intensité des crises diminuent sous laser ; la thermographie ne diffère pas. Les patients avec d'autres déclencheurs que le froid (stress, humidité) et un réchauffement lent répondent mieux.",
+  "l3": {
+   "points": [
+    "Double aveugle, croisé.",
+    "Facteurs prédictifs de réponse identifiés."
+   ],
+   "limites": [
+    "Pas d'effet thermographique.",
+    "Court terme."
+   ],
+   "pratique": "Peut être proposé dans le Raynaud primitif gênant."
+  }
+ },
+ {
+  "pmid": "11771213",
+  "title_fr": "Laser basse énergie dans le phénomène de Raynaud primitif et secondaire : étude pilote",
+  "type": "cases",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "artères"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 40,
+  "effect": "favorable",
+  "theme": "Raynaud",
+  "l1": "Chez 40 patients, dix séances de laser améliorent nettement les crises et le flux digital au froid à 6 semaines et 3 mois.",
+  "l2": "Étude pilote sans groupe témoin : 40 patients (72 % de Raynaud secondaire) reçoivent 10 séances de laser à distance en hiver. Évaluation clinique et thermographique au test au froid.\n\nAmélioration significative à 6 semaines et 3 mois (p < 0,0001). Elle a motivé l'essai contrôlé publié ensuite.",
+  "l3": {
+   "points": [
+    "Thermographie au test au froid.",
+    "Suivi à 3 mois."
+   ],
+   "limites": [
+    "Pas de groupe témoin.",
+    "Effet placebo non contrôlé."
+   ],
+   "pratique": "Voir les essais contrôlés."
+  }
+ },
+ {
+  "pmid": "12204648",
+  "title_fr": "Effet systémique d'une irradiation laser He-Ne sur la microcirculation cutanée dans la microangiopathie diabétique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "artères"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   632.8
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Microcirculation",
+  "l1": "Une seule irradiation He-Ne (30 J/cm²) de l'avant-pied réchauffe la peau des deux pieds (+1,9 °C contre placebo), signe d'un effet systémique sur la microcirculation.",
+  "l2": "Essai randomisé en double aveugle contre placebo chez des diabétiques avec microangiopathie : une irradiation laser He-Ne 632,8 nm à 30 J/cm² sur l'avant-pied, ou simulation. Thermographie infrarouge.\n\nLa température cutanée monte dans les deux pieds sous laser et baisse sous placebo ; différence de 1,94 °C à 15 minutes (p < 0,0001), y compris au pied non irradié.",
+  "l3": {
+   "points": [
+    "Double aveugle.",
+    "Effet aussi sur le pied controlatéral (systémique)."
+   ],
+   "limites": [
+    "Effet immédiat seulement.",
+    "Critère thermique intermédiaire."
+   ],
+   "pratique": "Argument mécanistique pour l'usage en plaies ischémiques."
+  }
+ },
+ {
+  "pmid": "12945135",
+  "title_fr": "Laser chez des patients angineux : membranes érythrocytaires et paramètres cardiaques",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "coronaires"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 93,
+  "effect": "favorable",
+  "theme": "Coronaropathie",
+  "l1": "Chez 93 patients angineux, le laser stabilise les membranes des globules rouges et améliore les paramètres cardiaques par rapport à la simulation.",
+  "l2": "Étude russe comparant laser et simulation chez 93 patients avec angor d'effort (classes I à IV). Les auteurs rapportent une stabilisation des membranes érythrocytaires et une évolution favorable des paramètres cardiodynamiques.\n\nRésumé très bref, sans chiffres.",
+  "l3": {
+   "points": [
+    "Groupe simulé.",
+    "Population angineuse."
+   ],
+   "limites": [
+    "Résumé sans chiffres ni paramètres.",
+    "Randomisation non précisée."
+   ],
+   "pratique": "Donnée historique, sans portée pratique actuelle."
+  }
+ },
+ {
+  "pmid": "20920649",
+  "title_fr": "Illumination laser intracoronaire 808 nm pour prévenir la resténose après angioplastie",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "coronaires"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "intravasculaire"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 101,
+  "effect": "favorable",
+  "theme": "Coronaropathie",
+  "l1": "Le laser 808 nm intracoronaire après angioplastie réduit la perte luminale tardive (0,53 contre 0,76 mm), sans différence significative sur la resténose ni les événements cardiaques.",
+  "l2": "Essai prospectif chez 101 patients traités par angioplastie : illumination intracoronaire par laser 808 nm (52 patients) ou angioplastie seule (49). Coronarographie de contrôle à 6 mois, suivi clinique à 12 mois.\n\nÉvénements cardiaques majeurs 7,7 % contre 18,5 % à 12 mois (non significatif) ; resténose 15 % contre 32 % (non significatif). Diamètre luminal minimal et perte tardive significativement meilleurs sous laser. Aucune complication liée au laser.",
+  "l3": {
+   "points": [
+    "Contrôle angiographique.",
+    "Bonne tolérance.",
+    "Tendance sur les événements cardiaques."
+   ],
+   "limites": [
+    "Effectif insuffisant pour les critères cliniques.",
+    "Pas d'aveugle mentionné.",
+    "Technique invasive spécialisée."
+   ],
+   "pratique": "Piste expérimentale ; pas d'usage clinique courant."
+  }
+ },
+ {
+  "pmid": "25302462",
+  "title_fr": "Laser intracoronaire pendant l'angioplastie : facteurs de croissance sanguins",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "coronaires"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "intravasculaire"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 101,
+  "effect": "mitigé",
+  "theme": "Coronaropathie",
+  "l1": "Le laser 808 nm intracoronaire (9 J/cm²) abaisse le FGF-2 et freine la hausse du TGF-β1 après angioplastie, sans effet sur l'IGF-1 et le VEGF.",
+  "l2": "Même cohorte de 101 patients que l'essai sur la resténose : laser intracoronaire 808 nm, 100 mW/cm², 9 J/cm² pendant l'angioplastie, ou angioplastie seule. Dosages d'IGF-1, VEGF, TGF-β1 et FGF-2 avant et jusqu'à 1 mois après.\n\nFGF-2 plus bas à chaque mesure sous laser ; hausse du TGF-β1 seulement chez les témoins.",
+  "l3": {
+   "points": [
+    "Mécanismes biologiques de la resténose."
+   ],
+   "limites": [
+    "Critères biologiques.",
+    "Pas d'aveugle mentionné."
+   ],
+   "pratique": "Intérêt mécanistique."
+  }
+ },
+ {
+  "pmid": "28691417",
+  "title_fr": "Laser intracoronaire pendant l'angioplastie : monoxyde d'azote et endothéline-1",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "coronaires"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "intravasculaire"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 101,
+  "effect": "favorable",
+  "theme": "Coronaropathie",
+  "l1": "Le laser 808 nm intracoronaire augmente durablement les métabolites du monoxyde d'azote après angioplastie, avec une baisse secondaire de l'endothéline-1.",
+  "l2": "Essai randomisé prospectif : 52 patients avec laser intracoronaire 808 nm (9 J/cm²) pendant l'angioplastie, 49 témoins. Dosages de nitrites/nitrates et d'endothéline-1 jusqu'à 1 mois, coronarographie à 6 mois.\n\nNitrites/nitrates plus élevés sous laser à tous les temps après l'intervention ; endothéline-1 plus haute à 6 h puis en baisse, ce qui n'est pas observé chez les témoins.",
+  "l3": {
+   "points": [
+    "Effet sur le tonus vasculaire.",
+    "Suivi biologique à 1 mois."
+   ],
+   "limites": [
+    "Critères intermédiaires.",
+    "Même cohorte que les autres publications."
+   ],
+   "pratique": "Intérêt mécanistique."
+  }
+ },
+ {
+  "pmid": "11053701",
+  "title_fr": "Suivi à long terme après pose de stent coronaire associée à une irradiation intravasculaire au laser rouge",
+  "type": "cases",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "coronaires"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "intravasculaire"
+  ],
+  "nm": [],
+  "n": 68,
+  "effect": "favorable",
+  "theme": "Coronaropathie",
+  "l1": "Chez 68 patients stentés avec irradiation laser rouge intracoronaire, la resténose à 6 mois est de 14,7 %, nulle dans les artères de plus de 3 mm.",
+  "l2": "Série de 68 patients traités par stent coronaire et irradiation intravasculaire au laser rouge, sans groupe témoin. Contrôle angiographique chez 61.\n\nRésténose 14,7 % : 0 % au-delà de 3 mm, 14 % entre 2,5 et 3 mm, 42 % en dessous de 2,5 mm. Aucune complication.",
+  "l3": {
+   "points": [
+    "Faisabilité et sécurité.",
+    "Analyse par calibre artériel."
+   ],
+   "limites": [
+    "Pas de groupe témoin.",
+    "Ère pré-stent actif."
+   ],
+   "pratique": "Historique."
+  }
+ },
+ {
+  "pmid": "29999208",
+  "title_fr": "Laser sur la moelle osseuse en complément de l'angioplastie primaire de l'infarctus : sécurité et faisabilité",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "coronaires"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 24,
+  "effect": "favorable",
+  "theme": "Infarctus",
+  "l1": "Chez 24 patients avec infarctus ST+, le laser appliqué au tibia (moelle osseuse) avant et après l'angioplastie est sûr et ne retarde pas la reperfusion ; la CPK libérée est plus faible.",
+  "l2": "Essai randomisé pilote : 24 patients avec infarctus du myocarde ST+ traités par angioplastie primaire reçoivent du laser sur le tibia pendant 100 s avant l'angioplastie puis à 24 et 72 h, ou un laser éteint. Critère principal : délai porte-ballon.\n\nAucun effet indésirable, délai inchangé (41 contre 48 min). Aire sous la courbe de CPK plus basse sous laser ; résultats sur les cellules souches circulantes et la fraction d'éjection à confirmer.",
+  "l3": {
+   "points": [
+    "Concept de stimulation des cellules souches médullaires.",
+    "Pas de retard de prise en charge."
+   ],
+   "limites": [
+    "Pilote de 24 patients.",
+    "Critères d'efficacité secondaires."
+   ],
+   "pratique": "Recherche clinique seulement."
+  }
+ },
+ {
+  "pmid": "26930372",
+  "title_fr": "Laser basse énergie et remodelage cardiaque après infarctus : revue systématique des études animales",
+  "type": "sr",
+  "level": 5,
+  "pop": "—",
+  "ctx": [
+   "coronaires"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 14,
+  "effect": "favorable",
+  "theme": "Infarctus",
+  "l1": "Sur 14 études animales, le laser réduit surtout la taille de l'infarctus par des effets anti-inflammatoires, pro-angiogéniques et antioxydants ; l'effet sur la fonction cardiaque est rarement démontré.",
+  "l2": "Revue systématique de 14 études animales d'occlusion coronaire avec laser in vivo.\n\nLa réduction de la taille de l'infarctus est le résultat le plus constant (trois études neutres), un seul travail montrant un gain de performance cardiaque. Grande hétérogénéité des paramètres, des moments d'application et des modèles.",
+  "l3": {
+   "points": [
+    "14 études animales.",
+    "Mécanismes multiples."
+   ],
+   "limites": [
+    "Préclinique uniquement.",
+    "Hétérogénéité des protocoles."
+   ],
+   "pratique": "Pas encore d'application clinique."
+  }
+ },
+ {
+  "pmid": "28181487",
+  "title_fr": "Photobiomodulation et lésions d'ischémie-reperfusion myocardique : revue systématique et mécanismes",
+  "type": "sr",
+  "level": 5,
+  "pop": "—",
+  "ctx": [
+   "coronaires"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Infarctus",
+  "l1": "Dans les modèles animaux, la PBM réduit la taille de l'infarctus (jusqu'à 76 %), l'inflammation et la cicatrice, quels que soient la longueur d'onde et les paramètres.",
+  "l2": "Revue systématique des études animales de PBM dans l'ischémie-reperfusion myocardique, complétée par une analyse des mécanismes moléculaires.\n\nEffets constamment positifs : réduction de la taille de l'infarctus, de l'inflammation et de la fibrose, meilleure réparation tissulaire, via les cytokines, des voies de signalisation, des facteurs de transcription et des antioxydants.",
+  "l3": {
+   "points": [
+    "Effet constant chez l'animal.",
+    "Synthèse des mécanismes."
+   ],
+   "limites": [
+    "Aucune donnée humaine.",
+    "Biais de publication possible."
+   ],
+   "pratique": "Justifie des essais cliniques, sans indication actuelle."
+  }
+ },
+ {
+  "pmid": "24337350",
+  "title_fr": "LED 640 nm après pontage coronarien : douleur et cicatrisation de la sternotomie",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chir-cardio"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [
+   640,
+   660
+  ],
+  "n": 90,
+  "effect": "favorable",
+  "theme": "Chirurgie cardiaque",
+  "l1": "La LED 640 nm réduit la douleur à la toux à J6 et J8 et limite rougeur, saignement et désunion de la sternotomie, jusqu'à 6 mois de suivi.",
+  "l2": "Essai randomisé en double aveugle chez 90 patients opérés d'un pontage coronarien : LED 640 nm (1,2 J/cm²) pendant l'hospitalisation, placebo ou témoin. Douleur à la toux (EVA, McGill) et cicatrisation analysée en aveugle sur photographies, suivi de 6 mois pour la désunion.\n\nMoins de douleur sous LED à J6 et J8 ; moins d'hyperhémie, de saignement et de désunion de la cicatrice.",
+  "l3": {
+   "points": [
+    "Double aveugle, placebo et témoin.",
+    "Évaluation photographique en aveugle."
+   ],
+   "limites": [
+    "Même équipe brésilienne pour plusieurs essais.",
+    "Suivi court.",
+    "Critères en partie subjectifs."
+   ],
+   "pratique": "Option simple et sûre pour la douleur et la cicatrisation sternale après pontage."
+  }
+ },
+ {
+  "pmid": "27081873",
+  "title_fr": "Laser ou LED contre la douleur après pontage coronarien chez des patients hyper- ou normoglycémiques",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chir-cardio"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [
+   640,
+   660
+  ],
+  "n": 120,
+  "effect": "favorable",
+  "theme": "Chirurgie cardiaque",
+  "l1": "Laser 640 nm et LED 660 nm réduisent autant la douleur à la toux après pontage à J6 et J8, chez les patients hyperglycémiques comme normoglycémiques.",
+  "l2": "Essai randomisé en double aveugle, 120 patients opérés d'un pontage avec greffon mammaire interne : témoin, placebo, laser 640 nm (1,06 J/cm²) ou LED 660 nm (0,24 J/cm²). Douleur à la toux (EVA, McGill), suivi d'un mois.\n\nBaisse de la douleur plus marquée sous laser et LED que sous placebo et chez les témoins, sans différence selon la glycémie.",
+  "l3": {
+   "points": [
+    "Double aveugle, placebo et témoin.",
+    "Douleur à la toux (EVA, McGill)."
+   ],
+   "limites": [
+    "Même équipe brésilienne pour plusieurs essais.",
+    "Suivi court.",
+    "Critères en partie subjectifs."
+   ],
+   "pratique": "Option simple et sûre pour la douleur et la cicatrisation sternale après pontage."
+  }
+ },
+ {
+  "pmid": "27564925",
+  "title_fr": "Laser ou LED sur la cicatrisation de la sternotomie après pontage chez des patients hyper- ou normoglycémiques",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chir-cardio"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [
+   640,
+   660
+  ],
+  "n": 120,
+  "effect": "favorable",
+  "theme": "Chirurgie cardiaque",
+  "l1": "Laser et LED réduisent pareillement rougeur, saignement et désunion de la sternotomie à J8, chez les patients hyperglycémiques comme normoglycémiques.",
+  "l2": "Essai randomisé en double aveugle, 120 patients opérés d'un pontage : témoin, placebo, laser 640 nm ou LED 660 nm de J2 à J8. Cicatrisation analysée en aveugle sur photographies à la sortie.\n\nMoins d'hyperhémie, de saignement et de désunion sous laser et LED (p ≤ 0,005), sans différence selon la glycémie.",
+  "l3": {
+   "points": [
+    "Double aveugle, placebo et témoin.",
+    "Évaluation photographique en aveugle."
+   ],
+   "limites": [
+    "Même équipe brésilienne pour plusieurs essais.",
+    "Suivi court.",
+    "Critères en partie subjectifs."
+   ],
+   "pratique": "Option simple et sûre pour la douleur et la cicatrisation sternale après pontage."
+  }
+ },
+ {
+  "pmid": "27649961",
+  "title_fr": "Laser 660 nm sur la cicatrisation de la sternotomie après pontage coronarien",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chir-cardio"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   660
+  ],
+  "n": 90,
+  "effect": "favorable",
+  "theme": "Chirurgie cardiaque",
+  "l1": "Quatre séances de laser 660 nm réduisent rougeur, saignement et désunion de la sternotomie au 8e jour.",
+  "l2": "Essai randomisé en double aveugle, 90 patients : témoin, placebo ou laser 660 nm (1,06 J/cm²) à J2, J4, J6 et J8. Cicatrice photographiée et analysée en aveugle.\n\nMoins d'hyperhémie, de saignement et de désunion dans le groupe laser (p ≤ 0,005).",
+  "l3": {
+   "points": [
+    "Double aveugle, placebo et témoin.",
+    "Évaluation photographique en aveugle."
+   ],
+   "limites": [
+    "Même équipe brésilienne pour plusieurs essais.",
+    "Suivi court.",
+    "Critères en partie subjectifs."
+   ],
+   "pratique": "Option simple et sûre pour la douleur et la cicatrisation sternale après pontage."
+  }
+ },
+ {
+  "pmid": "28074796",
+  "title_fr": "Laser 660 nm contre la douleur de la sternotomie après pontage coronarien",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chir-cardio"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   660
+  ],
+  "n": 90,
+  "effect": "favorable",
+  "theme": "Chirurgie cardiaque",
+  "l1": "Le laser 660 nm réduit la douleur à la toux après pontage aux 6e et 8e jours, sur les dimensions sensorielle et affective.",
+  "l2": "Essai randomisé, 90 patients : témoin, placebo ou laser 660 nm (1,06 J/cm²). Douleur à la toux (EVA et McGill), suivi d'un mois.\n\nBaisse de la douleur plus importante sous laser à J6 et J8 (p ≤ 0,05).",
+  "l3": {
+   "points": [
+    "Double aveugle, placebo et témoin.",
+    "Douleur à la toux (EVA, McGill)."
+   ],
+   "limites": [
+    "Même équipe brésilienne pour plusieurs essais.",
+    "Suivi court.",
+    "Critères en partie subjectifs."
+   ],
+   "pratique": "Option simple et sûre pour la douleur et la cicatrisation sternale après pontage."
+  }
+ },
+ {
+  "pmid": "29023185",
+  "title_fr": "Laser 660 nm sur la cicatrisation après prélèvement de veine saphène lors d'un pontage",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chir-cardio"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   660
+  ],
+  "n": 40,
+  "effect": "favorable",
+  "theme": "Chirurgie cardiaque",
+  "l1": "Quatre jours de laser 660 nm (6 J/cm²) réduisent hématome et rougeur et améliorent la fermeture de la cicatrice de saphénectomie.",
+  "l2": "Essai randomisé en double aveugle, 40 patients opérés d'un pontage : laser 660 nm, 6 J/cm², de J1 à J4 sur la cicatrice de prélèvement saphène, ou placebo. Surfaces d'hématome et d'hyperhémie mesurées sur photographies (ImageJ), fermeture jugée en aveugle.\n\nMoins d'hématome et d'hyperhémie (p = 0,0003) et meilleure fermeture (p = 0,009) sous laser.",
+  "l3": {
+   "points": [
+    "Mesure quantitative des images.",
+    "Double aveugle."
+   ],
+   "limites": [
+    "40 patients.",
+    "Suivi limité à J4."
+   ],
+   "pratique": "Utile sur la cicatrice de jambe, siège de 10 % des complications."
+  }
+ },
+ {
+  "pmid": "29027034",
+  "title_fr": "LED 640 nm sur la cicatrisation après prélèvement de veine saphène lors d'un pontage",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chir-cardio"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "LED"
+  ],
+  "nm": [
+   640
+  ],
+  "n": 40,
+  "effect": "favorable",
+  "theme": "Chirurgie cardiaque",
+  "l1": "La LED 640 nm (6 J/cm²) améliore la cicatrisation de la saphénectomie (moins d'hématome et de rougeur, meilleure fermeture) dès le 5e jour.",
+  "l2": "Essai randomisé en double aveugle, 40 patients opérés d'un pontage sous circulation extracorporelle : LED 640 nm, 6 J/cm², ou placebo sur la cicatrice de saphénectomie. Photogrammétrie à J1 et J5.\n\nRésultats en faveur de la LED sur l'hématome, l'hyperhémie et la fermeture des berges.",
+  "l3": {
+   "points": [
+    "Double aveugle.",
+    "Technique peu coûteuse."
+   ],
+   "limites": [
+    "Petit effectif.",
+    "Suivi très court."
+   ],
+   "pratique": "Alternative LED au laser pour la cicatrice de jambe."
+  }
+ },
+ {
+  "pmid": "30547261",
+  "title_fr": "Laser contre exercices de stabilisation du tronc sur la consolidation sternale après pontage",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chir-cardio"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 45,
+  "effect": "mitigé",
+  "theme": "Chirurgie cardiaque",
+  "l1": "Chez 45 hommes avec instabilité sternale après pontage, le laser réduit l'écart sternal haut, les exercices l'écart bas ; les deux s'ajoutent utilement à la réadaptation.",
+  "l2": "Essai randomisé chez 45 hommes de 45 à 65 ans avec instabilité sternale aiguë après pontage : laser, exercices de stabilisation du tronc ou réadaptation seule, 12 séances sur 4 semaines.\n\nLe laser réduit significativement l'écart sternal supérieur et moyen, les exercices l'écart moyen et inférieur ; la réadaptation seule n'a pas d'effet significatif.",
+  "l3": {
+   "points": [
+    "Population ciblée (instabilité sternale).",
+    "Mesure de l'écart sternal."
+   ],
+   "limites": [
+    "Paramètres laser à vérifier.",
+    "Pas de placebo laser."
+   ],
+   "pratique": "Complément possible en réadaptation cardiaque."
+  }
+ },
+ {
+  "pmid": "33398614",
+  "title_fr": "Photobiomodulation intraveineuse et transcutanée après pontage coronarien : complications postopératoires",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chir-cardio",
+   "ILIB"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "ILIB"
+  ],
+  "nm": [
+   405,
+   980
+  ],
+  "n": 192,
+  "effect": "favorable",
+  "theme": "Chirurgie cardiaque",
+  "l1": "Chez 170 patients analysés, laser intraveineux 405 nm et laser transcutané 980 nm autour du pontage abaissent LDH et CPK au 4e jour et réduisent certaines complications.",
+  "l2": "Essai randomisé contrôlé, 192 patients opérés d'un pontage (170 analysés) : laser transcutané 980 nm (200 mW, 6 J/cm²) et laser intraveineux 405 nm (1,5 mW, 30 min) la veille, à l'arrivée en soins intensifs puis chaque jour pendant 6 jours, ou soins standard.\n\nLDH et CPK significativement plus bas au 4e jour sous PBM ; les auteurs rapportent moins de complications postopératoires.",
+  "l3": {
+   "points": [
+    "Plus grand essai de PBM en chirurgie cardiaque.",
+    "Associe deux voies d'administration."
+   ],
+   "limites": [
+    "Pas de placebo.",
+    "Effet des deux voies non séparable.",
+    "Complications à détailler dans l'article."
+   ],
+   "pratique": "Prometteur mais à confirmer en aveugle."
+  }
+ },
+ {
+  "pmid": "29466116",
+  "title_fr": "Laser sur les quadriceps et capacité à l'effort après pontage coronarien : essai croisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chir-cardio",
+   "insuffisance-c"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   850
+  ],
+  "n": 15,
+  "effect": "neutre",
+  "theme": "Réadaptation cardiaque",
+  "l1": "Après pontage, le laser 850 nm sur les quadriceps avant un test de marche n'améliore ni la distance, ni l'effort perçu, ni les paramètres hémodynamiques.",
+  "l2": "Essai croisé contre placebo chez 15 hommes en postopératoire de pontage : laser 850 nm, 200 mW, 30 J par point, 240 J par quadriceps, 3 minutes avant un test de marche navette incrémental.\n\nPas de différence sur la distance, l'échelle de Borg, la fréquence cardiaque ni la pression artérielle ; pas d'effet net sur les marqueurs de lésion et de stress oxydatif.",
+  "l3": {
+   "points": [
+    "Essai croisé contre placebo."
+   ],
+   "limites": [
+    "15 patients.",
+    "Effet aigu d'une seule séance."
+   ],
+   "pratique": "Pas d'intérêt démontré en séance unique avant l'effort."
+  }
+ },
+ {
+  "pmid": "27250713",
+  "title_fr": "Laser avant un test de marche chez des patients hospitalisés pour insuffisance cardiaque : étude pilote",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "insuffisance-c"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 20,
+  "effect": "mitigé",
+  "theme": "Insuffisance cardiaque",
+  "l1": "Le laser ne change pas la distance de marche en 6 minutes mais réduit l'effort perçu et la hausse du lactate chez 20 patients insuffisants cardiaques.",
+  "l2": "Essai pilote randomisé contre placebo chez 20 patients hospitalisés pour insuffisance cardiaque systolique (FEVG < 45 %) : laser multidiodes sur les muscles ou placebo avant un test de marche de 6 minutes.\n\nLa distance augmente dans les deux groupes sans différence. L'effort perçu (Borg) est plus faible sous laser (p = 0,006) et le lactate n'augmente pas, contrairement au groupe placebo.",
+  "l3": {
+   "points": [
+    "Population fragile hospitalisée.",
+    "Lactate et effort perçu."
+   ],
+   "limites": [
+    "Pilote, 20 patients.",
+    "Effet aigu seulement."
+   ],
+   "pratique": "Piste pour faciliter la réadaptation."
+  }
+ },
+ {
+  "pmid": "30264179",
+  "title_fr": "Laser sur les quadriceps et fatigue musculaire dans l'insuffisance cardiaque (électromyographie)",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "insuffisance-c"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   850
+  ],
+  "n": 14,
+  "effect": "neutre",
+  "theme": "Insuffisance cardiaque",
+  "l1": "Une séance de laser 850 nm sur le quadriceps ne réduit pas la fatigue musculaire mesurée en électromyographie chez 14 insuffisants cardiaques.",
+  "l2": "Essai croisé en double aveugle chez 14 patients insuffisants cardiaques : laser 850 nm (5 J par diode) ou placebo sur le quadriceps avant un protocole de fatigue isocinétique. Électromyographie de surface.\n\nAucune différence d'activation ni de fatigue musculaire.",
+  "l3": {
+   "points": [
+    "Mesure objective (EMG)."
+   ],
+   "limites": [
+    "14 patients.",
+    "Séance unique."
+   ],
+   "pratique": "Pas d'effet en application isolée."
+  }
+ },
+ {
+  "pmid": "41563255",
+  "title_fr": "Photobiomodulation et réadaptation cardiaque dans l'insuffisance cardiaque à fraction d'éjection réduite",
+  "type": "review",
+  "level": 5,
+  "pop": "adulte",
+  "ctx": [
+   "insuffisance-c"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Insuffisance cardiaque",
+  "l1": "Point de vue : la PBM pourrait renforcer la réadaptation de l'insuffisant cardiaque, mais l'exercice reste le traitement de fond et les paramètres sont à standardiser.",
+  "l2": "Article de synthèse (sans résumé) sur l'association de la photobiomodulation à la réadaptation cardiaque chez les patients avec fraction d'éjection réduite ou modérément réduite : promesses, paramètres et primauté de l'exercice.",
+  "l3": {
+   "points": [
+    "Mise au point récente."
+   ],
+   "limites": [
+    "Avis d'experts, sans résumé."
+   ],
+   "pratique": "La PBM ne doit pas se substituer à l'exercice."
+  }
+ },
+ {
+  "pmid": "30670240",
+  "title_fr": "LED avant l'effort chez des diabétiques de type 2 : adaptation cardiopulmonaire et glycémie",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [
+   850
+  ],
+  "n": 16,
+  "effect": "mitigé",
+  "theme": "Diabète et effort",
+  "l1": "La LED 850 nm sur les muscles avant l'effort n'améliore pas l'adaptation cardiopulmonaire mais abaisse la glycémie après l'exercice chez 16 diabétiques.",
+  "l2": "Essai croisé en double aveugle contre placebo chez 16 hommes diabétiques de type 2 (55 ans) : LED 850 nm (50 diodes, 75 mW) sur quadriceps et triceps sural, 40 s par site, avant un effort modéré sur cycloergomètre.\n\nPas d'effet sur la consommation d'oxygène, le débit cardiaque ni le lactate ; glycémie de 174 à 144 mg/dL après l'effort sous LED.",
+  "l3": {
+   "points": [
+    "Croisé, double aveugle."
+   ],
+   "limites": [
+    "16 patients.",
+    "Effet aigu."
+   ],
+   "pratique": "Intérêt surtout métabolique, à confirmer."
+  }
+ },
+ {
+  "pmid": "31203569",
+  "title_fr": "LED avant l'effort et sensibilité du baroréflexe chez des diabétiques de type 2",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 11,
+  "effect": "neutre",
+  "theme": "Système nerveux autonome",
+  "l1": "Chez 11 diabétiques, la LED (150 ou 300 J) sur les muscles des jambes ne modifie pas nettement le baroréflexe pendant et après un effort constant.",
+  "l2": "Essai croisé contre placebo chez 11 hommes diabétiques de type 2 : LED à 150 J, 300 J ou placebo sur quadriceps et gastrocnémiens avant un exercice à charge constante. Baroréflexe mesuré au repos, à l'effort et en récupération.\n\nLe résumé ne rapporte pas d'effet significatif clair sur la sensibilité du baroréflexe.",
+  "l3": {
+   "points": [
+    "Contrôle autonome cardiovasculaire."
+   ],
+   "limites": [
+    "11 patients.",
+    "Résultats peu concluants."
+   ],
+   "pratique": "Pas d'application."
+  }
+ },
+ {
+  "pmid": "41810483",
+  "title_fr": "PBM du nerf vague et variabilité de la fréquence cardiaque chez des sujets actifs",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 34,
+  "effect": "neutre",
+  "theme": "Système nerveux autonome",
+  "l1": "La PBM du nerf vague sous l'oreille (12 J) ne modifie quasiment pas la variabilité de la fréquence cardiaque de sujets actifs.",
+  "l2": "Essai randomisé contrôlé chez 34 adultes sains et actifs : PBM sur le nerf vague en région sous-auriculaire (12 J) ou simulation, associée à un exercice de résistance, et groupe PBM sans exercice.\n\nSeule l'entropie approximative baisse légèrement (p = 0,011) ; les autres indices de variabilité ne changent pas.",
+  "l3": {
+   "points": [
+    "Analyse complète de la variabilité."
+   ],
+   "limites": [
+    "Sujets sains.",
+    "Effet aigu."
+   ],
+   "pratique": "Pas d'effet notable."
+  }
+ },
+ {
+  "pmid": "33384606",
+  "title_fr": "Neuromodulation autonome non invasive dans les maladies cardiovasculaires : revue",
+  "type": "review",
+  "level": 5,
+  "pop": "—",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Système nerveux autonome",
+  "l1": "Revue des techniques non invasives de rééquilibrage du système nerveux autonome dans les cardiopathies, dont la LED, aux côtés de la stimulation vagale auriculaire et des ultrasons.",
+  "l2": "Revue narrative sur la neuromodulation non invasive en cardiologie : stimulation transcutanée du nerf vague, champs électromagnétiques, ultrasons, optogénétique et diodes électroluminescentes.\n\nLa LED y apparaît comme une piste expérimentale, surtout étudiée chez l'animal (arythmies post-infarctus).",
+  "l3": {
+   "points": [
+    "Panorama des techniques."
+   ],
+   "limites": [
+    "Revue narrative.",
+    "Peu de données humaines pour la LED."
+   ],
+   "pratique": "Pas d'application clinique."
+  }
+ },
+ {
+  "pmid": "25087414",
+  "title_fr": "Irradiation laser intraveineuse du sang : fonction endothéliale et microcirculation dans la polyarthrite rhumatoïde",
+  "type": "nrct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "ILIB",
+   "artères"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "ILIB"
+  ],
+  "nm": [
+   630,
+   365
+  ],
+  "n": 132,
+  "effect": "favorable",
+  "theme": "Irradiation sanguine (ILIB)",
+  "l1": "Dix jours d'irradiation laser intraveineuse (rouge puis UV) améliorent la fonction endothéliale et la microcirculation de patients atteints de polyarthrite rhumatoïde.",
+  "l2": "Étude contrôlée russe : 102 patients atteints de polyarthrite rhumatoïde reçoivent 10 jours d'irradiation intraveineuse du sang (630 nm 15 min puis 365 nm 5 min, appareil Matrix-VLOK), 30 témoins non traités.\n\nLes auteurs rapportent une amélioration de la fonction endothéliale et des indices de microcirculation.",
+  "l3": {
+   "points": [
+    "Grand effectif."
+   ],
+   "limites": [
+    "Non randomisé, sans placebo.",
+    "Associe une longueur d'onde UV.",
+    "Résultats peu chiffrés."
+   ],
+   "pratique": "Donnée faible."
+  }
+ },
+ {
+  "pmid": "40801085",
+  "title_fr": "Photobiomodulation vasculaire (laser sur l'artère radiale) dans le sepsis : essai contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ILIB"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "ILIB"
+  ],
+  "nm": [
+   660
+  ],
+  "n": 30,
+  "effect": "favorable",
+  "theme": "Irradiation sanguine (ILIB)",
+  "l1": "Chez 30 patients septiques, le laser 660 nm sur l'artère radiale 30 minutes par jour pendant 5 jours améliore plusieurs paramètres biologiques dès le 3e jour.",
+  "l2": "Essai randomisé en aveugle contre placebo chez 30 patients hospitalisés pour sepsis : laser rouge 660 nm, 180 J, sur l'artère radiale 30 minutes par jour pendant 5 jours.\n\nÀ partir du 3e jour, baisse significative des leucocytes, du lactate et de la créatinine, avec des variations des gaz du sang.",
+  "l3": {
+   "points": [
+    "Population critique.",
+    "Placebo."
+   ],
+   "limites": [
+    "Petit effectif.",
+    "Critères biologiques, pas de mortalité."
+   ],
+   "pratique": "Recherche, pas d'usage en réanimation."
+  }
+ },
+ {
+  "pmid": "41423539",
+  "title_fr": "Irradiation sanguine rouge ou bleue après AVC : biomarqueurs de risque et récupération",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ILIB"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "ILIB"
+  ],
+  "nm": [
+   650,
+   415
+  ],
+  "n": 30,
+  "effect": "mitigé",
+  "theme": "Irradiation sanguine (ILIB)",
+  "l1": "Après un AVC, l'ILIB rouge 650 nm abaisse le fibrinogène et les globules rouges ; la récupération neurologique progresse autant avec la lumière bleue.",
+  "l2": "Essai croisé randomisé en double aveugle chez 30 patients dans les 6 mois suivant un AVC : 10 séances d'ILIB rouge (650 nm) et 10 de bleue (415 nm), séparées de deux mois.\n\nLe rouge réduit le fibrinogène (−27,6 mg/dL) et l'hématocrite ; chez les plus jeunes, il abaisse aussi l'IL-6. Les scores moteurs et d'équilibre progressent avec les deux couleurs.",
+  "l3": {
+   "points": [
+    "Comparaison de deux longueurs d'onde."
+   ],
+   "limites": [
+    "Pas de groupe sans traitement.",
+    "Récupération spontanée après AVC."
+   ],
+   "pratique": "Effets biologiques modestes ; intérêt clinique non établi."
+  }
+ },
+ {
+  "pmid": "38433159",
+  "title_fr": "Irradiation laser intravasculaire du sang (ILIB) : cytokines et monoxyde d'azote, revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "mixte",
+  "ctx": [
+   "ILIB"
+  ],
+  "aim": "—",
+  "mode": [
+   "ILIB"
+  ],
+  "nm": [
+   660,
+   808
+  ],
+  "n": 6,
+  "effect": "favorable",
+  "theme": "Irradiation sanguine (ILIB)",
+  "l1": "Six études animales et humaines montrent que l'ILIB augmente les cytokines anti-inflammatoires et le monoxyde d'azote et réduit les cytokines pro-inflammatoires.",
+  "l2": "Revue systématique (PRISMA) des travaux sur l'effet de l'ILIB sur les cytokines et le NO chez l'animal et l'humain ; 6 études retenues sur 135.\n\nTendance anti-inflammatoire et hausse du NO, avec des longueurs d'onde de 660 à 808 nm.",
+  "l3": {
+   "points": [
+    "Mécanismes biologiques."
+   ],
+   "limites": [
+    "Six études hétérogènes.",
+    "Mélange animal et humain."
+   ],
+   "pratique": "Base mécanistique, sans indication clinique."
+  }
+ },
+ {
+  "pmid": "41065846",
+  "title_fr": "Irradiation laser intraveineuse du sang : applications cliniques et mécanismes, revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "mixte",
+  "ctx": [
+   "ILIB"
+  ],
+  "aim": "—",
+  "mode": [
+   "ILIB"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Irradiation sanguine (ILIB)",
+  "l1": "L'ILIB montre des effets biologiques multiples et des résultats positifs dans la douleur, le sommeil, le poumon et le Covid long, mais avec des études petites et des doses non standardisées.",
+  "l2": "Revue systématique des applications de l'ILIB en pathologie musculo-squelettique, respiratoire, cardiovasculaire et neurologique.\n\nEffets décrits : rhéologie sanguine, transport d'oxygène, immunomodulation, baisse de l'inflammation et du stress oxydatif. Limites majeures : petits effectifs, peu d'essais randomisés, paramètres variables.",
+  "l3": {
+   "points": [
+    "Panorama large et récent."
+   ],
+   "limites": [
+    "Qualité des études faible.",
+    "Pas de méta-analyse."
+   ],
+   "pratique": "Technique encore expérimentale."
+  }
+ },
+ {
+  "pmid": "17352633",
+  "title_fr": "Laser-acupuncture au point Neiguan (PC6) et variabilité de la fréquence cardiaque chez l'homme jeune",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": 45,
+  "effect": "neutre",
+  "theme": "Système nerveux autonome",
+  "l1": "Chez 45 hommes sains, la laser-acupuncture du point PC6 ne modifie pas la variabilité de la fréquence cardiaque par rapport au placebo.",
+  "l2": "Essai randomisé en double aveugle contre placebo : 25 hommes reçoivent une laser-acupuncture du point Neiguan (PC6) sur l'avant-bras droit, 20 un placebo sans émission. Variabilité de la fréquence cardiaque suivie avant, pendant et après.\n\nAucun effet spécifique sur l'activité sympathique ou parasympathique.",
+  "l3": {
+   "points": [
+    "Double aveugle, placebo."
+   ],
+   "limites": [
+    "Sujets sains.",
+    "Effet aigu."
+   ],
+   "pratique": "Pas d'effet autonome mesurable chez le sujet sain."
+  }
+ },
+ {
+  "pmid": "27776764",
+  "title_fr": "Acupuncture manuelle, laser-acupuncture ou champ électromagnétique au point BL15 : variabilité de la fréquence cardiaque",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [
+   660
+  ],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Système nerveux autonome",
+  "l1": "La laser-acupuncture 660 nm au point Xinshu (BL15) modifie la balance sympathovagale (rapport LF/HF), comme l'acupuncture manuelle, chez des volontaires.",
+  "l2": "Étude comparant acupuncture manuelle, laser-acupuncture (660 nm, 50 mW) et champ électromagnétique (2 Hz, 46 mT) au point BL15, avec analyse de la variabilité de la fréquence cardiaque avant et après stimulation.\n\nLes auteurs rapportent des variations du rapport LF/HF selon la technique.",
+  "l3": {
+   "points": [
+    "Comparaison de trois stimulations."
+   ],
+   "limites": [
+    "Volontaires, effet immédiat.",
+    "Effectif à vérifier."
+   ],
+   "pratique": "Intérêt physiologique seulement."
+  }
+ },
+ {
+  "pmid": "23265079",
+  "title_fr": "Laser-acupuncture violette à 2 ou 100 Hz : fréquence cardiaque et sa variabilité (pilote)",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [
+   405
+  ],
+  "n": 13,
+  "effect": "mitigé",
+  "theme": "Système nerveux autonome",
+  "l1": "Chez 13 volontaires, la laser-acupuncture violette modifie la fréquence cardiaque pendant et après la stimulation.",
+  "l2": "Étude pilote chez 13 volontaires sains (24 ans) : laser-acupuncture violette modulée à 2 ou 100 Hz, mesure non invasive de la fréquence cardiaque et de sa variabilité.\n\nDifférence significative de fréquence cardiaque avant, pendant et après la stimulation.",
+  "l3": {
+   "points": [
+    "Laser violet, fréquences de modulation."
+   ],
+   "limites": [
+    "13 sujets.",
+    "Pas de placebo décrit."
+   ],
+   "pratique": "Recherche fondamentale."
+  }
+ },
+ {
+  "pmid": "25730928",
+  "title_fr": "Contrepulsion externe associée aux bains carbo-gazeux et au laser infrarouge en réadaptation coronarienne",
+  "type": "nrct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "coronaires"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 40,
+  "effect": "favorable",
+  "theme": "Coronaropathie",
+  "l1": "Chez 40 coronariens (angor ou après revascularisation), l'association contrepulsion externe, bains carbo-gazeux et laser infrarouge améliore les paramètres cliniques et fonctionnels.",
+  "l2": "Étude russe chez 40 patients : 20 avec angor d'effort de classe II–III, 20 après revascularisation (pontage ou angioplastie). Programme combinant contrepulsion externe, bains de gaz carbonique et laser infrarouge.\n\nAmélioration clinique et fonctionnelle rapportée ; la part du laser ne peut pas être isolée.",
+  "l3": {
+   "points": [
+    "Population coronarienne en réadaptation."
+   ],
+   "limites": [
+    "Programme combiné.",
+    "Pas de groupe placebo laser."
+   ],
+   "pratique": "Effet propre du laser inconnu."
+  }
+ }
+]

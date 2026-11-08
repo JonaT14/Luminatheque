@@ -65,6 +65,7 @@
    ],
    "n_sites": 1,
    "matched": [
+    "cardiologie",
     "dermatologie"
    ]
   },
@@ -1698,6 +1699,136 @@
    ]
   },
   {
+   "nct": "NCT07577973",
+   "title": "The Effect of Self-Acupressure on Blood Pressure, Stress, and Well-Being Levels in Individuals With Hypertension",
+   "official": "The Effect of Self-Acupressure on Blood Pressure, Stress, and Well-Being Levels in Individuals With Hypertension: A Three-Arm Randomized Controlled Trial",
+   "acronym": "SAPH",
+   "status": "RECRUITING",
+   "start": "2026-09-07",
+   "end": "2026-12-01",
+   "completion": "2026-12-30",
+   "first_posted": "2026-05-11",
+   "updated": "2026-11-04",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 72,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "PRIMARY HYPERTENSION"
+   ],
+   "interventions": [
+    {
+     "type": "BEHAVIORAL",
+     "name": "Real Acupressure"
+    },
+    {
+     "type": "BEHAVIORAL",
+     "name": "sham acupressure"
+    },
+    {
+     "type": "OTHER",
+     "name": "Usual Care"
+    }
+   ],
+   "summary": "This randomized controlled trial examines the effects of nurse-led self-acupressure at HT7, LI4, PC6, and EX3 points on blood pressure, stress, and well-being in adults with primary hypertension. Participants are randomized to real acupressure, sham acupressure, or usual care groups for 2 weeks.",
+   "outcome": "change in blood pressure",
+   "sponsor": "Abant Izzet Baysal University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Saadet Can Çiçek",
+    "title": "Asst. Prof.Saadet Can Cicek,Phd",
+    "affiliation": "Abant Izzet Baysal University"
+   },
+   "officials": [
+    {
+     "name": "Saadet Can Cicek, Associate Professor,PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Abant Izzet Baysal University"
+    }
+   ],
+   "countries": [
+    "Turkey (Türkiye)"
+   ],
+   "sites": [
+    {
+     "facility": "A Family Health Center in Duzce",
+     "city": "Center",
+     "country": "Turkey (Türkiye)"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "cardiologie"
+   ]
+  },
+  {
+   "nct": "NCT07525310",
+   "title": "Photobiomodulation Effects on Blood Pressure and Vascular Function in Treated Hypertensive Patients",
+   "official": "Effect of Vascular Photobiomodulation on Cardiovascular Parameters of Treated Hypertensive Patients: A Randomized and Controlled Clinical Trial",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2026-09-01",
+   "end": "2027-08-31",
+   "completion": "2027-11-30",
+   "first_posted": "2026-04-13",
+   "updated": "2026-09-09",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 80,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Hypertension"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Vascular Photobiomodulation"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham Photobiomodulation"
+    }
+   ],
+   "summary": "This double-blind, randomized, sham-controlled clinical trial aims to evaluate the effects of vascular photobiomodulation on blood pressure and vascular function in hypertensive patients treated with losartan. A total of 80 patients using losartan (100 mg/day for at least two months) will be recruited and followed for 4 weeks. Participants will be randomly allocated to either an active photobiomodulation group or a sham control group.",
+   "outcome": "Change in Brachial Artery Vascular Function",
+   "sponsor": "University of Nove de Julho",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Raphael Mendes Ritti Dias",
+    "title": "Professor",
+    "affiliation": "University of Nove de Julho"
+   },
+   "officials": [
+    {
+     "name": "Raphael Dias, PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "University of Nove de Julho"
+    }
+   ],
+   "countries": [
+    "Brazil"
+   ],
+   "sites": [
+    {
+     "facility": "Raphael Dias",
+     "city": "São Paulo",
+     "country": "Brazil"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "cardiologie"
+   ]
+  },
+  {
    "nct": "NCT07788248",
    "title": "Low-Level Laser Therapy for Carpal Tunnel Syndrome",
    "official": "Efficacy of Low-Level Laser Therapy on Symptom Severity, Functionality, Ultrasonographic and Electrophysiological Parameters in Carpal Tunnel Syndrome: A Randomized, Sham-Controlled, Assessor-Blind Trial",
@@ -2821,7 +2952,66 @@
    ],
    "n_sites": 1,
    "matched": [
+    "cardiologie",
     "dermatologie"
+   ]
+  },
+  {
+   "nct": "NCT07170397",
+   "title": "Effects of Laser Acupuncture Treatment in Hypertension Haemodialysis Patients",
+   "official": "Effects of a Single Session of Laser Acupuncture Treatment on Blood Pressure and in Hypertension Haemodialysis Patients",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-08-03",
+   "end": "2027-10-01",
+   "completion": "2027-12-01",
+   "first_posted": "2025-09-12",
+   "updated": "2026-08-04",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "NA",
+   "masking": "NONE",
+   "conditions": [
+    "Hypertension"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Acupuncture Laser Therapy"
+    }
+   ],
+   "summary": "The purpose of this study is to find the effect of acupuncture laser therapy on Blood Pressure in Hypertension Haemodialysis Patients",
+   "outcome": "Change in systolic and diastolic blood pressure",
+   "sponsor": "Sinai University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Amany Gomaa Atiaa",
+    "title": "Lecturer in Physical Therapy",
+    "affiliation": "Sinai University"
+   },
+   "officials": [],
+   "countries": [
+    "Egypt"
+   ],
+   "sites": [
+    {
+     "facility": "Cairo university- Faculity of physical therapy",
+     "city": "Cairo",
+     "country": "Egypt"
+    },
+    {
+     "facility": "Sinai university- Faculity of physical therapy",
+     "city": "El Arish",
+     "country": "Egypt"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "cardiologie"
    ]
   },
   {
@@ -4831,6 +5021,52 @@
    ]
   },
   {
+   "nct": "NCT07543211",
+   "title": "Effectiveness of Laser Acupuncture in Improving Arterial Stiffness Among Patients With Cardiorenal Metabolic Syndrome",
+   "official": "Effectiveness of Laser Acupuncture in Improving Arterial Stiffness Among Patients With Cardiorenal Metabolic Syndrome",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-05",
+   "end": "2026-08",
+   "completion": "2026-10",
+   "first_posted": "2026-04-21",
+   "updated": "2026-04-21",
+   "type": "OBSERVATIONAL",
+   "phases": [],
+   "n": 35,
+   "allocation": null,
+   "masking": null,
+   "conditions": [
+    "Hypertension",
+    "Diabetes Mellitus",
+    "Chronic Kidney Disease",
+    "Cardio-Renal-Metabolic Syndrome"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "laser acupuncture"
+    }
+   ],
+   "summary": "Background: Cardio-renal metabolic syndrome (CRMS) is a vicious cycle of cardiac, renal, and metabolic disease, representing a high-risk for atherosclerosis. Laser acupuncture modulates vascular inflammation and improves endothelial function via low-level laser therapy (LLLT, \\<500mW) at acupoints or musculoskeletal pain sites. Few studies have focused on CRMS populations. This study evaluates laser acupuncture effects on arterial stiffness in CRMS.\n\nPurpose: To assess the effects of improvement of laser acupuncture in patients with CRMS, and to evaluate its feasibility as supportive therapy.\n\nMethods: A single-group pre-post design is used. Participants are patients with CRMS receiving laser acupuncture at a Chinese medicine clinic in Taiwan. CRMS is interrelated by cardiac, renal, and metabolic disease. Inclusion criteria require diagnosis in ≥2 of 3 systems (cardiovascular, renal, or ",
+   "outcome": "Change in Pulse Wave Velocity (PWV)",
+   "sponsor": "National Yang Ming Chiao Tung University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Li-Yin Chien",
+    "title": "Professor",
+    "affiliation": "National Yang Ming Chiao Tung University"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "cardiologie"
+   ]
+  },
+  {
    "nct": "NCT07576062",
    "title": "Efficacy of Cognitive Functional Therapy in Individuals With Chronic Low Back Pain After Spinal Surgery",
    "official": "Efficacy of Cognitive Functional Therapy in Individuals With Chronic Low Back Pain After Spinal Surgery: A Randomized, Sham-Controlled Trial",
@@ -6832,6 +7068,82 @@
    "n_sites": 1,
    "matched": [
     "dermatologie"
+   ]
+  },
+  {
+   "nct": "NCT07381387",
+   "title": "Comparison of Supra-abdominal ex Versus Infra-abdominal With Laser on Median Sternotomy",
+   "official": "Effect of Supra-abdominal Versus Infra-abdominal Muscles Training Combined With LASER on Sternal Instability After Open Heart Surgery",
+   "acronym": "LLL/CABG",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-01-27",
+   "end": "2026-07-27",
+   "completion": "2026-07-27",
+   "first_posted": "2026-02-02",
+   "updated": "2026-02-02",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 120,
+   "allocation": "RANDOMIZED",
+   "masking": "QUADRUPLE",
+   "conditions": [
+    "Sternal Instability After Median Sternotomy"
+   ],
+   "interventions": [
+    {
+     "type": "BEHAVIORAL",
+     "name": "supra abdomen resisted exercises combined with LLL + Traditional cardiac rehabilitation program of phase one"
+    },
+    {
+     "type": "BEHAVIORAL",
+     "name": "): patients will infra abdomen resisted exercises combined with LLL +Traditional cardiac rehabilitation program of phase one."
+    },
+    {
+     "type": "BEHAVIORAL",
+     "name": "patients will receive Traditional cardiac rehabilitation program of phase one with LLL"
+    },
+    {
+     "type": "OTHER",
+     "name": "patients will receive Traditional cardiac rehabilitation program of phase one only"
+    }
+   ],
+   "summary": "the aim of this study is to find out the differences between the effect of supra- abdomen exercises and the effect of infra-abdomen exercise combined with LASER And the effect of LOW LEVEL LASER only on sternal instability. Methods: 120 patients of both sexes who had acute sternal instability post-open heart surgery will be recruited in this study at Assiout University Hospitals; their ages will be \\> 18 years. They will be randomly assigned into 4 equal groups:\n\n1. Study group (A): patients will receive supra-abdominal resisted exercises combined with LLL and the traditional cardiac rehabilitation program of phase one.\n2. Study group (B): patients will do infra-abdominal resisted exercises combined with LLL and the traditional cardiac rehabilitation program of phase one.\n3. Study group (c): patients will receive a traditional cardiac rehabilitation pro-gram of phase one with LLL\n4. Cont",
+   "outcome": "sternal instability",
+   "sponsor": "Beni-Suef University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Mayar Mohammed Khalifa Ahmed",
+    "title": "Physiotherapist",
+    "affiliation": "Beni-Suef University"
+   },
+   "officials": [
+    {
+     "name": "SHERIN HASSAN MOHAMMED MEHANI. MEHANI., professor",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "benisueif university"
+    },
+    {
+     "name": "MOHAMMED AHMED KHALIL SALAMA SALAMA, professor",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Assiut University"
+    }
+   ],
+   "countries": [
+    "Egypt"
+   ],
+   "sites": [
+    {
+     "facility": "مستشفي القلب الحامعي -مستشفيات جامعه اسيوط",
+     "city": "Asyut",
+     "country": "Egypt"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "cardiologie"
    ]
   },
   {
@@ -8960,6 +9272,57 @@
    ]
   },
   {
+   "nct": "NCT07313410",
+   "title": "Using Near-Infrared Light to Better Understand Peripheral Artery Disease",
+   "official": "Near-Infrared Diffuse Correlation Spectroscopy to Better Define the Pathophysiology of Peripheral Artery Disease",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2025-11-01",
+   "end": "2028-12-31",
+   "completion": "2028-12-31",
+   "first_posted": "2026-01-02",
+   "updated": "2026-01-02",
+   "type": "OBSERVATIONAL",
+   "phases": [],
+   "n": 120,
+   "allocation": null,
+   "masking": null,
+   "conditions": [
+    "Peripheral Artery Disease (PAD)"
+   ],
+   "interventions": [],
+   "summary": "The goal of this study is to better understand how blood flows and how oxygen is utilized in the lower limbs of people who suffer from peripheral artery disease. This study will also assess how these factors affect treatment outcomes.\n\nSpecific aims include:\n\nAim 1: Utilize BB-NIR-DCS to differentiate PAD patients experiencing primary oxygen delivery limitations from those suffering from mitochondrial dysfunction.\n\nAim 2: Test the efficacy of BB-NIR-DCS at predicting individual responses to vascular intervention.",
+   "outcome": "Perceived Quality of life",
+   "sponsor": "The University of Texas at Arlington",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Michael Nelson",
+    "title": "Professor",
+    "affiliation": "The University of Texas at Arlington"
+   },
+   "officials": [],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "University of Texas at Arlington",
+     "city": "Arlington",
+     "country": "United States"
+    },
+    {
+     "facility": "University of Texas Arlington",
+     "city": "Arlington",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "cardiologie"
+   ]
+  },
+  {
    "nct": "NCT07566507",
    "title": "High-Energy Laser in the Conservative Treatment of Rhizarthrosis",
    "official": "High Intensity Laser Therapy (HL) vs Exercise in Thumb Osteoarthritis",
@@ -10168,6 +10531,70 @@
    ]
   },
   {
+   "nct": "NCT06925477",
+   "title": "Direct vs. Conventional SLT in Open-Angle Glaucoma: A RCT",
+   "official": "Direct Selective Laser Trabeculoplasty (DSLT) and Selective Laser Trabeculoplasty (SLT) in Reducing Intraocular Pressure in Open-Angle Glaucoma",
+   "acronym": null,
+   "status": "ENROLLING_BY_INVITATION",
+   "start": "2025-08-07",
+   "end": "2027-10-31",
+   "completion": "2027-11-30",
+   "first_posted": "2025-04-13",
+   "updated": "2026-09-14",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 51,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "GLAUCOMA 1, OPEN ANGLE, D (Disorder)"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "DSLT treatment for Open-Angle Glaucoma"
+    },
+    {
+     "type": "DEVICE",
+     "name": "SLT treatment for Open-Angle Glaucoma"
+    }
+   ],
+   "summary": "This study compares two laser treatments for open-angle glaucoma: Selective Laser Trabeculoplasty (SLT) and Direct Selective Laser Trabeculoplasty (DSLT). SLT is a widely used procedure that requires a manual technique with a goniolens, while DSLT is a new, automated, non-contact method using the Eagle system. The study will evaluate whether DSLT is as effective as SLT in reducing intraocular pressure (IOP). Participants will be randomly assigned to receive either treatment and will be monitored over 12 months to assess changes in IOP, medication use, and safety outcomes. The goal is to determine if the simpler DSLT procedure can provide similar results to SLT, potentially improving patient comfort and access to glaucoma care.",
+   "outcome": "Primary Endpoint",
+   "sponsor": "Medical University of South Carolina",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Jella An",
+    "title": "Clinical Professor-Faculty",
+    "affiliation": "Medical University of South Carolina"
+   },
+   "officials": [
+    {
+     "name": "Jella An, MD, MBA",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Medical University of South Carolina"
+    }
+   ],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "MUSC Health West Ophthalmology Clinic",
+     "city": "Charleston",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "cardiologie",
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT07753460",
    "title": "Low-Level Laser Therapy in the Treatment of Trigger Finger",
    "official": "Effectiveness of Low-Level Laser Therapy for Trigger Finger: A Randomized Double-Blind Sham-Controlled Trial",
@@ -10230,69 +10657,6 @@
    "n_sites": 1,
    "matched": [
     "musculo-squelettique"
-   ]
-  },
-  {
-   "nct": "NCT06925477",
-   "title": "Direct vs. Conventional SLT in Open-Angle Glaucoma: A RCT",
-   "official": "Direct Selective Laser Trabeculoplasty (DSLT) and Selective Laser Trabeculoplasty (SLT) in Reducing Intraocular Pressure in Open-Angle Glaucoma",
-   "acronym": null,
-   "status": "ENROLLING_BY_INVITATION",
-   "start": "2025-08-07",
-   "end": "2027-10-31",
-   "completion": "2027-11-30",
-   "first_posted": "2025-04-13",
-   "updated": "2026-09-14",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 51,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "GLAUCOMA 1, OPEN ANGLE, D (Disorder)"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "DSLT treatment for Open-Angle Glaucoma"
-    },
-    {
-     "type": "DEVICE",
-     "name": "SLT treatment for Open-Angle Glaucoma"
-    }
-   ],
-   "summary": "This study compares two laser treatments for open-angle glaucoma: Selective Laser Trabeculoplasty (SLT) and Direct Selective Laser Trabeculoplasty (DSLT). SLT is a widely used procedure that requires a manual technique with a goniolens, while DSLT is a new, automated, non-contact method using the Eagle system. The study will evaluate whether DSLT is as effective as SLT in reducing intraocular pressure (IOP). Participants will be randomly assigned to receive either treatment and will be monitored over 12 months to assess changes in IOP, medication use, and safety outcomes. The goal is to determine if the simpler DSLT procedure can provide similar results to SLT, potentially improving patient comfort and access to glaucoma care.",
-   "outcome": "Primary Endpoint",
-   "sponsor": "Medical University of South Carolina",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Jella An",
-    "title": "Clinical Professor-Faculty",
-    "affiliation": "Medical University of South Carolina"
-   },
-   "officials": [
-    {
-     "name": "Jella An, MD, MBA",
-     "role": "PRINCIPAL_INVESTIGATOR",
-     "affiliation": "Medical University of South Carolina"
-    }
-   ],
-   "countries": [
-    "United States"
-   ],
-   "sites": [
-    {
-     "facility": "MUSC Health West Ophthalmology Clinic",
-     "city": "Charleston",
-     "country": "United States"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "ophtalmologie"
    ]
   },
   {
@@ -11361,6 +11725,7 @@
    ],
    "n_sites": 1,
    "matched": [
+    "cardiologie",
     "ophtalmologie"
    ]
   },
@@ -14744,6 +15109,70 @@
    ]
   },
   {
+   "nct": "NCT06399900",
+   "title": "ENhancing Exercise With LIGHT to Improve Functioning in PAD",
+   "official": "ENhancing Exercise With LIGHT to Improve Functioning in PAD: the ENLIGHTEN PAD Trial",
+   "acronym": "ENLIGHTEN PAD",
+   "status": "RECRUITING",
+   "start": "2024-08-12",
+   "end": "2026-09-30",
+   "completion": "2027-01-31",
+   "first_posted": "2024-05-06",
+   "updated": "2026-04-15",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 32,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Peripheral Artery Disease",
+    "Peripheral Vascular Disease",
+    "Aging",
+    "Walking, Difficulty"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Far red light therapy"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham light therapy"
+    },
+    {
+     "type": "BEHAVIORAL",
+     "name": "Home-based walking exercise"
+    }
+   ],
+   "summary": "The ENLIGHTEN PAD Trial will collect preliminary data to test whether daily 660 nm light treatment of the lower extremities immediately before home-based walking exercise sessions improves six-minute walk distance at 4-month follow-up, compared to sham light, in people with lower extremity peripheral artery disease (PAD).",
+   "outcome": "Six-Minute Walk Distance",
+   "sponsor": "Northwestern University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Mary McDermott",
+    "title": "Jeremiah Stamler Professor of Medicine",
+    "affiliation": "Northwestern University"
+   },
+   "officials": [],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "Northwestern University",
+     "city": "Chicago",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "cardiologie"
+   ]
+  },
+  {
    "nct": "NCT06395584",
    "title": "Light Therapy and MRI Imaging for Knee Osteoarthritis Pain",
    "official": "Analysis of the Central Pathways Responsible for Green Light Therapy-Induced Pain Relief in Osteoarthritis",
@@ -14977,6 +15406,73 @@
    "n_sites": 1,
    "matched": [
     "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT06678698",
+   "title": "Acute Effect of Photobiomodulation in Individuals with Hypertension",
+   "official": "Acute Effect of Photobiomodulation on Blood Pressure, Endothelial Function and Arterial Stiffness in Individuals with Hypertension: a Randomized Controlled Trial",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2024-05-01",
+   "end": "2025-01-30",
+   "completion": "2025-01-30",
+   "first_posted": "2024-11-07",
+   "updated": "2024-11-08",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 48,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Hypertension"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Panel Effective Photobiomodulation Therapy"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham Panel Photobiomodulation Therapy"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Modified ILIB Sham Photobiomodulation Therapy"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Modified ILIB Photobiomodulation Therapy"
+    }
+   ],
+   "summary": "This is a randomized, double-blind and sham-controlled clinical trial that aims to evaluate and compare the acute effect of full-body photobiomodulation (PBM) and modified ILIB (Intravascular laser irradiation of blood) on blood pressure, endothelial function and arterial stiffness in individuals with hypertension. Participants (n=48) will be equally, randomly and secretly allocated into one of 4 groups: Panel Group; Panel Sham Group; Modified ILIB group; and Modified ILIB Sham Group. Participants aged 40 to 60 years old, diagnosed with hypertension and using control drugs for at least 3 months will be included. Participants will be assessed at pre- and post-intervention for: BP; endothelial function; arterial stiffness; blood nitrite; and thermography. In the post-intervention period, the ambulatory blood pressure monitoring will also be carried out. Participants will receive a single a",
+   "outcome": "Diastolic Blood Pressure",
+   "sponsor": "Universidade Federal de Sao Carlos",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+   ],
+   "responsible": {
+    "name": "Lara Maria Bataglia Espósito",
+    "title": "Physical Therapist, Master's student",
+    "affiliation": "Universidade Federal de Sao Carlos"
+   },
+   "officials": [],
+   "countries": [
+    "Brazil"
+   ],
+   "sites": [
+    {
+     "facility": "Federal University of São Carlos",
+     "city": "São Carlos",
+     "country": "Brazil"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "cardiologie"
    ]
   },
   {
@@ -15412,6 +15908,71 @@
    "n_sites": 1,
    "matched": [
     "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT06165016",
+   "title": "Far Red Light to Improve Functioning in PAD",
+   "official": "Far Red Light to Improve Functioning in PAD: The LIGHT PAD Trial",
+   "acronym": "LIGHT PAD",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2024-02-14",
+   "end": "2026-09-30",
+   "completion": "2026-12-31",
+   "first_posted": "2023-12-11",
+   "updated": "2026-06-04",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 32,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Peripheral Artery Disease",
+    "Peripheral Vascular Disease",
+    "Aging",
+    "Walking, Difficulty"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Far red light therapy"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham light therapy"
+    }
+   ],
+   "summary": "The LIGHT PAD Trial is a Phase II multi-centered randomized clinical trial to collect preliminary data to test whether daily far red light treatment of the lower extremities in people with PAD improves six-minute walk distance, lower extremity perfusion, and ischemia-related damage in gastrocnemius muscle at four-month follow-up, compared to a sham control. Participants will complete 10 minutes of twice daily home treatment with either far red light or a sham light for four months.",
+   "outcome": "Six-Minute Walk Distance",
+   "sponsor": "Northwestern University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Mary McDermott",
+    "title": "Jeremiah Stamler Professor of Medicine",
+    "affiliation": "Northwestern University"
+   },
+   "officials": [],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "University of Alabama at Birmingham",
+     "city": "Birmingham",
+     "country": "United States"
+    },
+    {
+     "facility": "Northwestern University",
+     "city": "Chicago",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "cardiologie"
    ]
   },
   {
@@ -16868,6 +17429,7 @@
    ],
    "n_sites": 4,
    "matched": [
+    "cardiologie",
     "neurologie"
    ]
   },
@@ -18713,6 +19275,71 @@
    "n_sites": 1,
    "matched": [
     "dermatologie"
+   ]
+  },
+  {
+   "nct": "NCT03203239",
+   "title": "Red Light Treatment in Peripheral Artery Disease",
+   "official": "Vasodilatory Effects of Light on Peripheral Artery Disease",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2018-01-17",
+   "end": "2028-12-31",
+   "completion": "2028-12-31",
+   "first_posted": "2017-06-29",
+   "updated": "2026-05-01",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 40,
+   "allocation": "NA",
+   "masking": "NONE",
+   "conditions": [
+    "Peripheral Artery Disease",
+    "Claudication, Intermittent",
+    "Vasodilation"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Red Light (670 nm energy)"
+    },
+    {
+     "type": "DRUG",
+     "name": "Octafluoropropane"
+    }
+   ],
+   "summary": "Subjects with a known diagnosis of peripheral artery disease as measured by an abnormal ankle brachial index (\\<.9 or \\>1.1) will undergo a single 5 min exposure of 670 nm light, 1 cm above the gastrocnemius muscle. Blood flow will be measured by infusion of ultrasound contrast and subsequent acquisition of ultrasound images. 2 blood samples will be collected for measurement of nitric oxide metabolites.",
+   "outcome": "Changes in blood flow",
+   "sponsor": "University of Alabama at Birmingham",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Nicole Lohr",
+    "title": "Professor",
+    "affiliation": "University of Alabama at Birmingham"
+   },
+   "officials": [
+    {
+     "name": "Nicole L Lohr, MD,PHD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Medical College of Wisconsin"
+    }
+   ],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "Medical College of Wisconsin",
+     "city": "Milwaukee",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "cardiologie"
    ]
   },
   {

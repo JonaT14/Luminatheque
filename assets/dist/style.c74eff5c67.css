@@ -654,9 +654,12 @@ footer { border-top: 1px solid var(--line); padding-block: 22px; font: 400 .78re
 .side-sub .side-link { padding: 6px 10px; font-size: .84rem; font-weight: 500; }
 .side-sub .side-link[aria-current="page"] { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
 .side-sub .side-link[aria-current="page"] .count { color: var(--accent); }
-.side-toggle { display: inline-grid; }
+.side-toggle { position: fixed; top: 50%; left: calc(var(--side) - 15px); transform: translateY(-50%); z-index: 40; width: 30px; height: 56px; display: grid; place-items: center; border-radius: 999px; border: 1px solid var(--line-2); background: var(--surface); color: var(--ink-2); cursor: pointer; box-shadow: 0 4px 14px rgb(0 0 0 / .12); transition: left .2s, color .15s, background .15s; }
+.side-toggle:hover { color: var(--surface); background: var(--ink); border-color: var(--ink); }
+.side-toggle svg { stroke: currentColor; fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; transition: transform .2s; }
 body.side-off .shell { grid-template-columns: minmax(0, 1fr); }
 body.side-off .sidebar { display: none; }
 body.side-off .top-logo { display: block; }
-body.side-off .side-toggle svg path:last-child { transform: rotate(180deg); transform-origin: 14.5px 12px; }
+body.side-off .side-toggle { left: -6px; border-radius: 0 999px 999px 0; width: 34px; }
+body.side-off .side-toggle svg { transform: rotate(180deg); }
 @media (max-width: 1024px) { .side-toggle { display: none; } }

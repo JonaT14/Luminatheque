@@ -5,7 +5,7 @@ Procédure suivie à chaque mise à jour (par défaut chaque semaine). Elle peut
 
 ## 1. Collecter les nouveautés
 
-Pour chaque thème actif de `data/topics/` (aujourd'hui : `mucite-orale`, `neuropathie-peripherique`, `gynecologie`, `musculo-squelettique`, `dermatologie`, `neurologie`, `odontologie`, `ophtalmologie`, `oncologie-support`, `orl` et `sport` ; les thèmes marqués `"status": "à venir"` sont ignorés), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :
+Pour chaque thème actif de `data/topics/` (aujourd'hui : `mucite-orale`, `neuropathie-peripherique`, `gynecologie`, `musculo-squelettique`, `dermatologie`, `neurologie`, `odontologie`, `ophtalmologie`, `oncologie-support`, `orl`, `sport` et `cardiologie` ; les thèmes marqués `"status": "à venir"` sont ignorés), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :
 
 ```bash
 python3 scripts/fetch_pubmed.py --topic mucite-orale --since AAAA-MM-JJ

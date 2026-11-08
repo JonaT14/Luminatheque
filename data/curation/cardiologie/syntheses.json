@@ -1,0 +1,89 @@
+{
+ "years": {
+  "2000–2012": {
+   "headline": "Raynaud, coronaires et tension : les premiers essais",
+   "l1": "Trois essais contre placebo (2002–2004) montrent que le laser réduit l'intensité, voire la fréquence, des crises de Raynaud. En cardiologie interventionnelle, l'irradiation laser intracoronaire après angioplastie améliore la perte luminale sans réduire significativement la resténose. Des travaux russes rapportent des baisses tensionnelles et des effets chez l'angineux.",
+   "l2": "Raynaud : trois essais en double aveugle (15, 47 et 48 patients), effet surtout sur l'intensité des crises, jusqu'à 3 mois. Microcirculation : une seule irradiation He-Ne réchauffe la peau des deux pieds de diabétiques (effet systémique). Coronaires : laser rouge intravasculaire avec stent (série de 68 patients), puis essai de 101 patients (808 nm intracoronaire) : perte luminale tardive réduite, événements cardiaques et resténose non significativement différents. Hypertension et angor : études russes positives mais peu détaillées.",
+   "l3": [
+    {
+     "h": "Prudence",
+     "p": "Les essais russes de cette période sont rapportés de façon très succincte et rarement contre placebo."
+    }
+   ]
+  },
+  "2013–2019": {
+   "headline": "Chirurgie cardiaque : la sternotomie, terrain le mieux étudié",
+   "l1": "Une équipe brésilienne publie une série d'essais en double aveugle après pontage coronarien : laser ou LED rouge réduisent la douleur de la sternotomie et améliorent la cicatrisation du sternum et de la saphénectomie. Les études animales montrent une réduction de la taille de l'infarctus. Les effets sur l'effort de l'insuffisant cardiaque restent faibles.",
+   "l2": "Pontage coronarien (90 à 120 patients par essai) : laser 640–660 nm ou LED autour de 1 J/cm², de J2 à J8, moins de douleur à la toux à J6–J8 et moins de rougeur, de saignement et de désunion ; même effet chez les hyperglycémiques. Saphénectomie : laser 660 nm ou LED 640 nm à 6 J/cm², moins d'hématome. Instabilité sternale : laser utile en complément de la réadaptation. Infarctus : deux revues des études animales favorables, un pilote humain (laser sur la moelle osseuse) sûr. Insuffisance cardiaque : moins d'effort perçu mais distance inchangée. Hypertension : laser-acupuncture en triple aveugle positive (102 patients).",
+   "l3": [
+    {
+     "h": "À retenir",
+     "p": "La sternotomie après pontage est l'indication cardiologique la plus solide, mais elle repose surtout sur une seule équipe."
+    }
+   ]
+  },
+  "2020–2026": {
+   "headline": "Irradiation sanguine et pistes systémiques",
+   "l1": "Un essai de 192 patients associe laser intraveineux et transcutané autour du pontage, avec moins de marqueurs de lésion. L'irradiation sanguine (ILIB) est étudiée sur la tension, l'inflammation, le sepsis et l'AVC, avec des effets surtout biologiques. Les essais en cours portent sur l'artériopathie des membres inférieurs et l'hypertension.",
+   "l2": "Pontage : PBM intraveineuse 405 nm et transcutanée 980 nm, baisse des LDH et CPK. ILIB sur la carotide : pas d'effet sur la tension mais une fréquence cardiaque plus basse chez des femmes sous hormonothérapie. Sepsis : laser sur l'artère radiale, biologie améliorée. Deux revues systématiques décrivent les effets anti-inflammatoires de l'ILIB, sur des études petites et hétérogènes. Système nerveux autonome : effets minimes. Essais en cours : lumière rouge et artériopathie (dont ENLIGHT-PAD), hypertension, sternotomie (PHOTON).",
+   "l3": [
+    {
+     "h": "Prudence",
+     "p": "L'ILIB reste une technique expérimentale, sans essai clinique robuste sur des critères cardiovasculaires."
+    }
+   ]
+  }
+ },
+ "global": {
+  "headline": "2000 → 2026 : la PBM en cardiologie, un domaine encore jeune",
+  "l1": "La cardiologie compte peu d'essais. Deux indications se dégagent : la cicatrisation et la douleur de la sternotomie et de la saphénectomie après pontage, et le phénomène de Raynaud. Infarctus, insuffisance cardiaque, hypertension et irradiation sanguine restent des pistes, surtout précliniques ou biologiques.",
+  "l2": "Le niveau de preuve le plus élevé concerne la chirurgie cardiaque (essais randomisés en double aveugle, mais d'une même équipe) et le Raynaud (trois essais contre placebo anciens). Les études animales sur l'infarctus sont prometteuses, sans traduction clinique. L'irradiation intracoronaire a été abandonnée avec l'arrivée des stents actifs. Les essais en cours sur l'artériopathie des membres inférieurs pourraient ouvrir une indication.",
+  "l3": [
+   {
+    "h": "En pratique",
+    "p": "Proposer la PBM pour la cicatrice de sternotomie ou de saphénectomie et, en complément, dans le Raynaud ; ailleurs, réserver la PBM à la recherche."
+   }
+  ],
+  "table": {
+   "cols": [
+    "2000–2012",
+    "2013–2019",
+    "2020–2026"
+   ],
+   "rows": [
+    {
+     "label": "Chirurgie cardiaque",
+     "cells": [
+      "—",
+      "Sternotomie et saphénectomie : essais en double aveugle +",
+      "PBM intraveineuse et transcutanée : marqueurs +"
+     ]
+    },
+    {
+     "label": "Raynaud et microcirculation",
+     "cells": [
+      "3 essais contre placebo + (intensité)",
+      "—",
+      "Essais en cours (artériopathie)"
+     ]
+    },
+    {
+     "label": "Coronaires et infarctus",
+     "cells": [
+      "Laser intracoronaire : perte luminale +, resténose ns",
+      "Animal : infarctus réduit ; pilote humain sûr",
+      "—"
+     ]
+    },
+    {
+     "label": "Hypertension et ILIB",
+     "cells": [
+      "Études russes +",
+      "Laser-acupuncture +",
+      "ILIB : effets biologiques, tension ns"
+     ]
+    }
+   ]
+  }
+ }
+}

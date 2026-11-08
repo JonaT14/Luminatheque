@@ -1410,6 +1410,11 @@
    "rétinopathie",
    "Électro-acupuncture, laser-acupuncture et stimulation transcornéenne dans la rétinite pigmentaire"
   ],
+  "NCT03203239": [
+   "cardiologie",
+   "artères",
+   "Lumière rouge dans l'artériopathie des membres inférieurs"
+  ],
   "NCT03716167": [
    "dermatologie",
    "plaies",
@@ -1575,6 +1580,11 @@
    "démences",
    "NIR4AD : lumière proche infrarouge transcrânienne dans l'Alzheimer léger à modéré"
   ],
+  "NCT06165016": [
+   "cardiologie",
+   "artères",
+   "Lumière rouge lointain pour améliorer la marche dans l'artériopathie des membres inférieurs"
+  ],
   "NCT06199674": [
    "odontologie",
    "ortho",
@@ -1619,6 +1629,11 @@
    "ophtalmologie",
    "sécheresse",
    "Photothérapie rouge contre bleue contre sham dans l'œil sec meibomien et la blépharite (REBEL)"
+  ],
+  "NCT06399900": [
+   "cardiologie",
+   "artères",
+   "ENLIGHT-PAD : lumière associée à l'exercice pour améliorer la marche dans l'artériopathie des membres inférieurs"
   ],
   "NCT06426251": [
    "musculo-squelettique",
@@ -1684,6 +1699,11 @@
    "gynecologie",
    "pelvien",
    "Essai BRIGHT : PBM et kinésithérapie multimodale en santé pelvienne"
+  ],
+  "NCT06678698": [
+   "cardiologie",
+   "HTA",
+   "Effet immédiat de la photobiomodulation chez l'hypertendu"
   ],
   "NCT06691269": [
    "odontologie",
@@ -1960,6 +1980,11 @@
    "rachis",
    "Longueurs d'onde du laser basse énergie dans la céphalée cervicogénique"
   ],
+  "NCT07170397": [
+   "cardiologie",
+   "HTA",
+   "Laser-acupuncture chez les hémodialysés hypertendus"
+  ],
   "NCT07171788": [
    "neurologie",
    "AVC",
@@ -2160,6 +2185,11 @@
    "orofaciale",
    "PBM ou acide alpha-lipoïque dans le syndrome de la bouche brûlante"
   ],
+  "NCT07381387": [
+   "cardiologie",
+   "chir-cardio",
+   "Exercices sus- ou sous-abdominaux associés au laser après sternotomie médiane"
+  ],
   "NCT07387978": [
    "mucite-orale",
    "ORL",
@@ -2290,6 +2320,11 @@
    "cicatrices",
    "PBM contre sham et qualité de la cicatrice après suture d'une plaie du visage"
   ],
+  "NCT07525310": [
+   "cardiologie",
+   "HTA",
+   "Photobiomodulation sur la pression artérielle et la fonction vasculaire d'hypertendus traités"
+  ],
   "NCT07531654": [
    "musculo-squelettique",
    "fibro",
@@ -2299,6 +2334,11 @@
    "neurologie",
    "neurodev",
    "PBM sur les symptômes centraux de l'autisme"
+  ],
+  "NCT07543211": [
+   "cardiologie",
+   "artères",
+   "Laser-acupuncture et rigidité artérielle dans le syndrome cardio-réno-métabolique"
   ],
   "NCT07543328": [
    "neurologie",
@@ -2476,9 +2516,9 @@
    "PBM par LED bleue des dysfonctions vaginales : à domicile ou en consultation"
   ],
   "NCT07699679": [
-   "dermatologie",
-   "plaies",
-   "PBM et cicatrisation du site de prélèvement saphène après pontage coronarien"
+   "cardiologie",
+   "chir-cardio",
+   "Essai PHOTON : photobiomodulation en pontage coronarien selon la technique de prélèvement saphène"
   ],
   "NCT07714720": [
    "neuropathie-peripherique",
@@ -2946,8 +2986,8 @@
    "Laser basse énergie contre la douleur et pour la cicatrisation des lésions du mamelon (allaitement)"
   ],
   "RBR-5k8dfz3": [
-   "neurologie",
-   "autres",
+   "cardiologie",
+   "ILIB",
    "Lumière appliquée au poignet dans le sepsis et le choc septique"
   ],
   "RBR-5kd6vg5": [
@@ -3331,6 +3371,7 @@
   "NCT07245303",
   "NCT07287709",
   "NCT07309406",
+  "NCT07313410",
   "NCT07315841",
   "NCT07446127",
   "NCT07472881",
@@ -3338,6 +3379,7 @@
   "NCT07532161",
   "NCT07532694",
   "NCT07576062",
+  "NCT07577973",
   "NCT07605598",
   "NCT07606300",
   "NCT07615478",

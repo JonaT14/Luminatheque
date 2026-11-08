@@ -20,6 +20,7 @@ Chaque thème contient deux sortes d'entrées :
 | Lymphœdème et oncologie de support (lymphœdème, trismus, xérostomie, syndrome main-pied, fatigue) | 219 | 59 |
 | ORL (acouphènes, surdité, rhinite, sinusite, odorat, pharynx, vertiges) | 239 | 40 |
 | Médecine du sport et performance (performance, récupération, blessures, populations) | 383 | 128 |
+| Cardiologie et vasculaire (infarctus et coronaires, insuffisance cardiaque, chirurgie cardiaque, artères et Raynaud, hypertension, irradiation sanguine) | 351 | 45 |
 
 Une même étude peut avoir une fiche dans plusieurs thèmes : la médecine du sport reprend par exemple les essais sur le muscle du thème musculo-squelettique, et l'oncologie de support rassemble des séquelles de cancer qu'on retrouve aussi en dermatologie ou en mucite.
 
@@ -29,7 +30,7 @@ Une même étude peut avoir une fiche dans plusieurs thèmes : la médecine du s
 - **Publications** : recherche plein texte (insensible aux accents), filtres par période (dates, semaine ISO, année), type d'étude, niveau de preuve, résultat, contexte, population, thème et PDF disponible. Les articles sont groupés par semaine.
 - **Trois niveaux de lecture** partout : *Express* (1–2 lignes), *Essentiel* (1–2 paragraphes), *Approfondi* (méthode, résultats, limites, pratique, résumé original).
 - **Fiche article** : fiche technique, graphique du résultat principal, liens vers les sources et **lecteur PDF intégré** pour les fiches dont l'article est en accès libre (licences Creative Commons, dépôt PMC Open Access).
-- **Études en cours** : essais de PBM déclarés au registre ClinicalTrials.gov qui recrutent ou se déroulent, projets en construction (pas encore ouverts, protocoles publiés) et porteurs de projets (promoteurs, investigateurs, pays). 647 essais relus et classés à la main, issus de ClinicalTrials.gov et des registres nationaux rassemblés par l'OMS (ICTRP : Brésil, Inde, Iran, Chine, Australie, Royaume-Uni, Corée, Japon…).
+- **Études en cours** : essais de PBM déclarés au registre ClinicalTrials.gov qui recrutent ou se déroulent, projets en construction (pas encore ouverts, protocoles publiés) et porteurs de projets (promoteurs, investigateurs, pays). 655 essais relus et classés à la main, issus de ClinicalTrials.gov et des registres nationaux rassemblés par l'OMS (ICTRP : Brésil, Inde, Iran, Chine, Australie, Royaume-Uni, Corée, Japon…).
 - **Paramètres** : une fiche pratique par indication (longueur d'onde, dose, zone, nombre de séances, type d'appareil), avec le niveau de preuve, les conseils, les précautions et les fiches sources. Les réglages ne reprennent que ce que disent les études et les recommandations.
 - **Appareils** : recherche par type d'appareil (laser diode, LED, casque, dispositif intrabuccal…) et par marque, avec les thèmes concernés, le sens des résultats, les études et les essais en cours où l'appareil est cité.
 - **Fiches patients** : fiches illustrées à remettre aux patients (schéma du mécanisme, déroulé d'une séance, calendrier, jauge du niveau de preuve, sécurité, questions fréquentes), imprimables sur deux pages A4.

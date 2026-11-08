@@ -1,0 +1,56 @@
+[
+ {
+  "ctx": "chir-cardio",
+  "indication": "Cicatrice de sternotomie et de saphénectomie après pontage",
+  "niveau": "prometteuse",
+  "resume": "Plusieurs essais en double aveugle (90 à 120 patients) montrent moins de douleur et une meilleure cicatrisation, mais ils viennent surtout d'une même équipe.",
+  "params": {
+   "Longueur d'onde": "Rouge, 640–660 nm (laser ou LED)",
+   "Puissance": "—",
+   "Dose": "Environ 1 J/cm² sur la sternotomie ; 6 J/cm² sur la saphénectomie",
+   "Zone": "Le long de l'incision",
+   "Séances": "Tous les jours ou tous les deux jours, de J2 à J8",
+   "Appareil": "Laser diode ou LED"
+  },
+  "conseils": [
+   "Commencer dès le 1er ou le 2e jour postopératoire."
+  ],
+  "prudence": [
+   "Effet démontré à court terme (première semaine)."
+  ],
+  "sources": [
+   "24337350",
+   "27081873",
+   "27564925",
+   "27649961",
+   "28074796",
+   "29023185",
+   "29027034"
+  ]
+ },
+ {
+  "ctx": "artères",
+  "indication": "Phénomène de Raynaud",
+  "niveau": "prometteuse",
+  "resume": "Trois essais contre placebo (2002–2004) : l'intensité des crises diminue, la fréquence aussi dans deux essais, jusqu'à 3 mois.",
+  "params": {
+   "Longueur d'onde": "—",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Irradiation à distance (selon les essais)",
+   "Séances": "10 à 15 séances sur 3 semaines, en hiver",
+   "Appareil": "Laser basse énergie"
+  },
+  "conseils": [
+   "Programmer la cure au début de l'hiver."
+  ],
+  "prudence": [
+   "Effet placebo important ; paramètres peu décrits dans les résumés."
+  ],
+  "sources": [
+   "15061044",
+   "15570642",
+   "12099151"
+  ]
+ }
+]
