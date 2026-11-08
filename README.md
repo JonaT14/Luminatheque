@@ -15,6 +15,13 @@ Chaque thème contient deux sortes d'entrées :
 | Musculo-squelettique (tendons, arthrose, rachis, ATM, fibromyalgie, épaule, os, muscle, Ehlers-Danlos) | 3 367 | 682 |
 | Dermatologie (plaies, cicatrices et brûlures, radiodermite, alopécie, dermatoses inflammatoires, esthétique, infections, pigmentation) | 4 601 | 256 |
 | Neurologie (sclérose en plaques, SLA, Parkinson, tremblements, démences, fatigue chronique et Covid long, AVC, traumatismes crâniens, neurodéveloppement, dépression et anxiété) | 1 116 | 134 |
+| Odontologie (chirurgie buccale, orthodontie, implants, parodontologie, hypersensibilité, endodontie, ostéonécrose des mâchoires, anesthésie) | 3 525 | 523 |
+| Ophtalmologie (DMLA, myopie, sécheresse oculaire, rétinopathies, glaucome, amblyopie) | 917 | 85 |
+| Lymphœdème et oncologie de support (lymphœdème, trismus, xérostomie, syndrome main-pied, fatigue) | 219 | 59 |
+| ORL (acouphènes, surdité, rhinite, sinusite, odorat, pharynx, vertiges) | 239 | 40 |
+| Médecine du sport et performance (performance, récupération, blessures, populations) | 383 | 128 |
+
+Une même étude peut avoir une fiche dans plusieurs thèmes : la médecine du sport reprend par exemple les essais sur le muscle du thème musculo-squelettique, et l'oncologie de support rassemble des séquelles de cancer qu'on retrouve aussi en dermatologie ou en mucite.
 
 ## Ce que fait le site
 
@@ -22,7 +29,10 @@ Chaque thème contient deux sortes d'entrées :
 - **Publications** : recherche plein texte (insensible aux accents), filtres par période (dates, semaine ISO, année), type d'étude, niveau de preuve, résultat, contexte, population, thème et PDF disponible. Les articles sont groupés par semaine.
 - **Trois niveaux de lecture** partout : *Express* (1–2 lignes), *Essentiel* (1–2 paragraphes), *Approfondi* (méthode, résultats, limites, pratique, résumé original).
 - **Fiche article** : fiche technique, graphique du résultat principal, liens vers les sources et **lecteur PDF intégré** pour les fiches dont l'article est en accès libre (licences Creative Commons, dépôt PMC Open Access).
-- **Études en cours** : essais de PBM déclarés au registre ClinicalTrials.gov qui recrutent ou se déroulent, projets en construction (pas encore ouverts, protocoles publiés) et porteurs de projets (promoteurs, investigateurs, pays). 196 essais relus et classés à la main.
+- **Études en cours** : essais de PBM déclarés au registre ClinicalTrials.gov qui recrutent ou se déroulent, projets en construction (pas encore ouverts, protocoles publiés) et porteurs de projets (promoteurs, investigateurs, pays). 237 essais relus et classés à la main.
+- **Paramètres** : une fiche pratique par indication (longueur d'onde, dose, zone, nombre de séances, type d'appareil), avec le niveau de preuve, les conseils, les précautions et les fiches sources. Les réglages ne reprennent que ce que disent les études et les recommandations.
+- **Appareils** : recherche par type d'appareil (laser diode, LED, casque, dispositif intrabuccal…) et par marque, avec les thèmes concernés, le sens des résultats, les études et les essais en cours où l'appareil est cité.
+- **Fiches patients** : fiches illustrées à remettre aux patients (schéma du mécanisme, déroulé d'une séance, calendrier, jauge du niveau de preuve, sécurité, questions fréquentes), imprimables sur deux pages A4.
 - **Synthèses** : bilans 2000–2009, 2010–2019, 2020–2023, 2024, 2025, 2026 et étude comparative avec tableau.
 - **Comparateur** : fusionner une période (par exemple semaines 1 à 20) ou comparer deux périodes, ou une sélection d'articles cochés. Le récapitulatif et les graphiques sont recalculés, et une demande de synthèse rédigée peut être copiée pour Claude.
 

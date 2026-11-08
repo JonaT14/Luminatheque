@@ -1,0 +1,159 @@
+[
+ {
+  "ctx": "ortho",
+  "indication": "Douleur orthodontique (pose, activation, séparateurs)",
+  "niveau": "prometteuse",
+  "resume": "Méta-analyses favorables : l'infrarouge 780–830 nm à faible densité d'énergie (≤ 10 J/cm²) ressort comme le réglage le plus efficace.",
+  "params": {
+   "Longueur d'onde": "780–830 nm (infrarouge)",
+   "Puissance": "—",
+   "Dose": "0 à 10 J/cm² par point",
+   "Zone": "Gencive en regard des racines des dents mobilisées (vestibulaire et lingual)",
+   "Séances": "Juste après la pose ou l'activation, à répéter éventuellement à J1–J2",
+   "Appareil": "Laser diode"
+  },
+  "conseils": [
+   "Les doses basses font au moins aussi bien que les doses élevées."
+  ],
+  "prudence": [
+   "Effet sur l'accélération du déplacement dentaire beaucoup moins établi que sur la douleur."
+  ],
+  "sources": [
+   "33060065",
+   "34662524"
+  ]
+ },
+ {
+  "ctx": "anesthésie",
+  "indication": "Douleur de l'injection anesthésique",
+  "niveau": "prometteuse",
+  "resume": "Trois méta-analyses favorables chez l'enfant et l'adulte, avec un niveau de preuve faible à très faible.",
+  "params": {
+   "Longueur d'onde": "900–980 nm (infrarouge)",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Muqueuse au point d'injection",
+   "Séances": "Une application de 13 à 40 s juste avant l'injection",
+   "Appareil": "Laser diode intrabuccal"
+  },
+  "conseils": [],
+  "prudence": [
+   "Protocoles très hétérogènes d'une étude à l'autre."
+  ],
+  "sources": [
+   "39438196",
+   "38845193",
+   "40750083"
+  ]
+ },
+ {
+  "ctx": "anesthésie",
+  "indication": "Fin d'anesthésie plus rapide chez l'enfant",
+  "niveau": "incertaine",
+  "resume": "Cinq petits essais montrent un raccourcissement de l'anesthésie des tissus mous ; l'effet sur les morsures de lèvre reste incertain.",
+  "params": {
+   "Longueur d'onde": "635–810 nm",
+   "Puissance": "—",
+   "Dose": "6 à 11,5 J/cm²",
+   "Zone": "6 à 12 points sur la zone anesthésiée",
+   "Séances": "Une séance en fin de soin, 12 à 30 s par point",
+   "Appareil": "Laser diode"
+  },
+  "conseils": [],
+  "prudence": [
+   "Ne remplace pas la surveillance par l'accompagnant."
+  ],
+  "sources": [
+   "40991393"
+  ]
+ },
+ {
+  "ctx": "chirurgie",
+  "indication": "Suites d'extraction des dents de sagesse (douleur, œdème, trismus)",
+  "niveau": "prometteuse",
+  "resume": "Les méta-analyses sont favorables, mais le grand essai multicentrique italien BIOSTOTT est neutre.",
+  "params": {
+   "Longueur d'onde": "Infrarouge",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Intrabuccale (alvéole) et extrabuccale (masséter, joue)",
+   "Séances": "Une séance immédiatement après l'intervention",
+   "Appareil": "Laser diode"
+  },
+  "conseils": [
+   "Combiner les applications intra et extrabuccales."
+  ],
+  "prudence": [
+   "Résultat neutre du plus grand essai récent : bénéfice probablement modeste."
+  ],
+  "sources": [
+   "38821660",
+   "35013845",
+   "41273744"
+  ]
+ },
+ {
+  "ctx": "chirurgie",
+  "indication": "Alvéolite sèche",
+  "niveau": "prometteuse",
+  "resume": "Une méta-analyse montre un soulagement de la douleur, au moins comparable aux pansements alvéolaires.",
+  "params": {
+   "Longueur d'onde": "Rouge ou infrarouge",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Alvéole et muqueuse adjacente",
+   "Séances": "Séances répétées sur quelques jours",
+   "Appareil": "Laser diode"
+  },
+  "conseils": [],
+  "prudence": [],
+  "sources": [
+   "32919077"
+  ]
+ },
+ {
+  "ctx": "paro",
+  "indication": "Cicatrisation du site donneur palatin (greffe conjonctive)",
+  "niveau": "prometteuse",
+  "resume": "Méta-analyses favorables sur la douleur et la cicatrisation ; un essai randomisé trouve 60 J/cm² plus efficace que 30 J/cm².",
+  "params": {
+   "Longueur d'onde": "Rouge ou infrarouge",
+   "Puissance": "—",
+   "Dose": "60 J/cm²",
+   "Zone": "Site donneur palatin",
+   "Séances": "Juste après le prélèvement puis à quelques jours d'intervalle la première semaine",
+   "Appareil": "Laser diode"
+  },
+  "conseils": [],
+  "prudence": [],
+  "sources": [
+   "27344670",
+   "42995303",
+   "32613416"
+  ]
+ },
+ {
+  "ctx": "hypersensibilité",
+  "indication": "Hypersensibilité dentinaire",
+  "niveau": "prometteuse",
+  "resume": "Deux méta-analyses montrent une baisse de la sensibilité, surtout avec les lasers proche infrarouge.",
+  "params": {
+   "Longueur d'onde": "Proche infrarouge (ou rouge)",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Collet de la dent sensible et région apicale",
+   "Séances": "Une à trois séances",
+   "Appareil": "Laser diode"
+  },
+  "conseils": [
+   "Peut s'associer aux agents désensibilisants."
+  ],
+  "prudence": [
+   "Ne pas confondre avec les lasers haute puissance (Nd:YAG, Er:YAG) qui agissent par obturation des tubuli."
+  ],
+  "sources": [
+   "34642786",
+   "34342772"
+  ]
+ }
+]

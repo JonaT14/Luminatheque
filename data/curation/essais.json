@@ -30,10 +30,25 @@
    "ORL",
    "PBM pour prévenir la mucite radio-induite"
   ],
+  "NCT04690439": [
+   "oncologie-support",
+   "lymphœdème",
+   "Photobiomodulation contre drainage lymphatique manuel dans le lymphœdème du bras après cancer du sein"
+  ],
   "NCT04764331": [
    "dermatologie",
    "alopécie",
    "Casque LED Revian dans l'alopécie cicatricielle centrale centrifuge (pilote)"
+  ],
+  "NCT04979078": [
+   "oncologie-support",
+   "main-pied",
+   "Photobiomodulation dans le syndrome main-pied et la réaction cutanée main-pied"
+  ],
+  "NCT05106608": [
+   "oncologie-support",
+   "xérostomie",
+   "Photobiomodulation (7,5 ou 3 J/cm²) et suivi mobile contre la xérostomie des cancers ORL (LAXER)"
   ],
   "NCT05165056": [
    "gynecologie",
@@ -60,6 +75,11 @@
    "obstétrique",
    "Sonde MILTA contre placebo : douleur des cicatrices périnéales après accouchement"
   ],
+  "NCT05507840": [
+   "ophtalmologie",
+   "DMLA",
+   "Photobiomodulation Valeda dans la DMLA sèche"
+  ],
   "NCT05573074": [
    "neurologie",
    "humeur",
@@ -69,6 +89,11 @@
    "musculo-squelettique",
    "muscle",
    "Jus de betterave et lumière rouge contre la fatigue musculaire"
+  ],
+  "NCT05650359": [
+   "odontologie",
+   "ortho",
+   "Dispositif OrthoPulse de photobiomodulation pendant le traitement orthodontique"
   ],
   "NCT05689788": [
    "musculo-squelettique",
@@ -94,6 +119,11 @@
    "neurologie",
    "démences",
    "Casque LED THOR dans les troubles cognitifs liés au cancer"
+  ],
+  "NCT05907161": [
+   "odontologie",
+   "paro",
+   "Laser basse énergie ou acide hyaluronique en complément du traitement parodontal non chirurgical"
   ],
   "NCT05916235": [
    "musculo-squelettique",
@@ -125,6 +155,11 @@
    "démences",
    "NIR4AD : lumière proche infrarouge transcrânienne dans l'Alzheimer léger à modéré"
   ],
+  "NCT06199674": [
+   "odontologie",
+   "ortho",
+   "Photobiomodulation et résorption radiculaire sous appareil orthodontique fixe"
+  ],
   "NCT06203938": [
    "neurologie",
    "neurodev",
@@ -155,6 +190,16 @@
    "onco",
    "Qualité de vie sexuelle après cancer du sein et PBM"
   ],
+  "NCT06351605": [
+   "ophtalmologie",
+   "DMLA",
+   "Registre international Valeda dans la DMLA sèche (GLOBALIGHT)"
+  ],
+  "NCT06371300": [
+   "ophtalmologie",
+   "sécheresse",
+   "Photothérapie rouge contre bleue contre sham dans l'œil sec meibomien et la blépharite (REBEL)"
+  ],
   "NCT06426251": [
    "musculo-squelettique",
    "arthrose",
@@ -174,6 +219,16 @@
    "gynecologie",
    "vulve",
    "PBM, douleur et fonction sexuelle dans la dyspareunie"
+  ],
+  "NCT06538142": [
+   "odontologie",
+   "hypersensibilité",
+   "Photobiomodulation et nouveau matériau de restauration dans les MIH hypersensibles"
+  ],
+  "NCT06574152": [
+   "odontologie",
+   "endo",
+   "PBM contre sham sur la douleur et la cicatrisation de l'incision après microchirurgie endodontique"
   ],
   "NCT06584409": [
    "neurologie",
@@ -195,6 +250,11 @@
    "CSH",
    "Étude BRINK : PBM de la mucite en allogreffe de CSH"
   ],
+  "NCT06639009": [
+   "odontologie",
+   "autres",
+   "Photobiomodulation 940 nm pour l'ouverture buccale dans la fibrose sous-muqueuse orale"
+  ],
   "NCT06654739": [
    "musculo-squelettique",
    "arthrose",
@@ -204,6 +264,11 @@
    "gynecologie",
    "pelvien",
    "Essai BRIGHT : PBM et kinésithérapie multimodale en santé pelvienne"
+  ],
+  "NCT06691269": [
+   "odontologie",
+   "anesthésie",
+   "Photobiomodulation contre benzocaïne topique et anesthésie locale pour l'analgésie dentaire"
   ],
   "NCT06692998": [
    "musculo-squelettique",
@@ -260,6 +325,11 @@
    "arthrose",
    "Laser à domicile (B-Cure) contre sham dans la gonarthrose"
   ],
+  "NCT06780293": [
+   "ophtalmologie",
+   "sécheresse",
+   "Laser-acupuncture dans l'œil sec, dont celui du syndrome de Sjögren"
+  ],
   "NCT06790667": [
    "musculo-squelettique",
    "ATM",
@@ -295,6 +365,11 @@
    "démences",
    "Lumière proche infrarouge dans l'Alzheimer léger à modéré (exploratoire)"
   ],
+  "NCT06837480": [
+   "oncologie-support",
+   "lymphœdème",
+   "Laser portable contre sham dans le lymphœdème chronique cervico-facial après cancer ORL"
+  ],
   "NCT06916260": [
    "neurologie",
    "parkinson",
@@ -314,6 +389,11 @@
    "neurologie",
    "TC",
    "PBM transcrânienne chez le sujet âgé après traumatisme crânien"
+  ],
+  "NCT06971081": [
+   "odontologie",
+   "chirurgie",
+   "LED après extraction dentaire chez les patients sous anticoagulants oraux directs"
   ],
   "NCT06990165": [
    "dermatologie",
@@ -335,10 +415,20 @@
    "ATM",
    "Laser sur le ptérygoïdien latéral dans les DTM de stade Wilkes I–II"
   ],
+  "NCT07013162": [
+   "odontologie",
+   "paro",
+   "Laser diode haute ou basse puissance en complément du surfaçage dans la parodontite"
+  ],
   "NCT07014774": [
    "neuropathie-peripherique",
    "compression",
    "Laser-acupuncture et canal carpien après réparation des fléchisseurs"
+  ],
+  "NCT07018531": [
+   "odontologie",
+   "implants",
+   "Augmentation verticale des tissus mous autour des implants : technique tent-pole avec PRF ou PBM"
   ],
   "NCT07026617": [
    "musculo-squelettique",
@@ -415,6 +505,11 @@
    "plaies",
    "Lumière rouge ou rouge-bleue après chirurgie d'abcès périanal"
   ],
+  "NCT07160036": [
+   "ophtalmologie",
+   "myopie",
+   "Densité des cônes en imagerie AO-SLO chez les utilisateurs de lumière rouge répétée (RLRL)"
+  ],
   "NCT07161622": [
    "musculo-squelettique",
    "épaule",
@@ -429,6 +524,11 @@
    "neurologie",
    "AVC",
    "Laser basse énergie, spasticité des fléchisseurs du poignet et main après AVC"
+  ],
+  "NCT07173530": [
+   "ophtalmologie",
+   "sécheresse",
+   "Photothérapie basse énergie de l'œil sec selon la pigmentation cutanée"
   ],
   "NCT07177274": [
    "dermatologie",
@@ -465,6 +565,11 @@
    "muscle",
    "PBM corps entier chez des footballeurs professionnels en championnat"
   ],
+  "NCT07229001": [
+   "ophtalmologie",
+   "sécheresse",
+   "Photothérapie basse énergie du dysfonctionnement meibomien de l'enfant"
+  ],
   "NCT07232472": [
    "neurologie",
    "humeur",
@@ -484,6 +589,11 @@
    "neurologie",
    "parkinson",
    "PBM corps entier, troubles moteurs et cognitifs du Parkinson"
+  ],
+  "NCT07286474": [
+   "odontologie",
+   "ortho",
+   "Laser basse énergie et vitamine D sur le déplacement dentaire sous appareil fixe"
   ],
   "NCT07287046": [
    "musculo-squelettique",
@@ -545,6 +655,16 @@
    "compression",
    "Laser haute puissance dans la méralgie paresthésique"
   ],
+  "NCT07329712": [
+   "ophtalmologie",
+   "sécheresse",
+   "Protéomique des larmes avant et après photothérapie basse énergie dans l'œil sec"
+  ],
+  "NCT07332988": [
+   "ophtalmologie",
+   "sécheresse",
+   "Photothérapie basse énergie contre sham sur la surface oculaire dans la maladie de Basedow"
+  ],
   "NCT07342426": [
    "musculo-squelettique",
    "tendon",
@@ -560,10 +680,20 @@
    "autres",
    "Laser haute puissance contre sham dans la notalgie paresthésique"
   ],
+  "NCT07369804": [
+   "ophtalmologie",
+   "myopie",
+   "Sécurité et efficacité d'une lumière rouge LED focalisée chez l'adulte myope"
+  ],
   "NCT07372443": [
    "mucite-orale",
    "chimio",
    "PBM ou gel bioadhésif contre la mucite de l'enfant"
+  ],
+  "NCT07379515": [
+   "odontologie",
+   "anesthésie",
+   "Analgésie par photobiomodulation contre anesthésie topique médicamenteuse lors des soins de caries"
   ],
   "NCT07381361": [
    "neuropathie-peripherique",
@@ -610,6 +740,16 @@
    "démences",
    "PBM, cognition et humeur du sujet âgé avec plainte cognitive"
   ],
+  "NCT07446517": [
+   "sport",
+   "blessures",
+   "Laser basse énergie contre sham dans la maladie d'Osgood-Schlatter ou de Sever du jeune sportif"
+  ],
+  "NCT07449169": [
+   "odontologie",
+   "hypersensibilité",
+   "Laser diode associé au vernis CPP-ACPF contre vernis seul dans l'hypersensibilité dentinaire"
+  ],
   "NCT07453927": [
    "dermatologie",
    "cicatrices",
@@ -624,6 +764,16 @@
    "musculo-squelettique",
    "rachis",
    "Laser-acupuncture à faible dose contre sham dans la lombalgie"
+  ],
+  "NCT07466641": [
+   "odontologie",
+   "ortho",
+   "Laser basse énergie contre piézocision pour accélérer la rétraction canine"
+  ],
+  "NCT07476209": [
+   "oncologie-support",
+   "xérostomie",
+   "Sialendoscopie contre photobiomodulation pour prévenir la xérostomie radio-induite"
   ],
   "NCT07477678": [
    "musculo-squelettique",
@@ -644,6 +794,16 @@
    "neurologie",
    "humeur",
    "PBM transcrânienne (Vielight) dans la dépression bipolaire"
+  ],
+  "NCT07511790": [
+   "sport",
+   "performance",
+   "PBM active contre placebo sur la performance des joueuses de futsal"
+  ],
+  "NCT07511803": [
+   "sport",
+   "récupération",
+   "PBM active contre placebo sur la récupération des joueuses de futsal"
   ],
   "NCT07520383": [
    "neurologie",
@@ -690,6 +850,11 @@
    "arthrose",
    "Laser haute intensité ou agents physiques classiques dans la gonarthrose"
   ],
+  "NCT07554690": [
+   "ophtalmologie",
+   "DMLA",
+   "Laser de photobiomodulation contre sham dans les pseudo-drusen réticulés de la DMLA"
+  ],
   "NCT07556926": [
    "musculo-squelettique",
    "rachis",
@@ -699,6 +864,11 @@
    "dermatologie",
    "plaies",
    "Laser haute intensité pulsé ou thérapie par pression négative dans les ulcères neuropathiques"
+  ],
+  "NCT07558720": [
+   "odontologie",
+   "ortho",
+   "Laser diode contre gel de benzocaïne pour la douleur des séparateurs orthodontiques"
   ],
   "NCT07564713": [
    "musculo-squelettique",
@@ -730,6 +900,11 @@
    "orofaciale",
    "Laser haute intensité ou basse énergie dans la névralgie du trijumeau"
   ],
+  "NCT07591948": [
+   "odontologie",
+   "ortho",
+   "Laser basse énergie pour accélérer le déplacement dentaire et réduire la douleur orthodontique"
+  ],
   "NCT07594678": [
    "dermatologie",
    "alopécie",
@@ -760,6 +935,11 @@
    "épaule",
    "Laser haute intensité ou ondes de choc dans la tendinopathie du supra-épineux"
   ],
+  "NCT07626580": [
+   "odontologie",
+   "ortho",
+   "Micro-ostéoperforations seules ou associées au laser basse énergie : vitesse de rétraction canine"
+  ],
   "NCT07637084": [
    "musculo-squelettique",
    "EDS",
@@ -774,6 +954,11 @@
    "musculo-squelettique",
    "tendon",
    "Ondes de choc ou laser haute intensité dans l'épicondylite chronique"
+  ],
+  "NCT07658235": [
+   "odontologie",
+   "ortho",
+   "Micro-ostéoperforations contre PBM 976 nm pour accélérer la rétraction de la canine maxillaire"
   ],
   "NCT07661407": [
    "musculo-squelettique",
@@ -840,6 +1025,11 @@
    "alopécie",
    "PRP seul ou enrichi par PBM rouge ou bleue dans l'alopécie androgénétique"
   ],
+  "NCT07747350": [
+   "odontologie",
+   "ortho",
+   "Laser basse énergie contre paracétamol pour la douleur orthodontique"
+  ],
   "NCT07750392": [
    "musculo-squelettique",
    "fibro",
@@ -874,6 +1064,11 @@
    "neurologie",
    "parkinson",
    "Laser-acupuncture segmentaire contre la constipation et les troubles du sommeil du Parkinson"
+  ],
+  "NCT07795073": [
+   "odontologie",
+   "ortho",
+   "PRP et photobiomodulation pour accélérer le déplacement dentaire sous aligneurs"
   ],
   "NCT07798960": [
    "dermatologie",
@@ -910,6 +1105,11 @@
    "ORL",
    "Bain de bouche au copaïba associé au laser pour prévenir la mucite"
   ],
+  "NCT07810699": [
+   "odontologie",
+   "ortho",
+   "Laser diode contre LED pour la rétraction de la canine maxillaire"
+  ],
   "NCT07826117": [
    "musculo-squelettique",
    "rachis",
@@ -944,6 +1144,11 @@
    "musculo-squelettique",
    "ATM",
    "Gouttière occlusale et laser basse énergie : évaluation clinique et EMG"
+  ],
+  "NCT07886723": [
+   "odontologie",
+   "endo",
+   "PBM contre sham après traitement canalaire d'une parodontite apicale symptomatique : douleur et allodynie"
   ],
   "NCT07890233": [
    "dermatologie",
@@ -983,6 +1188,8 @@
  },
  "exclus": [
   "NCT03819062",
+  "NCT04495660",
+  "NCT04812093",
   "NCT04847635",
   "NCT05335317",
   "NCT05460143",
@@ -990,31 +1197,43 @@
   "NCT05595954",
   "NCT05625828",
   "NCT05712772",
+  "NCT05913063",
   "NCT05916417",
+  "NCT05937269",
   "NCT06124820",
   "NCT06161038",
   "NCT06395584",
   "NCT06512870",
   "NCT06547021",
   "NCT06552936",
+  "NCT06610747",
+  "NCT06719674",
   "NCT06804564",
+  "NCT06854068",
   "NCT06891924",
   "NCT06897670",
   "NCT06917599",
   "NCT06918210",
+  "NCT06925477",
+  "NCT06963684",
   "NCT07026838",
   "NCT07044596",
   "NCT07080008",
   "NCT07086638",
+  "NCT07088705",
   "NCT07093229",
   "NCT07169357",
   "NCT07205640",
   "NCT07222722",
   "NCT07245303",
+  "NCT07287709",
   "NCT07309406",
   "NCT07315841",
+  "NCT07446127",
   "NCT07472881",
+  "NCT07493941",
   "NCT07532161",
+  "NCT07532694",
   "NCT07576062",
   "NCT07605598",
   "NCT07606300",

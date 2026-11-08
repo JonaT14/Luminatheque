@@ -5,7 +5,7 @@ Procédure suivie à chaque mise à jour (par défaut chaque semaine). Elle peut
 
 ## 1. Collecter les nouveautés
 
-Pour chaque thème actif de `data/topics/` (aujourd'hui : `mucite-orale`, `neuropathie-peripherique`, `gynecologie`, `musculo-squelettique`, `dermatologie` et `neurologie` ; les thèmes marqués `"status": "à venir"` sont ignorés), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :
+Pour chaque thème actif de `data/topics/` (aujourd'hui : `mucite-orale`, `neuropathie-peripherique`, `gynecologie`, `musculo-squelettique`, `dermatologie`, `neurologie`, `odontologie`, `ophtalmologie`, `oncologie-support`, `orl` et `sport` ; les thèmes marqués `"status": "à venir"` sont ignorés), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :
 
 ```bash
 python3 scripts/fetch_pubmed.py --topic mucite-orale --since AAAA-MM-JJ
@@ -29,6 +29,12 @@ python3 scripts/fetch_trials.py
 ```
 
 Le script interroge ClinicalTrials.gov pour tous les thèmes et liste les essais PBM « à trier ». Pour chacun, l'ajouter dans `data/curation/essais.json` : sous `essais`, `"NCT…": ["thème", "sous-groupe", "titre en français"]`, ou sous `exclus` s'il ne relève pas de la PBM (laser ablatif, luminothérapie par la rétine, imagerie proche infrarouge…). Les essais qui changent de statut (ouverture, clôture) sont mis à jour automatiquement ; ceux qui sont terminés disparaissent de la rubrique.
+
+### Paramètres, appareils et fiches patients
+
+- **Paramètres** (`data/curation/<thème>/parametres.json`) : quand une nouvelle méta-analyse, une recommandation ou un grand essai change le réglage conseillé ou le niveau de preuve d'une indication, mettre à jour la fiche (`niveau` : `recommandée`, `prometteuse`, `incertaine`, `non démontrée`) et ajouter son PMID dans `sources` (il doit avoir une fiche rédigée).
+- **Appareils** (`data/appareils.json`) : la détection est automatique dans les résumés et les essais ; ajouter une entrée (avec son expression régulière) quand une nouvelle marque ou un nouveau type d'appareil apparaît.
+- **Fiches patients** (`data/fiches_patients.json`) : revoir le niveau de preuve et les sources quand la fiche paramètres correspondante change.
 
 ## 2. Analyser chaque nouvel article
 
