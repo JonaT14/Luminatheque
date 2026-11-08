@@ -1,0 +1,1739 @@
+[
+ {
+  "pmid": "12973834",
+  "title_fr": "Laser basse énergie dans le lymphœdème après mastectomie : essai en double aveugle contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   904
+  ],
+  "n": 61,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Dans le lymphœdème après mastectomie, deux cycles de laser axillaire réduisent le volume du bras, le liquide extracellulaire et la dureté des tissus chez environ un tiers des patientes à 3 mois.",
+  "l2": "Essai randomisé en double aveugle contre placebo (Cancer, 2003).",
+  "l3": {
+   "points": [
+    "Un cycle ne suffit pas, deux cycles sont efficaces."
+   ],
+   "limites": [
+    "Effet chez une minorité de patientes ; pas de gain d'amplitude."
+   ],
+   "pratique": "Essai fondateur ; prévoir au moins deux cycles."
+  }
+ },
+ {
+  "pmid": "16673054",
+  "title_fr": "Laser basse énergie dans le lymphœdème après mastectomie : petit essai contrôlé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 11,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Chez 11 femmes, le laser réduit le lymphœdème après mastectomie par rapport au placebo.",
+  "l2": "Essai contrôlé en double aveugle, 11 patientes.",
+  "l3": {
+   "points": [
+    "Effet sur le volume."
+   ],
+   "limites": [
+    "Très petit effectif."
+   ],
+   "pratique": "Paramètres optimaux à définir."
+  }
+ },
+ {
+  "pmid": "17018707",
+  "title_fr": "Thérapies conservatrices du lymphœdème du bras après cancer du sein : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Lymphœdème",
+  "l1": "Parmi les traitements conservateurs du lymphœdème du bras, le laser fait partie des options qui réduisent le volume, mais les essais restent trop petits.",
+  "l2": "Revue systématique (Ann Oncol, 2006).",
+  "l3": {
+   "points": [
+    "Panorama des traitements physiques."
+   ],
+   "limites": [
+    "Essais de faible effectif."
+   ],
+   "pratique": "Option complémentaire."
+  }
+ },
+ {
+  "pmid": "19164399",
+  "title_fr": "Compression pneumatique ou laser basse énergie dans le lymphœdème après mastectomie : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 47,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Dans le lymphœdème après mastectomie, compression pneumatique et laser sont efficaces ; le laser donne de meilleurs résultats à long terme.",
+  "l2": "Essai randomisé, 47 patientes (Clin Rehabil).",
+  "l3": {
+   "points": [
+    "Effet plus durable sous laser."
+   ],
+   "limites": [
+    "Pas de placebo."
+   ],
+   "pratique": "Alternative à la compression pneumatique."
+  }
+ },
+ {
+  "pmid": "19878027",
+  "title_fr": "Laser basse énergie dans le lymphœdème après mastectomie : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 21,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Douze séances de laser en 4 semaines réduisent le volume du bras et améliorent la souplesse des tissus et la fonction (DASH), avec un effet maintenu à 4 semaines.",
+  "l2": "Essai randomisé contre absence de laser, 21 patientes.",
+  "l3": {
+   "points": [
+    "Amélioration fonctionnelle progressive."
+   ],
+   "limites": [
+    "Petit effectif ; pas de placebo."
+   ],
+   "pratique": "Option complémentaire."
+  }
+ },
+ {
+  "pmid": "20538293",
+  "title_fr": "Laser dans le lymphœdème après mastectomie : essai en double aveugle contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 50,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Le laser réduit le volume du bras, augmente la mobilité de l'épaule et la force de préhension chez environ 93 % des patientes, mieux que le placebo à 8 et 12 semaines.",
+  "l2": "Essai randomisé en double aveugle contre placebo, 50 patientes.",
+  "l3": {
+   "points": [
+    "Effet sur la fonction de l'épaule."
+   ],
+   "limites": [
+    "Taux de réponse élevé, à confirmer."
+   ],
+   "pratique": "Option efficace."
+  }
+ },
+ {
+  "pmid": "22730712",
+  "title_fr": "Laser basse énergie et xérostomie : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "Le laser peut améliorer le débit salivaire et régénérer l'épithélium des canaux salivaires ; il est sûr dans la xérostomie.",
+  "l2": "Revue systématique (PubMed seul).",
+  "l3": {
+   "points": [
+    "Base mécanistique."
+   ],
+   "limites": [
+    "Une seule base interrogée."
+   ],
+   "pratique": "Paramètres à préciser."
+  }
+ },
+ {
+  "pmid": "22875413",
+  "title_fr": "Laser basse énergie dans le lymphœdème après cancer du sein : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Preuves modérées à fortes d'efficacité du laser dans le lymphœdème lié au cancer du sein ; 1 à 2 J/cm² par point sur la zone fibreuse réduisent le volume.",
+  "l2": "Revue systématique de 7 bases, essais 1990–2011 (Support Care Cancer).",
+  "l3": {
+   "points": [
+    "Dose recommandée : 1–2 J/cm² par point."
+   ],
+   "limites": [
+    "Cinq petites études."
+   ],
+   "pratique": "Repère de dose utile."
+  }
+ },
+ {
+  "pmid": "23192573",
+  "title_fr": "Laser basse énergie dans le lymphœdème secondaire au cancer du sein : revue systématique",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Lymphœdème",
+  "l1": "Le laser est prometteur dans le lymphœdème après cancer du sein, mais aucune étude n'a évalué le risque de récidive ou de métastase.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [
+    "Question de la sécurité oncologique."
+   ],
+   "limites": [
+    "Données de sécurité absentes en 2012."
+   ],
+   "pratique": "Voir les revues de sécurité ultérieures (2019)."
+  }
+ },
+ {
+  "pmid": "23803270",
+  "title_fr": "Laser basse énergie comme alternative au drainage lymphatique manuel : essai pilote",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 46,
+  "effect": "mitigé",
+  "theme": "Lymphœdème",
+  "l1": "Le laser associé au bandage pourrait remplacer le drainage manuel pour gagner du temps, mais le bandage seul explique peut-être la baisse de volume.",
+  "l2": "Essai pilote randomisé à 3 bras, 46 patientes.",
+  "l3": {
+   "points": [
+    "Amélioration cutanée sous laser."
+   ],
+   "limites": [
+    "Effet propre du laser non isolé."
+   ],
+   "pratique": "Option pour gagner du temps."
+  }
+ },
+ {
+  "pmid": "24820476",
+  "title_fr": "Laser-acupuncture et débit salivaire dans le syndrome de Gougerot-Sjögren",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "Dans le syndrome de Sjögren, la laser-acupuncture augmente le débit salivaire (étude préliminaire).",
+  "l2": "Étude préliminaire contrôlée.",
+  "l3": {
+   "points": [
+    "Xérostomie hors cancer."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "À confirmer."
+  }
+ },
+ {
+  "pmid": "25432632",
+  "title_fr": "Laser basse énergie, douleur et volume dans le lymphœdème lié au cancer du sein : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Preuves de force modérée : le laser réduit le volume du bras et la douleur, avec un gain de volume supérieur aux traitements sans laser.",
+  "l2": "Revue systématique avec méta-analyse (J Cancer Surviv, 2014).",
+  "l3": {
+   "points": [
+    "Réduction de volume cliniquement pertinente."
+   ],
+   "limites": [
+    "Effet sur la douleur non significatif entre groupes."
+   ],
+   "pratique": "Option de la prise en charge décongestive."
+  }
+ },
+ {
+  "pmid": "27196626",
+  "title_fr": "Laser contre la baisse du débit salivaire pendant la radiochimiothérapie ORL",
+  "type": "nrct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   660
+  ],
+  "n": 27,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "Pendant la radiochimiothérapie ORL, le laser intrabuccal (660 nm, 10 J/cm²) maintient un débit salivaire plus élevé que les soins habituels.",
+  "l2": "Étude prospective longitudinale contrôlée, 27 patients.",
+  "l3": {
+   "points": [
+    "Prévention de l'hyposialie."
+   ],
+   "limites": [
+    "Non randomisée."
+   ],
+   "pratique": "Prévention possible."
+  }
+ },
+ {
+  "pmid": "27943450",
+  "title_fr": "PBM dans le lymphœdème lié au cancer du sein : essai contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 40,
+  "effect": "neutre",
+  "theme": "Lymphœdème",
+  "l1": "Un protocole court de PBM par laser en grappe n'améliore ni la qualité de vie, ni la douleur, ni la force, ni le volume du bras par rapport au placebo.",
+  "l2": "Essai randomisé en double aveugle contre placebo, 40 patientes.",
+  "l3": {
+   "points": [
+    "Résultat négatif."
+   ],
+   "limites": [
+    "Protocole court (8 séances)."
+   ],
+   "pratique": "Les protocoles courts ne suffisent pas."
+  }
+ },
+ {
+  "pmid": "28249650",
+  "title_fr": "Traitements de la xérostomie et de l'hyposialie radio-induites : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Xérostomie",
+  "l1": "Dans la xérostomie radio-induite, la pilocarpine et la céviméline restent la première ligne ; les autres traitements, dont le laser, ne sont pas soutenus par les données de 2016.",
+  "l2": "Revue systématique avec méta-analyse d'essais randomisés (Oral Oncol).",
+  "l3": {
+   "points": [
+    "Hiérarchie des traitements."
+   ],
+   "limites": [
+    "Peu d'essais laser à l'époque."
+   ],
+   "pratique": "Le laser n'est pas la première ligne."
+  }
+ },
+ {
+  "pmid": "29022754",
+  "title_fr": "Deux protocoles de PBM dans l'hyposialie : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 30,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "Dans l'hyposialie, les deux longueurs d'onde testées augmentent le débit salivaire, avec un effet encore présent 10 jours après la fin du traitement.",
+  "l2": "Essai randomisé, 30 patients, 10 séances.",
+  "l3": {
+   "points": [
+    "Effet régénératif possible."
+   ],
+   "limites": [
+    "Pas de placebo."
+   ],
+   "pratique": "Option à considérer."
+  }
+ },
+ {
+  "pmid": "29119483",
+  "title_fr": "Laser basse énergie dans la xérostomie du syndrome de Sjögren primitif : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Xérostomie",
+  "l1": "Dans le syndrome de Sjögren primitif, le protocole de laser testé n'améliore ni la sécheresse buccale ni le débit salivaire.",
+  "l2": "Essai randomisé contre placebo (NCT02066896).",
+  "l3": {
+   "points": [
+    "Résultat négatif."
+   ],
+   "limites": [
+    "Un seul protocole."
+   ],
+   "pratique": "Pas d'intérêt démontré dans le Sjögren."
+  }
+ },
+ {
+  "pmid": "29216916",
+  "title_fr": "Laser dans le lymphœdème lié au cancer du sein : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Le laser peut être considéré comme un traitement efficace du lymphœdème lié au cancer du sein ; il fait mieux que l'absence de traitement à court terme.",
+  "l2": "Revue systématique (BMC Cancer, 2017).",
+  "l3": {
+   "points": [
+    "Effet à court terme sur le gonflement."
+   ],
+   "limites": [
+    "Peu d'essais ; paramètres non définis."
+   ],
+   "pratique": "Option efficace à court terme."
+  }
+ },
+ {
+  "pmid": "29851090",
+  "title_fr": "Laser basse énergie dans le lymphœdème lié au cancer du sein : essai de faisabilité",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Lymphœdème",
+  "l1": "Ajouter le laser à la prise en charge habituelle est faisable mais n'apporte pas de bénéfice clinique dans cet essai de faisabilité.",
+  "l2": "Essai randomisé de faisabilité (Nouvelle-Zélande).",
+  "l3": {
+   "points": [
+    "114 patientes nécessaires pour un essai définitif."
+   ],
+   "limites": [
+    "Non conçu pour l'efficacité."
+   ],
+   "pratique": "Prépare un essai plus large."
+  }
+ },
+ {
+  "pmid": "31109692",
+  "title_fr": "Sécurité tumorale et effets indésirables de la PBM contre les toxicités des traitements du cancer : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Autres",
+  "l1": "Selon les données disponibles, la PBM utilisée contre les toxicités des traitements du cancer n'entraîne pas de problème de sécurité tumorale.",
+  "l2": "Revue systématique (Oral Oncol, 2019).",
+  "l3": {
+   "points": [
+    "Question centrale pour l'oncologie de support."
+   ],
+   "limites": [
+    "Données humaines à long terme limitées."
+   ],
+   "pratique": "Rassurant."
+  }
+ },
+ {
+  "pmid": "31079232",
+  "title_fr": "Laser en complément de la thérapie décongestive dans le lymphœdème : essai pilote contre placebo",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Ajouter le laser à la thérapie décongestive complète soulage les symptômes et la détresse émotionnelle, sans réduction supplémentaire du volume.",
+  "l2": "Essai pilote randomisé en double aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Gain sur les symptômes."
+   ],
+   "limites": [
+    "Pas d'effet sur le volume."
+   ],
+   "pratique": "Complément de confort."
+  }
+ },
+ {
+  "pmid": "31780036",
+  "title_fr": "PBM dans le lymphœdème lié au cancer du sein : méta-analyse d'essais randomisés",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Lymphœdème",
+  "l1": "La PBM réduit légèrement la circonférence et le volume du bras, sans bénéfice significatif sur le lymphœdème dans cette méta-analyse de 2019.",
+  "l2": "Méta-analyse d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Tendance favorable."
+   ],
+   "limites": [
+    "Peu de patientes ; suivi court."
+   ],
+   "pratique": "Bénéfice incertain."
+  }
+ },
+ {
+  "pmid": "31754836",
+  "title_fr": "PBM dans le syndrome main-pied des chimiothérapies : étude pilote",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "main-pied"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Syndrome main-pied & ongles",
+  "l1": "Dans le syndrome main-pied, la PBM réduit les signes par rapport au sham et la douleur chez près de la moitié des patients, sans effet indésirable.",
+  "l2": "Étude pilote contrôlée contre sham.",
+  "l3": {
+   "points": [
+    "Nouvelle indication."
+   ],
+   "limites": [
+    "Pilote."
+   ],
+   "pratique": "Piste prometteuse."
+  }
+ },
+ {
+  "pmid": "32073990",
+  "title_fr": "PRP, laser basse énergie et physiothérapie décongestive dans le lymphœdème du membre inférieur",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Lymphœdème",
+  "l1": "Dans le lymphœdème du membre inférieur, le laser améliore les mesures, mais c'est le PRP qui apparaît comme l'option nouvelle à explorer.",
+  "l2": "Essai randomisé à 3 bras (Lymphat Res Biol).",
+  "l3": {
+   "points": [
+    "Membre inférieur."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Le laser reste une option parmi d'autres."
+  }
+ },
+ {
+  "pmid": "32109187",
+  "title_fr": "PBM et dysfonction des glandes salivaires après cancer : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Xérostomie",
+  "l1": "Malgré des résultats préliminaires positifs, il est trop tôt pour affirmer l'efficacité de la PBM contre l'hyposialie et la xérostomie après cancer.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [
+    "La plupart des essais sont positifs."
+   ],
+   "limites": [
+    "Essais hétérogènes."
+   ],
+   "pratique": "Incertain."
+  }
+ },
+ {
+  "pmid": "32570059",
+  "title_fr": "PBM, débit salivaire et xérostomie pendant la radiothérapie ORL : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Xérostomie",
+  "l1": "Pendant la radiothérapie ORL, la PBM préserve le pH salivaire mais ne change ni le débit, ni la xérostomie, ni la qualité de vie à court terme.",
+  "l2": "Essai randomisé contrôlé.",
+  "l3": {
+   "points": [
+    "Effet sur le pH."
+   ],
+   "limites": [
+    "Suivi court."
+   ],
+   "pratique": "Effet limité."
+  }
+ },
+ {
+  "pmid": "32964596",
+  "title_fr": "Bénéfices aigus et cumulés de la PBM dans la xérostomie : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "La PBM améliore la xérostomie et l'hyposialie, avec un effet immédiat et cumulatif, mais sans consensus sur les paramètres.",
+  "l2": "Revue systématique avec méta-analyse (Oral Dis).",
+  "l3": {
+   "points": [
+    "Toutes causes confondues."
+   ],
+   "limites": [
+    "Protocoles non standardisés."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "33039721",
+  "title_fr": "La PBM prévient-elle l'hyposialie pendant la radiothérapie ORL ? Méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "Pendant la radiothérapie ORL, la PBM augmente le débit salivaire non stimulé (+0,20 mL/min) et stimulé (+0,27 mL/min).",
+  "l2": "Méta-analyse d'essais contrôlés (Crit Rev Oncol Hematol).",
+  "l3": {
+   "points": [
+    "Effet préventif."
+   ],
+   "limites": [
+    "Hétérogénéité très élevée (I² 95 %)."
+   ],
+   "pratique": "Prévention prometteuse."
+  }
+ },
+ {
+  "pmid": "33411048",
+  "title_fr": "Rapport coût-efficacité de la PBM contre les toxicités des traitements du cancer : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Autres",
+  "l1": "La PBM paraît coût-efficace contre la mucite et le lymphœdème lié au cancer du sein ; les bénéfices économiques sont probablement sous-estimés.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [
+    "Argument pour l'adoption dans les centres."
+   ],
+   "limites": [
+    "Peu d'évaluations économiques complètes."
+   ],
+   "pratique": "Argument médico-économique."
+  }
+ },
+ {
+  "pmid": "33745088",
+  "title_fr": "PBM des glandes salivaires chez l'hémodialysé : essai contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 44,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "Chez l'insuffisant rénal hémodialysé, la PBM améliore l'hyposialie et réduit l'urée salivaire.",
+  "l2": "Essai randomisé contre placebo, 44 patients.",
+  "l3": {
+   "points": [
+    "Xérostomie hors cancer."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "Option à considérer."
+  }
+ },
+ {
+  "pmid": "33826415",
+  "title_fr": "Compression pneumatique intermittente plus laser dans le lymphœdème après mastectomie : effet à long terme",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Compression pneumatique et laser améliorent le lymphœdème, la force et la douleur ; leur association est un peu supérieure à long terme, surtout sur la douleur.",
+  "l2": "Essai randomisé (Lymphat Res Biol).",
+  "l3": {
+   "points": [
+    "Effet à long terme."
+   ],
+   "limites": [
+    "Gain modeste."
+   ],
+   "pratique": "Association utile."
+  }
+ },
+ {
+  "pmid": "34014116",
+  "title_fr": "Interventions contre le trismus des cancers ORL : revue systématique d'essais randomisés",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "trismus"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Trismus & fibrose radio-induite",
+  "l1": "Dans le trismus des cancers ORL, les exercices et dispositifs d'ouverture sont comparables ; le laser associé à l'exercice pourrait être bénéfique.",
+  "l2": "Revue systématique d'essais randomisés.",
+  "l3": {
+   "points": [
+    "L'observance compte le plus."
+   ],
+   "limites": [
+    "Peu d'essais laser."
+   ],
+   "pratique": "Complément de la rééducation."
+  }
+ },
+ {
+  "pmid": "34230117",
+  "title_fr": "Prise en charge intégrée du lymphœdème lié au cancer du sein : revue de l'état de l'art",
+  "type": "review",
+  "level": 5,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Lymphœdème",
+  "l1": "Revue des traitements du lymphœdème lié au cancer du sein, dont le laser ; il n'existe pas encore de traitement de référence.",
+  "l2": "Revue narrative de 33 articles.",
+  "l3": {
+   "points": [
+    "Panorama complet."
+   ],
+   "limites": [
+    "Revue descriptive."
+   ],
+   "pratique": "Pour situer le laser."
+  }
+ },
+ {
+  "pmid": "34409539",
+  "title_fr": "Lumière basse énergie et xérostomie liée à l'hyposialie : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Xérostomie",
+  "l1": "La PBM soulage la xérostomie et l'hyposialie à court terme, sans effet durable sur la qualité de vie.",
+  "l2": "Revue systématique avec méta-analyse d'essais cliniques.",
+  "l3": {
+   "points": [
+    "Effet à court terme."
+   ],
+   "limites": [
+    "Pas d'effet durable."
+   ],
+   "pratique": "Bénéfice transitoire."
+  }
+ },
+ {
+  "pmid": "34779937",
+  "title_fr": "Laser dans le lymphœdème lié au cancer du sein : revue des revues systématiques",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Lymphœdème",
+  "l1": "Le laser est sûr, mais sa supériorité sur les autres traitements n'est pas établie dans le lymphœdème lié au cancer du sein.",
+  "l2": "Revue de revues systématiques (Lasers Med Sci).",
+  "l3": {
+   "points": [
+    "Sécurité confirmée."
+   ],
+   "limites": [
+    "Qualité méthodologique faible des revues."
+   ],
+   "pratique": "Option sûre, efficacité discutée."
+  }
+ },
+ {
+  "pmid": "36042421",
+  "title_fr": "Laser dans le lymphœdème lié au cancer du sein : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Le laser réduit la circonférence et le volume du bras plus qu'il n'améliore la mobilité de l'épaule et la douleur.",
+  "l2": "Revue systématique (BMC Cancer, 2022).",
+  "l3": {
+   "points": [
+    "Effet surtout volumétrique."
+   ],
+   "limites": [
+    "Suivis courts."
+   ],
+   "pratique": "Option bénéfique."
+  }
+ },
+ {
+  "pmid": "36110957",
+  "title_fr": "PBM contre les effets secondaires des traitements du cancer : position de la WALT 2022",
+  "type": "guideline",
+  "level": 5,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Autres",
+  "l1": "La WALT juge les preuves solides pour prévenir et traiter de nombreuses complications des traitements du cancer, dont le lymphœdème, et propose des paramètres.",
+  "l2": "Recommandations d'un panel international (WALT, 2022).",
+  "l3": {
+   "points": [
+    "Recommandations par complication."
+   ],
+   "limites": [
+    "Consensus d'experts."
+   ],
+   "pratique": "Référence pour les paramètres."
+  }
+ },
+ {
+  "pmid": "37060370",
+  "title_fr": "PBM contre la xérostomie et la mucite des cancers ORL : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 53,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "Pendant la radiothérapie ORL, la PBM améliore la qualité de vie, avec un effet sur la xérostomie et la mucite.",
+  "l2": "Essai randomisé contre sham, 53 patients.",
+  "l3": {
+   "points": [
+    "Qualité de vie."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "Option de soins de support."
+  }
+ },
+ {
+  "pmid": "37382963",
+  "title_fr": "Rééducation du lymphœdème des cancers ORL : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Lymphœdème",
+  "l1": "Dans le lymphœdème des cancers ORL, les interventions de rééducation semblent sûres et bénéfiques ; les données sur la PBM restent limitées.",
+  "l2": "Revue systématique (JAMA Otolaryngol Head Neck Surg).",
+  "l3": {
+   "points": [
+    "Lymphœdème cervico-facial."
+   ],
+   "limites": [
+    "Peu d'essais contrôlés."
+   ],
+   "pratique": "À préciser."
+  }
+ },
+ {
+  "pmid": "37946598",
+  "title_fr": "Interventions non médicamenteuses contre la bouche sèche radio-induite : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Xérostomie",
+  "l1": "Contre la bouche sèche radio-induite, certaines salives artificielles et la TENS sont les plus prometteuses ; les données sur la PBM restent hétérogènes.",
+  "l2": "Revue systématique d'essais randomisés (PROSPERO).",
+  "l3": {
+   "points": [
+    "Comparaison large."
+   ],
+   "limites": [
+    "Hétérogénéité."
+   ],
+   "pratique": "La PBM n'est pas en tête."
+  }
+ },
+ {
+  "pmid": "38129368",
+  "title_fr": "Schémas de PBM dans le lymphœdème lié au cancer du sein : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Dans le lymphœdème lié au cancer du sein, une fréquence de séances plus élevée, une densité adaptée et une cure plus longue donnent de meilleurs résultats.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Repères de schéma thérapeutique."
+   ],
+   "limites": [
+    "Suivis courts."
+   ],
+   "pratique": "Préférer des cures longues et rapprochées."
+  }
+ },
+ {
+  "pmid": "38189964",
+  "title_fr": "PBM des glandes salivaires : revue narrative et méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [
+   630,
+   830
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "Les paramètres les plus prometteurs sont 630–830 nm, 2 à 10 J/cm², 2 à 3 fois par semaine, dès avant les lésions radiques, sur l'ensemble des glandes ; les LED couvrant de grandes surfaces sont intéressantes.",
+  "l2": "Revue narrative et méta-analyse.",
+  "l3": {
+   "points": [
+    "Repères de dose précis."
+   ],
+   "limites": [
+    "Études hétérogènes."
+   ],
+   "pratique": "Référence pratique."
+  }
+ },
+ {
+  "pmid": "38244087",
+  "title_fr": "Laser basse énergie et qualité de vie dans la xérostomie de la radiothérapie ORL : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "Le laser améliore la sensation de bouche sèche et le débit salivaire, et donc la qualité de vie des patients irradiés pour un cancer ORL.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [
+    "Qualité de vie."
+   ],
+   "limites": [
+    "Hétérogénéité."
+   ],
+   "pratique": "Résultats prometteurs."
+  }
+ },
+ {
+  "pmid": "38608541",
+  "title_fr": "PBM et hyposialie induite par les antihypertenseurs : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 41,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "Dans l'hyposialie due aux antihypertenseurs, la PBM à 808 nm (4 J par site, hebdomadaire) augmente le débit salivaire de 75 %.",
+  "l2": "Essai randomisé en aveugle contre placebo, 41 patients.",
+  "l3": {
+   "points": [
+    "Xérostomie médicamenteuse."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "Option hors cancer."
+  }
+ },
+ {
+  "pmid": "39611899",
+  "title_fr": "Laser, Kinesio taping et endermologie dans le lymphœdème après mastectomie : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Le laser et l'endermologie réduisent mieux le volume du bras que la thérapie conventionnelle, sans différence sur la circonférence ni la douleur.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Comparaison de trois techniques."
+   ],
+   "limites": [
+    "Revue peu rigoureuse."
+   ],
+   "pratique": "Complément possible."
+  }
+ },
+ {
+  "pmid": "39792256",
+  "title_fr": "Prévention de l'hyposialie et de la xérostomie des traitements non chirurgicaux du cancer : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Xérostomie",
+  "l1": "Pour prévenir l'hyposialie, limiter la dose de radiothérapie aux glandes salivaires est le plus efficace ; la PBM n'est qu'une option parmi d'autres.",
+  "l2": "Revue systématique d'essais randomisés (MASCC/ISOO).",
+  "l3": {
+   "points": [
+    "Prévention à la source."
+   ],
+   "limites": [
+    "Peu d'essais PBM."
+   ],
+   "pratique": "La PBM vient en complément."
+  }
+ },
+ {
+  "pmid": "40038715",
+  "title_fr": "Traitements du trismus radio-induit : essai randomisé à trois bras",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "trismus"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 36,
+  "effect": "favorable",
+  "theme": "Trismus & fibrose radio-induite",
+  "l1": "Dans le trismus radio-induit, l'association d'un dispositif d'ouverture et du laser donne l'amélioration la plus rapide et la plus importante.",
+  "l2": "Essai randomisé, 36 patients.",
+  "l3": {
+   "points": [
+    "Effet à 3 et 6 mois."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Associer laser et rééducation de l'ouverture."
+  }
+ },
+ {
+  "pmid": "40184883",
+  "title_fr": "PBM pour prévenir les effets buccaux des traitements des cancers ORL : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Xérostomie",
+  "l1": "Pendant le traitement des cancers ORL, la PBM retarde et réduit la mucite et l'hyposialie, mais n'a pas d'effet sur la xérostomie ressentie ni sur le trismus.",
+  "l2": "Essai randomisé en simple aveugle (Oral Oncol).",
+  "l3": {
+   "points": [
+    "Effet sur l'hyposialie objective."
+   ],
+   "limites": [
+    "Pas d'effet sur le trismus."
+   ],
+   "pratique": "Bénéfice partiel."
+  }
+ },
+ {
+  "pmid": "40809028",
+  "title_fr": "Interventions non médicamenteuses contre la xérostomie des cancers ORL : méta-analyse en réseau",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Xérostomie",
+  "l1": "Contre la xérostomie, le gel hydratant et la stimulation électrique sont les mieux classés ; la PBM est une option complémentaire prometteuse.",
+  "l2": "Revue systématique et méta-analyse en réseau.",
+  "l3": {
+   "points": [
+    "Classement des options."
+   ],
+   "limites": [
+    "Comparaisons indirectes."
+   ],
+   "pratique": "La PBM en complément."
+  }
+ },
+ {
+  "pmid": "40973840",
+  "title_fr": "Laser ou TENS sur les glandes salivaires dans le diabète de type 2 : analyse intermédiaire",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 8,
+  "effect": "—",
+  "theme": "Xérostomie",
+  "l1": "Chez huit diabétiques, la stimulation des glandes salivaires par laser ou TENS pourrait modifier le microbiote buccal ; résultats exploratoires.",
+  "l2": "Analyse intermédiaire d'un essai randomisé.",
+  "l3": {
+   "points": [
+    "Microbiote."
+   ],
+   "limites": [
+    "Huit participants."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "41013422",
+  "title_fr": "PBM pour restaurer le débit salivaire après radiothérapie ORL : essai contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 31,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "Chez des patients en rémission avec xérostomie chronique, la PBM augmente objectivement le débit salivaire, signe d'un possible effet régénérateur.",
+  "l2": "Essai randomisé en double aveugle contre placebo, 31 patients.",
+  "l3": {
+   "points": [
+    "Xérostomie chronique, plus de 3 mois après la radiothérapie."
+   ],
+   "limites": [
+    "Autres critères moins nets."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "41249567",
+  "title_fr": "Laser basse énergie et transport lymphatique chez le volontaire sain : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Chez des volontaires sains, le laser stimule la motricité lymphatique, avec des différences selon la longueur d'onde.",
+  "l2": "Essai randomisé chez des sujets sains.",
+  "l3": {
+   "points": [
+    "Mécanisme lymphatique."
+   ],
+   "limites": [
+    "Sujets sains."
+   ],
+   "pratique": "Base pour choisir le protocole."
+  }
+ },
+ {
+  "pmid": "41253620",
+  "title_fr": "Traitements de la xérostomie radio-induite des cancers ORL : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Xérostomie",
+  "l1": "Aucun traitement de la xérostomie radio-induite ne s'impose ; les données sur la PBM restent non concluantes.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Comparaison large."
+   ],
+   "limites": [
+    "Critères non standardisés."
+   ],
+   "pratique": "Incertain."
+  }
+ },
+ {
+  "pmid": "41826477",
+  "title_fr": "PBM pour prévenir le trismus pendant la radiothérapie ORL : essai en triple aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "trismus"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Trismus & fibrose radio-induite",
+  "l1": "Pendant la radiothérapie ORL (IMRT ou VMAT), la PBM prévient le trismus et la douleur des muscles masticateurs.",
+  "l2": "Essai randomisé en triple aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Effet préventif."
+   ],
+   "limites": [
+    "Pas de différence d'ouverture à 6 mois."
+   ],
+   "pratique": "Prévention possible."
+  }
+ },
+ {
+  "pmid": "41880047",
+  "title_fr": "PBM, mucite, douleur, xérostomie et qualité de vie dans les cancers ORL : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Xérostomie",
+  "l1": "Dans les cancers ORL, la PBM réduit la mucite sévère et la douleur buccale et pourrait améliorer le débit salivaire, avec une certitude faible à très faible.",
+  "l2": "Revue systématique avec méta-analyse d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Vue d'ensemble des effets buccaux."
+   ],
+   "limites": [
+    "Risque de biais élevé."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "42010907",
+  "title_fr": "Laser-acupuncture contre la xérostomie de la maladie de Sjögren : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "xérostomie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": 50,
+  "effect": "mitigé",
+  "theme": "Xérostomie",
+  "l1": "Dans la maladie de Sjögren, la PBM sur points d'acupuncture apporte un léger bénéfice sur la sécheresse et le débit salivaire à 8 semaines, qui disparaît à 12 semaines.",
+  "l2": "Essai randomisé en double aveugle contre sham, 50 patients.",
+  "l3": {
+   "points": [
+    "Effet transitoire."
+   ],
+   "limites": [
+    "Effet modeste."
+   ],
+   "pratique": "Bénéfice limité."
+  }
+ },
+ {
+  "pmid": "42071320",
+  "title_fr": "PBM dans le lymphœdème chronique des cancers ORL : essai pilote randomisé",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Lymphœdème",
+  "l1": "Dans le lymphœdème chronique cervico-facial après cancer ORL, la PBM améliore le lymphœdème externe, les symptômes et la mobilité du cou.",
+  "l2": "Essai pilote randomisé avec liste d'attente.",
+  "l3": {
+   "points": [
+    "Lymphœdème de la tête et du cou."
+   ],
+   "limites": [
+    "Pilote."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "42082093",
+  "title_fr": "Complications bucco-dentaires des cancers ORL : revue parapluie",
+  "type": "umbrella",
+  "level": 5,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Autres",
+  "l1": "Dans les cancers ORL, la PBM est associée à moins de mucite, et la radiothérapie conformationnelle à moins de xérostomie et d'ostéoradionécrose ; les preuves sont de faible confiance.",
+  "l2": "Revue parapluie de revues systématiques (J Dent, 2026).",
+  "l3": {
+   "points": [
+    "Vue d'ensemble."
+   ],
+   "limites": [
+    "Preuves fragmentées."
+   ],
+   "pratique": "La PBM est surtout étayée contre la mucite."
+  }
+ },
+ {
+  "pmid": "42782358",
+  "title_fr": "Nouveau protocole de laser basse énergie dans le lymphœdème lié au cancer du sein",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Lymphœdème",
+  "l1": "Dans le lymphœdème lié au cancer du sein, différentes longueurs d'onde modifient les propriétés mécaniques des tissus, avec des résultats exploratoires.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [
+    "Comparaison de longueurs d'onde."
+   ],
+   "limites": [
+    "Exploratoire ; critère principal non prédéfini."
+   ],
+   "pratique": "À confirmer."
+  }
+ }
+]

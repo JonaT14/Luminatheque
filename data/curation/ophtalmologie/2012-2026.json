@@ -1,0 +1,2606 @@
+[
+ {
+  "pmid": "22235969",
+  "title_fr": "Laser basse énergie et acuité visuelle dans l'amblyopie de l'adolescent et de l'adulte",
+  "type": "rct",
+  "level": 2,
+  "pop": "mixte",
+  "ctx": [
+   "amblyopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 178,
+  "effect": "favorable",
+  "theme": "Amblyopie",
+  "l1": "Chez 178 patients amblyopes (amétropie ou strabisme), le laser sur la macula améliore l'acuité visuelle, avec un effet maintenu 6 mois.",
+  "l2": "Essai contrôlé en simple aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Gain aussi sur les potentiels évoqués visuels."
+   ],
+   "limites": [
+    "Simple aveugle ; adultes surtout."
+   ],
+   "pratique": "Piste originale à confirmer."
+  }
+ },
+ {
+  "pmid": "29851803",
+  "title_fr": "Laser-acupuncture dans la sécheresse oculaire : protocole d'essai bicentrique",
+  "type": "protocol",
+  "level": 0,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": 200,
+  "effect": "—",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "Protocole d'essai randomisé bicentrique (200 participants) testant la laser-acupuncture dans la sécheresse oculaire.",
+  "l2": "Protocole publié (NCT03204903).",
+  "l3": {
+   "points": [
+    "Résultats publiés en 2021."
+   ],
+   "limites": [
+    "Pas de résultats."
+   ],
+   "pratique": "Voir l'essai de 2021."
+  }
+ },
+ {
+  "pmid": "30208421",
+  "title_fr": "Lumière nocturne basse intensité dans la DMLA précoce : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "DMLA"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 60,
+  "effect": "neutre",
+  "theme": "Dégénérescence maculaire (DMLA)",
+  "l1": "Dans la DMLA précoce, une lumière basse intensité portée la nuit pendant 12 mois ne freine pas la progression et altère l'adaptation à l'obscurité.",
+  "l2": "Essai de phase I/IIa randomisé non masqué, 60 patients.",
+  "l3": {
+   "points": [
+    "Bonne acceptabilité."
+   ],
+   "limites": [
+    "Effet indésirable sur l'adaptation à l'obscurité."
+   ],
+   "pratique": "Pas d'intérêt."
+  }
+ },
+ {
+  "pmid": "31430763",
+  "title_fr": "Lumière rouge 670 nm contre la rétinopathie du prématuré : essai pilote",
+  "type": "rct",
+  "level": 1,
+  "pop": "pédiatrie",
+  "ctx": [
+   "rétinopathie"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [
+   670
+  ],
+  "n": 86,
+  "effect": "neutre",
+  "theme": "Rétinopathies",
+  "l1": "Chez le grand prématuré, la lumière à 670 nm quotidienne est faisable mais ne réduit pas la rétinopathie ; la survie tend à être meilleure (100 % contre 89 %).",
+  "l2": "Essai pilote randomisé, 86 nouveau-nés.",
+  "l3": {
+   "points": [
+    "Faisabilité néonatale."
+   ],
+   "limites": [
+    "Critère principal non atteint."
+   ],
+   "pratique": "Dose et mode d'administration à revoir."
+  }
+ },
+ {
+  "pmid": "31404033",
+  "title_fr": "PBM (Valeda) dans la DMLA sèche : essai en double aveugle contre sham (LIGHTSITE I)",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "DMLA"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [
+   590,
+   660,
+   850
+  ],
+  "n": 30,
+  "effect": "favorable",
+  "theme": "Dégénérescence maculaire (DMLA)",
+  "l1": "Dans la DMLA sèche, deux séries de PBM Valeda en un an améliorent l'acuité et les signes anatomiques, surtout aux stades précoces ; des séances répétées sont nécessaires.",
+  "l2": "Essai randomisé en double aveugle contre sham, 30 patients (46 yeux).",
+  "l3": {
+   "points": [
+    "Plus efficace aux stades précoces."
+   ],
+   "limites": [
+    "Pilote."
+   ],
+   "pratique": "Ouvre la voie à LIGHTSITE III."
+  }
+ },
+ {
+  "pmid": "33904792",
+  "title_fr": "Laser-acupuncture et stabilité du film lacrymal dans la sécheresse oculaire : essai bicentrique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "Dans la sécheresse oculaire, la laser-acupuncture améliore la stabilité du film lacrymal ; elle peut compléter les traitements conventionnels insuffisants.",
+  "l2": "Essai randomisé bicentrique (Taïwan).",
+  "l3": {
+   "points": [
+    "Complément non invasif."
+   ],
+   "limites": [
+    "Effet modeste."
+   ],
+   "pratique": "Option complémentaire."
+  }
+ },
+ {
+  "pmid": "34097768",
+  "title_fr": "PBM dans la DMLA non exsudative : revue Cochrane",
+  "type": "ma",
+  "level": 5,
+  "pop": "adulte",
+  "ctx": [
+   "DMLA"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Dégénérescence maculaire (DMLA)",
+  "l1": "Selon la revue Cochrane 2021, on ne sait pas encore si la PBM ralentit la DMLA non exsudative ; des essais bien conçus sont nécessaires.",
+  "l2": "Revue Cochrane.",
+  "l3": {
+   "points": [
+    "Antérieure à LIGHTSITE III."
+   ],
+   "limites": [
+    "Peu d'essais."
+   ],
+   "pratique": "Incertain en 2021."
+  }
+ },
+ {
+  "pmid": "34863776",
+  "title_fr": "Lumière rouge basse intensité répétée contre la myopie de l'enfant : essai multicentrique",
+  "type": "rct",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 264,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Chez 264 enfants de 8 à 13 ans, la lumière rouge répétée freine nettement l'allongement axial et la progression de la myopie sur 12 mois, sans lésion fonctionnelle ni structurelle.",
+  "l2": "Essai multicentrique randomisé en simple aveugle (Ophthalmology, 2021).",
+  "l3": {
+   "points": [
+    "Essai pivot de la technique."
+   ],
+   "limites": [
+    "Simple aveugle ; Chine."
+   ],
+   "pratique": "Alternative prometteuse aux traitements classiques."
+  }
+ },
+ {
+  "pmid": "36582033",
+  "title_fr": "Lumière basse énergie ou lumière pulsée intense dans la dysfonction meibomienne : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 40,
+  "effect": "favorable",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "Dans la dysfonction meibomienne, la PBM (masque LED) et la lumière pulsée intense soulagent toutes deux ; la PBM améliore davantage les symptômes et le volume lacrymal.",
+  "l2": "Essai randomisé comparatif, 40 patients.",
+  "l3": {
+   "points": [
+    "Masque MY MASK-E."
+   ],
+   "limites": [
+    "Signes cliniques peu modifiés."
+   ],
+   "pratique": "Alternative à la lumière pulsée."
+  }
+ },
+ {
+  "pmid": "35246565",
+  "title_fr": "LED proche infrarouge dans la sécheresse oculaire : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 40,
+  "effect": "favorable",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "Dans la sécheresse oculaire avec dysfonction meibomienne, la PBM par LED proche infrarouge est sûre et bénéfique.",
+  "l2": "Essai randomisé avec évaluateur masqué, 40 patients.",
+  "l3": {
+   "points": [
+    "Bonne tolérance."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Option sûre."
+  }
+ },
+ {
+  "pmid": "35976467",
+  "title_fr": "Lumière rouge basse intensité et effet rebond à l'arrêt chez l'enfant myope",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 102,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge freine la myopie et pourrait améliorer l'accommodation ; un léger rebond survient à l'arrêt.",
+  "l2": "Essai randomisé, 102 enfants de 6 à 13 ans.",
+  "l3": {
+   "points": [
+    "Rebond à l'arrêt."
+   ],
+   "limites": [
+    "Durée limitée."
+   ],
+   "pratique": "Prévoir une stratégie d'arrêt progressif."
+  }
+ },
+ {
+  "pmid": "36049646",
+  "title_fr": "Lumière rouge répétée contre la myopie : essai en double aveugle contre sham",
+  "type": "rct",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 112,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Contre un sham à 10 % de puissance, la lumière rouge à pleine puissance réduit la progression de la myopie et l'allongement axial sur 6 mois.",
+  "l2": "Essai randomisé en double aveugle, 112 enfants (Ophthalmology).",
+  "l3": {
+   "points": [
+    "Vrai contrôle sham."
+   ],
+   "limites": [
+    "Suivi de 6 mois."
+   ],
+   "pratique": "Preuve de l'effet propre."
+  }
+ },
+ {
+  "pmid": "36054314",
+  "title_fr": "Lumière rouge répétée : effet maintenu et rebond sur deux ans",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Poursuivre la lumière rouge maintient l'efficacité sur 2 ans ; un rebond modéré survient à l'arrêt.",
+  "l2": "Suivi à 2 ans d'un essai randomisé.",
+  "l3": {
+   "points": [
+    "Efficacité soutenue."
+   ],
+   "limites": [
+    "Rebond."
+   ],
+   "pratique": "Traitement prolongé nécessaire."
+  }
+ },
+ {
+  "pmid": "36240954",
+  "title_fr": "Épaisseur choroïdienne et contrôle de la myopie sous lumière rouge : analyse secondaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge épaissit durablement la choroïde ; la variation à 3 mois prédit l'efficacité à 12 mois.",
+  "l2": "Analyse secondaire d'un essai multicentrique (NCT04073238).",
+  "l3": {
+   "points": [
+    "Marqueur précoce de réponse."
+   ],
+   "limites": [
+    "Analyse secondaire."
+   ],
+   "pratique": "Suivre la choroïde à 3 mois."
+  }
+ },
+ {
+  "pmid": "36269184",
+  "title_fr": "Lumière rouge répétée ou atropine faible dose dans la myopie : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Sur 12 mois, la lumière rouge contrôle mieux l'allongement axial et la myopie que l'atropine à 0,01 %.",
+  "l2": "Essai randomisé en simple aveugle.",
+  "l3": {
+   "points": [
+    "53 % d'enfants avec allongement < 0,1 mm contre 10 %."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "Plus efficace que l'atropine faible dose."
+  }
+ },
+ {
+  "pmid": "36455215",
+  "title_fr": "Lumière pulsée intense associée à la PBM dans la sécheresse oculaire : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "Associer lumière pulsée intense et PBM améliore les symptômes, la stabilité du film lacrymal et la fonction meibomienne.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [
+    "Indiqué dans la dysfonction meibomienne."
+   ],
+   "limites": [
+    "Effet propre de la PBM non isolé."
+   ],
+   "pratique": "Association recommandable."
+  }
+ },
+ {
+  "pmid": "36849626",
+  "title_fr": "PBM et allongement axial chez l'enfant myope : essai de 12 mois",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La PBM freine l'allongement axial de l'œil chez l'enfant myope sur 12 mois.",
+  "l2": "Essai randomisé (ChiCTR2100043619).",
+  "l3": {
+   "points": [
+    "Deux cohortes."
+   ],
+   "limites": [
+    "Un seul pays."
+   ],
+   "pratique": "Confirme l'effet."
+  }
+ },
+ {
+  "pmid": "36927052",
+  "title_fr": "Laser portable 445 nm ou lumière pulsée intense dans la sécheresse oculaire : pilote",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   445
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "Le laser bleu portable à 445 nm est aussi efficace que la lumière pulsée intense dans la sécheresse oculaire.",
+  "l2": "Étude pilote randomisée.",
+  "l3": {
+   "points": [
+    "Alternative à la lumière pulsée."
+   ],
+   "limites": [
+    "Pilote."
+   ],
+   "pratique": "À confirmer."
+  }
+ },
+ {
+  "pmid": "37099298",
+  "title_fr": "Lumière rouge répétée pour prévenir la myopie chez l'enfant pré-myope : essai randomisé",
+  "type": "rct",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Chez l'enfant pré-myope, la lumière rouge réduit jusqu'à 54 % l'apparition de la myopie en 12 mois.",
+  "l2": "Essai randomisé (JAMA Netw Open, 2023).",
+  "l3": {
+   "points": [
+    "Prévention."
+   ],
+   "limites": [
+    "Un seul pays."
+   ],
+   "pratique": "Prévention efficace."
+  }
+ },
+ {
+  "pmid": "37026310",
+  "title_fr": "Lumière pulsée intense avec PBM dans la dysfonction meibomienne : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 100,
+  "effect": "favorable",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "Trois séances de lumière pulsée avec PBM améliorent le temps de rupture lacrymale, avec un effet cumulatif.",
+  "l2": "Essai randomisé, 100 patients.",
+  "l3": {
+   "points": [
+    "Effet cumulatif."
+   ],
+   "limites": [
+    "Effet propre de la PBM non isolé."
+   ],
+   "pratique": "Association efficace."
+  }
+ },
+ {
+  "pmid": "37030495",
+  "title_fr": "Lumière rouge répétée contre la progression de la myopie : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge pourrait freiner la myopie de l'enfant ; la certitude reste faible.",
+  "l2": "Revue systématique avec méta-analyse (Am J Ophthalmol).",
+  "l3": {
+   "points": [
+    "Effet sur la choroïde."
+   ],
+   "limites": [
+    "Certitude faible."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "37156225",
+  "title_fr": "Effet thermique de la PBM et des compresses chaudes sur la paupière",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "Une séance de PBM réchauffe la paupière autant qu'une compresse chaude : l'effet thermique explique peut-être une partie de son action.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [
+    "Mécanisme."
+   ],
+   "limites": [
+    "Sujets peu symptomatiques."
+   ],
+   "pratique": "Mécanisme en partie thermique."
+  }
+ },
+ {
+  "pmid": "37318667",
+  "title_fr": "Lumière rouge 650 nm pendant 6 mois et risque de myopie : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 112,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Six mois de lumière rouge à 650 nm réduisent fortement le risque de myopie chez l'enfant, sans effet indésirable.",
+  "l2": "Essai randomisé en simple aveugle, 112 enfants.",
+  "l3": {
+   "points": [
+    "Prévention."
+   ],
+   "limites": [
+    "Suivi court."
+   ],
+   "pratique": "Prévention possible."
+  }
+ },
+ {
+  "pmid": "37523429",
+  "title_fr": "Structure choroïdienne après lumière rouge répétée : analyse secondaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Sous lumière rouge, la choroïde s'épaissit avec une augmentation des surfaces vasculaires, alors qu'elle s'amincit dans le groupe témoin.",
+  "l2": "Analyse secondaire d'essai multicentrique.",
+  "l3": {
+   "points": [
+    "Mécanisme choroïdien."
+   ],
+   "limites": [
+    "Critère d'imagerie."
+   ],
+   "pratique": "Mécanisme."
+  }
+ },
+ {
+  "pmid": "37565498",
+  "title_fr": "Lumière rouge répétée et contrôle de la myopie : méta-analyse d'essais randomisés",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge freine la progression de la myopie entre 6 et 16 ans.",
+  "l2": "Méta-analyse d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Comparateurs variés."
+   ],
+   "limites": [
+    "Hétérogénéité."
+   ],
+   "pratique": "Efficace."
+  }
+ },
+ {
+  "pmid": "37634757",
+  "title_fr": "Puissance de la lumière rouge basse intensité et contrôle de la myopie : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 200,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge contrôle la myopie à 0,37, 0,60 et 1,20 mW ; une puissance plus faible suffit.",
+  "l2": "Essai randomisé en simple aveugle, 200 enfants (Ophthalmology).",
+  "l3": {
+   "points": [
+    "Effet dose."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "Une faible puissance est efficace."
+  }
+ },
+ {
+  "pmid": "37890879",
+  "title_fr": "PBM avant et après chirurgie de la cataracte contre la sécheresse oculaire : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "Deux séances de PBM autour de la chirurgie de la cataracte améliorent la stabilité lacrymale et le confort oculaire.",
+  "l2": "Essai randomisé en double aveugle contre sham (Br J Ophthalmol).",
+  "l3": {
+   "points": [
+    "Prévention postopératoire."
+   ],
+   "limites": [
+    "Deux séances seulement."
+   ],
+   "pratique": "Prévention simple."
+  }
+ },
+ {
+  "pmid": "37972955",
+  "title_fr": "LIGHTSITE III : PBM multi-longueurs d'onde (Valeda) dans la DMLA sèche, résultats à 13 mois",
+  "type": "rct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "DMLA"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [
+   590,
+   660,
+   850
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dégénérescence maculaire (DMLA)",
+  "l1": "Dans la DMLA sèche intermédiaire, la PBM Valeda améliore l'acuité visuelle et réduit l'apparition de l'atrophie géographique.",
+  "l2": "Essai randomisé contrôlé contre sham (Retina, 2023).",
+  "l3": {
+   "points": [
+    "Essai pivot (autorisation FDA)."
+   ],
+   "limites": [
+    "Promoteur industriel."
+   ],
+   "pratique": "Option dans la DMLA sèche intermédiaire."
+  }
+ },
+ {
+  "pmid": "38099371",
+  "title_fr": "Lumière rouge répétée chez l'enfant et l'adolescent : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge freine l'allongement axial et la myopie ; quelques arrêts pour éblouissement, sans effet grave.",
+  "l2": "Méta-analyse d'essais randomisés (sources chinoises et anglaises).",
+  "l3": {
+   "points": [
+    "Sécurité à court terme."
+   ],
+   "limites": [
+    "Durée optimale inconnue."
+   ],
+   "pratique": "Efficace et sûre à court terme."
+  }
+ },
+ {
+  "pmid": "38193312",
+  "title_fr": "Effet rebond des traitements de la myopie : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Myopie de l'enfant",
+  "l1": "Tous les traitements de la myopie entraînent un rebond à l'arrêt ; il est moindre avec les traitements optiques qu'avec l'atropine ou la lumière.",
+  "l2": "Revue systématique d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Comparaison des rebonds."
+   ],
+   "limites": [
+    "Peu d'études."
+   ],
+   "pratique": "Anticiper le rebond."
+  }
+ },
+ {
+  "pmid": "38378527",
+  "title_fr": "Lumière rouge répétée et myopie de l'enfant : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge contrôle la myopie à 3, 6 et 12 mois, avec une bonne acceptabilité.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Court terme."
+   ],
+   "limites": [
+    "Long terme et rebond à étudier."
+   ],
+   "pratique": "Efficace à court terme."
+  }
+ },
+ {
+  "pmid": "38444247",
+  "title_fr": "PBM à très faible irradiance et fonction rétinienne dans la DMLA sévère",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "DMLA"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dégénérescence maculaire (DMLA)",
+  "l1": "Dans la DMLA non néovasculaire sévère, la PBM par LED améliore à court terme la sensibilité rétinienne et la vision.",
+  "l2": "Essai randomisé contre placebo.",
+  "l3": {
+   "points": [
+    "Nouveau dispositif."
+   ],
+   "limites": [
+    "Court terme."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "38631861",
+  "title_fr": "Lumière rouge répétée : prévention et contrôle de la myopie",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge freine la myopie chez l'enfant myope et réduit son apparition chez l'enfant pré-myope (2,5 % contre 19 %).",
+  "l2": "Essai randomisé à 4 groupes (Br J Ophthalmol).",
+  "l3": {
+   "points": [
+    "Effet plus fort chez le myope."
+   ],
+   "limites": [
+    "Un seul pays."
+   ],
+   "pratique": "Prévention et traitement."
+  }
+ },
+ {
+  "pmid": "38662345",
+  "title_fr": "Lumière rouge quotidienne, réfraction et longueur axiale : essai randomisé",
+  "type": "rct",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Un an de lumière rouge quotidienne à 650 nm freine la myopie et l'allongement axial, sans problème de sécurité.",
+  "l2": "Essai randomisé en simple aveugle (JAMA Ophthalmol).",
+  "l3": {
+   "points": [
+    "Usage quotidien."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "À confirmer ailleurs."
+  }
+ },
+ {
+  "pmid": "38723579",
+  "title_fr": "Lumière rouge basse intensité et myopie de l'enfant : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge est efficace et sûre à court terme ; le long terme et la comparaison aux autres traitements restent à étudier.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Pas d'excès d'effets indésirables."
+   ],
+   "limites": [
+    "Court terme."
+   ],
+   "pratique": "Option à court terme."
+  }
+ },
+ {
+  "pmid": "38729232",
+  "title_fr": "Sécurité de la lumière rouge répétée chez l'enfant myope",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Myopie de l'enfant",
+  "l1": "Sur 12 mois, la lumière rouge paraît sûre pour la rétine, mais certains signaux OCT augmentent et doivent être surveillés.",
+  "l2": "Étude contrôlée de sécurité.",
+  "l3": {
+   "points": [
+    "Surveillance OCT."
+   ],
+   "limites": [
+    "Signaux à surveiller."
+   ],
+   "pratique": "Surveillance rétinienne nécessaire."
+  }
+ },
+ {
+  "pmid": "38763303",
+  "title_fr": "Lumière rouge associée à l'orthokératologie : essai multicentrique",
+  "type": "rct",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Associer lumière rouge et orthokératologie contrôle mieux l'allongement axial que l'orthokératologie seule.",
+  "l2": "Essai multicentrique randomisé (Ophthalmology, NCT04722874).",
+  "l3": {
+   "points": [
+    "Association."
+   ],
+   "limites": [
+    "Simple aveugle."
+   ],
+   "pratique": "Association prometteuse."
+  }
+ },
+ {
+  "pmid": "38849054",
+  "title_fr": "Lumière rouge répétée dans la forte myopie de l'enfant : essai randomisé",
+  "type": "rct",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 192,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Dans la forte myopie, la lumière rouge est encore plus efficace : 53 % des enfants ont un raccourcissement axial notable.",
+  "l2": "Essai multicentrique randomisé (Ophthalmology, NCT05184621).",
+  "l3": {
+   "points": [
+    "Forte myopie."
+   ],
+   "limites": [
+    "Simple aveugle."
+   ],
+   "pratique": "Option dans la forte myopie."
+  }
+ },
+ {
+  "pmid": "38940757",
+  "title_fr": "Densité vasculaire rétinienne après lumière rouge ou atropine chez l'enfant pré-myope",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 69,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge augmente la densité vasculaire rétinienne profonde, sans changement d'épaisseur rétinienne.",
+  "l2": "Essai randomisé, 69 enfants.",
+  "l3": {
+   "points": [
+    "Sécurité vasculaire."
+   ],
+   "limites": [
+    "Critère d'imagerie."
+   ],
+   "pratique": "Rassurant."
+  }
+ },
+ {
+  "pmid": "39009205",
+  "title_fr": "Lumière rouge basse intensité et progression de la myopie : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 73,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Six mois de lumière rouge freinent la myopie chez l'enfant et l'adolescent, sans lésion du fond d'œil.",
+  "l2": "Essai randomisé, 73 participants.",
+  "l3": {
+   "points": [
+    "Bonne tolérance."
+   ],
+   "limites": [
+    "Suivi court."
+   ],
+   "pratique": "Efficace."
+  }
+ },
+ {
+  "pmid": "39167378",
+  "title_fr": "Lumière et myopie : revue sur l'efficacité, la sécurité et la mise en œuvre",
+  "type": "sr",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Les preuves sont solides pour la lumière rouge et le temps passé dehors ; la sécurité de la lumière rouge doit encore être confirmée.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [
+    "Comparaison des approches lumineuses."
+   ],
+   "limites": [
+    "Sécurité à long terme."
+   ],
+   "pratique": "Efficace ; prudence sur la sécurité."
+  }
+ },
+ {
+  "pmid": "39210705",
+  "title_fr": "Lasers et lumières régénératifs de la rétine (RELITE) : proposition de nomenclature",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Autres",
+  "l1": "Proposition d'une nomenclature et de standards de rapport pour les thérapies lumineuses et laser régénératives de la macula.",
+  "l2": "Revue systématique et consensus d'experts.",
+  "l3": {
+   "points": [
+    "Clarifie le vocabulaire."
+   ],
+   "limites": [
+    "Pas d'analyse d'efficacité."
+   ],
+   "pratique": "Aide méthodologique."
+  }
+ },
+ {
+  "pmid": "39424029",
+  "title_fr": "Raccourcissement axial sous lumière rouge dans la forte myopie : essai multicentrique",
+  "type": "rct",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 202,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Dans la forte myopie (≤ −6 D), la lumière rouge raccourcit la longueur axiale de façon soutenue sur 12 mois.",
+  "l2": "Essai multicentrique randomisé, 202 enfants (Am J Ophthalmol).",
+  "l3": {
+   "points": [
+    "Raccourcissement soutenu."
+   ],
+   "limites": [
+    "Simple aveugle."
+   ],
+   "pratique": "Option dans la forte myopie."
+  }
+ },
+ {
+  "pmid": "39501548",
+  "title_fr": "Sécurité et circulation choriorétinienne sous lumière rouge répétée",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 70,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Neuf mois de lumière rouge n'ont pas d'effet toxique sur la rétine ni le nerf optique ; la circulation choriorétinienne augmente.",
+  "l2": "Essai randomisé, 70 enfants.",
+  "l3": {
+   "points": [
+    "Sécurité."
+   ],
+   "limites": [
+    "Neuf mois seulement."
+   ],
+   "pratique": "Rassurant à moyen terme."
+  }
+ },
+ {
+  "pmid": "39530399",
+  "title_fr": "Stratégies de contrôle de la myopie : méta-méta-analyse",
+  "type": "ma",
+  "level": 5,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "L'atropine, l'orthokératologie, les verres à défocalisation et la lumière rouge ont un effet cliniquement significatif sur l'allongement axial.",
+  "l2": "Méta-analyse de méta-analyses.",
+  "l3": {
+   "points": [
+    "La lumière rouge parmi les options efficaces."
+   ],
+   "limites": [
+    "Qualité variable."
+   ],
+   "pratique": "Option reconnue."
+  }
+ },
+ {
+  "pmid": "39626798",
+  "title_fr": "Épaisseur choroïdienne chez l'enfant pré-myope sous lumière rouge",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 278,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Chez l'enfant pré-myope, la lumière rouge épaissit la choroïde ; la variation à 3 mois prédit l'efficacité préventive.",
+  "l2": "Essai randomisé, 278 enfants.",
+  "l3": {
+   "points": [
+    "Marqueur prédictif."
+   ],
+   "limites": [
+    "Critère d'imagerie."
+   ],
+   "pratique": "Suivi de la choroïde utile."
+  }
+ },
+ {
+  "pmid": "39638706",
+  "title_fr": "PBM et lumière pulsée intense dans la dysfonction meibomienne : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "L'association PBM et lumière pulsée est efficace dans la dysfonction meibomienne, avec des effets maintenus au-delà de 6 mois.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Effet durable."
+   ],
+   "limites": [
+    "Peu d'études comparatives."
+   ],
+   "pratique": "Association efficace."
+  }
+ },
+ {
+  "pmid": "39672511",
+  "title_fr": "Sécurité de la lumière rouge répétée dans la myopie : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Myopie de l'enfant",
+  "l1": "Aucune perte visuelle irréversible ni lésion structurelle n'est rapportée, mais un suivi par photo du fond d'œil et OCT et une surveillance des images rémanentes sont nécessaires.",
+  "l2": "Revue systématique (PROSPERO).",
+  "l3": {
+   "points": [
+    "Recommandations de surveillance."
+   ],
+   "limites": [
+    "Données à long terme manquantes."
+   ],
+   "pratique": "Surveiller la rétine."
+  }
+ },
+ {
+  "pmid": "39826095",
+  "title_fr": "Lumière rouge basse intensité et progression de la myopie : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge ralentit la progression de la réfraction et de la longueur axiale chez l'enfant myope et pré-myope.",
+  "l2": "Méta-analyse.",
+  "l3": {
+   "points": [
+    "Myopes et pré-myopes."
+   ],
+   "limites": [
+    "Hétérogénéité."
+   ],
+   "pratique": "Efficace."
+  }
+ },
+ {
+  "pmid": "39981627",
+  "title_fr": "Effet à long terme de la lumière rouge répétée sur la myopie : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "À plus long terme, la lumière rouge réduit nettement la longueur axiale et la myopie ; le rebond doit être étudié.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Long terme."
+   ],
+   "limites": [
+    "Rebond."
+   ],
+   "pratique": "Efficace dans la durée."
+  }
+ },
+ {
+  "pmid": "40219611",
+  "title_fr": "Interventions de contrôle de la myopie : méta-analyses en réseau",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Parmi les interventions de contrôle de la myopie, la lumière rouge figure parmi les plus efficaces ; les effets indésirables restent à mieux documenter.",
+  "l2": "Revue systématique avec méta-analyses en réseau (Acta Ophthalmol).",
+  "l3": {
+   "points": [
+    "Comparaison globale."
+   ],
+   "limites": [
+    "Populations surtout asiatiques."
+   ],
+   "pratique": "Option de premier plan."
+  }
+ },
+ {
+  "pmid": "40252784",
+  "title_fr": "Lumière rouge et lunettes dans l'amblyopie myopique de l'enfant de 4 à 8 ans",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 66,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Chez le jeune enfant avec amblyopie myopique, ajouter la lumière rouge aux lunettes accélère le gain d'acuité et freine l'allongement axial.",
+  "l2": "Essai prospectif contrôlé, 66 enfants.",
+  "l3": {
+   "points": [
+    "Amblyopie."
+   ],
+   "limites": [
+    "Suivi de 6 mois."
+   ],
+   "pratique": "Complément de la correction optique."
+  }
+ },
+ {
+  "pmid": "40266603",
+  "title_fr": "Lumière rouge ou atropine 0,01 % : essai croisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 91,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge freine mieux la myopie et l'allongement axial que l'atropine à 0,01 %.",
+  "l2": "Essai croisé randomisé en simple aveugle, 91 enfants.",
+  "l3": {
+   "points": [
+    "La choroïde à 3 mois est prédictive."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "Plus efficace que l'atropine faible dose."
+  }
+ },
+ {
+  "pmid": "40388203",
+  "title_fr": "Lumière rouge répétée chez des écoliers de plusieurs ethnies : analyse à 3 mois",
+  "type": "rct",
+  "level": 1,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 34,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Chez des enfants de plusieurs origines, la lumière rouge contrôle la myopie à 3 mois sans problème de sécurité.",
+  "l2": "Essai pilote randomisé multiethnique, 34 enfants.",
+  "l3": {
+   "points": [
+    "Hors Chine."
+   ],
+   "limites": [
+    "Très court terme."
+   ],
+   "pratique": "Généralisable à confirmer."
+  }
+ },
+ {
+  "pmid": "40449858",
+  "title_fr": "Effets choroïdiens de la lumière rouge chez l'enfant myope ou pré-myope",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 200,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "L'épaississement choroïdien à 6 mois prédit l'efficacité à 12 mois ; les variations de perfusion sont transitoires.",
+  "l2": "Analyse secondaire d'un essai randomisé, 200 enfants.",
+  "l3": {
+   "points": [
+    "Prédicteur."
+   ],
+   "limites": [
+    "Analyse secondaire."
+   ],
+   "pratique": "Suivre la choroïde."
+  }
+ },
+ {
+  "pmid": "40494722",
+  "title_fr": "PBM seule ou associée à la lumière pulsée dans la dysfonction meibomienne : essai en œil apparié",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 24,
+  "effect": "mitigé",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "L'association avec la lumière pulsée apporte des changements supplémentaires ; la PBM seule peut servir de complément quand la lumière pulsée est contre-indiquée.",
+  "l2": "Essai randomisé en double aveugle, œil apparié, 24 participants.",
+  "l3": {
+   "points": [
+    "Mécanismes étudiés."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "PBM seule si lumière pulsée impossible."
+  }
+ },
+ {
+  "pmid": "40532774",
+  "title_fr": "Prédire la réponse complète à la lumière rouge répétée",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La variation de longueur axiale au cours des 3 premiers mois prédit le mieux la réponse à 1 et 2 ans.",
+  "l2": "Analyse de deux essais randomisés.",
+  "l3": {
+   "points": [
+    "Outil de suivi."
+   ],
+   "limites": [
+    "Modèle à valider."
+   ],
+   "pratique": "Mesurer la longueur axiale tôt."
+  }
+ },
+ {
+  "pmid": "40528385",
+  "title_fr": "Lumière rouge fovéale intense chez l'enfant pré-myope : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Chez l'enfant pré-myope, la lumière rouge réduit l'apparition de la myopie, l'allongement axial et améliore la réfraction.",
+  "l2": "Méta-analyse d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Prévention."
+   ],
+   "limites": [
+    "Sécurité à long terme à étudier."
+   ],
+   "pratique": "Stratégie préventive possible."
+  }
+ },
+ {
+  "pmid": "40537562",
+  "title_fr": "Photobiomodulation par lumière violette : effets biologiques et enjeux de santé",
+  "type": "sr",
+  "level": 3,
+  "pop": "mixte",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Myopie de l'enfant",
+  "l1": "Revue des effets biologiques de la lumière violette, étudiée notamment contre la myopie ; les paramètres restent très variables.",
+  "l2": "Revue.",
+  "l3": {
+   "points": [
+    "Lumière violette."
+   ],
+   "limites": [
+    "Hétérogénéité."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "40610049",
+  "title_fr": "Atropine, orthokératologie ou lumière rouge dans la myopie : méta-analyse en réseau",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Toutes ces options freinent la myopie ; à long terme, la lumière rouge est la plus efficace sur l'allongement axial et la réfraction.",
+  "l2": "Méta-analyse en réseau d'essais randomisés (Br J Ophthalmol).",
+  "l3": {
+   "points": [
+    "Classement favorable."
+   ],
+   "limites": [
+    "Comparaisons indirectes."
+   ],
+   "pratique": "Option de premier plan."
+  }
+ },
+ {
+  "pmid": "40659301",
+  "title_fr": "PBM non invasive et vision des couleurs congénitale : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "mixte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 80,
+  "effect": "favorable",
+  "theme": "Autres",
+  "l1": "Dans le daltonisme rouge-vert, la PBM améliore la reconnaissance des couleurs, surtout pour le vert.",
+  "l2": "Essai randomisé en simple aveugle, 80 participants.",
+  "l3": {
+   "points": [
+    "Indication inattendue."
+   ],
+   "limites": [
+    "À reproduire."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "40841455",
+  "title_fr": "Lumière rouge répétée contre traitements classiques de la myopie : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge freine la myopie plus efficacement que les traitements standards.",
+  "l2": "Revue systématique avec méta-analyse (Sci Rep).",
+  "l3": {
+   "points": [
+    "Comparaison directe."
+   ],
+   "limites": [
+    "Suivis courts."
+   ],
+   "pratique": "Option à considérer."
+  }
+ },
+ {
+  "pmid": "40880774",
+  "title_fr": "Lumière rouge répétée et progression de la myopie : méta-analyse",
+  "type": "sr",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge freine la myopie sur 6 à 24 mois, d'autant plus que la myopie et la fréquence sont élevées ; un lien avec des lésions rétiniennes est évoqué.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Effet dose."
+   ],
+   "limites": [
+    "Signal de sécurité rétinienne."
+   ],
+   "pratique": "Efficace mais surveiller la rétine."
+  }
+ },
+ {
+  "pmid": "40873605",
+  "title_fr": "PBM transcrânienne proche infrarouge et voies visuelles chez le sujet sain",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Autres",
+  "l1": "Chez le sujet sain, la PBM transcrânienne améliore la réactivité de la vergence, signe d'une meilleure fonction des voies visuelles.",
+  "l2": "Essai contrôlé chez des volontaires jeunes.",
+  "l3": {
+   "points": [
+    "Voies visuelles."
+   ],
+   "limites": [
+    "Sujets sains."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "40948170",
+  "title_fr": "Lumière rouge répétée contre orthokératologie et verres à défocalisation",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 128,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge contrôle mieux l'allongement axial que l'orthokératologie et les verres à défocalisation.",
+  "l2": "Essai randomisé, 128 enfants.",
+  "l3": {
+   "points": [
+    "Comparateurs actifs."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "Option efficace."
+  }
+ },
+ {
+  "pmid": "41057129",
+  "title_fr": "Lumière rouge à 50 % ou 100 % de puissance et choroïde : essai croisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Chez l'adulte myope, 50 % de puissance produit le même épaississement choroïdien que 100 %.",
+  "l2": "Essai croisé randomisé chez l'adulte.",
+  "l3": {
+   "points": [
+    "Dose réduite possible."
+   ],
+   "limites": [
+    "Critère intermédiaire."
+   ],
+   "pratique": "Une puissance réduite pourrait suffire."
+  }
+ },
+ {
+  "pmid": "41072941",
+  "title_fr": "Lumière rouge chez l'enfant pré-myope : résultats à deux ans et rebond",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 108,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Deux ans de lumière rouge freinent l'allongement axial (−0,17 mm) et la myopie (−0,45 D) ; un rebond net survient après l'arrêt.",
+  "l2": "Essai randomisé, 108 enfants, suivi 24 mois (Br J Ophthalmol).",
+  "l3": {
+   "points": [
+    "Effet durable."
+   ],
+   "limites": [
+    "Rebond important."
+   ],
+   "pratique": "Prévoir un sevrage progressif."
+  }
+ },
+ {
+  "pmid": "41165747",
+  "title_fr": "Lumière rouge et orthokératologie chez l'enfant espagnol : analyse à 6 mois",
+  "type": "rct",
+  "level": 1,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 26,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Chez des enfants espagnols, l'association lumière rouge et orthokératologie contrôle la myopie sans effet indésirable grave.",
+  "l2": "Essai randomisé, 26 enfants (analyse intermédiaire).",
+  "l3": {
+   "points": [
+    "Population européenne."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Généralisable en Europe."
+  }
+ },
+ {
+  "pmid": "41266129",
+  "title_fr": "Lumière rouge et orthokératologie en Espagne : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Chez l'enfant espagnol, l'association lumière rouge et orthokératologie est efficace et sûre, avec un raccourcissement axial chez certains.",
+  "l2": "Essai randomisé non aveugle (NCT06899139, Br J Ophthalmol).",
+  "l3": {
+   "points": [
+    "Population caucasienne."
+   ],
+   "limites": [
+    "Non aveugle."
+   ],
+   "pratique": "Effet synergique généralisable."
+  }
+ },
+ {
+  "pmid": "41331814",
+  "title_fr": "La lumière rouge agit-elle par la choroïde ? Analyse de médiation",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "L'efficacité de la lumière rouge passe surtout par un effet direct, peu par l'épaississement choroïdien ou la réfraction périphérique.",
+  "l2": "Analyse de médiation d'un essai randomisé.",
+  "l3": {
+   "points": [
+    "Mécanisme."
+   ],
+   "limites": [
+    "Analyse secondaire."
+   ],
+   "pratique": "Mécanisme."
+  }
+ },
+ {
+  "pmid": "41451106",
+  "title_fr": "Lumière rouge et développement réfractif : méta-analyse dose-réponse",
+  "type": "sr",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Myopie de l'enfant",
+  "l1": "L'effet de la lumière rouge suit une courbe non linéaire et diminue à partir du 3e mois.",
+  "l2": "Revue systématique avec méta-analyse dose-réponse.",
+  "l3": {
+   "points": [
+    "Effet maximal précoce."
+   ],
+   "limites": [
+    "Jusqu'à 12 mois."
+   ],
+   "pratique": "Effet qui s'atténue."
+  }
+ },
+ {
+  "pmid": "41658589",
+  "title_fr": "Lumière rouge répétée contre la myopie : méta-analyse actualisée",
+  "type": "sr",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Ajoutée au traitement habituel, la lumière rouge ralentit nettement la myopie de l'enfant.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Pas de biais de publication majeur."
+   ],
+   "limites": [
+    "Hétérogénéité."
+   ],
+   "pratique": "Efficace."
+  }
+ },
+ {
+  "pmid": "41680682",
+  "title_fr": "Lumière rouge répétée chez l'enfant et l'adolescent : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge freine la myopie à court et moyen terme, avec une bonne tolérance ; sécurité à long terme et protocoles optimaux restent à préciser.",
+  "l2": "Méta-analyse jusqu'en septembre 2025.",
+  "l3": {
+   "points": [
+    "Bien tolérée."
+   ],
+   "limites": [
+    "Long terme."
+   ],
+   "pratique": "Option prometteuse."
+  }
+ },
+ {
+  "pmid": "41791029",
+  "title_fr": "LIGHTSITE III à 24 mois : PBM dans la DMLA sèche intermédiaire",
+  "type": "rct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "DMLA"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [
+   590,
+   660,
+   850
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dégénérescence maculaire (DMLA)",
+  "l1": "À 24 mois, la PBM Valeda réduit la progression vers l'atrophie géographique (6,8 % contre 24 %) et améliore la qualité de vie visuelle.",
+  "l2": "Essai randomisé en double aveugle contre sham (Retina, 2026).",
+  "l3": {
+   "points": [
+    "Effet possiblement modificateur de la maladie."
+   ],
+   "limites": [
+    "Promoteur industriel."
+   ],
+   "pratique": "Option dans la DMLA sèche intermédiaire."
+  }
+ },
+ {
+  "pmid": "41796439",
+  "title_fr": "Lumière rouge répétée ou atropine forte concentration : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 136,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge fait mieux que l'atropine à 1 % sur 12 mois, avec un rebond légèrement plus important à l'arrêt.",
+  "l2": "Essai randomisé en simple aveugle, 136 enfants.",
+  "l3": {
+   "points": [
+    "Comparateur fort."
+   ],
+   "limites": [
+    "Rebond."
+   ],
+   "pratique": "Sevrer progressivement."
+  }
+ },
+ {
+  "pmid": "41846466",
+  "title_fr": "Lumière rouge répétée : efficacité selon la durée et sécurité, méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge réduit la myopie de façon dépendante de la durée jusqu'à 1 an ; certitude modérée sur la réfraction et la choroïde.",
+  "l2": "Méta-analyse d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Effets indésirables légers."
+   ],
+   "limites": [
+    "Sécurité rétinienne à approfondir."
+   ],
+   "pratique": "Efficace ; surveiller."
+  }
+ },
+ {
+  "pmid": "41997531",
+  "title_fr": "PBM en complément de la lumière pulsée et couche lipidique dans la dysfonction meibomienne",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 58,
+  "effect": "mitigé",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "Ajouter la PBM à la lumière pulsée épaissit durablement la couche lipidique, sans améliorer davantage les symptômes.",
+  "l2": "Essai randomisé en double aveugle contre sham, 58 participants.",
+  "l3": {
+   "points": [
+    "Gain structurel."
+   ],
+   "limites": [
+    "Pas de gain clinique."
+   ],
+   "pratique": "Bénéfice clinique non démontré."
+  }
+ },
+ {
+  "pmid": "42046494",
+  "title_fr": "Lumière rouge répétée dans la presbytie : asthénopie et accommodation",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Autres",
+  "l1": "Dans la presbytie, la lumière rouge réduit la fatigue visuelle et améliore l'amplitude d'accommodation à court terme.",
+  "l2": "Essai randomisé en double aveugle (NCT06745661).",
+  "l3": {
+   "points": [
+    "Nouvelle indication."
+   ],
+   "limites": [
+    "Court terme."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "42140330",
+  "title_fr": "Lumière rouge en complément de l'orthokératologie ou des verres DIMS : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Associer la lumière rouge aux traitements optiques réduit davantage l'allongement axial et épaissit la choroïde.",
+  "l2": "Méta-analyse d'études randomisées et de cohortes.",
+  "l3": {
+   "points": [
+    "Synergie."
+   ],
+   "limites": [
+    "Signaux précoces."
+   ],
+   "pratique": "Association prometteuse."
+  }
+ },
+ {
+  "pmid": "42162158",
+  "title_fr": "PBM après chirurgie de la cataracte : biomarqueurs lacrymaux et surface oculaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "Après chirurgie de la cataracte, la PBM améliore la surface oculaire ; des biomarqueurs lacrymaux pourraient prédire la réponse.",
+  "l2": "Essai randomisé en double aveugle.",
+  "l3": {
+   "points": [
+    "Biomarqueurs."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "Prévention postopératoire."
+  }
+ },
+ {
+  "pmid": "42446481",
+  "title_fr": "Morphologie oculaire postérieure sous lumière rouge ou atropine 0,01 %",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 50,
+  "effect": "mitigé",
+  "theme": "Myopie de l'enfant",
+  "l1": "Sous lumière rouge, la macula s'aplatit plus largement que sous atropine ; les mécanismes restent à comprendre.",
+  "l2": "Analyse secondaire d'un essai randomisé, 50 enfants.",
+  "l3": {
+   "points": [
+    "Imagerie OCT."
+   ],
+   "limites": [
+    "Signification incertaine."
+   ],
+   "pratique": "À surveiller."
+  }
+ },
+ {
+  "pmid": "42501959",
+  "title_fr": "Rapport coût-efficacité de la PBM dans la DMLA sèche intermédiaire (LIGHTSITE III)",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "DMLA"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dégénérescence maculaire (DMLA)",
+  "l1": "Aux seuils américains, la PBM est coût-efficace dans la DMLA sèche intermédiaire, grâce à une baisse de 72 % de l'atrophie géographique.",
+  "l2": "Modèle de Markov sur 10 ans à partir de LIGHTSITE III.",
+  "l3": {
+   "points": [
+    "Argument pour le remboursement."
+   ],
+   "limites": [
+    "Dépend d'une réplication indépendante."
+   ],
+   "pratique": "Argument médico-économique."
+  }
+ },
+ {
+  "pmid": "42527621",
+  "title_fr": "PBM dans les pathologies oculaires et visuelles de l'enfant : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie",
+   "amblyopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Chez l'enfant, la PBM montre des bénéfices potentiels (myopie, amblyopie, fatigue visuelle) avec un bon profil de sécurité ; la plupart des essais viennent de Chine.",
+  "l2": "Revue de la littérature pédiatrique.",
+  "l3": {
+   "points": [
+    "Panorama pédiatrique."
+   ],
+   "limites": [
+    "Protocoles à optimiser."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "42995527",
+  "title_fr": "Lumière rouge répétée contre la myopie : méta-analyse actualisée et complète",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge freine l'allongement axial et la myopie et épaissit la choroïde, avec prudence vu l'hétérogénéité et le manque de données au-delà de 12 mois.",
+  "l2": "Revue systématique avec méta-analyse (BMC Ophthalmol, 2026).",
+  "l3": {
+   "points": [
+    "Synthèse la plus récente."
+   ],
+   "limites": [
+    "Peu de données au-delà d'un an."
+   ],
+   "pratique": "Efficace à court terme."
+  }
+ },
+ {
+  "pmid": "42895250",
+  "title_fr": "Rapport coût-efficacité des traitements de la myopie chez l'enfant chinois",
+  "type": "ma",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La lumière rouge est une option prometteuse si le budget le permet ; l'atropine à 0,01 % avec verres DIMS reste le meilleur rapport coût-efficacité.",
+  "l2": "Méta-analyse en réseau avec analyse économique.",
+  "l3": {
+   "points": [
+    "Aide au choix."
+   ],
+   "limites": [
+    "Contexte chinois."
+   ],
+   "pratique": "Choix selon le budget."
+  }
+ }
+]

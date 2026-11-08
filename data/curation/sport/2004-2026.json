@@ -1,0 +1,716 @@
+[
+ {
+  "pmid": "15165387",
+  "title_fr": "Laser basse énergie et œdème des entorses de cheville de grade II chez le footballeur",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   820
+  ],
+  "n": 47,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "Chez des footballeurs avec entorse de cheville de grade II, ajouter le laser 820 nm au protocole RICE réduit davantage l'œdème à 24, 48 et 72 h.",
+  "l2": "Essai randomisé à 3 bras, 47 joueurs.",
+  "l3": {
+   "points": [
+    "Effet anti-œdème précoce."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Complément du RICE."
+  }
+ },
+ {
+  "pmid": "23182016",
+  "title_fr": "Lumière rouge, sommeil et endurance chez des basketteuses de haut niveau",
+  "type": "nrct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Quatorze soirs de lumière rouge sur le corps améliorent la qualité du sommeil et l'endurance de joueuses de basket d'élite, avec une hausse de la mélatonine.",
+  "l2": "Étude contrôlée contre placebo (J Athl Train).",
+  "l3": {
+   "points": [
+    "Sommeil du sportif."
+   ],
+   "limites": [
+    "Petit effectif ; non randomisé."
+   ],
+   "pratique": "Piste pour la récupération."
+  }
+ },
+ {
+  "pmid": "24622816",
+  "title_fr": "Laser basse énergie sur cinq jours dans la périostite tibiale du sportif",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "Dans la périostite de jambe due au surentraînement, cinq jours de laser améliorent la fonction des membres inférieurs.",
+  "l2": "Essai randomisé contrôlé chez l'homme adulte.",
+  "l3": {
+   "points": [
+    "Récupération fonctionnelle."
+   ],
+   "limites": [
+    "Mécanisme proprioceptif incertain."
+   ],
+   "pratique": "Option en rééducation."
+  }
+ },
+ {
+  "pmid": "27034111",
+  "title_fr": "Soulagement immédiat de la douleur des blessures sportives par laser : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 32,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "Chez des sportifs universitaires blessés, une séance de laser réduit immédiatement la douleur de 37 % (contre 8 % sous placebo), efficace chez 75 % d'entre eux.",
+  "l2": "Essai randomisé en double aveugle contre placebo, 32 athlètes (J Sci Med Sport).",
+  "l3": {
+   "points": [
+    "Effet immédiat."
+   ],
+   "limites": [
+    "Court terme."
+   ],
+   "pratique": "Antalgie rapide au bord du terrain."
+  }
+ },
+ {
+  "pmid": "27050245",
+  "title_fr": "PBM et performance de joueurs de rugby de haut niveau : essai croisé contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez des rugbymen de haut niveau, la PBM avant l'effort améliore la performance et accélère la récupération en test de terrain.",
+  "l2": "Essai croisé randomisé en double aveugle contre placebo (J Strength Cond Res).",
+  "l3": {
+   "points": [
+    "Conditions réelles."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Préconditionnement sur le terrain."
+  }
+ },
+ {
+  "pmid": "29090398",
+  "title_fr": "PBM, performance et fatigue musculaire chez le sujet sain : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "La PBM améliore la performance et réduit la fatigue ; doses efficaces : 20 à 60 J pour les petits groupes musculaires, 60 à 300 J pour les grands, jusqu'à 200 mW par diode.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Repères de dose précis."
+   ],
+   "limites": [
+    "Paramètres hétérogènes."
+   ],
+   "pratique": "Référence de dosage."
+  }
+ },
+ {
+  "pmid": "30255449",
+  "title_fr": "PBM associant lasers, LED et champ magnétique et capacité d'effort dans la BPCO",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Dans la BPCO, une séance de PBM avant l'effort augmente le nombre de marches au test et réduit l'essoufflement et la fatigue des jambes.",
+  "l2": "Essai croisé randomisé en triple aveugle.",
+  "l3": {
+   "points": [
+    "Maladie respiratoire."
+   ],
+   "limites": [
+    "Effet aigu."
+   ],
+   "pratique": "Piste en réhabilitation respiratoire."
+  }
+ },
+ {
+  "pmid": "30264178",
+  "title_fr": "PBM avant les matchs de futsal : temps de jeu et récupération",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez des joueurs de futsal de haut niveau, la PBM avant le match augmente le temps passé sur le terrain et accélère la récupération.",
+  "l2": "Essai croisé randomisé en triple aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Conditions de match réelles."
+   ],
+   "limites": [
+    "Distance parcourue inchangée."
+   ],
+   "pratique": "Préconditionnement utile."
+  }
+ },
+ {
+  "pmid": "31203569",
+  "title_fr": "LED et sensibilité du baroréflexe à l'effort dans le diabète de type 2",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 11,
+  "effect": "neutre",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Chez des diabétiques de type 2, la PBM par LED (300 J) avant un effort modéré ne modifie pas le contrôle autonome cardiovasculaire.",
+  "l2": "Essai randomisé, 11 hommes.",
+  "l3": {
+   "points": [
+    "Résultat négatif."
+   ],
+   "limites": [
+    "Très petit effectif."
+   ],
+   "pratique": "Pas d'effet cardiovasculaire."
+  }
+ },
+ {
+  "pmid": "31654154",
+  "title_fr": "PBM des muscles respiratoires dans la BPCO : essai croisé en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Première étude de la PBM sur les muscles respiratoires dans la BPCO ; les effets sur la fonction et la capacité restent limités.",
+  "l2": "Essai croisé randomisé en double aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Nouvelle cible."
+   ],
+   "limites": [
+    "Effet aigu."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "32796413",
+  "title_fr": "Effet ergogénique de la PBM au test de Wingate : essai croisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "La PBM améliore la performance au test anaérobie de Wingate de 30 secondes, probablement via le métabolisme anaérobie alactique.",
+  "l2": "Essai croisé randomisé en double aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Effort anaérobie."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Effet ergogénique."
+  }
+ },
+ {
+  "pmid": "33227224",
+  "title_fr": "PBM et performance au 1 500 m : réponse individuelle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "La PBM n'améliore pas le temps au 1 500 m de coureurs amateurs ; les répondeurs ont une meilleure capacité aérobie.",
+  "l2": "Essai randomisé contre placebo.",
+  "l3": {
+   "points": [
+    "Variabilité individuelle."
+   ],
+   "limites": [
+    "Coureurs récréatifs."
+   ],
+   "pratique": "Effet inconstant."
+  }
+ },
+ {
+  "pmid": "33459175",
+  "title_fr": "PBM, performance et économie de course sur 3 000 m : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez des coureurs, la PBM améliore la performance sur 3 000 m et l'économie de course à 24 h.",
+  "l2": "Essai randomisé en double aveugle contre placebo (J Sports Sci).",
+  "l3": {
+   "points": [
+    "Endurance."
+   ],
+   "limites": [
+    "Pas d'effet sur l'effort perçu."
+   ],
+   "pratique": "Préconditionnement possible."
+  }
+ },
+ {
+  "pmid": "33761459",
+  "title_fr": "PBM et vitesse critique en natation : essai croisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 15,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "Chez des nageurs fédérés, la PBM avant l'effort ne modifie ni la vitesse critique ni les marqueurs de fatigue.",
+  "l2": "Essai croisé randomisé en double aveugle contre placebo, 15 nageurs.",
+  "l3": {
+   "points": [
+    "Résultat négatif."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Pas d'effet en natation."
+  }
+ },
+ {
+  "pmid": "35151026",
+  "title_fr": "PBM pendant un programme d'entraînement chez des sujets entraînés : essai contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "Chez des sujets déjà entraînés, ajouter la PBM (30 J par site) à 6 semaines d'entraînement n'apporte aucun bénéfice supplémentaire.",
+  "l2": "Essai randomisé contre placebo (Braz J Phys Ther).",
+  "l3": {
+   "points": [
+    "Essai rigoureux négatif."
+   ],
+   "limites": [
+    "Une dose."
+   ],
+   "pratique": "Pas d'intérêt en entraînement chronique."
+  }
+ },
+ {
+  "pmid": "36622557",
+  "title_fr": "Traitements conservateurs après lésion aiguë des ischio-jambiers chez l'athlète : revue évolutive",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Blessures sportives",
+  "l1": "Après lésion des ischio-jambiers, les données ne soutiennent ni le PRP ni le laser en pratique clinique.",
+  "l2": "Revue systématique évolutive (Sports Med).",
+  "l3": {
+   "points": [
+    "Négatif pour le laser."
+   ],
+   "limites": [
+    "Peu d'essais."
+   ],
+   "pratique": "Non recommandé."
+  }
+ },
+ {
+  "pmid": "37419235",
+  "title_fr": "PBM, fonction du genou et tolérance à l'effort chez le sujet âgé : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Chez les plus de 60 ans qui font de l'exercice, la PBM soulage davantage la douleur et améliore la fonction et l'amplitude du genou.",
+  "l2": "Méta-analyse d'essais randomisés (Arch Phys Med Rehabil).",
+  "l3": {
+   "points": [
+    "Sujets âgés actifs."
+   ],
+   "limites": [
+    "Hétérogénéité."
+   ],
+   "pratique": "Complément de l'exercice."
+  }
+ },
+ {
+  "pmid": "38614054",
+  "title_fr": "PBM et fonction musculaire dans la sclérose en plaques : essai croisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 17,
+  "effect": "mitigé",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Dans la SEP légère à modérée, une dose individualisée de PBM améliore la force et sa récupération, sans effet sur l'endurance.",
+  "l2": "Essai croisé randomisé en double aveugle, 17 patients.",
+  "l3": {
+   "points": [
+    "Dose individualisée."
+   ],
+   "limites": [
+    "Effet aigu."
+   ],
+   "pratique": "Piste en rééducation."
+  }
+ },
+ {
+  "pmid": "38668764",
+  "title_fr": "PBM dans l'entorse de cheville : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Blessures sportives",
+  "l1": "Dans l'entorse de cheville, la PBM réduit fortement la douleur (preuve modérée), sans effet démontré sur la fonction ni l'œdème.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Effet antalgique."
+   ],
+   "limites": [
+    "Preuve faible sur l'œdème."
+   ],
+   "pratique": "Antalgie, pas de récupération plus rapide."
+  }
+ },
+ {
+  "pmid": "39543005",
+  "title_fr": "PBM et contribution énergétique en normoxie et hypoxie chez le coureur amateur",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 11,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "La PBM n'allonge pas le temps d'épuisement en normoxie ni en hypoxie ; en hypoxie, elle augmente la part anaérobie.",
+  "l2": "Essai croisé pilote randomisé en simple aveugle, 11 coureurs.",
+  "l3": {
+   "points": [
+    "Conditions d'altitude."
+   ],
+   "limites": [
+    "Pilote."
+   ],
+   "pratique": "Pas de gain de performance."
+  }
+ },
+ {
+  "pmid": "39883205",
+  "title_fr": "PBM corps entier, performance et récupération : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Récupération & courbatures",
+  "l1": "La PBM corps entier pourrait améliorer le sommeil mais n'a montré aucun bénéfice sur la récupération ni la performance.",
+  "l2": "Revue systématique de 5 études.",
+  "l3": {
+   "points": [
+    "Contraste avec la PBM locale."
+   ],
+   "limites": [
+    "Peu d'études."
+   ],
+   "pratique": "Préférer la PBM locale."
+  }
+ },
+ {
+  "pmid": "41810483",
+  "title_fr": "PBM sur le nerf vague et variabilité cardiaque chez le sujet actif",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Récupération & courbatures",
+  "l1": "Appliquée sur le nerf vague sous l'oreille, la PBM ne modifie que très peu la variabilité de la fréquence cardiaque.",
+  "l2": "Essai randomisé contrôlé.",
+  "l3": {
+   "points": [
+    "Nouvelle cible."
+   ],
+   "limites": [
+    "Une dose."
+   ],
+   "pratique": "Effet minime."
+  }
+ },
+ {
+  "pmid": "42300020",
+  "title_fr": "PBM transcrânienne et résilience neurologique chez des joueurs de football américain",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "Chez des joueurs exposés à des chocs répétés à la tête, la PBM transcrânienne favorise la résilience neurologique (imagerie, biomarqueurs).",
+  "l2": "Essai randomisé (J Neurotrauma).",
+  "l3": {
+   "points": [
+    "Prévention chez le sportif de contact."
+   ],
+   "limites": [
+    "Une saison."
+   ],
+   "pratique": "Piste préventive."
+  }
+ },
+ {
+  "pmid": "42840704",
+  "title_fr": "PBM cérébrale dans la commotion sportive aiguë : essai pilote RECOVERY",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Blessures sportives",
+  "l1": "Chez des sportifs commotionnés, la PBM cérébrale à 5 ou 10 Hz est bien tolérée ; l'essai, sans sham, prépare un essai contrôlé.",
+  "l2": "Essai pilote randomisé en simple aveugle (France).",
+  "l3": {
+   "points": [
+    "Faisabilité."
+   ],
+   "limites": [
+    "Pas de sham."
+   ],
+   "pratique": "Prépare un essai contrôlé."
+  }
+ }
+]

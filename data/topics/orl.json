@@ -1,0 +1,24 @@
+{
+ "id": "orl",
+ "label": "ORL",
+ "short": "ORL",
+ "color": "#2f9e44",
+ "status": "actif",
+ "description": "Photobiomodulation en ORL : acouphènes, surdité et surdité brusque, rhinite allergique (photothérapie endonasale), rhinosinusite, troubles de l'odorat, suites d'amygdalectomie, vertiges.",
+ "since": "2000-01-01",
+ "cadence": "hebdomadaire",
+ "hero": "l'oreille, le nez et la gorge",
+ "exclusions_note": "chirurgie laser ORL, photothérapie dynamique, lumière UV seule…",
+ "subgroups": [
+  "acouphènes",
+  "surdité",
+  "rhinite",
+  "sinusite",
+  "odorat",
+  "pharynx",
+  "vertiges",
+  "autres"
+ ],
+ "pubmed_query": "(\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"low-intensity laser\"[tiab] OR \"low-power laser\"[tiab] OR \"LLLT\"[tiab] OR \"PBMT\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"light-emitting diode\"[tiab] OR \"laser acupuncture\"[tiab] OR \"repeated low-level red-light\"[tiab] OR \"low-level red light\"[tiab] OR \"red light therapy\"[tiab] OR \"high-intensity laser\"[tiab] OR \"laser biostimulation\"[tiab]) AND (\"tinnitus\"[tiab] OR \"hearing loss\"[tiab] OR \"hearing\"[tiab] OR \"rhinitis\"[tiab] OR \"sinusitis\"[tiab] OR \"rhinosinusitis\"[tiab] OR \"olfactory\"[tiab] OR \"smell\"[tiab] OR \"otitis\"[tiab] OR \"vertigo\"[tiab] OR \"tonsillectomy\"[tiab] OR \"pharyngitis\"[tiab] OR \"voice\"[tiab] OR \"Otorhinolaryngologic Diseases\"[MeSH]) NOT (\"photodynamic\"[ti])",
+ "trials_cond": "tinnitus OR \"hearing loss\" OR \"sudden deafness\" OR \"allergic rhinitis\" OR rhinosinusitis OR sinusitis OR \"olfactory dysfunction\" OR anosmia OR tonsillectomy OR vertigo OR \"otitis media\""
+}

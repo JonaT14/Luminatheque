@@ -1,0 +1,3107 @@
+[
+ {
+  "pmid": "40063138",
+  "title_fr": "Irradiance de la PBM et musculation des membres inférieurs",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 42,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "Chez 42 participants, la PBM (sonde ou couverture LED) n'améliore pas la performance d'un programme de musculation.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Double aveugle."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "40064728",
+  "title_fr": "PBM, monocytes et cytokines après exercice pliométrique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "La PBM atténue l'inflammation et favorise la récupération immunitaire après un exercice pliométrique.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Mécanisme immunitaire."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "40205065",
+  "title_fr": "PBM et nombre maximal de répétitions chez le jeune adulte : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Performance musculaire",
+  "l1": "La PBM pourrait augmenter le nombre de répétitions en musculation, avec une certitude faible à très faible.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "40250416",
+  "title_fr": "PBM avant exercice avec restriction de flux sanguin",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "La PBM avant l'exercice avec restriction de flux augmente davantage les gains de force que le placebo.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "18649044",
+  "title_fr": "Laser 830 nm et fatigue musculaire à l'effort",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   830
+  ],
+  "n": 10,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez 10 volleyeurs professionnels, le laser 830 nm retarde la fatigue musculaire lors d'efforts intenses.",
+  "l2": "Essai croisé en double aveugle ; lactates inchangés.",
+  "l3": {
+   "points": [
+    "Double aveugle."
+   ],
+   "limites": [
+    "10 sujets."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "18817474",
+  "title_fr": "Laser 655 nm et fatigue musculaire à l'effort",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   655
+  ],
+  "n": 12,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez 12 volleyeurs, le laser 655 nm retarde la fatigue et l'épuisement musculaires par un mécanisme local.",
+  "l2": "Double aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "18922091",
+  "title_fr": "Laser et fatigue musculaire induite électriquement : étude pilote",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 5,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "Chez 5 participants, le laser ne réduit pas la fatigue du quadriceps induite par électrostimulation.",
+  "l2": "Effectif et paramètres pouvant expliquer l'absence d'effet.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "5 sujets."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "19057981",
+  "title_fr": "Laser 830 nm avant l'effort et récupération musculaire chez l'athlète",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   830
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Appliqué avant un effort intense, le laser 830 nm limite la hausse des CK et accélère l'élimination des lactates, sans changer la performance.",
+  "l2": "Double aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Marqueurs de récupération."
+   ],
+   "limites": [
+    "Critères biologiques."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "19302015",
+  "title_fr": "Laser à diode unique contre LED multi-diodes avant un effort intense",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 8,
+  "effect": "mitigé",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez 8 volleyeurs, seule la LED multi-diodes réduit les CK après le test de Wingate ; ni la performance ni les lactates ne changent.",
+  "l2": "Essai croisé en double aveugle.",
+  "l3": {
+   "points": [
+    "Comparaison laser–LED."
+   ],
+   "limites": [
+    "8 sujets."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "40954632",
+  "title_fr": "PBM, compression pneumatique et électrostimulation pour la récupération musculaire : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Appliquée avant l'effort, la PBM réduit les courbatures et améliore la performance à 24 h ; la NMES et la compression appliquées après l'effort n'ont pas d'effet.",
+  "l2": "Revue systématique avec méta-analyse d'essais randomisés chez des sujets sains.",
+  "l3": {
+   "points": [
+    "Effet préconditionnement (PBM avant l'exercice)."
+   ],
+   "limites": [
+    "Peu d'essais par comparaison ; sujets sains uniquement."
+   ],
+   "pratique": "Si on l'utilise, la PBM s'applique avant l'effort, pas après."
+  }
+ },
+ {
+  "pmid": "40995827",
+  "title_fr": "PBM et performance musculaire chez les volleyeurs et les footballeurs : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez les sportifs de ballon, la PBM améliore la performance et réduit la CK : plus de répétitions au volley, CK plus basse au football.",
+  "l2": "Méta-analyse d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Effet différent selon le sport."
+   ],
+   "limites": [
+    "Peu d'essais ; protocoles variés."
+   ],
+   "pratique": "Intérêt en préparation sportive."
+  }
+ },
+ {
+  "pmid": "41053985",
+  "title_fr": "Laser avant électrostimulation ischémique (BFR-NMES) : gains d'entraînement et remodelage des unités motrices",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   850
+  ],
+  "n": 30,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Une préexposition au laser (850 nm) augmente la force gagnée après entraînement par électrostimulation sous restriction de flux sanguin et améliore l'efficience neuromusculaire.",
+  "l2": "Essai randomisé, 30 sujets, 3 semaines.",
+  "l3": {
+   "points": [
+    "Analyse des unités motrices."
+   ],
+   "limites": [
+    "Sujets sains ; petit effectif."
+   ],
+   "pratique": "Recherche en physiologie de l'entraînement."
+  }
+ },
+ {
+  "pmid": "35802348",
+  "title_fr": "Effets ergogéniques de la PBM selon le type d'exercice : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Performance musculaire",
+  "l1": "La PBM améliore l'endurance musculaire mono-articulaire et le temps jusqu'à épuisement en cyclisme, mais pas la force, la course ni la natation.",
+  "l2": "Sports Medicine 2022.",
+  "l3": {
+   "points": [
+    "Effets selon le type d'effort."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "35910832",
+  "title_fr": "PBM avec champ magnétique statique chez l'athlète de CrossFit",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Avant ou après la séance, la PBM avec champ magnétique améliore la performance et accélère la récupération chez l'athlète de CrossFit.",
+  "l2": "Triple aveugle, croisé.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "36301306",
+  "title_fr": "PBM et étirements dans les courbatures",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez des sujets non entraînés, la PBM et les étirements ne soulagent pas les courbatures.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "37099210",
+  "title_fr": "PBM corps entier et récupération après cyclisme anaérobie",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 48,
+  "effect": "mitigé",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez 48 sportifs, la PBM corps entier ne change pas la performance au Wingate, mais améliore la récupération le lendemain.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "37294341",
+  "title_fr": "PBM et performance anaérobie du cycliste entraîné",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 15,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "Chez 15 cyclistes entraînés, la PBM rouge à faible dose n'a pas d'effet ergogène sur la performance anaérobie.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Double aveugle."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "37530880",
+  "title_fr": "PBM et performance physique de la femme en phase folliculaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 27,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "Chez 27 femmes actives, la PBM ne modifie pas la performance ni les lactates lors d'un test anaérobie en phase folliculaire.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Double aveugle."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "37580518",
+  "title_fr": "PBM et muscle squelettique du diabétique : revue des études animales",
+  "type": "sr",
+  "level": 5,
+  "pop": "—",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Chez l'animal diabétique, la PBM améliore la santé musculaire ; des modèles plus proches des patients sont nécessaires.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "Animal."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "37917978",
+  "title_fr": "Patch lumineux rouge et bleu pulsé dans les contusions de la cuisse",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 46,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "Chez 46 volontaires, le patch lumineux rouge et bleu améliore la force et la puissance du quadriceps pendant la phase aiguë d'une contusion.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Modèle de contusion."
+   ],
+   "limites": [
+    "Simple aveugle."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38432848",
+  "title_fr": "PBM, force et endurance du quadriceps chez l'adulte sain",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 28,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "Chez 28 adultes sains, la PBM n'améliore ni la force ni l'endurance du quadriceps.",
+  "l2": "Double aveugle.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38048090",
+  "title_fr": "PBM dans les morsures de serpent Bothrops atrox (JAMA Intern Med 2023)",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "Dans un essai en double aveugle publié dans JAMA Internal Medicine, le laser réduit les lésions musculaires et l'inflammation locale après morsure de Bothrops atrox, sans effet indésirable.",
+  "l2": "Antalgiques comparables dans les deux groupes.",
+  "l3": {
+   "points": [
+    "Publication de haut niveau."
+   ],
+   "limites": [
+    "Indication très particulière."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38763575",
+  "title_fr": "Moment d'application de la PBM chez le joueur de rugby",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 18,
+  "effect": "mitigé",
+  "theme": "Blessures sportives",
+  "l1": "Chez 18 rugbymen, la PBM avant l'exercice améliore la performance, mais pas les marqueurs de lésion musculaire.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38150056",
+  "title_fr": "PBM et performance fonctionnelle du sujet sain : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Récupération & courbatures",
+  "l1": "La PBM réduit la fatigue et aide la récupération du sujet sain, sans preuve d'augmentation de la force ou de la capacité fonctionnelle.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "24005882",
+  "title_fr": "Laser 808 nm et marqueurs de lésion musculaire : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Blessures sportives",
+  "l1": "Le laser réduit les CK 72 heures après un exercice lésionnel du biceps, sans accélérer la récupération de force.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Double aveugle."
+   ],
+   "limites": [
+    "Pas d'effet fonctionnel."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "24249354",
+  "title_fr": "Photothérapie, performance et récupération à l'effort : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Laser et LED améliorent la performance musculaire et accélèrent la récupération, surtout appliqués avant l'effort, à 5–6 J par point.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Doses repères."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "5–6 J par point avant l'effort."
+  }
+ },
+ {
+  "pmid": "24258312",
+  "title_fr": "LED 630 nm et récupération musculaire après un exercice lésionnel",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [
+   630
+  ],
+  "n": 17,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "Chez 17 hommes, la LED 630 nm après un exercice excentrique réduit les courbatures et la perte de force et d'amplitude.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "24320801",
+  "title_fr": "Laser et fatigue du biceps chez la jeune femme",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 20,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "Chez 20 jeunes femmes, le laser a un effet limité sur la fatigue du biceps, avec seulement une tendance électromyographique.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "24456143",
+  "title_fr": "Laser 830 nm avant ou après l'effort : fatigue et marqueurs de récupération",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   830
+  ],
+  "n": 27,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez 27 footballeurs, le laser avant ou après l'effort réduit lactates et CK, surtout appliqué après.",
+  "l2": "Double aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Timing comparé."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "24576321",
+  "title_fr": "Dose et puissance idéales du laser 810 nm sur la performance musculaire : protocole",
+  "type": "protocol",
+  "level": 0,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810
+  ],
+  "n": 28,
+  "effect": "—",
+  "theme": "Récupération & courbatures",
+  "l1": "Protocole d'essai chez 28 athlètes pour définir la dose et la puissance optimales du laser 810 nm.",
+  "l2": "NCT01844271.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "Protocole."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "24716713",
+  "title_fr": "Laser avant l'effort et performance isocinétique chez le diabétique de type 2 : protocole",
+  "type": "protocol",
+  "level": 0,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Protocole d'essai sur le laser avant l'effort chez le diabétique de type 2.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "Protocole."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "24925070",
+  "title_fr": "Laser et épreuve d'effort cardiorespiratoire chez l'adulte non entraîné",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Le laser augmente la performance à l'épreuve d'effort, probablement par une meilleure extraction d'oxygène musculaire.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "24942380",
+  "title_fr": "Laser superpulsé et LED combinés : performance et récupération musculaires",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "Avant l'effort, l'association laser + LED, surtout à 30 J, augmente la performance, réduit les courbatures et les marqueurs de lésion musculaire.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Fenêtre de dose."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "25397864",
+  "title_fr": "Proche infrarouge pour limiter la perte de force après un exercice intense",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 39,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez 39 jeunes adultes, le proche infrarouge avant un exercice de résistance limite un peu la perte de force.",
+  "l2": "Doses plus élevées à tester.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "Effet modeste."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "32862403",
+  "title_fr": "PBM aiguë et performance musculaire du diabétique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "—",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Appliquée sur une courte période, la PBM n'apporte pas de gain important de performance musculaire ni de fonction chez le diabétique.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "33020394",
+  "title_fr": "PBM et performance intermittente chez la joueuse de futsal",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "La PBM n'améliore pas la performance aux efforts intenses et intermittents chez des joueuses de futsal amateurs.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "33227220",
+  "title_fr": "Moment d'application de la LED et performance musculaire chez le jeune homme",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "La LED n'augmente ni la performance musculaire ni la résistance à la fatigue chez le jeune homme, quel que soit le délai d'application.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Double aveugle."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "33232629",
+  "title_fr": "Effet dose de la PBM sur la performance en extension du genou",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 8,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez 8 hommes, la bonne dose de PBM permet le même travail avec moins de fatigue lors de séries d'extension du genou.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "8 sujets."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "33273302",
+  "title_fr": "LED et récupération après exercice pliométrique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [
+   630,
+   940
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "La LED 630 ou 940 nm avant un exercice excentrique limite les lésions musculaires sans compromettre l'adaptation à l'exercice répété.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "33332232",
+  "title_fr": "PBM corps entier et récupération chez le joueur de water-polo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Récupération & courbatures",
+  "l1": "La PBM corps entier n'améliore pas la récupération des joueurs de water-polo lors de matchs répétés.",
+  "l2": "Résultats préliminaires.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "33332234",
+  "title_fr": "PBM rouge ou infrarouge et fatigue du biceps",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Performance musculaire",
+  "l1": "L'infrarouge semble plus efficace que le rouge pour réduire la fatigue du biceps.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "19731300",
+  "title_fr": "LED multi-diodes 660/850 nm, fatigue et récupération musculaires",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [
+   660,
+   850
+  ],
+  "n": 10,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez 10 volleyeurs, la LED appliquée avant l'effort retarde un peu la fatigue et réduit lactates, CK et CRP après l'exercice.",
+  "l2": "Essai croisé en double aveugle.",
+  "l3": {
+   "points": [
+    "Marqueurs biologiques concordants."
+   ],
+   "limites": [
+    "10 sujets."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "20436237",
+  "title_fr": "Laser 810 nm avant l'effort : fatigue et marqueurs de récupération",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810
+  ],
+  "n": 9,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez 9 volleyeurs, 6 J de laser sur le biceps avant l'effort augmentent l'endurance et réduisent lactates, CK et CRP.",
+  "l2": "Essai croisé en double aveugle (JOSPT 2010).",
+  "l3": {
+   "points": [
+    "Dose précise."
+   ],
+   "limites": [
+    "9 sujets."
+   ],
+   "pratique": "6 J par point, 2 points sur le biceps."
+  }
+ },
+ {
+  "pmid": "20602109",
+  "title_fr": "Laser avant l'exercice excentrique et marqueurs de lésion musculaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 36,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "Chez 36 hommes, le laser avant un exercice excentrique limite la hausse des protéines musculaires sanguines et la perte de force.",
+  "l2": "Contre placebo.",
+  "l3": {
+   "points": [
+    "Prévention des lésions."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "20626264",
+  "title_fr": "LED et fatigue des extenseurs du genou",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 17,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez 17 volontaires, la LED limite la baisse de couple maximal du quadriceps après un effort isocinétique intense.",
+  "l2": "Essai croisé en double aveugle.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "21086010",
+  "title_fr": "Laser 808 nm et entraînement en force",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Associé à l'entraînement en force, le laser 808 nm augmente davantage la performance musculaire que l'entraînement seul.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Effet sur l'entraînement."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "21088862",
+  "title_fr": "Immersion en eau froide contre LED pour la récupération musculaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "La LED limite mieux la hausse des lactates et des CK après un effort intense que 5 minutes d'immersion en eau froide.",
+  "l2": "Résultats préliminaires chez des athlètes.",
+  "l3": {
+   "points": [
+    "Comparaison à une méthode courante."
+   ],
+   "limites": [
+    "Préliminaire."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "31827687",
+  "title_fr": "PBM infrarouge avant un test de course chez le footballeur de haut niveau",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "Chez des footballeurs de haut niveau, la PBM avant l'effort améliore la performance et réduit lésions musculaires, inflammation et stress oxydatif.",
+  "l2": "NCT03803956.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "31991284",
+  "title_fr": "Laser dans la rééducation des lésions des ischio-jambiers",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Blessures sportives",
+  "l1": "Chez des athlètes amateurs, le laser n'accélère pas le retour au sport après lésion des ischio-jambiers (23 contre 24 jours).",
+  "l2": "Aucune récidive à 6 mois dans les deux groupes.",
+  "l3": {
+   "points": [
+    "Contre placebo."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "32333337",
+  "title_fr": "PBM et capacité fonctionnelle de l'insuffisant rénal chronique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Huit semaines de PBM sur les membres inférieurs améliorent la capacité fonctionnelle et la force de l'insuffisant rénal chronique.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Population fragile."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "32744919",
+  "title_fr": "PBM et restriction du flux sanguin des extenseurs du poignet",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   660,
+   830
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "L'association PBM 660 nm et entraînement avec restriction de flux augmente la force de préhension des extenseurs du poignet.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "30264179",
+  "title_fr": "Laser et activation électrique du quadriceps dans l'insuffisance cardiaque",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Une séance de laser ne réduit pas la fatigue du quadriceps chez l'insuffisant cardiaque.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "Séance unique."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "30607719",
+  "title_fr": "PBM pour prévenir la fatigue des ischio-jambiers chez le footballeur",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "La PBM limite la fatigue des ischio-jambiers induite par le football, une piste pour prévenir les lésions.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Prévention des blessures."
+   ],
+   "limites": [
+    "Critère indirect."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "30820772",
+  "title_fr": "PBM et musculation du quadriceps chez la femme âgée",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Chez des femmes âgées, la PBM associée à la musculation améliore plus la performance du quadriceps que l'entraînement seul.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "31197508",
+  "title_fr": "PBM et musculation chez la femme ménopausée",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "La PBM n'apporte pas de gain supplémentaire de force à un entraînement en résistance chez la femme ménopausée.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "31402432",
+  "title_fr": "PBM et électrostimulation chez de jeunes volleyeurs",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Performance musculaire",
+  "l1": "L'électrostimulation améliore plus la force et la détente que la PBM chez de jeunes volleyeurs.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "16538423",
+  "title_fr": "LED infrarouge et courbatures induites expérimentalement : étude pilote",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Récupération & courbatures",
+  "l1": "La LED infrarouge montre un effet antalgique sur les courbatures expérimentales, à confirmer dans des essais plus grands.",
+  "l2": "Étude pilote contrôlée.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "Pilote."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "42059974",
+  "title_fr": "Renforcement musculaire avec ou sans PBM dans l'asthme difficile à contrôler : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Dans l'asthme difficile à contrôler, ajouter la PBM au renforcement musculaire améliore la force et la capacité fonctionnelle, sans effet sur la fonction respiratoire.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [
+    "Rééducation des muscles périphériques."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Adjuvant possible en réhabilitation respiratoire."
+  }
+ },
+ {
+  "pmid": "42172262",
+  "title_fr": "PBM avec champ magnétique ou autres stratégies de récupération chez les athlètes de CrossFit : essai croisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 12,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez des athlètes de CrossFit, la PBM avec champ magnétique statique améliore la récupération et réduit le stress oxydatif mieux que le repos passif.",
+  "l2": "Essai randomisé croisé à 4 interventions, 12 athlètes.",
+  "l3": {
+   "points": [
+    "Effet sur les marqueurs oxydatifs."
+   ],
+   "limites": [
+    "Très petit effectif."
+   ],
+   "pratique": "Option de récupération sportive."
+  }
+ },
+ {
+  "pmid": "42174255",
+  "title_fr": "Effet aigu de la PBM sur la force du quadriceps dans l'insuffisance rénale chronique : essai croisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Chez des patients hémodialysés, une séance unique de PBM (30, 60 ou 90 J) ne modifie ni la force du quadriceps ni la fatigue ni la douleur.",
+  "l2": "Essai croisé randomisé en double aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Trois doses testées."
+   ],
+   "limites": [
+    "Séance unique."
+   ],
+   "pratique": "Aucun effet ergogène aigu dans cette population."
+  }
+ },
+ {
+  "pmid": "42271035",
+  "title_fr": "PBM et manipulation ostéopathique après dommages musculaires induits par l'exercice : essai contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez de jeunes adultes, l'association PBM et manipulation ostéopathique améliore la cinétique de la CK et certains paramètres fonctionnels ; l'effet sur la force reste une tendance non significative.",
+  "l2": "Essai randomisé contre placebo.",
+  "l3": {
+   "points": [
+    "Tendance sur le saut horizontal."
+   ],
+   "limites": [
+    "Résultats exploratoires."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "42473844",
+  "title_fr": "PBM en complément du renforcement musculaire chez le sujet âgé : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Chez le sujet âgé, la PBM n'apporte pas de bénéfice clair sur la force maximale ; elle pourrait aider la récupération chez les plus fragiles.",
+  "l2": "Revue systématique avec méta-analyse d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Intérêt possible chez les sujets fragiles ou en réanimation."
+   ],
+   "limites": [
+    "Résultats incohérents."
+   ],
+   "pratique": "Pas d'intérêt en routine pour la force."
+  }
+ },
+ {
+  "pmid": "42493723",
+  "title_fr": "PBM et erreurs de repositionnement de la cheville dues à la fatigue : essai contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "Appliquée avant l'effort, la PBM ne réduit pas la perte de proprioception de la cheville due à la fatigue ; l'instabilité perçue pourrait moduler la réponse.",
+  "l2": "Essai randomisé contre placebo.",
+  "l3": {
+   "points": [
+    "Interaction exploratoire avec le score CAIT."
+   ],
+   "limites": [
+    "Hypothèse à confirmer."
+   ],
+   "pratique": "Pas d'effet démontré."
+  }
+ },
+ {
+  "pmid": "38262071",
+  "title_fr": "PBM par LED rouge et proche infrarouge en réanimation : durée de séjour et fonction musculaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 60,
+  "effect": "favorable",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Chez 60 patients de réanimation, la PBM quotidienne réduit la durée de séjour d'environ 30 % et augmente la force et la mobilité par rapport à la simulation.",
+  "l2": "Triple aveugle ; scores de gravité similaires.",
+  "l3": {
+   "points": [
+    "Critère dur : durée de séjour."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38689440",
+  "title_fr": "Laser avant électrostimulation ischémique et fatigue musculaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   850
+  ],
+  "n": 36,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez 36 adultes, 60 J de laser 850 nm avant électrostimulation avec restriction de flux réduisent la fatigue et préservent la force.",
+  "l2": "Med Sci Sports Exerc 2024.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38758297",
+  "title_fr": "PBM avant l'effort, endurance et récupération selon le niveau d'activité : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Blessures sportives",
+  "l1": "La PBM avant l'effort améliore l'endurance musculaire chez les sujets peu entraînés, moins chez les sportifs entraînés en résistance.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Effet selon le profil."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38781474",
+  "title_fr": "PBM, douleur et retour au jeu chez le sportif blessé : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Blessures sportives",
+  "l1": "La PBM réduit la douleur des sportifs blessés, mais n'accélère pas le retour au jeu.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38819613",
+  "title_fr": "Effet dose de la PBM sur la performance au 5 km",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "Chez des coureurs entraînés, la PBM jusqu'à 1 260 J n'améliore pas la performance au 5 km.",
+  "l2": "Double aveugle, croisé.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "39663094",
+  "title_fr": "Effet dose de la PBM chez la joueuse de futsal",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 15,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "Chez 15 joueuses de futsal, aucune dose de PBM (300 à 1 260 J) n'améliore l'endurance, la puissance ni la force.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "25417170",
+  "title_fr": "Laser et adaptation musculaire à l'entraînement excentrique du quadriceps",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 30,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez 30 hommes, le laser avant chaque séance d'entraînement excentrique augmente l'hypertrophie (+15,4 contre +9,4 %) et le gain de force.",
+  "l2": "Huit semaines d'entraînement.",
+  "l3": {
+   "points": [
+    "Effet sur l'entraînement à long terme."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "25496083",
+  "title_fr": "Laser 808 nm et résistance à la fatigue musculaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 7,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez 7 jeunes hommes, le laser pendant les pauses augmente de 52 % les répétitions maximales.",
+  "l2": "Essai croisé en double aveugle.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "7 sujets."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "25585514",
+  "title_fr": "Préconditionnement musculaire par LED chez un coureur d'élite",
+  "type": "rct",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 1,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez un coureur d'élite, la LED proche infrarouge avant l'effort améliore la performance et module le métabolisme.",
+  "l2": "Essai sur un seul sujet.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "Un seul sujet."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "25722067",
+  "title_fr": "LED avant les matchs et créatine kinase chez le volleyeur : effet dose",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Appliquée avant des matchs officiels, la LED à 210–315 J empêche la hausse des CK chez le volleyeur.",
+  "l2": "Effet dose-dépendant.",
+  "l3": {
+   "points": [
+    "Conditions réelles de compétition."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "210–315 J avant le match."
+  }
+ },
+ {
+  "pmid": "26563953",
+  "title_fr": "Photothérapie et courbatures : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Blessures sportives",
+  "l1": "La photothérapie pourrait réduire la douleur et les marqueurs de lésion des courbatures, mais trop peu d'études permettent de conclure.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "Peu d'études."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "26714981",
+  "title_fr": "PBM et fatigue chez la femme âgée : évaluation isocinétique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Chez des femmes âgées, la PBM réduit la fatigue musculaire sans améliorer la performance.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "26873498",
+  "title_fr": "Laser 810 nm chez de jeunes joueurs de water-polo : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810
+  ],
+  "n": 20,
+  "effect": "neutre",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez 20 joueurs de water-polo, 5 jours de laser n'améliorent ni la performance ni les marqueurs inflammatoires et musculaires.",
+  "l2": "Surface irradiée peut-être trop petite.",
+  "l3": {
+   "points": [
+    "Double aveugle."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "27250713",
+  "title_fr": "Laser, lactates et fatigue chez des patients hospitalisés pour insuffisance cardiaque",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Chez des insuffisants cardiaques hospitalisés, le laser n'améliore pas la capacité fonctionnelle mais module les lactates et réduit la fatigue perçue.",
+  "l2": "Étude pilote.",
+  "l3": {
+   "points": [
+    "Population fragile."
+   ],
+   "limites": [
+    "Pilote."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "27250715",
+  "title_fr": "Laser et entraînement en force chez la femme âgée : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Associé à l'entraînement en force, le laser améliore la performance musculaire de femmes âgées.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "27272518",
+  "title_fr": "Photothérapie avant l'effort avec des sondes de tailles différentes",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Grandes et petites sondes multi-diodes réduisent autant la fatigue des fléchisseurs du coude.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "27272746",
+  "title_fr": "Photothérapie pour améliorer la capacité d'effort : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Performance musculaire",
+  "l1": "Le laser avant l'effort semble améliorer la capacité d'exercice (répétitions, temps jusqu'à épuisement), mais la qualité des preuves est limitée.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "Preuves limitées."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "27371449",
+  "title_fr": "Moment optimal de la photothérapie associée à un programme de musculation",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "La photothérapie appliquée avant l'exercice augmente davantage les gains de force que si elle est appliquée après.",
+  "l2": "Double aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Timing défini."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "Avant la séance de musculation."
+  }
+ },
+ {
+  "pmid": "27575834",
+  "title_fr": "Laser 810 nm avant l'effort chez le footballeur : quelle dose ?",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810
+  ],
+  "n": 28,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez 28 footballeurs, le laser avant l'effort à 50 J par site augmente la performance et réduit CK et IL-6 ; 30 J est sans effet.",
+  "l2": "Pas d'effet sur les courbatures.",
+  "l3": {
+   "points": [
+    "Dose optimale identifiée."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "50 J par site avant l'effort."
+  }
+ },
+ {
+  "pmid": "27624781",
+  "title_fr": "PBM et/ou cryothérapie pour la récupération musculaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "La PBM seule est la meilleure modalité de récupération après un effort excentrique intense, avec un retour à l'état de base dès 24 heures.",
+  "l2": "La cryothérapie n'apporte rien.",
+  "l3": {
+   "points": [
+    "Double aveugle."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "Préférer la PBM à la cryothérapie."
+  }
+ },
+ {
+  "pmid": "27638148",
+  "title_fr": "Laser et indice de fatigue des fléchisseurs plantaires",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Appliqué avant l'exercice, le laser réduit l'indice de fatigue des muscles du mollet chez le sujet sain.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "27655326",
+  "title_fr": "Laser avant ou après un exercice pliométrique et lésions musculaires",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Blessures sportives",
+  "l1": "Le laser après un exercice pliométrique réduit l'échogénicité musculaire et peut-être les courbatures, sans limiter la perte de force.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "28054262",
+  "title_fr": "PBM contre cryothérapie pour la récupération après un effort intense",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 40,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez 40 volontaires, la PBM récupère mieux que la cryothérapie, et la cryothérapie réduit même l'efficacité de la PBM.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Double aveugle."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "Ne pas associer cryothérapie et PBM."
+  }
+ },
+ {
+  "pmid": "28319422",
+  "title_fr": "Photothérapie pour la performance et la récupération : comparaison de trois appareils",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 40,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez 40 hommes, l'appareil pulsé de faible puissance donne les meilleurs résultats ; l'appareil continu de forte puissance augmente même les CK.",
+  "l2": "Double aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Tous les appareils ne se valent pas."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "28422520",
+  "title_fr": "Laser, performance et fatigue chez le cycliste de compétition",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Le laser améliore la performance et réduit la fatigue chez le cycliste ; 135 J donne les meilleurs résultats.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Dose optimale."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "21739259",
+  "title_fr": "Laser et course d'intensité croissante : performance, muscle et stress oxydatif",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "blessures"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Blessures sportives",
+  "l1": "Le laser avant une course d'intensité croissante améliore la performance et réduit le stress oxydatif et les lésions musculaires.",
+  "l2": "Essai croisé en double aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Mécanisme redox proposé."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "21814736",
+  "title_fr": "Laser rouge 660 nm ou infrarouge 830 nm contre la fatigue musculaire : lequel choisir ?",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   660,
+   830
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Le rouge et l'infrarouge retardent tous deux la fatigue musculaire et améliorent la performance ; les mécanismes de chaque longueur d'onde restent à préciser.",
+  "l2": "Double aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Comparaison directe."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "21870127",
+  "title_fr": "Laser 808 nm et performance isocinétique pendant l'entraînement d'endurance",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Associé à un entraînement d'endurance, le laser 808 nm réduit davantage la fatigue chez de jeunes femmes.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "23664040",
+  "title_fr": "LED après un effort intense chez l'athlète",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 18,
+  "effect": "neutre",
+  "theme": "Performance musculaire",
+  "l1": "Chez 18 athlètes, la LED après un effort intense ne modifie ni les lactates, ni la puissance, ni la fatigue.",
+  "l2": "Essai croisé en simple aveugle.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "Paramètres uniques."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "23296713",
+  "title_fr": "Laser 808 nm et fatigue musculaire chez la femme âgée",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "populations"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Sujets âgés & malades chroniques",
+  "l1": "Chez des femmes âgées, le laser augmente le nombre de répétitions de flexion-extension du genou, sans retarder la fatigue électromyographique.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "23672326",
+  "title_fr": "La photothérapie améliore-t-elle la contraction musculaire et la récupération ? Revue systématique",
+  "type": "sr",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Appliquée avant un exercice de résistance, la photothérapie apporte de façon constante des bénéfices ergogéniques et protecteurs pour le muscle.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Résultat constant."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "Appliquer avant l'effort."
+  }
+ },
+ {
+  "pmid": "23895414",
+  "title_fr": "Photothérapie pendant l'entraînement sur tapis et performance du quadriceps chez la femme ménopausée",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "—",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 30,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez 30 femmes ménopausées, la LED infrarouge pendant l'entraînement augmente la puissance du quadriceps et réduit la fatigue mieux que l'exercice seul.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Trois groupes."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "29101708",
+  "title_fr": "Effet dose de la PBM sur l'économie neuromusculaire en course",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 18,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez 18 coureurs, la PBM améliore l'économie neuromusculaire ; la meilleure dose est 15 J par site (420 J au total).",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Dose optimale."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "29099680",
+  "title_fr": "PBM 810 nm avant l'effort : quelle puissance optimale ?",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810
+  ],
+  "n": 28,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Chez 28 footballeurs, 100 mW par diode donnent les meilleurs résultats sur la performance et la récupération ; plus de puissance n'est pas mieux.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Puissance optimale."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "100 mW par diode."
+  }
+ },
+ {
+  "pmid": "29119418",
+  "title_fr": "Laser et cinétique de la VO2 chez le cycliste de compétition",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Le laser accélère la cinétique de la VO2 chez le cycliste, un mécanisme possible de son effet ergogène.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "29177980",
+  "title_fr": "LED sur le membre inférieur homolatéral ou controlatéral : répétitions et réponse cardiaque",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Performance musculaire",
+  "l1": "La LED n'améliore la performance que sur le membre irradié, sans effet sur les lactates ni la réponse cardiaque.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "Effet local."
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "29455305",
+  "title_fr": "PBM 904 nm et fatigue musculaire chez la jeune femme",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   904
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "La PBM 904 nm réduit la fatigue et augmente la performance musculaire de jeunes femmes actives, sans effet sur les lactates.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "29933277",
+  "title_fr": "Photothérapie et créatine kinase selon le type d'exercice : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "La photothérapie réduit l'élévation des CK, surtout après un exercice localisé.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "34776149",
+  "title_fr": "Dose unique de PBM (laser + LED) et performance des membres inférieurs",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "performance"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 60,
+  "effect": "favorable",
+  "theme": "Performance musculaire",
+  "l1": "Chez 60 volontaires, une seule séance de PBM sur les extenseurs du genou et les fléchisseurs plantaires améliore la performance motrice.",
+  "l2": "L'effet dépend du muscle irradié.",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "34428975",
+  "title_fr": "Laser, performance musculaire et récupération chez l'athlète : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Le laser améliore la performance musculaire de l'athlète, même si son effet thérapeutique n'est pas encore établi avec certitude.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "34669081",
+  "title_fr": "Cryothérapie contre PBM pour la récupération musculaire : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "récupération"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Récupération & courbatures",
+  "l1": "Après un effort intense, la PBM apporte un effet cliniquement important sur la récupération et semble meilleure que la cryothérapie.",
+  "l2": "—",
+  "l3": {
+   "points": [
+    "—"
+   ],
+   "limites": [
+    "—"
+   ],
+   "pratique": "—"
+  }
+ }
+]

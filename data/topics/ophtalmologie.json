@@ -1,0 +1,23 @@
+{
+ "id": "ophtalmologie",
+ "label": "Ophtalmologie",
+ "short": "Ophtalmologie",
+ "color": "#0e8a9a",
+ "status": "actif",
+ "description": "Photobiomodulation en ophtalmologie : dégénérescence maculaire liée à l'âge, myopie de l'enfant (lumière rouge basse intensité), sécheresse oculaire et dysfonction meibomienne, rétinopathie diabétique, glaucome, amblyopie.",
+ "since": "2000-01-01",
+ "cadence": "hebdomadaire",
+ "hero": "l'œil et la vision",
+ "exclusions_note": "lasers de photocoagulation ou chirurgicaux, photothérapie dynamique, lumière pulsée intense seule, études hors œil…",
+ "subgroups": [
+  "DMLA",
+  "myopie",
+  "sécheresse",
+  "rétinopathie",
+  "glaucome",
+  "amblyopie",
+  "autres"
+ ],
+ "pubmed_query": "(\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"low-intensity laser\"[tiab] OR \"low-power laser\"[tiab] OR \"LLLT\"[tiab] OR \"PBMT\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"light-emitting diode\"[tiab] OR \"laser acupuncture\"[tiab] OR \"repeated low-level red-light\"[tiab] OR \"low-level red light\"[tiab] OR \"red light therapy\"[tiab] OR \"high-intensity laser\"[tiab] OR \"laser biostimulation\"[tiab]) AND (\"macular degeneration\"[tiab] OR \"myopia\"[tiab] OR \"dry eye\"[tiab] OR \"glaucoma\"[tiab] OR \"retinopathy\"[tiab] OR \"amblyopia\"[tiab] OR \"retina*\"[tiab] OR \"meibomian\"[tiab] OR \"blephar*\"[tiab] OR \"ocular\"[tiab] OR \"Eye Diseases\"[MeSH]) NOT (\"photodynamic\"[ti])",
+ "trials_cond": "\"macular degeneration\" OR myopia OR \"dry eye\" OR \"meibomian gland dysfunction\" OR glaucoma OR \"diabetic retinopathy\" OR \"diabetic macular edema\" OR amblyopia OR retinitis"
+}
