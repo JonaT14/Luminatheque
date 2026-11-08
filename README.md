@@ -4,7 +4,7 @@ Veille scientifique personnelle sur la **photobiomodulation (PBM)**, avec toutes
 
 Chaque thème contient deux sortes d'entrées :
 
-- les **fiches rédigées** (3 niveaux de lecture, niveau de preuve, résultats chiffrés) pour toutes les études clés des thèmes complétés : essais randomisés, méta-analyses, revues systématiques, recommandations ;
+- les **fiches rédigées** (3 niveaux de lecture, niveau de preuve, résultats chiffrés) pour toutes les études clés : essais randomisés, méta-analyses, revues systématiques, recommandations ;
 - les **notices indexées** (titre, conclusion des auteurs en VO, résumé complet à la demande), classées automatiquement par type d'étude, niveau de preuve indicatif et sous-groupe. Elles sont cherchables et filtrables comme les fiches (filtre « Fiche »).
 
 | Thème | Notices indexées | Fiches rédigées |
@@ -12,8 +12,8 @@ Chaque thème contient deux sortes d'entrées :
 | Mucite buccale (traitements du cancer) | 463 | 198 |
 | Neuropathies périphériques (chimio-induites, diabétiques, compressions, lésions nerveuses, névralgies) | 317 | 120 |
 | Gynécologie (sécheresse et syndrome génito-urinaire, après cancer, vulve et vagin, douleurs pelviennes, obstétrique et allaitement, fertilité) | 278 | 116 |
-| Musculo-squelettique (tendons, arthrose, rachis, ATM, fibromyalgie, épaule, os, muscle) | 3 616 | en cours |
-| Dermatologie (plaies, cicatrices et brûlures, radiodermite, alopécie, dermatoses inflammatoires, esthétique, infections, pigmentation) | 5 234 | en cours |
+| Musculo-squelettique (tendons, arthrose, rachis, ATM, fibromyalgie, épaule, os, muscle) | 3 363 | 679 |
+| Dermatologie (plaies, cicatrices et brûlures, radiodermite, alopécie, dermatoses inflammatoires, esthétique, infections, pigmentation) | 4 601 | 256 |
 
 ## Ce que fait le site
 

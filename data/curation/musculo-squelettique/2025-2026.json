@@ -1,0 +1,1193 @@
+[
+ {
+  "pmid": "40531843",
+  "title_fr": "Gonarthrose : méta-analyse en réseau des options thérapeutiques",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "arthrose"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Arthrose & arthrites",
+  "l1": "Dans ce classement des traitements de la gonarthrose, l'orthèse, l'hydrothérapie et l'exercice arrivent en tête ; le laser n'est pas mis en avant.",
+  "l2": "Méta-analyse en réseau d'essais randomisés, avec classement SUCRA.",
+  "l3": {
+   "points": [
+    "Le laser figure parmi les options comparées, sans arriver en tête."
+   ],
+   "limites": [
+    "Les classements SUCRA sont fragiles quand les essais sont hétérogènes."
+   ],
+   "pratique": "L'exercice et l'orthèse restent le socle ; le laser est au mieux un complément."
+  }
+ },
+ {
+  "pmid": "40545487",
+  "title_fr": "PBM (laser basse énergie) dans la gonarthrose symptomatique : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "arthrose"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Arthrose & arthrites",
+  "l1": "Dans la gonarthrose symptomatique, la PBM améliore la douleur et la fonction mieux que le sham et que l'absence de traitement.",
+  "l2": "Essai randomisé en double aveugle à 3 bras : laser, sham et contrôle.",
+  "l3": {
+   "points": [
+    "Bénéfice significatif contre sham."
+   ],
+   "limites": [
+    "Un seul centre ; suivi court."
+   ],
+   "pratique": "Option d'appoint à associer au programme d'exercices."
+  }
+ },
+ {
+  "pmid": "40954632",
+  "title_fr": "PBM, compression pneumatique et électrostimulation pour la récupération musculaire : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "muscle"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Muscle, sport & récupération",
+  "l1": "Appliquée avant l'effort, la PBM réduit les courbatures et améliore la performance à 24 h ; la NMES et la compression appliquées après l'effort n'ont pas d'effet.",
+  "l2": "Revue systématique avec méta-analyse d'essais randomisés chez des sujets sains.",
+  "l3": {
+   "points": [
+    "Effet préconditionnement (PBM avant l'exercice)."
+   ],
+   "limites": [
+    "Peu d'essais par comparaison ; sujets sains uniquement."
+   ],
+   "pratique": "Si on l'utilise, la PBM s'applique avant l'effort, pas après."
+  }
+ },
+ {
+  "pmid": "40643712",
+  "title_fr": "Laser, gouttière occlusale ou les deux dans la DTM musculaire : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ATM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "ATM & douleurs orofaciales",
+  "l1": "Dans la DTM musculaire, laser et gouttière soulagent tous deux ; leur association maintient le mieux le contrôle des symptômes dans le temps.",
+  "l2": "Essai randomisé à 3 bras : PBM, gouttière et combinaison.",
+  "l3": {
+   "points": [
+    "La combinaison donne l'effet le plus durable."
+   ],
+   "limites": [
+    "Petits effectifs ; pas de bras sham."
+   ],
+   "pratique": "On peut associer le laser à la gouttière."
+  }
+ },
+ {
+  "pmid": "40662610",
+  "title_fr": "Ultrasons ou laser basse énergie dans la ténosynovite de De Quervain : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "tendon"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 72,
+  "effect": "mitigé",
+  "theme": "Tendinopathies & enthèses",
+  "l1": "Dans la ténosynovite de De Quervain, le laser réduit l'incapacité du poignet mieux que les ultrasons ; sur la douleur, les conclusions de l'auteur sont incohérentes.",
+  "l2": "Essai randomisé en simple aveugle, 72 patients.",
+  "l3": {
+   "points": [
+    "Supériorité fonctionnelle du laser à 4 semaines."
+   ],
+   "limites": [
+    "Résumé contradictoire sur la douleur ; simple aveugle."
+   ],
+   "pratique": "Alternative raisonnable aux ultrasons."
+  }
+ },
+ {
+  "pmid": "40719876",
+  "title_fr": "Laser haute intensité dans la radiculopathie rachidienne : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "rachis"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "haute puissance"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Rachis : lombalgie, cervicalgie, radiculopathie",
+  "l1": "Dans la radiculopathie cervicale ou lombaire, le HILT réduit la douleur et l'incapacité, mais les preuves sont de faible rigueur méthodologique.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Effet favorable sur la douleur."
+   ],
+   "limites": [
+    "Critères de jugement non standardisés ; essais hétérogènes."
+   ],
+   "pratique": "Complément possible à la rééducation."
+  }
+ },
+ {
+  "pmid": "40767062",
+  "title_fr": "Laser-auriculothérapie dans la douleur musculo-squelettique : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "fibro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Fibromyalgie & douleur myofasciale",
+  "l1": "La laser-auriculothérapie réduit la douleur musculo-squelettique, surtout dans certaines pathologies ; l'article propose des recommandations de dose.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [
+    "Recommandations de dosage fournies."
+   ],
+   "limites": [
+    "Essais petits et hétérogènes."
+   ],
+   "pratique": "Option non invasive, encore exploratoire."
+  }
+ },
+ {
+  "pmid": "40770824",
+  "title_fr": "Effets de la PBM sur de multiples critères de santé : revue parapluie d'essais randomisés",
+  "type": "umbrella",
+  "level": 5,
+  "pop": "adulte",
+  "ctx": [
+   "fibro",
+   "arthrose"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Fibromyalgie & douleur myofasciale",
+  "l1": "Synthèse des méta-analyses d'essais randomisés : les preuves les plus solides concernent la fibromyalgie, l'incapacité liée à l'arthrose et les troubles cognitifs, avec une certitude globalement faible à modérée.",
+  "l2": "Revue parapluie de méta-analyses d'essais randomisés, cotées avec AMSTAR 2 et GRADE.",
+  "l3": {
+   "points": [
+    "Hiérarchise les indications de la PBM.",
+    "Fibromyalgie et arthrose en tête."
+   ],
+   "limites": [
+    "Certitude faible à modérée ; protocoles non standardisés."
+   ],
+   "pratique": "Indique où la PBM est la mieux étayée."
+  }
+ },
+ {
+  "pmid": "40856482",
+  "title_fr": "Laser haute intensité ou basse énergie dans l'épicondylite latérale : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "tendon"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "haute puissance",
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Tendinopathies & enthèses",
+  "l1": "Dans l'épicondylite latérale, le laser basse énergie soulage la douleur de façon plus constante et le HILT améliore davantage la force de préhension ; l'association avec un bandage est synergique.",
+  "l2": "Méta-analyse d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Profils d'effet complémentaires (douleur ou force selon le laser).",
+    "Synergie avec le bandage."
+   ],
+   "limites": [
+    "Peu d'essais en face à face."
+   ],
+   "pratique": "Le laser s'intègre à une rééducation multimodale."
+  }
+ },
+ {
+  "pmid": "40857136",
+  "title_fr": "Ondes de choc basse intensité ou laser dans la capsulite rétractile : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "épaule"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Épaule",
+  "l1": "Dans la capsulite rétractile, ajouter les ondes de choc ou le laser aux exercices améliore la douleur et les amplitudes.",
+  "l2": "Essai randomisé en simple aveugle à 3 bras.",
+  "l3": {
+   "points": [
+    "Les deux techniques font mieux que les exercices seuls."
+   ],
+   "limites": [
+    "Simple aveugle ; un seul centre."
+   ],
+   "pratique": "Le laser peut compléter la kinésithérapie."
+  }
+ },
+ {
+  "pmid": "40814992",
+  "title_fr": "Laser-acupuncture, dispositif occlusal ou les deux dans la myalgie de l'ATM : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ATM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": 104,
+  "effect": "favorable",
+  "theme": "ATM & douleurs orofaciales",
+  "l1": "Dans la DTM d'origine musculaire, associer laser-acupuncture et dispositif occlusal soulage mieux la douleur myofasciale que chaque traitement seul.",
+  "l2": "Essai randomisé à 3 bras, 104 patients.",
+  "l3": {
+   "points": [
+    "Supériorité de la combinaison à 12 semaines."
+   ],
+   "limites": [
+    "Pas de sham."
+   ],
+   "pratique": "Combinaison à privilégier."
+  }
+ },
+ {
+  "pmid": "40826289",
+  "title_fr": "Laser haute intensité et élasticité du supra-épineux dans le conflit sous-acromial : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "épaule"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "haute puissance"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Épaule",
+  "l1": "Dans le conflit sous-acromial, ajouter le HILT à la kinésithérapie réduit davantage la douleur et améliore la fonction ; l'article mesure aussi l'élasticité du tendon.",
+  "l2": "Essai randomisé en double aveugle.",
+  "l3": {
+   "points": [
+    "Mesure de l'élasticité tendineuse par élastographie."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Adjuvant à la rééducation."
+  }
+ },
+ {
+  "pmid": "40993446",
+  "title_fr": "Laser-acupuncture pulsée à 36,5 Hz dans la fibromyalgie : essai pilote",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "fibro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": 20,
+  "effect": "favorable",
+  "theme": "Fibromyalgie & douleur myofasciale",
+  "l1": "Dans la fibromyalgie, la laser-acupuncture pulsée réduit la douleur et l'impact fonctionnel.",
+  "l2": "Essai pilote randomisé, 20 patientes.",
+  "l3": {
+   "points": [
+    "Points de Ryodoraku."
+   ],
+   "limites": [
+    "Pilote, très petit effectif."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "40995827",
+  "title_fr": "PBM et performance musculaire chez les volleyeurs et les footballeurs : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "muscle"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Muscle, sport & récupération",
+  "l1": "Chez les sportifs de ballon, la PBM améliore la performance et réduit la CK : plus de répétitions au volley, CK plus basse au football.",
+  "l2": "Méta-analyse d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Effet différent selon le sport."
+   ],
+   "limites": [
+    "Peu d'essais ; protocoles variés."
+   ],
+   "pratique": "Intérêt en préparation sportive."
+  }
+ },
+ {
+  "pmid": "41043597",
+  "title_fr": "PBM bi-longueur d'onde (630 et 810 nm) dans le syndrome algo-dysfonctionnel myofascial : essai en triple aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ATM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   630,
+   810
+  ],
+  "n": 22,
+  "effect": "neutre",
+  "theme": "ATM & douleurs orofaciales",
+  "l1": "Dans le syndrome algo-dysfonctionnel myofascial de l'appareil manducateur, la PBM réduit la douleur et améliore la fonction de la mâchoire, sans faire mieux que le traitement conservateur classique.",
+  "l2": "Essai randomisé en triple aveugle, 22 patients.",
+  "l3": {
+   "points": [
+    "Effet comparable au traitement conservateur."
+   ],
+   "limites": [
+    "Très petit effectif."
+   ],
+   "pratique": "Alternative au traitement conservateur."
+  }
+ },
+ {
+  "pmid": "41037487",
+  "title_fr": "Traction mécanique associée au laser haute intensité dans la gonarthrose : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "arthrose"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "haute puissance"
+  ],
+  "nm": [],
+  "n": 38,
+  "effect": "favorable",
+  "theme": "Arthrose & arthrites",
+  "l1": "Dans la gonarthrose, ajouter la traction mécanique au HILT améliore mieux la douleur, la fonction, les amplitudes et l'équilibre que le HILT seul.",
+  "l2": "Essai randomisé, 38 patients, 10 séances.",
+  "l3": {
+   "points": [
+    "Gain sur l'équilibre fonctionnel."
+   ],
+   "limites": [
+    "Pas de bras sans laser ; suivi court."
+   ],
+   "pratique": "Le HILT seul sert de comparateur : l'essai évalue la traction, pas le laser."
+  }
+ },
+ {
+  "pmid": "41039333",
+  "title_fr": "PBM à 980 nm ou 635 nm dans le syndrome douloureux myofascial : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "fibro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   980,
+   635
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Fibromyalgie & douleur myofasciale",
+  "l1": "Dans la douleur myofasciale, les deux longueurs d'onde réduisent la douleur ; l'essai compare leur efficacité.",
+  "l2": "Essai randomisé enregistré a posteriori.",
+  "l3": {
+   "points": [
+    "Comparaison directe de deux longueurs d'onde."
+   ],
+   "limites": [
+    "Enregistrement rétrospectif."
+   ],
+   "pratique": "Le choix de la longueur d'onde reste ouvert."
+  }
+ },
+ {
+  "pmid": "41042410",
+  "title_fr": "Laser haute intensité ou basse énergie dans la gonarthrose : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "arthrose"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "haute puissance",
+   "laser"
+  ],
+  "nm": [],
+  "n": 90,
+  "effect": "favorable",
+  "theme": "Arthrose & arthrites",
+  "l1": "Dans la gonarthrose, HILT et LLLT associés aux exercices sont tous deux efficaces ; le HILT améliore davantage la douleur, la fonction et la flexion. Aucun des deux ne modifie l'épaisseur du cartilage.",
+  "l2": "Essai randomisé en double aveugle, 90 patients.",
+  "l3": {
+   "points": [
+    "Avantage clinique au HILT.",
+    "Épaisseur cartilagineuse mesurée à l'échographie."
+   ],
+   "limites": [
+    "Pas de bras sham."
+   ],
+   "pratique": "Le HILT peut être préféré, toujours avec l'exercice."
+  }
+ },
+ {
+  "pmid": "41047274",
+  "title_fr": "PBM combinée à un champ magnétique statique dans l'épicondylite latérale : essai multicentrique contre placebo",
+  "type": "rct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "tendon"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 50,
+  "effect": "mitigé",
+  "theme": "Tendinopathies & enthèses",
+  "l1": "Dans l'épicondylite latérale, la PBM avec champ magnétique statique réduit la douleur et le TNF-α, mais n'améliore pas la fonction.",
+  "l2": "Essai multicentrique randomisé en triple aveugle contre placebo, 50 patients (BMJ Open).",
+  "l3": {
+   "points": [
+    "Mécanisme anti-inflammatoire suggéré."
+   ],
+   "limites": [
+    "Pas d'effet fonctionnel ; court terme."
+   ],
+   "pratique": "Option antalgique à court terme."
+  }
+ },
+ {
+  "pmid": "41047425",
+  "title_fr": "PBM ou traitement médicamenteux dans les troubles temporo-mandibulaires : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ATM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "ATM & douleurs orofaciales",
+  "l1": "Dans la DTM unilatérale, la PBM améliore mieux la douleur, l'ouverture buccale, les claquements et la sensibilité que le traitement médicamenteux (MEGAFEN).",
+  "l2": "Essai randomisé en simple aveugle.",
+  "l3": {
+   "points": [
+    "Comparateur actif médicamenteux."
+   ],
+   "limites": [
+    "Simple aveugle ; protocole laser non standardisé."
+   ],
+   "pratique": "Alternative aux antalgiques et myorelaxants."
+  }
+ },
+ {
+  "pmid": "41053985",
+  "title_fr": "Laser avant électrostimulation ischémique (BFR-NMES) : gains d'entraînement et remodelage des unités motrices",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "muscle"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   850
+  ],
+  "n": 30,
+  "effect": "favorable",
+  "theme": "Muscle, sport & récupération",
+  "l1": "Une préexposition au laser (850 nm) augmente la force gagnée après entraînement par électrostimulation sous restriction de flux sanguin et améliore l'efficience neuromusculaire.",
+  "l2": "Essai randomisé, 30 sujets, 3 semaines.",
+  "l3": {
+   "points": [
+    "Analyse des unités motrices."
+   ],
+   "limites": [
+    "Sujets sains ; petit effectif."
+   ],
+   "pratique": "Recherche en physiologie de l'entraînement."
+  }
+ },
+ {
+  "pmid": "41060870",
+  "title_fr": "PBM sur points d'acupuncture dans les troubles temporo-mandibulaires : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ATM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": 20,
+  "effect": "favorable",
+  "theme": "ATM & douleurs orofaciales",
+  "l1": "Dans la DTM, la PBM sur les points d'acupuncture réduit la douleur et améliore l'ouverture buccale et la santé physique perçue.",
+  "l2": "Essai randomisé en double aveugle contre placebo, 20 patients.",
+  "l3": {
+   "points": [
+    "La qualité de vie orale (OHIP-14) ne change pas."
+   ],
+   "limites": [
+    "Très petit effectif."
+   ],
+   "pratique": "Complément non invasif."
+  }
+ },
+ {
+  "pmid": "41091263",
+  "title_fr": "Gouttière occlusale ou autres traitements dans le dérangement interne de l'ATM : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "ATM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "haute puissance",
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "ATM & douleurs orofaciales",
+  "l1": "Dans la luxation discale sans réduction, l'arthrocentèse fait mieux que la gouttière ; trop peu de données permettent de conclure sur le laser (HILT ou LLLT).",
+  "l2": "Revue systématique d'essais randomisés (2000–2021).",
+  "l3": {
+   "points": [
+    "Le laser est très peu représenté."
+   ],
+   "limites": [
+    "Peu d'essais inclus."
+   ],
+   "pratique": "Aucune conclusion possible sur le laser."
+  }
+ },
+ {
+  "pmid": "41114869",
+  "title_fr": "Laser haute intensité (classe IV) ou phonophorèse d'ibuprofène dans la gonarthrose en zone de collines : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "arthrose"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "haute puissance"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Arthrose & arthrites",
+  "l1": "Chez des patients gonarthrosiques vivant en terrain vallonné, le HILT améliore davantage la douleur et la fonction que la phonophorèse d'ibuprofène.",
+  "l2": "Essai randomisé enregistré (NCT04320914).",
+  "l3": {
+   "points": [
+    "Population au fort stress articulaire."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "Le HILT est une alternative non médicamenteuse."
+  }
+ },
+ {
+  "pmid": "41159519",
+  "title_fr": "Laser MLS dans la cervicalgie chronique non spécifique : essai en double aveugle contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "rachis"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808,
+   905
+  ],
+  "n": 47,
+  "effect": "mitigé",
+  "theme": "Rachis : lombalgie, cervicalgie, radiculopathie",
+  "l1": "Dans la cervicalgie chronique, le laser MLS et le sham améliorent tous deux les symptômes, sans gain cliniquement significatif ; le laser donne un soulagement un peu plus marqué et durable et une meilleure mobilité.",
+  "l2": "Essai randomisé en double aveugle contre placebo, 47 patients.",
+  "l3": {
+   "points": [
+    "Effet placebo important."
+   ],
+   "limites": [
+    "Différences cliniquement non pertinentes."
+   ],
+   "pratique": "Bénéfice modeste."
+  }
+ },
+ {
+  "pmid": "41244766",
+  "title_fr": "Agents physiques dans les fractures : méta-analyse en réseau",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "os"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Os, fractures & implants",
+  "l1": "Après une fracture, le laser basse énergie et l'électrostimulation sont parmi les plus efficaces sur la douleur ; les ultrasons et les champs électromagnétiques le sont sur la consolidation.",
+  "l2": "Revue systématique et méta-analyse en réseau d'essais randomisés.",
+  "l3": {
+   "points": [
+    "LLLT bien classé pour l'antalgie."
+   ],
+   "limites": [
+    "Classement fragile ; essais de faible qualité."
+   ],
+   "pratique": "Laser à visée antalgique, pas pour accélérer la consolidation."
+  }
+ },
+ {
+  "pmid": "41222518",
+  "title_fr": "Une séance unique de laser ou d'infrarouge est inefficace à court terme dans la cervicalgie : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "rachis"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 91,
+  "effect": "neutre",
+  "theme": "Rachis : lombalgie, cervicalgie, radiculopathie",
+  "l1": "Une séance unique de laser basse énergie ou d'infrarouge n'améliore pas la cervicalgie subaiguë ou chronique à court terme.",
+  "l2": "Essai randomisé à 3 bras contre sham, 91 patients.",
+  "l3": {
+   "points": [
+    "La température cutanée n'augmente qu'avec l'infrarouge."
+   ],
+   "limites": [
+    "Séance unique : dose insuffisante."
+   ],
+   "pratique": "Une séance isolée ne suffit pas."
+  }
+ },
+ {
+  "pmid": "41251874",
+  "title_fr": "PBM dans les DTM musculaires ou articulaires : revue systématique et analyse critique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "ATM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "ATM & douleurs orofaciales",
+  "l1": "L'effet de la PBM diffère selon l'origine de la DTM, musculaire ou articulaire ; la revue plaide pour des protocoles adaptés au sous-type.",
+  "l2": "Revue systématique d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Approche par sous-type."
+   ],
+   "limites": [
+    "Essais hétérogènes."
+   ],
+   "pratique": "Adapter le protocole au type de DTM."
+  }
+ },
+ {
+  "pmid": "41420455",
+  "title_fr": "Intensité, fréquence et durée de la PBM dans les troubles temporo-mandibulaires : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "ATM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "ATM & douleurs orofaciales",
+  "l1": "Sur 40 essais randomisés, le meilleur effet sur la DTM est obtenu avec une longueur d'onde élevée (951–1070 nm), une faible puissance (<100 mW) et des séances fréquentes et prolongées (3–4 par semaine pendant 10 semaines).",
+  "l2": "Méta-analyse de 40 essais randomisés, avec analyses dose-réponse.",
+  "l3": {
+   "points": [
+    "Éviter les fortes énergies délivrées sur une courte période.",
+    "L'effet est meilleur dans les DTM mixtes."
+   ],
+   "limites": [
+    "Analyses en sous-groupes exploratoires."
+   ],
+   "pratique": "Donne des repères de dose concrets."
+  }
+ },
+ {
+  "pmid": "41400750",
+  "title_fr": "Laser, PRP, attelle ou ondes de choc contre infiltration de corticoïde dans l'épicondylite latérale : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "tendon"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 98,
+  "effect": "favorable",
+  "theme": "Tendinopathies & enthèses",
+  "l1": "Dans l'épicondylite latérale, le laser, l'attelle et les ondes de choc apportent un bénéfice fonctionnel comparable à l'infiltration, sans ses risques.",
+  "l2": "Essai randomisé à 5 bras, 98 patients.",
+  "l3": {
+   "points": [
+    "L'infiltration reste la plus antalgique à court terme."
+   ],
+   "limites": [
+    "Petits effectifs par bras."
+   ],
+   "pratique": "Alternative non invasive à l'infiltration."
+  }
+ },
+ {
+  "pmid": "41449210",
+  "title_fr": "Laser ou ondes de choc dans l'épicondylite latérale : méta-analyse d'essais randomisés",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "tendon"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "haute puissance"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Tendinopathies & enthèses",
+  "l1": "Dans l'épicondylite latérale, laser et ondes de choc ont une efficacité clinique globalement comparable.",
+  "l2": "Méta-analyse d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Comparaison directe."
+   ],
+   "limites": [
+    "Essais peu nombreux et hétérogènes."
+   ],
+   "pratique": "Choisir selon la disponibilité et la tolérance."
+  }
+ },
+ {
+  "pmid": "41603004",
+  "title_fr": "Laser-acupuncture dans les troubles musculo-squelettiques : revue systématique et méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "fibro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Fibromyalgie & douleur myofasciale",
+  "l1": "Sur 28 essais randomisés, l'effet de la laser-acupuncture dépend de nombreux paramètres (type de laser, longueur d'onde, durée) mal rapportés.",
+  "l2": "Revue systématique de 28 essais, dont 14 méta-analysés.",
+  "l3": {
+   "points": [
+    "Appel à des recommandations spécifiques à la laser-acupuncture."
+   ],
+   "limites": [
+    "Rapport des paramètres insuffisant."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "41547416",
+  "title_fr": "Laser-acupuncture, douleur et fonction motrice dans les troubles musculo-squelettiques : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "fibro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Fibromyalgie & douleur myofasciale",
+  "l1": "La laser-acupuncture réduit la douleur et améliore la fonction motrice ; la longueur d'onde module l'effet.",
+  "l2": "Méta-analyse avec méta-régression.",
+  "l3": {
+   "points": [
+    "Bénéfice fonctionnel indépendant de l'effet antalgique."
+   ],
+   "limites": [
+    "Hétérogénéité élevée."
+   ],
+   "pratique": "Alternative pour les patients qui ne tolèrent pas l'exercice."
+  }
+ },
+ {
+  "pmid": "41555139",
+  "title_fr": "Laser classe IV avec taping low-dye ou étirements dans la fasciite plantaire : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "tendon"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "haute puissance"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Tendinopathies & enthèses",
+  "l1": "Dans la fasciite plantaire, le laser de classe IV associé au taping ou aux étirements réduit la douleur et améliore la fonction du pied ; l'essai compare les deux adjuvants.",
+  "l2": "Essai randomisé en double aveugle.",
+  "l3": {
+   "points": [
+    "Le laser est commun aux deux bras."
+   ],
+   "limites": [
+    "L'essai n'isole pas l'effet propre du laser."
+   ],
+   "pratique": "Combiner laser et étirements ou taping."
+  }
+ },
+ {
+  "pmid": "41571928",
+  "title_fr": "Laser-acupuncture dans la gonarthrose : méta-analyse d'essais randomisés",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "arthrose"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Arthrose & arthrites",
+  "l1": "Dans la gonarthrose, l'efficacité de la laser-acupuncture sur la douleur et la fonction reste incertaine.",
+  "l2": "Méta-analyse d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Bonne sécurité."
+   ],
+   "limites": [
+    "Preuves de faible qualité."
+   ],
+   "pratique": "Pas encore recommandable en routine."
+  }
+ },
+ {
+  "pmid": "41710353",
+  "title_fr": "PBM dans la douleur chronique : revue systématique d'essais randomisés",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "fibro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Fibromyalgie & douleur myofasciale",
+  "l1": "Dans la douleur chronique, la PBM est une option prometteuse, surtout quand les traitements classiques ne suffisent pas, mais les paramètres sont variables et le suivi court.",
+  "l2": "Revue systématique d'essais randomisés (PROSPERO).",
+  "l3": {
+   "points": [
+    "Toutes douleurs chroniques confondues."
+   ],
+   "limites": [
+    "Paramètres hétérogènes."
+   ],
+   "pratique": "Option complémentaire."
+  }
+ },
+ {
+  "pmid": "41664959",
+  "title_fr": "Exercices à domicile avec ou sans laser haute intensité ou ondes de choc radiales dans la fasciite plantaire : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "tendon"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "haute puissance"
+  ],
+  "nm": [],
+  "n": 84,
+  "effect": "neutre",
+  "theme": "Tendinopathies & enthèses",
+  "l1": "Dans la fasciite plantaire, ajouter le HILT ou les ondes de choc aux exercices à domicile n'apporte aucun bénéfice supplémentaire.",
+  "l2": "Essai randomisé à 3 bras, 84 patients (Foot Ankle Int).",
+  "l3": {
+   "points": [
+    "Les exercices seuls suffisent."
+   ],
+   "limites": [
+    "Suivi limité."
+   ],
+   "pratique": "Les exercices sont le traitement de première ligne."
+  }
+ },
+ {
+  "pmid": "41670830",
+  "title_fr": "Laser ou ondes de choc dans la fasciite plantaire chronique : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "tendon"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "haute puissance"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Tendinopathies & enthèses",
+  "l1": "Dans la fasciite plantaire chronique, LILT, HILT et ondes de choc sont efficaces, sans qu'aucun ne se détache.",
+  "l2": "Méta-analyse d'études prospectives.",
+  "l3": {
+   "points": [
+    "Les trois techniques sont équivalentes."
+   ],
+   "limites": [
+    "Études non toutes randomisées."
+   ],
+   "pratique": "Choix libre entre les trois."
+  }
+ },
+ {
+  "pmid": "41697446",
+  "title_fr": "Laser haute intensité ou basse énergie dans les troubles musculo-squelettiques : méta-analyse en réseau",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "tendon",
+   "arthrose"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "haute puissance",
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Tendinopathies & enthèses",
+  "l1": "Dans les troubles musculo-squelettiques, le HILT et le LLLT soulagent tous deux la douleur ; les recommandations de dose du LLLT gagneraient à être harmonisées.",
+  "l2": "Revue systématique et méta-analyse en réseau.",
+  "l3": {
+   "points": [
+    "Comparaison en réseau HILT/LLLT."
+   ],
+   "limites": [
+    "Hétérogénéité des indications."
+   ],
+   "pratique": "Les deux technologies sont utilisables."
+  }
+ },
+ {
+  "pmid": "41718549",
+  "title_fr": "Laser dans la tendinopathie de la coiffe des rotateurs : méta-analyse avec méta-régression",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "épaule",
+   "tendon"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "haute puissance",
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Épaule",
+  "l1": "Dans la tendinopathie de la coiffe, le HILT, seul ou en complément, réduit la douleur et l'incapacité ; le LLLT seul a un effet limité.",
+  "l2": "Méta-analyse d'essais randomisés, avec analyses en sous-groupes et méta-régression.",
+  "l3": {
+   "points": [
+    "Le nombre de séances par semaine est lié au résultat."
+   ],
+   "limites": [
+    "Suivi à long terme rare."
+   ],
+   "pratique": "Préférer le HILT, en complément de l'exercice."
+  }
+ }
+]

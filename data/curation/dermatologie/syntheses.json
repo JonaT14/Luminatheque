@@ -1,0 +1,207 @@
+{
+ "years": {
+  "2000–2009": {
+   "headline": "Ulcères veineux décevants, premières méta-analyses encourageantes",
+   "l1": "La décennie 2000 est dominée par les ulcères veineux de jambe et les escarres, avec des essais randomisés presque tous négatifs. En parallèle, deux méta-analyses de 2004 concluent à un effet favorable du laser sur la cicatrisation, surtout chez l'animal.",
+   "l2": "Le paradoxe de la décennie : les méta-analyses de 2004 rapportent un effet favorable du laser sur la cicatrisation (d = 0,54 chez l'humain, environ 2 chez l'animal), alors que les essais cliniques dans l'ulcère veineux (810 nm, 685 nm, revue Cochrane 2000) et dans l'escarre de stade III (86 patients) sont négatifs. Une revue de 2002 juge d'ailleurs les données cellulaires et animales trop contradictoires pour prédire un bénéfice clinique.\n\nLes premiers signaux positifs viennent d'ailleurs : la microcirculation (phénomène de Raynaud, débit cutané augmenté par la lumière polarisée), l'herpès labial (lumière à 1 072 nm contre placebo) et le photorajeunissement par LED (590 nm, rouge et infrarouge). En fin de décennie, un premier essai positif dans l'ulcère diabétique résistant (660 + 890 nm) annonce la suite.",
+   "l3": [
+    {
+     "h": "Ulcères veineux et escarres",
+     "p": "Cinq essais randomisés (15 à 86 patients) et la revue Cochrane 2000 ne montrent aucun bénéfice. Une seule observation suggère un effet de la durée de traitement."
+    },
+    {
+     "h": "Microcirculation",
+     "p": "Raynaud primaire et secondaire : trois petits essais favorables, dont un essai croisé contre placebo. Lumière polarisée : débit cutané +45 %, par synthèse de NO."
+    },
+    {
+     "h": "Herpès et esthétique",
+     "p": "1 072 nm contre placebo dans l'herpès labial : essai favorable. LED 590 nm pulsée sur les rides : 90 patients, plus de collagène en biopsie, mais sans groupe témoin."
+    }
+   ]
+  },
+  "2010–2019": {
+   "headline": "Le pied diabétique et l'alopécie s'imposent",
+   "l1": "Deux indications se structurent. Dans l'ulcère du pied diabétique, une série d'essais randomisés, puis une méta-analyse en 2018, sont favorables. Dans l'alopécie androgénétique, les essais contre simulation de casques et de peignes sont suivis de méta-analyses, et les recommandations japonaises 2017 intègrent la lumière basse énergie. La radiodermite apparaît avec l'essai TRANSDERMIS.",
+   "l2": "Pied diabétique : plusieurs essais randomisés favorables (16 à 32 patients, souvent en double aveugle), puis une méta-analyse d'essais randomisés en 2018. Une revue des agents physiques restait mitigée en 2012. La cicatrisation des sternotomies après pontage, chez le diabétique notamment, est améliorée par la LED 640 nm et le laser 660 nm (jusqu'à 120 patients).\n\nAlopécie androgénétique : les essais multicentriques contre simulation (casque LED, peigne laser, 655 nm chez l'homme et chez la femme) sont positifs, puis confirmés par quatre revues en 2016–2017 et par des méta-analyses en 2017–2019. La revue Cochrane 2016 sur l'alopécie féminine reste plus prudente. En radiodermite, un premier essai par LED est négatif en 2010 (33 patientes), puis TRANSDERMIS (808 + 660 nm, 120 patientes) est positif en 2018. Le lichen plan buccal, l'acné (lumière bleue) et les cicatrices de brûlure font l'objet de petits essais favorables.",
+   "l3": [
+    {
+     "h": "Pied diabétique",
+     "p": "Essais favorables en double aveugle, laser contre LED, association avec l'huile de calendula ; méta-analyse d'essais randomisés en 2018. Les plaies chroniques non diabétiques restent mitigées (LED 633 nm négative)."
+    },
+    {
+     "h": "Alopécie",
+     "p": "Essais contre simulation positifs chez l'homme et chez la femme, effet additif au minoxidil 5 % (2017–2018) ; méta-analyses en réseau 2018–2019 ; recommandations japonaises 2017."
+    },
+    {
+     "h": "Inflammatoire et infections",
+     "p": "Lichen plan buccal : le laser fait aussi bien que les corticoïdes dans plusieurs petits essais. Acné : lumière bleue ou bleu-rouge à domicile favorable, sans supériorité nette sur la lumière pulsée. Herpès labial : revue Cochrane 2015 neutre."
+    },
+    {
+     "h": "Cicatrices et brûlures",
+     "p": "Prurit après brûlure (laser pulsé, 49 patients) et cicatrices de brûlure de l'enfant : favorables. Les revues animales sont positives, mais les doses sont trop disparates."
+    }
+   ]
+  },
+  "2020–2022": {
+   "headline": "Méta-analyses en série et position de la WALT",
+   "l1": "Les méta-analyses sur le pied diabétique (2020, 2021) et sur l'alopécie (2020, 2022) se multiplient et restent favorables. En radiodermite, les essais sont contrastés (LABRA négatif, DERMISHEAD positif) ; la WALT 2022 classe la radiodermite parmi les toxicités où la PBM est bien étayée.",
+   "l2": "Pied diabétique : trois méta-analyses d'essais randomisés favorables, dont une qui recense les paramètres les plus utilisés. La PBM à domicile chez des patients fragiles et le laser haute intensité dans les plaies réfractaires (60 patients) élargissent l'usage. Alopécie : méta-analyses des traitements combinés et méta-analyse par bande de longueur d'onde (2022).\n\nRadiodermite : LABRA (radiothérapie hypofractionnée, 71 patientes) est négatif, DERMISHEAD (ORL, 46 patients) est positif, et la méta-analyse de 2021 est mitigée. En inflammatoire, le lichen plan buccal et les lésions buccales du pemphigus progressent ; dans l'herpès labial, une méta-analyse (2022) et un essai de prévention sur 2 ans sont favorables. Côté cicatrices, la LED rouge en hémivisage et la LED 830 nm après thyroïdectomie (double aveugle) sont positives.",
+   "l3": [
+    {
+     "h": "Radiodermite",
+     "p": "Essais contrastés selon le schéma de radiothérapie et la localisation. Position de la WALT 2022 : preuves solides, avec des paramètres proposés."
+    },
+    {
+     "h": "Cicatrices",
+     "p": "Prévention des cicatrices chirurgicales par LED : deux essais favorables, avec un gradient de dose."
+    },
+    {
+     "h": "Alopécie",
+     "p": "Le seul essai neutre est l'essai en hémicrâne avec minoxidil (21 hommes) ; tous les autres sont favorables."
+    }
+   ]
+  },
+  "2023–2024": {
+   "headline": "Recommandations MASCC et première méta-analyse clinique négative sur les brûlures",
+   "l1": "Les recommandations MASCC 2023 (Lancet Oncology) retiennent la PBM pour prévenir la radiodermite du sein, confirmées par deux méta-analyses en 2024. Le lichen plan buccal obtient une méta-analyse GRADE favorable. En revanche, la PBM n'est pas efficace sur les brûlures dans une méta-analyse clinique et préclinique (2024).",
+   "l2": "Radiodermite : méta-analyse 2023 favorable, recommandations MASCC 2023, puis méta-analyse en réseau bayésienne et méta-analyse incluant des données de vie réelle en 2024. Pied diabétique : nouveaux essais sur les biomarqueurs (HIF, VEGF), effet dose à 904 nm et qualité de vie. Escarre : la LED multispectrale n'est pas efficace au stade 2 (38 patients, double aveugle).\n\nAlopécie : méta-analyse laser et LED favorable en 2024, mais une méta-analyse en réseau des monothérapies masculines est mitigée. L'essai HAIRLASER ouvre l'alopécie chimio-induite. Esthétique : essais favorables à domicile (LED de cou, 70 patients) ; une revue de sécurité oncologique (2023) est rassurante. La cellulite reste non démontrée.",
+   "l3": [
+    {
+     "h": "Brûlures et cicatrices",
+     "p": "Méta-analyse 2024 neutre sur les brûlures, mais méta-analyse en réseau favorable sur les cicatrices chirurgicales, et revue Cochrane favorable sur le prurit après brûlure."
+    },
+    {
+     "h": "Lichen plan buccal",
+     "p": "Méta-analyse GRADE 2024 : la PBM fait aussi bien que les corticoïdes, avec moins d'effets indésirables."
+    }
+   ]
+  },
+  "2025": {
+   "headline": "Consensus JAAD : la PBM entre dans les recommandations dermatologiques",
+   "l1": "Un panel international (JAAD 2025) recommande la PBM dans l'alopécie androgénétique, les ulcères de causes variées, les escarres, la douleur du pied diabétique et la radiodermite. Une revue parapluie confirme l'effet sur l'ulcère diabétique. Côté alopécie, une méta-analyse ne trouve pas de bénéfice à ajouter le laser au minoxidil.",
+   "l2": "Plaies : revue parapluie et méta-analyse sur les ulcères diabétiques de grade I–II, méta-analyse en réseau de douze interventions, essai RISE_UP par lumière bleue dans l'escarre, et méta-analyse en réseau sur la douleur des plaies chroniques. Alopécie : deux méta-analyses sur l'association laser et minoxidil arrivent à des conclusions opposées (bénéfice ou non) ; un essai de prévention de l'alopécie chimio-induite du cancer du sein est négatif (29 patientes).\n\nLe lichen plan buccal obtient deux méta-analyses favorables (laser basse énergie et haute intensité), l'herpès labial une méta-analyse favorable. En esthétique, plusieurs essais contre simulation sont positifs (fréquence des séances, 95 patients ; masque LED à domicile).",
+   "l3": [
+    {
+     "h": "Consensus JAAD 2025",
+     "p": "Premières recommandations dermatologiques internationales dédiées à la PBM. Ce consensus d'experts s'appuie sur les preuves disponibles, avec des niveaux variables selon l'indication."
+    }
+   ]
+  },
+  "2026": {
+   "headline": "Ulcères veineux et plaies chirurgicales : bilan mitigé",
+   "l1": "En 2026, les méta-analyses sur l'ulcère veineux et sur les plaies chirurgicales en proche infrarouge sont mitigées, et la revue sur la lèpre est faible. Les essais randomisés récents restent favorables : laser 904 nm dans les plaies chroniques, acné inflammatoire à domicile, prurit urémique.",
+   "l2": "Les revues de 2026 tempèrent les attentes : ulcère veineux (mitigé, confirmant les essais négatifs des années 2000), plaies chirurgicales en proche infrarouge, dosimétrie des LED dans les plaies des membres inférieurs, ulcères de la lèpre. Une revue sur les ulcères de la drépanocytose est favorable, et une revue expérimentale trouve laser et LED proches.\n\nCôté essais : laser 904 nm en complément dans les plaies chroniques (double aveugle), LED rouge et bleue à domicile dans l'acné inflammatoire, laser-acupuncture dans le prurit urémique (60 patients), LED 590 nm dans la peau sensible. Une revue sur la prévention des récidives d'herpès est mitigée.",
+   "l3": [
+    {
+     "h": "À suivre",
+     "p": "Radiodermite par LED (revue 2026 mitigée), alopécie chimio-induite, essais à domicile en esthétique."
+    }
+   ]
+  }
+ },
+ "global": {
+  "headline": "2000 → 2026 : où la PBM tient ses promesses en dermatologie",
+  "l1": "En 26 ans, la PBM cutanée s'est concentrée sur quelques indications. Les mieux étayées sont l'ulcère du pied diabétique, l'alopécie androgénétique, la prévention de la radiodermite (MASCC 2023) et le lichen plan buccal. En revanche, elle ne fait pas ses preuves dans l'ulcère veineux, ni de façon convaincante dans les brûlures ou la cellulite.",
+  "l2": "Ce qui se confirme : le pied diabétique (méta-analyses 2018–2025, revue parapluie 2025), l'alopécie androgénétique (essais contre simulation dès 2013, méta-analyses, recommandations japonaises 2017, consensus JAAD 2025), la radiodermite du sein (TRANSDERMIS 2018, MASCC 2023, méta-analyses 2024) et le lichen plan buccal (aussi efficace que les corticoïdes). Ce qui ne se confirme pas : l'ulcère veineux (négatif de la revue Cochrane 2000 jusqu'à la méta-analyse 2026), les escarres (résultats variables) et les brûlures en clinique (méta-analyse 2024 neutre).\n\nCe qui est prometteur : la prévention des cicatrices chirurgicales par LED, l'herpès labial récidivant, l'acné à domicile et le photorajeunissement. Une grande partie de la littérature reste préclinique (plaies animales, cellules souches) : elle éclaire les mécanismes mais ne suffit pas à fonder une pratique.",
+  "l3": [
+   {
+    "h": "0. Le temps long",
+    "p": "2000–2009 : 29 fiches, surtout des ulcères veineux négatifs. 2010–2019 : 91 fiches, avec l'essor du pied diabétique et de l'alopécie. Depuis 2020 : 136 fiches, des méta-analyses en série et l'arrivée des recommandations (WALT 2022, MASCC 2023, JAAD 2025)."
+   },
+   {
+    "h": "1. Hors du champ : les lasers ablatifs et vasculaires",
+    "p": "Les lasers CO2, Er:YAG, à colorant pulsé, la lumière pulsée et la photothérapie dynamique ne relèvent pas de la PBM. Ils sont exclus, sauf comme comparateurs (par exemple LED après laser ablatif)."
+   },
+   {
+    "h": "2. Plaies : le contraste entre étiologies",
+    "p": "Diabétique : favorable et cohérent. Veineux : négatif. Escarres : contrasté (EmoLED positif, LED multispectrale négative). La cause de l'ulcère compte plus que la technologie."
+   },
+   {
+    "h": "3. Alopécie : un effet réel mais modeste",
+    "p": "Les essais contre simulation sont presque tous positifs. L'intérêt de l'associer au minoxidil reste débattu (méta-analyses 2025 contradictoires). Dans l'alopécie chimio-induite, les résultats sont pour l'instant négatifs."
+   },
+   {
+    "h": "4. Oncologie cutanée de support",
+    "p": "Radiodermite : recommandée par la MASCC pour le sein ; résultats moins nets en radiothérapie hypofractionnée (LABRA). La sécurité oncologique de la PBM est rassurante dans les revues 2019 et 2023."
+   }
+  ],
+  "table": {
+   "cols": [
+    "2000–2009",
+    "2010–2019",
+    "2020–2022",
+    "2023–2024",
+    "2025",
+    "2026"
+   ],
+   "rows": [
+    {
+     "label": "Plaies chroniques",
+     "cells": [
+      "Ulcère veineux : ECR négatifs ; MA 2004 +",
+      "Pied diabétique : ECR + ; MA 2018 +",
+      "3 MA pied diabétique +",
+      "Biomarqueurs ; escarre LED négatif",
+      "Revue parapluie + ; RISE_UP +",
+      "MA ulcère veineux mitigée"
+     ]
+    },
+    {
+     "label": "Alopécie",
+     "cells": [
+      "—",
+      "ECR contre simulation + ; recommandations japonaises",
+      "MA combinées, longueurs d'onde",
+      "MA laser et LED + ; HAIRLASER",
+      "JAAD + ; laser + minoxidil discuté",
+      "—"
+     ]
+    },
+    {
+     "label": "Radiodermite",
+     "cells": [
+      "—",
+      "LED négatif ; TRANSDERMIS +",
+      "LABRA négatif ; DERMISHEAD + ; WALT",
+      "MASCC ; 2 MA +",
+      "JAAD +",
+      "Revue LED mitigée"
+     ]
+    },
+    {
+     "label": "Cicatrices et brûlures",
+     "cells": [
+      "—",
+      "Prurit après brûlure + ; enfant +",
+      "LED post-op +",
+      "MA brûlures neutre ; MA cicatrices +",
+      "Brûlures 2e degré (904 nm) +",
+      "—"
+     ]
+    },
+    {
+     "label": "Inflammatoire",
+     "cells": [
+      "Acné : comparaisons mitigées",
+      "Lichen plan buccal ≈ corticoïdes ; acné lumière bleue",
+      "Pemphigus, Behçet +",
+      "MA GRADE lichen plan +",
+      "2 MA lichen plan +",
+      "Acné à domicile ; prurit urémique"
+     ]
+    },
+    {
+     "label": "Herpès et esthétique",
+     "cells": [
+      "Herpès 1 072 nm + ; rides (cas)",
+      "Rides : 136 patients +",
+      "MA herpès +",
+      "Sécurité oncologique ; cellulite non démontrée",
+      "Rajeunissement facial +",
+      "Revue herpès mitigée"
+     ]
+    }
+   ]
+  }
+ }
+}
