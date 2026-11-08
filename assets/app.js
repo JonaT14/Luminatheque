@@ -383,11 +383,12 @@ function setNav(id) {
 }
 function renderTopics() {
   const box = $("#side-topics"); if (!box) return;
-  box.innerHTML = D.topics.map((t) => { const n = t.n ?? 0;
-    return `<button type="button" class="side-link" data-topic="${t.id}" aria-pressed="${t.id === state.topic}"><span class="topic-dot"></span>${esc(t.label)}${isSoon(t) ? '<span class="soon">À venir</span>' : `<span class="count">${n}</span>`}</button>`; }).join("");
+  const sub = [["accueil", "Tableau de bord"], ["publications", "Publications"], ["syntheses", "Synthèses"], ["essais", "Études en cours"]];
+  const cur = decodeURIComponent(location.hash.slice(1)).split("-")[0];
+  box.innerHTML = D.topics.map((t) => { const n = t.n ?? 0; const on = t.id === state.topic;
+    return `<button type="button" class="side-link" data-topic="${t.id}" aria-pressed="${on}" aria-expanded="${on && !isSoon(t)}"><span class="topic-dot"></span>${esc(t.label)}${isSoon(t) ? '<span class="soon">À venir</span>' : `<span class="count">${n}</span>`}</button>`
+      + (on && !isSoon(t) ? `<div class="side-sub">${sub.map(([k, l]) => `<a class="side-link" href="#${k}" data-nav="${k}" aria-current="${cur === k || (k === "accueil" && (!cur || cur === "article")) ? "page" : "false"}">${l}${k === "publications" ? `<span class="count">${n}</span>` : ""}${k === "essais" && t.trials && t.trials.now + t.trials.soon ? `<span class="count">${t.trials.now + t.trials.soon}</span>` : ""}</a>`).join("")}</div>` : ""); }).join("");
   $("#topic").innerHTML = D.topics.map((t) => `<option value="${t.id}" ${t.id === state.topic ? "selected" : ""}>${esc(t.short || t.label)}${isSoon(t) ? " · à venir" : ""}</option>`).join("");
-  const nc = $("#nav-count"); if (nc) nc.textContent = isSoon() ? "" : (topic().n ?? "");
-  const nd = $("#nav-drafts"); if (nd) { nd.hidden = !D.n_drafts; $("#nav-drafts-n").textContent = D.n_drafts || ""; }
   const up = $("#side-update"); if (up) up.textContent = `Mise à jour : ${fmtDate(D.generated)}`;
 }
 function setTopic(id) {
@@ -1236,7 +1237,7 @@ document.addEventListener("click", async (e) => {
   const d = t.dataset;
   if (Object.keys(d).some((k) => k.startsWith("al"))) { e.preventDefault(); await alClick(t); return; }
   if (Object.keys(d).some((k) => k.startsWith("br"))) { e.preventDefault(); await brClick(t); return; }
-  if (d.topic) { setTopic(d.topic); return; }
+  if (d.topic) { const h = location.hash.slice(1).split("?")[0]; if (!["accueil", "publications", "syntheses", "essais", ""].includes(h) && !h.startsWith("article-")) history.replaceState(null, "", "#accueil"); setTopic(d.topic); return; }
   if (d.sub) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : ""); state.f.ctx.add(d.sub); state.filtersOpen = true; location.hash = "publications"; return; }
   if ("morelist" in d) { state.limit += 120; rerender(); return; }
   if (d.f || d.preset || "reset" in d) state.limit = 60;
@@ -1314,6 +1315,10 @@ $("#q").addEventListener("input", (e) => {
 document.addEventListener("keydown", (e) => { if (e.key === "/" && !/input|textarea|select/i.test(document.activeElement.tagName)) { e.preventDefault(); $("#q").focus(); } });
 
 /* thème clair / sombre : choix mémorisé, sinon réglage du système */
+const sideBtn = $("#side-toggle");
+function applySide(off) { document.body.classList.toggle("side-off", off); sideBtn?.setAttribute("aria-expanded", String(!off)); sideBtn?.setAttribute("aria-label", off ? "Afficher le menu" : "Masquer le menu"); }
+applySide(store.get("side-off", false));
+sideBtn?.addEventListener("click", () => { const off = !document.body.classList.contains("side-off"); store.set("side-off", off); applySide(off); });
 const themeBtn = $("#theme-toggle");
 const sysDark = () => matchMedia("(prefers-color-scheme: dark)").matches;
 function applyTheme(t) { if (t) document.documentElement.setAttribute("data-theme", t); themeBtn?.setAttribute("aria-pressed", String((t || (sysDark() ? "dark" : "light")) === "dark")); }

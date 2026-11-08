@@ -648,3 +648,15 @@ footer { border-top: 1px solid var(--line); padding-block: 22px; font: 400 .78re
 .br-src h3 { font: 600 .95rem/1.35 var(--f-display); }
 .br-abs { display: grid; gap: 8px; font-size: .84rem; line-height: 1.55; color: var(--ink-2); }
 @media (max-width: 1000px) { .br-cols { grid-template-columns: 1fr; } .br-src { position: static; max-height: none; } .br-bar { grid-template-columns: 1fr; } .br-row.two { grid-template-columns: 1fr; } }
+
+/* ---------- menu latéral : thèmes dépliables, masquage ---------- */
+.side-sub { display: grid; gap: 1px; margin: 2px 0 8px 17px; padding-left: 12px; border-left: 2px solid var(--line); }
+.side-sub .side-link { padding: 6px 10px; font-size: .84rem; font-weight: 500; }
+.side-sub .side-link[aria-current="page"] { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.side-sub .side-link[aria-current="page"] .count { color: var(--accent); }
+.side-toggle { display: inline-grid; }
+body.side-off .shell { grid-template-columns: minmax(0, 1fr); }
+body.side-off .sidebar { display: none; }
+body.side-off .top-logo { display: block; }
+body.side-off .side-toggle svg path:last-child { transform: rotate(180deg); transform-origin: 14.5px 12px; }
+@media (max-width: 1024px) { .side-toggle { display: none; } }
