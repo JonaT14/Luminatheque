@@ -1,0 +1,139 @@
+[
+ {
+  "ctx": "arthrose",
+  "indication": "Gonarthrose",
+  "niveau": "prometteuse",
+  "resume": "Aux doses WALT, le laser réduit la douleur et l'incapacité ; le 904–905 nm serait le plus efficace. Toujours avec l'exercice.",
+  "params": {
+   "Longueur d'onde": "904–905 nm ou 785–850 nm",
+   "Puissance": "—",
+   "Dose": "4–8 J par point",
+   "Zone": "Interligne articulaire et capsule",
+   "Séances": "10 à 16 séances",
+   "Appareil": "Laser basse énergie ; laser haute intensité"
+  },
+  "conseils": [
+   "Associer systématiquement à l'exercice."
+  ],
+  "prudence": [
+   "Pas de gain supplémentaire sur la force ou l'amplitude par rapport à l'exercice seul."
+  ],
+  "sources": [
+   "31662383",
+   "39367994",
+   "36576096"
+  ]
+ },
+ {
+  "ctx": "tendon",
+  "indication": "Épicondylite et tendinopathies",
+  "niveau": "prometteuse",
+  "resume": "À dose optimale, le laser appliqué sur l'insertion tendineuse soulage à court terme ; le laser haute intensité montre un effet croissant jusqu'à 16 semaines.",
+  "params": {
+   "Longueur d'onde": "904 nm (et 632 nm)",
+   "Puissance": "—",
+   "Dose": "Doses WALT",
+   "Zone": "Insertion tendineuse, points douloureux",
+   "Séances": "Plusieurs séances par semaine pendant 4 à 8 semaines",
+   "Appareil": "Laser basse énergie ou haute intensité"
+  },
+  "conseils": [
+   "Associer aux exercices excentriques."
+  ],
+  "prudence": [],
+  "sources": [
+   "18510742",
+   "41964853"
+  ]
+ },
+ {
+  "ctx": "ATM",
+  "indication": "Troubles temporo-mandibulaires",
+  "niveau": "prometteuse",
+  "resume": "Sur 40 essais, le meilleur effet est obtenu en proche infrarouge, à faible puissance, avec des séances fréquentes et prolongées. Recommandation conditionnelle japonaise (2025).",
+  "params": {
+   "Longueur d'onde": "800–1 100 nm (meilleurs résultats 951–1 070 nm)",
+   "Puissance": "Moins de 100 mW",
+   "Dose": "Moins de 25 J/cm² (formes musculaires)",
+   "Zone": "Muscles masticateurs et articulation",
+   "Séances": "3 à 4 séances par semaine pendant 10 semaines",
+   "Appareil": "Laser diode"
+  },
+  "conseils": [
+   "Éviter les fortes énergies délivrées sur une courte période."
+  ],
+  "prudence": [],
+  "sources": [
+   "41420455",
+   "36263978",
+   "33230581",
+   "40399068"
+  ]
+ },
+ {
+  "ctx": "rachis",
+  "indication": "Lombalgie et cervicalgie chroniques",
+  "niveau": "incertaine",
+  "resume": "L'ACP 2017 propose le laser parmi les options de la lombalgie chronique (recommandation faible) ; un essai rigoureux de 2026 ne trouve aucun bénéfice ajouté à l'exercice.",
+  "params": {
+   "Longueur d'onde": "—",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Zone douloureuse",
+   "Séances": "—",
+   "Appareil": "Laser basse énergie ou haute intensité"
+  },
+  "conseils": [],
+  "prudence": [
+   "Pas d'intérêt démontré en complément d'un programme d'exercices bien conduit."
+  ],
+  "sources": [
+   "28192789",
+   "42864195",
+   "26984876"
+  ]
+ },
+ {
+  "ctx": "épaule",
+  "indication": "Conflit sous-acromial et tendinopathie de la coiffe",
+  "niveau": "incertaine",
+  "resume": "Le laser basse énergie améliore la douleur sans effet sur l'incapacité ; le laser haute intensité fait mieux.",
+  "params": {
+   "Longueur d'onde": "—",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Coiffe des rotateurs",
+   "Séances": "Réévaluer vers 12 séances",
+   "Appareil": "Laser haute intensité de préférence"
+  },
+  "conseils": [],
+  "prudence": [
+   "Pas d'intérêt à prolonger au-delà de 12 séances."
+  ],
+  "sources": [
+   "42733098",
+   "41718549"
+  ]
+ },
+ {
+  "ctx": "tendon",
+  "indication": "Laser haute intensité (classe IV) : repères de puissance",
+  "niveau": "prometteuse",
+  "resume": "Dans les pathologies profondes, le laser de classe IV réduit durablement la douleur et a fait mieux que le laser basse énergie dans 13 comparaisons sur 13.",
+  "params": {
+   "Longueur d'onde": "810–1 064 nm",
+   "Puissance": "Moyenne 9,3 W ; densité médiane 10 W/cm²",
+   "Dose": "—",
+   "Zone": "Tissus profonds",
+   "Séances": "Cure de quelques semaines",
+   "Appareil": "Laser haute intensité"
+  },
+  "conseils": [],
+  "prudence": [
+   "Revue au ton de plaidoyer ; protocoles à affiner."
+  ],
+  "sources": [
+   "42819314"
+  ]
+ }
+]

@@ -1,0 +1,89 @@
+[
+ {
+  "ctx": "CIPN",
+  "indication": "Neuropathie induite par la chimiothérapie",
+  "niveau": "prometteuse",
+  "resume": "La WALT (2022) propose des paramètres ; les essais récents, dont belges et français, sont encourageants mais encore petits.",
+  "params": {
+   "Longueur d'onde": "630–850 nm, souvent associés",
+   "Puissance": "—",
+   "Dose": "Voir les paramètres WALT",
+   "Zone": "Trajets nerveux des mains et des pieds",
+   "Séances": "Plusieurs séances par semaine pendant la chimiothérapie",
+   "Appareil": "Laser multi-longueurs d'onde ou LED"
+  },
+  "conseils": [
+   "Débuter tôt, dès les premiers symptômes ou en prévention."
+  ],
+  "prudence": [],
+  "sources": [
+   "36110957",
+   "40186772"
+  ]
+ },
+ {
+  "ctx": "diabète",
+  "indication": "Neuropathie diabétique douloureuse",
+  "niveau": "prometteuse",
+  "resume": "Une revue de 23 études (2015–2025) identifie une fenêtre de paramètres associée aux meilleurs résultats.",
+  "params": {
+   "Longueur d'onde": "630–670 nm ou 808–904 nm",
+   "Puissance": "45–100 mW",
+   "Dose": "3–10 J/cm²",
+   "Zone": "Pieds et jambes, trajets nerveux",
+   "Séances": "Au moins 12 séances (par exemple 2 par semaine pendant 7 semaines)",
+   "Appareil": "Laser basse énergie ; plaques infrarouges (MIRE)"
+  },
+  "conseils": [
+   "Associer aux soins podologiques."
+  ],
+  "prudence": [
+   "Résultats hétérogènes."
+  ],
+  "sources": [
+   "41091232",
+   "39829285"
+  ]
+ },
+ {
+  "ctx": "compression",
+  "indication": "Syndrome du canal carpien",
+  "niveau": "incertaine",
+  "resume": "Pas de preuve forte ; les meilleurs résultats sont obtenus dans une fenêtre de longueur d'onde et de dose. Le laser haute intensité a une preuve modérée à court terme.",
+  "params": {
+   "Longueur d'onde": "780–860 nm",
+   "Puissance": "—",
+   "Dose": "9–11 J/cm²",
+   "Zone": "Canal carpien, trajet du nerf médian",
+   "Séances": "Cure courte (2 à 4 semaines)",
+   "Appareil": "Laser basse énergie ou haute intensité"
+  },
+  "conseils": [],
+  "prudence": [
+   "Effet à long terme peu documenté."
+  ],
+  "sources": [
+   "28272964",
+   "38207201"
+  ]
+ },
+ {
+  "ctx": "orofaciale",
+  "indication": "Syndrome de la bouche brûlante",
+  "niveau": "recommandée",
+  "resume": "La WALT recommande la PBM dans le syndrome de la bouche brûlante (niveau I) et propose un avis favorable pour la névralgie du trijumeau et post-zostérienne (niveau II).",
+  "params": {
+   "Longueur d'onde": "Rouge ou proche infrarouge",
+   "Puissance": "—",
+   "Dose": "Voir les recommandations WALT",
+   "Zone": "Langue, muqueuse buccale",
+   "Séances": "Cure de plusieurs séances",
+   "Appareil": "Laser basse énergie intrabuccal"
+  },
+  "conseils": [],
+  "prudence": [],
+  "sources": [
+   "41682985"
+  ]
+ }
+]

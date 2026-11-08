@@ -1,0 +1,45 @@
+[
+ {
+  "ctx": "performance",
+  "indication": "Préconditionnement musculaire avant l'effort",
+  "niveau": "prometteuse",
+  "resume": "Appliquée avant l'effort, la PBM améliore la performance et réduit la fatigue ; l'effet est faible chez les sportifs déjà entraînés.",
+  "params": {
+   "Longueur d'onde": "Rouge et proche infrarouge (laser ou LED)",
+   "Puissance": "Jusqu'à 200 mW par diode",
+   "Dose": "20–60 J par petit groupe musculaire, 60–300 J par grand groupe (5–6 J par point)",
+   "Zone": "Muscles sollicités",
+   "Séances": "Une application 5 à 30 minutes avant l'effort",
+   "Appareil": "Cluster laser ou LED"
+  },
+  "conseils": [],
+  "prudence": [
+   "Pas de bénéfice ajouté à un entraînement chronique."
+  ],
+  "sources": [
+   "29090398",
+   "24249354",
+   "35151026"
+  ]
+ },
+ {
+  "ctx": "récupération",
+  "indication": "Récupération et courbatures",
+  "niveau": "prometteuse",
+  "resume": "La PBM avant l'effort réduit les courbatures et la CK à 24 h ; appliquée après, l'effet est moins net. La PBM corps entier n'a pas montré de bénéfice.",
+  "params": {
+   "Longueur d'onde": "Rouge et proche infrarouge",
+   "Puissance": "—",
+   "Dose": "Mêmes repères que le préconditionnement",
+   "Zone": "Muscles sollicités",
+   "Séances": "Avant l'effort de préférence",
+   "Appareil": "Cluster laser ou LED"
+  },
+  "conseils": [],
+  "prudence": [],
+  "sources": [
+   "40954632",
+   "39883205"
+  ]
+ }
+]

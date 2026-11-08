@@ -1,0 +1,66 @@
+[
+ {
+  "ctx": "rhinite",
+  "indication": "Rhinite allergique",
+  "niveau": "prometteuse",
+  "resume": "Un essai en double aveugle contre placebo (62 patients) et une méta-analyse sont favorables.",
+  "params": {
+   "Longueur d'onde": "Rouge, intranasal",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Fosses nasales",
+   "Séances": "2 à 3 séances par semaine pendant 4 semaines",
+   "Appareil": "Laser ou LED intranasal"
+  },
+  "conseils": [],
+  "prudence": [],
+  "sources": [
+   "39828891",
+   "35246396",
+   "38663361"
+  ]
+ },
+ {
+  "ctx": "acouphènes",
+  "indication": "Acouphènes",
+  "niveau": "non démontrée",
+  "resume": "Les essais en double aveugle sont majoritairement négatifs ; la PBM n'est pas recommandée.",
+  "params": {
+   "Longueur d'onde": "—",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Conduit auditif (transméatal)",
+   "Séances": "—",
+   "Appareil": "—"
+  },
+  "conseils": [],
+  "prudence": [
+   "Un cas de baisse auditive aiguë rapporté."
+  ],
+  "sources": [
+   "11981384",
+   "33685826"
+  ]
+ },
+ {
+  "ctx": "odorat",
+  "indication": "Troubles de l'odorat après Covid",
+  "niveau": "prometteuse",
+  "resume": "L'infrarouge ajouté aux corticoïdes et à l'entraînement olfactif donne 68 % de répondeurs.",
+  "params": {
+   "Longueur d'onde": "Proche infrarouge",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Fosses nasales",
+   "Séances": "Cure de quelques semaines",
+   "Appareil": "Laser ou LED"
+  },
+  "conseils": [
+   "Toujours avec l'entraînement olfactif."
+  ],
+  "prudence": [],
+  "sources": [
+   "40147122"
+  ]
+ }
+]

@@ -1,0 +1,79 @@
+[
+ {
+  "ctx": "CSH",
+  "indication": "Prévention de la mucite en greffe de cellules souches",
+  "niveau": "recommandée",
+  "resume": "Recommandée en prévention par la MASCC/ISOO (2019) et la WALT (2022). Les méta-analyses retrouvent un effet protecteur important avec le protocole le plus utilisé.",
+  "params": {
+   "Longueur d'onde": "650–660 nm (rouge), intrabuccal",
+   "Puissance": "40 mW",
+   "Dose": "2–4 J/cm² par point (environ 0,16 J par point)",
+   "Zone": "Points répartis sur toute la muqueuse buccale",
+   "Séances": "Une séance par jour, du conditionnement jusqu'à la sortie d'aplasie",
+   "Appareil": "Laser basse énergie, embout intrabuccal"
+  },
+  "conseils": [
+   "Commencer dès le premier jour du conditionnement.",
+   "Application ponctuelle plutôt que balayage."
+  ],
+  "prudence": [
+   "Dose faible : une dose plus forte n'est pas plus efficace."
+  ],
+  "sources": [
+   "31286228",
+   "23001179",
+   "35013780",
+   "36110957"
+  ]
+ },
+ {
+  "ctx": "ORL",
+  "indication": "Prévention de la mucite pendant la radiothérapie ORL (avec ou sans chimiothérapie)",
+  "niveau": "recommandée",
+  "resume": "Recommandée en prévention par la MASCC/ISOO (2019). La PBM réduit la mucite sévère (RR 0,45) et la douleur ; les meilleurs résultats sont obtenus à faible puissance.",
+  "params": {
+   "Longueur d'onde": "632,8–685 nm intrabuccal ; 630–980 nm selon les protocoles (extrabuccal possible)",
+   "Puissance": "10–60 mW (meilleurs résultats 10–25 mW)",
+   "Dose": "2–4 J/cm² par point ; plus de 1 J par point",
+   "Zone": "Muqueuse buccale et oropharyngée, 20 à 30 points",
+   "Séances": "Tous les jours de radiothérapie, ou au moins 3 fois par semaine",
+   "Appareil": "Laser basse énergie ; LED ou gouttière multi-points"
+  },
+  "conseils": [
+   "Débuter dès la première séance de radiothérapie.",
+   "Associer aux soins de bouche standard."
+  ],
+  "prudence": [
+   "Signal préclinique (808 nm, mélanome murin) : éviter d'irradier directement une tumeur en place."
+  ],
+  "sources": [
+   "31286228",
+   "38265122",
+   "21660670",
+   "31092370",
+   "41040611"
+  ]
+ },
+ {
+  "ctx": "chimio",
+  "indication": "Mucite chimio-induite (enfant et adulte)",
+  "niveau": "prometteuse",
+  "resume": "Résultats favorables, mais la MASCC/ISOO ne formule pas de recommandation en chimiothérapie seule.",
+  "params": {
+   "Longueur d'onde": "630–680 nm (rouge) ou 780–830 nm",
+   "Puissance": "10–100 mW",
+   "Dose": "2–3 J/cm² en prévention, 4 J/cm² au maximum en curatif",
+   "Zone": "Muqueuse buccale",
+   "Séances": "Tous les jours ou au moins 3 fois par semaine pendant la cure",
+   "Appareil": "Laser basse énergie ou LED"
+  },
+  "conseils": [
+   "En curatif, une séance haute puissance peut soulager la douleur quelques jours."
+  ],
+  "prudence": [],
+  "sources": [
+   "22450151",
+   "42098536"
+  ]
+ }
+]

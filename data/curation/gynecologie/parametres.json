@@ -1,0 +1,66 @@
+[
+ {
+  "ctx": "GSM",
+  "indication": "Sécheresse vaginale et syndrome génito-urinaire de la ménopause",
+  "niveau": "prometteuse",
+  "resume": "Deux essais contre placebo positifs en 2026 ; huit séances de PBM 660 nm par sonde vaginale ramènent l'index de santé vaginale au-dessus du seuil d'atrophie.",
+  "params": {
+   "Longueur d'onde": "660 nm",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Sonde vaginale",
+   "Séances": "8 séances",
+   "Appareil": "Sonde vaginale LED ou laser"
+  },
+  "conseils": [],
+  "prudence": [
+   "Les lasers vaginaux CO2 ou Er:YAG (ablatifs) sont une autre technique."
+  ],
+  "sources": [
+   "42329990",
+   "33757917"
+  ]
+ },
+ {
+  "ctx": "onco",
+  "indication": "Douleur et sécheresse vaginales après cancer du sein",
+  "niveau": "prometteuse",
+  "resume": "Résultats spectaculaires (douleur 9,5 → 1/10) mais en études non randomisées.",
+  "params": {
+   "Longueur d'onde": "440 nm (bleu) + 660 nm (rouge)",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Sonde vaginale",
+   "Séances": "4 à 6 séances",
+   "Appareil": "Sonde LED"
+  },
+  "conseils": [],
+  "prudence": [
+   "Pas encore d'essai contre placebo."
+  ],
+  "sources": [
+   "42228167",
+   "37183056"
+  ]
+ },
+ {
+  "ctx": "vulve",
+  "indication": "Candidose et vulvovaginite récidivantes",
+  "niveau": "prometteuse",
+  "resume": "La lumière bleue améliore 79 % des patientes, 58 % le sont encore à 6 mois.",
+  "params": {
+   "Longueur d'onde": "405–415 nm (bleu)",
+   "Puissance": "Environ 50 mW/cm² (in vitro)",
+   "Dose": "—",
+   "Zone": "Vulve et vagin",
+   "Séances": "Une séance de 20 min par semaine, 10 séances",
+   "Appareil": "LED bleue"
+  },
+  "conseils": [],
+  "prudence": [],
+  "sources": [
+   "39825978",
+   "31900692"
+  ]
+ }
+]

@@ -20,6 +20,7 @@ Usage : python3 scripts/build_site.py [--prune-pdfs]
 from __future__ import annotations
 
 import argparse
+import collections
 import datetime as dt
 import hashlib
 import shutil
@@ -221,6 +222,8 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
     syntheses = json.loads(syn_path.read_text()) if syn_path.exists() else {}
     meta = {k: topic.get(k) for k in ("id", "label", "short", "color", "description", "cadence", "since", "status",
                                       "hero", "exclusions_note", "subgroups", "pubmed_query")}
+    par_path = cur_dir / "parametres.json"
+    meta["params"] = json.loads(par_path.read_text()) if par_path.exists() else []
     meta.update(n_raw=len(raw), n_excluded=len(excluded), n=len(articles), n_curated=sum(a["curated"] for a in articles))
     return meta, articles, syntheses, abstracts
 
@@ -337,10 +340,54 @@ def main() -> None:
             xs = trials.get(tp["id"], [])
             tp["trials"] = {"now": sum(x["status"] != "NOT_YET_RECRUITING" for x in xs), "soon": sum(x["status"] == "NOT_YET_RECRUITING" for x in xs)}
         print(f"→ {sum(map(len, trials.values()))} essais au registre (relevé du {reg['fetched']})")
+    # appareils : détection par expressions régulières dans le titre et le résumé des notices et des essais
+    dev_p = ROOT / "data/appareils.json"
+    if dev_p.exists():
+        devices = json.loads(dev_p.read_text())
+        rx = {d["id"]: re.compile(d["rx"], re.I) for d in devices}
+        hits = {d["id"]: [] for d in devices}
+        for t in sorted((ROOT / "data/raw").glob("*.json")):
+            arts = {a["pmid"]: a for a in all_articles if a["topic"] == t.stem}
+            for r in json.loads(t.read_text()):
+                a = arts.get(r["pmid"])
+                if not a:
+                    continue
+                text = r["title"] + " " + " ".join(x["text"] if isinstance(x, dict) else str(x) for x in (r.get("abstract") or []))
+                for d in devices:
+                    if rx[d["id"]].search(text):
+                        hits[d["id"]].append({"p": a["pmid"], "t": t.stem, "y": a["year"], "ty": a["type"], "c": int(a["curated"]),
+                                              "e": a["effect"], "ti": a.get("title_fr") or a["title"]})
+        trial_hits = {d["id"]: [] for d in devices}
+        for tp, xs in trials.items():
+            for s_ in xs:
+                text = " ".join([s_.get("title") or "", s_.get("summary") or ""] + [i.get("name") or "" for i in s_["interventions"]])
+                for d in devices:
+                    if rx[d["id"]].search(text):
+                        trial_hits[d["id"]].append({"n": s_["nct"], "t": tp, "ti": s_["titre"], "st": s_["status"]})
+        out_dev = []
+        for d in devices:
+            hs = sorted(hits[d["id"]], key=lambda h: (-h["c"], -h["y"]))
+            if not hs and not trial_hits[d["id"]]:
+                continue
+            keep = hs if d["kind"] == "marque" else [h for h in hs if h["c"]][:400]
+            out_dev.append({k: v for k, v in d.items() if k != "rx"} | {
+                "n": len(hs), "nc": sum(h["c"] for h in hs), "fav": sum(h["e"] == "favorable" for h in hs),
+                "topics": dict(collections.Counter(h["t"] for h in hs)), "studies": keep, "trials": trial_hits[d["id"]]})
+        js = "window.LUMINA_D = " + json.dumps(out_dev, ensure_ascii=False, separators=(",", ":")) + ";\n"
+        dh = hashlib.sha1(js.encode()).hexdigest()[:10]
+        for old in (ROOT / "assets/topics").glob("_appareils.*js"):
+            if old.name != f"_appareils.{dh}.js":
+                old.unlink()
+        write_versioned(ROOT / "assets/topics" / f"_appareils.{dh}.js", js)
+        devices_file = f"assets/topics/_appareils.{dh}.js"
+        print(f"→ {len(out_dev)} appareils détectés")
+    else:
+        devices_file = None
     order = {"actif": 0, None: 0, "à venir": 1}
     topics.sort(key=lambda x: (order.get(x.get("status"), 0), x["label"]))
     payload = {"generated": dt.date.today().isoformat(), "topics": topics, "syntheses": syntheses, "n_chunks": N_CHUNKS,
-               "trials_file": f"assets/topics/_essais.{h}.js" if trials else None}
+               "trials_file": f"assets/topics/_essais.{h}.js" if trials else None, "devices_file": devices_file,
+               "patients": json.loads((ROOT / "data/fiches_patients.json").read_text()) if (ROOT / "data/fiches_patients.json").exists() else []}
     out = ROOT / "assets/data.js"
     out.write_text("window.LUMINA = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n")
     stamp_assets()

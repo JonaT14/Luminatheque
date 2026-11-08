@@ -1,0 +1,73 @@
+[
+ {
+  "ctx": "myopie",
+  "indication": "Myopie de l'enfant (lumière rouge basse intensité répétée)",
+  "niveau": "prometteuse",
+  "resume": "Nombreux essais et méta-analyses favorables, surtout en Chine ; la lumière rouge freine l'allongement axial, mais un rebond survient à l'arrêt et la sécurité rétinienne demande une surveillance.",
+  "params": {
+   "Longueur d'onde": "650 nm",
+   "Puissance": "Environ 0,4 à 1,2 mW (une puissance plus faible suffit)",
+   "Dose": "—",
+   "Zone": "Les deux yeux, en regardant la source",
+   "Séances": "3 minutes, 2 fois par jour, 5 jours par semaine",
+   "Appareil": "Appareil de table à domicile"
+  },
+  "conseils": [
+   "Arrêt progressif pour limiter le rebond."
+  ],
+  "prudence": [
+   "Photographie du fond d'œil et OCT avant et pendant le traitement ; surveiller les images rémanentes."
+  ],
+  "sources": [
+   "34863776",
+   "37634757",
+   "39672511",
+   "41072941"
+  ]
+ },
+ {
+  "ctx": "DMLA",
+  "indication": "DMLA sèche intermédiaire",
+  "niveau": "prometteuse",
+  "resume": "LIGHTSITE III : amélioration de l'acuité et réduction de l'atrophie géographique à 24 mois (6,8 % contre 24 %).",
+  "params": {
+   "Longueur d'onde": "590 + 660 + 850 nm",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Rétine (paupières fermées ou ouvertes selon la longueur d'onde)",
+   "Séances": "Série de 9 séances en 3 à 5 semaines, à répéter environ tous les 4 mois",
+   "Appareil": "Valeda (LumiThera)"
+  },
+  "conseils": [],
+  "prudence": [
+   "Essais financés par le fabricant ; réplication indépendante attendue."
+  ],
+  "sources": [
+   "37972955",
+   "41791029"
+  ]
+ },
+ {
+  "ctx": "sécheresse",
+  "indication": "Sécheresse oculaire et dysfonction meibomienne",
+  "niveau": "prometteuse",
+  "resume": "La PBM par masque LED soulage seule ou associée à la lumière pulsée intense.",
+  "params": {
+   "Longueur d'onde": "Rouge (et proche infrarouge)",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Paupières (masque périoculaire)",
+   "Séances": "4 séances hebdomadaires",
+   "Appareil": "Masque LED"
+  },
+  "conseils": [],
+  "prudence": [
+   "L'effet est en partie thermique."
+  ],
+  "sources": [
+   "36582033",
+   "39638706",
+   "37156225"
+  ]
+ }
+]

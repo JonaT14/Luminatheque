@@ -1,0 +1,809 @@
+[
+ {
+  "id": "mucite",
+  "titre": "Prévenir les aphtes et brûlures de la bouche pendant le traitement du cancer",
+  "sous_titre": "La mucite buccale",
+  "topic": "mucite-orale",
+  "ctx": [
+   "ORL",
+   "chimio",
+   "CSH"
+  ],
+  "illus": "bouche",
+  "couleur": "#e0302f",
+  "niveau": "recommandée",
+  "messages": [
+   [
+    "bouclier",
+    "Protéger la bouche pendant la chimiothérapie, la greffe ou la radiothérapie."
+   ],
+   [
+    "douleur",
+    "Moins de plaies sévères et moins de douleur pour manger et avaler."
+   ],
+   [
+    "valide",
+    "Recommandée par les sociétés savantes internationales de soins de support (MASCC/ISOO)."
+   ]
+  ],
+  "seance": {
+   "duree": "Quelques minutes",
+   "ou": "À l'hôpital, avant ou après la séance de traitement",
+   "sensation": "Rien, parfois une légère chaleur",
+   "qui": "Un soignant formé (dentiste, infirmier, kinésithérapeute)"
+  },
+  "calendrier": {
+   "par_semaine": 5,
+   "semaines": 6,
+   "texte": "Une séance par jour de traitement, pendant toute la durée de la radiothérapie ou de la greffe."
+  },
+  "attentes": "L'objectif est préventif : on commence dès le début du traitement, avant l'apparition des plaies. Les bénéfices se voient sur la durée, par des mucites moins sévères.",
+  "securite": [
+   "La lumière est douce et ne brûle pas.",
+   "Vous porterez des lunettes de protection pendant la séance.",
+   "Les études de sécurité sont rassurantes chez les patients traités pour un cancer."
+  ],
+  "faq": [
+   [
+    "Est-ce que ça remplace les bains de bouche ?",
+    "Non. La photobiomodulation s'ajoute aux soins de bouche habituels, qui restent indispensables."
+   ],
+   [
+    "Et si j'ai déjà des plaies ?",
+    "La lumière peut aussi soulager la douleur, mais c'est en prévention qu'elle est la mieux étudiée."
+   ],
+   [
+    "Est-ce remboursé ?",
+    "Cela dépend de l'établissement : demandez à votre équipe soignante."
+   ]
+  ],
+  "sources": [
+   "31286228",
+   "38265122",
+   "35013780"
+  ]
+ },
+ {
+  "id": "radiodermite",
+  "titre": "Protéger la peau pendant la radiothérapie du sein",
+  "sous_titre": "La radiodermite",
+  "topic": "dermatologie",
+  "ctx": [
+   "radiodermite"
+  ],
+  "illus": "torse",
+  "couleur": "#f08a24",
+  "niveau": "recommandée",
+  "messages": [
+   [
+    "bouclier",
+    "Limiter les rougeurs, brûlures et démangeaisons de la peau irradiée."
+   ],
+   [
+    "calendrier",
+    "Commencer en même temps que la radiothérapie."
+   ],
+   [
+    "valide",
+    "Retenue par les recommandations internationales (MASCC 2023) pour le cancer du sein."
+   ]
+  ],
+  "seance": {
+   "duree": "Environ 10 à 20 minutes",
+   "ou": "Au centre de radiothérapie ou dans un cabinet partenaire",
+   "sensation": "Rien, ou une légère chaleur",
+   "qui": "Un soignant formé"
+  },
+  "calendrier": {
+   "par_semaine": 2,
+   "semaines": 5,
+   "texte": "Deux à trois séances par semaine pendant toute la radiothérapie."
+  },
+  "attentes": "L'effet est préventif : moins de radiodermites sévères et moins d'interruptions de la radiothérapie.",
+  "securite": [
+   "La lumière ne modifie pas l'efficacité de la radiothérapie selon les données disponibles.",
+   "Pas de crème ni de déodorant sur la zone juste avant la séance.",
+   "Signalez toute réaction inhabituelle de la peau."
+  ],
+  "faq": [
+   [
+    "Cela fait-il mal ?",
+    "Non, la séance est indolore."
+   ],
+   [
+    "Faut-il continuer après la radiothérapie ?",
+    "En général non ; votre équipe vous dira si quelques séances supplémentaires sont utiles."
+   ]
+  ],
+  "sources": [
+   "36990615",
+   "36952036"
+  ]
+ },
+ {
+  "id": "neuropathie",
+  "titre": "Soulager les fourmillements des mains et des pieds dus à la chimiothérapie",
+  "sous_titre": "La neuropathie chimio-induite",
+  "topic": "neuropathie-peripherique",
+  "ctx": [
+   "CIPN"
+  ],
+  "illus": "main",
+  "couleur": "#7d1f2c",
+  "niveau": "prometteuse",
+  "messages": [
+   [
+    "main",
+    "Fourmillements, engourdissements, sensations de brûlure dans les mains et les pieds."
+   ],
+   [
+    "lumiere",
+    "La lumière rouge et infrarouge est appliquée le long des nerfs."
+   ],
+   [
+    "loupe",
+    "Résultats encourageants, encore à confirmer par de grands essais."
+   ]
+  ],
+  "seance": {
+   "duree": "15 à 20 minutes",
+   "ou": "Hôpital ou cabinet",
+   "sensation": "Rien, parfois une légère chaleur",
+   "qui": "Un kinésithérapeute ou un soignant formé"
+  },
+  "calendrier": {
+   "par_semaine": 2,
+   "semaines": 8,
+   "texte": "Plusieurs séances par semaine, idéalement dès le début des symptômes."
+  },
+  "attentes": "Les études rapportent moins de symptômes, un meilleur équilibre et une marche plus sûre. L'effet peut demander plusieurs semaines.",
+  "securite": [
+   "Indolore et sans médicament.",
+   "Lunettes de protection pendant la séance.",
+   "Continuez à signaler vos symptômes à votre oncologue."
+  ],
+  "faq": [
+   [
+    "Peut-on la faire pendant la chimiothérapie ?",
+    "Oui, c'est même le moment où elle est le plus étudiée."
+   ],
+   [
+    "Est-ce efficace pour tout le monde ?",
+    "Non, la réponse varie d'une personne à l'autre."
+   ]
+  ],
+  "sources": [
+   "36110957",
+   "40186772"
+  ]
+ },
+ {
+  "id": "lymphoedeme",
+  "titre": "Réduire le gonflement du bras après un cancer du sein",
+  "sous_titre": "Le lymphœdème",
+  "topic": "oncologie-support",
+  "ctx": [
+   "lymphœdème"
+  ],
+  "illus": "bras",
+  "couleur": "#d9480f",
+  "niveau": "prometteuse",
+  "messages": [
+   [
+    "bras",
+    "Le bras devient lourd, gonflé et plus dur après le traitement."
+   ],
+   [
+    "lumiere",
+    "La lumière est appliquée sur l'aisselle et les zones durcies du bras."
+   ],
+   [
+    "loupe",
+    "Les études montrent une baisse du volume et une peau plus souple, surtout avec des cures longues."
+   ]
+  ],
+  "seance": {
+   "duree": "15 à 20 minutes",
+   "ou": "Cabinet de kinésithérapie ou hôpital",
+   "sensation": "Rien",
+   "qui": "Un kinésithérapeute formé"
+  },
+  "calendrier": {
+   "par_semaine": 3,
+   "semaines": 4,
+   "texte": "Trois séances par semaine pendant quatre semaines, à renouveler si besoin."
+  },
+  "attentes": "Les bénéfices apparaissent au fil des séances. La lumière complète le drainage, les bandages et la compression : elle ne les remplace pas.",
+  "securite": [
+   "Les données de sécurité chez les patientes traitées pour un cancer sont rassurantes.",
+   "Lunettes de protection pendant la séance.",
+   "Continuez vos soins habituels du lymphœdème."
+  ],
+  "faq": [
+   [
+    "Combien de cures faut-il ?",
+    "Souvent au moins deux cycles ; un seul cycle court est rarement suffisant."
+   ],
+   [
+    "Est-ce compatible avec le drainage ?",
+    "Oui, les deux s'associent."
+   ]
+  ],
+  "sources": [
+   "22875413",
+   "12973834",
+   "38129368"
+  ]
+ },
+ {
+  "id": "genou",
+  "titre": "Soulager la douleur de l'arthrose du genou",
+  "sous_titre": "L'arthrose du genou",
+  "topic": "musculo-squelettique",
+  "ctx": [
+   "arthrose"
+  ],
+  "illus": "genou",
+  "couleur": "#2f8fe0",
+  "niveau": "prometteuse",
+  "messages": [
+   [
+    "douleur",
+    "Moins de douleur et de raideur au genou."
+   ],
+   [
+    "marche",
+    "Toujours associée à des exercices adaptés, qui restent le traitement de base."
+   ],
+   [
+    "loupe",
+    "Efficace à doses suffisantes ; les résultats varient selon les protocoles."
+   ]
+  ],
+  "seance": {
+   "duree": "5 à 15 minutes",
+   "ou": "Cabinet de kinésithérapie ou de rééducation",
+   "sensation": "Rien, ou une chaleur douce (laser haute intensité)",
+   "qui": "Un kinésithérapeute ou un médecin"
+  },
+  "calendrier": {
+   "par_semaine": 3,
+   "semaines": 4,
+   "texte": "Environ 10 à 16 séances, deux à trois fois par semaine."
+  },
+  "attentes": "Le soulagement apparaît en général en 2 à 4 semaines. Il est plus net quand les exercices sont poursuivis.",
+  "securite": [
+   "Indolore, sans médicament.",
+   "Lunettes de protection pendant la séance.",
+   "Ne remplace pas l'activité physique."
+  ],
+  "faq": [
+   [
+    "Est-ce que ça répare le cartilage ?",
+    "Non, l'effet porte sur la douleur et l'inflammation, pas sur l'usure du cartilage."
+   ],
+   [
+    "Combien de temps dure l'effet ?",
+    "Plusieurs semaines dans les études ; des séances d'entretien peuvent être proposées."
+   ]
+  ],
+  "sources": [
+   "31662383",
+   "39367994"
+  ]
+ },
+ {
+  "id": "tendinite",
+  "titre": "Traiter une tendinite (coude, épaule, talon)",
+  "sous_titre": "Les tendinopathies",
+  "topic": "musculo-squelettique",
+  "ctx": [
+   "tendon",
+   "épaule"
+  ],
+  "illus": "coude",
+  "couleur": "#2fae5f",
+  "niveau": "prometteuse",
+  "messages": [
+   [
+    "douleur",
+    "Moins de douleur au niveau du tendon (coude, épaule, talon)."
+   ],
+   [
+    "marche",
+    "Associée aux exercices de renforcement du tendon."
+   ],
+   [
+    "loupe",
+    "Utile à court terme ; le laser haute intensité est le mieux étudié aujourd'hui."
+   ]
+  ],
+  "seance": {
+   "duree": "5 à 10 minutes",
+   "ou": "Cabinet de kinésithérapie",
+   "sensation": "Rien ou une chaleur douce",
+   "qui": "Un kinésithérapeute"
+  },
+  "calendrier": {
+   "par_semaine": 2,
+   "semaines": 6,
+   "texte": "Deux à trois séances par semaine pendant 4 à 8 semaines."
+  },
+  "attentes": "Le soulagement est souvent progressif ; il se maintient mieux si les exercices sont poursuivis à la maison.",
+  "securite": [
+   "Indolore.",
+   "Lunettes de protection.",
+   "Évitez les gestes qui réveillent la douleur pendant la cure."
+  ],
+  "faq": [
+   [
+    "Faut-il arrêter le sport ?",
+    "Pas forcément : votre kinésithérapeute adaptera l'activité."
+   ],
+   [
+    "Et les ondes de choc ?",
+    "C'est une autre option, d'efficacité comparable dans plusieurs indications."
+   ]
+  ],
+  "sources": [
+   "18510742",
+   "41964853"
+  ]
+ },
+ {
+  "id": "machoire",
+  "titre": "Soulager la douleur de la mâchoire",
+  "sous_titre": "Les troubles de l'ATM",
+  "topic": "musculo-squelettique",
+  "ctx": [
+   "ATM"
+  ],
+  "illus": "machoire",
+  "couleur": "#8a5cf6",
+  "niveau": "prometteuse",
+  "messages": [
+   [
+    "douleur",
+    "Douleur des muscles de la mâchoire, craquements, difficulté à ouvrir la bouche."
+   ],
+   [
+    "lumiere",
+    "La lumière est appliquée sur les muscles masticateurs et l'articulation."
+   ],
+   [
+    "loupe",
+    "Les méta-analyses sont favorables, surtout pour la douleur musculaire."
+   ]
+  ],
+  "seance": {
+   "duree": "5 à 10 minutes",
+   "ou": "Cabinet dentaire ou de kinésithérapie",
+   "sensation": "Rien",
+   "qui": "Un dentiste, un kinésithérapeute"
+  },
+  "calendrier": {
+   "par_semaine": 3,
+   "semaines": 10,
+   "texte": "Trois à quatre séances par semaine ; des cures longues donnent les meilleurs résultats."
+  },
+  "attentes": "La douleur diminue progressivement. La lumière s'associe aux exercices d'ouverture et, si besoin, à une gouttière.",
+  "securite": [
+   "Indolore.",
+   "Lunettes de protection.",
+   "Évitez de serrer les dents ; pensez à la détente de la mâchoire."
+  ],
+  "faq": [
+   [
+    "Et la gouttière ?",
+    "Elle reste utile ; la lumière peut s'y ajouter."
+   ],
+   [
+    "Est-ce que ça marche sur les craquements ?",
+    "L'effet porte surtout sur la douleur ; les craquements persistent souvent."
+   ]
+  ],
+  "sources": [
+   "41420455",
+   "40399068"
+  ]
+ },
+ {
+  "id": "pied-diabetique",
+  "titre": "Aider une plaie du pied diabétique à cicatriser",
+  "sous_titre": "L'ulcère du pied diabétique",
+  "topic": "dermatologie",
+  "ctx": [
+   "plaies"
+  ],
+  "illus": "pied",
+  "couleur": "#e0302f",
+  "niveau": "recommandée",
+  "messages": [
+   [
+    "pansement",
+    "Une plaie du pied qui cicatrise lentement à cause du diabète."
+   ],
+   [
+    "lumiere",
+    "La lumière rouge stimule la réparation de la peau."
+   ],
+   [
+    "valide",
+    "Plusieurs méta-analyses favorables ; recommandée par un consensus international (2025)."
+   ]
+  ],
+  "seance": {
+   "duree": "Quelques minutes",
+   "ou": "Cabinet ou consultation de plaies",
+   "sensation": "Rien",
+   "qui": "Un soignant formé (infirmier, podologue, médecin)"
+  },
+  "calendrier": {
+   "par_semaine": 3,
+   "semaines": 4,
+   "texte": "Trois séances par semaine pendant au moins un mois."
+  },
+  "attentes": "La plaie se referme plus vite chez beaucoup de patients, toujours en complément des soins habituels.",
+  "securite": [
+   "Indispensable : décharger le pied (ne pas appuyer dessus) et équilibrer le diabète.",
+   "La lumière ne remplace pas les pansements.",
+   "Surveillez tout signe d'infection."
+  ],
+  "faq": [
+   [
+    "Est-ce que ça évite l'amputation ?",
+    "La lumière aide la cicatrisation ; la prévention repose sur l'ensemble des soins du pied."
+   ],
+   [
+    "Peut-on le faire à la maison ?",
+    "Des appareils existent, mais le suivi par un professionnel reste essentiel."
+   ]
+  ],
+  "sources": [
+   "32394760",
+   "40253006"
+  ]
+ },
+ {
+  "id": "cheveux",
+  "titre": "Ralentir la chute de cheveux",
+  "sous_titre": "L'alopécie androgénétique",
+  "topic": "dermatologie",
+  "ctx": [
+   "alopécie"
+  ],
+  "illus": "tete",
+  "couleur": "#e6a429",
+  "niveau": "recommandée",
+  "messages": [
+   [
+    "cheveu",
+    "Cheveux qui s'affinent et se raréfient (homme et femme)."
+   ],
+   [
+    "maison",
+    "Casque, bonnet ou peigne lumineux utilisés à la maison."
+   ],
+   [
+    "valide",
+    "Essais contre placebo positifs ; reconnue par des recommandations dermatologiques."
+   ]
+  ],
+  "seance": {
+   "duree": "10 à 25 minutes selon l'appareil",
+   "ou": "À la maison",
+   "sensation": "Rien",
+   "qui": "Vous-même, après conseil d'un dermatologue"
+  },
+  "calendrier": {
+   "par_semaine": 3,
+   "semaines": 16,
+   "texte": "Plusieurs fois par semaine pendant au moins 4 à 6 mois."
+  },
+  "attentes": "Les premiers résultats se voient après 3 à 6 mois : moins de chute et des cheveux un peu plus denses. L'effet est modeste et s'arrête si l'on arrête.",
+  "securite": [
+   "Indolore.",
+   "Suivez le mode d'emploi de l'appareil.",
+   "Peut s'associer au minoxidil sur avis médical."
+  ],
+  "faq": [
+   [
+    "Est-ce que ça marche pour la pelade ?",
+    "Les données concernent surtout la chute de cheveux hormonale (androgénétique)."
+   ],
+   [
+    "Et après une chimiothérapie ?",
+    "Les essais pour prévenir la chute liée à la chimiothérapie sont pour l'instant décevants."
+   ]
+  ],
+  "sources": [
+   "29863806",
+   "40253006"
+  ]
+ },
+ {
+  "id": "secheresse-vaginale",
+  "titre": "Améliorer la sécheresse vaginale de la ménopause",
+  "sous_titre": "Le syndrome génito-urinaire de la ménopause",
+  "topic": "gynecologie",
+  "ctx": [
+   "GSM",
+   "onco"
+  ],
+  "illus": "fleur",
+  "couleur": "#c2185b",
+  "niveau": "prometteuse",
+  "messages": [
+   [
+    "goutte",
+    "Sécheresse, brûlures, douleurs aux rapports, fuites urinaires après la ménopause."
+   ],
+   [
+    "lumiere",
+    "Une petite sonde lumineuse douce est utilisée au cabinet."
+   ],
+   [
+    "loupe",
+    "Premiers essais contre placebo positifs ; intéressant notamment quand les hormones sont déconseillées."
+   ]
+  ],
+  "seance": {
+   "duree": "Environ 5 à 10 minutes",
+   "ou": "Cabinet de gynécologie ou de sage-femme",
+   "sensation": "Rien ou une légère chaleur",
+   "qui": "Un gynécologue, une sage-femme"
+  },
+  "calendrier": {
+   "par_semaine": 1,
+   "semaines": 8,
+   "texte": "Environ 8 séances, souvent une par semaine."
+  },
+  "attentes": "L'amélioration apparaît au fil des séances ; les études mesurent un retour de l'hydratation et de la souplesse des tissus.",
+  "securite": [
+   "Ce n'est pas un laser qui brûle ou abîme les tissus (contrairement aux lasers CO2).",
+   "Utile après un cancer du sein, en accord avec votre oncologue.",
+   "Signalez toute infection en cours."
+  ],
+  "faq": [
+   [
+    "Est-ce douloureux ?",
+    "Non, la séance est généralement bien tolérée."
+   ],
+   [
+    "Combien de temps dure l'effet ?",
+    "Les études ont surtout un recul de quelques mois."
+   ]
+  ],
+  "sources": [
+   "42329990",
+   "42228167"
+  ]
+ },
+ {
+  "id": "dmla",
+  "titre": "Freiner la DMLA sèche",
+  "sous_titre": "La dégénérescence maculaire liée à l'âge",
+  "topic": "ophtalmologie",
+  "ctx": [
+   "DMLA"
+  ],
+  "illus": "oeil",
+  "couleur": "#0e8a9a",
+  "niveau": "prometteuse",
+  "messages": [
+   [
+    "oeil",
+    "La DMLA sèche abîme le centre de la vision, peu à peu."
+   ],
+   [
+    "lumiere",
+    "Un appareil spécial envoie trois couleurs de lumière douce vers la rétine."
+   ],
+   [
+    "loupe",
+    "Les essais montrent une meilleure vision et moins d'évolution vers l'atrophie à 2 ans."
+   ]
+  ],
+  "seance": {
+   "duree": "Environ 5 minutes par œil",
+   "ou": "Cabinet d'ophtalmologie",
+   "sensation": "Une lumière vive mais pas douloureuse",
+   "qui": "Un ophtalmologiste ou un orthoptiste"
+  },
+  "calendrier": {
+   "par_semaine": 3,
+   "semaines": 3,
+   "texte": "Une série de 9 séances en 3 à 5 semaines, à renouveler environ tous les 4 mois."
+  },
+  "attentes": "Les effets apparaissent sur plusieurs mois ; il faut renouveler les séries pour les maintenir.",
+  "securite": [
+   "Uniquement avec un appareil ophtalmologique dédié : n'utilisez jamais une autre source lumineuse dans les yeux.",
+   "Ne concerne pas la DMLA humide, qui a ses propres traitements.",
+   "Suivi ophtalmologique régulier."
+  ],
+  "faq": [
+   [
+    "Est-ce que ça guérit la DMLA ?",
+    "Non, l'objectif est de freiner l'évolution et d'améliorer un peu la vision."
+   ],
+   [
+    "Est-ce disponible partout ?",
+    "Non, l'appareil n'est proposé que dans certains centres."
+   ]
+  ],
+  "sources": [
+   "37972955",
+   "41791029"
+  ]
+ },
+ {
+  "id": "myopie",
+  "titre": "Freiner la myopie chez l'enfant",
+  "sous_titre": "La myopie de l'enfant",
+  "topic": "ophtalmologie",
+  "ctx": [
+   "myopie"
+  ],
+  "illus": "oeil-enfant",
+  "couleur": "#e0302f",
+  "niveau": "prometteuse",
+  "messages": [
+   [
+    "oeil",
+    "La myopie de l'enfant s'aggrave souvent pendant la croissance."
+   ],
+   [
+    "lumiere",
+    "Regarder une lumière rouge douce 3 minutes, 2 fois par jour, à la maison."
+   ],
+   [
+    "loupe",
+    "Les études montrent un net ralentissement, mais la sécurité de la rétine doit être surveillée."
+   ]
+  ],
+  "seance": {
+   "duree": "3 minutes",
+   "ou": "À la maison, avec un appareil prescrit",
+   "sensation": "Une lumière rouge vive, avec parfois une image rémanente brève",
+   "qui": "L'enfant, sous la surveillance d'un adulte"
+  },
+  "calendrier": {
+   "par_semaine": 5,
+   "semaines": 12,
+   "texte": "2 séances de 3 minutes par jour (au moins 4 heures d'écart), 5 jours sur 7, pendant plusieurs mois."
+  },
+  "attentes": "Le ralentissement de la myopie se voit dès quelques mois. À l'arrêt, la myopie peut reprendre : l'arrêt doit être progressif et décidé avec l'ophtalmologiste.",
+  "securite": [
+   "Uniquement avec un appareil prescrit et un suivi ophtalmologique (fond d'œil, OCT).",
+   "Arrêtez et consultez si l'image rémanente dure plus de quelques minutes ou si la vision baisse.",
+   "Ne jamais utiliser une autre lumière ou un laser non prévu pour cet usage."
+  ],
+  "faq": [
+   [
+    "Est-ce mieux que les lunettes spéciales ou l'atropine ?",
+    "Les études la placent parmi les options efficaces ; elle peut s'y associer."
+   ],
+   [
+    "Est-ce sans risque ?",
+    "Aucune lésion grave n'a été démontrée, mais le recul est limité : la surveillance est indispensable."
+   ]
+  ],
+  "sources": [
+   "34863776",
+   "39672511",
+   "41072941"
+  ]
+ },
+ {
+  "id": "dents-sagesse",
+  "titre": "Moins de douleur et de gonflement après l'extraction des dents de sagesse",
+  "sous_titre": "Après une chirurgie dentaire",
+  "topic": "odontologie",
+  "ctx": [
+   "chirurgie"
+  ],
+  "illus": "dent",
+  "couleur": "#8a5cf6",
+  "niveau": "prometteuse",
+  "messages": [
+   [
+    "dent",
+    "Douleur, joue gonflée et bouche difficile à ouvrir après l'extraction."
+   ],
+   [
+    "lumiere",
+    "La lumière est appliquée dans la bouche et sur la joue, juste après l'intervention."
+   ],
+   [
+    "loupe",
+    "De nombreuses études montrent moins de douleur ; l'effet sur le gonflement est plus variable."
+   ]
+  ],
+  "seance": {
+   "duree": "Quelques minutes",
+   "ou": "Au cabinet dentaire, juste après l'intervention",
+   "sensation": "Rien",
+   "qui": "Votre chirurgien-dentiste"
+  },
+  "calendrier": {
+   "par_semaine": 2,
+   "semaines": 1,
+   "texte": "Une séance juste après l'intervention, parfois répétée les jours suivants."
+  },
+  "attentes": "Le bénéfice se ressent dans les premiers jours, en complément des antalgiques prescrits.",
+  "securite": [
+   "Lunettes de protection pendant la séance.",
+   "Suivez les consignes habituelles après l'extraction.",
+   "Consultez en cas de fièvre ou de douleur qui augmente après 3 jours."
+  ],
+  "faq": [
+   [
+    "Est-ce que ça remplace les antidouleurs ?",
+    "Non, cela peut aider à en prendre moins, mais ne les remplace pas."
+   ],
+   [
+    "Est-ce utile pour les autres soins dentaires ?",
+    "Des études existent (orthodontie, implants, anesthésie) avec des résultats variables."
+   ]
+  ],
+  "sources": []
+ },
+ {
+  "id": "memoire",
+  "titre": "Stimuler la mémoire en cas de trouble cognitif léger",
+  "sous_titre": "Le trouble cognitif léger",
+  "topic": "neurologie",
+  "ctx": [
+   "démences"
+  ],
+  "illus": "cerveau",
+  "couleur": "#6a4bc4",
+  "niveau": "prometteuse",
+  "messages": [
+   [
+    "cerveau",
+    "Oublis plus fréquents, difficultés de concentration, sans démence."
+   ],
+   [
+    "maison",
+    "Un casque de lumière infrarouge utilisé à la maison."
+   ],
+   [
+    "loupe",
+    "Plusieurs essais contre placebo sont positifs ; les données restent récentes."
+   ]
+  ],
+  "seance": {
+   "duree": "10 à 20 minutes",
+   "ou": "À la maison",
+   "sensation": "Rien, parfois une légère chaleur",
+   "qui": "Vous-même ou un proche"
+  },
+  "calendrier": {
+   "par_semaine": 5,
+   "semaines": 12,
+   "texte": "Des séances quotidiennes ou plusieurs fois par semaine pendant 8 à 12 semaines."
+  },
+  "attentes": "Les essais mesurent une amélioration de la mémoire et de l'attention après quelques semaines. Les effets à long terme sont encore inconnus.",
+  "securite": [
+   "Bien tolérée dans les études.",
+   "Ne remplace pas le suivi neurologique ni la stimulation cognitive.",
+   "Prudence en cas d'épilepsie sensible à la lumière : demandez l'avis de votre médecin."
+  ],
+  "faq": [
+   [
+    "Est-ce que ça prévient la maladie d'Alzheimer ?",
+    "Ce n'est pas démontré ; les essais en cours cherchent à le savoir."
+   ],
+   [
+    "Et dans la démence avérée ?",
+    "Les résultats sont moins nets qu'au stade du trouble léger."
+   ]
+  ],
+  "sources": [
+   "42024020",
+   "39423445",
+   "36371017"
+  ]
+ }
+]

@@ -1,0 +1,112 @@
+[
+ {
+  "ctx": "plaies",
+  "indication": "Ulcère du pied diabétique",
+  "niveau": "recommandée",
+  "resume": "Méta-analyses favorables et consensus JAAD 2025 ; une méta-analyse propose des paramètres pratiques.",
+  "params": {
+   "Longueur d'onde": "632,8–685 nm (rouge)",
+   "Puissance": "Environ 50 mW/cm²",
+   "Dose": "3–6 J/cm²",
+   "Zone": "Lit et berges de l'ulcère",
+   "Séances": "3 fois par semaine pendant un mois",
+   "Appareil": "Laser basse énergie ou LED"
+  },
+  "conseils": [
+   "Toujours en complément de la décharge et des soins locaux."
+  ],
+  "prudence": [],
+  "sources": [
+   "32394760",
+   "40253006"
+  ]
+ },
+ {
+  "ctx": "plaies",
+  "indication": "Escarres",
+  "niveau": "prometteuse",
+  "resume": "Seul le rouge à 658 nm augmente le taux de guérison complète à un mois ; l'infrarouge n'est pas supérieur.",
+  "params": {
+   "Longueur d'onde": "658 nm",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Plaie",
+   "Séances": "Plusieurs séances par semaine",
+   "Appareil": "Laser ou LED rouge ; lumière bleue (EmoLED) au stade 2–3"
+  },
+  "conseils": [],
+  "prudence": [
+   "Ulcère veineux : pas d'effet démontré."
+  ],
+  "sources": [
+   "28116536",
+   "31550398"
+  ]
+ },
+ {
+  "ctx": "radiodermite",
+  "indication": "Prévention de la radiodermite du sein",
+  "niveau": "recommandée",
+  "resume": "La MASCC (2023) retient la PBM pour prévenir la radiodermite aiguë du sein ; à débuter avec la radiothérapie.",
+  "params": {
+   "Longueur d'onde": "808 + 660 nm (protocole TRANSDERMIS)",
+   "Puissance": "—",
+   "Dose": "Voir les paramètres WALT",
+   "Zone": "Sein et paroi thoracique irradiés",
+   "Séances": "2 à 3 séances par semaine dès le début de la radiothérapie",
+   "Appareil": "Laser ou LED"
+  },
+  "conseils": [],
+  "prudence": [
+   "Résultats moins nets en radiothérapie hypofractionnée."
+  ],
+  "sources": [
+   "36990615",
+   "36952036",
+   "36110957"
+  ]
+ },
+ {
+  "ctx": "alopécie",
+  "indication": "Alopécie androgénétique",
+  "niveau": "recommandée",
+  "resume": "Essais contre simulation positifs depuis 2013 ; recommandations japonaises 2017 et consensus JAAD 2025.",
+  "params": {
+   "Longueur d'onde": "650–680 nm (le plus souvent 655 nm)",
+   "Puissance": "Faible (appareils grand public)",
+   "Dose": "—",
+   "Zone": "Cuir chevelu",
+   "Séances": "À domicile, plusieurs fois par semaine pendant au moins 16 à 24 semaines",
+   "Appareil": "Casque, bonnet ou peigne laser ou LED"
+  },
+  "conseils": [
+   "Peut s'associer au minoxidil."
+  ],
+  "prudence": [
+   "Effet modeste ; l'arrêt entraîne une reprise de la chute."
+  ],
+  "sources": [
+   "29863806",
+   "40253006"
+  ]
+ },
+ {
+  "ctx": "infections",
+  "indication": "Herpès labial récidivant",
+  "niveau": "prometteuse",
+  "resume": "Le laser 670 nm accélère la guérison et espace les récidives (232 patients) ; méta-analyses favorables.",
+  "params": {
+   "Longueur d'onde": "670 nm (rouge) ; 1 072 nm étudié",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Lésion et zone de récidive",
+   "Séances": "Dès les prodromes, puis entretien préventif",
+   "Appareil": "Laser basse énergie"
+  },
+  "conseils": [],
+  "prudence": [],
+  "sources": [
+   "22047597"
+  ]
+ }
+]

@@ -1,0 +1,73 @@
+[
+ {
+  "ctx": "lymphœdème",
+  "indication": "Lymphœdème du bras après cancer du sein",
+  "niveau": "prometteuse",
+  "resume": "Preuves modérées : réduction du volume et de la dureté des tissus. Deux cycles sont nécessaires ; les cures longues et rapprochées font mieux.",
+  "params": {
+   "Longueur d'onde": "904 nm (essais fondateurs) ; rouge et proche infrarouge",
+   "Puissance": "—",
+   "Dose": "1–2 J/cm² par point",
+   "Zone": "Région axillaire et zones fibreuses du bras",
+   "Séances": "12 séances en 4 semaines (3 par semaine), à renouveler",
+   "Appareil": "Laser basse énergie"
+  },
+  "conseils": [
+   "En complément de la thérapie décongestive (drainage, bandages)."
+  ],
+  "prudence": [
+   "Les cures courtes (8 séances) ne suffisent pas."
+  ],
+  "sources": [
+   "22875413",
+   "12973834",
+   "38129368",
+   "19878027"
+  ]
+ },
+ {
+  "ctx": "xérostomie",
+  "indication": "Xérostomie et hyposialie de la radiothérapie ORL",
+  "niveau": "prometteuse",
+  "resume": "Les paramètres les plus prometteurs : rouge à proche infrarouge, 2 à 3 séances par semaine, en commençant avant les lésions radiques, sur l'ensemble des glandes.",
+  "params": {
+   "Longueur d'onde": "630–830 nm",
+   "Puissance": "—",
+   "Dose": "2–10 J/cm²",
+   "Zone": "Glandes parotides et sous-mandibulaires (extrabuccal) ± intrabuccal",
+   "Séances": "2 à 3 fois par semaine pendant la radiothérapie",
+   "Appareil": "LED grande surface ou laser"
+  },
+  "conseils": [],
+  "prudence": [
+   "La pilocarpine reste la première ligne."
+  ],
+  "sources": [
+   "38189964",
+   "33039721",
+   "27196626"
+  ]
+ },
+ {
+  "ctx": "trismus",
+  "indication": "Trismus radio-induit",
+  "niveau": "prometteuse",
+  "resume": "Associée à un dispositif d'ouverture buccale, la PBM donne l'amélioration la plus rapide.",
+  "params": {
+   "Longueur d'onde": "—",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Muscles masticateurs",
+   "Séances": "Pendant et après la radiothérapie",
+   "Appareil": "Laser ou LED"
+  },
+  "conseils": [
+   "Toujours avec la rééducation de l'ouverture buccale."
+  ],
+  "prudence": [],
+  "sources": [
+   "40038715",
+   "41826477"
+  ]
+ }
+]

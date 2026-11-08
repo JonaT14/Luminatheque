@@ -1,0 +1,69 @@
+[
+ {
+  "ctx": "démences",
+  "indication": "Trouble cognitif léger et déclin cognitif",
+  "niveau": "prometteuse",
+  "resume": "Essais contre sham positifs dans le trouble cognitif léger, dont un essai confirmatoire en 2026 ; le protocole le plus courant est en proche infrarouge transcrânien.",
+  "params": {
+   "Longueur d'onde": "810 nm (proche infrarouge)",
+   "Puissance": "20–25 mW/cm²",
+   "Dose": "1–10 J/cm²",
+   "Zone": "Front et cuir chevelu (transcrânien) ± intranasal",
+   "Séances": "Séances quotidiennes ou plusieurs fois par semaine pendant 8 à 12 semaines, à domicile",
+   "Appareil": "Casque transcrânien"
+  },
+  "conseils": [],
+  "prudence": [
+   "Doubler la dose d'une séance n'apporte rien."
+  ],
+  "sources": [
+   "36371017",
+   "42024020",
+   "39177599"
+  ]
+ },
+ {
+  "ctx": "humeur",
+  "indication": "Dépression",
+  "niveau": "prometteuse",
+  "resume": "Les méta-analyses associent l'effet à une dose modérée répétée ; une dose trop faible est inefficace.",
+  "params": {
+   "Longueur d'onde": "808 nm",
+   "Puissance": "50–100 mW/cm²",
+   "Dose": "Environ 1 J/cm² par séance",
+   "Zone": "Cortex préfrontal (front)",
+   "Séances": "Au moins 3 séances par semaine, plus de 15 séances",
+   "Appareil": "Laser ou casque LED transcrânien"
+  },
+  "conseils": [],
+  "prudence": [
+   "Très faible dose inefficace (ELATED-3)."
+  ],
+  "sources": [
+   "38356614",
+   "35950904"
+  ]
+ },
+ {
+  "ctx": "parkinson",
+  "indication": "Maladie de Parkinson",
+  "niveau": "incertaine",
+  "resume": "Le plus grand essai est négatif en double aveugle ; un signal apparaît chez les patients qui poursuivent jusqu'à 48 semaines.",
+  "params": {
+   "Longueur d'onde": "635 + 810 nm",
+   "Puissance": "—",
+   "Dose": "—",
+   "Zone": "Tête, nuque et abdomen",
+   "Séances": "24 min par jour, 6 jours sur 7, au moins 12 semaines",
+   "Appareil": "Casque LED à domicile"
+  },
+  "conseils": [],
+  "prudence": [
+   "Effet placebo important."
+  ],
+  "sources": [
+   "37109183",
+   "41226860"
+  ]
+ }
+]

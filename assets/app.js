@@ -58,7 +58,7 @@ const state = {
   sort: "date",
   cardLevel: new Map(),
   selected: new Set(store.get("selected", [])),
-  synTab: "global", essTab: "now", essCtx: "", essQ: "",
+  synTab: "global", essTab: "now", essCtx: "", essQ: "", devKind: "type", devQ: "", devTopic: "", parScope: "topic",
   cmp: null,
 };
 const topic = () => D.topics.find((t) => t.id === state.topic) || D.topics[0];
@@ -376,7 +376,7 @@ function chartEffects(list) {
 
 /* ---------------- vues ---------------- */
 const app = () => $("#app");
-const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", essais: "Études en cours", methode: "Méthode" };
+const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", essais: "Études en cours", appareils: "Appareils", parametres: "Paramètres", patients: "Fiches patients", methode: "Méthode" };
 function setNav(id) {
   $$("[data-nav]").forEach((a) => a.setAttribute("aria-current", a.dataset.nav === id ? "page" : "false"));
   const c = $("#crumb"); if (c) c.innerHTML = `${esc(topic().label)} <span aria-hidden="true">/</span> <b>${NAV_LABEL[id] || ""}</b>`;
@@ -705,6 +705,173 @@ async function viewEssais() {
   </div>`;
 }
 
+
+/* ---------------- recherche par appareil ---------------- */
+const DEV_ICON = {
+  laser: '<path d="M4 18 14 8"/><path d="M14 8l2-2 2 2-2 2z"/><path d="M17 4l1-1M20 7l1-1M19 2v2M22 5h-2"/>',
+  led: '<rect x="4" y="5" width="16" height="14" rx="3"/><circle cx="9" cy="10" r="1.3"/><circle cx="15" cy="10" r="1.3"/><circle cx="9" cy="14.5" r="1.3"/><circle cx="15" cy="14.5" r="1.3"/>',
+  casque: '<path d="M5 14a7 7 0 0 1 14 0v2H5z"/><path d="M8 16v3M16 16v3"/><path d="M9 8l-1-3M12 7V4M15 8l1-3"/>',
+  masque: '<path d="M5 6c4-2 10-2 14 0v6c0 4-3 7-7 7s-7-3-7-7z"/><circle cx="9.5" cy="10.5" r="1.4"/><circle cx="14.5" cy="10.5" r="1.4"/>',
+  acupuncture: '<circle cx="12" cy="14" r="2"/><path d="M12 3v7M6 8l3 3M18 8l-3 3"/><path d="M7 19h10"/>',
+  sonde: '<rect x="9" y="3" width="6" height="12" rx="3"/><path d="M12 15v6"/><path d="M6 9H4M20 9h-2"/>',
+  sang: '<path d="M12 3c3 4 6 7.5 6 11a6 6 0 0 1-12 0c0-3.5 3-7 6-11z"/><path d="M9 14h6M12 11v6"/>',
+  oeil: '<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+  corps: '<path d="M3 16h18M5 16v3M19 16v3"/><circle cx="7" cy="12" r="2"/><path d="M10 13h9"/><path d="M5 7h14" stroke-dasharray="2 2"/>',
+  domicile: '<path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-5h4v5"/>',
+};
+const USAGE = { cabinet: "Au cabinet", domicile: "À domicile", "les deux": "Cabinet et domicile" };
+const topicShort = (id) => D.topics.find((t) => t.id === id)?.short || id;
+async function ensureDevices() { if (!window.LUMINA_D && D.devices_file) await loadScript(D.devices_file); return window.LUMINA_D || []; }
+function devIcon(k, s = 22) { return `<svg class="dev-ic" width="${s}" height="${s}" viewBox="0 0 24 24" aria-hidden="true">${DEV_ICON[k] || DEV_ICON.laser}</svg>`; }
+function effBar(xs) {
+  const n = xs.filter((h) => h.c).length; if (!n) return "";
+  return `<div class="effbar" role="img" aria-label="Résultats des fiches">${Object.keys(EFFECTS).map((k) => { const v = xs.filter((h) => h.c && h.e === k).length; return v ? `<i data-e="${k}" style="flex:${v}" title="${EFFECTS[k][0]} : ${v}"></i>` : ""; }).join("")}</div>`;
+}
+async function viewDevices(sel) {
+  setNav("appareils");
+  app().innerHTML = `<div class="empty">Chargement des appareils…</div>`;
+  let devs; try { devs = await ensureDevices(); } catch { app().innerHTML = `<div class="empty">Index des appareils indisponible. Rechargez la page.</div>`; return; }
+  const kind = state.devKind, q = state.devQ.toLowerCase(), tf = state.devTopic;
+  const list = devs.filter((d) => d.kind === kind && (!tf || d.topics[tf] || d.trials.some((x) => x.t === tf)) && (!q || [d.nom, d.fabricant, d.description, d.lumiere].join(" ").toLowerCase().includes(q)))
+    .sort((a, b) => b.nc - a.nc || b.n - a.n);
+  const d = sel && devs.find((x) => x.id === sel);
+  let detail = "";
+  if (d) {
+    const studies = d.studies.filter((h) => !tf || h.t === tf);
+    const byTopic = {}; studies.forEach((h) => (byTopic[h.t] = byTopic[h.t] || []).push(h));
+    const trials = d.trials.filter((x) => !tf || x.t === tf);
+    const maxT = Math.max(...Object.values(d.topics), 1);
+    detail = `<section class="panel dev-detail" id="dev-detail">
+      <div class="panel-head"><div style="display:flex;gap:14px;align-items:center">${devIcon(d.icon, 34)}<div style="display:grid;gap:4px"><span class="eyebrow">${d.kind === "marque" ? esc(d.fabricant || "Marque") : "Type d'appareil"}</span><h2>${esc(d.nom)}</h2></div></div><a class="btn small" href="#appareils">Fermer</a></div>
+      <p class="lead" style="max-width:75ch;font-size:1rem">${esc(d.description)}</p>
+      <div class="dev-facts"><span><b>Lumière</b>${esc(d.lumiere)}</span><span><b>Usage</b>${USAGE[d.usage] || "—"}</span><span><b>Études citant l'appareil</b>${d.n}</span><span><b>Fiches rédigées</b>${d.nc}</span><span><b>Essais en cours</b>${d.trials.length}</span></div>
+      <div class="grid-2" style="align-items:start">
+        <div><h3 style="margin-bottom:10px">Par thème</h3><div class="bars-h">${Object.entries(d.topics).sort((a, b) => b[1] - a[1]).map(([t, v]) => `<div class="row"><span>${esc(topicShort(t))}</span><span class="track"><i style="width:${(100 * v / maxT).toFixed(1)}%"></i></span><b class="mono">${v}</b></div>`).join("")}</div></div>
+        <div><h3 style="margin-bottom:10px">Résultats des fiches</h3>${effBar(d.studies) || '<p class="muted">Aucune fiche rédigée ne cite cet appareil.</p>'}
+          <p class="muted" style="font-size:.8rem;margin-top:8px">${Object.keys(EFFECTS).map((k) => { const v = d.studies.filter((h) => h.c && h.e === k).length; return v ? `${EFFECTS[k][0]} : ${v}` : ""; }).filter(Boolean).join(" · ")}</p></div>
+      </div>
+      ${Object.keys(byTopic).length ? `<h3 style="margin:18px 0 8px">${d.kind === "marque" ? "Études qui citent l'appareil" : "Fiches rédigées utilisant ce type d'appareil"}</h3>${Object.entries(byTopic).map(([t, xs]) => `<details class="dev-group" ${Object.keys(byTopic).length < 3 ? "open" : ""}><summary><b>${esc(topicShort(t))}</b> <span class="muted">· ${xs.length}</span></summary><ul class="plist">${xs.slice(0, 150).map((h) => `<li><a href="#article-${h.p}">${esc(h.ti)}</a> <span class="muted">· ${h.y} · ${esc(TYPES[h.ty]?.[0] || h.ty)}</span>${h.c && EFFECTS[h.e] ? ` <span class="eff" data-e="${h.e}">${EFF_ICON[h.e]}${EFFECTS[h.e][0]}</span>` : ""}</li>`).join("")}</ul></details>`).join("")}` : ""}
+      ${trials.length ? `<h3 style="margin:18px 0 8px">Essais en cours ou en construction</h3><ul class="plist">${trials.map((x) => `<li><a href="https://clinicaltrials.gov/study/${x.n}" target="_blank" rel="noopener">${esc(x.ti)}</a> <span class="muted">· ${esc(topicShort(x.t))} · ${esc((TRIAL_STATUS[x.st] || [x.st])[0])}</span></li>`).join("")}</ul>` : ""}
+      <p class="muted" style="font-size:.78rem;margin-top:14px">Détection automatique du nom de l'appareil dans le titre et le résumé : une étude peut citer un appareil sans l'avoir utilisé, et beaucoup d'articles ne nomment pas leur matériel.</p>
+    </section>`;
+  }
+  const topicsWith = D.topics.filter((t) => devs.some((x) => x.kind === kind && x.topics[t.id]));
+  app().innerHTML = `<div class="view">
+    <div style="display:grid;gap:12px"><span class="eyebrow">Appareils · tous thèmes</span><h1>Recherche par appareil</h1>
+      <p class="lead" style="max-width:72ch">Retrouvez les études et les essais en cours selon le type de matériel (laser haute intensité, casque, masque LED…) ou la marque citée dans les articles.</p></div>
+    ${detail}
+    <div class="ess-bar"><div class="syn-tabs">${[["type", "Types d'appareils"], ["marque", "Marques citées"]].map(([k, l]) => `<button class="chip" data-devkind="${k}" aria-pressed="${kind === k}">${l}<span class="n">${devs.filter((x) => x.kind === k).length}</span></button>`).join("")}</div>
+      <input class="ess-q" id="devq" type="search" placeholder="Rechercher un appareil, un fabricant, une longueur d'onde…" value="${esc(state.devQ)}" aria-label="Rechercher un appareil"></div>
+    <div class="chips"><button class="chip" data-devtopic="" aria-pressed="${!tf}">Tous les thèmes</button>${topicsWith.map((t) => `<button class="chip" data-devtopic="${t.id}" aria-pressed="${tf === t.id}">${esc(t.short)}</button>`).join("")}</div>
+    <div class="dev-grid">${list.map((x) => `<a class="card dev-card" href="#appareil-${x.id}" aria-current="${x.id === sel}">
+      <div class="card-top"><div style="display:flex;gap:10px;align-items:center">${devIcon(x.icon)}<div><h3>${esc(x.nom)}</h3>${x.fabricant ? `<span class="src">${esc(x.fabricant)}</span>` : ""}</div></div><span class="badge">${USAGE[x.usage] || ""}</span></div>
+      <p class="src" style="margin:0">${esc(x.lumiere)}</p>
+      <div class="dev-stats"><span><b>${x.n}</b> études</span><span><b>${x.nc}</b> fiches</span>${x.trials.length ? `<span><b>${x.trials.length}</b> essais en cours</span>` : ""}</div>
+      ${effBar(x.studies)}
+      <div class="badges">${Object.entries(x.topics).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([t]) => `<span class="badge">${esc(topicShort(t))}</span>`).join("")}</div></a>`).join("") || '<div class="empty">Aucun appareil pour ce filtre.</div>'}</div>
+  </div>`;
+  if (d) $("#dev-detail")?.scrollIntoView({ block: "start" });
+}
+
+
+/* ---------------- fiches paramètres ---------------- */
+const NIVEAU = { "recommandée": ["Recommandée", "ok"], prometteuse: ["Prometteuse", "pro"], incertaine: ["Incertaine", "unc"], "non démontrée": ["Non démontrée", "no"] };
+const PAR_ICON = {
+  "Longueur d'onde": '<path d="M2 12c2-6 4-6 6 0s4 6 6 0 4-6 6 0"/>',
+  Puissance: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
+  Dose: '<path d="M9 3h6M10 3v5L5 19a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-11V3"/>',
+  Zone: '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/>',
+  "Séances": '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+  Appareil: '<rect x="4" y="7" width="16" height="10" rx="2"/><path d="M8 7V5h8v2M20 12h2"/>',
+};
+const nmColor = (nm) => nm < 450 ? "#5b5bf0" : nm < 495 ? "#2f8fe0" : nm < 570 ? "#2fae5f" : nm < 590 ? "#e6c229" : nm < 620 ? "#f08a24" : nm < 700 ? "#e0302f" : "#7d1f2c";
+function nmSwatches(txt) {
+  const nms = [...new Set((txt.match(/\d[\d  ]{2,4}(?=\s?(?:nm|\+|,|–| ou| et|\)|$))/g) || []).map((x) => +x.replace(/\s/g, "")).filter((n) => n >= 380 && n <= 1300))];
+  return nms.length ? `<span class="nm-sw">${nms.slice(0, 5).map((n) => `<i style="background:${nmColor(n)}" title="${n} nm"></i>`).join("")}</span>` : "";
+}
+function nmStrip(list) {
+  const pts = []; list.forEach((a) => (a.nm || []).forEach((n) => n >= 380 && n <= 1300 && pts.push([n, a.effect])));
+  if (pts.length < 3) return "";
+  const x = (n) => (100 * (n - 380) / 920).toFixed(2);
+  return `<div class="nmstrip" aria-label="Longueurs d'onde des fiches de cette indication"><div class="nmstrip-track"></div>${pts.map(([n, e]) => `<i data-e="${e}" style="left:${x(n)}%" title="${n} nm · ${EFFECTS[e]?.[0] || e}"></i>`).join("")}
+    <span style="left:0">400</span><span style="left:${x(600)}%">600</span><span style="left:${x(800)}%">800</span><span style="left:${x(1000)}%">1 000 nm</span></div>`;
+}
+function paramCard(p, topicId) {
+  const [nl, nc] = NIVEAU[p.niveau] || [p.niveau, "unc"];
+  const list = (window.LUMINA_T?.[topicId] ? all() : []).filter((a) => a.curated !== false && (a.ctx || []).includes(p.ctx));
+  return `<article class="pcard">
+    <header><div style="display:grid;gap:6px"><span class="eyebrow">${esc(topicShort(topicId))} · ${esc(CTX[p.ctx] || p.ctx)}</span><h3>${esc(p.indication)}</h3></div><span class="pniv" data-n="${nc}">${nl}</span></header>
+    <p class="presume">${esc(p.resume)}</p>
+    <div class="pgrid">${Object.entries(p.params).filter(([, v]) => v && v !== "—").map(([k, v]) => `<div class="ptile"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">${PAR_ICON[k] || ""}</svg><div><b>${esc(k)}</b><span>${esc(v)}${k === "Longueur d'onde" ? nmSwatches(v) : ""}</span></div></div>`).join("")}</div>
+    ${p.conseils.length || p.prudence.length ? `<div class="pnotes">${p.conseils.map((c) => `<p class="ok">${esc(c)}</p>`).join("")}${p.prudence.map((c) => `<p class="warn">${esc(c)}</p>`).join("")}</div>` : ""}
+    ${topicId === state.topic && list.length >= 3 ? `<div class="pstrip"><span class="eyebrow">Longueurs d'onde des ${list.length} fiches de ce sous-groupe</span>${nmStrip(list)}</div>` : ""}
+    <footer><span class="eyebrow">Sources</span>${p.sources.map((id) => { const a = byId(id); return `<a class="psrc" href="#article-${id}" title="${esc(a?.title_fr || "")}">${a ? esc((TYPES[a.type]?.[0] || "") + " " + a.year) : "PMID " + id}</a>`; }).join("")}</footer>
+  </article>`;
+}
+function viewParams() {
+  setNav("parametres");
+  const scope = state.parScope, t = topic();
+  const groups = scope === "all" ? D.topics.filter((x) => x.params?.length).map((x) => [x.id, x.params]) : [[t.id, t.params || []]];
+  const n = groups.reduce((s, [, xs]) => s + xs.length, 0);
+  app().innerHTML = `<div class="view">
+    <div style="display:grid;gap:12px"><span class="eyebrow">Paramètres · ${scope === "all" ? "tous les thèmes" : esc(t.label)}</span><h1>Fiches paramètres</h1>
+      <p class="lead" style="max-width:74ch">Pour chaque indication, les réglages associés aux meilleurs résultats dans les recommandations et les méta-analyses : longueur d'onde, puissance, dose, zone, rythme des séances et type d'appareil. Chaque valeur renvoie à ses sources.</p></div>
+    <div class="ess-bar"><div class="syn-tabs">${[["topic", "Ce thème"], ["all", "Tous les thèmes"]].map(([k, l]) => `<button class="chip" data-parscope="${k}" aria-pressed="${scope === k}">${l}</button>`).join("")}</div>
+      <div class="plegend">${Object.values(NIVEAU).map(([l, c]) => `<span class="pniv" data-n="${c}">${l}</span>`).join("")}</div></div>
+    ${groups.map(([id, xs]) => `${scope === "all" ? `<h2 class="pgroup">${esc(D.topics.find((x) => x.id === id).label)}</h2>` : ""}<div class="pcards">${xs.map((p) => paramCard(p, id)).join("")}</div>`).join("") || ""}
+    ${!n ? `<div class="empty">Pas encore de fiche paramètres pour ce thème.</div>` : ""}
+    <div class="callout">Ces repères résument la littérature ; ils ne remplacent ni la formation à l'appareil utilisé, ni les consignes du fabricant, ni le jugement clinique. Les doses s'entendent par point d'application sauf mention contraire.</div>
+  </div>`;
+}
+
+
+/* ---------------- fiches patients ---------------- */
+function viewPatientsList() {
+  setNav("patients"); const PT = window.LUMINA_PT; const xs = D.patients || [];
+  app().innerHTML = `<div class="view">
+    <div style="display:grid;gap:12px"><span class="eyebrow">Fiches patients · à imprimer ou à partager</span><h1>Expliquer la photobiomodulation à vos patients</h1>
+      <p class="lead" style="max-width:72ch">Des fiches illustrées, en langage simple : ce que c'est, comment se passe une séance, ce que disent les études et les précautions. Chaque fiche s'imprime sur une page recto verso.</p></div>
+    <div class="pt-grid">${xs.map((f) => `<a class="pt-card" href="#patient-${f.id}" style="--pc:${f.couleur}">
+      <div class="pt-card-img">${PT.hero(f.illus, f.couleur)}</div>
+      <div class="pt-card-body"><span class="eyebrow">${esc(f.sous_titre)}</span><h3>${esc(f.titre)}</h3><span class="pniv" data-n="${(NIVEAU[f.niveau] || [])[1] || "unc"}">${esc((NIVEAU[f.niveau] || [f.niveau])[0])}</span></div></a>`).join("")}</div>
+  </div>`;
+}
+async function viewPatient(id) {
+  setNav("patients"); const PT = window.LUMINA_PT; const f = (D.patients || []).find((x) => x.id === id);
+  if (!f) return viewPatientsList();
+  try { await ensureTopic(f.topic); } catch { /* compteur indisponible */ }
+  const arts = ((window.LUMINA_T || {})[f.topic] || []).map((a) => hydrate(a, f.topic)).filter((a) => a.curated !== false && (a.ctx || []).some((c) => f.ctx.includes(c)));
+  const fav = arts.filter((a) => a.effect === "favorable").length;
+  const meas = arts.filter((a) => EFFECTS[a.effect]).length;
+  const S = f.seance;
+  app().innerHTML = `<div class="view pt-sheet" style="--pc:${f.couleur}">
+    <div class="pt-actions no-print"><a class="btn small" href="#patients">← Toutes les fiches</a><button class="btn small" data-print>Imprimer la fiche</button><button class="btn small" data-copylink>Copier le lien</button></div>
+    <section class="pt-top">
+      <div class="pt-top-text"><span class="pt-kicker">${esc(f.sous_titre)}</span><h1>${esc(f.titre)}</h1>
+        <p class="pt-def"><b>La photobiomodulation</b> utilise une lumière douce, rouge ou infrarouge, qui ne chauffe pas et ne brûle pas, pour aider les cellules à se réparer et à calmer l'inflammation et la douleur.</p></div>
+      <div class="pt-top-img">${PT.hero(f.illus, f.couleur)}</div>
+    </section>
+    <section class="pt-msgs">${f.messages.map(([ic, t]) => `<div class="pt-msg"><span class="pt-ic">${PT.icon(ic, f.couleur)}</span><p>${esc(t)}</p></div>`).join("")}</section>
+    <section class="pt-block"><h2><span>1</span>Comment ça marche ?</h2>${PT.mechanism()}</section>
+    <section class="pt-block"><h2><span>2</span>Comment se passe une séance ?</h2>
+      <div class="pt-steps">${[["lumiere", "Durée", S.duree], ["maison", "Où", S.ou], ["main", "Ce que l'on ressent", S.sensation], ["valide", "Qui la réalise", S.qui]].map(([ic, k, v]) => `<div class="pt-step"><span class="pt-ic">${PT.icon(ic, f.couleur)}</span><b>${k}</b><p>${esc(v)}</p></div>`).join("")}</div>
+      <div class="pt-calwrap"><div><h3>Le rythme habituel</h3><p>${esc(f.calendrier.texte)}</p><p class="pt-note">${esc(f.attentes)}</p></div>${PT.calendar(f.calendrier, f.couleur)}</div>
+    </section>
+    <section class="pt-block pt-evidence"><h2><span>3</span>Ce que disent les études</h2>
+      <div class="pt-evgrid">${PT.gauge(f.niveau)}
+        <div>${meas ? `<p class="pt-big"><b>${fav}</b> sur <b>${meas}</b></p><p>études analysées sur le site concluent en faveur de la photobiomodulation pour cette indication.</p><div class="pt-evbar"><i style="width:${(100 * fav / meas).toFixed(0)}%"></i></div>` : `<p>Les études sont en cours d'analyse sur le site.</p>`}
+          <p class="pt-note">${esc({ "recommandée": "Les sociétés savantes la recommandent ou la proposent dans cette indication.", prometteuse: "Les résultats sont encourageants mais doivent encore être confirmés par de grands essais.", incertaine: "Les résultats sont contradictoires : parlez-en avec votre soignant.", "non démontrée": "L'efficacité n'est pas démontrée à ce jour." }[f.niveau] || "")}</p></div></div>
+    </section>
+    <section class="pt-block pt-two">
+      <div><h2><span>4</span>Est-ce sans danger ?</h2><ul class="pt-safe">${f.securite.map((t) => `<li>${esc(t)}</li>`).join("")}
+        <li>La séance ne doit jamais viser directement les yeux, sauf appareil ophtalmologique prévu pour cela.</li></ul></div>
+      <div><h2><span>5</span>Vos questions</h2>${f.faq.map(([q, a]) => `<details class="pt-faq" open><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</div>
+    </section>
+    <footer class="pt-foot"><p>Fiche d'information générale réalisée à partir de la littérature scientifique (Luminathèque, ${fmtDate(D.generated)}). Elle ne remplace pas l'avis de votre médecin ou de votre soignant.</p>
+      ${f.sources.length ? `<p class="no-print">Pour les soignants : ${f.sources.map((s) => `<a href="#article-${s}">${s}</a>`).join(", ")} · <a href="#parametres">fiches paramètres</a></p>` : ""}</footer>
+  </div>`;
+}
+
 /* ---------------- comparateur / fusion ---------------- */
 function allWeeks() {
   const have = [...new Set(all().map((a) => a.week))].sort().reverse();
@@ -836,8 +1003,12 @@ async function route() {
     if (!byId(id)) for (const t of D.topics.filter((x) => !isSoon(x))) { await ensureTopic(t.id); if (byId(id)) break; }
     return viewArticle(id);
   }
+  if (h.startsWith("appareil-")) return viewDevices(h.slice(9));
+  if (h === "appareils") return viewDevices();
+  if (h.startsWith("patient-")) return viewPatient(h.slice(8));
+  if (h === "patients") return viewPatientsList();
   if (isSoon() && h !== "methode") return viewSoon(NAV_LABEL[h] ? h : "accueil");
-  await ({ publications: viewPubs, syntheses: viewSyntheses, essais: viewEssais, comparer: viewCompare, methode: viewMethode }[h] || viewHome)();
+  await ({ publications: viewPubs, syntheses: viewSyntheses, essais: viewEssais, parametres: viewParams, comparer: viewCompare, methode: viewMethode }[h] || viewHome)();
   if (!h.startsWith("article-")) $("#selbar")?.toggleAttribute("hidden", !state.selected.size || h === "comparer");
 }
 async function rerender() { const y = scrollY; await route(); scrollTo(0, y); updateSelbar(); }
@@ -869,6 +1040,11 @@ document.addEventListener("click", async (e) => {
   else if ("reset" in d) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : ""); state.q = ""; $("#q").value = ""; rerender(); }
   else if ("togglefilters" in d) { state.filtersOpen = !state.filtersOpen; $(".filters").dataset.collapsed = String(!state.filtersOpen); }
   else if (d.syn) { state.synTab = d.syn; rerender(); }
+  else if ("print" in d) { print(); }
+  else if ("copylink" in d) { try { await navigator.clipboard.writeText(location.href); t.textContent = "Lien copié"; } catch { t.textContent = location.href; } }
+  else if (d.parscope) { state.parScope = d.parscope; rerender(); }
+  else if (d.devkind) { state.devKind = d.devkind; location.hash = "appareils"; rerender(); }
+  else if ("devtopic" in d) { state.devTopic = d.devtopic; rerender(); }
   else if (d.esstab) { state.essTab = d.esstab; rerender(); }
   else if ("essctx" in d) { state.essCtx = d.essctx; rerender(); }
   else if (d.mode) { state.cmp.mode = d.mode; rerender(); }
@@ -908,8 +1084,8 @@ document.addEventListener("change", (e) => {
 });
 let qTimer;
 let essT; document.addEventListener("input", (e) => {
-  if (e.target.id !== "essq") return; clearTimeout(essT);
-  essT = setTimeout(async () => { state.essQ = e.target.value; const pos = e.target.selectionStart; await rerender(); const i = $("#essq"); if (i) { i.focus(); i.setSelectionRange(pos, pos); } }, 220);
+  if (e.target.id !== "essq" && e.target.id !== "devq") return; clearTimeout(essT); const id = e.target.id;
+  essT = setTimeout(async () => { state[id === "essq" ? "essQ" : "devQ"] = e.target.value; const pos = e.target.selectionStart; await rerender(); const i = $("#" + id); if (i) { i.focus(); i.setSelectionRange(pos, pos); } }, 220);
 });
 $("#q").addEventListener("input", (e) => {
   clearTimeout(qTimer); qTimer = setTimeout(() => {
