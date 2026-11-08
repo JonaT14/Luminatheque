@@ -58,7 +58,7 @@ const state = {
   sort: "date",
   cardLevel: new Map(),
   selected: new Set(store.get("selected", [])),
-  synTab: "global", essTab: "now", essCtx: "", essQ: "", devKind: "type", devQ: "", devTopic: "", parScope: "topic",
+  synTab: "global", essTab: "now", essCtx: "", essReg: "", essQ: "", devKind: "type", devQ: "", devTopic: "", parScope: "topic",
   cmp: null,
 };
 const topic = () => D.topics.find((t) => t.id === state.topic) || D.topics[0];
@@ -390,7 +390,7 @@ function renderTopics() {
   const up = $("#side-update"); if (up) up.textContent = `Mise à jour : ${fmtDate(D.generated)}`;
 }
 function setTopic(id) {
-  state.topic = id; store.set("topic", id); INDEX.clear(); state.cmp = null; state.synTab = "global"; state.essCtx = ""; state.cardLevel.clear();
+  state.topic = id; store.set("topic", id); INDEX.clear(); state.cmp = null; state.synTab = "global"; state.essCtx = ""; state.essReg = ""; state.cardLevel.clear();
   for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : "");
   renderTopics(); route(); scrollTo(0, 0);
 }
@@ -434,7 +434,7 @@ function viewHome() {
         <div class="kpi"><b>${list.filter((a) => a.pdf).length}</b><span>PDF en accès libre lisibles sur le site</span></div>
       </div>
       <div class="panel"><div class="panel-head"><h3>Niveaux de preuve</h3><a class="btn small" href="#methode">Comprendre</a></div>${chartPyramid(list)}</div>
-      ${t.trials && t.trials.now + t.trials.soon ? `<a class="panel ess-teaser" href="#essais"><span class="eyebrow">Études en cours</span><span><b>${t.trials.now}</b> essais en cours · <b>${t.trials.soon}</b> projets en construction</span><span class="muted">Promoteurs, investigateurs et pays, d'après le registre ClinicalTrials.gov →</span></a>` : ""}
+      ${t.trials && t.trials.now + t.trials.soon ? `<a class="panel ess-teaser" href="#essais"><span class="eyebrow">Études en cours</span><span><b>${t.trials.now}</b> essais en cours · <b>${t.trials.soon}</b> projets en construction</span><span class="muted">Promoteurs, investigateurs et pays, d'après ClinicalTrials.gov et les registres de l'OMS →</span></a>` : ""}
       <p class="muted" style="font-size:.78rem">Dernière mise à jour : <span class="mono">${fmtDate(D.generated)}</span> · veille ${esc(t.cadence)} · PubMed + Europe PMC</p>
     </div>
   </section>
@@ -623,13 +623,13 @@ function viewSyntheses() {
 }
 
 
-/* ---------------- études en cours & projets en construction (registre ClinicalTrials.gov) ---------------- */
+/* ---------------- études en cours & projets en construction (ClinicalTrials.gov + registres de l'OMS) ---------------- */
 const TRIAL_STATUS = { RECRUITING: ["Recrutement ouvert", "rec"], ENROLLING_BY_INVITATION: ["Inclusion sur invitation", "inv"],
   ACTIVE_NOT_RECRUITING: ["En cours, inclusions closes", "act"], NOT_YET_RECRUITING: ["Pas encore ouvert", "soon"] };
 const SPONSOR_CLASS = { OTHER: "Académique ou hospitalier", INDUSTRY: "Industriel", NIH: "NIH (États-Unis)", FED: "Agence fédérale", OTHER_GOV: "Organisme public", NETWORK: "Réseau de recherche", INDIV: "Investigateur", UNKNOWN: "—" };
 const PHASE = { NA: "Sans phase (dispositif)", EARLY_PHASE1: "Phase 1 précoce", PHASE1: "Phase 1", PHASE2: "Phase 2", PHASE3: "Phase 3", PHASE4: "Phase 4" };
 const MASK = { NONE: "ouvert", SINGLE: "simple aveugle", DOUBLE: "double aveugle", TRIPLE: "triple aveugle", QUADRUPLE: "quadruple aveugle" };
-const COUNTRY_FR = { "United States": "États-Unis", Brazil: "Brésil", France: "France", "Turkey (Türkiye)": "Turquie", Egypt: "Égypte", Italy: "Italie", Taiwan: "Taïwan", China: "Chine", Canada: "Canada", Pakistan: "Pakistan", Belgium: "Belgique", "United Kingdom": "Royaume-Uni", Sweden: "Suède", Australia: "Australie", Iraq: "Irak", Israel: "Israël", Jordan: "Jordanie", "Saudi Arabia": "Arabie saoudite", Chile: "Chili", Indonesia: "Indonésie", Czechia: "Tchéquie", Romania: "Roumanie", Portugal: "Portugal", Poland: "Pologne", Syria: "Syrie", Lebanon: "Liban", "South Korea": "Corée du Sud", Switzerland: "Suisse", Slovenia: "Slovénie", Russia: "Russie", "Puerto Rico": "Porto Rico", Germany: "Allemagne", Spain: "Espagne", Netherlands: "Pays-Bas", Denmark: "Danemark", India: "Inde", Iran: "Iran", Japan: "Japon", Mexico: "Mexique" };
+const COUNTRY_FR = { "Iran (Islamic Republic of)": "Iran", "Korea, Republic of": "Corée du Sud", "Viet Nam": "Viêt Nam", Thailand: "Thaïlande", "New Zealand": "Nouvelle-Zélande", "Sri Lanka": "Sri Lanka", Oman: "Oman", Nepal: "Népal", Bangladesh: "Bangladesh", "Hong Kong": "Hong Kong", "United States": "États-Unis", Brazil: "Brésil", France: "France", "Turkey (Türkiye)": "Turquie", Egypt: "Égypte", Italy: "Italie", Taiwan: "Taïwan", China: "Chine", Canada: "Canada", Pakistan: "Pakistan", Belgium: "Belgique", "United Kingdom": "Royaume-Uni", Sweden: "Suède", Australia: "Australie", Iraq: "Irak", Israel: "Israël", Jordan: "Jordanie", "Saudi Arabia": "Arabie saoudite", Chile: "Chili", Indonesia: "Indonésie", Czechia: "Tchéquie", Romania: "Roumanie", Portugal: "Portugal", Poland: "Pologne", Syria: "Syrie", Lebanon: "Liban", "South Korea": "Corée du Sud", Switzerland: "Suisse", Slovenia: "Slovénie", Russia: "Russie", "Puerto Rico": "Porto Rico", Germany: "Allemagne", Spain: "Espagne", Netherlands: "Pays-Bas", Denmark: "Danemark", India: "Inde", Iran: "Iran", Japan: "Japon", Mexico: "Mexique" };
 const fr = (c) => COUNTRY_FR[c] || c;
 const ymFR = (d) => { if (!d) return "—"; const [y, m] = d.split("-"); return m ? `${["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."][+m - 1]} ${y}` : y; };
 async function ensureTrials() { if (!window.LUMINA_E && D.trials_file) await loadScript(D.trials_file); return window.LUMINA_E?.by_topic?.[state.topic] || []; }
@@ -637,12 +637,13 @@ const shortAff = (a) => { const x = (a || "").split(/[;,]\s*/)[0].trim(); return
 const leadOf = (s) => s.officials?.find((o) => /PRINCIPAL|CHAIR|DIRECTOR/.test(o.role || "")) || s.officials?.[0] || s.responsible;
 function trialCard(s) {
   const [stl, stc] = TRIAL_STATUS[s.status] || [s.status, ""]; const lead = leadOf(s);
-  const design = [s.allocation === "RANDOMIZED" ? "randomisé" : s.allocation === "NON_RANDOMIZED" ? "non randomisé" : s.type === "OBSERVATIONAL" ? "observationnel" : "un seul bras", MASK[s.masking]].filter(Boolean).join(", ");
+  const ct = !s.registry || s.registry === "ClinicalTrials.gov";
+  const design = [s.allocation === "RANDOMIZED" ? "randomisé" : s.allocation === "NON_RANDOMIZED" ? "non randomisé" : s.type === "OBSERVATIONAL" ? "observationnel" : ct ? "un seul bras" : "", MASK[s.masking]].filter(Boolean).join(", ") || "non précisé";
   const phase = (s.phases || []).map((p) => PHASE[p] || p).join(" / ");
   const sites = s.n_sites > 1 ? `${s.n_sites} centres` : s.sites?.[0]?.facility || "";
   return `<article class="card trial" data-st="${stc}">
     <div class="card-top"><div style="display:flex;gap:6px;flex-wrap:wrap"><span class="tstatus" data-st="${stc}"><i></i>${stl}</span><span class="badge">${esc(CTX[s.ctx] || s.ctx)}</span>${s.acronym ? `<span class="badge mono">${esc(s.acronym)}</span>` : ""}</div>
-      <a class="btn small" href="https://clinicaltrials.gov/study/${s.nct}" target="_blank" rel="noopener">${s.nct} ↗</a></div>
+      <a class="btn small" href="${esc(s.url || `https://clinicaltrials.gov/study/${s.nct}`)}" target="_blank" rel="noopener" title="${esc(s.registry || "ClinicalTrials.gov")}">${ct ? "" : `<span class="muted">${esc((s.registry || "").split(" ")[0])} ·</span> `}${esc(s.nct)} ↗</a></div>
     <h3>${esc(s.titre)}</h3><p class="src" lang="en">${esc(s.title)}</p>
     <dl class="tmeta">
       <div><dt>Plan</dt><dd>${esc(design)}${phase ? ` · ${esc(phase)}` : ""}</dd></div>
@@ -651,15 +652,15 @@ function trialCard(s) {
       <div><dt>Pays</dt><dd>${esc((s.countries || []).map(fr).join(", ") || "non précisé")}</dd></div>
     </dl>
     <div class="porteurs"><span class="eyebrow">Porteurs du projet</span>
-      <p><b>${esc(s.sponsor || "—")}</b> <span class="muted">· promoteur ${esc((SPONSOR_CLASS[s.sponsor_class] || "").toLowerCase())}</span></p>
-      ${lead?.name ? `<p>${esc(lead.name)}${lead.affiliation && shortAff(lead.affiliation) !== s.sponsor ? `, <span class="muted">${esc(shortAff(lead.affiliation))}</span>` : ""} <span class="muted">· ${lead.role ? "investigateur principal" : "responsable de l'étude"}</span></p>` : ""}
+      <p><b>${esc(s.sponsor || "—")}</b> <span class="muted">· promoteur${s.sponsor_class ? " " + esc((SPONSOR_CLASS[s.sponsor_class] || "").toLowerCase()) : ""}</span></p>
+      ${lead?.name ? `<p>${esc(lead.name)}${lead.affiliation && shortAff(lead.affiliation) !== s.sponsor ? `, <span class="muted">${esc(shortAff(lead.affiliation))}</span>` : ""} <span class="muted">· ${lead.role === "CONTACT" ? "contact scientifique" : lead.role ? "investigateur principal" : "responsable de l'étude"}</span></p>` : ""}
       ${s.collaborators?.length ? `<p class="muted">Partenaires : ${esc(s.collaborators.join(", "))}</p>` : ""}
       ${sites ? `<p class="muted">Lieu : ${esc(sites)}${s.n_sites === 1 && s.sites[0].city ? `, ${esc(s.sites[0].city)}` : ""}</p>` : ""}</div>
-    <details><summary>Intervention, critère principal et résumé (en anglais)</summary>
+    <details><summary>${ct ? "Intervention, critère principal et résumé (en anglais)" : "Intervention et critère principal (en anglais)"}</summary>
       <p><b>Intervention :</b> ${esc((s.interventions || []).map((i) => i.name).join(" · "))}</p>
       ${s.outcome ? `<p><b>Critère principal :</b> <span lang="en">${esc(s.outcome)}</span></p>` : ""}
-      <p lang="en" class="muted">${esc(s.summary || "")}</p>
-      <p class="muted mono" style="font-size:.72rem">Déclaré le ${fmtDate(s.first_posted)} · mis à jour le ${fmtDate(s.updated)}</p></details>
+      ${ct ? `<p lang="en" class="muted">${esc(s.summary || "")}</p>` : ""}
+      <p class="muted mono" style="font-size:.72rem">${esc(s.registry || "ClinicalTrials.gov")} · déclaré le ${fmtDate(s.first_posted)} · mis à jour le ${fmtDate(s.updated)}</p></details>
   </article>`;
 }
 async function viewEssais() {
@@ -667,7 +668,9 @@ async function viewEssais() {
   app().innerHTML = `<div class="empty">Chargement du registre…</div>`;
   let xs; try { xs = await ensureTrials(); } catch { app().innerHTML = `<div class="empty">Registre indisponible. Rechargez la page.</div>`; return; }
   const q = state.essQ.toLowerCase();
-  const match = (s) => (!state.essCtx || s.ctx === state.essCtx) && (!q || [s.titre, s.title, s.sponsor, s.nct, s.acronym, ...(s.countries || []), ...(s.officials || []).map((o) => o.name + " " + o.affiliation)].join(" ").toLowerCase().includes(q));
+  const regs = [...new Set(xs.map((s) => s.registry || "ClinicalTrials.gov"))].sort((a, b) => (b === "ClinicalTrials.gov") - (a === "ClinicalTrials.gov") || a.localeCompare(b));
+  if (state.essReg && !regs.includes(state.essReg)) state.essReg = "";
+  const match = (s) => (!state.essCtx || s.ctx === state.essCtx) && (!state.essReg || (s.registry || "ClinicalTrials.gov") === state.essReg) && (!q || [s.titre, s.title, s.sponsor, s.nct, s.acronym, s.registry, ...(s.countries || []), ...(s.officials || []).map((o) => o.name + " " + o.affiliation)].join(" ").toLowerCase().includes(q));
   const now = xs.filter((s) => s.status !== "NOT_YET_RECRUITING"), soon = xs.filter((s) => s.status === "NOT_YET_RECRUITING");
   const protos = all().filter((a) => a.type === "protocol" && a.date >= iso(new Date(Date.now() - 3 * 365 * 864e5)));
   const sponsors = new Map(); xs.forEach((s) => { const k = s.sponsor || "—"; const v = sponsors.get(k) || { name: k, cls: s.sponsor_class, n: 0, now: 0, soon: 0, ctx: new Set(), countries: new Set(), people: new Set(), ids: [] };
@@ -688,7 +691,7 @@ async function viewEssais() {
   }
   app().innerHTML = `<div class="view">
     <div style="display:grid;gap:12px"><span class="eyebrow">Études en cours · ${esc(t.label)}</span><h1>Essais en cours et projets en construction</h1>
-      <p class="lead" style="max-width:70ch">Les études de photobiomodulation déclarées au registre international ClinicalTrials.gov qui recrutent, se déroulent ou s'apprêtent à démarrer, avec leurs porteurs. Chaque essai est vérifié et classé à la main ; les résultats paraîtront dans les publications.</p></div>
+      <p class="lead" style="max-width:70ch">Les études de photobiomodulation qui recrutent, se déroulent ou s'apprêtent à démarrer, avec leurs porteurs : registre ClinicalTrials.gov et registres nationaux rassemblés par l'OMS (Brésil, Inde, Iran, Chine, Australie, Royaume-Uni, Corée, Japon…). Chaque essai est vérifié et classé à la main ; les résultats paraîtront dans les publications.</p></div>
     <div class="kpis kpis-4">
       <div class="kpi"><b>${now.length}</b><span>études en cours</span></div>
       <div class="kpi"><b>${recr}</b><span>recrutent en ce moment</span></div>
@@ -698,10 +701,11 @@ async function viewEssais() {
     <div class="ess-bar">
       <div class="syn-tabs">${[["now", "Études en cours", now.length], ["soon", "Projets en construction", soon.length + protos.length], ["porteurs", "Porteurs de projets", sponsors.size]].map(([k, l, n]) => `<button class="chip" data-esstab="${k}" aria-pressed="${tab === k}">${l}<span class="n">${n}</span></button>`).join("")}</div>
       <input class="ess-q" id="essq" type="search" placeholder="Rechercher un porteur, un pays, un essai…" value="${esc(state.essQ)}" aria-label="Rechercher dans les études">
+      ${regs.length > 1 ? `<select class="ess-q" id="essreg" aria-label="Registre" style="max-width:240px"><option value="">Tous les registres (${regs.length})</option>${regs.map((r) => `<option value="${esc(r)}" ${state.essReg === r ? "selected" : ""}>${esc(r)} · ${xs.filter((s) => (s.registry || "ClinicalTrials.gov") === r).length}</option>`).join("")}</select>` : ""}
     </div>
     ${ctxs.length > 1 ? `<div class="chips"><button class="chip" data-essctx="" aria-pressed="${!state.essCtx}">Tous les sous-groupes</button>${ctxs.map((c) => `<button class="chip" data-essctx="${c}" aria-pressed="${state.essCtx === c}">${esc(CTX[c] || c)}<span class="n">${xs.filter((s) => s.ctx === c).length}</span></button>`).join("")}</div>` : ""}
-    ${xs.length ? body : `<div class="empty">Aucune étude de PBM en cours n'est déclarée au registre pour ce thème.</div>`}
-    <p class="muted" style="font-size:.78rem">Source : ClinicalTrials.gov (NLM), relevé du <span class="mono">${fmtDate(fetched)}</span>. Les informations (dates, effectifs, centres) sont celles déclarées par les promoteurs ; pour participer à une étude ou contacter son équipe, suivre le lien du registre.</p>
+    ${xs.length ? body : `<div class="empty">Aucune étude de PBM en cours n'est déclarée aux registres pour ce thème.</div>`}
+    <p class="muted" style="font-size:.78rem">Sources : ClinicalTrials.gov (NLM), relevé du <span class="mono">${fmtDate(fetched)}</span>${window.LUMINA_E?.oms_fetched ? ` ; registres primaires de l'OMS via le portail ICTRP (WHO ICTRP), relevé du <span class="mono">${fmtDate(window.LUMINA_E.oms_fetched)}</span>` : ""}. Les informations (dates, effectifs, centres) sont celles déclarées par les promoteurs ; pour participer à une étude ou contacter son équipe, suivre le lien du registre.</p>
   </div>`;
 }
 
@@ -751,7 +755,7 @@ async function viewDevices(sel) {
           <p class="muted" style="font-size:.8rem;margin-top:8px">${Object.keys(EFFECTS).map((k) => { const v = d.studies.filter((h) => h.c && h.e === k).length; return v ? `${EFFECTS[k][0]} : ${v}` : ""; }).filter(Boolean).join(" · ")}</p></div>
       </div>
       ${Object.keys(byTopic).length ? `<h3 style="margin:18px 0 8px">${d.kind === "marque" ? "Études qui citent l'appareil" : "Fiches rédigées utilisant ce type d'appareil"}</h3>${Object.entries(byTopic).map(([t, xs]) => `<details class="dev-group" ${Object.keys(byTopic).length < 3 ? "open" : ""}><summary><b>${esc(topicShort(t))}</b> <span class="muted">· ${xs.length}</span></summary><ul class="plist">${xs.slice(0, 150).map((h) => `<li><a href="#article-${h.p}">${esc(h.ti)}</a> <span class="muted">· ${h.y} · ${esc(TYPES[h.ty]?.[0] || h.ty)}</span>${h.c && EFFECTS[h.e] ? ` <span class="eff" data-e="${h.e}">${EFF_ICON[h.e]}${EFFECTS[h.e][0]}</span>` : ""}</li>`).join("")}</ul></details>`).join("")}` : ""}
-      ${trials.length ? `<h3 style="margin:18px 0 8px">Essais en cours ou en construction</h3><ul class="plist">${trials.map((x) => `<li><a href="https://clinicaltrials.gov/study/${x.n}" target="_blank" rel="noopener">${esc(x.ti)}</a> <span class="muted">· ${esc(topicShort(x.t))} · ${esc((TRIAL_STATUS[x.st] || [x.st])[0])}</span></li>`).join("")}</ul>` : ""}
+      ${trials.length ? `<h3 style="margin:18px 0 8px">Essais en cours ou en construction</h3><ul class="plist">${trials.map((x) => `<li><a href="${esc(x.u || `https://clinicaltrials.gov/study/${x.n}`)}" target="_blank" rel="noopener">${esc(x.ti)}</a> <span class="muted">· ${esc(topicShort(x.t))} · ${esc((TRIAL_STATUS[x.st] || [x.st])[0])}</span></li>`).join("")}</ul>` : ""}
       <p class="muted" style="font-size:.78rem;margin-top:14px">Détection automatique du nom de l'appareil dans le titre et le résumé : une étude peut citer un appareil sans l'avoir utilisé, et beaucoup d'articles ne nomment pas leur matériel.</p>
     </section>`;
   }
@@ -985,7 +989,7 @@ function viewMethode() {
       <p>Les fiches sont rédigées à partir du résumé PubMed et, pour les articles en accès libre, du texte intégral. Les PDF proviennent du dépôt officiel PMC Open Access de la NLM et ne sont repris que sous licence Creative Commons, avec mention de la licence sur la fiche. Pour les autres articles, le site renvoie vers la source originale (DOI, PubMed).</p>
       <div class="callout">Ce site est un outil de veille et ne remplace pas la lecture critique des articles ni les recommandations (MASCC/ISOO, sociétés savantes). Les chiffres sont recopiés des résumés : en cas de doute, la source originale fait foi.</div></section>
     <section class="panel prose" style="max-width:none"><h2>Études en cours et projets en construction</h2>
-      <p>La rubrique « Études en cours » interroge le registre international <a href="https://clinicaltrials.gov" target="_blank" rel="noopener">ClinicalTrials.gov</a> : études de photobiomodulation qui recrutent, se poursuivent (inclusions closes) ou sont déclarées mais pas encore ouvertes (« projets en construction »). Chaque essai est relu, rattaché à un thème et à un sous-groupe, et reçoit un titre en français ; ceux qui ne relèvent pas de la PBM (lasers ablatifs, lumière visuelle, imagerie proche infrarouge…) sont écartés. Les porteurs (promoteur, investigateur principal, partenaires, centres) sont ceux déclarés au registre. Les protocoles publiés dans une revue apparaissent avec les projets en construction.</p></section>
+      <p>La rubrique « Études en cours » interroge le registre international <a href="https://clinicaltrials.gov" target="_blank" rel="noopener">ClinicalTrials.gov</a> et, via le <a href="https://trialsearch.who.int" target="_blank" rel="noopener">portail ICTRP de l'OMS</a>, les registres nationaux reconnus par l'OMS (ReBEC au Brésil, CTRI en Inde, IRCT en Iran, ChiCTR en Chine, ANZCTR en Australie, ISRCTN, DRKS, CRIS, jRCT, TCTR…), en écartant les doublons : études de photobiomodulation qui recrutent, se poursuivent (inclusions closes) ou sont déclarées mais pas encore ouvertes (« projets en construction »). L'ICTRP ne distingue que « recrute » et « ne recrute pas » : un essai qui ne recrute pas est classé en construction si ses inclusions démarrent bientôt, en cours si elles ont commencé il y a moins d'un an ; un essai qui recrute depuis plus de trois ans est écarté, son statut n'étant souvent plus tenu à jour. Le registre européen CTIS ne contient que des essais de médicaments et aucun essai de PBM. Chaque essai est relu, rattaché à un thème et à un sous-groupe, et reçoit un titre en français ; ceux qui ne relèvent pas de la PBM (lasers ablatifs, lumière visuelle, imagerie proche infrarouge…) sont écartés. Les porteurs (promoteur, investigateur principal, partenaires, centres) sont ceux déclarés au registre. Les protocoles publiés dans une revue apparaissent avec les projets en construction.</p></section>
     <section class="panel prose" style="max-width:none"><h2>Mise à jour</h2><p>Rythme actuel : <b>${esc(t.cadence)}</b>, modifiable à tout moment. La procédure est décrite dans <span class="mono">ROUTINE.md</span> : collecte des nouveautés, rédaction des fiches en trois niveaux, mise à jour des synthèses, publication. Ajouter une pathologie revient à créer un fichier de thème (requête PubMed) ; le site l'affiche automatiquement dans le sélecteur.</p></section>
   </div>`;
 }
@@ -1073,6 +1077,7 @@ document.addEventListener("click", async (e) => {
 document.addEventListener("change", (e) => {
   const t = e.target;
   if (t.dataset.sel) { t.checked ? state.selected.add(t.dataset.sel) : state.selected.delete(t.dataset.sel); updateSelbar(); }
+  else if (t.id === "essreg") { state.essReg = t.value; rerender(); }
   else if (t.id === "f-from" || t.id === "f-to") { state.f[t.id === "f-from" ? "from" : "to"] = t.value; rerender(); }
   else if (t.id === "f-week" && t.value) { const [a, b] = weekRange(t.value, t.value); state.f.from = a; state.f.to = b; state.sort = "date"; rerender(); }
   else if (t.id === "f-pdf" || t.id === "f-key") { state.f[t.id.slice(2)] = t.checked; rerender(); }

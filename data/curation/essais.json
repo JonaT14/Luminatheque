@@ -1,5 +1,1415 @@
 {
  "essais": {
+  "ACTRN12624001264572": [
+   "odontologie",
+   "anesthésie",
+   "Lumière rouge pour l'analgésie pulpaire pendant les soins de caries"
+  ],
+  "ACTRN12624001265561": [
+   "odontologie",
+   "hypersensibilité",
+   "Lumière rouge contre l'hypersensibilité dentaire pendant le détartrage"
+  ],
+  "ACTRN12625000589482": [
+   "odontologie",
+   "chirurgie",
+   "Lumière rouge contre la douleur après extraction dentaire"
+  ],
+  "ACTRN12625001295437": [
+   "odontologie",
+   "ortho",
+   "Laser basse énergie, déplacement, racines et douleur pendant l'ingression orthodontique"
+  ],
+  "ACTRN12625001392459": [
+   "neurologie",
+   "démences",
+   "Lumière rouge et fonctions cognitives dans les maladies d'Alzheimer et de Parkinson"
+  ],
+  "ACTRN12626000002381": [
+   "odontologie",
+   "hypersensibilité",
+   "Différentes puissances de laser contre la sensibilité dentaire après surfaçage"
+  ],
+  "ACTRN12626000463370": [
+   "neurologie",
+   "autres",
+   "Laser-acupuncture : sensibilité à la douleur, cognition et activité cérébrale de volontaires sains"
+  ],
+  "ACTRN12626000696392": [
+   "ophtalmologie",
+   "sécheresse",
+   "Cellules immunitaires de la cornée sous photothérapie basse énergie (œil sec)"
+  ],
+  "ACTRN12626000764336": [
+   "ophtalmologie",
+   "myopie",
+   "Lumière rouge répétée basse intensité chez l'enfant fort myope (8 à 16 ans)"
+  ],
+  "ACTRN12626000818336": [
+   "dermatologie",
+   "plaies",
+   "Essai EEEP : PBM EmoLED dans les ulcères veineux de jambe"
+  ],
+  "ACTRN12626000825358": [
+   "gynecologie",
+   "pelvien",
+   "Laser infrarouge contre la douleur pelvienne chronique de l'endométriose"
+  ],
+  "ACTRN12626000904370": [
+   "mucite-orale",
+   "CSH",
+   "PBM contre la mucite sévère après allogreffe de cellules souches"
+  ],
+  "ACTRN12626001039370": [
+   "dermatologie",
+   "esthétique",
+   "PBM LED multi-longueurs d'onde pour l'analgésie des injections intradermiques"
+  ],
+  "ACTRN12626001307392": [
+   "neurologie",
+   "TC",
+   "PBM et stimulation électrique transcrânienne à domicile après commotion cérébrale : sécurité et faisabilité"
+  ],
+  "CTRI/2024/01/062013": [
+   "neuropathie-peripherique",
+   "lésion nerveuse",
+   "Laser et étirements dans la douleur neuropathique après lésion médullaire"
+  ],
+  "CTRI/2024/03/063809": [
+   "odontologie",
+   "ortho",
+   "Micro-ostéoperforations et laser basse énergie pour accélérer le déplacement dentaire"
+  ],
+  "CTRI/2024/05/066932": [
+   "odontologie",
+   "ortho",
+   "Laser 810 nm et vitesse du déplacement dentaire"
+  ],
+  "CTRI/2024/05/067126": [
+   "odontologie",
+   "anesthésie",
+   "PBM et douleur de l'injection pendant les extractions chez l'enfant"
+  ],
+  "CTRI/2024/05/068181": [
+   "odontologie",
+   "chirurgie",
+   "Laser contre méthylprednisolone après extraction de dent de sagesse incluse"
+  ],
+  "CTRI/2024/07/070547": [
+   "neuropathie-peripherique",
+   "compression",
+   "Laser contre ondes de choc radiales dans le syndrome du canal carpien"
+  ],
+  "CTRI/2024/07/071398": [
+   "odontologie",
+   "endo",
+   "Laser basse énergie avec Biodentine dans la pulpotomie totale"
+  ],
+  "CTRI/2024/10/075713": [
+   "odontologie",
+   "paro",
+   "Micro-aiguillage, i-PRF et biostimulation laser pour approfondir le vestibule"
+  ],
+  "CTRI/2024/11/076932": [
+   "odontologie",
+   "anesthésie",
+   "PBM 810 nm contre spray anesthésique avant extraction chez l'enfant"
+  ],
+  "CTRI/2024/11/077426": [
+   "odontologie",
+   "ortho",
+   "Laser basse énergie contre la douleur des séparateurs orthodontiques"
+  ],
+  "CTRI/2025/02/080358": [
+   "musculo-squelettique",
+   "rachis",
+   "Interférentiel, cryothérapie, Tecar ou laser dans les troubles du rachis"
+  ],
+  "CTRI/2025/04/085914": [
+   "odontologie",
+   "paro",
+   "PBM et dérivés de la matrice amélaire dans les lésions osseuses parodontales"
+  ],
+  "CTRI/2025/05/087900": [
+   "odontologie",
+   "paro",
+   "Surfaçage avec ou sans PBM chez les diabétiques"
+  ],
+  "CTRI/2025/06/089577": [
+   "odontologie",
+   "paro",
+   "Différentes longueurs d'onde de laser basse énergie dans la parodontite chronique"
+  ],
+  "CTRI/2025/07/090842": [
+   "odontologie",
+   "ortho",
+   "Laser et stabilité des mini-vis orthodontiques"
+  ],
+  "CTRI/2025/07/091651": [
+   "odontologie",
+   "anesthésie",
+   "Brosse vibrante, laser ou autres méthodes avant l'injection anesthésique chez l'enfant"
+  ],
+  "CTRI/2025/09/094015": [
+   "odontologie",
+   "endo",
+   "Douleur après pulpectomie des dents de lait avec ou sans PBM"
+  ],
+  "CTRI/2025/09/094323": [
+   "odontologie",
+   "paro",
+   "Facteurs de croissance et laser de tissu mou pour régénérer les papilles antérieures"
+  ],
+  "CTRI/2025/09/094905": [
+   "odontologie",
+   "paro",
+   "Gel à l'oxygène seul ou avec laser dans les maladies parodontales"
+  ],
+  "CTRI/2025/09/094909": [
+   "odontologie",
+   "ortho",
+   "Micro-perforations osseuses avec ou sans laser basse énergie pour accélérer le déplacement dentaire"
+  ],
+  "CTRI/2025/09/095288": [
+   "odontologie",
+   "autres",
+   "Amlexanox et laser basse énergie dans les aphtes récidivants"
+  ],
+  "CTRI/2025/09/095379": [
+   "odontologie",
+   "paro",
+   "Colle tissulaire seule ou avec laser après chirurgie parodontale"
+  ],
+  "CTRI/2025/10/095680": [
+   "odontologie",
+   "anesthésie",
+   "Laser basse énergie pour récupérer plus vite de l'anesthésie dentaire"
+  ],
+  "CTRI/2025/10/096323": [
+   "odontologie",
+   "autres",
+   "Laser rouge contre proche infrarouge dans la fibrose sous-muqueuse orale"
+  ],
+  "CTRI/2025/10/096493": [
+   "odontologie",
+   "paro",
+   "Extraits placentaires et laser diode contre traitement non chirurgical standard dans la parodontite"
+  ],
+  "CTRI/2025/11/097148": [
+   "odontologie",
+   "ortho",
+   "Laser basse énergie à différentes énergies et vitesse du déplacement dentaire"
+  ],
+  "CTRI/2025/11/097189": [
+   "dermatologie",
+   "alopécie",
+   "Laser rouge 675 nm contre facteurs de croissance après greffe de cheveux"
+  ],
+  "CTRI/2025/11/097403": [
+   "odontologie",
+   "anesthésie",
+   "PBM 810 nm pour lever l'anesthésie des tissus mous (lidocaïne et articaïne)"
+  ],
+  "CTRI/2025/11/097786": [
+   "odontologie",
+   "endo",
+   "Laser basse énergie contre cryothérapie intracanalaire après traitement canalaire des molaires"
+  ],
+  "CTRI/2025/11/097851": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser ou champs électromagnétiques pulsés avec mobilisation de Kaltenborn dans la cervicarthrose"
+  ],
+  "CTRI/2025/11/097977": [
+   "odontologie",
+   "implants",
+   "Laser contre ultrasons pour la densité osseuse et la cicatrisation autour des implants"
+  ],
+  "CTRI/2025/12/098480": [
+   "odontologie",
+   "endo",
+   "Laser contre pansements médicamenteux contre la douleur des retraitements canalaires"
+  ],
+  "CTRI/2025/12/098543": [
+   "odontologie",
+   "implants",
+   "PBM associée à la pose d'implant : stabilité et ostéo-intégration"
+  ],
+  "CTRI/2025/12/098635": [
+   "odontologie",
+   "autres",
+   "Laser-acupuncture contre le réflexe nauséeux de l'enfant pendant les soins dentaires"
+  ],
+  "CTRI/2025/12/098696": [
+   "odontologie",
+   "autres",
+   "Laser-acupuncture contre la peur des soins dentaires de l'enfant (enzymes salivaires)"
+  ],
+  "CTRI/2025/12/099348": [
+   "odontologie",
+   "paro",
+   "Deux longueurs d'onde de laser basse énergie dans la parodontite"
+  ],
+  "CTRI/2025/12/099867": [
+   "neuropathie-peripherique",
+   "orofaciale",
+   "Différentes doses de PBM 810 nm associées à la carbamazépine dans la névralgie trigéminale"
+  ],
+  "CTRI/2026/01/100334": [
+   "odontologie",
+   "implants",
+   "Laser basse énergie 810 nm et stabilité des implants"
+  ],
+  "CTRI/2026/01/100360": [
+   "odontologie",
+   "paro",
+   "Laser contre ultrasons après régénération parodontale"
+  ],
+  "CTRI/2026/01/100635": [
+   "odontologie",
+   "paro",
+   "Tunnel sous-périosté (VISTA) et PRF associé au laser basse énergie dans les récessions"
+  ],
+  "CTRI/2026/01/100988": [
+   "musculo-squelettique",
+   "muscle",
+   "Massage transverse profond, ultrasons ou laser basse énergie dans un trouble musculaire"
+  ],
+  "CTRI/2026/01/101075": [
+   "odontologie",
+   "paro",
+   "Laser avec ou sans concentré plaquettaire après chirurgie parodontale"
+  ],
+  "CTRI/2026/01/101211": [
+   "neurologie",
+   "autres",
+   "Mobilisation neurale ou technique de Kabat, associées au laser, dans la paralysie de Bell"
+  ],
+  "CTRI/2026/01/101326": [
+   "odontologie",
+   "autres",
+   "Photobiomodulation contre corticoïdes dans le lichen plan buccal"
+  ],
+  "CTRI/2026/01/101942": [
+   "musculo-squelettique",
+   "ATM",
+   "PRP injectable suivi de PBM dans les douleurs musculaires de la face"
+  ],
+  "CTRI/2026/01/102229": [
+   "dermatologie",
+   "alopécie",
+   "Lumière rouge sur casque portable et qualité des cheveux (Inde)"
+  ],
+  "CTRI/2026/01/102263": [
+   "odontologie",
+   "paro",
+   "Laser et traitement des récessions gingivales de classe I et II"
+  ],
+  "CTRI/2026/01/102457": [
+   "musculo-squelettique",
+   "ATM",
+   "Photobiomodulation contre chaleur humide dans la douleur des troubles temporo-mandibulaires"
+  ],
+  "CTRI/2026/01/102506": [
+   "musculo-squelettique",
+   "tendon",
+   "Laser contre ultrasons dans l'épicondylite latérale"
+  ],
+  "CTRI/2026/02/0104767": [
+   "odontologie",
+   "anesthésie",
+   "Froid contre laser pour la douleur au point d'injection anesthésique"
+  ],
+  "CTRI/2026/02/102678": [
+   "neurologie",
+   "neurodev",
+   "PBM transcrânienne et ergothérapie chez l'enfant autiste"
+  ],
+  "CTRI/2026/02/102913": [
+   "musculo-squelettique",
+   "rachis",
+   "Ondes de choc contre laser de classe IV dans la coccygodynie"
+  ],
+  "CTRI/2026/02/102952": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser basse énergie contre infiltration échoguidée dans la douleur myofasciale chronique de la face"
+  ],
+  "CTRI/2026/02/102982": [
+   "odontologie",
+   "ortho",
+   "Laser guidé par un repère articulaire en orthopédie dento-faciale de classe II"
+  ],
+  "CTRI/2026/02/103082": [
+   "odontologie",
+   "paro",
+   "Laser et MMP-9 dans la cicatrisation après chirurgie parodontale"
+  ],
+  "CTRI/2026/02/103141": [
+   "musculo-squelettique",
+   "muscle",
+   "Laser basse énergie contre dry needling dans le syndrome myofascial"
+  ],
+  "CTRI/2026/02/103490": [
+   "odontologie",
+   "paro",
+   "Cicatrisation gingivale après chirurgie parodontale sous lumière basse énergie"
+  ],
+  "CTRI/2026/02/103603": [
+   "odontologie",
+   "endo",
+   "Laser basse énergie sur le point LI4 pendant le traitement canalaire"
+  ],
+  "CTRI/2026/02/103621": [
+   "odontologie",
+   "endo",
+   "Cryothérapie et PBM contre la douleur du traitement canalaire"
+  ],
+  "CTRI/2026/02/103736": [
+   "odontologie",
+   "implants",
+   "PBM et ostéo-intégration des implants dentaires"
+  ],
+  "CTRI/2026/02/103886": [
+   "odontologie",
+   "paro",
+   "Plaquettes, laser ou acide hyaluronique en complément du lambeau d'assainissement"
+  ],
+  "CTRI/2026/02/104397": [
+   "musculo-squelettique",
+   "ATM",
+   "Tizanidine contre laser dans les douleurs musculaires et articulaires de la mâchoire"
+  ],
+  "CTRI/2026/02/104422": [
+   "musculo-squelettique",
+   "ATM",
+   "Lumière contre la douleur des troubles de l'articulation temporo-mandibulaire"
+  ],
+  "CTRI/2026/02/104613": [
+   "musculo-squelettique",
+   "tendon",
+   "Deux traitements de kinésithérapie (dont laser) contre la talalgie"
+  ],
+  "CTRI/2026/03/105370": [
+   "odontologie",
+   "implants",
+   "Niveau osseux autour des implants avec ou sans lumière (imagerie 3D)"
+  ],
+  "CTRI/2026/03/105808": [
+   "odontologie",
+   "hypersensibilité",
+   "Laser basse énergie, Gluma ou gel contre la sensibilité après éclaircissement au fauteuil"
+  ],
+  "CTRI/2026/03/105814": [
+   "dermatologie",
+   "plaies",
+   "Laser basse énergie et kinésithérapie dans les ulcères du pied diabétique"
+  ],
+  "CTRI/2026/03/105949": [
+   "odontologie",
+   "paro",
+   "Laser diode et PBM dans les maladies parodontales"
+  ],
+  "CTRI/2026/03/105972": [
+   "mucite-orale",
+   "chimio",
+   "Laser pour prévenir la mucite de l'enfant de 2 à 15 ans sous traitement du cancer"
+  ],
+  "CTRI/2026/03/106042": [
+   "odontologie",
+   "anesthésie",
+   "Moyens de réduire la douleur de l'injection anesthésique (dont laser)"
+  ],
+  "CTRI/2026/03/106151": [
+   "musculo-squelettique",
+   "épaule",
+   "Ondes de choc contre laser haute intensité dans la capsulite rétractile"
+  ],
+  "CTRI/2026/03/106393": [
+   "odontologie",
+   "autres",
+   "Laser contre la gingivite desquamative du lichen plan buccal"
+  ],
+  "CTRI/2026/03/106406": [
+   "odontologie",
+   "chirurgie",
+   "i-PRF et Collaplug avec ou sans PBM pour la préservation alvéolaire"
+  ],
+  "CTRI/2026/03/106423": [
+   "sport",
+   "blessures",
+   "Ventouses contre laser dans les douleurs et la souplesse des ischio-jambiers d'étudiants"
+  ],
+  "CTRI/2026/03/106429": [
+   "odontologie",
+   "ortho",
+   "Lumière et stabilité des mini-vis orthodontiques"
+  ],
+  "CTRI/2026/03/106485": [
+   "dermatologie",
+   "plaies",
+   "Laser basse énergie et pansement Katupila dans les plaies du diabétique"
+  ],
+  "CTRI/2026/03/106874": [
+   "odontologie",
+   "paro",
+   "Laser 660 nm contre concentré sanguin autologue pour reconstruire la papille interdentaire"
+  ],
+  "CTRI/2026/03/106909": [
+   "musculo-squelettique",
+   "épaule",
+   "Laser contre ondes de choc dans la tendinite calcifiante de l'épaule"
+  ],
+  "CTRI/2026/03/107004": [
+   "odontologie",
+   "paro",
+   "Lambeau déplacé coronairement avec micro-aiguillage et PBM dans les récessions gingivales"
+  ],
+  "CTRI/2026/03/107051": [
+   "odontologie",
+   "chirurgie",
+   "Bandes adhésives contre lumière contre l'œdème, la douleur et le trismus après fracture du zygoma"
+  ],
+  "CTRI/2026/03/107091": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser contre médicaments dans les douleurs myogènes temporo-mandibulaires (électromyographie)"
+  ],
+  "CTRI/2026/03/107117": [
+   "odontologie",
+   "paro",
+   "Laser basse énergie et greffe osseuse dans les lésions parodontales"
+  ],
+  "CTRI/2026/03/107187": [
+   "odontologie",
+   "ortho",
+   "Deux lasers de PBM pour accélérer la rétraction canine"
+  ],
+  "CTRI/2026/04/107254": [
+   "odontologie",
+   "paro",
+   "Laser associé à l'acide hyaluronique pour combler les papilles interdentaires"
+  ],
+  "CTRI/2026/04/107339": [
+   "odontologie",
+   "autres",
+   "Différents traitements de l'ouverture buccale (dont PBM) dans la fibrose sous-muqueuse orale"
+  ],
+  "CTRI/2026/04/107353": [
+   "odontologie",
+   "implants",
+   "Différentes lumières sur l'épaisseur gingivale autour des implants"
+  ],
+  "CTRI/2026/04/107700": [
+   "dermatologie",
+   "alopécie",
+   "Minoxidil oral avec ou sans laser dans l'alopécie androgénétique masculine"
+  ],
+  "CTRI/2026/04/107712": [
+   "odontologie",
+   "paro",
+   "Laser et cicatrisation osseuse dans la maladie parodontale"
+  ],
+  "CTRI/2026/04/107740": [
+   "odontologie",
+   "endo",
+   "Membrane chitosane et laser pour la cicatrisation après réimplantation intentionnelle"
+  ],
+  "CTRI/2026/04/107844": [
+   "odontologie",
+   "endo",
+   "Laser haute ou basse puissance pour la pulpotomie des dents de lait"
+  ],
+  "CTRI/2026/04/107919": [
+   "odontologie",
+   "implants",
+   "Photobiostimulation avec ou sans calcium et vitamine D autour des implants"
+  ],
+  "CTRI/2026/04/107995": [
+   "odontologie",
+   "paro",
+   "Surfaçage seul ou associé aux plaquettes et à la lumière dans la parodontite chronique"
+  ],
+  "CTRI/2026/04/108085": [
+   "musculo-squelettique",
+   "ATM",
+   "Différents traitements (dont laser) contre la douleur des troubles temporo-mandibulaires"
+  ],
+  "CTRI/2026/04/108097": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser sur points d'acupuncture contre électro-stimulation dans la gonarthrose"
+  ],
+  "CTRI/2026/04/108384": [
+   "odontologie",
+   "ortho",
+   "Laser contre antalgique pour la douleur des séparateurs orthodontiques"
+  ],
+  "CTRI/2026/04/108416": [
+   "odontologie",
+   "anesthésie",
+   "Anesthésie complémentaire (dont laser) dans la pulpite irréversible symptomatique"
+  ],
+  "CTRI/2026/04/108521": [
+   "odontologie",
+   "implants",
+   "Lumière et stabilité des implants dentaires"
+  ],
+  "CTRI/2026/04/108531": [
+   "odontologie",
+   "paro",
+   "Micro-aiguillage et laser après chirurgie de récession gingivale unitaire"
+  ],
+  "CTRI/2026/04/108546": [
+   "odontologie",
+   "endo",
+   "Laser contre la douleur après traitement canalaire en une séance"
+  ],
+  "CTRI/2026/04/108553": [
+   "odontologie",
+   "hypersensibilité",
+   "Dentifrice à la nano-hydroxyapatite, Gluma ou laser diode dans l'hypersensibilité dentinaire"
+  ],
+  "CTRI/2026/04/108632": [
+   "odontologie",
+   "paro",
+   "Greffe osseuse, laser et PRF avancé pour la régénération osseuse parodontale"
+  ],
+  "CTRI/2026/04/108661": [
+   "odontologie",
+   "chirurgie",
+   "Laser basse énergie après extraction de dent de sagesse incluse"
+  ],
+  "CTRI/2026/04/108767": [
+   "sport",
+   "blessures",
+   "Laser contre ultrasons, associés à la thérapie manuelle, dans l'entorse de cheville du sportif"
+  ],
+  "CTRI/2026/04/108781": [
+   "odontologie",
+   "anesthésie",
+   "Différents lasers pour raccourcir l'anesthésie après injection dentaire chez l'enfant"
+  ],
+  "CTRI/2026/04/108815": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser basse énergie contre arthrocentèse dans l'articulation temporo-mandibulaire douloureuse"
+  ],
+  "CTRI/2026/04/108874": [
+   "odontologie",
+   "paro",
+   "Plaquettes seules ou associées au laser pour la cicatrisation osseuse parodontale"
+  ],
+  "CTRI/2026/04/109086": [
+   "odontologie",
+   "anesthésie",
+   "Deux anesthésiques associés au laser pour soigner les dents de lait douloureuses"
+  ],
+  "CTRI/2026/04/109220": [
+   "odontologie",
+   "autres",
+   "Corticoïde buccal avec ou sans laser basse énergie dans le lichen plan buccal"
+  ],
+  "CTRI/2026/04/109839": [
+   "odontologie",
+   "ortho",
+   "Laser, gel anesthésique ou chewing-gum contre la douleur du début de traitement orthodontique"
+  ],
+  "CTRI/2026/04/109876": [
+   "odontologie",
+   "autres",
+   "Laser dans le lichen plan buccal"
+  ],
+  "CTRI/2026/05/109922": [
+   "odontologie",
+   "ortho",
+   "Deux lasers de PBM (660 + 810 nm) contre la douleur de pose des mainteneurs d'espace chez l'enfant"
+  ],
+  "CTRI/2026/05/109923": [
+   "mucite-orale",
+   "chimio",
+   "Deux protocoles de laser contre la mucite de l'enfant atteint de cancer"
+  ],
+  "CTRI/2026/05/110506": [
+   "mucite-orale",
+   "chimio",
+   "Lumière contre la mucite de l'enfant sous chimiothérapie"
+  ],
+  "CTRI/2026/05/110529": [
+   "odontologie",
+   "chirurgie",
+   "Laser avant ou après chirurgie des dents de sagesse : cicatrisation et récupération"
+  ],
+  "CTRI/2026/05/110548": [
+   "odontologie",
+   "anesthésie",
+   "Méthodes pour réduire la douleur de l'anesthésie dentaire de l'enfant de 6 à 9 ans"
+  ],
+  "CTRI/2026/05/110898": [
+   "gynecologie",
+   "obstétrique",
+   "Laser contre la douleur et pour la récupération après césarienne"
+  ],
+  "CTRI/2026/05/110944": [
+   "odontologie",
+   "chirurgie",
+   "Laser basse énergie et préservation alvéolaire"
+  ],
+  "CTRI/2026/05/110965": [
+   "musculo-squelettique",
+   "arthrose",
+   "PRP ou laser basse énergie avec exercice dans la gonarthrose"
+  ],
+  "CTRI/2026/05/111410": [
+   "neuropathie-peripherique",
+   "autres",
+   "Laser et lésions nerveuses de la lèpre"
+  ],
+  "CTRI/2026/05/111425": [
+   "musculo-squelettique",
+   "arthrose",
+   "Diathermie contre laser basse énergie, associés au renforcement, dans la gonarthrose modérée"
+  ],
+  "CTRI/2026/05/111438": [
+   "odontologie",
+   "ortho",
+   "Laser contre vibrations de brosse électrique pour raccourcir le traitement orthodontique"
+  ],
+  "CTRI/2026/06/111573": [
+   "musculo-squelettique",
+   "tendon",
+   "Prévenir la récidive d'épicondylite : exercices, ergonomie et laser"
+  ],
+  "CTRI/2026/06/111858": [
+   "musculo-squelettique",
+   "tendon",
+   "Champs électromagnétiques pulsés contre laser dans la talalgie chronique"
+  ],
+  "CTRI/2026/06/111900": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser contre exercice dans la lombalgie chronique"
+  ],
+  "CTRI/2026/06/111961": [
+   "odontologie",
+   "autres",
+   "Laser basse énergie sur point d'acupuncture contre le réflexe nauséeux"
+  ],
+  "CTRI/2026/06/112619": [
+   "musculo-squelettique",
+   "épaule",
+   "Deux méthodes de kinésithérapie avec laser basse énergie pour la douleur d'épaule"
+  ],
+  "CTRI/2026/06/112625": [
+   "odontologie",
+   "chirurgie",
+   "Lumière bleue et récupération après chirurgie des fractures de la face"
+  ],
+  "CTRI/2026/06/112631": [
+   "odontologie",
+   "anesthésie",
+   "Laser basse énergie et douleur de l'anesthésie locale chez l'enfant"
+  ],
+  "CTRI/2026/06/112702": [
+   "odontologie",
+   "autres",
+   "PBM contre triamcinolone intralésionnelle dans la fibrose sous-muqueuse orale"
+  ],
+  "CTRI/2026/06/113031": [
+   "odontologie",
+   "implants",
+   "Lumière basse énergie pour la douleur, la cicatrisation et la stabilité des implants"
+  ],
+  "CTRI/2026/07/113289": [
+   "odontologie",
+   "anesthésie",
+   "PBM 810 nm contre benzocaïne avant l'anesthésie locale chez l'enfant"
+  ],
+  "CTRI/2026/07/113322": [
+   "odontologie",
+   "autres",
+   "Laser contre injections pour l'ouverture buccale dans la fibrose sous-muqueuse orale"
+  ],
+  "CTRI/2026/07/113337": [
+   "odontologie",
+   "anesthésie",
+   "Laser contre électroacupuncture pour la douleur de l'injection dentaire chez l'enfant"
+  ],
+  "CTRI/2026/07/113403": [
+   "odontologie",
+   "autres",
+   "Laser-acupuncture et respiration profonde contre le réflexe nauséeux"
+  ],
+  "CTRI/2026/07/113408": [
+   "odontologie",
+   "ortho",
+   "Laser basse énergie et cicatrisation des gencives et de l'os en orthodontie"
+  ],
+  "CTRI/2026/07/113655": [
+   "odontologie",
+   "endo",
+   "Pulpotomie assistée par laser basse énergie contre pulpotomie conventionnelle"
+  ],
+  "CTRI/2026/07/113677": [
+   "odontologie",
+   "endo",
+   "Laser basse énergie contre sham sur la douleur après traitement canalaire des molaires de lait"
+  ],
+  "CTRI/2026/07/113717": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser haute intensité et exercice dans la lombalgie mécanique"
+  ],
+  "CTRI/2026/07/113812": [
+   "odontologie",
+   "paro",
+   "Gel d'acide hyaluronique ou laser associés au surfaçage dans la parodontite"
+  ],
+  "CTRI/2026/07/113962": [
+   "odontologie",
+   "paro",
+   "Laser et matériaux régénératifs naturels dans les lésions parodontales profondes"
+  ],
+  "CTRI/2026/07/114497": [
+   "neurologie",
+   "autres",
+   "Laser associé à l'exercice dans la migraine sans aura"
+  ],
+  "CTRI/2026/07/114775": [
+   "musculo-squelettique",
+   "tendon",
+   "Strain-counterstrain contre laser basse énergie dans l'aponévrosite plantaire chronique"
+  ],
+  "CTRI/2026/08/115158": [
+   "neurologie",
+   "autres",
+   "LED rouge 630 nm et fonctions cognitives d'écoliers"
+  ],
+  "CTRI/2026/08/115278": [
+   "odontologie",
+   "autres",
+   "PBM contre traitement standard dans la fibrose sous-muqueuse orale : ouverture buccale et brûlures"
+  ],
+  "CTRI/2026/08/115408": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser basse énergie et TENS dans les troubles temporo-mandibulaires"
+  ],
+  "CTRI/2026/08/115409": [
+   "odontologie",
+   "autres",
+   "PRF injectable, laser ou triamcinolone dans le lichen plan buccal"
+  ],
+  "CTRI/2026/08/115520": [
+   "odontologie",
+   "endo",
+   "PBM extrabuccale et IL-1β salivaire dans la parodontite apicale symptomatique"
+  ],
+  "CTRI/2026/08/115660": [
+   "odontologie",
+   "anesthésie",
+   "Méthodes pour réduire la douleur des injections dentaires de l'enfant de 6 à 12 ans"
+  ],
+  "CTRI/2026/08/115741": [
+   "neurologie",
+   "démences",
+   "Stimulation transcrânienne proche infrarouge contre sham sur les troubles du comportement de la démence"
+  ],
+  "CTRI/2026/08/115812": [
+   "neurologie",
+   "autres",
+   "Lumière transcrânienne et Brain Gym : mémoire et attention d'étudiants"
+  ],
+  "CTRI/2026/08/116102": [
+   "odontologie",
+   "implants",
+   "PRF injectable avec ou sans laser diode pour la cicatrisation osseuse autour des implants"
+  ],
+  "CTRI/2026/08/116364": [
+   "odontologie",
+   "ortho",
+   "Laser basse énergie et ancrage molaire pendant le déplacement orthodontique"
+  ],
+  "CTRI/2026/08/116684": [
+   "odontologie",
+   "endo",
+   "Laser basse énergie sur la douleur et la cicatrisation après traitement canalaire des dents maxillaires"
+  ],
+  "CTRI/2026/09/117321": [
+   "odontologie",
+   "anesthésie",
+   "Différents moyens d'anesthésie de contact (dont laser) avant les injections chez l'enfant"
+  ],
+  "CTRI/2026/09/117630": [
+   "neurologie",
+   "autres",
+   "Lumière rouge et proche infrarouge sur la tête : variabilité cardiaque et cognition d'étudiants"
+  ],
+  "CTRI/2026/09/117785": [
+   "odontologie",
+   "implants",
+   "Cicatrisation osseuse autour des implants avec ou sans laser, associée au PRF injectable"
+  ],
+  "CTRI/2026/09/117962": [
+   "odontologie",
+   "paro",
+   "Greffe osseuse et membrane amniotique avec ou sans laser basse énergie dans les lésions infra-osseuses"
+  ],
+  "CTRI/2026/09/118095": [
+   "neurologie",
+   "humeur",
+   "Entraînement aux ondes alpha et PBM transcrânienne contre le stress"
+  ],
+  "CTRI/2026/09/118106": [
+   "odontologie",
+   "implants",
+   "Laser et cicatrisation des implants avec sérum hyperaigu et T-PRF"
+  ],
+  "CTRI/2026/09/118124": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser basse énergie et force de morsure dans les troubles temporo-mandibulaires"
+  ],
+  "CTRI/2026/09/118339": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser haute intensité dans la cervicalgie mécanique chronique"
+  ],
+  "CTRI/2026/09/118552": [
+   "odontologie",
+   "hypersensibilité",
+   "Propolis, laser diode ou agent désensibilisant activé par laser dans l'hypersensibilité dentinaire"
+  ],
+  "CTRI/2026/10/119066": [
+   "odontologie",
+   "endo",
+   "Thérapie par photons (PARCH) contre la douleur et pour la désinfection canalaire des dents de lait"
+  ],
+  "ChiCTR2400079987": [
+   "ophtalmologie",
+   "myopie",
+   "Effet durable et rebond de la lumière rouge basse intensité dans la myopie (2 ans)"
+  ],
+  "ChiCTR2400093836": [
+   "musculo-squelettique",
+   "épaule",
+   "Ondes de choc associées à la lumière rouge dans la périarthrite de l'épaule"
+  ],
+  "ChiCTR2500103524": [
+   "ophtalmologie",
+   "myopie",
+   "Différentes puissances de lumière rouge 650 nm pour freiner la myopie de l'adolescent"
+  ],
+  "ChiCTR2500105992": [
+   "neurologie",
+   "neurodev",
+   "PBM transcrânienne contre sham chez l'enfant autiste (double aveugle)"
+  ],
+  "ChiCTR2500108136": [
+   "neurologie",
+   "neurodev",
+   "PBM proche infrarouge et mémoire de travail de l'adulte avec TDAH"
+  ],
+  "ChiCTR2500113917": [
+   "neurologie",
+   "démences",
+   "Photothérapie ciblant les vaisseaux lymphatiques méningés dans la maladie d'Alzheimer"
+  ],
+  "ChiCTR2500114249": [
+   "ophtalmologie",
+   "myopie",
+   "Imagerie AO-SLO et densité des cônes après lumière rouge répétée"
+  ],
+  "ChiCTR2500114437": [
+   "ophtalmologie",
+   "myopie",
+   "Kystes rétiniens après lumière rouge basse intensité répétée (étude rétrospective)"
+  ],
+  "ChiCTR2500115083": [
+   "musculo-squelettique",
+   "ATM",
+   "Ondes de choc contre laser pulsé dans les troubles temporo-mandibulaires myogènes"
+  ],
+  "ChiCTR2500115347": [
+   "ophtalmologie",
+   "myopie",
+   "Différents types de lumière rouge basse intensité pour freiner la myopie de l'enfant"
+  ],
+  "ChiCTR2500115663": [
+   "dermatologie",
+   "esthétique",
+   "Sérum appliqué après lumière rouge sur peau sensible"
+  ],
+  "ChiCTR2600116167": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser associé à la technique PNF dans la gonarthrose"
+  ],
+  "ChiCTR2600116460": [
+   "gynecologie",
+   "pelvien",
+   "LED rouge dans la dysménorrhée primaire"
+  ],
+  "ChiCTR2600116529": [
+   "ophtalmologie",
+   "myopie",
+   "Photobiomodulation et progression de la myopie de l'enfant et de l'adolescent"
+  ],
+  "ChiCTR2600116949": [
+   "ophtalmologie",
+   "myopie",
+   "Lumière rouge basse énergie : fonction visuelle et vascularisation choroïdienne du myope"
+  ],
+  "ChiCTR2600118726": [
+   "neurologie",
+   "humeur",
+   "PBM transcrânienne proche infrarouge dans l'anxiété du post-partum"
+  ],
+  "ChiCTR2600119019": [
+   "neurologie",
+   "humeur",
+   "PBM transcrânienne contre les troubles du sommeil après cœlioscopie gynécologique"
+  ],
+  "ChiCTR2600120163": [
+   "ophtalmologie",
+   "amblyopie",
+   "Photobiomodulation et développement visuel de l'enfant fortement hypermétrope"
+  ],
+  "ChiCTR2600120620": [
+   "ophtalmologie",
+   "glaucome",
+   "Lumière rouge basse intensité répétée dans le glaucome à pression normale"
+  ],
+  "ChiCTR2600121401": [
+   "ophtalmologie",
+   "myopie",
+   "Rappels sur téléphone et efficacité de la lumière rouge répétée dans la myopie"
+  ],
+  "ChiCTR2600122268": [
+   "neuropathie-peripherique",
+   "orofaciale",
+   "Laser basse dose contre placebo dans le syndrome de la bouche qui brûle"
+  ],
+  "ChiCTR2600125373": [
+   "neurologie",
+   "neurodev",
+   "PBM transcrânienne chez l'enfant autiste"
+  ],
+  "ChiCTR2600125698": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser haute énergie et massage cervical dans la cervicarthrose"
+  ],
+  "ChiCTR2600126126": [
+   "neurologie",
+   "neurodev",
+   "PBM transcrânienne et interventions multiples chez l'enfant avec TDAH"
+  ],
+  "ChiCTR2600126398": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser haute intensité après prothèse de hanche : inflammation et fonction"
+  ],
+  "ChiCTR2600126780": [
+   "neurologie",
+   "neurodev",
+   "PBM transcrânienne et mémoire de travail de l'enfant avec TDAH"
+  ],
+  "ChiCTR2600127353": [
+   "ophtalmologie",
+   "myopie",
+   "Lumière rouge basse intensité répétée contre orthokératologie dans la myopie de l'enfant"
+  ],
+  "ChiCTR2600129826": [
+   "ophtalmologie",
+   "myopie",
+   "Lumière rouge 650 nm basse intensité dans la myopie modérée à forte : efficacité et sécurité"
+  ],
+  "ChiCTR2600130545": [
+   "odontologie",
+   "paro",
+   "PBM en complément de l'augmentation de gencive attachée"
+  ],
+  "ChiCTR2600135450": [
+   "dermatologie",
+   "inflammatoire",
+   "Photothérapie LED combinée dans le coup de soleil aigu"
+  ],
+  "DRKS00036803": [
+   "ophtalmologie",
+   "DMLA",
+   "Essai multicentrique MACULIGHT de photobiomodulation dans la DMLA sèche"
+  ],
+  "DRKS00040379": [
+   "mucite-orale",
+   "CSH",
+   "Laser basse énergie pour prévenir la mucite en greffe de cellules souches (pilote)"
+  ],
+  "IRCT20110809007265N15": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser-acupuncture contre acupuncture manuelle dans la gonarthrose"
+  ],
+  "IRCT20120220009086N6": [
+   "odontologie",
+   "ortho",
+   "LED et aligneurs dans l'encombrement de classe I (multicentrique)"
+  ],
+  "IRCT20120716010297N5": [
+   "neuropathie-peripherique",
+   "compression",
+   "Effet à long terme du laser basse énergie dans le syndrome du canal carpien"
+  ],
+  "IRCT20130521013406N6": [
+   "odontologie",
+   "chirurgie",
+   "Laser 660 ou 808 nm pour la cicatrisation des biopsies buccales"
+  ],
+  "IRCT20130812014333N246": [
+   "neuropathie-peripherique",
+   "lésion nerveuse",
+   "Laser basse énergie dans les paresthésies après fracture du zygoma"
+  ],
+  "IRCT20130812014333N266": [
+   "odontologie",
+   "endo",
+   "Laser 810 contre 660 nm contre la douleur de la parodontite apicale"
+  ],
+  "IRCT20170502033783N3": [
+   "neuropathie-peripherique",
+   "lésion nerveuse",
+   "Laser infrarouge et rouge après suture des nerfs médian et ulnaire de la main"
+  ],
+  "IRCT20180311039049N2": [
+   "neuropathie-peripherique",
+   "diabète",
+   "Modalités de kinésithérapie (dont laser) dans la neuropathie diabétique"
+  ],
+  "IRCT20180507039571N6": [
+   "musculo-squelettique",
+   "rachis",
+   "Thérapie manuelle et laser dans la lombalgie"
+  ],
+  "IRCT20190618043930N2": [
+   "musculo-squelettique",
+   "muscle",
+   "Laser-acupuncture dans le syndrome myofascial cervical chronique"
+  ],
+  "IRCT20201130049543N3": [
+   "musculo-squelettique",
+   "tendon",
+   "Infiltration de corticoïde contre laser dans la bursite de la patte d'oie"
+  ],
+  "IRCT20210221050435N3": [
+   "odontologie",
+   "ortho",
+   "Laser basse énergie et métalloprotéinase-1 pendant le déplacement dentaire"
+  ],
+  "IRCT20230619058531N1": [
+   "odontologie",
+   "anesthésie",
+   "Laser diode 810 nm basse puissance contre la douleur de l'injection anesthésique"
+  ],
+  "IRCT20230910059395N2": [
+   "neuropathie-peripherique",
+   "diabète",
+   "Laser basse énergie contre TENS dans la neuropathie diabétique"
+  ],
+  "IRCT20231121060129N1": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser dans la discopathie lombaire"
+  ],
+  "IRCT20231203060255N3": [
+   "musculo-squelettique",
+   "rachis",
+   "Magnésium et laser haute puissance dans la radiculopathie lombaire chronique"
+  ],
+  "IRCT20231203060255N4": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser haute puissance interstitiel dans la gonarthrose"
+  ],
+  "IRCT20231209060303N1": [
+   "odontologie",
+   "anesthésie",
+   "Laser diode 980 nm basse énergie contre placebo pour la douleur de l'anesthésie dentaire"
+  ],
+  "IRCT20240107060640N1": [
+   "neuropathie-peripherique",
+   "CIPN",
+   "Laser dans la neuropathie chimio-induite"
+  ],
+  "IRCT20240115060701N1": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser haute intensité contre basse intensité dans la lombalgie"
+  ],
+  "IRCT20240204060902N1": [
+   "neuropathie-peripherique",
+   "diabète",
+   "Laser basse puissance contre ultrasons basse fréquence dans la polyneuropathie diabétique"
+  ],
+  "IRCT20240207060929N1": [
+   "musculo-squelettique",
+   "muscle",
+   "Ondes de choc radiales contre laser haute intensité dans le syndrome myofascial du trapèze"
+  ],
+  "IRCT20240317061317N1": [
+   "neuropathie-peripherique",
+   "compression",
+   "Laser et ondes de choc dans le canal carpien"
+  ],
+  "IRCT20240518061830N1": [
+   "neurologie",
+   "parkinson",
+   "Photobiomodulation et symptômes moteurs de la maladie de Parkinson"
+  ],
+  "IRCT20240618062163N1": [
+   "musculo-squelettique",
+   "tendon",
+   "Infiltration contre laser haute puissance dans le doigt à ressaut"
+  ],
+  "IRCT20240710062385N1": [
+   "odontologie",
+   "implants",
+   "Laser basse énergie 940 nm dans les complications des greffes osseuses et sinus lifts"
+  ],
+  "IRCT20240721062500N1": [
+   "odontologie",
+   "implants",
+   "Laser basse énergie 940 nm et ostéo-intégration des implants postérieurs"
+  ],
+  "IRCT20240908062974N1": [
+   "dermatologie",
+   "plaies",
+   "Laser haute intensité et cicatrisation des plaies du diabétique"
+  ],
+  "IRCT20240916063064N1": [
+   "neurologie",
+   "SLA",
+   "Laser proche infrarouge dans la sclérose latérale amyotrophique"
+  ],
+  "IRCT20240927063186N2": [
+   "odontologie",
+   "anesthésie",
+   "Laser basse énergie contre la douleur des soins dentaires"
+  ],
+  "IRCT20241018063404N1": [
+   "dermatologie",
+   "pigmentation",
+   "Laser contre traitement médical dans les cernes"
+  ],
+  "IRCT20250121064466N1": [
+   "musculo-squelettique",
+   "os",
+   "Laser sublingual basse puissance contre la douleur après fracture de l'humérus"
+  ],
+  "IRCT20250123064498N1": [
+   "musculo-squelettique",
+   "os",
+   "Laser basse énergie contre la douleur des fractures de la clavicule"
+  ],
+  "IRCT20250416065350N1": [
+   "odontologie",
+   "hypersensibilité",
+   "CPP-ACP et laser basse énergie dans l'hypersensibilité dentinaire"
+  ],
+  "IRCT20250416065354N1": [
+   "odontologie",
+   "autres",
+   "Laser sur les points PC6 et CV24 contre le réflexe nauséeux en chirurgie des dents de sagesse"
+  ],
+  "IRCT20250526065916N2": [
+   "odontologie",
+   "ortho",
+   "Laser contre chirurgie pour accélérer le traitement orthodontique"
+  ],
+  "IRCT20250528065948N1": [
+   "odontologie",
+   "ortho",
+   "PBM contre la douleur de pose des bagues orthodontiques"
+  ],
+  "IRCT20250605066076N1": [
+   "odontologie",
+   "ortho",
+   "PBM contre la douleur après pose de mini-vis orthodontiques"
+  ],
+  "IRCT20250831067058N1": [
+   "odontologie",
+   "anesthésie",
+   "Laser 980 nm basse puissance et douleur de l'injection intrapulpaire"
+  ],
+  "IRCT20250923067345N1": [
+   "odontologie",
+   "endo",
+   "Laser basse énergie contre la douleur après traitement canalaire"
+  ],
+  "IRCT20251004067495N1": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser basse énergie dans les troubles temporo-mandibulaires"
+  ],
+  "IRCT20251008067547N1": [
+   "neuropathie-peripherique",
+   "diabète",
+   "Laser haute puissance contre kinésithérapie dans la polyneuropathie diabétique"
+  ],
+  "IRCT20251013067608N1": [
+   "musculo-squelettique",
+   "ATM",
+   "PBM associée à la bromélaïne orale dans le syndrome algo-dysfonctionnel de l'appareil manducateur"
+  ],
+  "IRCT20251015067641N1": [
+   "sport",
+   "performance",
+   "Laser haute puissance et fatigue musculaire de l'épaule chez l'adulte sain"
+  ],
+  "IRCT20251102067861N1": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser dans les troubles de l'articulation temporo-mandibulaire"
+  ],
+  "IRCT20251114067994N1": [
+   "musculo-squelettique",
+   "épaule",
+   "Infiltration de corticoïde contre laser dans la tendinite de la coiffe des rotateurs"
+  ],
+  "IRCT20251116068015N1": [
+   "odontologie",
+   "paro",
+   "Laser, fluor ou leur association en complément du surfaçage dans la parodontite"
+  ],
+  "IRCT20251116068020N1": [
+   "odontologie",
+   "autres",
+   "Bain de bouche à la benzydamine contre laser basse énergie contre le réflexe nauséeux"
+  ],
+  "IRCT20251218068374N1": [
+   "oncologie-support",
+   "xérostomie",
+   "Laser contre la sécheresse buccale"
+  ],
+  "IRCT20260128068687N1": [
+   "neuropathie-peripherique",
+   "compression",
+   "Laser et échographie du nerf médian dans le canal carpien"
+  ],
+  "IRCT20260201068723N1": [
+   "neurologie",
+   "autres",
+   "Laser basse ou haute puissance dans la paralysie faciale de Bell"
+  ],
+  "IRCT20260412069053N1": [
+   "neurologie",
+   "humeur",
+   "Photobiomodulation et fonctions mentales dans le trouble obsessionnel compulsif"
+  ],
+  "IRCT20260420069117N1": [
+   "musculo-squelettique",
+   "arthrose",
+   "PRP avec ou sans laser haute puissance dans la gonarthrose"
+  ],
+  "ISRCTN12589862": [
+   "mucite-orale",
+   "chimio",
+   "Mise en œuvre de la PBM dans les services de cancérologie pédiatrique du Royaume-Uni"
+  ],
+  "ISRCTN18078092": [
+   "mucite-orale",
+   "chimio",
+   "Deux lasers contre la mucite chimio-induite de l'enfant"
+  ],
+  "ISRCTN51052440": [
+   "dermatologie",
+   "plaies",
+   "Lumière dans les ulcères digitaux de la sclérodermie (étude 2)"
+  ],
+  "ITMCTR2025000908": [
+   "neuropathie-peripherique",
+   "CIPN",
+   "Laser basse intensité sur points d'acupuncture dans la neuropathie chimio-induite"
+  ],
+  "ITMCTR2025001819": [
+   "neuropathie-peripherique",
+   "lésion nerveuse",
+   "Laser-acupuncture et moxibustion dans l'engourdissement après lésion du nerf alvéolaire inférieur"
+  ],
+  "ITMCTR2026001204": [
+   "dermatologie",
+   "inflammatoire",
+   "Masque aux plantes associé à la lumière rouge dans l'acné"
+  ],
+  "ITMCTR2026001664": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser-acupuncture des points Shu dans le dysfonctionnement temporo-mandibulaire"
+  ],
+  "ITMCTR2026001822": [
+   "musculo-squelettique",
+   "rachis",
+   "Ondes de choc et laser haute énergie dans la hernie discale lombaire"
+  ],
+  "JPRN-UMIN000054271": [
+   "sport",
+   "blessures",
+   "Laser basse énergie contre électro-acupuncture chez le sportif douloureux"
+  ],
+  "JPRN-UMIN000060584": [
+   "musculo-squelettique",
+   "muscle",
+   "PBM par LED, seuils de douleur et température des tissus (volontaires sains)"
+  ],
+  "JPRN-UMIN000061505": [
+   "musculo-squelettique",
+   "muscle",
+   "PBM à large spectre et seuils de douleur : effet de la durée d'irradiation (volontaires sains)"
+  ],
+  "JPRN-UMIN000061507": [
+   "musculo-squelettique",
+   "muscle",
+   "Laser basse énergie continu ou pulsé et seuils de douleur (volontaires sains)"
+  ],
+  "JPRN-jRCT1032250032": [
+   "odontologie",
+   "ortho",
+   "Intérêt des appareils de photothérapie en orthodontie (enquête)"
+  ],
+  "JPRN-jRCTs032240756": [
+   "neurologie",
+   "humeur",
+   "PBM 810 nm et cognition dans la schizophrénie"
+  ],
+  "KCT0008938": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser-acupuncture et électro-acupuncture dans la gonarthrose"
+  ],
+  "KCT0011135": [
+   "neurologie",
+   "autres",
+   "Activité cérébrale pendant la laser-acupuncture crânienne (étude pilote)"
+  ],
+  "KCT0011969": [
+   "neurologie",
+   "humeur",
+   "PBM transcrânienne dans la dépression caractérisée"
+  ],
+  "KCT0012151": [
+   "dermatologie",
+   "esthétique",
+   "Patch silicone de photobiomodulation à lumière ambiante sur le visage (nuit)"
+  ],
+  "KCT0012468": [
+   "mucite-orale",
+   "ORL",
+   "Trois stratégies de prise en charge de la mucite radio-induite des cancers ORL"
+  ],
+  "NCT02086890": [
+   "ophtalmologie",
+   "rétinopathie",
+   "Électro-acupuncture, laser-acupuncture et stimulation transcornéenne dans la rétinite pigmentaire"
+  ],
   "NCT03716167": [
    "dermatologie",
    "plaies",
@@ -90,6 +1500,11 @@
    "muscle",
    "Jus de betterave et lumière rouge contre la fatigue musculaire"
   ],
+  "NCT05606237": [
+   "ophtalmologie",
+   "myopie",
+   "Lumière rouge répétée basse intensité pour freiner la myopie"
+  ],
   "NCT05650359": [
    "odontologie",
    "ortho",
@@ -99,6 +1514,11 @@
    "musculo-squelettique",
    "rachis",
    "Laser haute intensité contre sham dans la cervicalgie"
+  ],
+  "NCT05756959": [
+   "ophtalmologie",
+   "myopie",
+   "PBM associée aux verres à défocalisation dans la myopie de l'enfant"
   ],
   "NCT05763706": [
    "neuropathie-peripherique",
@@ -295,6 +1715,11 @@
    "plaies",
    "Lumière polarisée et phonophorèse d'insuline dans les plaies diabétiques"
   ],
+  "NCT06717048": [
+   "ophtalmologie",
+   "myopie",
+   "Puissance et fréquence minimales de lumière rouge répétée pour freiner la myopie"
+  ],
   "NCT06732570": [
    "musculo-squelettique",
    "épaule",
@@ -304,6 +1729,11 @@
    "neuropathie-peripherique",
    "orofaciale",
    "Laser-acupuncture, corticoïdes ou sham dans la paralysie de Bell idiopathique"
+  ],
+  "NCT06753773": [
+   "ophtalmologie",
+   "myopie",
+   "Lumière rouge : modifications choroïdiennes et rétiniennes à court terme"
   ],
   "NCT06756386": [
    "dermatologie",
@@ -319,6 +1749,11 @@
    "musculo-squelettique",
    "ATM",
    "PBM interne ou externe dans le dérangement interne de l'ATM"
+  ],
+  "NCT06771258": [
+   "ophtalmologie",
+   "myopie",
+   "Lumière rouge dans la myopie de l'enfant : preuve de concept"
   ],
   "NCT06773676": [
    "musculo-squelettique",
@@ -470,6 +1905,11 @@
    "muscle",
    "Laser haute intensité préventif et fatigue musculaire"
   ],
+  "NCT07104513": [
+   "ophtalmologie",
+   "myopie",
+   "Efficacité et facteurs prédictifs de la lumière rouge répétée dans la myopie"
+  ],
   "NCT07108400": [
    "musculo-squelettique",
    "arthrose",
@@ -540,6 +1980,11 @@
    "chimio",
    "Lumière rouge contre les effets cutanés et buccaux des traitements chez l'enfant de 0 à 16 ans"
   ],
+  "NCT07186088": [
+   "ophtalmologie",
+   "myopie",
+   "Différents appareils et fréquences de lumière rouge répétée basse intensité dans la myopie"
+  ],
   "NCT07191808": [
    "neuropathie-peripherique",
    "orofaciale",
@@ -554,6 +1999,11 @@
    "neurologie",
    "démences",
    "Laser-acupuncture 808 nm contre les symptômes comportementaux de la démence"
+  ],
+  "NCT07208617": [
+   "ophtalmologie",
+   "myopie",
+   "Appareil LED de lumière rouge pour prévenir et freiner la myopie"
   ],
   "NCT07224607": [
    "neurologie",
@@ -635,6 +2085,11 @@
    "fertilité",
    "HELIOS : illumination des embryons humains pour améliorer le développement"
   ],
+  "NCT07312214": [
+   "ophtalmologie",
+   "myopie",
+   "Lumière rouge LED contre sham sur la microcirculation choroïdienne dans la myopie pathologique"
+  ],
   "NCT07313826": [
    "musculo-squelettique",
    "rachis",
@@ -659,6 +2114,11 @@
    "ophtalmologie",
    "sécheresse",
    "Protéomique des larmes avant et après photothérapie basse énergie dans l'œil sec"
+  ],
+  "NCT07330180": [
+   "ophtalmologie",
+   "myopie",
+   "Relation dose-effet de la lumière rouge LED contre la progression de la myopie (multicentrique)"
   ],
   "NCT07332988": [
    "ophtalmologie",
@@ -709,6 +2169,11 @@
    "neuropathie-peripherique",
    "compression",
    "Laser-acupuncture dans le syndrome du canal carpien"
+  ],
+  "NCT07412678": [
+   "ophtalmologie",
+   "myopie",
+   "Lumière rouge chez l'adulte fort ou très fort myope"
   ],
   "NCT07414069": [
    "neuropathie-peripherique",
@@ -784,6 +2249,11 @@
    "gynecologie",
    "obstétrique",
    "Laser basse énergie, douleur et cicatrisation du périnée en post-partum immédiat"
+  ],
+  "NCT07494799": [
+   "ophtalmologie",
+   "myopie",
+   "Différentes interventions (dont lumière rouge) dans la myopie qui progresse sous orthokératologie"
   ],
   "NCT07501416": [
    "musculo-squelettique",
@@ -1030,6 +2500,11 @@
    "ortho",
    "Laser basse énergie contre paracétamol pour la douleur orthodontique"
   ],
+  "NCT07748546": [
+   "ophtalmologie",
+   "myopie",
+   "Effet rebond à l'arrêt de la lumière rouge répétée basse intensité dans la myopie"
+  ],
   "NCT07750392": [
    "musculo-squelettique",
    "fibro",
@@ -1175,6 +2650,11 @@
    "tendon",
    "Laser haute intensité, stimulation magnétique et ondes de choc dans les troubles musculo-squelettiques"
   ],
+  "NCT07909720": [
+   "ophtalmologie",
+   "myopie",
+   "Étude EYERISING : lumière rouge répétée basse intensité contre placebo dans la myopie"
+  ],
   "NCT07918157": [
    "musculo-squelettique",
    "épaule",
@@ -1184,9 +2664,632 @@
    "dermatologie",
    "inflammatoire",
    "Laser diode 980 nm ou acide hyaluronique dans les aphtes récidivants de l'enfant"
+  ],
+  "NCT07923019": [
+   "ophtalmologie",
+   "myopie",
+   "BRIGHT-LIGHT : lumière rouge dans la forte myopie ou la myopie qui progresse malgré le traitement standard"
+  ],
+  "NL-OMON58081": [
+   "ophtalmologie",
+   "myopie",
+   "Lumière rouge répétée basse intensité contre la progression de la myopie (Pays-Bas)"
+  ],
+  "RBR-1024tnxh": [
+   "gynecologie",
+   "obstétrique",
+   "Laser sur le périnée après accouchement par voie basse"
+  ],
+  "RBR-102symy9": [
+   "musculo-squelettique",
+   "arthrose",
+   "PBM sur points d'acupuncture et exercice dans la gonarthrose"
+  ],
+  "RBR-103g7j28": [
+   "odontologie",
+   "chirurgie",
+   "Différentes anesthésies et photobiomodulation en chirurgie des dents de sagesse"
+  ],
+  "RBR-103sntp6": [
+   "neuropathie-peripherique",
+   "autres",
+   "Laser sur la cicatrisation et les douleurs neuropathiques de la lèpre"
+  ],
+  "RBR-104d39nn": [
+   "gynecologie",
+   "obstétrique",
+   "Laser basse intensité pour la cicatrisation des lésions périnéales (épisiotomie, déchirure)"
+  ],
+  "RBR-104pstbt": [
+   "neurologie",
+   "autres",
+   "LED 850 nm et attention et mémoire de volontaires sains"
+  ],
+  "RBR-108b5jqc": [
+   "dermatologie",
+   "radiodermite",
+   "LED bleue dans les lésions cutanées de la radiothérapie"
+  ],
+  "RBR-10bbr596": [
+   "dermatologie",
+   "inflammatoire",
+   "PRP et laser basse énergie dans le psoriasis (cas unique)"
+  ],
+  "RBR-10bf7yj6": [
+   "odontologie",
+   "autres",
+   "Photobiomodulation, pression et endurance de la langue"
+  ],
+  "RBR-10fsg6j7": [
+   "odontologie",
+   "chirurgie",
+   "Laser après chirurgie orthognathique chez les patients avec fente labio-palatine"
+  ],
+  "RBR-10jzgw6h": [
+   "musculo-squelettique",
+   "épaule",
+   "Laser infrarouge sur la région cervicale dans la douleur d'épaule chronique"
+  ],
+  "RBR-10n8d52v": [
+   "odontologie",
+   "paro",
+   "Laser dans la maladie parodontale (bouche divisée, triple aveugle)"
+  ],
+  "RBR-10q7xt2d": [
+   "oncologie-support",
+   "xérostomie",
+   "Laser contre la sécheresse buccale radio-induite des cancers ORL"
+  ],
+  "RBR-10rskkf5": [
+   "oncologie-support",
+   "xérostomie",
+   "Lumière basse énergie sur les glandes salivaires : protéomique et qualité de vie"
+  ],
+  "RBR-10w4cvsv": [
+   "gynecologie",
+   "obstétrique",
+   "Laser contre la douleur et pour la fonction après césarienne"
+  ],
+  "RBR-10w97w8r": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser contre la douleur musculaire du dysfonctionnement temporo-mandibulaire (croisé)"
+  ],
+  "RBR-23rhfp8": [
+   "gynecologie",
+   "général",
+   "Laser-acupuncture et laser dans les douleurs mammaires"
+  ],
+  "RBR-262xftk": [
+   "dermatologie",
+   "esthétique",
+   "PBM systémique dans le lipœdème"
+  ],
+  "RBR-27m45tt": [
+   "odontologie",
+   "hypersensibilité",
+   "Éclaircissement dentaire, sensibilité (dont laser) et qualité de vie"
+  ],
+  "RBR-29k8grc": [
+   "mucite-orale",
+   "ORL",
+   "Lumière et cicatrisation après exérèse d'une tumeur de la langue"
+  ],
+  "RBR-2ddjwxd": [
+   "orl",
+   "acouphènes",
+   "Laser basse énergie dans les acouphènes"
+  ],
+  "RBR-2dwdry5": [
+   "orl",
+   "acouphènes",
+   "Photobiomodulation dans les acouphènes"
+  ],
+  "RBR-2dzyhxp": [
+   "gynecologie",
+   "obstétrique",
+   "Laser basse énergie et production de lait après l'accouchement"
+  ],
+  "RBR-2h86wf5": [
+   "odontologie",
+   "chirurgie",
+   "A-PRF et laser basse énergie pour la cicatrisation"
+  ],
+  "RBR-2n6c247": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser dans les troubles temporo-mandibulaires des patients migraineux"
+  ],
+  "RBR-2r5qwyj": [
+   "oncologie-support",
+   "autres",
+   "Laser dans les suites de chirurgie des cancers ORL"
+  ],
+  "RBR-2rfyjxx": [
+   "odontologie",
+   "paro",
+   "Traitements complémentaires (dont laser) de la parodontite chez le diabétique et le fumeur"
+  ],
+  "RBR-2x4zkwm": [
+   "gynecologie",
+   "obstétrique",
+   "Laser basse énergie contre la douleur et pour la cicatrisation des lésions périnéales de l'accouchement"
+  ],
+  "RBR-2x9sjks": [
+   "neurologie",
+   "autres",
+   "Lumière infrarouge, mémoire et attention de jeunes adultes sains"
+  ],
+  "RBR-2xvc6gr": [
+   "neuropathie-peripherique",
+   "CIPN",
+   "Photobiomodulation des symptômes des membres supérieurs dus à la chimiothérapie"
+  ],
+  "RBR-2zs6bbz": [
+   "orl",
+   "pharynx",
+   "Laser basse énergie et entraînement vocal chez les chanteurs dysphoniques"
+  ],
+  "RBR-38d67cj": [
+   "odontologie",
+   "anesthésie",
+   "Laser infrarouge basse énergie contre la douleur de l'anesthésie dentaire de l'enfant"
+  ],
+  "RBR-3cvt7vb": [
+   "mucite-orale",
+   "ORL",
+   "Laser pour prévenir les troubles du goût pendant la radiothérapie des cancers ORL"
+  ],
+  "RBR-3g8vcjs": [
+   "neurologie",
+   "autres",
+   "Photobiomodulation dans la vessie neurologique"
+  ],
+  "RBR-3jk98z7": [
+   "sport",
+   "performance",
+   "Entraînement en restriction du flux sanguin associé à la photothérapie"
+  ],
+  "RBR-3nvyrtg": [
+   "dermatologie",
+   "plaies",
+   "Laser contre l'infection après morsure de serpent (jararaca) en Amazonie"
+  ],
+  "RBR-3p9wphq": [
+   "neuropathie-peripherique",
+   "autres",
+   "PBM ou laser haute puissance avec kinésithérapie dans la rééducation de la lèpre"
+  ],
+  "RBR-3tth247": [
+   "odontologie",
+   "chirurgie",
+   "Lumière et anxiété en chirurgie des dents de sagesse (bouche divisée, double aveugle)"
+  ],
+  "RBR-3xtswps": [
+   "oncologie-support",
+   "autres",
+   "Laser auriculaire contre la douleur du cancer avancé"
+  ],
+  "RBR-42cms7j": [
+   "gynecologie",
+   "pelvien",
+   "Photobiomodulation dans l'endométriose"
+  ],
+  "RBR-449rqqm": [
+   "gynecologie",
+   "obstétrique",
+   "Laser basse intensité dans la mastite de lactation (lactarium)"
+  ],
+  "RBR-44gh2w8": [
+   "gynecologie",
+   "pelvien",
+   "Lumière contre la douleur du plancher pelvien de la femme (faisabilité)"
+  ],
+  "RBR-4543s2j": [
+   "neuropathie-peripherique",
+   "orofaciale",
+   "Laser dans la névralgie trigéminale (triple aveugle)"
+  ],
+  "RBR-49qs5px": [
+   "neurologie",
+   "AVC",
+   "Récupération fonctionnelle après AVC sous photobiomodulation"
+  ],
+  "RBR-4bdqq3q": [
+   "neurologie",
+   "humeur",
+   "LED basse intensité et thérapie manuelle crânienne sur l'anxiété, le sommeil et la posture"
+  ],
+  "RBR-4fqd724": [
+   "mucite-orale",
+   "mixte",
+   "Mise en place d'un protocole de laser contre la mucite des patients d'oncologie"
+  ],
+  "RBR-4hbxk9k": [
+   "mucite-orale",
+   "ORL",
+   "Laser pour prévenir la mucite des cancers ORL"
+  ],
+  "RBR-4jhsqvg": [
+   "odontologie",
+   "chirurgie",
+   "PBM et fibrine riche en plaquettes et leucocytes pour préserver la hauteur osseuse alvéolaire"
+  ],
+  "RBR-4k23pzf": [
+   "mucite-orale",
+   "mixte",
+   "Masque LED pour prévenir et traiter la mucite"
+  ],
+  "RBR-4z9mt9h": [
+   "orl",
+   "vertiges",
+   "Photobiomodulation et rééducation vestibulaire chez la femme"
+  ],
+  "RBR-57gn649": [
+   "neurologie",
+   "parkinson",
+   "PBM transcrânienne, marche et équilibre dans la maladie de Parkinson"
+  ],
+  "RBR-57mfyb3": [
+   "dermatologie",
+   "plaies",
+   "Laser portable sur les plaies chirurgicales juste après l'intervention"
+  ],
+  "RBR-5c9vmfs": [
+   "odontologie",
+   "hypersensibilité",
+   "Laser basse énergie contre l'hypersensibilité après éclaircissement"
+  ],
+  "RBR-5fdrm8b": [
+   "gynecologie",
+   "obstétrique",
+   "Laser basse énergie contre la douleur et pour la cicatrisation des lésions du mamelon (allaitement)"
+  ],
+  "RBR-5k8dfz3": [
+   "neurologie",
+   "autres",
+   "Lumière appliquée au poignet dans le sepsis et le choc septique"
+  ],
+  "RBR-5kd6vg5": [
+   "neurologie",
+   "autres",
+   "Ceinture lumineuse pour le sevrage ventilatoire et contre la faiblesse musculaire en réanimation"
+  ],
+  "RBR-5mfxbkj": [
+   "mucite-orale",
+   "CSH",
+   "Mucite et laser en greffe de cellules souches hématopoïétiques"
+  ],
+  "RBR-5p2xfzd": [
+   "oncologie-support",
+   "xérostomie",
+   "Laser extra et intrabuccal pour prévenir les lésions buccales et la sécheresse des patients atteints de cancer"
+  ],
+  "RBR-5wm9m42": [
+   "neurologie",
+   "autres",
+   "Photothérapie pour la mémoire et l'attention des personnes vivant avec le VIH"
+  ],
+  "RBR-648xyqn": [
+   "neurologie",
+   "neurodev",
+   "PBM transcrânienne chez l'enfant autiste (Brésil)"
+  ],
+  "RBR-64mpg85": [
+   "musculo-squelettique",
+   "fibro",
+   "Exercice aérobie associé au laser systémique dans la fibromyalgie"
+  ],
+  "RBR-66gbrkj": [
+   "odontologie",
+   "hypersensibilité",
+   "Gel Refix au calcium et laser basse énergie dans l'hypersensibilité cervicale"
+  ],
+  "RBR-6bj2czr": [
+   "odontologie",
+   "autres",
+   "Laser sur points d'acupuncture contre la sécheresse buccale du syndrome de Sjögren"
+  ],
+  "RBR-6czzb2f": [
+   "sport",
+   "populations",
+   "Musculation et couverture laser : performance et bien-être de la personne âgée"
+  ],
+  "RBR-6jt2f8b": [
+   "gynecologie",
+   "obstétrique",
+   "Laser basse intensité et bleu de méthylène contre les crevasses du mamelon pendant l'allaitement"
+  ],
+  "RBR-6pygc5m": [
+   "odontologie",
+   "autres",
+   "Laser et tonus des lèvres"
+  ],
+  "RBR-6yzr9zb": [
+   "neurologie",
+   "humeur",
+   "Laser transcrânien dans la dépression"
+  ],
+  "RBR-72hp4v9": [
+   "neurologie",
+   "parkinson",
+   "Infrarouge par le dessus de la tête dans la maladie de Parkinson"
+  ],
+  "RBR-74547s2": [
+   "dermatologie",
+   "plaies",
+   "Laser local ou intravasculaire dans les plaies chroniques"
+  ],
+  "RBR-74snjc8": [
+   "neurologie",
+   "neurodev",
+   "Neuromodulation cérébrale (dont PBM) de l'enfant avec paralysie cérébrale"
+  ],
+  "RBR-76b23nf": [
+   "neurologie",
+   "humeur",
+   "Auriculothérapie et laser-acupuncture dans l'insomnie chronique"
+  ],
+  "RBR-7f42fs5": [
+   "odontologie",
+   "implants",
+   "Laser local et systémique en chirurgie implantaire"
+  ],
+  "RBR-7j5xqpx": [
+   "dermatologie",
+   "plaies",
+   "Laser basse énergie et cicatrisation des ulcères veineux"
+  ],
+  "RBR-7r2gzzq": [
+   "dermatologie",
+   "plaies",
+   "Lumière et cicatrisation des plaies en réanimation"
+  ],
+  "RBR-7rzfysb": [
+   "odontologie",
+   "autres",
+   "Traitements conservateurs (dont PBM) des caries profondes dans les écoles d'Amazonie"
+  ],
+  "RBR-7t7gy3x": [
+   "odontologie",
+   "implants",
+   "PBM bi-longueur d'onde dans la péri-implantite, avec ou sans greffe de tissu mou"
+  ],
+  "RBR-7zsggy2": [
+   "dermatologie",
+   "radiodermite",
+   "Lumière rouge et cicatrisation de la peau des patients traités pour un cancer"
+  ],
+  "RBR-833prgf": [
+   "oncologie-support",
+   "autres",
+   "Troubles du goût et lumière thérapeutique pendant la chimiothérapie du cancer du sein"
+  ],
+  "RBR-842mfjt": [
+   "gynecologie",
+   "obstétrique",
+   "Panneau LED rouge et cicatrisation périnéale après accouchement par voie basse"
+  ],
+  "RBR-86my7w2": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser associé au TENS et à la chaleur dans la douleur myofasciale temporo-mandibulaire"
+  ],
+  "RBR-88fsw4n": [
+   "odontologie",
+   "chirurgie",
+   "Laser et récupération après extraction de dent de sagesse (bouche divisée)"
+  ],
+  "RBR-8bhgyg8": [
+   "odontologie",
+   "endo",
+   "Protocole de laser contre la douleur après traitement canalaire (essai pragmatique)"
+  ],
+  "RBR-8bwn97b": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser, douleur et mobilité dans les troubles de la région de la mâchoire"
+  ],
+  "RBR-8hbr85z": [
+   "musculo-squelettique",
+   "muscle",
+   "Laser haute intensité dans les douleurs musculaires de la nuque et de l'épaule"
+  ],
+  "RBR-8k9xz7z": [
+   "sport",
+   "populations",
+   "Laser contre la faiblesse musculaire de la personne âgée"
+  ],
+  "RBR-8kyp7kz": [
+   "gynecologie",
+   "pelvien",
+   "Lumière thérapeutique contre la douleur pelvienne chronique de la femme"
+  ],
+  "RBR-8pdy4q8": [
+   "neurologie",
+   "AVC",
+   "PBM transcrânienne dans la rééducation des trois premiers mois après AVC"
+  ],
+  "RBR-8q234nn": [
+   "odontologie",
+   "chirurgie",
+   "Laser contre la douleur et pour la récupération après extraction des dents de sagesse"
+  ],
+  "RBR-8tk2cc9": [
+   "dermatologie",
+   "plaies",
+   "Laser avec bleu de méthylène contre LED bleue contre le biofilm des plaies difficiles"
+  ],
+  "RBR-8xkp7wr": [
+   "odontologie",
+   "hypersensibilité",
+   "Laser contre l'hypersensibilité des enfants avec MIH"
+  ],
+  "RBR-98xmt2n": [
+   "neuropathie-peripherique",
+   "lésion nerveuse",
+   "Laser dans les troubles neurosensoriels après chirurgie de la face"
+  ],
+  "RBR-99ft86r": [
+   "musculo-squelettique",
+   "tendon",
+   "Massage transverse profond et laser dans l'épicondylite (thermographie)"
+  ],
+  "RBR-9brv7dd": [
+   "mucite-orale",
+   "ORL",
+   "Environnement buccal des patients traités par laser contre la mucite"
+  ],
+  "RBR-9cqvm3t": [
+   "neuropathie-peripherique",
+   "diabète",
+   "Laser contre les douleurs des membres inférieurs chez les diabétiques"
+  ],
+  "RBR-9g8mrfg": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser basse puissance, ultrasons et intelligence artificielle dans les troubles temporo-mandibulaires"
+  ],
+  "RBR-9jf5bmj": [
+   "neurologie",
+   "neurodev",
+   "Lumière basse énergie et système nerveux autonome dans la paralysie cérébrale"
+  ],
+  "RBR-9s3dcs4": [
+   "dermatologie",
+   "plaies",
+   "Photobiomodulation dans le pied diabétique"
+  ],
+  "RBR-9sgdsm2": [
+   "gynecologie",
+   "obstétrique",
+   "Lumière basse puissance et lésions périnéales après accouchement"
+  ],
+  "RBR-9tmdkh4": [
+   "neuropathie-peripherique",
+   "diabète",
+   "Entraînement cardio associé à la LED dans la neuropathie diabétique"
+  ],
+  "RBR-9x5zrgm": [
+   "oncologie-support",
+   "autres",
+   "Protocoles de laser pour prévenir la dysgueusie de la chimiothérapie du cancer du sein"
+  ],
+  "RBR-9y4vrxk": [
+   "neurologie",
+   "AVC",
+   "Lumière transcrânienne pour la récupération après AVC ischémique"
+  ],
+  "RBR-9ygjt3q": [
+   "neurologie",
+   "parkinson",
+   "Photothérapie cérébrale, marche et équilibre dans la maladie de Parkinson"
+  ],
+  "SLCTR/2026/026": [
+   "odontologie",
+   "ortho",
+   "PBM au fauteuil contre la douleur après changement d'aligneur"
+  ],
+  "TCTR20240521002": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser haute intensité contre ultrasons pulsés, avec exercice, dans la gonarthrose"
+  ],
+  "TCTR20251007003": [
+   "musculo-squelettique",
+   "ATM",
+   "Traitements non invasifs (dont laser) des troubles temporo-mandibulaires musculaires"
+  ],
+  "TCTR20260127002": [
+   "neuropathie-peripherique",
+   "compression",
+   "Ondes de choc focalisées et laser haute intensité, seuls ou associés, dans le canal carpien"
+  ],
+  "TCTR20260205002": [
+   "musculo-squelettique",
+   "tendon",
+   "Laser haute intensité contre ondes de choc focalisées dans l'aponévrosite plantaire"
+  ],
+  "TCTR20260310002": [
+   "oncologie-support",
+   "lymphœdème",
+   "Laser basse énergie 2 ou 4 J/cm² dans le lymphœdème après cancer du sein"
+  ],
+  "TCTR20260320001": [
+   "musculo-squelettique",
+   "muscle",
+   "Kinésithérapie, laser haute puissance, ondes de choc ou stimulation magnétique dans les troubles musculo-squelettiques liés au travail"
+  ],
+  "TCTR20260420004": [
+   "musculo-squelettique",
+   "muscle",
+   "Stimulation magnétique périphérique contre laser haute intensité dans le syndrome myofascial du trapèze"
+  ],
+  "TCTR20260711003": [
+   "dermatologie",
+   "esthétique",
+   "Lumière bleue et rouge sur le microbiome de la peau grasse"
+  ],
+  "TCTR20260923012": [
+   "dermatologie",
+   "cicatrices",
+   "PRP activé par photobiomodulation dans les cicatrices d'acné (hémi-visage)"
   ]
  },
  "exclus": [
+  "ACTRN12626000963325",
+  "ACTRN12626000981325",
+  "CTIS2025-520698-38-00",
+  "CTRI/2023/12/060929",
+  "CTRI/2024/10/076027",
+  "CTRI/2025/08/093487",
+  "CTRI/2025/09/094267",
+  "CTRI/2025/09/094917",
+  "CTRI/2025/11/097016",
+  "CTRI/2025/12/099027",
+  "CTRI/2025/12/099574",
+  "CTRI/2026/01/101745",
+  "CTRI/2026/02/103303",
+  "CTRI/2026/02/103307",
+  "CTRI/2026/02/104581",
+  "CTRI/2026/03/105487",
+  "CTRI/2026/03/105695",
+  "CTRI/2026/03/106932",
+  "CTRI/2026/04/107920",
+  "CTRI/2026/04/108247",
+  "CTRI/2026/04/108395",
+  "CTRI/2026/05/109999",
+  "CTRI/2026/05/110519",
+  "CTRI/2026/05/110986",
+  "CTRI/2026/05/111150",
+  "CTRI/2026/06/112229",
+  "CTRI/2026/06/112383",
+  "CTRI/2026/07/113307",
+  "CTRI/2026/08/115952",
+  "ChiCTR2300077589",
+  "ChiCTR2400094668",
+  "ChiCTR2500100915",
+  "ChiCTR2500110018",
+  "ChiCTR2500112006",
+  "ChiCTR2600121049",
+  "ChiCTR2600124182",
+  "ChiCTR2600125693",
+  "ChiCTR2600126019",
+  "ChiCTR2600126980",
+  "ChiCTR2600133634",
+  "DRKS00037358",
+  "DRKS00041002",
+  "IRCT20111121008146N45",
+  "IRCT20111121008146N48",
+  "IRCT20221030056342N7",
+  "IRCT20241008063288N1",
+  "IRCT20241230064214N1",
+  "IRCT20250223064818N1",
+  "ITMCTR2025002537",
+  "ITMCTR2026000411",
+  "JPRN-UMIN000060622",
+  "JPRN-UMIN000062384",
+  "KCT0012752",
   "NCT03819062",
   "NCT04495660",
   "NCT04812093",
@@ -1241,6 +3344,14 @@
   "NCT07646327",
   "NCT07840560",
   "NCT07895667",
-  "NCT07895810"
+  "NCT07895810",
+  "NL-OMON57851",
+  "RBR-10xbwbwg",
+  "RBR-4xg98bx",
+  "RBR-5hkxkjh",
+  "RBR-6wn3v5g",
+  "RBR-72nr8hc",
+  "RBR-9vcph8x",
+  "TCTR20260908009"
  ]
 }

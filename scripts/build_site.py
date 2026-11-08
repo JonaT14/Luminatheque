@@ -316,20 +316,24 @@ def main() -> None:
             if p.stem not in keep:
                 p.unlink()
                 print("  PDF retiré (pas de fiche rédigée) :", p.name)
-    # essais en cours et projets en construction (registre ClinicalTrials.gov, trié à la main)
-    reg_p, cur_p = ROOT / "data/trials/registre.json", ROOT / "data/curation/essais.json"
+    # essais en cours et projets en construction (ClinicalTrials.gov + registres de l'ICTRP/OMS, triés à la main)
+    reg_p, cur_p, oms_p = ROOT / "data/trials/registre.json", ROOT / "data/curation/essais.json", ROOT / "data/trials/registres_oms.json"
     trials: dict[str, list] = {}
     if reg_p.exists() and cur_p.exists():
         reg, cur = json.loads(reg_p.read_text()), json.loads(cur_p.read_text())
-        keep = ("nct", "title", "acronym", "status", "phases", "n", "start", "end", "allocation", "masking", "conditions",
+        oms = json.loads(oms_p.read_text()) if oms_p.exists() else {"studies": [], "fetched": None}
+        for st in reg["studies"]:
+            st.setdefault("registry", "ClinicalTrials.gov"); st.setdefault("url", f"https://clinicaltrials.gov/study/{st['nct']}")
+        keep = ("nct", "registry", "url", "title", "acronym", "status", "phases", "n", "start", "end", "allocation", "masking", "conditions",
                 "interventions", "sponsor", "sponsor_class", "collaborators", "responsible", "officials", "countries", "sites",
                 "n_sites", "outcome", "summary", "updated", "first_posted", "type")
-        for st in reg["studies"]:
+        reg["oms_fetched"] = oms.get("fetched")
+        for st in reg["studies"] + oms["studies"]:
             c = cur["essais"].get(st["nct"])
             if not c:
                 continue
             trials.setdefault(c[0], []).append({k: st.get(k) for k in keep} | {"ctx": c[1], "titre": c[2]})
-        payload_trials = {"fetched": reg["fetched"], "by_topic": trials}
+        payload_trials = {"fetched": reg["fetched"], "oms_fetched": reg["oms_fetched"], "by_topic": trials}
         js = "window.LUMINA_E = " + json.dumps(payload_trials, ensure_ascii=False, separators=(",", ":")) + ";\n"
         h = hashlib.sha1(js.encode()).hexdigest()[:10]
         for old in (ROOT / "assets/topics").glob("_essais.*js"):
@@ -339,7 +343,8 @@ def main() -> None:
         for tp in topics:
             xs = trials.get(tp["id"], [])
             tp["trials"] = {"now": sum(x["status"] != "NOT_YET_RECRUITING" for x in xs), "soon": sum(x["status"] == "NOT_YET_RECRUITING" for x in xs)}
-        print(f"→ {sum(map(len, trials.values()))} essais au registre (relevé du {reg['fetched']})")
+        n_oms = sum(x["registry"] != "ClinicalTrials.gov" for xs in trials.values() for x in xs)
+        print(f"→ {sum(map(len, trials.values()))} essais en cours, dont {n_oms} hors ClinicalTrials.gov (relevés du {reg['fetched']} et du {reg['oms_fetched']})")
     # appareils : détection par expressions régulières dans le titre et le résumé des notices et des essais
     dev_p = ROOT / "data/appareils.json"
     if dev_p.exists():
@@ -363,7 +368,7 @@ def main() -> None:
                 text = " ".join([s_.get("title") or "", s_.get("summary") or ""] + [i.get("name") or "" for i in s_["interventions"]])
                 for d in devices:
                     if rx[d["id"]].search(text):
-                        trial_hits[d["id"]].append({"n": s_["nct"], "t": tp, "ti": s_["titre"], "st": s_["status"]})
+                        trial_hits[d["id"]].append({"n": s_["nct"], "u": s_["url"], "t": tp, "ti": s_["titre"], "st": s_["status"]})
         out_dev = []
         for d in devices:
             hs = sorted(hits[d["id"]], key=lambda h: (-h["c"], -h["y"]))

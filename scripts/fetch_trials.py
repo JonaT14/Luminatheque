@@ -30,7 +30,7 @@ INTR = ('photobiomodulation OR "low-level laser" OR "low level laser" OR "low-in
         'OR "transcranial photobiomodulation" OR "light therapy"')
 import re
 PBM = re.compile(r"photobiomodul|low[- ]?level (laser|light)|low[- ]?(intensity|power|energy) laser|\blllt\b|\bpbmt?\b|light[- ]emitting diode|\bleds?\b|near[- ]?infrared|laser[- ]?acupunct|high[- ]?intensity laser|\bhilt\b|red light|infrared light|cold laser|class iv laser|therapeutic laser|laser therapy|laser treatment|transcranial (laser|light|near)|diode laser|he-?ne|ilib|blood irradiation", re.I)
-NOT_PBM = re.compile(r"photodynamic|bright light|\blux\b|circadian|dawn|ablative|co2 laser|carbon dioxide laser|fractional|erbium|er:yag|nd:yag|pulsed dye|intense pulsed|\bipl\b|\buvb?\b|ultraviolet|narrow[- ]?band|excimer|flicker|gamma (sensory|stimulation)|40 ?hz|laser (ablation|surgery|resurfacing|hair removal|vaporization)|lithotripsy|thulium|holmium|picosecond|q-switched|interstitial thermal|litt\b|laser interstitial|vitrectomy|retina|myopia|endovenous|vaginal (co2|erbium)", re.I)
+NOT_PBM = re.compile(r"photodynamic|bright light|\blux\b|circadian|dawn|ablative|co2 laser|carbon dioxide laser|fractional|erbium|er:yag|nd:yag|pulsed dye|intense pulsed|\bipl\b|\buvb?\b|ultraviolet|narrow[- ]?band|excimer|flicker|gamma (sensory|stimulation)|40 ?hz|laser (ablation|surgery|resurfacing|hair removal|vaporization)|lithotripsy|thulium|holmium|picosecond|q-switched|interstitial thermal|litt\b|laser interstitial|vitrectomy|endovenous|vaginal (co2|erbium)", re.I)
 
 
 def is_pbm(s: dict) -> bool:

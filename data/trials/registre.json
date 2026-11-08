@@ -427,6 +427,146 @@
    ]
   },
   {
+   "nct": "NCT07923019",
+   "title": "BRIGHT-LIGHT: Studying Red Light Therapy for Severe Short-Sightedness or Short-Sightedness That Worsens Despite Standard Treatment",
+   "official": "Benefit of Repeated Illumination in Group of High Myopes and Treatment-resistant Cases (BRIGHT) - Repeated Low-Level Red Light (RLRL) Therapy (Evaluating RLRL Treatment in High Myopes and Non-Responders to Conventional Myopia Control) (BRIGHT-LIGHT)",
+   "acronym": "BRIGHT LIGHT",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-12-01",
+   "end": "2030-12-31",
+   "completion": "2031-12-31",
+   "first_posted": "2026-11-06",
+   "updated": "2026-11-06",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 40,
+   "allocation": "NON_RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Myopia",
+    "Myopia Progressing",
+    "Myopia Progression",
+    "Light"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Repeated low-level red-light (RLRL) therapy"
+    },
+    {
+     "type": "OTHER",
+     "name": "Continued existing myopia treatment strategy"
+    }
+   ],
+   "summary": "Some children's short-sightedness (myopia) continues to worsen despite treatments such as atropine eye drops, myopia-control spectacles or contact lenses. These children may be at greater risk of developing severe short-sightedness and related eye problems later in life.\n\nThe BRIGHT-LIGHT study will assess the safety of repeated low-level red-light therapy and explore whether it can slow worsening short-sightedness in children whose myopia is inadequately controlled by conventional treatment. This therapy uses a device that delivers low-power red light to the eyes during short treatment sessions.\n\nForty children aged 8-16 years will be followed for 12 months: 30 receiving red-light therapy and 10 continuing conventional myopia treatment. Group assignment will depend on the willingness of children and their parents or guardians to start red-light therapy, rather than random allocation.\n\nT",
+   "outcome": "Change in Best-Corrected Visual Acuity",
+   "sponsor": "Singapore National Eye Centre",
+   "sponsor_class": "OTHER_GOV",
+   "collaborators": [
+    "Singapore Eye Research Institute"
+   ],
+   "responsible": {
+    "name": "Bryan Sim XR",
+    "title": "Consultant",
+    "affiliation": "Singapore National Eye Centre"
+   },
+   "officials": [
+    {
+     "name": "Bryan XR Sim, MD FRCOphth",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Singapore National Eye Centre (SNEC)/Singapore Eye Research Institute (SERI)"
+    }
+   ],
+   "countries": [
+    "Singapore"
+   ],
+   "sites": [
+    {
+     "facility": "Singapore Eye Research Institute",
+     "city": "Singapore",
+     "country": "Singapore"
+    },
+    {
+     "facility": "Singapore National Eye Centre",
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
+   "nct": "NCT07909720",
+   "title": "The EYERISING Study",
+   "official": "Repeated Low-level Red Light for Myopia Progression Study: An International, Multicenter, Multiethnic, Randomized Controlled Trial, IPOSC Study",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-12",
+   "end": "2029-05",
+   "completion": "2029-05",
+   "first_posted": "2026-11-02",
+   "updated": "2026-11-05",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 333,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Myopia",
+    "Astigmatism",
+    "Anisometropia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Repeated Low-Level Red Light (RLRL) therapy"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Placebo Device"
+    }
+   ],
+   "summary": "The purpose of this clinical trial is to see if and how well Repeated Low-Level Red Light (RLRL) therapy works to control myopia over 12 months. The main question it aims to answer is:\n\n* Can RLRL therapy help slow down the worsening of myopia?\n\nParticipants will use a red-light therapy investigational device at home, 5 days a week for 12 months.",
+   "outcome": "Change in cycloplegic spherical equivalent refraction (SER)",
+   "sponsor": "University of Wisconsin, Madison",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Yasmin Bradfield, MD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "University of Wisconsin, Madison"
+    }
+   ],
+   "countries": [
+    "Nepal",
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "University of Wisconsin - Madison",
+     "city": "Madison",
+     "country": "United States"
+    },
+    {
+     "facility": "Tilganga Institute of Ophthalmology",
+     "city": "Kathmandu",
+     "country": "Nepal"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT07890233",
    "title": "Efficacy of an LED Mask",
    "official": "12-week Study Evaluating the Efficacy of an LED Mask",
@@ -2566,6 +2706,52 @@
    "n_sites": 1,
    "matched": [
     "mucite-orale"
+   ]
+  },
+  {
+   "nct": "NCT07748546",
+   "title": "The Rebound Effect on Repeated Low-Level Red Light Therapy for Myopia",
+   "official": "The Rebound Effect on Repeated Low-Level Red Light Therapy for Myopia: A Randomized Controlled Clinical Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-08-15",
+   "end": "2027-12-31",
+   "completion": "2028-07-15",
+   "first_posted": "2026-08-05",
+   "updated": "2026-08-05",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 159,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Myopia",
+    "Randomized Controlled Trial (RCT)"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Repeated low-level red light (RLRL) therapy"
+    }
+   ],
+   "summary": "Myopia is a global public health issue, projected to affect 49.8% of the world population by 2050, increasing risks of cataracts, glaucoma, macular degeneration, and retinal detachment. Repeated low-level red light (RLRL) therapy has shown promising myopia control in 12-month trials, reducing axial elongation by 69.4% and refractive progression by 76.6% versus spectacles, outperforming 0.01% atropine and benefiting orthokeratology poor responders. However, two-year data indicate declining efficacy in the second year and a rebound effect upon discontinuation, with progression rates matching untreated controls. This study enrolls participants who completed one year of continuous RLRL therapy to evaluate rebound effects on axial length and spherical equivalent refractive power among those who discontinue, gradually reduce, or continue treatment. Findings will inform strategies to optimize l",
+   "outcome": "Axial length(AL)",
+   "sponsor": "The First Affiliated Hospital of Anhui Medical University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Lixia Feng",
+    "title": "chief physician",
+    "affiliation": "The First Affiliated Hospital of Anhui Medical University"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
@@ -5500,6 +5686,63 @@
    ]
   },
   {
+   "nct": "NCT07494799",
+   "title": "Efficacy of Different Interventions for Progressive Myopia After Orthokeratology Lens Wear",
+   "official": "A Prospective Study on the Efficacy of Different Interventions for Progressive Myopia in Children After Orthokeratology Lens Wear",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-04-01",
+   "end": "2026-05-01",
+   "completion": "2027-04-01",
+   "first_posted": "2026-03-27",
+   "updated": "2026-04-01",
+   "type": "OBSERVATIONAL",
+   "phases": [],
+   "n": 3890,
+   "allocation": null,
+   "masking": null,
+   "conditions": [
+    "Progressive Myopia",
+    "Pediatric Myopia",
+    "Orthokeratology-related Myopia Progression"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "OK Lens Continuation Group"
+    },
+    {
+     "type": "DRUG",
+     "name": "OK Lens + 0.01% Atropine Group"
+    },
+    {
+     "type": "DEVICE",
+     "name": "OK Lens with Reduced Optical Zone Group"
+    },
+    {
+     "type": "DEVICE",
+     "name": "OK Lens + Low-Intensity Red Light Group"
+    }
+   ],
+   "summary": "Myopia has emerged as a significant concern impacting the visual health of children and adolescents on a global scale. According to research conducted by Holden BA et al., it is projected that by the year 2050, the worldwide prevalence of myopia and high myopia will experience a substantial increase, affecting approximately 5 billion and 1 billion individuals, respectively, with particularly high prevalence rates observed in East Asia\\[1\\]. The persistent rise in myopia incidence, coupled with the escalation of complications associated with high myopia, is anticipated to exert complex socio-economic repercussions \\[2\\]. Consequently, the prevention of myopia onset and the management of axial length elongation have become critically important \\[3\\].\n\nOrthokeratology (Ortho-K) is a procedure that involves the overnight application of specially designed reverse geometry rigid gas permeable ",
+   "outcome": "Change in Axial Length from Baseline at 12 Months",
+   "sponsor": "Tianjin Medical University Eye Hospital",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Ruihua Wei",
+    "title": "Professor of Ophthalmology, Chief Physician",
+    "affiliation": "Tianjin Medical University Eye Hospital"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT07810530",
    "title": "Study of a Copaiba-Based Mouthwash Combined With Low-Level Laser Therapy in the Prevention of Oral Mucositis in Patients Undergoing Hematopoietic Stem Cell Transplantation",
    "official": "Randomized, Double-Blind, Placebo-Controlled Phase II Study to Evaluate the Efficacy of a Copaiba-Based Mouthwash Combined With Low-Level Laser Therapy in the Prevention of Oral Mucositis in Patients Undergoing Hematopoietic Stem Cell Transplantation",
@@ -6301,6 +6544,120 @@
    "n_sites": 2,
    "matched": [
     "dermatologie"
+   ]
+  },
+  {
+   "nct": "NCT07208617",
+   "title": "Development of Bioluminescent Myopia Prevention and Control Instrument and Evaluation of Its Effect on Myopia",
+   "official": "Efficacy Superiority Trial of Red Light Myopia Control Device Based on LED Light Source",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-02-12",
+   "end": "2026-09-30",
+   "completion": "2026-09-30",
+   "first_posted": "2025-10-06",
+   "updated": "2026-02-10",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 206,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Myopia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "RED-light device using LED light source"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Control"
+    }
+   ],
+   "summary": "Based on the Tongren Myopia and Amblyopia Therapeutic Apparatus (a 650nm low-level red-light device) developed by the research team in the previous phase, the device was modified by replacing the light source with LED light. Subsequently, a population study was conducted to evaluate its efficacy and safety in myopia prevention and control.",
+   "outcome": "Axial length",
+   "sponsor": "Beijing Tongren Hospital",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Ying Jie",
+    "title": "Dr",
+    "affiliation": "Beijing Tongren Hospital"
+   },
+   "officials": [],
+   "countries": [
+    "China"
+   ],
+   "sites": [
+    {
+     "facility": "Beijing Tongren Hospital",
+     "city": "Beijing",
+     "country": "China"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
+   "nct": "NCT07412678",
+   "title": "Evaluation of the Efficacy of Red Light in Adult Patients With High and Extreme Myopia",
+   "official": "Evaluation of the Efficacy of Red Light in Adult Patients With High and Extreme Myopia",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-02-12",
+   "end": "2027-03-11",
+   "completion": "2027-03-11",
+   "first_posted": "2026-02-17",
+   "updated": "2026-02-17",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 128,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Myopia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Red light"
+    },
+    {
+     "type": "OTHER",
+     "name": "Single vision spectacle lenses"
+    }
+   ],
+   "summary": "This study, led by Jie ying from the Ophthalmology Department of Beijing Tongren Hospital Affiliated to Capital Medical University, is a researcher-initiated clinical trial (IIT) designed to evaluate the therapeutic efficacy of low-intensity red light therapy in adult patients with high myopia (spherical equivalent ≤ -6.00D) and extreme myopia (spherical equivalent ≤ -10.00D). With the escalating global prevalence of high and extreme myopia-especially in East Asia including China-and pathological myopia becoming a leading cause of irreversible blindness in Chinese adults, red light therapy has shown promising effects in slowing myopia progression in children but lacks clinical evidence for adult populations, which constitutes the core rationale for this research.",
+   "outcome": "Axial length",
+   "sponsor": "Beijing Tongren Hospital",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Ying Jie",
+    "title": "Researcher",
+    "affiliation": "Beijing Tongren Hospital"
+   },
+   "officials": [],
+   "countries": [
+    "China"
+   ],
+   "sites": [
+    {
+     "facility": "Beijing Tongren Hospital",
+     "city": "Beijing",
+     "country": "China"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
@@ -7118,6 +7475,94 @@
    ]
   },
   {
+   "nct": "NCT07330180",
+   "title": "Multicenter RCT: LED Red Light Dose-Response in Myopia Progression Control",
+   "official": "Multicenter, Open-Label, Parallel-Group, Randomized Controlled Study Comparing the Dose-Response Relationship of LED Red Light in Controlling Myopia Progression",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-01-01",
+   "end": "2027-04-30",
+   "completion": "2027-04-30",
+   "first_posted": "2026-01-09",
+   "updated": "2026-01-09",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 364,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Myopia",
+    "Myopia, Progressive"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Yingtong Vision Rehabilitation Instrument"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Hoya DIMS multi-point myopia defocus lens"
+    }
+   ],
+   "summary": "The goal of this clinical trial is to verify the effectiveness and safety of non-laser LED red light combined with defocus lens therapy for controlling myopia progression and evaluate the impact of different intervention durations in 6-14 years old children and adolescents with myopia (spherical equivalent refraction: -6.00D ≤ SER ≤ -1.00D), regardless of gender. The main questions it aims to answer are:\n\n\\[primary hypothesis or outcome measure 1\\]: Does the combination of Yingtong Vision Rehabilitation Instrument (non-laser LED red light) and Hoya DIMS defocus lens show non-inferior effectiveness to Hoya DIMS defocus lens alone in controlling 6-month axial length change? \\[primary hypothesis or outcome measure 2\\]: Do different single intervention durations (2min, 3min, 4min) of non-laser LED red light affect the effectiveness (e.g., axial length change at multiple time points, 12-month",
+   "outcome": "6-month axial length change",
+   "sponsor": "Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Xiaojuan Wang",
+    "title": "Director of the Optometry Center",
+    "affiliation": "Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine"
+   },
+   "officials": [],
+   "countries": [
+    "China"
+   ],
+   "sites": [
+    {
+     "facility": "The First Affiliated Hospital of Chongqing Medical University",
+     "city": "Chongqing",
+     "country": "China"
+    },
+    {
+     "facility": "The Second People's Hospital of Foshan City",
+     "city": "Foshan",
+     "country": "China"
+    },
+    {
+     "facility": "The First Affiliated Hospital of Zhengzhou University",
+     "city": "Zhengzhou",
+     "country": "China"
+    },
+    {
+     "facility": "Tongji Hospital Affiliated to Tongji Medical College of Huazhong University of Science and Technology",
+     "city": "Wuhan",
+     "country": "China"
+    },
+    {
+     "facility": "The Fourth People's Hospital of Shenyang City",
+     "city": "Shenyang",
+     "country": "China"
+    },
+    {
+     "facility": "The First Affiliated Hospital of Guangxi Medical University",
+     "city": "Guilin",
+     "country": "China"
+    },
+    {
+     "facility": "The First Affiliated Hospital of Xi'an Jiaotong University",
+     "city": "Xi’an",
+     "country": "China"
+    }
+   ],
+   "n_sites": 7,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT07372443",
    "title": "Photobiomodulation in the Prevention and Management of Oral Mucositis in Children",
    "official": "Usefulness of Photobio-modulation in the Prevention and Management of Oral Mucositis in Pediatric Patients Undergoing Antineoplastic Treatment: Randomized Clinical Trial",
@@ -7221,6 +7666,59 @@
    "n_sites": 0,
    "matched": [
     "neurologie"
+   ]
+  },
+  {
+   "nct": "NCT07312214",
+   "title": "LED Red Light in Modulating Choroidal Microcirculation to Retard Retinal Atrophy in Pathological Myopia",
+   "official": "A Randomized Controlled Trial of LED Red Light in Modulating Choroidal Microcirculation to Retard Retinal Atrophy in Pathological Myopia",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2025-12-31",
+   "end": "2028-12-30",
+   "completion": "2028-12-30",
+   "first_posted": "2025-12-31",
+   "updated": "2026-05-15",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 158,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Pathologic Myopia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "LED red light"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham LED red light"
+    }
+   ],
+   "summary": "The goal of this clinical trial is to learn if LED repeated low-level red light (RLRL) therapy works to treat pathologic myopia in adults. It will also learn about the safety of LED-RLRL. The main questions it aims to answer are:\n\nDoes LED-RLRL modulate choroidal microcirculation to retard retinal atrophy in pathological myopia? What medical problems do participants have when receiving LED-RLRL therapy? Researchers will compare with a sham device (identical in appearance but delivering \\<10% of the original device's energy output) to see if LED-RLRL works to treat pathologic myopia.\n\nParticipants will:\n\nTake LED-RLRL or sham LED-RLRL twice daily, 3 minutes per session, 5 days per week, for a total duration of 12 months.\n\nVisit the clinic once every 3 months for checkups and tests. Keep a diary of their symptoms and their visual perception.",
+   "outcome": "Choroidal vascular density",
+   "sponsor": "Shanghai Eye Disease Prevention and Treatment Center",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "China"
+   ],
+   "sites": [
+    {
+     "facility": "Shanghai Eye Disease Prevention and Treatment Center",
+     "city": "Shanghai",
+     "country": "China"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
@@ -9099,6 +9597,71 @@
    ],
    "summary": "To explore the repeatability of AO-SLO (Mona IIa) technology and the difference of cone cell density between individuals who used or not used repeated low-intensity red light treatment",
    "outcome": "The density of cone cells",
+   "sponsor": "Ruihua Wei",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Tianjin Medical University Eye Hospital"
+   ],
+   "responsible": {
+    "name": "Ruihua Wei",
+    "title": "Professor",
+    "affiliation": "Tianjin Medical University Eye Hospital"
+   },
+   "officials": [
+    {
+     "name": "Ruihua Wei",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Tianjin Medical University Eye Hospital, Tianjin, Tianjin 120120 Recruiting"
+    }
+   ],
+   "countries": [
+    "China"
+   ],
+   "sites": [
+    {
+     "facility": "Tianjin Medical University Eye Hospital",
+     "city": "Tianjin",
+     "country": "China"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
+   "nct": "NCT07186088",
+   "title": "Therapeutic Efficacy of Different Repeated Low-Intensity Red Light Devices and Different Usage Frequencies",
+   "official": "Study on the Therapeutic Efficacy of Different Repeated Low-Intensity Red Light Devices and Different Usage Frequencies for Adult Myopia Treatment",
+   "acronym": null,
+   "status": "ENROLLING_BY_INVITATION",
+   "start": "2025-09-20",
+   "end": "2026-06-20",
+   "completion": "2026-12-31",
+   "first_posted": "2025-09-22",
+   "updated": "2026-10-29",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "RANDOMIZED",
+   "masking": "QUADRUPLE",
+   "conditions": [
+    "Myopia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Eyerising RS-200-2A"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Eyerising SLX-1A"
+    }
+   ],
+   "summary": "To explore the effectiveness and safety of repeated exposure to repeated low-intensity red light",
+   "outcome": "Axial length",
    "sponsor": "Ruihua Wei",
    "sponsor_class": "OTHER",
    "collaborators": [
@@ -12202,6 +12765,61 @@
    ]
   },
   {
+   "nct": "NCT06771258",
+   "title": "Red Light Childhood Myopia Proof-of-concept",
+   "official": "What Effect Does Looking At Red Light Have on the Eye in Children and Young People? - a Proof-of-concept Study",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2025-02-01",
+   "end": "2026-02-01",
+   "completion": "2026-02-01",
+   "first_posted": "2025-01-13",
+   "updated": "2025-01-13",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 24,
+   "allocation": "NON_RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Myopia"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "Red Light (PDT)"
+    }
+   ],
+   "summary": "In this project the research team will begin to find out whether shining a red LED light at the eyes can slow down the worsening of short-sightedness in children.\n\nThis is important, because short-sightedness now starts at a younger age and worsens faster than in the past. Many people are at risk of permanently losing their eyesight in middle-age because of short-sightedness.\n\nThe researchers plan to use red LED light, which is safe to use. Red-light treatment improves the blood flow at the back of the eye, in a layer called \"choroid\", which can be measured on eye-scans. The team have done a study with healthy adults, which showed that red-light is safe and gently improves the blood flow at the back of the eye. In adults, this has no effect on myopia, because their eyes are fully grown. In children, red-light may slow down myopia, and in this project, the researchers want to find out whi",
+   "outcome": "Axial length",
+   "sponsor": "University College, London",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Annegret Dahlmann-Noor, PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "UCL"
+    }
+   ],
+   "countries": [
+    "United Kingdom"
+   ],
+   "sites": [
+    {
+     "facility": "University College London",
+     "city": "London",
+     "country": "United Kingdom"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT06803472",
    "title": "Pulsed High Intensity Laser Versus Extracorporeal Shockwave Therapy on Hypertrophic Scar Post Burn",
    "official": "Pulsed High Intensity Laser Versus Extracorporeal Shockwave Therapy on Hypertrophic Scar Post Burn",
@@ -12821,6 +13439,55 @@
    ]
   },
   {
+   "nct": "NCT06753773",
+   "title": "Red Light Therapy: Short-term Choroidal and Retinal Changes",
+   "official": "The Short-term Impact of Different Types of Red Light Therapy on Choroid and Retina",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2024-12-22",
+   "end": "2025-09-30",
+   "completion": "2025-09-30",
+   "first_posted": "2024-12-31",
+   "updated": "2024-12-31",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Myopia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Repeated Low-Level Red-Light"
+    }
+   ],
+   "summary": "This research project is a prospective, randomized controlled trial designed to assess the short-term effects of varied red light therapies on the choroidal and retinal structures in adult myopes. The primary objective is to determine which specific retinal regions or cells are primarily affected by short-term repeated low-level red-light (RLRL) therapy, potentially inducing choroidal thickening. The secondary objective is to assess the safety of different types of red light therapy in adult myopes.\n\nThe study will enroll 45 myopic adults aged 18-40 years old as participates. They will be randomly assigned into three RLRL groups: small circle (d=0.30mm), medium circle (d=0.50mm), and annular groups (an inner diameter of 0.50 mm and an outer diameter of 0.70mm) without disclosure of their specific group to maintain study blinding. The groups are differentiated by the size and shape of the",
+   "outcome": "Change in choroidal thickness measured by OCT",
+   "sponsor": "The Hong Kong Polytechnic University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "Hong Kong"
+   ],
+   "sites": [
+    {
+     "facility": "The Hong Kong Polytechnic University",
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT06552936",
    "title": "Combination Therapy Effect of Laser on Wound Healing and Bone Regeneration of Dental Sockets",
    "official": "Combination Therapy Effect of Laser on Wound Healing and Bone Regeneration of Dental Sockets",
@@ -12885,6 +13552,62 @@
    "matched": [
     "dermatologie",
     "odontologie"
+   ]
+  },
+  {
+   "nct": "NCT06717048",
+   "title": "Minimum Power and Frequency of Repeated Low-level Red-light to Effectively Control Myopia Progression",
+   "official": "An Exploratory Study on the Minimum Power and Frequency of Repeated Low-level Red-light to Effectively Control Myopia Progression",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2024-12-09",
+   "end": "2025-04-09",
+   "completion": "2025-06-09",
+   "first_posted": "2024-12-04",
+   "updated": "2024-12-04",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 108,
+   "allocation": "NON_RANDOMIZED",
+   "masking": "QUADRUPLE",
+   "conditions": [
+    "Myopia",
+    "Refractive Error - Myopia",
+    "Choroidal Thickness",
+    "Retina"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Repeated Low-level Red-light"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Red LED"
+    }
+   ],
+   "summary": "To explore the minimum power and frequency of Repeated Low-level Red-light (RLRL) to control myopia progression in low-myopic children aged 8-10 years, and the rebound effect of low-myopic children after discontinuation of RLRL with different combinations of power and frequency.",
+   "outcome": "The incidence (%) of axial length increase ≤0.05mm after red light for 3 months measured by the IOL master",
+   "sponsor": "Shanghai Eye Disease Prevention and Treatment Center",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "China"
+   ],
+   "sites": [
+    {
+     "facility": "Shanghai Eye Disease Prevention & Treatment Center",
+     "city": "Shanghai",
+     "country": "China"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
@@ -15529,6 +16252,63 @@
    ]
   },
   {
+   "nct": "NCT05606237",
+   "title": "Efficacy of Repeated Low-level Red-light Therapy in Myopia Control",
+   "official": "Efficacy of Repeated Low-level Red-light Therapy in Myopia Control: a Single Arm Controlled Trial",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2023-07-14",
+   "end": "2027-01-14",
+   "completion": "2027-01-14",
+   "first_posted": "2022-11-04",
+   "updated": "2026-01-28",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 90,
+   "allocation": "NA",
+   "masking": "NONE",
+   "conditions": [
+    "Myopia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Low-level Red Light Therapy Device"
+    }
+   ],
+   "summary": "Low-level red-light technology provides a new and innovative myopia control approach. This strategy enables relatively high energies of light to be delivered at much shorter durations of exposure to induce the myopia control effect. The efficacy of the low-level red-light technology has been proven in a Chinese population. This trial demonstrated that 3-minutes per session twice a day repeated low-level red-light treatment controlled 87.7% of refraction progression and 76.8% of axial length elongation when the time of compliance to the treatment was 75%. Repeating this RCT in culturally diverse groups will confirm and translate this technology into a solution for myopia control globally.",
+   "outcome": "Axial Length (AL) (mm) at Baseline",
+   "sponsor": "University of California, San Francisco",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "University of Melbourne"
+   ],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Tiffany Chen, MD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "University of California, San Francisco"
+    }
+   ],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "University of California, San Francisco",
+     "city": "San Francisco",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT06282770",
    "title": "Photobiomodulation for Lower Back Pain Post Spinal Fusion and Decompression Surgery",
    "official": "Utilizing Photobiomodulation Via Laser Diode Belts To Treat Chronic Lower Back Pain in Patients Who Have Undergone Spinal Fusion and Decompression Surgery",
@@ -16089,6 +16869,71 @@
    "n_sites": 4,
    "matched": [
     "neurologie"
+   ]
+  },
+  {
+   "nct": "NCT05756959",
+   "title": "Myopia Control Combined PBM With Myopic Defocus Lens in Children",
+   "official": "Myopia Control Combined PBM With Myopic Defocus Lens in Children: Double-blind RCT for 6 Month",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2022-12-12",
+   "end": "2027-08-01",
+   "completion": "2027-12-31",
+   "first_posted": "2023-03-07",
+   "updated": "2023-03-09",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 304,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Myopia, Progressive"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "PBM"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Peripheral defocus spectacles"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Single vision spectacles"
+    }
+   ],
+   "summary": "To study the efficacy of myopi control with two methods: low lever red light and peripheral defocus spectacles with four groups and design with prospective, double-blind, randimized, and with control for 6 month.",
+   "outcome": "axial length (mm)",
+   "sponsor": "Beijing Airdoc Technology Co., Ltd.",
+   "sponsor_class": "INDUSTRY",
+   "collaborators": [
+    "The First People's Hospital of Xuzhou"
+   ],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Yan Wang, BA",
+     "role": "STUDY_DIRECTOR",
+     "affiliation": "The First People's Hospital of Xuzhou"
+    }
+   ],
+   "countries": [
+    "China"
+   ],
+   "sites": [
+    {
+     "facility": "the first people's hospital of Xuzhou",
+     "city": "Xuzhou",
+     "country": "China"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
@@ -17415,6 +18260,62 @@
    ]
   },
   {
+   "nct": "NCT07104513",
+   "title": "Efficacy and Influencing Factors of Repeated Low-level Red-light in Myopia",
+   "official": "Study on the Long-term Efficacy Evaluation and Influencing Factors of Repeated Low-level Red-light Therapy in Myopia Prevention and Control in Children",
+   "acronym": "RLRL",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2020-09-28",
+   "end": "2028-07-28",
+   "completion": "2030-07-28",
+   "first_posted": "2025-08-05",
+   "updated": "2025-09-08",
+   "type": "OBSERVATIONAL",
+   "phases": [],
+   "n": 3000,
+   "allocation": null,
+   "masking": null,
+   "conditions": [
+    "Myopia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Red Light"
+    }
+   ],
+   "summary": "To evaluate the long-term efficacy of repeated low-level red-light (RLRL) therapy in the prevention and control of myopia in children, and to analyze the key factors influencing its efficacy (such as individual differences and compliance), with the aim of providing evidence-based support for the optimization of clinical myopia prevention and control strategies.",
+   "outcome": "axial length",
+   "sponsor": "Ruihua Wei",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Ruihua Wei",
+    "title": "Professor",
+    "affiliation": "Tianjin Medical University Eye Hospital"
+   },
+   "officials": [],
+   "countries": [
+    "China"
+   ],
+   "sites": [
+    {
+     "facility": "Tianjin Medical University Eye Hospital",
+     "city": "Tianjin",
+     "country": "China"
+    },
+    {
+     "facility": "Tianjin Medical University Eye Hospital",
+     "city": "Tianjin",
+     "country": "China"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT07520825",
    "title": "Laser Photobiomodulation for Hard-to-heal Ulcers in Frail Older Adults",
    "official": "Laser Photobiomodulation in Addition to Standard-of-care for Hard-to-heal Ulcers in Frail Older Adults With Municipality Home Healthcare",
@@ -17812,6 +18713,87 @@
    "n_sites": 1,
    "matched": [
     "dermatologie"
+   ]
+  },
+  {
+   "nct": "NCT02086890",
+   "title": "Electro-acupuncture and Transcorneal Electrical Stimulation (TES) for Retinitis Pigmentosa",
+   "official": "Modulating Ocular/Retinal Blood Flow and Visual Function in Retinitis Pigmentosa",
+   "acronym": null,
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2014-08-13",
+   "end": "2026-12",
+   "completion": "2027-12",
+   "first_posted": "2014-03-13",
+   "updated": "2026-02-27",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 21,
+   "allocation": "RANDOMIZED",
+   "masking": "QUADRUPLE",
+   "conditions": [
+    "Retinitis Pigmentosa"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Electro-acupuncture"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Laser Acupuncture"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Transcorneal Electrical Stimulation"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham Electro-acupuncture"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham laser acupuncture"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham transcorneal electrical stimulation"
+    }
+   ],
+   "summary": "Measures of vision in RP patients receiving promising therapy using transcorneal electrical stimulation.",
+   "outcome": "Significant changes from baseline in Goldmann visual field area in both eyes",
+   "sponsor": "Nova Southeastern University",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "National Eye Institute (NEI)"
+   ],
+   "responsible": {
+    "name": "Kenneth Seger",
+    "title": "Associate Professor, HPD-College of Optometry",
+    "affiliation": "Nova Southeastern University"
+   },
+   "officials": [
+    {
+     "name": "Kenneth R Seger, OD, MSc",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Faculty"
+    }
+   ],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "Nova Southeastern University; College of Optometry",
+     "city": "Fort Lauderdale",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
    ]
   },
   {
