@@ -364,14 +364,14 @@ function chartEffects(list) {
   const span = last - Math.min(...xs0.map((a) => a.year));
   const per = (y) => (span > 6 ? effPeriod(y, last) : String(y));
   const labels = [...new Set(xs0.map((a) => a.year).sort((a, b) => a - b).map(per))];
-  const rows = labels.map((p) => { const xs = xs0.filter((a) => per(a.year) === p); return { p, n: xs.length, by: keys.map((k) => xs.filter((a) => a.effect === k).length) }; });
+  const rows = labels.map((p) => { const xs = xs0.filter((a) => per(a.year) === p); return { p, n: xs.length, ys: [...new Set(xs.map((a) => a.year))].join(","), by: keys.map((k) => xs.filter((a) => a.effect === k).length) }; });
   const legend = `<div class="eff-legend">${keys.map((k) => `<span class="eff-chip eff-${EFF_CLS[k]}"><svg viewBox="0 0 18 18" aria-hidden="true"><rect width="18" height="18" rx="5"/>${EFF_GLYPH[k]}</svg>${EFFECTS[k][0]}</span>`).join("")}</div>`;
   return `<div class="effchart">${legend}
     <div class="eff-row eff-head"><span>Période</span><span>Répartition des études</span><span>Favorable</span></div>
-    ${rows.map((r) => `<div class="eff-row"><span class="eff-p"><b class="mono">${r.p}</b><small>${r.n} étude${r.n > 1 ? "s" : ""}</small></span>
-      <span class="eff-bar">${r.by.map((c, i) => c ? `<span class="eff-${EFF_CLS[keys[i]]}" style="flex:${c} 1 0" data-tip="${esc(`<b>${r.p} · ${EFFECTS[keys[i]][0]}</b><br>${c} sur ${r.n} (${Math.round(100 * c / r.n)} %)`)}">${c / r.n >= 0.08 ? c : ""}</span>` : "").join("")}</span>
+    ${rows.map((r) => `<div class="eff-row"><button type="button" class="eff-p eff-go" data-effy="${r.ys}" data-effk="" aria-label="Voir les ${r.n} études ${r.p}"><b class="mono">${r.p}</b><small>${r.n} étude${r.n > 1 ? "s" : ""} →</small></button>
+      <span class="eff-bar">${r.by.map((c, i) => c ? `<button type="button" class="eff-go eff-${EFF_CLS[keys[i]]}" style="flex:${c} 1 0" data-effy="${r.ys}" data-effk="${keys[i]}" aria-label="${esc(`${r.p} · ${EFFECTS[keys[i]][0]} : voir les ${c} études`)}" data-tip="${esc(`<b>${r.p} · ${EFFECTS[keys[i]][0]}</b><br>${c} sur ${r.n} (${Math.round(100 * c / r.n)} %)<br><i>Cliquer pour voir les études</i>`)}">${c / r.n >= 0.08 ? c : ""}</button>` : "").join("")}</span>
       <b class="eff-pct">${Math.round(100 * r.by[0] / r.n)} %</b></div>`).join("")}
-    <p class="muted" style="font-size:.8rem;margin:4px 0 0">Les chiffres dans les barres sont des nombres d'études${span > 6 ? " ; les années anciennes sont regroupées" : ""}. Seules les études qui mesurent un effet clinique ou biologique sont comptées (hors revues sans conclusion, protocoles et lettres).</p></div>`;
+    <p class="muted" style="font-size:.8rem;margin:4px 0 0">Cliquez sur une période ou sur une couleur pour lire les études correspondantes. Les chiffres dans les barres sont des nombres d'études${span > 6 ? " ; les années anciennes sont regroupées" : ""}. Seules les études qui mesurent un effet clinique ou biologique sont comptées (hors revues sans conclusion, protocoles et lettres).</p></div>`;
 }
 
 /* ---------------- vues ---------------- */
@@ -803,7 +803,7 @@ const PAR_ICON = {
   "Séances": '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
   Appareil: '<rect x="4" y="7" width="16" height="10" rx="2"/><path d="M8 7V5h8v2M20 12h2"/>',
 };
-const nmColor = (nm) => nm < 450 ? "#5b5bf0" : nm < 495 ? "#2f8fe0" : nm < 570 ? "#2fae5f" : nm < 590 ? "#e6c229" : nm < 620 ? "#f08a24" : nm < 700 ? "#e0302f" : "#7d1f2c";
+const nmColor = (nm) => nm < 450 ? "#5b5bf0" : nm < 495 ? "#2f8fe0" : nm < 570 ? "#2fae5f" : nm < 590 ? "#e6c229" : nm < 620 ? "#f08a24" : nm < 700 ? "#d1493a" : nm < 800 ? "#7d1128" : "#5c4b8a";
 function nmSwatches(txt) {
   const nms = [...new Set((txt.match(/\d[\d  ]{2,4}(?=\s?(?:nm|\+|,|–| ou| et|\)|$))/g) || []).map((x) => +x.replace(/\s/g, "")).filter((n) => n >= 380 && n <= 1300))];
   return nms.length ? `<span class="nm-sw">${nms.slice(0, 5).map((n) => `<i style="background:${nmColor(n)}" title="${n} nm"></i>`).join("")}</span>` : "";
@@ -1251,6 +1251,9 @@ document.addEventListener("click", async (e) => {
   if (Object.keys(d).some((k) => k.startsWith("al"))) { e.preventDefault(); await alClick(t); return; }
   if (Object.keys(d).some((k) => k.startsWith("br"))) { e.preventDefault(); await brClick(t); return; }
   if (d.topic) { const h = location.hash.slice(1).split("?")[0]; if (!["accueil", "publications", "syntheses", "essais", ""].includes(h) && !h.startsWith("article-")) history.replaceState(null, "", "#accueil"); setTopic(d.topic); return; }
+  if ("effy" in d) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : "");
+    state.f.fiche.add("rédigée"); d.effy.split(",").forEach((y) => state.f.years.add(+y)); if (d.effk) state.f.effects.add(d.effk); else Object.keys(EFFECTS).forEach((k) => state.f.effects.add(k));
+    state.filtersOpen = true; state.sort = "date"; location.hash = "publications"; return; }
   if (d.sub) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : ""); state.f.ctx.add(d.sub); state.filtersOpen = true; location.hash = "publications"; return; }
   if ("morelist" in d) { state.limit += 120; rerender(); return; }
   if (d.f || d.preset || "reset" in d) state.limit = 60;

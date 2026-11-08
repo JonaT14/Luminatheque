@@ -28,7 +28,7 @@
   --fav-t: #134a8e; --mit-t: #7a4a00; --neu-t: #3d4350; --def-t: #8f1f15;
   --ev-solid: #13895f; --ev-mid: #e09a00; --ev-weak: #d1493a; --ev-solid-t: #0b5e40; --ev-mid-t: #7a4a00; --ev-weak-t: #8f1f15;
   --ev-solid-soft: #e3f4ec; --ev-mid-soft: #fdf3e1; --ev-weak-soft: #fbe9e7; --ev-mid-ink: #3d2600;
-  --wl-b: #3b5bdb; --wl-g: #2f9e44; --wl-r: #d6336c; --wl-fr: #8f1d3f; --wl-ir: #5c4b8a;
+  --wl-b: #3b5bdb; --wl-g: #2f9e44; --wl-r: #d1493a; --wl-fr: #7d1128; --wl-ir: #5c4b8a;
   --grid: #eceef2;
   --shadow: 0 1px 2px rgb(14 17 22 / .04), 0 8px 24px -12px rgb(14 17 22 / .12);
   --shadow-lg: 0 2px 4px rgb(14 17 22 / .04), 0 24px 48px -20px rgb(14 17 22 / .22);
@@ -51,7 +51,7 @@
   --fav-t: #9cc3f7; --mit-t: #f5c876; --neu-t: #c4c8d2; --def-t: #f3a196;
   --ev-solid: #2fb880; --ev-mid: #f0b030; --ev-weak: #ec6a58; --ev-solid-t: #7ddcb3; --ev-mid-t: #f5c876; --ev-weak-t: #f3a196;
   --ev-solid-soft: #12291f; --ev-mid-soft: #2e2410; --ev-weak-soft: #331814; --ev-mid-ink: #2a1a00;
-  --wl-b: #5c7cfa; --wl-g: #40c057; --wl-r: #f06595; --wl-fr: #c2255c; --wl-ir: #8f7cc9;
+  --wl-b: #5c7cfa; --wl-g: #40c057; --wl-r: #ec6a58; --wl-fr: #a8324a; --wl-ir: #8f7cc9;
     --grid: #1f2228; --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 8px 24px -12px rgb(0 0 0 / .6); --shadow-lg: 0 24px 48px -20px rgb(0 0 0 / .7);
     color-scheme: dark;
   }
@@ -68,7 +68,7 @@
   --fav-t: #9cc3f7; --mit-t: #f5c876; --neu-t: #c4c8d2; --def-t: #f3a196;
   --ev-solid: #2fb880; --ev-mid: #f0b030; --ev-weak: #ec6a58; --ev-solid-t: #7ddcb3; --ev-mid-t: #f5c876; --ev-weak-t: #f3a196;
   --ev-solid-soft: #12291f; --ev-mid-soft: #2e2410; --ev-weak-soft: #331814; --ev-mid-ink: #2a1a00;
-  --wl-b: #5c7cfa; --wl-g: #40c057; --wl-r: #f06595; --wl-fr: #c2255c; --wl-ir: #8f7cc9;
+  --wl-b: #5c7cfa; --wl-g: #40c057; --wl-r: #ec6a58; --wl-fr: #a8324a; --wl-ir: #8f7cc9;
   --grid: #1f2228; --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 8px 24px -12px rgb(0 0 0 / .6); --shadow-lg: 0 24px 48px -20px rgb(0 0 0 / .7);
   color-scheme: dark;
 }
@@ -375,7 +375,7 @@ footer { border-top: 1px solid var(--line); padding-block: 22px; font: 400 .78re
 .eff-head { font-size: .72rem; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 5px; } .eff-head span:last-child { text-align: right; }
 .eff-p { display: grid; } .eff-p b { font-size: .8rem; } .eff-p small { font-size: .7rem; color: var(--muted); }
 .eff-bar { display: flex; height: 28px; gap: 2px; border-radius: 6px; overflow: hidden; }
-.eff-bar span { min-width: 6px; background: var(--c); color: var(--on); display: flex; align-items: center; justify-content: center; font-size: .74rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.eff-bar > span, .eff-bar > button.eff-go { min-width: 6px; background: var(--c); color: var(--on); display: flex; align-items: center; justify-content: center; font-size: .74rem; font-weight: 600; font-variant-numeric: tabular-nums; }
 .eff-pct { text-align: right; font-size: 1rem; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--fav-t); }
 /* ---- longueurs d'onde ---- */
 .wl { display: grid; gap: 4px; font-family: var(--f-display); }
@@ -742,3 +742,12 @@ body.side-off .side-toggle svg { transform: rotate(180deg); }
   .tool { border: 0; align-items: center; padding: 8px 2px; font-size: .7rem; text-align: center; }
   .tool-line { justify-content: center; font-size: .78rem; min-height: 36px; margin-top: 0; }
 }
+
+/* sens des résultats cliquable */
+button.eff-go { all: unset; box-sizing: border-box; cursor: pointer; }
+.eff-bar button.eff-go { display: flex; align-items: center; justify-content: center; min-width: 6px; transition: filter .15s, transform .15s; }
+.eff-bar button.eff-go:hover { filter: brightness(1.08) saturate(1.1); transform: translateY(-1px); }
+.eff-bar button.eff-go:focus-visible, button.eff-p:focus-visible { outline: 2px solid var(--focus, var(--accent)); outline-offset: 2px; }
+button.eff-p { display: flex; flex-direction: column; border-radius: 8px; padding: 2px 6px; margin: -2px -6px; }
+button.eff-p:hover { background: var(--surface-2); }
+button.eff-p:hover small { color: var(--accent); }
