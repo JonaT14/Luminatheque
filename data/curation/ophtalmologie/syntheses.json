@@ -1,0 +1,101 @@
+{
+ "years": {
+  "2000–2019": {
+   "headline": "Amblyopie, DMLA et rétinopathie : des pilotes isolés",
+   "l1": "Avant 2020, la PBM en ophtalmologie se limite à quelques études : amélioration de l'acuité dans l'amblyopie de l'adulte (2012), premier essai contre sham avec le Valeda dans la DMLA sèche (LIGHTSITE I, 2019), et un pilote négatif dans la rétinopathie du prématuré.",
+   "l2": "L'amblyopie de l'adolescent et de l'adulte (178 patients) s'améliore après laser sur la macula. Dans la DMLA, la lumière nocturne ne freine pas la maladie (2018), alors que la PBM Valeda améliore l'acuité dans LIGHTSITE I (30 patients). La lumière 670 nm est faisable chez le grand prématuré, sans réduire la rétinopathie.",
+   "l3": [
+    {
+     "h": "Contexte",
+     "p": "Les lasers ophtalmologiques classiques (photocoagulation, micropulsé) ne relèvent pas de la PBM et sont exclus."
+    }
+   ]
+  },
+  "2020–2023": {
+   "headline": "L'arrivée de la lumière rouge contre la myopie de l'enfant",
+   "l1": "À partir de 2021, des essais chinois multicentriques montrent que la lumière rouge basse intensité répétée (650 nm, 3 minutes deux fois par jour) freine nettement la myopie de l'enfant, et prévient son apparition chez l'enfant pré-myope. Dans la DMLA sèche, LIGHTSITE III (2023) est positif, mais la revue Cochrane 2021 reste prudente.",
+   "l2": "Myopie : essai multicentrique de 264 enfants (Ophthalmology 2021), essai contre sham en double aveugle (2022), prévention chez l'enfant pré-myope (JAMA Netw Open 2023), supériorité sur l'atropine 0,01 % ; un rebond survient à l'arrêt. Sécheresse oculaire : masques LED et association avec la lumière pulsée efficaces dans la dysfonction meibomienne.\n\nDMLA : LIGHTSITE III réduit l'apparition de l'atrophie géographique à 13 mois.",
+   "l3": [
+    {
+     "h": "Mécanisme",
+     "p": "La lumière rouge épaissit la choroïde ; la variation à 3 mois prédit l'efficacité."
+    }
+   ]
+  },
+  "2024–2026": {
+   "headline": "Méta-analyses en série, forte myopie et signaux de sécurité",
+   "l1": "Depuis 2024, plus de dix méta-analyses confirment l'efficacité de la lumière rouge contre la myopie, y compris dans la forte myopie, mais une revue évoque un lien avec des lésions rétiniennes et la surveillance devient la règle. LIGHTSITE III à 24 mois réduit l'atrophie géographique de 24 % à 7 %.",
+   "l2": "Myopie : forte myopie (raccourcissement axial chez la moitié des enfants), association avec l'orthokératologie (y compris en Espagne), meilleure que l'atropine 1 % mais avec plus de rebond ; revue de sécurité 2024 (aucune lésion irréversible, mais fond d'œil et OCT nécessaires) ; méta-analyse 2025 évoquant un lien causal avec des lésions rétiniennes. DMLA : LIGHTSITE III à 24 mois et analyse coût-efficacité favorable.\n\nAutres : presbytie, vision des couleurs, PBM des enfants (revue 2026).",
+   "l3": [
+    {
+     "h": "Prudence",
+     "p": "Le recul de sécurité au-delà de deux ans reste limité."
+    }
+   ]
+  }
+ },
+ "global": {
+  "headline": "2000 → 2026 : la lumière rouge contre la myopie et la DMLA sèche",
+  "l1": "L'ophtalmologie est devenue en cinq ans l'un des domaines les plus actifs de la PBM. Contre la myopie de l'enfant, la lumière rouge basse intensité répétée est très étudiée et efficace à court terme, avec un rebond à l'arrêt et une sécurité rétinienne à surveiller. Dans la DMLA sèche intermédiaire, le Valeda réduit l'évolution vers l'atrophie géographique. La sécheresse oculaire répond bien aux masques LED.",
+  "l2": "Ce qui se confirme : myopie de l'enfant (dizaines d'essais et méta-analyses, surtout en Chine, résultats reproduits en Europe) ; DMLA sèche intermédiaire (LIGHTSITE III, 13 et 24 mois) ; dysfonction meibomienne (seule ou avec la lumière pulsée).\n\nCe qui reste à surveiller : la sécurité rétinienne de la lumière rouge (images rémanentes, signaux OCT), le rebond à l'arrêt, la réplication indépendante des essais du fabricant dans la DMLA. Ce qui n'est pas démontré : rétinopathie du prématuré, DMLA précoce par lumière nocturne.",
+  "l3": [
+   {
+    "h": "0. Le temps long",
+    "p": "Avant 2020 : 5 fiches. 2020–2022 : 11. 2023–2024 : 32. 2025–2026 : 37. Une progression très rapide, portée par la myopie."
+   },
+   {
+    "h": "1. Lumière rouge ou laser ?",
+    "p": "Les appareils contre la myopie délivrent une lumière rouge de très faible puissance (moins de 2 mW) directement dans l'œil, quelques minutes par jour : ils ne doivent jamais être remplacés par une autre source lumineuse."
+   },
+   {
+    "h": "2. Un protocole simple et standardisé",
+    "p": "650 nm, 3 minutes, deux fois par jour, cinq jours par semaine, à domicile. Une puissance plus faible pourrait suffire."
+   },
+   {
+    "h": "3. DMLA : un essai pivot",
+    "p": "Trois longueurs d'onde (590, 660, 850 nm), neuf séances répétées tous les 4 mois ; le bénéfice porte sur l'atrophie géographique."
+   }
+  ],
+  "table": {
+   "cols": [
+    "Avant 2020",
+    "2020–2023",
+    "2024–2026"
+   ],
+   "rows": [
+    {
+     "label": "Myopie",
+     "cells": [
+      "—",
+      "Essais multicentriques + ; prévention +",
+      "Méta-analyses + ; forte myopie + ; sécurité à surveiller"
+     ]
+    },
+    {
+     "label": "DMLA sèche",
+     "cells": [
+      "LIGHTSITE I +",
+      "LIGHTSITE III 13 mois + ; Cochrane prudente",
+      "LIGHTSITE III 24 mois + ; coût-efficace"
+     ]
+    },
+    {
+     "label": "Sécheresse oculaire",
+     "cells": [
+      "—",
+      "Masques LED + ; lumière pulsée + PBM +",
+      "Méta-analyse + ; effet en partie thermique"
+     ]
+    },
+    {
+     "label": "Autres",
+     "cells": [
+      "Amblyopie + ; prématuré : négatif",
+      "—",
+      "Presbytie, vision des couleurs +"
+     ]
+    }
+   ]
+  }
+ }
+}

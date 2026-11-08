@@ -1,0 +1,139 @@
+{
+ "years": {
+  "2000–2014": {
+   "headline": "Dents de sagesse, douleur orthodontique et hypersensibilité : les premiers essais",
+   "l1": "Avant 2015, les essais portent surtout sur les suites d'extraction des dents de sagesse, la douleur orthodontique et l'hypersensibilité dentinaire. Les résultats sont contrastés : la méta-analyse de 2012 ne trouve un bénéfice que sur le trismus après extraction, et les revues sur l'hypersensibilité jugent les preuves faibles.",
+   "l2": "Chirurgie : essais majoritairement favorables sur le trismus et le gonflement (laser extrabuccal meilleur que l'intrabuccal en 2009), mais la méta-analyse de 2012 ne retrouve pas d'effet sur la douleur ni le gonflement. Orthodontie : plusieurs essais positifs contre la douleur des séparateurs et des arcs (830 et 810 nm), une méta-analyse de 2012 aux preuves limitées ; l'accélération du mouvement dentaire est discutée (revue 2012 négative, méta-analyses 2013–2014 plutôt positives à faible énergie).\n\nParodontologie : bénéfices à court terme en complément du surfaçage et sur la cicatrisation (gingivectomie, site donneur palatin), sans effet à long terme. Hypersensibilité : méta-analyse 2013 favorable à tous les lasers, mais avec une forte hétérogénéité. Implants : pas d'effet du laser 830 nm sur la stabilité (2011).",
+   "l3": [
+    {
+     "h": "Pionniers",
+     "p": "Laser He-Ne sur les incisions gingivales (2000), premiers essais après extraction et en endodontie (2004–2005, souvent négatifs avec un placebo marqué)."
+    }
+   ]
+  },
+  "2015–2019": {
+   "headline": "L'explosion des essais orthodontiques et parodontaux",
+   "l1": "Entre 2015 et 2019, l'odontologie devient le premier domaine de la PBM par le nombre d'essais. Les méta-analyses sur la douleur orthodontique sont favorables avec des preuves de faible qualité ; la revue Cochrane 2016 reste prudente. L'alvéolite, la pulpotomie et la douleur post-endodontique apparaissent comme de nouvelles indications.",
+   "l2": "Orthodontie : méta-analyses favorables à la réduction de la douleur (2015, 2017) mais des Cochrane 2016 et 2018 non concluantes ; l'accélération du mouvement est modeste et incertaine ; la stabilité des mini-implants et la disjonction maxillaire bénéficient du laser. Chirurgie : une méta-analyse GRADE de 2017 juge le bénéfice négligeable, alors que des essais isolés restent positifs ; l'alvéolite répond bien au laser.\n\nEndodontie : la PBM réduit la douleur postopératoire et peut remplacer le formocrésol en pulpotomie, mais elle est à éviter dans la pulpite irréversible (2016). Parodontologie : effet à court terme seulement ; le laser n'améliore pas le recouvrement des récessions à long terme. Hypersensibilité : de nombreux essais positifs, dont la sensibilité après blanchiment.",
+   "l3": [
+    {
+     "h": "Dosimétrie",
+     "p": "Les revues insistent sur le manque de description des paramètres, qui empêche de reproduire les protocoles."
+    }
+   ]
+  },
+  "2020–2022": {
+   "headline": "Anesthésie, alvéolite et site donneur palatin",
+   "l1": "Entre 2020 et 2022, de nouvelles méta-analyses confirment l'intérêt de la PBM dans l'alvéolite (meilleure que l'Alvogyl), la cicatrisation du site donneur palatin et la douleur après extraction des dents de sagesse (méta-analyse de 648 patients). Côté orthodontie, la méta-analyse de 2022 ne soutient plus l'accélération du mouvement.",
+   "l2": "Chirurgie : méta-analyses 2020 (gonflement seulement) et 2022 (douleur réduite à J2 et J7). Alvéolite : méta-analyse favorable à la PBM face à l'Alvogyl. Anesthésie : la PBM accélère la fin de l'anesthésie chez l'enfant et réduit la douleur de l'injection dans plusieurs essais. Orthodontie : la douleur répond mieux aux faibles énergies (0–10 J/cm², 780–830 nm) ; l'accélération n'est plus démontrée (méta-analyse 2022).\n\nParodontologie : méta-analyses favorables sur la cicatrisation palatine et les lésions gingivales auto-immunes. Hypersensibilité : méta-analyses 2021 favorables (proche infrarouge, effet immédiat et durable). Implants : effet sur la stabilité seulement aux premiers stades.",
+   "l3": [
+    {
+     "h": "Paramètres",
+     "p": "Douleur orthodontique : 780–830 nm, faible énergie. Injection : 900–980 nm."
+    }
+   ]
+  },
+  "2023–2026": {
+   "headline": "Consolidation : anesthésie, endodontie, diabète, et un essai multicentrique négatif",
+   "l1": "Depuis 2023, les méta-analyses confirment la PBM contre la douleur de l'injection anesthésique (adulte et enfant), la douleur post-endodontique et en complément du traitement parodontal du diabétique. Mais l'essai multicentrique italien BIOSTOTT (2025) ne montre pas d'effet après extraction de dent de sagesse, et la méta-analyse 2026 juge le laser inutile en routine pour cicatriser les lésions périapicales.",
+   "l2": "Anesthésie : méta-analyses 2024 (972 patients) et 2025 favorables ; la PBM accélère la fin de l'anesthésie chez l'enfant (revue 2025). Endodontie : méta-analyses 2023, 2024 et 2026 favorables sur la douleur post-opératoire ; pulpotomie au laser alternative au formocrésol (2024). Parodontologie : bénéfices jusqu'à 24 semaines (méta-analyse 2024), effets chez le diabétique (2023, 2025), cicatrisation du site donneur (2025, 2026).\n\nChirurgie : méta-analyse 2024 favorable à une séance infrarouge intra et extrabuccale, mais méta-analyses 2023 et 2025 de faible certitude et BIOSTOTT négatif. Orthodontie : réduction de la résorption radiculaire (méta-analyses 2025) ; les revues parapluie 2024 et 2026 restent prudentes sur l'accélération. Implants : résultats contrastés.",
+   "l3": [
+    {
+     "h": "À suivre",
+     "p": "Hypersensibilité des molaires hypominéralisées de l'enfant, péri-implantite, ostéonécrose des mâchoires."
+    }
+   ]
+  }
+ },
+ "global": {
+  "headline": "2000 → 2026 : la PBM au fauteuil, utile contre la douleur, discutée sur le reste",
+  "l1": "En 26 ans et plus de 500 fiches, l'odontologie est devenue le premier domaine d'essais de PBM. Le bénéfice le plus constant porte sur la douleur : injection anesthésique, douleur orthodontique, douleur post-endodontique, hypersensibilité dentinaire, alvéolite. Les effets sur la cicatrisation (site donneur palatin, alvéole) sont favorables à court terme. Les promesses d'accélérer le traitement orthodontique, de stabiliser les implants ou de régénérer l'os parodontal ne sont pas confirmées.",
+  "l2": "Ce qui se confirme : douleur de l'injection (méta-analyses 2024–2026), retour plus rapide de la sensibilité après anesthésie chez l'enfant, douleur post-endodontique, hypersensibilité dentinaire et sensibilité après blanchiment, alvéolite (mieux que l'Alvogyl), cicatrisation du site donneur palatin. Résultats favorables mais de faible certitude : suites des dents de sagesse (avec un essai multicentrique négatif en 2025), douleur orthodontique (faibles énergies, 780–830 nm), traitement parodontal du diabétique.\n\nCe qui ne se confirme pas : accélération du mouvement orthodontique (méta-analyse 2022, revues Cochrane), stabilité implantaire (résultats contrastés), recouvrement des récessions à long terme, cicatrisation des lésions périapicales (méta-analyse 2026), pulpite irréversible (à éviter). Une grande partie des essais sont petits, monocentriques, et les paramètres sont mal rapportés.",
+  "l3": [
+   {
+    "h": "0. Le temps long",
+    "p": "2000–2014 : 67 fiches. 2015–2019 : 133. 2020–2022 : 127. 2023–2026 : 196. Les essais sont nombreux, souvent iraniens, brésiliens, turcs ou égyptiens, et de petite taille."
+   },
+   {
+    "h": "1. PBM ou laser chirurgical ?",
+    "p": "En dentisterie, beaucoup de lasers sont ablatifs ou servent à désinfecter (Er:YAG, Nd:YAG, diode haute puissance, photodynamique). Ils sont exclus, sauf quand ils sont utilisés à faible énergie pour la PBM. La photopolymérisation par LED n'est pas de la PBM."
+   },
+   {
+    "h": "2. La douleur, indication la plus solide",
+    "p": "Injection, orthodontie, endodontie, hypersensibilité : les méta-analyses sont presque toutes favorables, même si les preuves sont souvent de faible qualité."
+   },
+   {
+    "h": "3. Les effets biologiques promis",
+    "p": "Accélérer le mouvement dentaire, ostéo-intégrer plus vite, régénérer l'os : les essais animaux sont positifs, la clinique est décevante ou contradictoire."
+   },
+   {
+    "h": "4. L'enfant",
+    "p": "Douleur de l'injection, fin de l'anesthésie, réflexe nauséeux (laser-acupuncture), pulpotomie, molaires hypominéralisées : un champ en plein essor."
+   }
+  ],
+  "table": {
+   "cols": [
+    "2000–2014",
+    "2015–2019",
+    "2020–2022",
+    "2023–2026"
+   ],
+   "rows": [
+    {
+     "label": "Dents de sagesse",
+     "cells": [
+      "MA 2012 : trismus seulement",
+      "MA GRADE 2017 : négligeable",
+      "MA 2022 : douleur ↓ ; alvéolite +",
+      "MA 2024 + ; BIOSTOTT négatif"
+     ]
+    },
+    {
+     "label": "Orthodontie",
+     "cells": [
+      "Douleur : essais + ; accélération discutée",
+      "Douleur MA + ; Cochrane prudente",
+      "Accélération : MA 2022 négative",
+      "Résorption ↓ ; revues parapluie prudentes"
+     ]
+    },
+    {
+     "label": "Parodontologie",
+     "cells": [
+      "Court terme + ; cicatrisation +",
+      "Récessions : pas de gain durable",
+      "Site donneur palatin +",
+      "Diabète + ; jusqu'à 24 semaines"
+     ]
+    },
+    {
+     "label": "Hypersensibilité",
+     "cells": [
+      "MA 2013 + (hétérogène)",
+      "Blanchiment : essais +",
+      "MA 2021 + (proche infrarouge)",
+      "Long terme + ; molaires hypominéralisées"
+     ]
+    },
+    {
+     "label": "Endodontie et anesthésie",
+     "cells": [
+      "Chirurgie endodontique : négatif",
+      "Douleur post-op + ; pulpite à éviter",
+      "Fin d'anesthésie chez l'enfant +",
+      "Injection MA + ; douleur post-op MA +"
+     ]
+    },
+    {
+     "label": "Implants et ONM",
+     "cells": [
+      "Stabilité : pas d'effet",
+      "MA 2019 insuffisante ; ONM +",
+      "Stabilité précoce +",
+      "Résultats contrastés ; ONM adjuvant +"
+     ]
+    }
+   ]
+  }
+ }
+}

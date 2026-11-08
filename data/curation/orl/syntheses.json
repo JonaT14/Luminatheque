@@ -1,0 +1,77 @@
+{
+ "years": {
+  "2000–2014": {
+   "headline": "Acouphènes : une majorité d'essais négatifs",
+   "l1": "Les essais en double aveugle sur les acouphènes sont majoritairement négatifs (2000, 2002, 2008, 2013), avec quelques résultats positifs (2007, traumatisme sonore). La rhinosinusite chronique et la rhinite allergique de l'enfant donnent des premiers signaux favorables.",
+   "l2": "Acouphènes : le laser ne fait pas mieux que le placebo dans la plupart des essais ; un cas de baisse auditive aiguë est rapporté. Un essai de 2007 (5 mW, 650 nm) et un essai sur les acouphènes du traumatisme sonore sont positifs. Rhinosinusite : photothérapie bénéfique après chirurgie (2011). Surdité brusque : essai chinois favorable (2012). Ménière : pilote.",
+   "l3": [
+    {
+     "h": "Prudence",
+     "p": "Les effets placebo sont importants dans les acouphènes."
+    }
+   ]
+  },
+  "2015–2026": {
+   "headline": "Rhinite allergique, odorat post-Covid et acouphènes toujours débattus",
+   "l1": "Depuis 2015, la rhinite allergique s'impose comme l'indication ORL la mieux étayée (essai en double aveugle de 62 patients en 2025, méta-analyse 2024). La PBM infrarouge aide à récupérer l'odorat après la Covid. Les revues de 2020 et 2021 ne permettent toujours pas de recommander la PBM contre les acouphènes.",
+   "l2": "Rhinite : non-infériorité face à l'acupuncture (2022), méta-analyse favorable (2024), essai contre placebo positif (2025). Rhinosinusite : essai contre sham et méta-analyse favorables. Odorat et goût post-Covid : 68 % de répondeurs sous infrarouge (2025). Acouphènes : revues sans recommandation, dispositif TINI aux résultats mitigés, intérêt dans les acouphènes liés aux troubles de l'ATM. Voix : effets immédiats sur la phonation.",
+   "l3": [
+    {
+     "h": "Acouphènes somatosensoriels",
+     "p": "Quand les acouphènes sont liés à la mâchoire ou au cou, traiter cette cause avec le laser donne de meilleurs résultats."
+    }
+   ]
+  }
+ },
+ "global": {
+  "headline": "2000 → 2026 : la PBM en ORL, utile dans la rhinite, pas dans les acouphènes",
+  "l1": "En ORL, la PBM est la mieux étayée dans la rhinite allergique (essai contre placebo et méta-analyse favorables) et prometteuse dans la rhinosinusite chronique et les troubles de l'odorat après Covid. Dans les acouphènes, malgré 25 ans d'essais, la majorité des études en double aveugle sont négatives et aucune recommandation n'est possible.",
+  "l2": "Ce qui se confirme : rhinite allergique (photothérapie intranasale), rhinosinusite chronique (petits essais, méta-analyse 2025). Ce qui est prometteur : odorat et goût après la Covid, surdité brusque (un grand essai chinois), voix et suites de chirurgie pharyngée.\n\nCe qui ne se confirme pas : les acouphènes d'origine cochléaire (essais négatifs, revues sans recommandation), sauf peut-être les acouphènes somatosensoriels liés à l'ATM ou au cou.",
+  "l3": [
+   {
+    "h": "0. Le temps long",
+    "p": "2000–2014 : 13 fiches. 2015–2026 : 27. Un domaine de niche, aux essais souvent petits."
+   },
+   {
+    "h": "1. Le piège des acouphènes",
+    "p": "Fort effet placebo, critères subjectifs : les essais contrôlés sont indispensables et la plupart sont négatifs."
+   }
+  ],
+  "table": {
+   "cols": [
+    "2000–2014",
+    "2015–2026"
+   ],
+   "rows": [
+    {
+     "label": "Acouphènes",
+     "cells": [
+      "Essais en double aveugle majoritairement négatifs",
+      "Revues sans recommandation ; TINI mitigé"
+     ]
+    },
+    {
+     "label": "Rhinite et sinusite",
+     "cells": [
+      "Rhinosinusite + ; rhinite de l'enfant +",
+      "Rhinite : essai contre placebo + ; méta-analyse +"
+     ]
+    },
+    {
+     "label": "Odorat et goût",
+     "cells": [
+      "—",
+      "Post-Covid : infrarouge +"
+     ]
+    },
+    {
+     "label": "Surdité, vertiges, voix",
+     "cells": [
+      "Surdité brusque + ; Ménière pilote",
+      "Voix + ; vertiges avec rééducation +"
+     ]
+    }
+   ]
+  }
+ }
+}

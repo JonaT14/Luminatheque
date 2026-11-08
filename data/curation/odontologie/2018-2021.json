@@ -1,0 +1,2322 @@
+[
+ {
+  "pmid": "30926104",
+  "title_fr": "Laser basse énergie et douleur de l'arc d'alignement orthodontique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 84,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "Le laser réduit l'intensité et la durée de la douleur après pose de l'arc d'alignement.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "30738959",
+  "title_fr": "Laser et résorption radiculaire inflammatoire orthodontique : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Orthodontie",
+  "l1": "L'influence du laser sur la résorption radiculaire orthodontique reste débattue.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles ; peu d'essais de bonne qualité."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "30899947",
+  "title_fr": "Laser et traitement parodontal de base chez le diabétique : cytokines, LPS et leptine",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 80,
+  "effect": "favorable",
+  "theme": "Parodontologie",
+  "l1": "Associé au traitement parodontal, le laser réduit le LPS et améliore la leptine du fluide gingival chez le diabétique.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31143771",
+  "title_fr": "PBM 635 nm et os péri-implantaire : stabilité et densité",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "implants"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   635
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Implants & greffes osseuses",
+  "l1": "Le laser 635 nm améliore la stabilité secondaire des implants et la densité osseuse.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31064350",
+  "title_fr": "PBM, stabilité et succès des implants : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "implants"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Implants & greffes osseuses",
+  "l1": "Les études cliniques ne montrent pas suffisamment d'effet positif de la PBM sur les implants.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "31093797",
+  "title_fr": "PBM des poches parodontales chez le diabétique de type 2 : résultats à 1 an",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 19,
+  "effect": "mitigé",
+  "theme": "Parodontologie",
+  "l1": "La PBM ne change pas la profondeur de poche ni l'attache, mais réduit davantage l'inflammation.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "31323184",
+  "title_fr": "PBM et inconfort après extraction de dent de sagesse inférieure",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 25,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "La PBM réduit la douleur et le gonflement après extraction des dents de sagesse.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31256846",
+  "title_fr": "Laser ou vibration mécanique contre la douleur du premier arc",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Orthodontie",
+  "l1": "Ni le laser ni la vibration ne réduisent significativement la douleur.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "31325124",
+  "title_fr": "PBM des glandes salivaires et risque carieux",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Autres",
+  "l1": "La PBM des glandes salivaires réduit les bactéries cariogènes chez les patients à haut risque carieux.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31344985",
+  "title_fr": "Laser diode 915 nm et cicatrisation des plaies muqueuses buccales",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   915
+  ],
+  "n": 16,
+  "effect": "mitigé",
+  "theme": "Autres",
+  "l1": "Le laser n'a pas modifié les paramètres inflammatoires, mais la cicatrisation muqueuse précoce semble meilleure.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "31376016",
+  "title_fr": "PBM 810 nm pour accélérer la fin de l'anesthésie chez l'enfant",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "anesthésie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810
+  ],
+  "n": 34,
+  "effect": "favorable",
+  "theme": "Anesthésie, douleur & anxiété au fauteuil",
+  "l1": "La PBM raccourcit la durée de l'anesthésie des tissus mous chez l'enfant.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31389750",
+  "title_fr": "Laser et implants étroits sous prothèse chez le diabétique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "implants"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Implants & greffes osseuses",
+  "l1": "Le laser n'a pas d'effet sur l'os marginal autour des implants étroits chez le diabétique.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "31502752",
+  "title_fr": "Traitements adjuvants de l'ostéonécrose des mâchoires médicamenteuse : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "ONM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 41,
+  "effect": "favorable",
+  "theme": "Ostéonécrose des mâchoires",
+  "l1": "Les traitements adjuvants, dont la PBM, sont sûrs et utiles ; les essais randomisés manquent.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles ; peu d'essais de bonne qualité."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31604060",
+  "title_fr": "Laser basse énergie et douleur après extraction de dents de sagesse incluses",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "Le laser réduit la douleur après extraction des dents de sagesse non sorties.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31573388",
+  "title_fr": "Paramètres de la PBM en dentisterie : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Autres",
+  "l1": "Le manque de consensus sur les protocoles vient en partie du manque de détails rapportés dans les études.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles ; peu d'essais de bonne qualité."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "31589558",
+  "title_fr": "PBM ou méthylprednisolone après extraction de dents de sagesse incluses",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "La PBM et la méthylprednisolone ont des effets comparables sur la douleur, l'œdème et le trismus.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "31780019",
+  "title_fr": "PBM et accélération du mouvement orthodontique : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "La PBM pourrait accélérer le mouvement orthodontique ; des essais plus grands sont nécessaires.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31772695",
+  "title_fr": "Laser basse énergie et douleur la première semaine de traitement orthodontique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "Le laser réduit la douleur pendant le mouvement dentaire.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31641967",
+  "title_fr": "PBM et traitement parodontal non chirurgical chez le diabétique de type 2",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Parodontologie",
+  "l1": "La PBM en complément du traitement non chirurgical pourrait améliorer l'état parodontal du diabétique.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31750798",
+  "title_fr": "PBM en chirurgie orale : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "La PBM est utile en chirurgie orale et maxillo-faciale, avec prudence vu l'hétérogénéité des paramètres.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles ; peu d'essais de bonne qualité."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31755850",
+  "title_fr": "PBM et prise en charge orthodontique : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Orthodontie",
+  "l1": "Il faut plus d'essais humains de qualité pour généraliser la PBM en orthodontie.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles ; peu d'essais de bonne qualité."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "31773372",
+  "title_fr": "PBM et résorption radiculaire orthodontique : pilote en micro-scanner",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Orthodontie",
+  "l1": "Laser et LED n'augmentent pas la résorption radiculaire.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "31784929",
+  "title_fr": "PBM et biomarqueurs de cicatrisation du fluide gingival",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Parodontologie",
+  "l1": "La PBM module la bradykinine, l'EGF et le VEGF dans les premières phases de cicatrisation.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31790452",
+  "title_fr": "CPP-ACPF et PBM dans l'hypersensibilité dentaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "hypersensibilité"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Hypersensibilité dentinaire",
+  "l1": "L'association CPP-ACPF et PBM réduit l'hypersensibilité et améliore la qualité de vie.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31808584",
+  "title_fr": "Laser et fluor dans la désensibilisation des molaires hypominéralisées de l'enfant",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "hypersensibilité"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 66,
+  "effect": "mitigé",
+  "theme": "Hypersensibilité dentinaire",
+  "l1": "Le vernis fluoré et l'association laser-vernis désensibilisent davantage ; le laser seul agit immédiatement.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "31811497",
+  "title_fr": "PBM ou ibuprofène contre la douleur après traitement endodontique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "endo"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Endodontie",
+  "l1": "La PBM réduit la douleur postopératoire comme l'ibuprofène.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31825027",
+  "title_fr": "Laser et désensibilisant sur dents fluorotiques ou non",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "hypersensibilité"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Hypersensibilité dentinaire",
+  "l1": "L'association laser et désensibilisant réduit l'hypersensibilité, surtout sur les dents fluorotiques.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31833004",
+  "title_fr": "Laser et orthodontie des patients parodontalement fragilisés",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho",
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "Le laser soulage la douleur et contrôle l'inflammation au début du traitement orthodontique.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32381793",
+  "title_fr": "Laser 660 nm après extraction de dent de sagesse chez des patientes sous contraceptif oral",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   660
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "Le laser 660 nm améliore les suites opératoires chez ces patientes.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31926767",
+  "title_fr": "Traitements assistés par laser dans l'ostéonécrose des mâchoires médicamenteuse : revue",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "ONM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Ostéonécrose des mâchoires",
+  "l1": "Les traitements assistés par laser pourraient améliorer nettement l'ostéonécrose des mâchoires.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31944878",
+  "title_fr": "Orthodontie avec ou sans PBM dans l'encombrement mandibulaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "La PBM réduit le nombre de rendez-vous de contrôle.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "31970564",
+  "title_fr": "PBM en complément de la préservation alvéolaire : étude préliminaire",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "La PBM améliore la formation osseuse dans l'alvéole préservée.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32122727",
+  "title_fr": "Laser ou cryothérapie après extraction orthodontique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 62,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "Le laser soulage mieux et cicatrise mieux que la cryothérapie.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32056052",
+  "title_fr": "Chirurgie laser dans l'ostéonécrose des mâchoires médicamenteuse : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "ONM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Ostéonécrose des mâchoires",
+  "l1": "La chirurgie laser fait mieux que le laser basse énergie au stade II ; le laser basse énergie aide aux stades précoces.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "32081593",
+  "title_fr": "Laser basse intensité, MMP-9 et vitesse du mouvement orthodontique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho",
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "Le laser accélère le mouvement dentaire et augmente la MMP-9 du fluide gingival.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32080952",
+  "title_fr": "Laser ou désensibilisants topiques dans l'hypersensibilité dentinaire : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "hypersensibilité"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Hypersensibilité dentinaire",
+  "l1": "Preuves de faible qualité, insuffisantes pour départager laser et désensibilisants.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "32584285",
+  "title_fr": "PBM 660 nm dans la langue géographique symptomatique : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   660
+  ],
+  "n": 50,
+  "effect": "favorable",
+  "theme": "Autres",
+  "l1": "La PBM soulage la douleur et les brûlures de la langue géographique.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32241351",
+  "title_fr": "Laser toutes les 4 semaines et vitesse du mouvement orthodontique : essai en triple aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Orthodontie",
+  "l1": "Une application toutes les 4 semaines ne change pas le mouvement dentaire.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "32274491",
+  "title_fr": "Une séance de laser contre la douleur initiale du traitement orthodontique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "Une séance de laser réduit la douleur de pose de l'arc initial.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32307932",
+  "title_fr": "Une ou deux séances de laser contre la douleur des séparateurs",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 36,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "Le laser réduit la douleur de la séparation, en une ou deux séances.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32314880",
+  "title_fr": "Laser et accélération du mouvement orthodontique : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Orthodontie",
+  "l1": "Le laser accélère le mouvement dentaire, avec des preuves de faible à très faible qualité.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "32329198",
+  "title_fr": "Laser et stabilité des implants posés en alvéole fraîche",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "implants"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 44,
+  "effect": "neutre",
+  "theme": "Implants & greffes osseuses",
+  "l1": "Le laser n'influence pas la stabilité des implants posés en alvéole d'extraction.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "32369570",
+  "title_fr": "Débridement mécanique avec ou sans laser dans la péri-implantite",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "implants",
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Implants & greffes osseuses",
+  "l1": "À court terme, le laser améliore le débridement de la péri-implantite, sans effet sur l'os crestal à 6 mois.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32382926",
+  "title_fr": "Laser basse puissance ou gel d'oxalate de potassium dans l'hypersensibilité cervicale",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "hypersensibilité"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 74,
+  "effect": "mitigé",
+  "theme": "Hypersensibilité dentinaire",
+  "l1": "L'oxalate est plus efficace immédiatement ; après quatre applications, tous les traitements se valent.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "32438716",
+  "title_fr": "PBM et mouvement orthodontique : nouveau protocole",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "La PBM à faible énergie augmente la vitesse de déplacement des canines.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32554068",
+  "title_fr": "Protocole de laser et cicatrisation après extraction de dent de sagesse",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 57,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "Le protocole à 10 J/cm² améliore la cicatrisation parodontale après extraction.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32435906",
+  "title_fr": "PBM ou ozone après gingivectomie : douleur et qualité de vie",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 36,
+  "effect": "favorable",
+  "theme": "Parodontologie",
+  "l1": "La PBM améliore la qualité de vie après gingivectomie.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32596367",
+  "title_fr": "PBM et douleur de la pose des bagues orthodontiques",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 26,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "La PBM diminue l'intensité de la douleur.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32470239",
+  "title_fr": "Nanohydroxyapatite et PBM dans l'hypersensibilité dentinaire : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "hypersensibilité"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 32,
+  "effect": "favorable",
+  "theme": "Hypersensibilité dentinaire",
+  "l1": "Nanohydroxyapatite et PBM sont efficaces ; les associer n'apporte rien de plus.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32571649",
+  "title_fr": "Laser et recul en masse chez l'adolescent après extraction des prémolaires",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "Le laser augmente la vitesse du mouvement dentaire.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32554911",
+  "title_fr": "PBM et perception de la douleur orthodontique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Orthodontie",
+  "l1": "Essai randomisé sur la PBM et la douleur orthodontique (résumé sans conclusion).",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "32572661",
+  "title_fr": "PBM et cellules souches de la pulpe dentaire : revue",
+  "type": "sr",
+  "level": 5,
+  "pop": "adulte",
+  "ctx": [
+   "endo"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Endodontie",
+  "l1": "La PBM améliore la viabilité et la prolifération des cellules souches pulpaires.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles ; peu d'essais de bonne qualité."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32609566",
+  "title_fr": "Longueurs d'onde efficaces de la PBM pour accélérer le mouvement orthodontique : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "Dans neuf études, la PBM accélère le mouvement de 24 % en moyenne.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles ; peu d'essais de bonne qualité."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32613416",
+  "title_fr": "Laser en complément de la chirurgie parodontale : douleur et cicatrisation",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Parodontologie",
+  "l1": "Le laser accélère la cicatrisation palatine après greffe gingivale libre.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32642953",
+  "title_fr": "PBM et réparation muqueuse après extraction chez le patient irradié : pilote",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "Après extraction chez un patient irradié, la PBM accélère la cicatrisation muqueuse et réduit la douleur.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32662840",
+  "title_fr": "Laser et cicatrisation du site implantaire : étude exploratoire",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "implants"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Implants & greffes osseuses",
+  "l1": "Le laser pourrait améliorer la cicatrisation des tissus péri-implantaires.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32678697",
+  "title_fr": "PBM avec différents lasers et durée du traitement orthodontique : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "La PBM, surtout intrabuccale, réduit la durée du traitement orthodontique.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32780994",
+  "title_fr": "Laser et LED combinés après extraction des dents de sagesse inférieures",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "L'association laser et LED réduit la douleur et le gonflement.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32690001",
+  "title_fr": "Laser et douleur du premier arc chez les patients avec extractions",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 26,
+  "effect": "neutre",
+  "theme": "Orthodontie",
+  "l1": "Avec ces paramètres, le laser ne réduit pas la douleur.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "34643019",
+  "title_fr": "Interventions pour accélérer le recul canin : méta-analyse en réseau",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 415,
+  "effect": "neutre",
+  "theme": "Orthodontie",
+  "l1": "Seules la piézocision et les micro-perforations sont efficaces, et seulement le premier mois.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "32833578",
+  "title_fr": "Surfaçage avec PBM dans la parodontite des chiqueurs de gutka",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Parodontologie",
+  "l1": "La PBM améliore le traitement de la parodontite chez ces patients.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "32901379",
+  "title_fr": "PBM et formation osseuse de la suture palatine après disjonction",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Orthodontie",
+  "l1": "La PBM n'accélère pas la régénération osseuse de la suture.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "32919077",
+  "title_fr": "PBM dans l'alvéolite sèche : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "La PBM réduit mieux la douleur de l'alvéolite que l'Alvogyl.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33058773",
+  "title_fr": "PBM et cicatrisation de l'alvéole après extraction de dent de sagesse",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 20,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "La PBM accélère la cicatrisation de l'alvéole.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33058775",
+  "title_fr": "Laser et suites opératoires des dents de sagesse : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "Le laser réduit le gonflement mais pas la douleur ni le trismus.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "33060065",
+  "title_fr": "Longueur d'onde efficace de la PBM contre la douleur orthodontique : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   780,
+   830
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "La majorité des essais retrouvent 780–830 nm comme fenêtre la plus efficace.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles ; peu d'essais de bonne qualité."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33097977",
+  "title_fr": "Ibuprofène ou laser contre la douleur orthodontique : IL-1β et substance P",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Orthodontie",
+  "l1": "Seul l'ibuprofène réduit la substance P et la douleur au début.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "33098680",
+  "title_fr": "PBM en complément du traitement parodontal non chirurgical : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Parodontologie",
+  "l1": "Les études sont de qualité médiocre avec un risque de biais élevé.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles ; peu d'essais de bonne qualité."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "33307205",
+  "title_fr": "Laser et douleur postopératoire en endodontie : revue actualisée",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "endo"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Endodontie",
+  "l1": "La plupart des études retrouvent moins de douleur après laser, avec des preuves limitées.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles ; peu d'essais de bonne qualité."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33337926",
+  "title_fr": "PBM préventive contre l'inconfort orofacial des soins dentaires",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "anesthésie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Anesthésie, douleur & anxiété au fauteuil",
+  "l1": "La PBM réduit l'inconfort orofacial pendant les soins.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33340081",
+  "title_fr": "PBM et douleur après extraction des dents de sagesse",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 44,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "La PBM réduit la douleur à 6, 24 et 48 heures.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33547665",
+  "title_fr": "PBM 820 nm et traitement parodontal chez fumeurs et non-fumeurs",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   820
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Parodontologie",
+  "l1": "Le laser 820 nm améliore le statut antioxydant après surfaçage.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33567160",
+  "title_fr": "Interventions adjuvantes et résorption radiculaire orthodontique : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 236,
+  "effect": "neutre",
+  "theme": "Orthodontie",
+  "l1": "Les interventions adjuvantes, dont la PBM, n'influencent pas la résorption.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles ; peu d'essais de bonne qualité."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "33586080",
+  "title_fr": "Laser et stabilité des mini-implants orthodontiques : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "ortho",
+   "implants"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 108,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "Le laser améliore la stabilité des mini-implants.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33602198",
+  "title_fr": "Laser 940 nm après extraction de dents de sagesse incluses : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   940
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "Seule la douleur est significativement réduite du côté traité.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33610485",
+  "title_fr": "PBM et résorption radiculaire pendant le mouvement orthodontique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "La PBM réduit la résorption radiculaire externe.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33660109",
+  "title_fr": "PBM et stabilité des mini-implants : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "ortho",
+   "implants"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "Une énergie élevée agirait plus vite sur la stabilité des mini-implants.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33686771",
+  "title_fr": "Laser de préservation alvéolaire et densité osseuse à 4 mois",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "Le traitement laser après extraction améliore la cicatrisation osseuse.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33723980",
+  "title_fr": "PBM après traitement orthodontique : revue",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Orthodontie",
+  "l1": "Les preuves sur la stabilité et la santé dentaire après orthodontie restent faibles.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "33733872",
+  "title_fr": "PBM et accélération du mouvement orthodontique : méta-analyse",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "La PBM accélère le mouvement dentaire ; les paramètres optimaux restent à préciser.",
+  "l2": "Revue systématique avec méta-analyse.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Hétérogénéité des protocoles et des doses."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ },
+ {
+  "pmid": "33796965",
+  "title_fr": "Anesthésie topique avec PBM pour la pose des mini-vis : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho",
+   "anesthésie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 25,
+  "effect": "neutre",
+  "theme": "Orthodontie",
+  "l1": "L'association anesthésie topique et PBM soulage autant que l'injection.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "33840531",
+  "title_fr": "PBM par LED et fermeture des espaces d'extraction",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Orthodontie",
+  "l1": "Cinq minutes de LED par jour ne changent pas la fermeture des espaces.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "33851765",
+  "title_fr": "PBM, stabilité des implants et microbiologie",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "implants"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Implants & greffes osseuses",
+  "l1": "La PBM n'a pas d'effet cliniquement significatif sur la stabilité implantaire.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Pas d'intérêt démontré dans cette indication."
+  }
+ },
+ {
+  "pmid": "33881673",
+  "title_fr": "Laser basse énergie, Er,Cr:YSGG ou fluor dans l'hypersensibilité après chirurgie parodontale",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "hypersensibilité",
+   "paro"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 24,
+  "effect": "mitigé",
+  "theme": "Hypersensibilité dentinaire",
+  "l1": "Le laser Er,Cr:YSGG est le plus efficace ; le laser basse énergie l'est moins.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Bénéfice incertain ou partiel."
+  }
+ },
+ {
+  "pmid": "33909659",
+  "title_fr": "Chlorure de strontium et PBM contre la sensibilité après blanchiment",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "hypersensibilité"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Hypersensibilité dentinaire",
+  "l1": "L'association chlorure de strontium et PBM réduit la sensibilité après blanchiment.",
+  "l2": "Essai randomisé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Essai isolé, effectif souvent modeste et protocoles variables."
+   ],
+   "pratique": "Option complémentaire à envisager."
+  }
+ }
+]

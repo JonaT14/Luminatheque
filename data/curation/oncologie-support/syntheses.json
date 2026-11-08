@@ -1,0 +1,97 @@
+{
+ "years": {
+  "2000–2014": {
+   "headline": "Lymphœdème : les premiers essais contre placebo",
+   "l1": "Les essais fondateurs, dont celui de Cancer (2003), montrent qu'au moins deux cycles de laser réduisent le volume et la dureté du bras chez environ un tiers des patientes. Les revues de 2012 et la méta-analyse de 2014 jugent les preuves modérées.",
+   "l2": "Lymphœdème : essais contre placebo positifs (2003, 2010 : effet chez 93 % des patientes), laser au moins aussi efficace que la compression pneumatique à long terme (2009), revue 2012 recommandant 1–2 J/cm² par point. Xérostomie : revue 2012 favorable. La sécurité oncologique n'est pas encore documentée.",
+   "l3": [
+    {
+     "h": "Dose",
+     "p": "1 à 2 J/cm² par point, au moins deux cycles."
+    }
+   ]
+  },
+  "2015–2022": {
+   "headline": "Résultats contrastés et position de la WALT",
+   "l1": "Entre 2015 et 2022, des essais plus rigoureux sur le lymphœdème sont négatifs ou ne montrent pas de bénéfice ajouté (2016, 2018), et la méta-analyse de 2019 ne trouve pas d'effet significatif. En parallèle, la revue de sécurité de 2019 est rassurante et la WALT (2022) recommande la PBM contre de nombreuses séquelles.",
+   "l2": "Lymphœdème : protocole court négatif (2016), essai de faisabilité sans bénéfice (2018), méta-analyse 2019 non significative, mais revues 2017 et 2022 favorables et association avec la compression utile. Xérostomie : méta-analyse 2020 favorable sur le débit salivaire pendant la radiothérapie ; pilocarpine en première ligne (2017). Sécurité : pas de problème tumoral (2019) ; rapport coût-efficacité favorable (2021). Syndrome main-pied : pilote positif.",
+   "l3": [
+    {
+     "h": "WALT 2022",
+     "p": "Recommandations et paramètres pour une quinzaine de toxicités des traitements du cancer."
+    }
+   ]
+  },
+  "2023–2026": {
+   "headline": "Cures plus longues, lymphœdème cervico-facial et xérostomie chronique",
+   "l1": "Depuis 2023, la méta-analyse sur les schémas montre que des cures plus fréquentes et plus longues font mieux dans le lymphœdème du bras. La PBM s'étend au lymphœdème des cancers ORL, à la xérostomie chronique après radiothérapie (essai contre placebo positif en 2025) et à la prévention du trismus.",
+   "l2": "Lymphœdème : méta-analyse 2023 (schémas), lymphœdème cervico-facial (pilote 2026). Xérostomie : paramètres précisés (630–830 nm, 2–10 J/cm², 2–3 fois par semaine), débit salivaire restauré en xérostomie chronique (2025), méta-analyses 2025 plus mitigées. Trismus : prévention pendant la radiothérapie (2026) et association avec un dispositif d'ouverture (2025).",
+   "l3": [
+    {
+     "h": "À suivre",
+     "p": "Vue transversale : mucite, radiodermite, neuropathie et alopécie sont traitées dans leurs thèmes respectifs."
+    }
+   ]
+  }
+ },
+ "global": {
+  "headline": "2000 → 2026 : la PBM contre les séquelles du cancer, au-delà de la mucite",
+  "l1": "En dehors de la mucite et de la radiodermite, la PBM est la mieux étudiée dans le lymphœdème du bras après cancer du sein : les résultats sont favorables à condition de prévoir des cures longues et répétées, mais les essais rigoureux à protocole court sont négatifs. La xérostomie et le trismus radio-induits sont des indications prometteuses. La sécurité oncologique est rassurante.",
+  "l2": "Ce qui se confirme : lymphœdème du bras (essais 2003–2010, revues, WALT 2022), sous réserve de cures longues ; prévention de l'hyposialie pendant la radiothérapie ORL ; sécurité tumorale (revue 2019) et rapport coût-efficacité (2021). Ce qui est prometteur : xérostomie chronique, trismus, lymphœdème cervico-facial, syndrome main-pied.\n\nCe qui ne se confirme pas : protocoles courts dans le lymphœdème, xérostomie du Sjögren (résultats faibles et transitoires). La pilocarpine reste la première ligne de la xérostomie.",
+  "l3": [
+   {
+    "h": "0. Le temps long",
+    "p": "2000–2014 : 12 fiches. 2015–2022 : 25. 2023–2026 : 22."
+   },
+   {
+    "h": "1. Une vue transversale",
+    "p": "La mucite, la radiodermite, la neuropathie chimio-induite et l'alopécie chimio-induite sont analysées dans leurs thèmes dédiés ; ce thème regroupe les autres séquelles."
+   },
+   {
+    "h": "2. La sécurité, question centrale",
+    "p": "Les données disponibles ne montrent pas de risque de récidive ; on évite toutefois d'irradier directement une tumeur en place."
+   }
+  ],
+  "table": {
+   "cols": [
+    "2000–2014",
+    "2015–2022",
+    "2023–2026"
+   ],
+   "rows": [
+    {
+     "label": "Lymphœdème",
+     "cells": [
+      "Essais contre placebo + ; MA 2014 +",
+      "Protocoles courts : négatifs ; MA 2019 NS",
+      "Cures longues + ; cervico-facial +"
+     ]
+    },
+    {
+     "label": "Xérostomie",
+     "cells": [
+      "Revue 2012 +",
+      "MA 2020 + ; pilocarpine en 1re ligne",
+      "Xérostomie chronique + ; MA mitigées"
+     ]
+    },
+    {
+     "label": "Trismus et autres",
+     "cells": [
+      "—",
+      "Main-pied : pilote +",
+      "Trismus : prévention +"
+     ]
+    },
+    {
+     "label": "Sécurité",
+     "cells": [
+      "Non documentée (2012)",
+      "Revue 2019 rassurante ; WALT 2022",
+      "Coût-efficacité favorable"
+     ]
+    }
+   ]
+  }
+ }
+}

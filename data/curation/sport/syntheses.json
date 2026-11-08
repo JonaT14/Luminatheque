@@ -1,0 +1,97 @@
+{
+ "years": {
+  "2000–2014": {
+   "headline": "Le préconditionnement musculaire",
+   "l1": "Les premiers essais et la méta-analyse de 2013 montrent que le laser et les LED appliqués avant l'effort améliorent la performance musculaire et accélèrent la récupération, à environ 5–6 J par point.",
+   "l2": "Les études portent surtout sur des sujets sains ou des sportifs amateurs, avec des mesures de force, de répétitions et de créatine kinase. L'entorse de cheville du footballeur (2004) répond au laser associé au protocole RICE.",
+   "l3": [
+    {
+     "h": "Dose",
+     "p": "5–6 J par point, avant l'effort."
+    }
+   ]
+  },
+  "2015–2022": {
+   "headline": "Terrain réel et repères de dose",
+   "l1": "Entre 2015 et 2022, des essais sur le terrain (rugby, futsal, course) confirment un effet de la PBM avant l'effort, et la méta-analyse de 2017 précise les doses (20–60 J par petit muscle, 60–300 J par grand muscle). Mais chez des sujets déjà entraînés, la PBM n'ajoute rien à six semaines d'entraînement.",
+   "l2": "Performance : rugby et futsal (temps de jeu et récupération), 3 000 m (performance et économie de course), Wingate ; mais pas d'effet au 1 500 m ni en natation. Récupération : méta-analyse 2021 favorable, meilleure que la cryothérapie. Blessures : antalgie immédiate (2016), mais pas de soutien pour les lésions des ischio-jambiers. Populations : BPCO (capacité d'effort), diabète (pas d'effet cardiovasculaire).",
+   "l3": [
+    {
+     "h": "Paradoxe",
+     "p": "Effet net chez le sujet peu entraîné, faible ou nul chez le sportif déjà entraîné."
+    }
+   ]
+  },
+  "2023–2026": {
+   "headline": "Un effet modeste et ciblé",
+   "l1": "Depuis 2023, les méta-analyses précisent que la PBM aide surtout les sujets peu entraînés et la récupération, réduit la douleur des entorses sans accélérer le retour au jeu, et que la PBM corps entier n'apporte pas de bénéfice de performance.",
+   "l2": "Méta-analyses : endurance chez les peu entraînés (2024), douleur des blessures sans retour plus rapide (2024), répétitions en musculation (2025, certitude faible), sports de ballon (2025). Revue de la PBM corps entier (2025) : sommeil peut-être, performance non. Sujets âgés : bénéfice sur le genou avec l'exercice (2023), pas sur la force (2026). Sport de contact : PBM transcrânienne et résilience neurologique (2026).",
+   "l3": [
+    {
+     "h": "Commotion",
+     "p": "Deux essais récents explorent la PBM transcrânienne chez le sportif commotionné ou exposé aux chocs."
+    }
+   ]
+  }
+ },
+ "global": {
+  "headline": "2000 → 2026 : la PBM en sport, un coup de pouce avant l'effort plutôt qu'un dopant",
+  "l1": "En médecine du sport, la PBM appliquée avant l'effort améliore modestement la performance et la récupération, surtout chez les sujets peu entraînés, à des doses désormais bien décrites. Elle soulage la douleur des blessures sans accélérer le retour au jeu. Chez le sportif déjà entraîné, ajoutée à l'entraînement, et en version corps entier, elle n'apporte pas de bénéfice démontré.",
+  "l2": "Ce qui se confirme : préconditionnement (méta-analyses 2013, 2017, 2025), récupération et créatine kinase (2018, 2021), antalgie immédiate des blessures et des entorses. Doses : 20–60 J par petit groupe musculaire, 60–300 J par grand groupe, jusqu'à 200 mW par diode.\n\nCe qui ne se confirme pas : bénéfice chez le sujet entraîné en programme chronique (essai 2022), retour au jeu plus rapide, lésions des ischio-jambiers, PBM corps entier. Les populations malades (BPCO, sujet âgé) sont une piste en réhabilitation.",
+  "l3": [
+   {
+    "h": "0. Le temps long",
+    "p": "2000–2014 : 34 fiches. 2015–2022 : 57. 2023–2026 : 37. 104 fiches sont partagées avec le thème musculo-squelettique."
+   },
+   {
+    "h": "1. Avant plutôt qu'après",
+    "p": "L'effet le plus net est obtenu en appliquant la PBM 5 à 30 minutes avant l'effort."
+   },
+   {
+    "h": "2. Éthique sportive",
+    "p": "La PBM n'est pas interdite, mais ses effets restent modestes et variables d'un individu à l'autre."
+   }
+  ],
+  "table": {
+   "cols": [
+    "2000–2014",
+    "2015–2022",
+    "2023–2026"
+   ],
+   "rows": [
+    {
+     "label": "Performance",
+     "cells": [
+      "MA 2013 + (avant l'effort)",
+      "Terrain + ; MA 2017 (doses) ; entraînés : 0",
+      "Peu entraînés + ; corps entier : 0"
+     ]
+    },
+    {
+     "label": "Récupération",
+     "cells": [
+      "CK ↓",
+      "MA 2021 + ; mieux que la cryothérapie",
+      "Courbatures ↓ ; sommeil ?"
+     ]
+    },
+    {
+     "label": "Blessures",
+     "cells": [
+      "Entorse : œdème ↓",
+      "Antalgie immédiate + ; ischio-jambiers : 0",
+      "Entorse : douleur ↓, pas de retour plus rapide"
+     ]
+    },
+    {
+     "label": "Populations",
+     "cells": [
+      "—",
+      "BPCO + ; diabète : 0",
+      "Sujet âgé : genou + ; force : 0"
+     ]
+    }
+   ]
+  }
+ }
+}
