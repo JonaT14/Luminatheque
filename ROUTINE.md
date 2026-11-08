@@ -5,7 +5,7 @@ Procédure suivie à chaque mise à jour (par défaut chaque semaine). Elle peut
 
 ## 1. Collecter les nouveautés
 
-Pour chaque thème actif de `data/topics/` (aujourd'hui : `mucite-orale`, `neuropathie-peripherique`, `gynecologie`, `musculo-squelettique` et `dermatologie` ; les thèmes marqués `"status": "à venir"` sont ignorés), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :
+Pour chaque thème actif de `data/topics/` (aujourd'hui : `mucite-orale`, `neuropathie-peripherique`, `gynecologie`, `musculo-squelettique`, `dermatologie` et `neurologie` ; les thèmes marqués `"status": "à venir"` sont ignorés), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :
 
 ```bash
 python3 scripts/fetch_pubmed.py --topic mucite-orale --since AAAA-MM-JJ
@@ -21,6 +21,14 @@ python3 scripts/pending.py --topic mucite-orale > a_analyser.txt
 ```
 
 Seules ces études clés reçoivent une fiche rédigée ; les autres restent indexées. `build_site.py --prune-pdfs` retire les PDF sans fiche. Si Europe PMC a échoué pendant la collecte, relancer `fetch_pubmed.py --topic X --backfill-epmc`.
+
+### Études en cours (registre des essais)
+
+```bash
+python3 scripts/fetch_trials.py
+```
+
+Le script interroge ClinicalTrials.gov pour tous les thèmes et liste les essais PBM « à trier ». Pour chacun, l'ajouter dans `data/curation/essais.json` : sous `essais`, `"NCT…": ["thème", "sous-groupe", "titre en français"]`, ou sous `exclus` s'il ne relève pas de la PBM (laser ablatif, luminothérapie par la rétine, imagerie proche infrarouge…). Les essais qui changent de statut (ouverture, clôture) sont mis à jour automatiquement ; ceux qui sont terminés disparaissent de la rubrique.
 
 ## 2. Analyser chaque nouvel article
 

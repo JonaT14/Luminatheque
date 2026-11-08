@@ -1,0 +1,195 @@
+{
+ "years": {
+  "2000–2009": {
+   "headline": "Laser-acupuncture et premiers essais dans l'AVC",
+   "l1": "Avant 2010, la neurologie compte deux pistes : la laser-acupuncture (céphalées de tension, céphalées de l'enfant, dépression), avec de petits essais positifs, et le laser transcrânien dans l'AVC ischémique aigu, avec NEST-1 positif en 2007 puis NEST-2 négatif en 2009.",
+   "l2": "Laser-acupuncture : céphalée de tension chronique (−15 jours par mois contre −2 sous placebo, 50 patients), céphalées de l'enfant (essai bicentrique en double aveugle) et dépression légère en soins primaires (30 patients) sont favorables ; une revue de 2008 confirme l'intérêt pour la céphalée de tension.\n\nAVC : NEST-1 (120 patients, 808 nm dans les 24 h) améliore le pronostic à 90 jours, mais NEST-2 (660 patients) n'atteint pas son critère principal. L'irradiation laser intravasculaire (ILIB) est alors surtout étudiée en Chine et en Russie, sur des marqueurs biologiques.",
+   "l3": [
+    {
+     "h": "AVC",
+     "p": "NEST-1 positif, NEST-2 négatif avec une tendance favorable : le programme continue vers NEST-3."
+    },
+    {
+     "h": "Céphalées et humeur",
+     "p": "Laser-acupuncture : trois petits essais contre placebo favorables."
+    }
+   ]
+  },
+  "2010–2019": {
+   "headline": "L'échec de NEST-3 et la naissance de la PBM transcrânienne cognitive",
+   "l1": "L'essai pivot NEST-3 (2014), arrêté pour futilité, met fin à la PBM dans l'AVC aigu. Au même moment naît la PBM transcrânienne cognitive : un laser à 1 064 nm améliore l'attention et l'humeur chez le sujet sain (2012), puis les premières études dans la démence, le Parkinson (animal) et la dépression apparaissent.",
+   "l2": "AVC aigu : NEST-3 ne réduit ni le handicap ni le volume de l'infarctus ; l'analyse poolée NEST-1/NEST-2 laissait espérer un effet dans les AVC modérés. Dépression : laser-acupuncture très favorable dans la dépression majeure (72 % de réponse contre 18 %, 2013) et première revue de la PBM transcrânienne et systémique (2018). Démence : PBM transcrânienne et intranasale à domicile (pilote 2019).\n\nAutres : laser-acupuncture dans la paralysie cérébrale de l'enfant, PBM dans la lésion médullaire (gain moteur à l'EMG), acouphènes négatifs (2013), migraine chronique (laser aussi efficace que la toxine botulique, 2018). Les travaux animaux sur le Parkinson s'accumulent (revue 2020).",
+   "l3": [
+    {
+     "h": "AVC aigu : un échec instructif",
+     "p": "Trois essais NEST, plus de 1 400 patients : sûr mais inefficace. L'hypothèse d'une neuroprotection transcrânienne aiguë est abandonnée."
+    },
+    {
+     "h": "Cognition",
+     "p": "Fondateur : laser à 1 064 nm sur le cortex préfrontal chez le sujet sain (Neuroscience, 2012)."
+    },
+    {
+     "h": "Psychiatrie",
+     "p": "Laser-acupuncture et PBM transcrânienne dans la dépression : petits essais positifs."
+    }
+   ]
+  },
+  "2020–2022": {
+   "headline": "Démences, Parkinson, traumatisme crânien : l'essor des pilotes",
+   "l1": "Entre 2020 et 2022, les pilotes se multiplient : démence (casques, PBM cerveau-intestin), Parkinson (PBM transcrânienne, intranasale et abdominale, preuve de concept), traumatisme crânien modéré (JAMA Netw Open 2020). Les méta-analyses sur la démence sont favorables à court terme, mais ELATED-3 (2022) montre qu'une dose trop faible est inefficace dans la dépression.",
+   "l2": "Démence : méta-analyse 2022 favorable à court terme (les LED et lasers proche infrarouge font mieux que la lumière visible) ; essai iranien positif ; PBM cerveau-intestin (REGEnLIFE, 53 patients) bien tolérée, avec des tendances favorables. Parkinson : preuve de concept (12 patients, effets maintenus tant que dure le traitement) et pilote transcrânien et intrabuccal (22 patients, placebo important).\n\nTraumatisme crânien : la PBM modifie la diffusion de la substance blanche (JAMA Netw Open 2020) ; méta-analyse animale positive (2022). Dépression : ELATED-3, multicentrique, négatif à très faible dose, ce qui fixe un seuil d'inefficacité. SEP : la PBM n'améliore pas la fatigue (pilote 2022), mais module l'IL-10. Schizophrénie : négatif.",
+   "l3": [
+    {
+     "h": "Dose",
+     "p": "ELATED-3 (dépression) et les revues sur la cognition convergent : environ 810 nm, 20–25 mW/cm², 1–10 J/cm², avec des séances répétées."
+    },
+    {
+     "h": "Préclinique",
+     "p": "Revues animales sur la neuro-inflammation, la lésion médullaire et les maladies neurodégénératives : base biologique solide."
+    }
+   ]
+  },
+  "2023–2024": {
+   "headline": "Premiers essais contrôlés dans le Parkinson et le trouble cognitif léger",
+   "l1": "En 2023–2024, la PBM est la mieux classée des thérapies non médicamenteuses de la démence dans une méta-analyse en réseau, et un essai de 93 patients avec trouble cognitif léger améliore cognition et BDNF. Dans le Parkinson, le premier essai de casque contre placebo est négatif sur le score moteur total. Dans la commotion, un essai rigoureux est négatif.",
+   "l2": "Cognition : méta-analyses favorables (déclin lié à l'âge, démence) ; trouble cognitif léger (93 patients, BDNF augmenté) ; un doublement de la dose n'apporte rien chez le sujet âgé sain. Dépression : deux méta-analyses favorables (808 nm, au moins 3 séances par semaine, plus de 15 séances) ; PBM portable efficace sur le sommeil mais pas sur l'humeur à faible dose ; anxiété généralisée (820 nm) positive.\n\nParkinson : casque LED contre placebo (40 patients) sans effet sur le score moteur total, mais 70 % de répondeurs ; essai de faisabilité à domicile ; suivi à 5 ans d'une petite cohorte. Commotion persistante : négatif contre placebo. SEP : gain de force musculaire ; revue favorable. Covid long : la PBM améliore la dysgueusie et les céphalées post-Covid. SLA : aucune donnée.",
+   "l3": [
+    {
+     "h": "Effet placebo",
+     "p": "Le placebo est massif dans le Parkinson et la commotion ; seuls les essais contre sham départagent."
+    },
+    {
+     "h": "Covid long",
+     "p": "Premiers essais : goût et odorat, céphalées. Brouillard cérébral seulement en ouvert."
+    }
+   ]
+  },
+  "2025": {
+   "headline": "Cochrane négatif dans l'AVC aigu, signaux positifs dans le trouble cognitif léger",
+   "l1": "En 2025, la revue Cochrane conclut que le laser transcrânien ne change rien au pronostic de l'AVC ischémique aigu. Une revue parapluie place les troubles cognitifs parmi les indications de la PBM les mieux étayées. Les essais contre sham sont positifs dans le trouble cognitif léger, l'odorat post-Covid et le traumatisme crânien léger, mais pas dans la démence avérée.",
+   "l2": "Cognition : trouble cognitif léger de l'Alzheimer (PBM à domicile, positif) ; démence légère à modérée (négatif) ; méta-analyse sur la cognition favorable, y compris chez le sujet sain. Dépression : méta-analyse de 18 essais (le laser fait mieux que la LED ; un traitement plus long donne plus de bénéfice) ; patients sous méthadone (anxiété, dépression et craving réduits). Traumatisme crânien : cognition et stress post-traumatique améliorés après traumatisme léger ; biomarqueurs en IRM.\n\nParkinson : plus grand essai (63 patients), sans différence en double aveugle, mais avec un bénéfice chez ceux qui poursuivent jusqu'à 48 semaines ; stabilité posturale améliorée (38 patients). Covid long : odorat (68 % de répondeurs sous infrarouge), ILIB contre le brouillard cérébral (pilote). Fatigue : laser-acupuncture efficace chez l'hémodialysé (72 patients).",
+   "l3": [
+    {
+     "h": "Trouble cognitif léger ou démence",
+     "p": "Les résultats sont meilleurs au stade de trouble cognitif léger qu'au stade de démence avérée : la PBM agirait plutôt en prévention."
+    }
+   ]
+  },
+  "2026": {
+   "headline": "Essai confirmatoire positif dans le trouble cognitif léger, résultats mitigés dans le Covid long",
+   "l1": "En 2026, un essai confirmatoire coréen en double aveugle confirme l'effet de la PBM transcrânienne à domicile dans le trouble cognitif léger de l'Alzheimer. Dans le brouillard cérébral post-Covid, le premier essai contre sham n'atteint pas son critère principal. Dans l'Alzheimer, les méta-analyses en réseau placent la PBM au niveau de la tDCS et de la rTMS.",
+   "l2": "Démences : essai confirmatoire positif (trouble cognitif léger) et pilote multimodal (métabolisme, imagerie) ; méta-analyses en réseau : la PBM fait jeu égal avec la stimulation électrique et magnétique, mieux que les médicaments dans une analyse bayésienne, mais elle n'est pas en tête dans une autre. TDAH de l'adulte : meilleure oxygénation préfrontale et meilleur contrôle de l'impulsivité. Anxiété : méta-analyse favorable de la laser-auriculothérapie.\n\nCovid long : brouillard cérébral, essai pilote contre sham (attention améliorée, critère global non significatif). AVC : ILIB (pilote positif), SDRC après AVC (laser plus rapide que la thérapie miroir). Commotion sportive : pilote français RECOVERY ; football américain : résilience neurologique. Hashimoto : fatigue réduite.",
+   "l3": [
+    {
+     "h": "À suivre",
+     "p": "Les essais en cours sont nombreux : Alzheimer (NirsCure, RGn600, casque LUCIOLE en France), autisme, dépression, fatigue chronique (voir « Études en cours »)."
+    }
+   ]
+  }
+ },
+ "global": {
+  "headline": "2000 → 2026 : la PBM en neurologie, de l'échec dans l'AVC aigu à la piste cognitive",
+  "l1": "En 26 ans, la PBM neurologique a changé de cible. L'échec du laser transcrânien dans l'AVC aigu (NEST-3, Cochrane 2025) a fermé une voie. La piste la plus solide est aujourd'hui la cognition : le trouble cognitif léger (essai confirmatoire en 2026), puis la démence et la dépression. Dans le Parkinson, la SEP, le traumatisme crânien et le Covid long, il s'agit encore de pilotes, avec un fort effet placebo. Il n'existe aucune donnée clinique dans la SLA ni dans les tremblements.",
+  "l2": "Ce qui se confirme : le trouble cognitif léger (essais contre sham en 2024, 2025 et 2026, revue parapluie 2025), la dépression (méta-analyses 2023–2025, avec un effet dose : ELATED-3 négatif à très faible dose), l'anxiété (laser-auriculothérapie, 820 nm) et les céphalées (laser-acupuncture). Ce qui ne se confirme pas : l'AVC ischémique aigu (NEST-2 et NEST-3, Cochrane), la commotion persistante (essai contre placebo négatif), la démence avérée dans certains essais, la schizophrénie et la fatigue de la SEP.\n\nCe qui reste à démontrer : le Parkinson (plus grand essai négatif en double aveugle, signal en traitement prolongé), le traumatisme crânien (biomarqueurs d'imagerie, peu de critères cliniques), le Covid long (odorat et goût favorables, brouillard cérébral incertain), l'autisme et le TDAH (pilotes). La SLA, les tremblements et l'encéphalomyélite myalgique n'ont aucun essai publié ; seuls des essais déclarés au registre existent.",
+  "l3": [
+   {
+    "h": "0. Le temps long",
+    "p": "2000–2009 : 8 fiches (laser-acupuncture, NEST-1 et 2). 2010–2019 : 22 fiches (NEST-3, premières études cognitives). Depuis 2020 : 104 fiches, avec l'explosion de la PBM transcrânienne (casques, dispositifs intranasaux, traitement à domicile)."
+   },
+   {
+    "h": "1. Plusieurs façons d'éclairer le cerveau",
+    "p": "La PBM transcrânienne (casques LED, lasers proche infrarouge 810–1 064 nm) se distingue de la PBM intranasale, de la PBM « à distance » (abdomen, nuque : axe intestin-cerveau), de l'irradiation laser intravasculaire (ILIB) et de la laser-acupuncture. Les lunettes à lumière violette et la luminothérapie agissent par la rétine : ce n'est pas la même chose."
+   },
+   {
+    "h": "2. La dose et la durée comptent",
+    "p": "Une dose trop faible est inefficace (ELATED-3). Un traitement plus long donne plus de bénéfice (méta-analyse 2025, Parkinson à 48 semaines), mais doubler la dose d'une séance n'aide pas. La tolérance est excellente, quelle que soit la dose."
+   },
+   {
+    "h": "3. Le piège du placebo",
+    "p": "Dans le Parkinson et la commotion, le groupe sham s'améliore beaucoup. Les études ouvertes et les séries de cas, nombreuses et enthousiastes, ne suffisent pas."
+   },
+   {
+    "h": "4. Les sous-groupes sans preuve",
+    "p": "SLA : uniquement des données animales et une méta-analyse de neuromodulation sans essai PBM. Tremblements et dystonies : aucun essai. Fatigue chronique (encéphalomyélite myalgique) : un essai au registre (Pakistan) ; la fatigue de la SEP n'est pas améliorée."
+   }
+  ],
+  "table": {
+   "cols": [
+    "2000–2009",
+    "2010–2019",
+    "2020–2022",
+    "2023–2024",
+    "2025",
+    "2026"
+   ],
+   "rows": [
+    {
+     "label": "AVC",
+     "cells": [
+      "NEST-1 + ; NEST-2 négatif",
+      "NEST-3 négatif (arrêt)",
+      "—",
+      "Membre supérieur spastique +",
+      "Cochrane : pas d'effet",
+      "ILIB pilote + ; SDRC"
+     ]
+    },
+    {
+     "label": "Démences et cognition",
+     "cells": [
+      "—",
+      "Sujet sain 1 064 nm +",
+      "MA démence + (court terme) ; cerveau-intestin",
+      "Trouble cognitif léger + (BDNF) ; MA en réseau +",
+      "Trouble cognitif léger + ; démence négatif ; parapluie",
+      "Essai confirmatoire + ; MA en réseau"
+     ]
+    },
+    {
+     "label": "Parkinson",
+     "cells": [
+      "—",
+      "Données animales",
+      "Preuve de concept ; pilote 22 patients",
+      "Casque contre placebo : négatif (70 % de répondeurs)",
+      "63 patients : signal à 48 semaines",
+      "—"
+     ]
+    },
+    {
+     "label": "Dépression et anxiété",
+     "cells": [
+      "Laser-acupuncture +",
+      "Laser-acupuncture 72 % de réponse",
+      "ELATED-3 négatif (faible dose)",
+      "2 MA + ; anxiété 820 nm +",
+      "MA 18 essais + ; méthadone +",
+      "Laser-auriculothérapie (anxiété) +"
+     ]
+    },
+    {
+     "label": "Traumatisme crânien",
+     "cells": [
+      "—",
+      "—",
+      "IRM (JAMA Netw Open) ; MA animale +",
+      "Commotion : négatif",
+      "Traumatisme léger + ; spectroscopie",
+      "Football américain ; RECOVERY"
+     ]
+    },
+    {
+     "label": "Covid long et fatigue",
+     "cells": [
+      "—",
+      "—",
+      "SEP : fatigue négatif",
+      "Goût +, céphalées +",
+      "Odorat + ; hémodialyse +",
+      "Brouillard cérébral : non significatif"
+     ]
+    }
+   ]
+  }
+ }
+}

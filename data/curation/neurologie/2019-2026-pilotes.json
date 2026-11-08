@@ -1,0 +1,337 @@
+[
+ {
+  "pmid": "41226860",
+  "title_fr": "PBM à domicile associée à l'exercice dans la maladie de Parkinson : essai randomisé avec extension à 48 semaines",
+  "type": "rct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "parkinson"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 63,
+  "effect": "mitigé",
+  "theme": "Maladie de Parkinson",
+  "l1": "Dans le Parkinson, 8 semaines de PBM active ne font pas mieux que le sham ; seuls les patients qui poursuivent la PBM jusqu'à 48 semaines améliorent leur mobilité (timed up-and-go), leur anxiété et leurs gestes quotidiens.",
+  "l2": "Essai randomisé en double aveugle contre sham (63 patients), puis phase ouverte au choix des patients.",
+  "l3": {
+   "points": [
+    "Plus grand essai à ce jour ; tête, nuque et abdomen, à domicile."
+   ],
+   "limites": [
+    "Phase positive non randomisée (choix des patients)."
+   ],
+   "pratique": "Option d'appoint à long terme, à confirmer."
+  }
+ },
+ {
+  "pmid": "37109183",
+  "title_fr": "Casque de PBM transcrânienne dans la maladie de Parkinson : essai contre placebo, analyse motrice",
+  "type": "rct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "parkinson"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [
+   635,
+   810
+  ],
+  "n": 40,
+  "effect": "mitigé",
+  "theme": "Maladie de Parkinson",
+  "l1": "Dans le Parkinson, 12 semaines de casque LED (635 + 810 nm) ne changent pas le score moteur total par rapport au placebo, mais 70 % des patients répondent et le visage et les membres inférieurs s'améliorent.",
+  "l2": "Essai randomisé en triple aveugle contre placebo, 40 patients ; analyse post hoc.",
+  "l3": {
+   "points": [
+    "Bonne tolérance."
+   ],
+   "limites": [
+    "Critère principal non atteint ; effet placebo important."
+   ],
+   "pratique": "Résultat à confirmer."
+  }
+ },
+ {
+  "pmid": "38094162",
+  "title_fr": "Casque de PBM transcrânienne pour les signes moteurs du Parkinson : essai de faisabilité randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "parkinson"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 40,
+  "effect": "mitigé",
+  "theme": "Maladie de Parkinson",
+  "l1": "Dans le Parkinson, 12 semaines de casque de PBM à domicile, suivi en visioconférence, sont faisables et bien tolérées ; l'efficacité motrice reste à démontrer.",
+  "l2": "Essai de faisabilité randomisé en double aveugle contre sham, 40 patients (EClinicalMedicine).",
+  "l3": {
+   "points": [
+    "Traitement à domicile supervisé à distance."
+   ],
+   "limites": [
+    "Essai de faisabilité."
+   ],
+   "pratique": "Prépare un essai d'efficacité."
+  }
+ },
+ {
+  "pmid": "39385144",
+  "title_fr": "PBM dans la maladie de Parkinson : suivi à cinq ans",
+  "type": "cohort",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "parkinson"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 8,
+  "effect": "favorable",
+  "theme": "Maladie de Parkinson",
+  "l1": "Chez 7 patients ayant poursuivi la PBM à domicile pendant 5 ans, la plupart des améliorations cliniques se maintiennent, dans une maladie où l'on attend un déclin.",
+  "l2": "Suivi de cohorte de 8 participants d'une étude de preuve de concept.",
+  "l3": {
+   "points": [
+    "Recul exceptionnel."
+   ],
+   "limites": [
+    "Très petit effectif, sans groupe témoin."
+   ],
+   "pratique": "Signal à long terme à confirmer."
+  }
+ },
+ {
+  "pmid": "41768981",
+  "title_fr": "PBM transcrânienne et intranasale du brouillard cérébral post-Covid : essai pilote contre sham",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "fatigue"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 43,
+  "effect": "mitigé",
+  "theme": "Fatigue chronique & Covid long",
+  "l1": "Dans le brouillard cérébral post-Covid, 8 semaines de PBM à domicile améliorent l'attention, mais le score cognitif global ne diffère pas significativement du sham ; la fatigue évolue même en faveur du sham.",
+  "l2": "Essai pilote randomisé en double aveugle contre sham, 43 adultes (EClinicalMedicine, NCT05857124).",
+  "l3": {
+   "points": [
+    "Gain significatif chez les moins de 45 ans (exploratoire)."
+   ],
+   "limites": [
+    "Pilote ; critère principal non atteint."
+   ],
+   "pratique": "Pas encore de preuve."
+  }
+ },
+ {
+  "pmid": "37018063",
+  "title_fr": "PBM transcrânienne ou corps entier et brouillard cérébral post-Covid : étude pilote ouverte",
+  "type": "nrct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "fatigue"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [
+   1070,
+   660,
+   850
+  ],
+  "n": 14,
+  "effect": "favorable",
+  "theme": "Fatigue chronique & Covid long",
+  "l1": "Après la Covid, 12 séances de casque à 1 070 nm ou de lit de PBM corps entier améliorent les tests cognitifs.",
+  "l2": "Étude pilote ouverte, 2 groupes de 7 patients.",
+  "l3": {
+   "points": [
+    "Deux modes d'application."
+   ],
+   "limites": [
+    "Pas de groupe témoin ; très petit effectif."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "39960888",
+  "title_fr": "Irradiation laser intraveineuse et cognition dans le Covid long : étude pilote",
+  "type": "nrct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "fatigue"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "ILIB"
+  ],
+  "nm": [],
+  "n": 6,
+  "effect": "favorable",
+  "theme": "Fatigue chronique & Covid long",
+  "l1": "Chez 6 patients atteints de Covid long avec brouillard cérébral, 30 séances d'ILIB améliorent les scores cognitifs et le sommeil.",
+  "l2": "Étude pilote prospective monocentrique avec séquençage ARN.",
+  "l3": {
+   "points": [
+    "Mécanismes moléculaires explorés."
+   ],
+   "limites": [
+    "Six patients, sans témoin."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "32255785",
+  "title_fr": "PBM sublinguale ou radiale, IL-10 et nitrites dans la sclérose en plaques récurrente-rémittente",
+  "type": "nrct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "SEP"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 14,
+  "effect": "favorable",
+  "theme": "Sclérose en plaques",
+  "l1": "Dans la SEP récurrente-rémittente, 24 séances de PBM à 808 nm (sublinguale ou sur l'artère radiale) augmentent l'IL-10 anti-inflammatoire et réduisent les nitrites.",
+  "l2": "Essai randomisé non contrôlé, 14 patients (PLoS One).",
+  "l3": {
+   "points": [
+    "Modulation immunitaire."
+   ],
+   "limites": [
+    "Pas de groupe témoin ; critères biologiques."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "31232920",
+  "title_fr": "Rééducation sensori-motrice et cardiorespiratoire associée à la PBM transcrânienne dans les maladies du système nerveux central : protocole",
+  "type": "protocol",
+  "level": 0,
+  "pop": "adulte",
+  "ctx": [
+   "SEP",
+   "AVC"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Sclérose en plaques",
+  "l1": "Protocole d'essai associant exercice et PBM transcrânienne après AVC, lésion médullaire, traumatisme crânien ou SEP.",
+  "l2": "Protocole publié.",
+  "l3": {
+   "points": [
+    "Approche combinée."
+   ],
+   "limites": [
+    "Pas de résultats."
+   ],
+   "pratique": "À suivre."
+  }
+ },
+ {
+  "pmid": "36061601",
+  "title_fr": "Casque LED PDNeuro dans la maladie de Parkinson : protocole d'essai",
+  "type": "protocol",
+  "level": 0,
+  "pop": "adulte",
+  "ctx": [
+   "parkinson"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 40,
+  "effect": "—",
+  "theme": "Maladie de Parkinson",
+  "l1": "Protocole d'essai randomisé en triple aveugle sur 24 semaines testant le casque LED PDNeuro contre sham chez 40 patients parkinsoniens.",
+  "l2": "Protocole publié.",
+  "l3": {
+   "points": [
+    "Dispositif dédié."
+   ],
+   "limites": [
+    "Pas de résultats."
+   ],
+   "pratique": "Résultats publiés en 2023 (voir l'essai casque contre placebo)."
+  }
+ },
+ {
+  "pmid": "33530211",
+  "title_fr": "Eau hydrogénée et PBM dans la maladie de Parkinson : étude pilote",
+  "type": "nrct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "parkinson"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 18,
+  "effect": "favorable",
+  "theme": "Maladie de Parkinson",
+  "l1": "Dans le Parkinson, associer eau hydrogénée et PBM du tronc cérébral est sûr et améliore les scores cliniques.",
+  "l2": "Étude pilote, 18 patients.",
+  "l3": {
+   "points": [
+    "Association antioxydante."
+   ],
+   "limites": [
+    "Pas de groupe témoin."
+   ],
+   "pratique": "Exploratoire."
+  }
+ }
+]

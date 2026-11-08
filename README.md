@@ -12,8 +12,9 @@ Chaque thème contient deux sortes d'entrées :
 | Mucite buccale (traitements du cancer) | 463 | 198 |
 | Neuropathies périphériques (chimio-induites, diabétiques, compressions, lésions nerveuses, névralgies) | 317 | 120 |
 | Gynécologie (sécheresse et syndrome génito-urinaire, après cancer, vulve et vagin, douleurs pelviennes, obstétrique et allaitement, fertilité) | 278 | 116 |
-| Musculo-squelettique (tendons, arthrose, rachis, ATM, fibromyalgie, épaule, os, muscle) | 3 363 | 679 |
+| Musculo-squelettique (tendons, arthrose, rachis, ATM, fibromyalgie, épaule, os, muscle, Ehlers-Danlos) | 3 367 | 682 |
 | Dermatologie (plaies, cicatrices et brûlures, radiodermite, alopécie, dermatoses inflammatoires, esthétique, infections, pigmentation) | 4 601 | 256 |
+| Neurologie (sclérose en plaques, SLA, Parkinson, tremblements, démences, fatigue chronique et Covid long, AVC, traumatismes crâniens, neurodéveloppement, dépression et anxiété) | 1 116 | 134 |
 
 ## Ce que fait le site
 
@@ -21,6 +22,7 @@ Chaque thème contient deux sortes d'entrées :
 - **Publications** : recherche plein texte (insensible aux accents), filtres par période (dates, semaine ISO, année), type d'étude, niveau de preuve, résultat, contexte, population, thème et PDF disponible. Les articles sont groupés par semaine.
 - **Trois niveaux de lecture** partout : *Express* (1–2 lignes), *Essentiel* (1–2 paragraphes), *Approfondi* (méthode, résultats, limites, pratique, résumé original).
 - **Fiche article** : fiche technique, graphique du résultat principal, liens vers les sources et **lecteur PDF intégré** pour les fiches dont l'article est en accès libre (licences Creative Commons, dépôt PMC Open Access).
+- **Études en cours** : essais de PBM déclarés au registre ClinicalTrials.gov qui recrutent ou se déroulent, projets en construction (pas encore ouverts, protocoles publiés) et porteurs de projets (promoteurs, investigateurs, pays). 196 essais relus et classés à la main.
 - **Synthèses** : bilans 2000–2009, 2010–2019, 2020–2023, 2024, 2025, 2026 et étude comparative avec tableau.
 - **Comparateur** : fusionner une période (par exemple semaines 1 à 20) ou comparer deux périodes, ou une sélection d'articles cochés. Le récapitulatif et les graphiques sont recalculés, et une demande de synthèse rédigée peut être copiée pour Claude.
 

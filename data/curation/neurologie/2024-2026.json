@@ -1,0 +1,1582 @@
+[
+ {
+  "pmid": "38614054",
+  "title_fr": "PBM et fonction musculaire dans la sclérose en plaques : essai croisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "SEP"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 17,
+  "effect": "mitigé",
+  "theme": "Sclérose en plaques",
+  "l1": "Dans la SEP légère à modérée, une dose individualisée de PBM améliore la force et la récupération de force, sans effet sur l'endurance ni la fatigue musculaire.",
+  "l2": "Essai croisé randomisé en double aveugle, 17 patients ambulatoires.",
+  "l3": {
+   "points": [
+    "Dose adaptée à chaque patient."
+   ],
+   "limites": [
+    "Très petit effectif ; effet aigu."
+   ],
+   "pratique": "Piste en rééducation."
+  }
+ },
+ {
+  "pmid": "38600582",
+  "title_fr": "Dispositifs de PBM cérébrale : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Autres atteintes : céphalées, moelle, acouphènes",
+  "l1": "Revue des dispositifs et paramètres utilisés en PBM cérébrale ; elle plaide pour une standardisation du rapport des paramètres et des essais contre sham.",
+  "l2": "Revue systématique d'études cliniques et cadavériques.",
+  "l3": {
+   "points": [
+    "Panorama des appareils."
+   ],
+   "limites": [
+    "Pas d'analyse d'efficacité."
+   ],
+   "pratique": "Aide méthodologique."
+  }
+ },
+ {
+  "pmid": "38805733",
+  "title_fr": "Lumière basse énergie et connectivité cérébrale au repos après traumatisme crânien modéré",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "TC"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Traumatismes crâniens & commotions",
+  "l1": "Après traumatisme crânien modéré, la PBM en phase aiguë modifie la connectivité fonctionnelle au repos en début de récupération.",
+  "l2": "Analyse secondaire d'un essai en double aveugle contre placebo (Radiology).",
+  "l3": {
+   "points": [
+    "Biomarqueur IRMf."
+   ],
+   "limites": [
+    "Critère d'imagerie, petit effectif."
+   ],
+   "pratique": "Mécanisme engagé."
+  }
+ },
+ {
+  "pmid": "38861125",
+  "title_fr": "PBM et cerveau vieillissant : de l'animal à l'humain",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Démences & déclin cognitif",
+  "l1": "La PBM est prometteuse pour la cognition du sujet âgé et la réorganisation fonctionnelle cérébrale ; les protocoles restent à standardiser.",
+  "l2": "Revue systématique d'études animales et humaines (Geroscience).",
+  "l3": {
+   "points": [
+    "Continuum préclinique-clinique."
+   ],
+   "limites": [
+    "Hétérogénéité."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "38952831",
+  "title_fr": "PBM transcrânienne et cognition après traumatisme crânien : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "TC"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Traumatismes crâniens & commotions",
+  "l1": "Après traumatisme crânien, la PBM transcrânienne semble améliorer la cognition, la connectivité et l'oxygénation, mais les essais randomisés manquent.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [
+    "Résultats encourageants."
+   ],
+   "limites": [
+    "Pas de paramètres optimaux ; peu d'ECR."
+   ],
+   "pratique": "Incertain."
+  }
+ },
+ {
+  "pmid": "39177599",
+  "title_fr": "Dose de PBM transcrânienne et efficience cognitive du sujet âgé sain",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 88,
+  "effect": "mitigé",
+  "theme": "Démences & déclin cognitif",
+  "l1": "Chez 88 sujets âgés sains, doubler la dose de PBM transcrânienne n'apporte pas plus de bénéfice cognitif qu'une dose simple.",
+  "l2": "Essai randomisé comparant deux doses, avec spectroscopie proche infrarouge.",
+  "l3": {
+   "points": [
+    "Plus n'est pas mieux."
+   ],
+   "limites": [
+    "Pas de sham."
+   ],
+   "pratique": "Repère de dose."
+  }
+ },
+ {
+  "pmid": "39198866",
+  "title_fr": "Laser-acupuncture 810 nm en complément dans la migraine chronique : essai pilote",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [
+   810
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Autres atteintes : céphalées, moelle, acouphènes",
+  "l1": "Dans la migraine chronique mal contrôlée par les médicaments, la laser-acupuncture réduit les jours de migraine et les traitements de crise, avec un effet croissant au suivi.",
+  "l2": "Essai pilote randomisé en simple aveugle contre sham.",
+  "l3": {
+   "points": [
+    "Aucun effet indésirable grave."
+   ],
+   "limites": [
+    "Pilote."
+   ],
+   "pratique": "Traitement préventif d'appoint prometteur."
+  }
+ },
+ {
+  "pmid": "39329016",
+  "title_fr": "PBM dans la sclérose en plaques : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "SEP"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Sclérose en plaques",
+  "l1": "Dans la SEP, la PBM module l'inflammation, le stress oxydant et l'apoptose chez l'animal, et améliore la motricité, la sensibilité et la cognition chez les patients.",
+  "l2": "Revue systématique d'études animales et cliniques.",
+  "l3": {
+   "points": [
+    "Aucun effet indésirable rapporté."
+   ],
+   "limites": [
+    "Peu d'essais cliniques ; protocoles variés."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "39291464",
+  "title_fr": "Laser-acupuncture auriculaire contre l'anxiété des parents pendant la chirurgie de l'enfant",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "humeur"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dépression, anxiété & sommeil",
+  "l1": "La laser-acupuncture auriculaire réduit l'anxiété des parents 30 minutes après le départ de l'enfant au bloc, mieux que le sham.",
+  "l2": "Essai pilote randomisé à 3 bras.",
+  "l3": {
+   "points": [
+    "Dispositif AcuHealth."
+   ],
+   "limites": [
+    "Petits groupes (n = 13)."
+   ],
+   "pratique": "Option simple et sûre."
+  }
+ },
+ {
+  "pmid": "39423445",
+  "title_fr": "PBM transcrânienne, cognition et BDNF chez l'adulte de plus de 50 ans avec trouble cognitif léger",
+  "type": "rct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 93,
+  "effect": "favorable",
+  "theme": "Démences & déclin cognitif",
+  "l1": "Dans le trouble cognitif léger, la PBM transcrânienne améliore la cognition et augmente le BDNF sérique, sans effet sur l'humeur.",
+  "l2": "Essai randomisé en double aveugle contre placebo, 93 patients, suivi 150 jours.",
+  "l3": {
+   "points": [
+    "Biomarqueur BDNF."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "39370461",
+  "title_fr": "Dose de PBM transcrânienne et température cérébrale dans la dépression",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "humeur"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 30,
+  "effect": "favorable",
+  "theme": "Dépression, anxiété & sommeil",
+  "l1": "Dans la dépression majeure, la PBM transcrânienne n'élève pas la température cérébrale, quelle que soit la dose.",
+  "l2": "Essai randomisé avec thermométrie par spectroscopie IRM, 30 patients.",
+  "l3": {
+   "points": [
+    "Sécurité thermique."
+   ],
+   "limites": [
+    "Critère de sécurité uniquement."
+   ],
+   "pratique": "Rassurant."
+  }
+ },
+ {
+  "pmid": "39706483",
+  "title_fr": "PBM transcrânienne portable auto-administrée dans la dépression et le sommeil : essai contre sham",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "humeur"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 48,
+  "effect": "mitigé",
+  "theme": "Dépression, anxiété & sommeil",
+  "l1": "Dans la dépression majeure, la PBM portable à domicile améliore le sommeil mais, à cette faible dose, pas la dépression.",
+  "l2": "Essai randomisé en double aveugle contre sham, 48 patients (NCT04619121).",
+  "l3": {
+   "points": [
+    "Effet sur le sommeil jusqu'à 12 semaines."
+   ],
+   "limites": [
+    "Dose insuffisante pour l'humeur."
+   ],
+   "pratique": "Utile pour le sommeil."
+  }
+ },
+ {
+  "pmid": "39730820",
+  "title_fr": "PBM vasculaire contre la céphalée de tension et la douleur orofaciale après Covid",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "fatigue"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Fatigue chronique & Covid long",
+  "l1": "Après la Covid, la PBM vasculaire réduit les céphalées de tension et la douleur orofaciale persistantes et leur retentissement sur la vie quotidienne.",
+  "l2": "Essai pragmatique randomisé en double aveugle.",
+  "l3": {
+   "points": [
+    "Post-Covid."
+   ],
+   "limites": [
+    "Effectif limité."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "39853536",
+  "title_fr": "Laser basse énergie ou électrostimulation dans l'épaule douloureuse de l'hémiplégique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "AVC"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "AVC & aphasie",
+  "l1": "Après AVC, le laser et l'électrostimulation ajoutés aux exercices font mieux que les exercices seuls sur l'épaule douloureuse, avec une efficacité comparable.",
+  "l2": "Essai randomisé à 3 bras.",
+  "l3": {
+   "points": [
+    "Gain fonctionnel du membre supérieur."
+   ],
+   "limites": [
+    "Pas de sham."
+   ],
+   "pratique": "Complément utile."
+  }
+ },
+ {
+  "pmid": "39901090",
+  "title_fr": "PBM transcrânienne contre l'anxiété, la dépression et le craving chez les patients sous méthadone",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "humeur"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dépression, anxiété & sommeil",
+  "l1": "Chez des patients sous méthadone, la PBM transcrânienne réduit l'anxiété, la dépression et l'envie d'opioïdes, avec un effet maintenu à 3 mois.",
+  "l2": "Essai randomisé en double aveugle contre sham (BMC Psychiatry).",
+  "l3": {
+   "points": [
+    "Effet durable."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "Prometteur en addictologie."
+  }
+ },
+ {
+  "pmid": "39943716",
+  "title_fr": "PBM par laser TINI dans les acouphènes chroniques de haute fréquence : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 38,
+  "effect": "mitigé",
+  "theme": "Autres atteintes : céphalées, moelle, acouphènes",
+  "l1": "Dans les acouphènes chroniques de haute fréquence, la PBM intermittente réduit la gêne, mais l'effet disparaît sous sham.",
+  "l2": "Essai randomisé en simple aveugle contre placebo, 38 participants.",
+  "l3": {
+   "points": [
+    "Effet pendant le traitement actif."
+   ],
+   "limites": [
+    "Petit effectif ; résultats contrastés."
+   ],
+   "pratique": "À confirmer."
+  }
+ },
+ {
+  "pmid": "39961441",
+  "title_fr": "Lunettes à lumière violette dans la dépression légère : essai croisé en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "humeur"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 57,
+  "effect": "favorable",
+  "theme": "Dépression, anxiété & sommeil",
+  "l1": "Dans la dépression majeure légère, porter des lunettes émettant de la lumière violette améliore les symptômes par rapport au placebo.",
+  "l2": "Essai croisé randomisé en double aveugle, 57 patients japonais.",
+  "l3": {
+   "points": [
+    "Mécanisme proposé : récepteur OPN5 via la rétine."
+   ],
+   "limites": [
+    "Lumière visuelle, distincte de la PBM tissulaire ; effet modeste."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "40147122",
+  "title_fr": "PBM en complément dans les troubles de l'odorat après Covid : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "fatigue"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 81,
+  "effect": "favorable",
+  "theme": "Fatigue chronique & Covid long",
+  "l1": "Après la Covid, la PBM infrarouge ajoutée aux corticoïdes et à l'entraînement olfactif donne 68 % de répondeurs, contre 26 % sans PBM.",
+  "l2": "Essai randomisé contre placebo à 3 bras, 81 patients.",
+  "l3": {
+   "points": [
+    "L'infrarouge fait mieux que le rouge."
+   ],
+   "limites": [
+    "Preuve de concept."
+   ],
+   "pratique": "Option sûre en complément."
+  }
+ },
+ {
+  "pmid": "40254536",
+  "title_fr": "Stimulation magnétique transcrânienne combinée à la PBM dans le trouble cognitif léger",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Démences & déclin cognitif",
+  "l1": "Dans le trouble cognitif léger, l'association stimulation magnétique et PBM transcrânienne améliore la mémoire de travail.",
+  "l2": "Essai randomisé contrôlé.",
+  "l3": {
+   "points": [
+    "Effet synergique."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "40350963",
+  "title_fr": "Stimulation cérébrale non invasive dans les troubles du neurodéveloppement : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "neurodev"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Autisme & neurodéveloppement",
+  "l1": "Dans les troubles du neurodéveloppement, certaines techniques de stimulation, dont la PBM, sont prometteuses, mais les études sont petites et biaisées.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [
+    "Panorama des techniques."
+   ],
+   "limites": [
+    "Grande variabilité."
+   ],
+   "pratique": "Incertain."
+  }
+ },
+ {
+  "pmid": "40394373",
+  "title_fr": "PBM et fonctions cognitives : méta-analyse d'essais randomisés",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Démences & déclin cognitif",
+  "l1": "La PBM améliore la cognition globale, la mémoire de travail et l'attention, aussi bien chez les patients que chez les sujets sains.",
+  "l2": "Revue systématique avec méta-analyse (PROSPERO).",
+  "l3": {
+   "points": [
+    "Effet chez les sujets sains."
+   ],
+   "limites": [
+    "Hétérogénéité."
+   ],
+   "pratique": "Prometteur, avec prudence."
+  }
+ },
+ {
+  "pmid": "40437278",
+  "title_fr": "Tolérance et sécurité de la PBM transcrânienne selon la dose : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Autres atteintes : céphalées, moelle, acouphènes",
+  "l1": "La fréquence des effets indésirables de la PBM transcrânienne ne dépend pas de la dose ; le profil de tolérance est bénin.",
+  "l2": "Essai randomisé chez des patients déprimés.",
+  "l3": {
+   "points": [
+    "Sécurité."
+   ],
+   "limites": [
+    "Court terme."
+   ],
+   "pratique": "Bonne tolérance."
+  }
+ },
+ {
+  "pmid": "40485299",
+  "title_fr": "PBM transcrânienne, cognition, symptômes post-commotionnels et stress post-traumatique après traumatisme crânien léger",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "TC"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Traumatismes crâniens & commotions",
+  "l1": "Après traumatisme crânien léger, la PBM transcrânienne améliore la cognition, les symptômes post-commotionnels et le stress post-traumatique.",
+  "l2": "Essai randomisé (J Neurotrauma).",
+  "l3": {
+   "points": [
+    "Plusieurs domaines améliorés."
+   ],
+   "limites": [
+    "Effectif limité."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "40522371",
+  "title_fr": "PBM des troubles persistants de l'odorat et du goût après Covid : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "fatigue"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Fatigue chronique & Covid long",
+  "l1": "Dans les troubles persistants de l'odorat et du goût après Covid, la PBM est prometteuse, mais des essais randomisés de qualité manquent.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [
+    "Tendance favorable."
+   ],
+   "limites": [
+    "Peu d'essais."
+   ],
+   "pratique": "À confirmer."
+  }
+ },
+ {
+  "pmid": "40523998",
+  "title_fr": "PBM dans les lésions médullaires incomplètes et les lésions nerveuses périphériques : revue d'essais randomisés",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Autres atteintes : céphalées, moelle, acouphènes",
+  "l1": "Dans les lésions médullaires incomplètes et nerveuses périphériques, la PBM tend à améliorer la force, la sensibilité et la douleur, mais les essais sont petits.",
+  "l2": "Revue systématique d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Tendance favorable."
+   ],
+   "limites": [
+    "Petits effectifs, suivis courts."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "40668423",
+  "title_fr": "PBM transcrânienne chez l'enfant dyscalculique",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "neurodev"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Autisme & neurodéveloppement",
+  "l1": "Chez l'enfant dyscalculique, la PBM transcrânienne améliore plusieurs domaines numériques.",
+  "l2": "Essai contrôlé.",
+  "l3": {
+   "points": [
+    "Population originale."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "40704566",
+  "title_fr": "Laser transcrânien dans l'AVC ischémique aigu : revue Cochrane",
+  "type": "ma",
+  "level": 5,
+  "pop": "adulte",
+  "ctx": [
+   "AVC"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": null,
+  "effect": "neutre",
+  "theme": "AVC & aphasie",
+  "l1": "Le laser transcrânien ne change rien ou presque au pronostic fonctionnel ni à la mortalité à 90 jours de l'AVC ischémique aigu.",
+  "l2": "Revue Cochrane (2025) des essais randomisés contre sham, dont NEST-1 à 3.",
+  "l3": {
+   "points": [
+    "Certitude modérée."
+   ],
+   "limites": [
+    "Peu d'essais, dominés par NEST."
+   ],
+   "pratique": "Pas d'indication dans l'AVC aigu."
+  }
+ },
+ {
+  "pmid": "40770824",
+  "title_fr": "Effets de la PBM sur de multiples critères de santé : revue parapluie",
+  "type": "umbrella",
+  "level": 5,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Démences & déclin cognitif",
+  "l1": "Parmi toutes les indications, les preuves les plus solides concernent la fibromyalgie, l'arthrose et les troubles cognitifs, avec une certitude faible à modérée.",
+  "l2": "Revue parapluie de méta-analyses d'essais randomisés (AMSTAR 2, GRADE).",
+  "l3": {
+   "points": [
+    "Les troubles cognitifs sont parmi les mieux étayés."
+   ],
+   "limites": [
+    "Certitude faible à modérée."
+   ],
+   "pratique": "Hiérarchise les indications."
+  }
+ },
+ {
+  "pmid": "40925680",
+  "title_fr": "Lumière basse énergie et métabolites cérébraux en spectroscopie après traumatisme crânien modéré",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "TC"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Traumatismes crâniens & commotions",
+  "l1": "Après traumatisme crânien modéré, la PBM en phase aiguë modifie les métabolites cérébraux en spectroscopie IRM, en faveur d'un effet neuroprotecteur.",
+  "l2": "Analyse secondaire d'un essai en double aveugle contre placebo.",
+  "l3": {
+   "points": [
+    "Biomarqueur métabolique."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Mécanisme engagé."
+  }
+ },
+ {
+  "pmid": "40930542",
+  "title_fr": "PBM, cognition et humeur dans la démence légère à modérée : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Démences & déclin cognitif",
+  "l1": "Dans la démence légère à modérée, la PBM n'améliore ni la cognition ni la dépression ni l'anxiété.",
+  "l2": "Essai randomisé en double aveugle.",
+  "l3": {
+   "points": [
+    "Résultat négatif."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Pas d'effet démontré."
+  }
+ },
+ {
+  "pmid": "40939031",
+  "title_fr": "PBM transcrânienne à domicile dans le trouble cognitif léger de l'Alzheimer : essai contre sham",
+  "type": "rct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Démences & déclin cognitif",
+  "l1": "Dans le trouble cognitif léger lié à l'Alzheimer, la PBM transcrânienne à domicile est sûre et améliore la cognition.",
+  "l2": "Essai randomisé en double aveugle contre sham.",
+  "l3": {
+   "points": [
+    "Usage à domicile."
+   ],
+   "limites": [
+    "Certains critères non significatifs."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "40974428",
+  "title_fr": "PBM en complément de la stimulation médullaire de surface dans la myélopathie cervicale",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Autres atteintes : céphalées, moelle, acouphènes",
+  "l1": "Dans la myélopathie cervicale compressive, ajouter la PBM à la stimulation et à la rééducation améliore la fonction, la douleur et la qualité de vie.",
+  "l2": "Essai randomisé non aveugle.",
+  "l3": {
+   "points": [
+    "Gain fonctionnel."
+   ],
+   "limites": [
+    "Pas d'aveugle."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "40982764",
+  "title_fr": "Mécanismes et paramètres de la PBM dans les troubles neurologiques et psychiatriques : revue",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Autres atteintes : céphalées, moelle, acouphènes",
+  "l1": "La revue détaille les mécanismes de la PBM et les fenêtres de puissance et de fluence efficaces en neurologie et psychiatrie.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [
+    "Repères de paramètres."
+   ],
+   "limites": [
+    "Pas d'analyse quantitative."
+   ],
+   "pratique": "Aide à la conception de protocoles."
+  }
+ },
+ {
+  "pmid": "41101469",
+  "title_fr": "PBM et symptômes dépressifs : méta-analyse de 18 essais",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "humeur"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dépression, anxiété & sommeil",
+  "l1": "Sur 18 essais, la PBM réduit les symptômes dépressifs ; le laser fait mieux que la LED et un traitement plus long donne plus de bénéfice.",
+  "l2": "Méta-analyse avec analyses des modérateurs (J Affect Disord).",
+  "l3": {
+   "points": [
+    "PBM systémique et transcrânienne différentes."
+   ],
+   "limites": [
+    "Hétérogénéité."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "41114920",
+  "title_fr": "PBM transcrânienne, stabilité posturale et fonction dans le Parkinson : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "parkinson"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 38,
+  "effect": "favorable",
+  "theme": "Maladie de Parkinson",
+  "l1": "Dans le Parkinson avec instabilité posturale, la PBM transcrânienne améliore les limites de stabilité et le niveau fonctionnel à 3 mois.",
+  "l2": "Essai randomisé, 38 patients de 50 à 70 ans.",
+  "l3": {
+   "points": [
+    "Effet sur l'équilibre."
+   ],
+   "limites": [
+    "Petit effectif."
+   ],
+   "pratique": "Complément prometteur."
+  }
+ },
+ {
+  "pmid": "41171380",
+  "title_fr": "Parkinson, exercice aérobie et PBM : essai randomisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "parkinson"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Maladie de Parkinson",
+  "l1": "Dans le Parkinson, associer la PBM proche infrarouge à l'exercice aérobie ne montre pas de bénéfice net ; il faut mieux comprendre les doses et les réponses individuelles.",
+  "l2": "Essai randomisé (NCT05152706).",
+  "l3": {
+   "points": [
+    "Interaction avec l'exercice."
+   ],
+   "limites": [
+    "Résultats peu concluants."
+   ],
+   "pratique": "À préciser."
+  }
+ },
+ {
+  "pmid": "41240183",
+  "title_fr": "PBM transcrânienne et cognition de la femme âgée : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Démences & déclin cognitif",
+  "l1": "Chez la femme âgée, la PBM transcrânienne paraît sûre, faisable et efficace sur plusieurs troubles neurologiques et psychiques.",
+  "l2": "Revue systématique.",
+  "l3": {
+   "points": [
+    "Population féminine."
+   ],
+   "limites": [
+    "Protocoles non standardisés."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "41390393",
+  "title_fr": "Laser-acupuncture contre la fatigue post-dialyse et les troubles du sommeil : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "fatigue"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": 72,
+  "effect": "favorable",
+  "theme": "Fatigue chronique & Covid long",
+  "l1": "Chez l'hémodialysé, six semaines de laser-acupuncture améliorent la fatigue post-dialyse et le sommeil, indépendamment de la dépression.",
+  "l2": "Essai randomisé en double aveugle contre placebo, 72 patients.",
+  "l3": {
+   "points": [
+    "Traitement court et sûr."
+   ],
+   "limites": [
+    "Suivi court."
+   ],
+   "pratique": "Option prometteuse."
+  }
+ },
+ {
+  "pmid": "41423539",
+  "title_fr": "Irradiation laser intraveineuse rouge ou bleue après AVC : biomarqueurs et fonction neurologique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "AVC"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "ILIB"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "AVC & aphasie",
+  "l1": "Après AVC, l'ILIB rouge et l'ILIB bleue modifient différemment les biomarqueurs hématologiques et inflammatoires, avec un gain cognitif modeste.",
+  "l2": "Essai randomisé en double aveugle.",
+  "l3": {
+   "points": [
+    "Comparaison de deux longueurs d'onde."
+   ],
+   "limites": [
+    "Critères surtout biologiques."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "42300020",
+  "title_fr": "PBM transcrânienne et résilience neurologique chez des joueurs de football américain",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "TC"
+  ],
+  "aim": "prévention",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Traumatismes crâniens & commotions",
+  "l1": "Chez des joueurs universitaires exposés à des chocs répétés à la tête, la PBM transcrânienne favorise la résilience neurologique (imagerie et biomarqueurs).",
+  "l2": "Essai randomisé (J Neurotrauma).",
+  "l3": {
+   "points": [
+    "Prévention chez le sportif."
+   ],
+   "limites": [
+    "Une saison ; critères intermédiaires."
+   ],
+   "pratique": "Piste préventive."
+  }
+ },
+ {
+  "pmid": "41910812",
+  "title_fr": "PBM, fatigue et état comportemental dans la thyroïdite de Hashimoto",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "fatigue"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Fatigue chronique & Covid long",
+  "l1": "Dans la thyroïdite de Hashimoto avec fatigue persistante sous lévothyroxine, la PBM réduit la fatigue et les symptômes cliniques.",
+  "l2": "Essai randomisé contre placebo.",
+  "l3": {
+   "points": [
+    "Fatigue d'origine endocrinienne."
+   ],
+   "limites": [
+    "Un seul centre."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "41966601",
+  "title_fr": "Interventions médicamenteuses et non médicamenteuses sur la cognition dans l'Alzheimer : méta-analyse en réseau",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Démences & déclin cognitif",
+  "l1": "Dans l'Alzheimer, la PBM et l'environnement enrichi sont associés à une meilleure amélioration cognitive que les médicaments.",
+  "l2": "Méta-analyse bayésienne en réseau.",
+  "l3": {
+   "points": [
+    "PBM bien classée."
+   ],
+   "limites": [
+    "Comparaisons indirectes."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "42024020",
+  "title_fr": "PBM transcrânienne à domicile dans le trouble cognitif léger de l'Alzheimer : essai confirmatoire",
+  "type": "rct",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Démences & déclin cognitif",
+  "l1": "Dans le trouble cognitif léger lié à l'Alzheimer, la PBM transcrânienne à domicile améliore la cognition par rapport au placebo.",
+  "l2": "Essai confirmatoire randomisé en double aveugle contre placebo (Corée, KCT0011155).",
+  "l3": {
+   "points": [
+    "Essai confirmatoire."
+   ],
+   "limites": [
+    "Suivi à préciser."
+   ],
+   "pratique": "Prometteur."
+  }
+ },
+ {
+  "pmid": "42095921",
+  "title_fr": "Laser sur points d'acupuncture (GV20) porté sur la tête contre la douleur temporale",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Autres atteintes : céphalées, moelle, acouphènes",
+  "l1": "Un laser portable à 650 nm sur GV20 réduit la douleur à la pression de la région temporale, contre sham.",
+  "l2": "Essai randomisé en triple aveugle.",
+  "l3": {
+   "points": [
+    "Dispositif portable."
+   ],
+   "limites": [
+    "Douleur provoquée, population non précisée."
+   ],
+   "pratique": "Exploratoire."
+  }
+ },
+ {
+  "pmid": "42231857",
+  "title_fr": "PBM transcrânienne dans le trouble cognitif léger : évaluation cognitive, métabolique et d'imagerie",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Démences & déclin cognitif",
+  "l1": "Dans le trouble cognitif léger, la PBM transcrânienne donne des signaux cognitifs, métaboliques et d'imagerie compatibles avec une meilleure efficacité mitochondriale.",
+  "l2": "Essai pilote randomisé.",
+  "l3": {
+   "points": [
+    "Approche multimodale."
+   ],
+   "limites": [
+    "Pilote."
+   ],
+   "pratique": "Justifie un essai multicentrique."
+  }
+ },
+ {
+  "pmid": "42373537",
+  "title_fr": "Irradiation laser intravasculaire et récupération fonctionnelle après AVC ischémique : pilote",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "AVC"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "ILIB"
+  ],
+  "nm": [],
+  "n": 22,
+  "effect": "favorable",
+  "theme": "AVC & aphasie",
+  "l1": "Après AVC ischémique, l'ILIB améliore à court terme la motricité fine, la marche et la qualité de vie liée à l'AVC.",
+  "l2": "Essai pilote randomisé en double aveugle, 22 patients.",
+  "l3": {
+   "points": [
+    "Gain à 3 mois sur l'échelle SIS."
+   ],
+   "limites": [
+    "Pilote."
+   ],
+   "pratique": "À confirmer."
+  }
+ },
+ {
+  "pmid": "42449279",
+  "title_fr": "PBM transcrânienne, oxygénation préfrontale et contrôle de l'impulsivité dans le TDAH de l'adulte",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "neurodev"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 52,
+  "effect": "favorable",
+  "theme": "Autisme & neurodéveloppement",
+  "l1": "Chez l'adulte avec TDAH, une séance de PBM transcrânienne augmente l'oxygénation préfrontale et améliore le contrôle de l'impulsivité.",
+  "l2": "Essai randomisé contre sham en deux étapes (223 puis 52 participants).",
+  "l3": {
+   "points": [
+    "Mesure en spectroscopie proche infrarouge."
+   ],
+   "limites": [
+    "Séance unique."
+   ],
+   "pratique": "À tester en séances répétées."
+  }
+ },
+ {
+  "pmid": "42512223",
+  "title_fr": "Laser-auriculothérapie et anxiété : méta-analyse d'essais randomisés",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "humeur"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Dépression, anxiété & sommeil",
+  "l1": "La laser-auriculothérapie réduit les symptômes anxieux dans des populations variées, avec prudence vu la base de preuves limitée.",
+  "l2": "Méta-analyse d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Populations diverses."
+   ],
+   "limites": [
+    "Hétérogénéité importante."
+   ],
+   "pratique": "Option prometteuse."
+  }
+ },
+ {
+  "pmid": "42487022",
+  "title_fr": "PBM, stimulation électrique et magnétique transcrânienne dans l'Alzheimer : méta-analyse en réseau",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Démences & déclin cognitif",
+  "l1": "Dans l'Alzheimer, la PBM a une efficacité et une sécurité comparables à la tDCS et à la rTMS.",
+  "l2": "Méta-analyse en réseau d'essais randomisés.",
+  "l3": {
+   "points": [
+    "Faisabilité de la PBM à domicile."
+   ],
+   "limites": [
+    "Peu d'essais."
+   ],
+   "pratique": "Alternative crédible."
+  }
+ },
+ {
+  "pmid": "42595101",
+  "title_fr": "Dose de PBM transcrânienne et signal BOLD dans la dépression majeure",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "humeur"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 31,
+  "effect": "mitigé",
+  "theme": "Dépression, anxiété & sommeil",
+  "l1": "Dans la dépression majeure, la PBM transcrânienne modifie le signal BOLD selon la dose, sans effet sur l'humeur après une seule séance.",
+  "l2": "Essai randomisé en IRM, 31 patients.",
+  "l3": {
+   "points": [
+    "Effet dose-dépendant et bidirectionnel."
+   ],
+   "limites": [
+    "Séance unique."
+   ],
+   "pratique": "Repères de dose."
+  }
+ },
+ {
+  "pmid": "42798437",
+  "title_fr": "Techniques de neuromodulation dans l'Alzheimer : méta-analyse en réseau",
+  "type": "ma",
+  "level": 4,
+  "pop": "adulte",
+  "ctx": [
+   "démences"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Démences & déclin cognitif",
+  "l1": "Dans l'Alzheimer, aucune technique de neuromodulation ne domine ; la stimulation par ondes pulsées et la rTMS sont les mieux classées, la PBM n'arrive pas en tête.",
+  "l2": "Méta-analyse en réseau d'essais randomisés jusqu'en février 2026.",
+  "l3": {
+   "points": [
+    "Comparaison large."
+   ],
+   "limites": [
+    "Petits effectifs, protocoles hétérogènes."
+   ],
+   "pratique": "La PBM reste une option parmi d'autres."
+  }
+ },
+ {
+  "pmid": "42751984",
+  "title_fr": "Laser basse énergie ou thérapie miroir dans le syndrome douloureux régional complexe après AVC",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "AVC"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 47,
+  "effect": "mitigé",
+  "theme": "AVC & aphasie",
+  "l1": "Dans le SDRC de type I après AVC, le laser soulage la douleur et améliore la récupération plus vite que la thérapie miroir à 4 semaines, puis les deux se rejoignent.",
+  "l2": "Essai randomisé, 47 patients.",
+  "l3": {
+   "points": [
+    "Avantage précoce."
+   ],
+   "limites": [
+    "Pas de différence à terme."
+   ],
+   "pratique": "Option pour accélérer le soulagement."
+  }
+ },
+ {
+  "pmid": "42840704",
+  "title_fr": "PBM cérébrale dans la commotion sportive aiguë : essai pilote RECOVERY",
+  "type": "rct",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "TC"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Traumatismes crâniens & commotions",
+  "l1": "Chez des sportifs commotionnés, la PBM cérébrale à 5 ou 10 Hz est bien tolérée ; l'essai, sans sham, prépare un essai contrôlé.",
+  "l2": "Essai pilote randomisé en simple aveugle (France).",
+  "l3": {
+   "points": [
+    "Faisabilité."
+   ],
+   "limites": [
+    "Pas de comparateur sham."
+   ],
+   "pratique": "Prépare un essai contrôlé."
+  }
+ }
+]
