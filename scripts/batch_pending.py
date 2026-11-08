@@ -19,9 +19,15 @@ print(f"# {a.topic} : {len(todo)} restantes ; lot de {min(a.size, len(todo))}")
 
 def short(ab, n):
     parts = [(p.get("label") or "", re.sub(r"\s+", " ", p["text"])) for p in (ab or [])]
-    keep = [p for p in parts if not re.match(r"(background|introduction|context|purpose|aim|objective)", p[0], re.I)] or parts
+    keep = [p for p in parts if not re.match(r"(background|introduction|context|purpose|aim|objective|search|selection|data collection|setting)", p[0], re.I)] or parts
+    end = [p for p in keep if re.match(r"(result|finding|conclusion|interpretation|main result|author)", p[0], re.I)]
+    if end:  # méthodes tronquées, résultats et conclusion en entier (jusqu'à n caractères)
+        meth = " ".join(t for l, t in keep if (l, t) not in end)[:220]
+        tail = " ".join(f"[{l}] {t}" for l, t in end)
+        tail = tail if len(tail) <= n else "…" + tail[-n:]
+        return (f"[M] {meth}… " if meth else "") + tail
     txt = " ".join(f"[{l}] {t}" if l else t for l, t in keep)
-    return txt[:n] + ("…" if len(txt) > n else "")
+    return txt if len(txt) <= n else txt[:220] + " … " + txt[-(n - 220):]
 
 
 for r in todo[: a.size]:

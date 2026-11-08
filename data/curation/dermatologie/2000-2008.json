@@ -1,0 +1,691 @@
+[
+{
+"pmid": "10796615",
+"title_fr": "Laser dans les ulcères veineux de jambe (revue Cochrane 2000)",
+"type": "ma",
+"level": 1,
+"pop": "adulte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [],
+"n": null,
+"effect": "neutre",
+"theme": "Plaies & ulcères",
+"l1": "Quatre essais : aucun ne montre que le laser basse énergie accélère la cicatrisation des ulcères veineux par rapport à la simulation.",
+"l2": "Deux essais laser contre simulation, un contre ultraviolets, un contre lumière rouge non cohérente. Aucune différence significative sur la cicatrisation complète.",
+"l3": {
+"points": [
+"Première revue Cochrane du laser dans les ulcères veineux."
+],
+"limites": [
+"Essais peu nombreux et petits."
+],
+"pratique": "Pas de preuve en 2000 pour recommander le laser dans l'ulcère veineux."
+}
+},
+{
+"pmid": "10983060",
+"title_fr": "Laser basse intensité dans l'ulcère veineux chronique : deux cas",
+"type": "cases",
+"level": 4,
+"pop": "adulte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [],
+"n": 2,
+"effect": "favorable",
+"theme": "Plaies & ulcères",
+"l1": "Deux observations suggèrent que la durée du traitement laser influence la réduction de taille de l'ulcère veineux.",
+"l2": "Article infirmier présentant deux cas cliniques, sans groupe témoin.",
+"l3": {
+"points": [
+"Illustration clinique."
+],
+"limites": [
+"Deux cas seulement, aucun contrôle."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "11430439",
+"title_fr": "Laser 830 nm et petites plaies postopératoires : étude contrôlée",
+"type": "nrct",
+"level": 3,
+"pop": "adulte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [
+830
+],
+"n": 9,
+"effect": "mitigé",
+"theme": "Plaies & ulcères",
+"l1": "Chez 9 patients (12 plaies après avulsion d'ongle ou électrochirurgie), le laser 830 nm hebdomadaire n'accélère pas nettement la cicatrisation.",
+"l2": "Étude contrôlée en podologie : laser GaAlAs 830 nm, 30 mW, une séance par semaine. Mesure planimétrique et douleur.",
+"l3": {
+"points": [
+"Paramètres bien décrits."
+],
+"limites": [
+"Très petit effectif, séances espacées."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "11852812",
+"title_fr": "Biostimulation laser 810 nm dans l'ulcère veineux de jambe",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [
+810
+],
+"n": 49,
+"effect": "neutre",
+"theme": "Plaies & ulcères",
+"l1": "Chez 49 patients, le laser 810 nm (4 J/cm²) ajouté à la compression ne réduit pas plus l'ulcère veineux que le placebo.",
+"l2": "Trois groupes : laser, laser simulé, traitement standard seul. Pas de différence sur la surface ni le volume de l'ulcère.",
+"l3": {
+"points": [
+"Groupe placebo et groupe témoin."
+],
+"limites": [
+"Publication en polonais, petits groupes."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "12024594",
+"title_fr": "Irradiation laser He-Ne intravasculaire et survie des lambeaux après avulsion",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser",
+"ILIB"
+],
+"nm": [
+632.8
+],
+"n": 58,
+"effect": "favorable",
+"theme": "Plaies & ulcères",
+"l1": "Chez 58 blessés, l'irradiation laser He-Ne intravasculaire améliore la survie des lambeaux réimplantés après avulsion.",
+"l2": "31 patients avec irradiation intraveineuse en plus du traitement habituel contre 27 témoins : meilleure surface et qualité des lambeaux à J15, avec des modifications hémorhéologiques.",
+"l3": {
+"points": [
+"Approche systémique (ILIB)."
+],
+"limites": [
+"Publication chinoise, randomisation peu décrite."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "12099151",
+"title_fr": "Laser basse énergie dans le phénomène de Raynaud primaire : essai pilote en double aveugle",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"autres"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [],
+"n": 15,
+"effect": "mitigé",
+"theme": "Microcirculation cutanée",
+"l1": "Chez 15 patients, le laser réduit l'intensité des crises de Raynaud mais pas leur fréquence.",
+"l2": "Essai croisé contre placebo sur trois semaines : intensité des crises plus faible et meilleur gradient thermique au froid sous laser, sans effet sur la fréquence.",
+"l3": {
+"points": [
+"Double aveugle."
+],
+"limites": [
+"15 patients, pas d'effet rémanent."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "12143832",
+"title_fr": "Cicatrisation : les études cellulaires et animales justifiaient-elles les essais cliniques ? Revue systématique",
+"type": "sr",
+"level": 5,
+"pop": "—",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [],
+"n": null,
+"effect": "mitigé",
+"theme": "Plaies & ulcères",
+"l1": "Les données cellulaires et animales sur le laser et la cicatrisation étaient trop contradictoires pour prédire un bénéfice clinique.",
+"l2": "Revue des études in vitro et animales : résultats hétérogènes et méthodologie souvent faible, ce qui expliquerait l'échec des premiers essais cliniques.",
+"l3": {
+"points": [
+"Regard critique sur la recherche préclinique."
+],
+"limites": [
+"Préclinique uniquement."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "12165122",
+"title_fr": "Laser et photothérapie combinée dans l'ulcère veineux chronique : essai contre placebo",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser",
+"LED"
+],
+"nm": [
+660,
+950
+],
+"n": 15,
+"effect": "neutre",
+"theme": "Plaies & ulcères",
+"l1": "Chez 15 patients, une source multi-diodes 660–950 nm ne réduit pas significativement la surface des ulcères veineux par rapport au placebo.",
+"l2": "Une séance par semaine pendant 4 semaines (12 J/cm²), suivi à 12 semaines. Tendance favorable non significative.",
+"l3": {
+"points": [
+"Évaluation indépendante."
+],
+"limites": [
+"Effectif très faible."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "12204648",
+"title_fr": "Effets systémiques du laser He-Ne sur la microcirculation cutanée du diabétique",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"autres"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [
+632.8
+],
+"n": null,
+"effect": "favorable",
+"theme": "Microcirculation cutanée",
+"l1": "Une seule irradiation He-Ne (30 J/cm²) sur un pied augmente la température cutanée des deux pieds chez le diabétique, signe d'un effet systémique.",
+"l2": "Essai en double aveugle contre simulation, mesure par thermographie infrarouge.",
+"l3": {
+"points": [
+"Effet à distance de la zone irradiée."
+],
+"limites": [
+"Critère physiologique, séance unique."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "12376047",
+"title_fr": "Le laser 810 nm accélère-t-il la cicatrisation des ulcères de jambe ? Remarques critiques",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [
+810
+],
+"n": 65,
+"effect": "neutre",
+"theme": "Plaies & ulcères",
+"l1": "Chez 65 patients, les ulcères diminuent dans tous les groupes, sans différence entre laser 810 nm, placebo et traitement seul.",
+"l2": "Laser 4 J/cm² ajouté aux médicaments et à la compression, contre laser simulé et traitement standard.",
+"l3": {
+"points": [
+"Trois bras."
+],
+"limites": [
+"Dose unique testée."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "12928815",
+"title_fr": "Laser basse énergie dans les escarres de stade III : essai multicentrique",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [],
+"n": 86,
+"effect": "neutre",
+"theme": "Plaies & ulcères",
+"l1": "Chez 86 patients, le laser ajouté aux soins standard des escarres de stade III ne réduit pas plus la plaie à 6 semaines.",
+"l2": "Essai multicentrique en aveugle de l'évaluateur : laser 5 fois par semaine pendant 6 semaines. Pas de différence de surface, de passage au stade IV ni de score de Norton.",
+"l3": {
+"points": [
+"Le plus grand essai de l'époque sur les escarres."
+],
+"limites": [
+"Paramètres peu détaillés."
+],
+"pratique": "Pas de bénéfice démontré dans l'escarre de stade III."
+}
+},
+{
+"pmid": "15061044",
+"title_fr": "Laser basse énergie dans le phénomène de Raynaud primaire et secondaire",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"autres"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [],
+"n": 47,
+"effect": "favorable",
+"theme": "Microcirculation cutanée",
+"l1": "Chez 47 patients, laser et placebo réduisent les crises de Raynaud, mais le laser fait significativement mieux à 6 semaines et 3 mois.",
+"l2": "Dix séances en hiver, en double aveugle. Effet placebo important, supériorité du laser sur la fréquence et la sévérité.",
+"l3": {
+"points": [
+"Suivi à 3 mois."
+],
+"limites": [
+"Effet placebo marqué."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "15315732",
+"title_fr": "Efficacité du laser dans la réparation des plaies : méta-analyse",
+"type": "ma",
+"level": 3,
+"pop": "mixte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [],
+"n": null,
+"effect": "favorable",
+"theme": "Plaies & ulcères",
+"l1": "24 études : effet favorable du laser sur la cicatrisation, très fort chez l'animal (d = 2,0) et modéré chez l'humain (d = 0,54).",
+"l2": "Méta-analyse mêlant études animales et cliniques, avec des effets sur l'inflammation, le collagène et la résistance à la traction.",
+"l3": {
+"points": [
+"Effet clinique plus modeste que chez l'animal."
+],
+"limites": [
+"Mélange de plans d'étude, biais de publication."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "15345176",
+"title_fr": "Laser basse puissance, réparation tissulaire et douleur : méta-analyse",
+"type": "ma",
+"level": 3,
+"pop": "mixte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [],
+"n": null,
+"effect": "favorable",
+"theme": "Plaies & ulcères",
+"l1": "34 études : effet positif du laser sur la réparation tissulaire (d = 1,81) et la douleur (d = 1,11).",
+"l2": "Méta-analyse de 46 effets pour la réparation et 9 pour la douleur, études animales et humaines confondues.",
+"l3": {
+"points": [
+"Effet global favorable."
+],
+"limites": [
+"Hétérogénéité, qualité variable."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "15570642",
+"title_fr": "Laser basse énergie dans le Raynaud primaire : essai croisé contre placebo en double aveugle",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"autres"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [],
+"n": 48,
+"effect": "favorable",
+"theme": "Microcirculation cutanée",
+"l1": "Chez 48 patients, le laser réduit l'intensité et la fréquence des crises de Raynaud par rapport au placebo.",
+"l2": "Laser et simulation 5 jours par semaine pendant 3 semaines chacun, en croisé. Meilleure réponse thermographique sous laser.",
+"l3": {
+"points": [
+"Double aveugle, croisé."
+],
+"limites": [
+"Court terme."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "15580451",
+"title_fr": "Ulcères veineux : pas d'amélioration de la cicatrisation avec le laser 685 nm",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [
+685
+],
+"n": 44,
+"effect": "neutre",
+"theme": "Plaies & ulcères",
+"l1": "Chez 44 patients, le laser 685 nm ne réduit pas plus l'ulcère veineux que le laser placebo ou les soins seuls.",
+"l2": "Essai en double aveugle à trois bras, soins de plaie standardisés.",
+"l3": {
+"points": [
+"Témoin sans laser."
+],
+"limites": [
+"Effectif modeste."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "15654716",
+"title_fr": "LED 590 nm non thermique contre le photovieillissement : résultats cliniques et histologiques",
+"type": "cases",
+"level": 4,
+"pop": "adulte",
+"ctx": [
+"esthétique"
+],
+"aim": "traitement",
+"mode": [
+"LED"
+],
+"nm": [
+590
+],
+"n": 90,
+"effect": "favorable",
+"theme": "Vieillissement & esthétique",
+"l1": "Chez 90 patients, 8 séances de LED 590 nm pulsée améliorent la texture et les rides, avec plus de collagène en biopsie.",
+"l2": "Étude prospective sans témoin : 0,1 J/cm² en 4 semaines, suivi à 12 mois avec profilométrie et histologie.",
+"l3": {
+"points": [
+"Suivi long, histologie."
+],
+"limites": [
+"Pas de groupe contrôle."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "15949018",
+"title_fr": "Laser basse énergie et cicatrisation des ulcères veineux : essai contre placebo en double aveugle",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [],
+"n": null,
+"effect": "neutre",
+"theme": "Plaies & ulcères",
+"l1": "Essai contre placebo (British Journal of Dermatology 2005) sur la cicatrisation des ulcères veineux. Résumé non disponible.",
+"l2": "Même protocole que l'étude publiée dans J Wound Care la même année, sans bénéfice du laser.",
+"l3": {
+"points": [
+"—"
+],
+"limites": [
+"Résumé non disponible."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "16178295",
+"title_fr": "Le laser basse énergie influence-t-il la cicatrisation de l'ulcère veineux chronique ?",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"plaies"
+],
+"aim": "traitement",
+"mode": [
+"laser"
+],
+"nm": [],
+"n": 44,
+"effect": "neutre",
+"theme": "Plaies & ulcères",
+"l1": "Chez 44 patients, aucune différence de réduction de l'ulcère entre laser, placebo et soins seuls ; un effet placebo est observé.",
+"l2": "Soins standardisés (hydrofibre, compression) dans les trois groupes ; suivi à J90.",
+"l3": {
+"points": [
+"Trois bras."
+],
+"limites": [
+"Effectif modeste."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "16780494",
+"title_fr": "Lumière 1 072 nm contre placebo dans l'herpès labial : essai en double aveugle",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"infections"
+],
+"aim": "traitement",
+"mode": [
+"LED"
+],
+"nm": [
+1072
+],
+"n": null,
+"effect": "favorable",
+"theme": "Herpès & infections cutanées",
+"l1": "La lumière 1 072 nm raccourcit la guérison du bouton de fièvre (6,3 contre 9,4 jours) par rapport au placebo.",
+"l2": "Au moins six séances de 3 minutes avec un dispositif LED, en double aveugle. Formation de la croûte un peu plus rapide.",
+"l3": {
+"points": [
+"Critère clinique pertinent."
+],
+"limites": [
+"Évaluation rapportée par les patients."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "16989189",
+"title_fr": "LED 633 et 830 nm combinées dans le photovieillissement",
+"type": "cases",
+"level": 4,
+"pop": "adulte",
+"ctx": [
+"esthétique"
+],
+"aim": "traitement",
+"mode": [
+"LED"
+],
+"nm": [
+633,
+830
+],
+"n": 36,
+"effect": "favorable",
+"theme": "Vieillissement & esthétique",
+"l1": "Chez 36 sujets, 9 séances de LED rouge et infrarouge réduisent les rides et épaississent les fibres de collagène.",
+"l2": "Amélioration en profilométrie à 12 semaines ; la plupart des sujets rapportent une peau plus douce et ferme.",
+"l3": {
+"points": [
+"Données ultrastructurales."
+],
+"limites": [
+"Sans groupe témoin."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "19450317",
+"title_fr": "Escarres : revue systématique (BMJ Clinical Evidence)",
+"type": "sr",
+"level": 1,
+"pop": "adulte",
+"ctx": [
+"plaies"
+],
+"aim": "les deux",
+"mode": [],
+"nm": [],
+"n": null,
+"effect": "—",
+"theme": "Plaies & ulcères",
+"l1": "Revue des préventions et traitements des escarres ; le laser fait partie des traitements d'efficacité inconnue.",
+"l2": "Synthèse BMJ Clinical Evidence 2008 couvrant supports, nutrition, pansements et agents physiques.",
+"l3": {
+"points": [
+"Vision d'ensemble de la prise en charge."
+],
+"limites": [
+"PBM marginale dans la revue."
+],
+"pratique": "—"
+}
+},
+{
+"pmid": "18254808",
+"title_fr": "LED pour réduire l'érythème et l'inconfort après lumière pulsée",
+"type": "rct",
+"level": 2,
+"pop": "adulte",
+"ctx": [
+"esthétique"
+],
+"aim": "prévention",
+"mode": [
+"LED"
+],
+"nm": [],
+"n": 15,
+"effect": "neutre",
+"theme": "Vieillissement & esthétique",
+"l1": "En hémivisage chez 15 sujets, l'érythème après lumière pulsée tend à être plus faible du côté LED, sans différence significative ; quelques patients ressentent moins d'inconfort.",
+"l2": "Deux séances de LED (immédiate et à 24 h) sur une moitié du visage, évaluation en aveugle.",
+"l3": {
+"points": [
+"Plan en hémivisage."
+],
+"limites": [
+"Petit effectif."
+],
+"pratique": "—"
+}
+}
+]
