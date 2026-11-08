@@ -1,5 +1,74 @@
 [
  {
+  "pmid": "42998202",
+  "doi": "10.1007/s10103-025-04794-0",
+  "pmcid": null,
+  "title": "Effect of zinc oxide nanoparticles and light-emitting diode radiation on the viability and differentiation of stem cell derived from human apical papilla.",
+  "journal": "Lasers in medical science",
+  "journal_abbr": "Lasers Med Sci",
+  "authors": [
+   "Karkehabadi H",
+   "Abbasi R",
+   "Rahmati A",
+   "Farmany A",
+   "Najafi R",
+   "Behroozi R",
+   "Rezaei-Soufi L",
+   "Abbaspourrokni H"
+  ],
+  "first_affiliation": "Department of Endodontics, Faculty of Dentistry, Dental Research Center, Hamadan University of Medical Sciences, Hamadan, Iran.",
+  "date_online": "2026-11-07",
+  "date_pub": "2026-11-07",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [
+   "Humans",
+   "Zinc Oxide",
+   "Cell Differentiation",
+   "Cell Survival",
+   "Stem Cells",
+   "Dental Papilla",
+   "Dentin Sialophosphoprotein",
+   "Osteogenesis",
+   "Sialoglycoproteins",
+   "Extracellular Matrix Proteins",
+   "Phosphoproteins",
+   "Odontogenesis",
+   "Cells, Cultured",
+   "Integrin-Binding Sialoprotein",
+   "Nanoparticles"
+  ],
+  "keywords": [
+   "Light-emitting diode Irradiation",
+   "Odontogenesis",
+   "Osteogenesis",
+   "Regenerative Medicine",
+   "Stem Cells",
+   "Zinc Oxide Nanoparticles"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "Zinc oxide nanoparticles (ZnONPs) have shown potential in regenerative medicine, particularly when combined with light-emitting diode (LED) radiation. This study aimed to explore the effects of ZnONPs combined with LED radiation on human stem cells derived from the apical papilla (HSCAPs), focusing on primary outcomes of cell viability, odontoblast-like differentiation, and mineralization."
+   },
+   {
+    "label": "METHODS",
+    "text": "This in vitro experimental study utilized ZnONPs synthesized via a green method using pomegranate peel extract. HSCAPs were divided into four groups: control, ZnONPs-only, LED-only, and ZnONPs + LED (experimental group). Cell viability, a primary outcome, was assessed using the MTT (3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide) assay at 24 h. Odontogenic and osteogenic differentiation, evaluated through dentin sialophosphoprotein (DSPP), bone sialoprotein (BSP), alkaline phosphatase (ALP), and dentin matrix acidic phosphoprotein 1 (DMP1) gene expression using qRT-PCR, were assessed on day 7. Mineralization, determined through Alizarin Red S staining, was measured on day 14. The doses used were 1 μg/mL ZnONPs and 620-640 nm range, 85% total emission LED radiation at 5 mW/cm2 for 30 s, the energy density would be 6 Joules/cm2. Statistical analyses were performed using Kruskal-Wallis and dunn's post hoc tests. (P < 0.05)."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Cell viability was highest at 1 μg/mL ZnONPs, comparable to control (p > 0.05), and decreased at higher concentrations (p < 0.05). Odontogenic and osteogenic gene expression, including DSPP, ALP, BSP and DMP1was significantly upregulated (p < 0.05) in the ZnONPs + LED group compared to all other groups. Alizarin Red S staining revealed the densest mineralization in the ZnONPs + LED group, followed by LED-only and ZnONPs-only groups."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "The synergistic application of ZnONPs and LED irradiation significantly enhanced odontogenic and osteogenic differentiation and mineralization of HSCAPs, suggesting their potential utility in endodontic regenerative therapies."
+   }
+  ],
+  "fetched": "2026-11-08"
+ },
+ {
   "pmid": "42989664",
   "doi": "10.47391/JPMA.32071",
   "pmcid": null,
@@ -52,6 +121,57 @@
   "fetched": "2026-11-07"
  },
  {
+  "pmid": "42995454",
+  "doi": "10.1111/joor.70371",
+  "pmcid": null,
+  "title": "Effect of Photobiomodulation Applied to Masticatory Muscle Tender Points Combined With the Rocabado Approach in Patients With Myogenic Temporomandibular Disorders: A Double-Blind, Randomized Controlled Trial.",
+  "journal": "Journal of oral rehabilitation",
+  "journal_abbr": "J Oral Rehabil",
+  "authors": [
+   "Mohamed WM",
+   "Saleh MS"
+  ],
+  "first_affiliation": "Faculty of Physical Therapy, Department of Physical Therapy for Musculoskeletal Disorders and its Surgeries, MISR University for Science and Technology, 6th of October City, Egypt.",
+  "date_online": "2026-11-06",
+  "date_pub": "2026-11-06",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "myogenic tmds",
+   "pain management",
+   "photobiomodulation",
+   "randomized controlled trial",
+   "rocabado approach",
+   "temporomandibular disorder"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "Temporomandibular Joint Disorder (TMD) is a complex condition of multifactorial aetiology. Consequently, numerous studies have investigated optimal treatment strategies, with several reporting that multimodal approaches can effectively enhance pain relief and mandibular mobility."
+   },
+   {
+    "label": "OBJECTIVES",
+    "text": "To investigate the effect of adding Photobiomodulation (PBM) to the Rocabado approach on pain intensity, pain threshold, mouth opening, and TMJ function in patients with myogenic TMDs."
+   },
+   {
+    "label": "METHODS",
+    "text": "Fifty-two patients of both genders, from 18 to 40 years old, with myogenic TMDs were randomly assigned either to the PBM group or the placebo group. The PBM group (n = 26) received active PBM in addition to the Rocabado approach, while the control group (n = 26) received placebo PBM in addition to the Rocabado approach. All patients received 3 sessions a week for 6 weeks. Clinical assessment, including pain pressure threshold, pain intensity, maximum mouth opening, and TMJ function were assessed for all participants before and after the treatment program."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Fifty-two participants completed the study. Both groups showed significant within-group improvements across all outcomes (p < 0.05). Post-treatment, the Photobiomodulation group showed significantly greater improvements than the placebo group in pressure pain thresholds across all tested masticatory muscle sites (p < 0.05). Furthermore, the Photobiomodulation group achieved superior outcomes in mouth opening ROM (MD = 5.84 mm, 95% CI: 3.06 to 8.63, p = 0.001), pain intensity reduction (MD = -1.81, 95% CI: -2.46 to -1.02, p = 0.013), and TMJ functional scores: TMDDI (MD = -24.97, 95% CI: -32.72 to -18.39, p = 0.001), TMDSIS (MD = -16.83, 95% CI: -22.64 to -11.17, p = 0.001), and TMDSFS (MD = -14.98, 95% CI: -21.67 to -11.82, p = 0.001)."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "Photobiomodulation combined with the Rocabado approach is more effective than the Rocabado approach alone in improving pain intensity, pain threshold, maximum mouth opening, and TMJ function in patients with myogenic TMDs. All procedures were performed in accordance with the 1964 Declaration of Helsinki and its later amendments. This study was registered in the ClinicalTrials.gov registry, registration number: NCT07026617."
+   }
+  ],
+  "fetched": "2026-11-08"
+ },
+ {
   "pmid": "42975697",
   "doi": "10.1007/s10103-026-05086-x",
   "pmcid": "PMC13731517",
@@ -99,6 +219,63 @@
    }
   ],
   "fetched": "2026-11-07"
+ },
+ {
+  "pmid": "42997425",
+  "doi": "10.2147/JPR.S650033",
+  "pmcid": "PMC13741997",
+  "title": "Effect of High-Power Laser Acupuncture on Fatigue and Proprioception in Chronic Nonspecific Low Back Pain: A Randomized Controlled Trial.",
+  "journal": "Journal of pain research",
+  "journal_abbr": "J Pain Res",
+  "authors": [
+   "Elimy DA",
+   "Elsayed SH",
+   "Alshehre YM",
+   "Ismail AMA",
+   "Alshaikh FJ",
+   "Algheryafi RA",
+   "Abdrabo MS",
+   "Eladl HM",
+   "Toson RA",
+   "Ali AS",
+   "Ali ZA",
+   "Khalifa HA",
+   "Allam NM"
+  ],
+  "first_affiliation": "Department of Medical Rehabilitation Sciences, College of Applied Medical Sciences, Najran University, Najran, Saudi Arabia.",
+  "date_online": "2026-11-02",
+  "date_pub": "2026-01-01",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "laser acupuncture",
+   "low back pain",
+   "muscular endurance",
+   "muscular fatigue",
+   "proprioception"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "OBJECTIVE",
+    "text": "To examine the effects of adding high-power laser acupuncture (HPLA) to an exercise program on back muscular fatigability and endurance, lumbar proprioception, pain severity, and pain-related self-efficacy in chronic nonspecific low back pain (CNLBP) patients."
+   },
+   {
+    "label": "METHODS",
+    "text": "Sixty adults with CNLBP aged 20-40 years enrolled in this double-blind, randomized sham-controlled trial with equal and random assignment to receive HPLA plus exercise therapy or sham laser plus the same exercise therapy three times weekly over a six-week period. Back muscle fatigue and lumbar proprioception were assessed by an isokinetic dynamometer; endurance by the Biering-Sørensen test; pain severity by the visual analog scale; and pain-related self-efficacy using the Arabic Pain Self-Efficacy Questionnaire. Evaluations were carried out both before and just after the six-week intervention."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Within-group analyses demonstrated significant improvements across all outcomes in each group. Between-group analyses revealed significantly greater improvements in the HPLA treatment group across all measured variables (P < 0.05). At post-intervention, the HPLA group demonstrated a greater number of repetitions to fatigue (mean difference [MD] = 7.10 repetitions; 95% CI: 3.42 to 10.78) and lower lumbar proprioceptive error (MD = -1.27°; 95% CI: -1.60 to -0.93) compared with the sham group."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "In cases of CNLBP, adding HPLA as an adjunct to exercise therapy may improve back muscle fatigue, endurance, lumbar proprioception, pain severity, and pain self-efficacy over a six-week intervention period. However, these short-term improvements require confirmation through longitudinal follow-up studies. Future research should emphasise dose response and long-term effects."
+   }
+  ],
+  "fetched": "2026-11-08"
  },
  {
   "pmid": "42955214",
@@ -75810,6 +75987,65 @@
    }
   ],
   "fetched": "2026-11-07"
+ },
+ {
+  "pmid": "36434419",
+  "doi": "10.1007/s11916-022-01093-z",
+  "pmcid": null,
+  "title": "A Comprehensive Review: Chronic Pain Sequelae in the Presence of Ehlers-Danlos Syndrome.",
+  "journal": "Current pain and headache reports",
+  "journal_abbr": "Curr Pain Headache Rep",
+  "authors": [
+   "Basem JI",
+   "Lin T",
+   "Mehta ND"
+  ],
+  "first_affiliation": "Pain Medicine, Department of Anesthesiology, Weill Cornell Medicine, New York, NY, USA. jadebasem@aol.com.",
+  "date_online": "2022-11-25",
+  "date_pub": "2022-12-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [
+   "Humans",
+   "Chronic Pain",
+   "Quality of Life",
+   "Ehlers-Danlos Syndrome",
+   "Pain Management",
+   "Cognitive Behavioral Therapy"
+  ],
+  "keywords": [
+   "Anesthesiology",
+   "Chronic pain",
+   "Ehlers–Danlos syndrome",
+   "Hypermobility",
+   "Pain medicine",
+   "Treatments"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "PURPOSE OF REVIEW",
+    "text": "Patients diagnosed with Ehlers-Danlos syndromes (EDS), and especially those with the hypermobility subtype, often experience a diverse range of acute and chronic pain conditions throughout their lifetime. These can present in a variety of different phenotypes and comorbidities, making it difficult to develop structured treatment protocols. This review seeks to summarize the current literature to address old and novel treatments for EDS."
+   },
+   {
+    "label": "RECENT FINDINGS",
+    "text": "Historically, medications and surgery have been used to treat patients with EDS but with low efficacy. Newer therapies that have shown promising effects for both decreasing pain and increasing quality of life include physical/occupational therapy, transcutaneous electrical nerve stimulation units, trigger point injections, low-dose naltrexone, and laser therapy. In addition, addressing the psychosocial aspects of pain with EDS through methods like cognitive behavioral therapy and patient education has shown to be vital in minimizing pain. Most research also emphasizes that pain management should not only focus on pain reduction, but on helping reduce symptoms of hypermobility, central sensitization, and fatigue to make an impactful difference. Research on pain in EDS is still limited with good clinical practice guidelines often limited by poor sample size and lack of clinical studies. Treatment options should be structured based on the specific type of pain pathology and presenting symptoms of each patient and their comorbidities. Future research should attempt to prioritize larger sample sizes, clear definitions of EDS subtypes, randomized trials for treatment efficacy, and more studies dedicated to non-musculoskeletal forms of pain."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 7,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s11916-022-01093-z"
+   }
+  ],
+  "fetched": "2026-11-08"
  },
  {
   "pmid": "36457337",
@@ -240810,6 +241046,69 @@
    }
   ],
   "fetched": "2026-11-07"
+ },
+ {
+  "pmid": "15704169",
+  "doi": "10.1002/lsm.20114",
+  "pmcid": null,
+  "title": "The efficiency of laser for the treatment of Ehlers-Danlos syndrome.",
+  "journal": "Lasers in surgery and medicine",
+  "journal_abbr": "Lasers Surg Med",
+  "authors": [
+   "Mueller DF",
+   "Zimmermann A",
+   "Borelli C"
+  ],
+  "first_affiliation": "Department of Plastic and Reconstructive Surgery, Klinikum rechts der Isar, Technical University Munich, 81675 Munich, Germany.",
+  "date_online": "2005-02-11",
+  "date_pub": "2005-02-01",
+  "pub_types": [
+   "Case Reports",
+   "Journal Article"
+  ],
+  "mesh": [
+   "Ehlers-Danlos Syndrome",
+   "Esthetics",
+   "Female",
+   "Follow-Up Studies",
+   "Humans",
+   "Laser Therapy",
+   "Low-Level Light Therapy",
+   "Middle Aged",
+   "Patient Satisfaction",
+   "Rhytidoplasty",
+   "Severity of Illness Index",
+   "Time Factors",
+   "Treatment Outcome"
+  ],
+  "keywords": [],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND AND OBJECTIVES",
+    "text": "A 61-year-old woman presented herself with extensive elastosis of the facial skin caused by Ehlers-Danlos syndrome (EDS)."
+   },
+   {
+    "label": "STUDY DESIGN/MATERIALS AND METHODS",
+    "text": "Two laser skin resurfacings reduced the wrinkles significantly better than the two preceding conventional facelifts. For the first time, we have been able to compare two treatments with different laser systems on the same patient. The first treatment was performed with a high energy pulsed CO(2) laser, which has been in use for 8 years. The second treatment was performed by us using the latest technology CO(2)/erbium:YAG combination laser."
+   },
+   {
+    "label": "RESULTS/CONCLUSION",
+    "text": "Resulting in a similar degree of wrinkle reduction, the treatment with the combination laser markedly reduced the duration of the healing process and erythema phase."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 6,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1002/lsm.20114"
+   }
+  ],
+  "fetched": "2026-11-08"
  },
  {
   "pmid": "15684754",

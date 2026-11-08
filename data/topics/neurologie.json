@@ -1,0 +1,27 @@
+{
+ "id": "neurologie",
+ "label": "Neurologie",
+ "short": "Neurologie",
+ "color": "#6a4bc4",
+ "status": "actif",
+ "description": "Photobiomodulation transcrânienne, systémique et périphérique dans les maladies du système nerveux central : sclérose en plaques, maladie de Charcot, Parkinson, tremblements, démences, fatigue chronique et Covid long, AVC, traumatismes crâniens, troubles du neurodéveloppement, dépression et anxiété.",
+ "since": "2000-01-01",
+ "cadence": "hebdomadaire",
+ "hero": "le système nerveux central",
+ "exclusions_note": "neuropathies périphériques (thème dédié), fibromyalgie (musculo-squelettique), ophtalmologie, stimulation magnétique ou électrique sans lumière, lasers chirurgicaux…",
+ "subgroups": [
+  "SEP",
+  "SLA",
+  "parkinson",
+  "tremblements",
+  "démences",
+  "fatigue",
+  "AVC",
+  "TC",
+  "neurodev",
+  "humeur",
+  "autres"
+ ],
+ "pubmed_query": "(\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"low-intensity laser\"[tiab] OR \"LLLT\"[tiab] OR \"PBMT\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"transcranial laser\"[tiab] OR \"transcranial near-infrared\"[tiab] OR \"near-infrared light therapy\"[tiab] OR \"light-emitting diode therapy\"[tiab] OR \"laser acupuncture\"[tiab] OR \"intravascular laser\"[tiab]) AND (\"multiple sclerosis\"[tiab] OR \"amyotrophic\"[tiab] OR \"motor neuron disease\"[tiab] OR \"Parkinson*\"[tiab] OR \"tremor\"[tiab] OR \"dementia\"[tiab] OR \"Alzheimer*\"[tiab] OR \"cognitive impairment\"[tiab] OR \"cognition\"[tiab] OR \"chronic fatigue\"[tiab] OR \"myalgic encephalomyelitis\"[tiab] OR \"long covid\"[tiab] OR \"post-COVID\"[tiab] OR \"post-acute sequelae\"[tiab] OR \"stroke\"[tiab] OR \"brain injury\"[tiab] OR \"concussion\"[tiab] OR \"autism\"[tiab] OR \"depress*\"[tiab] OR \"anxiety\"[tiab] OR \"migraine\"[tiab] OR \"headache\"[tiab] OR \"epilep*\"[tiab] OR \"cerebral palsy\"[tiab] OR \"spinal cord injur*\"[tiab] OR \"neurodegenerat*\"[tiab] OR \"Central Nervous System Diseases\"[MeSH]) NOT (\"photodynamic\"[ti])",
+ "trials_cond": "\"multiple sclerosis\" OR \"amyotrophic lateral sclerosis\" OR Parkinson OR tremor OR dementia OR Alzheimer OR \"cognitive impairment\" OR \"chronic fatigue\" OR \"myalgic encephalomyelitis\" OR \"long COVID\" OR \"post-COVID\" OR stroke OR \"brain injury\" OR concussion OR autism OR depression OR anxiety OR insomnia OR migraine OR \"cerebral palsy\" OR \"spinal cord injury\""
+}

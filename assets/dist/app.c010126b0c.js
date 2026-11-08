@@ -35,8 +35,8 @@ const LEVELS = {
   0: ["Non gradé", "Protocole, enquête, étude qualitative, bibliométrie, correspondance"],
 };
 const EFFECTS = { favorable: ["Favorable à la PBM", "var(--fav)"], "mitigé": ["Mitigé", "var(--mit)"], neutre: ["Neutre / équivalent", "var(--neu)"], "défavorable": ["Défavorable", "var(--def)"] };
-const CTX = { ORL: "Radiothérapie ORL", chimio: "Chimiothérapie", CSH: "Greffe de CSH", mixte: "Contextes mixtes", CIPN: "Neuropathie chimio-induite", "diabète": "Neuropathie diabétique", compression: "Compressions nerveuses", "lésion nerveuse": "Lésions nerveuses", orofaciale: "Orofaciale", autres: "Autres", GSM: "Sécheresse & syndrome génito-urinaire", onco: "Après cancer & sénologie", vulve: "Vulve & vagin", pelvien: "Dysménorrhée & douleurs pelviennes", "obstétrique": "Périnée, accouchement & allaitement", "fertilité": "Fertilité & ovaire", "général": "Revues & recommandations", tendon: "Tendinopathies & enthèses", arthrose: "Arthrose & arthrites", rachis: "Rachis : lombalgie, cervicalgie, radiculopathie", ATM: "ATM & douleurs orofaciales", fibro: "Fibromyalgie & douleur myofasciale", "épaule": "Épaule", os: "Os, fractures & implants", muscle: "Muscle, sport & récupération", plaies: "Plaies & ulcères", cicatrices: "Cicatrices & brûlures", radiodermite: "Radiodermite", "alopécie": "Alopécie", inflammatoire: "Acné & dermatoses inflammatoires", "esthétique": "Vieillissement & esthétique", infections: "Herpès & infections cutanées", pigmentation: "Vitiligo & pigmentation" };
-const SUB_DESC = { GSM: "Atrophie vulvovaginale, sécheresse, dyspareunie, incontinence de la ménopause", onco: "Toxicités vulvovaginales après cancer du sein ou gynécologique, sténose, plaies", vulve: "Vulvodynie, vestibulodynie, lichen scléreux, candidose et vaginose", pelvien: "Dysménorrhée, douleur pelvienne chronique, cystite interstitielle", "obstétrique": "Périnée post-partum, travail, crevasses de l'allaitement", "fertilité": "Ovaire, ovocytes, endomètre, oncofertilité", tendon: "Épicondylite, tendinopathie d'Achille, aponévrosite plantaire", arthrose: "Gonarthrose, coxarthrose, polyarthrite", rachis: "Lombalgie, cervicalgie, hernie discale, radiculopathie", ATM: "Dysfonction temporo-mandibulaire, bruxisme", fibro: "Fibromyalgie, points gâchettes", "épaule": "Capsulite, conflit sous-acromial, coiffe des rotateurs", os: "Consolidation osseuse, fractures, ostéo-intégration", muscle: "Performance, fatigue, récupération, lésions musculaires", plaies: "Ulcères diabétiques, veineux, escarres, plaies chroniques", cicatrices: "Cicatrisation, chéloïdes, brûlures", radiodermite: "Prévention et traitement des radiodermites", "alopécie": "Alopécie androgénétique, chimio-induite", inflammatoire: "Acné, psoriasis, dermatite atopique, rosacée", "esthétique": "Rides, photovieillissement, rajeunissement cutané", infections: "Herpès labial, onychomycose, infections", pigmentation: "Vitiligo, mélasma" };
+const CTX = { ORL: "Radiothérapie ORL", chimio: "Chimiothérapie", CSH: "Greffe de CSH", mixte: "Contextes mixtes", CIPN: "Neuropathie chimio-induite", "diabète": "Neuropathie diabétique", compression: "Compressions nerveuses", "lésion nerveuse": "Lésions nerveuses", orofaciale: "Orofaciale", autres: "Autres", GSM: "Sécheresse & syndrome génito-urinaire", onco: "Après cancer & sénologie", vulve: "Vulve & vagin", pelvien: "Dysménorrhée & douleurs pelviennes", "obstétrique": "Périnée, accouchement & allaitement", "fertilité": "Fertilité & ovaire", "général": "Revues & recommandations", tendon: "Tendinopathies & enthèses", arthrose: "Arthrose & arthrites", rachis: "Rachis : lombalgie, cervicalgie, radiculopathie", ATM: "ATM & douleurs orofaciales", fibro: "Fibromyalgie & douleur myofasciale", "épaule": "Épaule", os: "Os, fractures & implants", muscle: "Muscle, sport & récupération", plaies: "Plaies & ulcères", cicatrices: "Cicatrices & brûlures", radiodermite: "Radiodermite", "alopécie": "Alopécie", inflammatoire: "Acné & dermatoses inflammatoires", "esthétique": "Vieillissement & esthétique", infections: "Herpès & infections cutanées", pigmentation: "Vitiligo & pigmentation", EDS: "Ehlers-Danlos & hypermobilité", SEP: "Sclérose en plaques", SLA: "Maladie de Charcot (SLA)", parkinson: "Maladie de Parkinson", tremblements: "Tremblements & dystonies", "démences": "Démences & déclin cognitif", fatigue: "Fatigue chronique & Covid long", AVC: "AVC & aphasie", TC: "Traumatismes crâniens & commotions", neurodev: "Autisme & neurodéveloppement", humeur: "Dépression, anxiété & sommeil" };
+const SUB_DESC = { GSM: "Atrophie vulvovaginale, sécheresse, dyspareunie, incontinence de la ménopause", onco: "Toxicités vulvovaginales après cancer du sein ou gynécologique, sténose, plaies", vulve: "Vulvodynie, vestibulodynie, lichen scléreux, candidose et vaginose", pelvien: "Dysménorrhée, douleur pelvienne chronique, cystite interstitielle", "obstétrique": "Périnée post-partum, travail, crevasses de l'allaitement", "fertilité": "Ovaire, ovocytes, endomètre, oncofertilité", tendon: "Épicondylite, tendinopathie d'Achille, aponévrosite plantaire", arthrose: "Gonarthrose, coxarthrose, polyarthrite", rachis: "Lombalgie, cervicalgie, hernie discale, radiculopathie", ATM: "Dysfonction temporo-mandibulaire, bruxisme", fibro: "Fibromyalgie, points gâchettes", "épaule": "Capsulite, conflit sous-acromial, coiffe des rotateurs", os: "Consolidation osseuse, fractures, ostéo-intégration", muscle: "Performance, fatigue, récupération, lésions musculaires", plaies: "Ulcères diabétiques, veineux, escarres, plaies chroniques", cicatrices: "Cicatrisation, chéloïdes, brûlures", radiodermite: "Prévention et traitement des radiodermites", "alopécie": "Alopécie androgénétique, chimio-induite", inflammatoire: "Acné, psoriasis, dermatite atopique, rosacée", "esthétique": "Rides, photovieillissement, rajeunissement cutané", infections: "Herpès labial, onychomycose, infections", pigmentation: "Vitiligo, mélasma", EDS: "Syndrome d'Ehlers-Danlos, hypermobilité articulaire, douleur et proprioception", SEP: "Fatigue, spasticité, douleur, neuroprotection", SLA: "Maladie de Charcot, maladie du motoneurone", parkinson: "Symptômes moteurs et non moteurs, PBM transcrânienne et abdominale", tremblements: "Tremblement essentiel, dystonies", "démences": "Alzheimer, troubles cognitifs légers, cognition", fatigue: "Encéphalomyélite myalgique, syndrome post-Covid", AVC: "Récupération motrice, aphasie, AVC aigu (essais NEST)", TC: "Traumatisme crânien, commotion, séquelles cognitives", neurodev: "Autisme, TDAH, paralysie cérébrale", humeur: "Dépression, anxiété, insomnie, stress post-traumatique" };
 const yearsOf = (list) => [...new Set(list.map((a) => a.year))].sort();
 const READ = { 1: ["Express", "1–2 lignes"], 2: ["Essentiel", "1–2 paragraphes"], 3: ["Approfondi", "analyse complète"] };
 const MONTHS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
@@ -58,7 +58,7 @@ const state = {
   sort: "date",
   cardLevel: new Map(),
   selected: new Set(store.get("selected", [])),
-  synTab: "global",
+  synTab: "global", essTab: "now", essCtx: "", essQ: "",
   cmp: null,
 };
 const topic = () => D.topics.find((t) => t.id === state.topic) || D.topics[0];
@@ -376,7 +376,7 @@ function chartEffects(list) {
 
 /* ---------------- vues ---------------- */
 const app = () => $("#app");
-const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", methode: "Méthode" };
+const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", essais: "Études en cours", methode: "Méthode" };
 function setNav(id) {
   $$("[data-nav]").forEach((a) => a.setAttribute("aria-current", a.dataset.nav === id ? "page" : "false"));
   const c = $("#crumb"); if (c) c.innerHTML = `${esc(topic().label)} <span aria-hidden="true">/</span> <b>${NAV_LABEL[id] || ""}</b>`;
@@ -390,7 +390,7 @@ function renderTopics() {
   const up = $("#side-update"); if (up) up.textContent = `Mise à jour : ${fmtDate(D.generated)}`;
 }
 function setTopic(id) {
-  state.topic = id; store.set("topic", id); INDEX.clear(); state.cmp = null; state.synTab = "global"; state.cardLevel.clear();
+  state.topic = id; store.set("topic", id); INDEX.clear(); state.cmp = null; state.synTab = "global"; state.essCtx = ""; state.cardLevel.clear();
   for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : "");
   renderTopics(); route(); scrollTo(0, 0);
 }
@@ -434,6 +434,7 @@ function viewHome() {
         <div class="kpi"><b>${list.filter((a) => a.pdf).length}</b><span>PDF en accès libre lisibles sur le site</span></div>
       </div>
       <div class="panel"><div class="panel-head"><h3>Niveaux de preuve</h3><a class="btn small" href="#methode">Comprendre</a></div>${chartPyramid(list)}</div>
+      ${t.trials && t.trials.now + t.trials.soon ? `<a class="panel ess-teaser" href="#essais"><span class="eyebrow">Études en cours</span><span><b>${t.trials.now}</b> essais en cours · <b>${t.trials.soon}</b> projets en construction</span><span class="muted">Promoteurs, investigateurs et pays, d'après le registre ClinicalTrials.gov →</span></a>` : ""}
       <p class="muted" style="font-size:.78rem">Dernière mise à jour : <span class="mono">${fmtDate(D.generated)}</span> · veille ${esc(t.cadence)} · PubMed + Europe PMC</p>
     </div>
   </section>
@@ -621,6 +622,89 @@ function viewSyntheses() {
   </div>`;
 }
 
+
+/* ---------------- études en cours & projets en construction (registre ClinicalTrials.gov) ---------------- */
+const TRIAL_STATUS = { RECRUITING: ["Recrutement ouvert", "rec"], ENROLLING_BY_INVITATION: ["Inclusion sur invitation", "inv"],
+  ACTIVE_NOT_RECRUITING: ["En cours, inclusions closes", "act"], NOT_YET_RECRUITING: ["Pas encore ouvert", "soon"] };
+const SPONSOR_CLASS = { OTHER: "Académique ou hospitalier", INDUSTRY: "Industriel", NIH: "NIH (États-Unis)", FED: "Agence fédérale", OTHER_GOV: "Organisme public", NETWORK: "Réseau de recherche", INDIV: "Investigateur", UNKNOWN: "—" };
+const PHASE = { NA: "Sans phase (dispositif)", EARLY_PHASE1: "Phase 1 précoce", PHASE1: "Phase 1", PHASE2: "Phase 2", PHASE3: "Phase 3", PHASE4: "Phase 4" };
+const MASK = { NONE: "ouvert", SINGLE: "simple aveugle", DOUBLE: "double aveugle", TRIPLE: "triple aveugle", QUADRUPLE: "quadruple aveugle" };
+const COUNTRY_FR = { "United States": "États-Unis", Brazil: "Brésil", France: "France", "Turkey (Türkiye)": "Turquie", Egypt: "Égypte", Italy: "Italie", Taiwan: "Taïwan", China: "Chine", Canada: "Canada", Pakistan: "Pakistan", Belgium: "Belgique", "United Kingdom": "Royaume-Uni", Sweden: "Suède", Australia: "Australie", Iraq: "Irak", Israel: "Israël", Jordan: "Jordanie", "Saudi Arabia": "Arabie saoudite", Chile: "Chili", Indonesia: "Indonésie", Czechia: "Tchéquie", Romania: "Roumanie", Portugal: "Portugal", Poland: "Pologne", Syria: "Syrie", Lebanon: "Liban", "South Korea": "Corée du Sud", Switzerland: "Suisse", Slovenia: "Slovénie", Russia: "Russie", "Puerto Rico": "Porto Rico", Germany: "Allemagne", Spain: "Espagne", Netherlands: "Pays-Bas", Denmark: "Danemark", India: "Inde", Iran: "Iran", Japan: "Japon", Mexico: "Mexique" };
+const fr = (c) => COUNTRY_FR[c] || c;
+const ymFR = (d) => { if (!d) return "—"; const [y, m] = d.split("-"); return m ? `${["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."][+m - 1]} ${y}` : y; };
+async function ensureTrials() { if (!window.LUMINA_E && D.trials_file) await loadScript(D.trials_file); return window.LUMINA_E?.by_topic?.[state.topic] || []; }
+const shortAff = (a) => { const x = (a || "").split(/[;,]\s*/)[0].trim(); return x.length > 90 ? x.slice(0, 88) + "…" : x; };
+const leadOf = (s) => s.officials?.find((o) => /PRINCIPAL|CHAIR|DIRECTOR/.test(o.role || "")) || s.officials?.[0] || s.responsible;
+function trialCard(s) {
+  const [stl, stc] = TRIAL_STATUS[s.status] || [s.status, ""]; const lead = leadOf(s);
+  const design = [s.allocation === "RANDOMIZED" ? "randomisé" : s.allocation === "NON_RANDOMIZED" ? "non randomisé" : s.type === "OBSERVATIONAL" ? "observationnel" : "un seul bras", MASK[s.masking]].filter(Boolean).join(", ");
+  const phase = (s.phases || []).map((p) => PHASE[p] || p).join(" / ");
+  const sites = s.n_sites > 1 ? `${s.n_sites} centres` : s.sites?.[0]?.facility || "";
+  return `<article class="card trial" data-st="${stc}">
+    <div class="card-top"><div style="display:flex;gap:6px;flex-wrap:wrap"><span class="tstatus" data-st="${stc}"><i></i>${stl}</span><span class="badge">${esc(CTX[s.ctx] || s.ctx)}</span>${s.acronym ? `<span class="badge mono">${esc(s.acronym)}</span>` : ""}</div>
+      <a class="btn small" href="https://clinicaltrials.gov/study/${s.nct}" target="_blank" rel="noopener">${s.nct} ↗</a></div>
+    <h3>${esc(s.titre)}</h3><p class="src" lang="en">${esc(s.title)}</p>
+    <dl class="tmeta">
+      <div><dt>Plan</dt><dd>${esc(design)}${phase ? ` · ${esc(phase)}` : ""}</dd></div>
+      <div><dt>Participants prévus</dt><dd>${s.n ? s.n.toLocaleString("fr-FR") : "—"}</dd></div>
+      <div><dt>Calendrier</dt><dd>${ymFR(s.start)} → ${ymFR(s.end)}</dd></div>
+      <div><dt>Pays</dt><dd>${esc((s.countries || []).map(fr).join(", ") || "non précisé")}</dd></div>
+    </dl>
+    <div class="porteurs"><span class="eyebrow">Porteurs du projet</span>
+      <p><b>${esc(s.sponsor || "—")}</b> <span class="muted">· promoteur ${esc((SPONSOR_CLASS[s.sponsor_class] || "").toLowerCase())}</span></p>
+      ${lead?.name ? `<p>${esc(lead.name)}${lead.affiliation && shortAff(lead.affiliation) !== s.sponsor ? `, <span class="muted">${esc(shortAff(lead.affiliation))}</span>` : ""} <span class="muted">· ${lead.role ? "investigateur principal" : "responsable de l'étude"}</span></p>` : ""}
+      ${s.collaborators?.length ? `<p class="muted">Partenaires : ${esc(s.collaborators.join(", "))}</p>` : ""}
+      ${sites ? `<p class="muted">Lieu : ${esc(sites)}${s.n_sites === 1 && s.sites[0].city ? `, ${esc(s.sites[0].city)}` : ""}</p>` : ""}</div>
+    <details><summary>Intervention, critère principal et résumé (en anglais)</summary>
+      <p><b>Intervention :</b> ${esc((s.interventions || []).map((i) => i.name).join(" · "))}</p>
+      ${s.outcome ? `<p><b>Critère principal :</b> <span lang="en">${esc(s.outcome)}</span></p>` : ""}
+      <p lang="en" class="muted">${esc(s.summary || "")}</p>
+      <p class="muted mono" style="font-size:.72rem">Déclaré le ${fmtDate(s.first_posted)} · mis à jour le ${fmtDate(s.updated)}</p></details>
+  </article>`;
+}
+async function viewEssais() {
+  setNav("essais"); const t = topic();
+  app().innerHTML = `<div class="empty">Chargement du registre…</div>`;
+  let xs; try { xs = await ensureTrials(); } catch { app().innerHTML = `<div class="empty">Registre indisponible. Rechargez la page.</div>`; return; }
+  const q = state.essQ.toLowerCase();
+  const match = (s) => (!state.essCtx || s.ctx === state.essCtx) && (!q || [s.titre, s.title, s.sponsor, s.nct, s.acronym, ...(s.countries || []), ...(s.officials || []).map((o) => o.name + " " + o.affiliation)].join(" ").toLowerCase().includes(q));
+  const now = xs.filter((s) => s.status !== "NOT_YET_RECRUITING"), soon = xs.filter((s) => s.status === "NOT_YET_RECRUITING");
+  const protos = all().filter((a) => a.type === "protocol" && a.date >= iso(new Date(Date.now() - 3 * 365 * 864e5)));
+  const sponsors = new Map(); xs.forEach((s) => { const k = s.sponsor || "—"; const v = sponsors.get(k) || { name: k, cls: s.sponsor_class, n: 0, now: 0, soon: 0, ctx: new Set(), countries: new Set(), people: new Set(), ids: [] };
+    v.n++; s.status === "NOT_YET_RECRUITING" ? v.soon++ : v.now++; v.ctx.add(s.ctx); (s.countries || []).forEach((c) => v.countries.add(fr(c))); const l = leadOf(s); if (l?.name) v.people.add(l.name); v.ids.push(s.nct); sponsors.set(k, v); });
+  const ctxs = [...new Set(xs.map((s) => s.ctx))]; const tab = state.essTab;
+  const list = (tab === "soon" ? soon : now).filter(match);
+  const recr = now.filter((s) => s.status === "RECRUITING").length;
+  const countries = new Set(xs.flatMap((s) => s.countries || [])).size;
+  const fetched = window.LUMINA_E?.fetched;
+  let body;
+  if (tab === "porteurs") {
+    const rows = [...sponsors.values()].filter((v) => (!state.essCtx || v.ctx.has(state.essCtx)) && (!q || [v.name, ...v.people, ...v.countries, ...v.ids].join(" ").toLowerCase().includes(q))).sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));
+    body = rows.length ? `<section class="panel"><div class="panel-head"><h2>Porteurs de projets</h2><p>Promoteurs, investigateurs principaux et pays des ${xs.length} études du thème</p></div><div class="cmp-table"><table class="ptable"><thead><tr><th>Promoteur</th><th>Type</th><th>Investigateurs</th><th>Pays</th><th>Thèmes</th><th style="text-align:right">En cours</th><th style="text-align:right">En construction</th></tr></thead><tbody>
+      ${rows.map((v) => `<tr><th>${esc(v.name)}</th><td>${esc(SPONSOR_CLASS[v.cls] || "—")}</td><td>${esc([...v.people].slice(0, 3).join(", ") || "—")}${v.people.size > 3 ? ` <span class="muted">et ${v.people.size - 3} autre(s)</span>` : ""}</td><td>${esc([...v.countries].join(", ") || "—")}</td><td>${[...v.ctx].map((c) => `<span class="badge">${esc(CTX[c] || c)}</span>`).join(" ")}</td><td class="num">${v.now || ""}</td><td class="num">${v.soon || ""}</td></tr>`).join("")}</tbody></table></div></section>` : `<div class="empty">Aucun porteur pour ce filtre.</div>`;
+  } else {
+    body = `<div class="trials">${list.map(trialCard).join("") || `<div class="empty">Aucune étude pour ce filtre.</div>`}</div>`;
+    if (tab === "soon" && protos.length && !state.essCtx) body += `<section class="panel"><div class="panel-head"><h2>Protocoles publiés</h2><p>Projets décrits dans une revue avant leurs résultats (3 dernières années)</p></div><ul class="plist">${protos.map((a) => `<li><a href="#article-${a.pmid}">${esc(a.title_fr || a.title)}</a> <span class="muted">· ${esc(a.journal_abbr || "")}, ${fmtDate(a.date)}${a.authors?.length ? ` · ${esc(a.authors[0])}${a.authors.length > 1 ? " et al." : ""}` : ""}</span></li>`).join("")}</ul></section>`;
+  }
+  app().innerHTML = `<div class="view">
+    <div style="display:grid;gap:12px"><span class="eyebrow">Études en cours · ${esc(t.label)}</span><h1>Essais en cours et projets en construction</h1>
+      <p class="lead" style="max-width:70ch">Les études de photobiomodulation déclarées au registre international ClinicalTrials.gov qui recrutent, se déroulent ou s'apprêtent à démarrer, avec leurs porteurs. Chaque essai est vérifié et classé à la main ; les résultats paraîtront dans les publications.</p></div>
+    <div class="kpis kpis-4">
+      <div class="kpi"><b>${now.length}</b><span>études en cours</span></div>
+      <div class="kpi"><b>${recr}</b><span>recrutent en ce moment</span></div>
+      <div class="kpi"><b>${soon.length}</b><span>projets en construction (pas encore ouverts)</span></div>
+      <div class="kpi"><b>${sponsors.size}</b><span>porteurs de projets, dans ${countries} pays</span></div>
+    </div>
+    <div class="ess-bar">
+      <div class="syn-tabs">${[["now", "Études en cours", now.length], ["soon", "Projets en construction", soon.length + protos.length], ["porteurs", "Porteurs de projets", sponsors.size]].map(([k, l, n]) => `<button class="chip" data-esstab="${k}" aria-pressed="${tab === k}">${l}<span class="n">${n}</span></button>`).join("")}</div>
+      <input class="ess-q" id="essq" type="search" placeholder="Rechercher un porteur, un pays, un essai…" value="${esc(state.essQ)}" aria-label="Rechercher dans les études">
+    </div>
+    ${ctxs.length > 1 ? `<div class="chips"><button class="chip" data-essctx="" aria-pressed="${!state.essCtx}">Tous les sous-groupes</button>${ctxs.map((c) => `<button class="chip" data-essctx="${c}" aria-pressed="${state.essCtx === c}">${esc(CTX[c] || c)}<span class="n">${xs.filter((s) => s.ctx === c).length}</span></button>`).join("")}</div>` : ""}
+    ${xs.length ? body : `<div class="empty">Aucune étude de PBM en cours n'est déclarée au registre pour ce thème.</div>`}
+    <p class="muted" style="font-size:.78rem">Source : ClinicalTrials.gov (NLM), relevé du <span class="mono">${fmtDate(fetched)}</span>. Les informations (dates, effectifs, centres) sont celles déclarées par les promoteurs ; pour participer à une étude ou contacter son équipe, suivre le lien du registre.</p>
+  </div>`;
+}
+
 /* ---------------- comparateur / fusion ---------------- */
 function allWeeks() {
   const have = [...new Set(all().map((a) => a.week))].sort().reverse();
@@ -733,6 +817,8 @@ function viewMethode() {
       <p>${t.n_raw} notices retrouvées, ${t.n_excluded} écartées car hors sujet (${esc(t.exclusions_note || "")}), ${all().length} analysées. Les dates correspondent à la mise en ligne de l'article. Les semaines suivent la norme ISO (lundi à dimanche).</p>
       <p>Les fiches sont rédigées à partir du résumé PubMed et, pour les articles en accès libre, du texte intégral. Les PDF proviennent du dépôt officiel PMC Open Access de la NLM et ne sont repris que sous licence Creative Commons, avec mention de la licence sur la fiche. Pour les autres articles, le site renvoie vers la source originale (DOI, PubMed).</p>
       <div class="callout">Ce site est un outil de veille et ne remplace pas la lecture critique des articles ni les recommandations (MASCC/ISOO, sociétés savantes). Les chiffres sont recopiés des résumés : en cas de doute, la source originale fait foi.</div></section>
+    <section class="panel prose" style="max-width:none"><h2>Études en cours et projets en construction</h2>
+      <p>La rubrique « Études en cours » interroge le registre international <a href="https://clinicaltrials.gov" target="_blank" rel="noopener">ClinicalTrials.gov</a> : études de photobiomodulation qui recrutent, se poursuivent (inclusions closes) ou sont déclarées mais pas encore ouvertes (« projets en construction »). Chaque essai est relu, rattaché à un thème et à un sous-groupe, et reçoit un titre en français ; ceux qui ne relèvent pas de la PBM (lasers ablatifs, lumière visuelle, imagerie proche infrarouge…) sont écartés. Les porteurs (promoteur, investigateur principal, partenaires, centres) sont ceux déclarés au registre. Les protocoles publiés dans une revue apparaissent avec les projets en construction.</p></section>
     <section class="panel prose" style="max-width:none"><h2>Mise à jour</h2><p>Rythme actuel : <b>${esc(t.cadence)}</b>, modifiable à tout moment. La procédure est décrite dans <span class="mono">ROUTINE.md</span> : collecte des nouveautés, rédaction des fiches en trois niveaux, mise à jour des synthèses, publication. Ajouter une pathologie revient à créer un fichier de thème (requête PubMed) ; le site l'affiche automatiquement dans le sélecteur.</p></section>
   </div>`;
 }
@@ -751,7 +837,7 @@ async function route() {
     return viewArticle(id);
   }
   if (isSoon() && h !== "methode") return viewSoon(NAV_LABEL[h] ? h : "accueil");
-  ({ publications: viewPubs, syntheses: viewSyntheses, comparer: viewCompare, methode: viewMethode }[h] || viewHome)();
+  await ({ publications: viewPubs, syntheses: viewSyntheses, essais: viewEssais, comparer: viewCompare, methode: viewMethode }[h] || viewHome)();
   if (!h.startsWith("article-")) $("#selbar")?.toggleAttribute("hidden", !state.selected.size || h === "comparer");
 }
 async function rerender() { const y = scrollY; await route(); scrollTo(0, y); updateSelbar(); }
@@ -783,6 +869,8 @@ document.addEventListener("click", async (e) => {
   else if ("reset" in d) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : ""); state.q = ""; $("#q").value = ""; rerender(); }
   else if ("togglefilters" in d) { state.filtersOpen = !state.filtersOpen; $(".filters").dataset.collapsed = String(!state.filtersOpen); }
   else if (d.syn) { state.synTab = d.syn; rerender(); }
+  else if (d.esstab) { state.essTab = d.esstab; rerender(); }
+  else if ("essctx" in d) { state.essCtx = d.essctx; rerender(); }
   else if (d.mode) { state.cmp.mode = d.mode; rerender(); }
   else if (d.pp) {
     const P = state.cmp[d.pp]; const y = d.y;
@@ -819,6 +907,10 @@ document.addEventListener("change", (e) => {
   else if (t.dataset.pd) { const [id, side] = t.dataset.pd.split("-"); const P = state.cmp[id]; P[side] = t.value; P.label = ""; rerender(); }
 });
 let qTimer;
+let essT; document.addEventListener("input", (e) => {
+  if (e.target.id !== "essq") return; clearTimeout(essT);
+  essT = setTimeout(async () => { state.essQ = e.target.value; const pos = e.target.selectionStart; await rerender(); const i = $("#essq"); if (i) { i.focus(); i.setSelectionRange(pos, pos); } }, 220);
+});
 $("#q").addEventListener("input", (e) => {
   clearTimeout(qTimer); qTimer = setTimeout(() => {
     state.q = e.target.value.trim(); if (state.q && state.sort === "date") state.sort = "pertinence"; if (!state.q && state.sort === "pertinence") state.sort = "date";

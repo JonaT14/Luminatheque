@@ -53,7 +53,19 @@ SUBGROUP_RULES = {
                              ("fibro", r"fibromyalg|myofascial|trigger point"),
                              ("épaule", r"shoulder|frozen|adhesive capsulitis|subacromial|rotator cuff"),
                              ("os", r"\bbone|fracture|osteo(?!arthr)|osseointegr|orthodont|implant"),
-                             ("muscle", r"muscl|exercise|athlet|fatigue|performance|sport|strength")],
+                             ("muscle", r"muscl|exercise|athlet|fatigue|performance|sport|strength"),
+                             ("EDS", r"ehlers|danlos|hypermobil")],
+    "neurologie": [("SEP", r"multiple sclerosis|demyelinat|encephalomyelitis(?! myalgic)"),
+                   ("SLA", r"amyotrophic|motor neuron disease|\bals\b"),
+                   ("parkinson", r"parkinson"),
+                   ("tremblements", r"tremor|dystonia"),
+                   ("démences", r"dementia|alzheimer|cognitive impairment|cognitive decline|mild cognitive|cognition|memory"),
+                   ("fatigue", r"chronic fatigue|myalgic|long covid|post-covid|post covid|post-acute sequelae|covid"),
+                   ("AVC", r"stroke|cerebral ischemi|cerebral infarct|aphasia|hemipleg"),
+                   ("TC", r"brain injur|concussion|traumatic brain|\btbi\b"),
+                   ("neurodev", r"autis|asd\b|adhd|attention deficit|cerebral palsy|down syndrome"),
+                   ("humeur", r"depress|anxiety|bipolar|insomnia|sleep|post-traumatic stress|ptsd"),
+                   ("autres", r"migraine|headache|epilep|spinal cord|huntington|neurodegenerat")],
     "dermatologie": [("plaies", r"wound|ulcer|diabetic foot|pressure (injur|sore)|decubitus"),
                      ("cicatrices", r"scar|keloid|burn"),
                      ("radiodermite", r"radiation dermatitis|radiodermatitis|radiation-induced skin|radiotherapy"),
@@ -269,9 +281,34 @@ def main() -> None:
             if p.stem not in keep:
                 p.unlink()
                 print("  PDF retiré (pas de fiche rédigée) :", p.name)
+    # essais en cours et projets en construction (registre ClinicalTrials.gov, trié à la main)
+    reg_p, cur_p = ROOT / "data/trials/registre.json", ROOT / "data/curation/essais.json"
+    trials: dict[str, list] = {}
+    if reg_p.exists() and cur_p.exists():
+        reg, cur = json.loads(reg_p.read_text()), json.loads(cur_p.read_text())
+        keep = ("nct", "title", "acronym", "status", "phases", "n", "start", "end", "allocation", "masking", "conditions",
+                "interventions", "sponsor", "sponsor_class", "collaborators", "responsible", "officials", "countries", "sites",
+                "n_sites", "outcome", "summary", "updated", "first_posted", "type")
+        for st in reg["studies"]:
+            c = cur["essais"].get(st["nct"])
+            if not c:
+                continue
+            trials.setdefault(c[0], []).append({k: st.get(k) for k in keep} | {"ctx": c[1], "titre": c[2]})
+        payload_trials = {"fetched": reg["fetched"], "by_topic": trials}
+        js = "window.LUMINA_E = " + json.dumps(payload_trials, ensure_ascii=False, separators=(",", ":")) + ";\n"
+        h = hashlib.sha1(js.encode()).hexdigest()[:10]
+        for old in (ROOT / "assets/topics").glob("_essais.*js"):
+            if old.name != f"_essais.{h}.js":
+                old.unlink()
+        write_versioned(ROOT / "assets/topics" / f"_essais.{h}.js", js)
+        for tp in topics:
+            xs = trials.get(tp["id"], [])
+            tp["trials"] = {"now": sum(x["status"] != "NOT_YET_RECRUITING" for x in xs), "soon": sum(x["status"] == "NOT_YET_RECRUITING" for x in xs)}
+        print(f"→ {sum(map(len, trials.values()))} essais au registre (relevé du {reg['fetched']})")
     order = {"actif": 0, None: 0, "à venir": 1}
     topics.sort(key=lambda x: (order.get(x.get("status"), 0), x["label"]))
-    payload = {"generated": dt.date.today().isoformat(), "topics": topics, "syntheses": syntheses, "n_chunks": N_CHUNKS}
+    payload = {"generated": dt.date.today().isoformat(), "topics": topics, "syntheses": syntheses, "n_chunks": N_CHUNKS,
+               "trials_file": f"assets/topics/_essais.{h}.js" if trials else None}
     out = ROOT / "assets/data.js"
     out.write_text("window.LUMINA = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n")
     stamp_assets()

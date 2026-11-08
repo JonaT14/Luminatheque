@@ -9,5 +9,6 @@
  "since": "2000-01-01",
  "cadence": "hebdomadaire",
  "hero": "les neuropathies périphériques",
- "exclusions_note": "ulcères du pied diabétique, glaucome, lésions de la moelle épinière, radiculopathies (réservées au futur thème musculo-squelettique)…"
+ "exclusions_note": "ulcères du pied diabétique, glaucome, lésions de la moelle épinière, radiculopathies (réservées au futur thème musculo-squelettique)…",
+ "trials_cond": "neuropathy OR \"peripheral nerve\" OR \"nerve injury\" OR \"carpal tunnel\" OR \"trigeminal neuralgia\" OR \"Bell palsy\" OR paresthesia OR \"burning mouth\""
 }

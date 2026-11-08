@@ -1,0 +1,1027 @@
+{
+ "essais": {
+  "NCT03716167": [
+   "dermatologie",
+   "plaies",
+   "Laser Summus contre sham : douleur et cicatrisation des ulcères veineux"
+  ],
+  "NCT03750409": [
+   "neurologie",
+   "démences",
+   "Casque proche infrarouge prolongé dans la démence débutante à modérée"
+  ],
+  "NCT03983369": [
+   "mucite-orale",
+   "chimio",
+   "Laser basse énergie pour prévenir la mucite chimio-induite de l'enfant et du jeune adulte (France)"
+  ],
+  "NCT04261569": [
+   "neurologie",
+   "parkinson",
+   "Illumination proche infrarouge intraventriculaire pour la neuroprotection du Parkinson débutant (France)"
+  ],
+  "NCT04445545": [
+   "musculo-squelettique",
+   "fibro",
+   "Laser haute intensité sur les points gâchettes myofasciaux"
+  ],
+  "NCT04671862": [
+   "mucite-orale",
+   "ORL",
+   "PBM pour prévenir la mucite radio-induite"
+  ],
+  "NCT04764331": [
+   "dermatologie",
+   "alopécie",
+   "Casque LED Revian dans l'alopécie cicatricielle centrale centrifuge (pilote)"
+  ],
+  "NCT05165056": [
+   "gynecologie",
+   "onco",
+   "PBM (Intimleds) pour prévenir et traiter la toxicité vaginale de la radiothérapie"
+  ],
+  "NCT05177289": [
+   "dermatologie",
+   "alopécie",
+   "PBM (casque Theradome) et casque réfrigérant contre l'alopécie chimio-induite"
+  ],
+  "NCT05199389": [
+   "neuropathie-peripherique",
+   "CIPN",
+   "PBM (laser MLS) pour prévenir et traiter la neuropathie chimio-induite"
+  ],
+  "NCT05328401": [
+   "musculo-squelettique",
+   "épaule",
+   "Laser-acupuncture contre sham dans l'épaule douloureuse après AVC"
+  ],
+  "NCT05345600": [
+   "gynecologie",
+   "obstétrique",
+   "Sonde MILTA contre placebo : douleur des cicatrices périnéales après accouchement"
+  ],
+  "NCT05573074": [
+   "neurologie",
+   "humeur",
+   "Lumière proche infrarouge transcrânienne et débit sanguin cérébral dans la dépression"
+  ],
+  "NCT05596474": [
+   "musculo-squelettique",
+   "muscle",
+   "Jus de betterave et lumière rouge contre la fatigue musculaire"
+  ],
+  "NCT05689788": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser haute intensité contre sham dans la cervicalgie"
+  ],
+  "NCT05763706": [
+   "neuropathie-peripherique",
+   "CIPN",
+   "PBM (laser MLS) dans la prise en charge de la neuropathie chimio-induite"
+  ],
+  "NCT05802680": [
+   "neurologie",
+   "démences",
+   "Effets neurocognitifs de la stimulation proche infrarouge transcrânienne"
+  ],
+  "NCT05816798": [
+   "musculo-squelettique",
+   "arthrose",
+   "PBM et douleur chronique du genou avant chirurgie bariatrique"
+  ],
+  "NCT05855694": [
+   "neurologie",
+   "démences",
+   "Casque LED THOR dans les troubles cognitifs liés au cancer"
+  ],
+  "NCT05916235": [
+   "musculo-squelettique",
+   "ATM",
+   "PBM (laser THOR) contre la douleur des troubles temporo-mandibulaires"
+  ],
+  "NCT05926011": [
+   "neurologie",
+   "démences",
+   "RGn600 contre sham dans l'Alzheimer léger à modéré (France)"
+  ],
+  "NCT06006637": [
+   "neurologie",
+   "neurodev",
+   "PBM transcrânienne contre sham chez l'enfant autiste"
+  ],
+  "NCT06007976": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser basse énergie (Erchonia Trident) dans la lombalgie"
+  ],
+  "NCT06071637": [
+   "mucite-orale",
+   "CSH",
+   "Double laser basse puissance contre la mucite et la douleur oropharyngée en allogreffe"
+  ],
+  "NCT06160908": [
+   "neurologie",
+   "démences",
+   "NIR4AD : lumière proche infrarouge transcrânienne dans l'Alzheimer léger à modéré"
+  ],
+  "NCT06203938": [
+   "neurologie",
+   "neurodev",
+   "Stimulation transcrânienne proche infrarouge contre sham dans l'autisme"
+  ],
+  "NCT06219694": [
+   "neurologie",
+   "autres",
+   "Laser-acupuncture contre sham dans la migraine chronique"
+  ],
+  "NCT06239818": [
+   "neurologie",
+   "TC",
+   "PBM et récupération après commotion cérébrale de l'adolescent"
+  ],
+  "NCT06282770": [
+   "musculo-squelettique",
+   "rachis",
+   "Ceinture à diodes laser contre sham après arthrodèse ou décompression lombaire"
+  ],
+  "NCT06337448": [
+   "gynecologie",
+   "vulve",
+   "LED bleue dans la vulvodynie"
+  ],
+  "NCT06347926": [
+   "gynecologie",
+   "onco",
+   "Qualité de vie sexuelle après cancer du sein et PBM"
+  ],
+  "NCT06426251": [
+   "musculo-squelettique",
+   "arthrose",
+   "PBM après prothèse totale de genou"
+  ],
+  "NCT06443242": [
+   "neurologie",
+   "humeur",
+   "Laser-acupuncture à faible dose dans l'insomnie de la dépression"
+  ],
+  "NCT06458517": [
+   "mucite-orale",
+   "chimio",
+   "PBM intrabuccale ou transcutanée contre la mucite (France)"
+  ],
+  "NCT06460415": [
+   "gynecologie",
+   "vulve",
+   "PBM, douleur et fonction sexuelle dans la dyspareunie"
+  ],
+  "NCT06584409": [
+   "neurologie",
+   "autres",
+   "Laser-acupuncture dans la migraine : MMP2 et CGRP"
+  ],
+  "NCT06618807": [
+   "neurologie",
+   "démences",
+   "Lumière infrarouge contre la perte de mémoire du trouble cognitif léger"
+  ],
+  "NCT06623305": [
+   "mucite-orale",
+   "chimio",
+   "PBM pour prévenir la mucite chez l'enfant atteint de cancer"
+  ],
+  "NCT06625619": [
+   "mucite-orale",
+   "CSH",
+   "Étude BRINK : PBM de la mucite en allogreffe de CSH"
+  ],
+  "NCT06654739": [
+   "musculo-squelettique",
+   "arthrose",
+   "Essai SPARK : lasers LightForce contre sham dans la gonarthrose (France, Italie)"
+  ],
+  "NCT06660212": [
+   "gynecologie",
+   "pelvien",
+   "Essai BRIGHT : PBM et kinésithérapie multimodale en santé pelvienne"
+  ],
+  "NCT06692998": [
+   "musculo-squelettique",
+   "tendon",
+   "Laser haute et basse énergie dans la ténosynovite de De Quervain"
+  ],
+  "NCT06703762": [
+   "dermatologie",
+   "plaies",
+   "PBM He-Ne, cicatrisation et IL-6 dans l'ulcère neuropathique du pied"
+  ],
+  "NCT06703775": [
+   "musculo-squelettique",
+   "épaule",
+   "Laser basse énergie ou mobilisation neurale après don de foie"
+  ],
+  "NCT06708754": [
+   "dermatologie",
+   "radiodermite",
+   "PBM, lymphœdème et fibrose radio-induits des cancers ORL : biomarqueurs"
+  ],
+  "NCT06708975": [
+   "dermatologie",
+   "plaies",
+   "Lumière polarisée et phonophorèse d'insuline dans les plaies diabétiques"
+  ],
+  "NCT06732570": [
+   "musculo-squelettique",
+   "épaule",
+   "Laser haute intensité dans le conflit de l'épaule"
+  ],
+  "NCT06732622": [
+   "neuropathie-peripherique",
+   "orofaciale",
+   "Laser-acupuncture, corticoïdes ou sham dans la paralysie de Bell idiopathique"
+  ],
+  "NCT06756386": [
+   "dermatologie",
+   "plaies",
+   "Ondes de choc ou laser basse énergie dans l'ulcère veineux chronique"
+  ],
+  "NCT06762197": [
+   "musculo-squelettique",
+   "rachis",
+   "Ondes de choc radiales ou laser basse énergie dans le syndrome du piriforme"
+  ],
+  "NCT06763419": [
+   "musculo-squelettique",
+   "ATM",
+   "PBM interne ou externe dans le dérangement interne de l'ATM"
+  ],
+  "NCT06773676": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser à domicile (B-Cure) contre sham dans la gonarthrose"
+  ],
+  "NCT06790667": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser basse énergie ou TENS dans la douleur myofasciale des DTM"
+  ],
+  "NCT06793293": [
+   "gynecologie",
+   "obstétrique",
+   "Laser haute intensité contre la douleur de la cicatrice de césarienne"
+  ],
+  "NCT06803472": [
+   "dermatologie",
+   "cicatrices",
+   "Laser haute intensité pulsé ou ondes de choc sur les cicatrices hypertrophiques de brûlure"
+  ],
+  "NCT06812611": [
+   "musculo-squelettique",
+   "muscle",
+   "Laser haute intensité dans les lésions musculaires"
+  ],
+  "NCT06819033": [
+   "dermatologie",
+   "inflammatoire",
+   "PBM contre la douleur des aphtes chez l'enfant"
+  ],
+  "NCT06834685": [
+   "neuropathie-peripherique",
+   "CIPN",
+   "PBM laser contre la douleur neuropathique chimio-induite (France)"
+  ],
+  "NCT06836180": [
+   "neurologie",
+   "démences",
+   "Lumière proche infrarouge dans l'Alzheimer léger à modéré (exploratoire)"
+  ],
+  "NCT06916260": [
+   "neurologie",
+   "parkinson",
+   "Lumière rouge frontale dans les symptômes du Parkinson"
+  ],
+  "NCT06916650": [
+   "musculo-squelettique",
+   "épaule",
+   "Laser haute intensité, infiltration ou thérapie manuelle dans l'épaule gelée"
+  ],
+  "NCT06916676": [
+   "musculo-squelettique",
+   "arthrose",
+   "Optimisation de la dose de laser haute intensité dans la gonarthrose"
+  ],
+  "NCT06956404": [
+   "neurologie",
+   "TC",
+   "PBM transcrânienne chez le sujet âgé après traumatisme crânien"
+  ],
+  "NCT06990165": [
+   "dermatologie",
+   "radiodermite",
+   "PBM contre sham dans la radiodermite du cancer du sein"
+  ],
+  "NCT06992804": [
+   "neurologie",
+   "démences",
+   "Lumière proche infrarouge associée au lécanémab dans l'Alzheimer léger"
+  ],
+  "NCT06995443": [
+   "neurologie",
+   "démences",
+   "Cancer du sein et « chemobrain » : PBM et troubles cognitifs perçus (France)"
+  ],
+  "NCT06999239": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser sur le ptérygoïdien latéral dans les DTM de stade Wilkes I–II"
+  ],
+  "NCT07014774": [
+   "neuropathie-peripherique",
+   "compression",
+   "Laser-acupuncture et canal carpien après réparation des fléchisseurs"
+  ],
+  "NCT07026617": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser basse énergie et approche de Rocabado dans les DTM myogènes"
+  ],
+  "NCT07043868": [
+   "dermatologie",
+   "plaies",
+   "PBM 830 nm dans les ulcères diabétiques : faisabilité et efficacité"
+  ],
+  "NCT07048626": [
+   "dermatologie",
+   "alopécie",
+   "Laser basse énergie après PRP dans la repousse des cheveux"
+  ],
+  "NCT07078877": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser basse énergie, cartilage fémoral et sensibilité dans la gonarthrose"
+  ],
+  "NCT07079969": [
+   "musculo-squelettique",
+   "arthrose",
+   "Essai EPIC-KO : PBM, inflammation et douleur chronique dans la gonarthrose"
+  ],
+  "NCT07084415": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser-acupuncture contre les douleurs de nuque et d'épaule de la femme allaitante"
+  ],
+  "NCT07099352": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser-acupuncture contre la cervicalgie des patients hémodialysés"
+  ],
+  "NCT07102602": [
+   "musculo-squelettique",
+   "muscle",
+   "Laser haute intensité préventif et fatigue musculaire"
+  ],
+  "NCT07108400": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser haute puissance, acide hyaluronique et rééducation dans la coxarthrose"
+  ],
+  "NCT07112742": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser haute intensité et exercice dans l'arthrose du pouce"
+  ],
+  "NCT07121686": [
+   "dermatologie",
+   "plaies",
+   "Lumière rouge ou rouge-bleue après chirurgie hémorroïdaire"
+  ],
+  "NCT07123285": [
+   "dermatologie",
+   "plaies",
+   "PBM et cicatrisation de l'ulcère veineux de jambe, contre sham"
+  ],
+  "NCT07125404": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser-auriculothérapie dans la DTM myogène et l'anxiété"
+  ],
+  "NCT07133893": [
+   "neurologie",
+   "humeur",
+   "PBM transcrânienne et modification des biais attentionnels dans les troubles anxieux"
+  ],
+  "NCT07155356": [
+   "dermatologie",
+   "plaies",
+   "Lumière rouge ou rouge-bleue après chirurgie d'abcès périanal"
+  ],
+  "NCT07161622": [
+   "musculo-squelettique",
+   "épaule",
+   "Laser basse énergie ou énergie musculaire dans l'épaule gelée du diabétique"
+  ],
+  "NCT07163208": [
+   "musculo-squelettique",
+   "rachis",
+   "Longueurs d'onde du laser basse énergie dans la céphalée cervicogénique"
+  ],
+  "NCT07171788": [
+   "neurologie",
+   "AVC",
+   "Laser basse énergie, spasticité des fléchisseurs du poignet et main après AVC"
+  ],
+  "NCT07177274": [
+   "dermatologie",
+   "plaies",
+   "Rigidité cutanée des plaies avant et après laser basse énergie"
+  ],
+  "NCT07183267": [
+   "mucite-orale",
+   "chimio",
+   "Lumière rouge contre les effets cutanés et buccaux des traitements chez l'enfant de 0 à 16 ans"
+  ],
+  "NCT07191808": [
+   "neuropathie-peripherique",
+   "orofaciale",
+   "Laser basse énergie dans la paralysie faciale de Bell"
+  ],
+  "NCT07196800": [
+   "musculo-squelettique",
+   "rachis",
+   "Dose de laser haute puissance dans la cervicalgie non spécifique"
+  ],
+  "NCT07204145": [
+   "neurologie",
+   "démences",
+   "Laser-acupuncture 808 nm contre les symptômes comportementaux de la démence"
+  ],
+  "NCT07224607": [
+   "neurologie",
+   "démences",
+   "PBM transcrânienne dans la maladie d'Alzheimer"
+  ],
+  "NCT07224646": [
+   "musculo-squelettique",
+   "muscle",
+   "PBM corps entier chez des footballeurs professionnels en championnat"
+  ],
+  "NCT07232472": [
+   "neurologie",
+   "humeur",
+   "PBM, dépression et sommeil du sujet âgé suivis par objets connectés"
+  ],
+  "NCT07262645": [
+   "neurologie",
+   "démences",
+   "NirsCure-03A : dispositif proche infrarouge contre sham dans l'Alzheimer léger à modéré"
+  ],
+  "NCT07266636": [
+   "neuropathie-peripherique",
+   "orofaciale",
+   "PBM ou électrostimulation dans la paralysie faciale de Bell"
+  ],
+  "NCT07271927": [
+   "neurologie",
+   "parkinson",
+   "PBM corps entier, troubles moteurs et cognitifs du Parkinson"
+  ],
+  "NCT07287046": [
+   "musculo-squelettique",
+   "tendon",
+   "Laser haute intensité ou ondes de choc focalisées dans la fasciite plantaire"
+  ],
+  "NCT07287527": [
+   "neurologie",
+   "démences",
+   "PBM transcrânienne, connectivité cérébrale et cognition"
+  ],
+  "NCT07292506": [
+   "neurologie",
+   "autres",
+   "Acupuncture, électroacupuncture ou laser-acupuncture dans la migraine : biomarqueurs"
+  ],
+  "NCT07294157": [
+   "neuropathie-peripherique",
+   "compression",
+   "Attelle de repos ou laser haute intensité dans le canal carpien"
+  ],
+  "NCT07307885": [
+   "dermatologie",
+   "plaies",
+   "PBM dans les escarres"
+  ],
+  "NCT07308080": [
+   "neurologie",
+   "autres",
+   "Lumière proche infrarouge et vibrations dans le syndrome des jambes sans repos du diabétique"
+  ],
+  "NCT07311889": [
+   "dermatologie",
+   "plaies",
+   "Registre de la PBM périopératoire (ELIXIR MD) : douleur, œdème, ecchymoses, cicatrisation"
+  ],
+  "NCT07311928": [
+   "gynecologie",
+   "fertilité",
+   "HELIOS : illumination des embryons humains pour améliorer le développement"
+  ],
+  "NCT07313826": [
+   "musculo-squelettique",
+   "rachis",
+   "Électrostimulation, LED et laser combinés (Neurolumen) dans la lombalgie chronique"
+  ],
+  "NCT07319247": [
+   "gynecologie",
+   "GSM",
+   "Laser et rééducation périnéale dans l'incontinence urinaire d'effort"
+  ],
+  "NCT07323823": [
+   "neurologie",
+   "AVC",
+   "PBM et activité électrique cérébrale après AVC (aphasie)"
+  ],
+  "NCT07328360": [
+   "neuropathie-peripherique",
+   "compression",
+   "Laser haute puissance dans la méralgie paresthésique"
+  ],
+  "NCT07342426": [
+   "musculo-squelettique",
+   "tendon",
+   "Laser haute intensité à faible ou forte dose dans l'épicondylite latérale"
+  ],
+  "NCT07352787": [
+   "musculo-squelettique",
+   "fibro",
+   "Essai HILT-TRAP : laser haute intensité dans la douleur myofasciale du trapèze"
+  ],
+  "NCT07356362": [
+   "neuropathie-peripherique",
+   "autres",
+   "Laser haute puissance contre sham dans la notalgie paresthésique"
+  ],
+  "NCT07372443": [
+   "mucite-orale",
+   "chimio",
+   "PBM ou gel bioadhésif contre la mucite de l'enfant"
+  ],
+  "NCT07381361": [
+   "neuropathie-peripherique",
+   "orofaciale",
+   "PBM ou acide alpha-lipoïque dans le syndrome de la bouche brûlante"
+  ],
+  "NCT07387978": [
+   "mucite-orale",
+   "ORL",
+   "PBM et mucite après chirurgie d'un cancer de la bouche puis radiothérapie"
+  ],
+  "NCT07405008": [
+   "neuropathie-peripherique",
+   "compression",
+   "Laser-acupuncture dans le syndrome du canal carpien"
+  ],
+  "NCT07414069": [
+   "neuropathie-peripherique",
+   "compression",
+   "Laser haute intensité contre sham dans le canal carpien : clinique, échographie, EMG"
+  ],
+  "NCT07419542": [
+   "gynecologie",
+   "GSM",
+   "Laser-acupuncture haute puissance contre les bouffées de chaleur de la ménopause"
+  ],
+  "NCT07425080": [
+   "gynecologie",
+   "fertilité",
+   "HELIOS Advanced : illumination des ovocytes humains pour améliorer le développement"
+  ],
+  "NCT07426926": [
+   "musculo-squelettique",
+   "os",
+   "PBM à domicile après ostéosynthèse d'une fracture du radius distal"
+  ],
+  "NCT07436650": [
+   "mucite-orale",
+   "CSH",
+   "Laser haute puissance contre la mucite de l'enfant greffé de CSH"
+  ],
+  "NCT07445945": [
+   "neurologie",
+   "démences",
+   "PBM, cognition et humeur du sujet âgé avec plainte cognitive"
+  ],
+  "NCT07453927": [
+   "dermatologie",
+   "cicatrices",
+   "Lumière bleue et cicatrisation des sites donneurs chez le brûlé"
+  ],
+  "NCT07460895": [
+   "musculo-squelettique",
+   "ATM",
+   "PBM contre sham dans la douleur myofasciale des DTM"
+  ],
+  "NCT07461363": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser-acupuncture à faible dose contre sham dans la lombalgie"
+  ],
+  "NCT07477678": [
+   "musculo-squelettique",
+   "muscle",
+   "PBM proche infrarouge à l'échauffement pour réduire le risque de blessure"
+  ],
+  "NCT07480083": [
+   "gynecologie",
+   "obstétrique",
+   "Laser basse énergie, douleur et cicatrisation du périnée en post-partum immédiat"
+  ],
+  "NCT07501416": [
+   "musculo-squelettique",
+   "épaule",
+   "Laser haute intensité contre sham dans l'épaule douloureuse de l'hémiplégique"
+  ],
+  "NCT07510646": [
+   "neurologie",
+   "humeur",
+   "PBM transcrânienne (Vielight) dans la dépression bipolaire"
+  ],
+  "NCT07520383": [
+   "neurologie",
+   "TC",
+   "Laser nanopulsé (NPLT) dans la récupération après traumatisme crânien"
+  ],
+  "NCT07520825": [
+   "dermatologie",
+   "plaies",
+   "PBM laser des ulcères difficiles à cicatriser chez le sujet âgé fragile (Suède, 1 290 patients)"
+  ],
+  "NCT07523204": [
+   "dermatologie",
+   "cicatrices",
+   "PBM contre sham et qualité de la cicatrice après suture d'une plaie du visage"
+  ],
+  "NCT07531654": [
+   "musculo-squelettique",
+   "fibro",
+   "Laser standard ou modifié dans la douleur myofasciale"
+  ],
+  "NCT07542899": [
+   "neurologie",
+   "neurodev",
+   "PBM sur les symptômes centraux de l'autisme"
+  ],
+  "NCT07543328": [
+   "neurologie",
+   "humeur",
+   "PBM transcrânienne et symptômes somatiques de la dépression résistante"
+  ],
+  "NCT07546539": [
+   "neurologie",
+   "fatigue",
+   "PBM contre sham dans le syndrome de fatigue chronique"
+  ],
+  "NCT07547423": [
+   "neurologie",
+   "humeur",
+   "Laser-acupuncture auriculaire et sommeil après cancer du sein"
+  ],
+  "NCT07551245": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser haute intensité ou agents physiques classiques dans la gonarthrose"
+  ],
+  "NCT07556926": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser haute intensité et mobilisations de Mulligan dans la lombalgie chronique"
+  ],
+  "NCT07557524": [
+   "dermatologie",
+   "plaies",
+   "Laser haute intensité pulsé ou thérapie par pression négative dans les ulcères neuropathiques"
+  ],
+  "NCT07564713": [
+   "musculo-squelettique",
+   "tendon",
+   "Ondes de choc ou laser basse énergie dans l'épicondylite latérale"
+  ],
+  "NCT07566507": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser haute énergie dans la rhizarthrose"
+  ],
+  "NCT07568288": [
+   "musculo-squelettique",
+   "épaule",
+   "Laser haute intensité après réparation arthroscopique de la coiffe des rotateurs"
+  ],
+  "NCT07584603": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser haute intensité et cartilage fémoral dans la gonarthrose"
+  ],
+  "NCT07588243": [
+   "dermatologie",
+   "alopécie",
+   "Laser basse énergie (dispositif Ultra) et repousse des cheveux"
+  ],
+  "NCT07590414": [
+   "neuropathie-peripherique",
+   "orofaciale",
+   "Laser haute intensité ou basse énergie dans la névralgie du trijumeau"
+  ],
+  "NCT07594678": [
+   "dermatologie",
+   "alopécie",
+   "Minoxidil avec ou sans casque LED rouge dans l'alopécie chimio-induite du cancer du sein"
+  ],
+  "NCT07602296": [
+   "neurologie",
+   "démences",
+   "Casque LUCIOLE de lumière rouge contre sham dans la démence (France)"
+  ],
+  "NCT07602933": [
+   "musculo-squelettique",
+   "muscle",
+   "PBM, fatigue et lésions musculaires induites par électrostimulation"
+  ],
+  "NCT07605234": [
+   "mucite-orale",
+   "chimio",
+   "PBM en complément des soins chez l'enfant sous chimiothérapie : faisabilité et sécurité"
+  ],
+  "NCT07613489": [
+   "neuropathie-peripherique",
+   "diabète",
+   "PBM contre sham dans la neuropathie diabétique"
+  ],
+  "NCT07615920": [
+   "musculo-squelettique",
+   "épaule",
+   "Laser haute intensité ou ondes de choc dans la tendinopathie du supra-épineux"
+  ],
+  "NCT07637084": [
+   "musculo-squelettique",
+   "EDS",
+   "PBM-SEDh-01 : PBM contre la douleur chronique et la fatigue du syndrome d'Ehlers-Danlos hypermobile"
+  ],
+  "NCT07651787": [
+   "neurologie",
+   "démences",
+   "Vielight Neuro RX-Duo contre sham dans le trouble cognitif léger"
+  ],
+  "NCT07654790": [
+   "musculo-squelettique",
+   "tendon",
+   "Ondes de choc ou laser haute intensité dans l'épicondylite chronique"
+  ],
+  "NCT07661407": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser haute intensité contre sham dans la gonarthrose"
+  ],
+  "NCT07661667": [
+   "neuropathie-peripherique",
+   "autres",
+   "PBM dans la neuropathie à anti-MAG (France)"
+  ],
+  "NCT07666061": [
+   "musculo-squelettique",
+   "arthrose",
+   "Laser ou ionophorèse dans la gonarthrose"
+  ],
+  "NCT07667998": [
+   "musculo-squelettique",
+   "épaule",
+   "Laser haute intensité ou ondes de choc : épaisseur du tendon supra-épineux"
+  ],
+  "NCT07672327": [
+   "musculo-squelettique",
+   "tendon",
+   "Laser haute intensité, ondes courtes et ondes de choc dans la fasciite plantaire"
+  ],
+  "NCT07680309": [
+   "dermatologie",
+   "plaies",
+   "Gradient de rigidité cutanée après laser basse énergie"
+  ],
+  "NCT07681921": [
+   "neuropathie-peripherique",
+   "CIPN",
+   "PBM dans la neuropathie périphérique débutante liée aux traitements du cancer (Belgique)"
+  ],
+  "NCT07688915": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser haute intensité ou infiltration épidurale dans la radiculopathie par hernie lombaire"
+  ],
+  "NCT07697768": [
+   "gynecologie",
+   "GSM",
+   "PBM par LED bleue des dysfonctions vaginales : à domicile ou en consultation"
+  ],
+  "NCT07699679": [
+   "dermatologie",
+   "plaies",
+   "PBM et cicatrisation du site de prélèvement saphène après pontage coronarien"
+  ],
+  "NCT07714720": [
+   "neuropathie-peripherique",
+   "compression",
+   "PBM et neuroplasticité du nerf médian dans le canal carpien"
+  ],
+  "NCT07734922": [
+   "musculo-squelettique",
+   "os",
+   "Laser haute intensité et kinésithérapie pour la santé osseuse après la ménopause"
+  ],
+  "NCT07739147": [
+   "dermatologie",
+   "alopécie",
+   "PRP seul ou enrichi par PBM rouge ou bleue dans l'alopécie androgénétique"
+  ],
+  "NCT07750392": [
+   "musculo-squelettique",
+   "fibro",
+   "Dry needling et laser à microcourants dans le syndrome myofascial"
+  ],
+  "NCT07753460": [
+   "musculo-squelettique",
+   "tendon",
+   "Laser basse énergie contre sham dans le doigt à ressaut"
+  ],
+  "NCT07764107": [
+   "neurologie",
+   "humeur",
+   "PBM pour réduire la consommation d'hypnotiques"
+  ],
+  "NCT07771296": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser-acupuncture, proprioception ou gouttière dans les DTM (apprentissage automatique)"
+  ],
+  "NCT07784231": [
+   "neurologie",
+   "AVC",
+   "PBM contre placebo dans la spasticité après AVC"
+  ],
+  "NCT07788248": [
+   "neuropathie-peripherique",
+   "compression",
+   "Laser basse énergie, paraffine ou sham dans le syndrome du canal carpien"
+  ],
+  "NCT07790094": [
+   "neurologie",
+   "parkinson",
+   "Laser-acupuncture segmentaire contre la constipation et les troubles du sommeil du Parkinson"
+  ],
+  "NCT07798960": [
+   "dermatologie",
+   "plaies",
+   "PBM transcutanée dans l'ulcère du pied diabétique"
+  ],
+  "NCT07799857": [
+   "gynecologie",
+   "pelvien",
+   "Registre prospectif de la PBM vaginale dans la douleur pelvienne chronique"
+  ],
+  "NCT07800338": [
+   "musculo-squelettique",
+   "ATM",
+   "Laser basse énergie sur le masséter ou ultrasons dans la douleur myofasciale"
+  ],
+  "NCT07806526": [
+   "gynecologie",
+   "obstétrique",
+   "PBM contre placebo : douleur et cicatrisation après césarienne"
+  ],
+  "NCT07807176": [
+   "neurologie",
+   "AVC",
+   "Neuromodulation dont PBM auriculaire, vélo FES et entraînement cognitif après AVC"
+  ],
+  "NCT07810504": [
+   "dermatologie",
+   "alopécie",
+   "Sérum KeraFactor et casque LED Revian dans l'alopécie androgénétique"
+  ],
+  "NCT07810530": [
+   "mucite-orale",
+   "ORL",
+   "Bain de bouche au copaïba associé au laser pour prévenir la mucite"
+  ],
+  "NCT07826117": [
+   "musculo-squelettique",
+   "rachis",
+   "Laser-acupuncture ou acupuncture traditionnelle dans la lombalgie chronique"
+  ],
+  "NCT07832422": [
+   "musculo-squelettique",
+   "rachis",
+   "Compression ischémique et laser basse énergie dans la lombalgie myofasciale"
+  ],
+  "NCT07835399": [
+   "neurologie",
+   "démences",
+   "PBM dans le trouble cognitif léger et l'Alzheimer léger : efficacité et sécurité"
+  ],
+  "NCT07865325": [
+   "musculo-squelettique",
+   "arthrose",
+   "PBM par laser à balayage dans le syndrome fémoro-patellaire"
+  ],
+  "NCT07865780": [
+   "mucite-orale",
+   "ORL",
+   "PBM seule ou avec oxygénothérapie buccale dans la mucite radio-induite"
+  ],
+  "NCT07866716": [
+   "dermatologie",
+   "plaies",
+   "Laser basse énergie contre la douleur des plaies chroniques (Guaviare, Colombie)"
+  ],
+  "NCT07878247": [
+   "musculo-squelettique",
+   "ATM",
+   "Gouttière occlusale et laser basse énergie : évaluation clinique et EMG"
+  ],
+  "NCT07890233": [
+   "dermatologie",
+   "esthétique",
+   "Efficacité d'un masque LED sur la peau du visage"
+  ],
+  "NCT07891585": [
+   "neurologie",
+   "autres",
+   "Laser-acupuncture 810 nm dans la migraine chronique : réponse clinique et imagerie"
+  ],
+  "NCT07895862": [
+   "musculo-squelettique",
+   "muscle",
+   "Effets aigus du laser haute intensité sur la douleur, la raideur et la force chez le sujet sain"
+  ],
+  "NCT07899866": [
+   "dermatologie",
+   "radiodermite",
+   "Facteurs de radiodermite chez les patients ORL sous PBM préventive"
+  ],
+  "NCT07903142": [
+   "musculo-squelettique",
+   "tendon",
+   "Laser haute intensité, stimulation magnétique et ondes de choc dans les troubles musculo-squelettiques"
+  ],
+  "NCT07918157": [
+   "musculo-squelettique",
+   "épaule",
+   "Laser ou TENS dans l'épaule douloureuse de l'hémiplégique"
+  ],
+  "NCT07922681": [
+   "dermatologie",
+   "inflammatoire",
+   "Laser diode 980 nm ou acide hyaluronique dans les aphtes récidivants de l'enfant"
+  ]
+ },
+ "exclus": [
+  "NCT03819062",
+  "NCT04847635",
+  "NCT05335317",
+  "NCT05460143",
+  "NCT05569486",
+  "NCT05595954",
+  "NCT05625828",
+  "NCT05712772",
+  "NCT05916417",
+  "NCT06124820",
+  "NCT06161038",
+  "NCT06395584",
+  "NCT06512870",
+  "NCT06547021",
+  "NCT06552936",
+  "NCT06804564",
+  "NCT06891924",
+  "NCT06897670",
+  "NCT06917599",
+  "NCT06918210",
+  "NCT07026838",
+  "NCT07044596",
+  "NCT07080008",
+  "NCT07086638",
+  "NCT07093229",
+  "NCT07169357",
+  "NCT07205640",
+  "NCT07222722",
+  "NCT07245303",
+  "NCT07309406",
+  "NCT07315841",
+  "NCT07472881",
+  "NCT07532161",
+  "NCT07576062",
+  "NCT07605598",
+  "NCT07606300",
+  "NCT07615478",
+  "NCT07646327",
+  "NCT07840560",
+  "NCT07895667",
+  "NCT07895810"
+ ]
+}

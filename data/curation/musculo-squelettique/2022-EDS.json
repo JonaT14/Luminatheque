@@ -1,0 +1,32 @@
+[
+ {
+  "pmid": "36434419",
+  "title_fr": "Douleurs chroniques du syndrome d'Ehlers-Danlos : revue des traitements",
+  "type": "review",
+  "level": 5,
+  "pop": "adulte",
+  "ctx": [
+   "EDS"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Ehlers-Danlos & hypermobilité",
+  "l1": "Dans le syndrome d'Ehlers-Danlos, surtout hypermobile, les médicaments et la chirurgie soulagent peu ; la kinésithérapie, la TENS, les injections de points gâchettes, la naltrexone à faible dose et le laser sont cités parmi les pistes prometteuses.",
+  "l2": "Revue narrative de la littérature sur la douleur chronique dans le SED.",
+  "l3": {
+   "points": [
+    "Le laser est mentionné parmi les approches nouvelles, sans essai dédié.",
+    "Il faut cibler aussi l'hypermobilité, la sensibilisation centrale et la fatigue."
+   ],
+   "limites": [
+    "Revue narrative ; aucune donnée propre à la PBM dans le SED."
+   ],
+   "pratique": "Aucune preuve spécifique : un essai français (PBM-SEDh-01) est en cours, voir « Études en cours »."
+  }
+ }
+]

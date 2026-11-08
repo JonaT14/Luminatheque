@@ -9,5 +9,6 @@
  "cadence": "hebdomadaire",
  "hero": "la mucite",
  "exclusions_note": "aphtes récurrents, stomatites prothétiques, péri-implantite, laser haute intensité en rhumatologie…",
- "status": "actif"
+ "status": "actif",
+ "trials_cond": "\"oral mucositis\" OR stomatitis OR mucositis"
 }

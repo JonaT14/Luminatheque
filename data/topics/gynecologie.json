@@ -17,5 +17,6 @@
   "pelvien",
   "obstétrique",
   "fertilité"
- ]
+ ],
+ "trials_cond": "vulvodynia OR dysmenorrhea OR \"genitourinary syndrome\" OR \"vaginal atrophy\" OR \"vaginal dryness\" OR \"pelvic pain\" OR \"urinary incontinence\" OR \"nipple pain\" OR episiotomy OR perineal OR endometriosis OR \"lichen sclerosus\" OR menopause OR infertility"
 }

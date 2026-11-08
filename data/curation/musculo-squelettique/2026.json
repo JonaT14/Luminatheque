@@ -1209,5 +1209,64 @@
    ],
    "pratique": "La PBM est une alternative à la gouttière."
   }
+ },
+ {
+  "pmid": "42995454",
+  "title_fr": "PBM des points sensibles masticateurs associée à l'approche de Rocabado dans la DTM myogène : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ATM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 52,
+  "effect": "favorable",
+  "theme": "ATM & douleurs orofaciales",
+  "l1": "Dans la DTM myogène, ajouter la PBM à l'approche de Rocabado améliore davantage les seuils de douleur à la pression que le placebo.",
+  "l2": "Essai randomisé en double aveugle contre placebo, 52 patients, 18 séances sur 6 semaines.",
+  "l3": {
+   "points": [
+    "Les deux groupes progressent ; l'effet propre de la PBM porte sur les seuils de douleur."
+   ],
+   "limites": [
+    "Évaluation juste après le traitement, sans suivi."
+   ],
+   "pratique": "Complément possible des exercices de Rocabado."
+  }
+ },
+ {
+  "pmid": "42997425",
+  "title_fr": "Laser-acupuncture haute puissance, fatigue et proprioception dans la lombalgie chronique : essai contre sham",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "rachis"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser-acupuncture",
+   "haute puissance"
+  ],
+  "nm": [],
+  "n": 60,
+  "effect": "favorable",
+  "theme": "Rachis : lombalgie, cervicalgie, radiculopathie",
+  "l1": "Dans la lombalgie chronique non spécifique, ajouter la laser-acupuncture haute puissance à l'exercice retarde la fatigue des muscles du dos (+7 répétitions) et réduit l'erreur proprioceptive lombaire.",
+  "l2": "Essai randomisé en double aveugle contre sham, 60 adultes de 20 à 40 ans, 6 semaines.",
+  "l3": {
+   "points": [
+    "Mesures isocinétiques objectives."
+   ],
+   "limites": [
+    "Population jeune ; pas de suivi après la fin du traitement."
+   ],
+   "pratique": "Complément de l'exercice à confirmer."
+  }
  }
 ]
