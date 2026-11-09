@@ -153,6 +153,36 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from pertinence import is_pbm  # noqa: E402  filtre des notices hors sujet
 
 
+RX_SUPER = re.compile(r"super[- ]?puls", re.I)
+RX_PULSE = re.compile(r"\bpulsed\b|\bpulsée?s?\b|\bpulse (?:mode|frequency|repetition|duration|width)|\bpulsatile light|\b\d+(?:[.,]\d+)?\s?k?Hz\b|\bmodulated (?:at|light)", re.I)
+RX_NOT_PBM_PULSE = re.compile(r"pulsed[- ]dye|intense pulsed light|\bIPL\b|pulsed (?:electromagnetic|electro-magnetic|radiofrequency|radio-frequency|ultrasound|magnetic|current|electrical|shortwave|short-wave)|\bPEMF\b|\b(?:EMF|ultrasound|TENS|electrical stimulation|rTMS|ultrasonic)[^.]{0,40}\d+\s?k?Hz", re.I)
+RX_CW = re.compile(r"continuous[- ]wave|\bCW\b|continuous (?:mode|emission|output|irradiation|light)|(?:mode|émission|onde) continue?\b|en continu\b", re.I)
+RX_NM = re.compile(r"(\d{3,4})(?:[.,]\d+)?\s?(?:(?:[-–/]|and|et|or|ou|to|à)\s?(\d{3,4})(?:[.,]\d+)?\s?)?(?:nm|nanomet)", re.I)
+RX_VIVO = re.compile(r"\b(?:rats?|mice|mouse|murine|rabbits?|dogs?|pigs?|swine|sheep|hamsters?|guinea pigs?|zebrafish|animals?|in vivo|horses?|equine|primates?|monkeys?)\b", re.I)
+RX_VITRO = re.compile(r"\bin vitro\b|cell (?:culture|line)s?|cultured|fibroblasts?|keratinocytes?|osteoblasts?|stem cells?|\bcells were\b|\bex vivo\b", re.I)
+
+
+def quick_tags(text: str, typ: str) -> dict:
+    """Badges de lecture rapide déduits du texte : mode d'émission, longueurs d'onde, modèle préclinique."""
+    em = []
+    if RX_SUPER.search(text):
+        em.append("super")
+    if RX_PULSE.search(RX_NOT_PBM_PULSE.sub("", RX_SUPER.sub("", text))):
+        em.append("pulse")
+    if RX_CW.search(text):
+        em.append("cw")
+    nm = set()
+    for m in RX_NM.finditer(text):
+        for g in m.groups():
+            if g and 380 <= int(g) <= 1100:
+                nm.add(int(g))
+    pre = ""
+    if typ == "preclinical":
+        vivo, vitro = bool(RX_VIVO.search(text)), bool(RX_VITRO.search(text))
+        pre = "both" if vivo and vitro else "vivo" if vivo else "vitro" if vitro else ""
+    return {"em": em, "nm_auto": sorted(nm)[:6], "pre": pre}
+
+
 def depth_of(c: dict) -> int:
     """État de lecture d'une fiche : 2 = analyse approfondie (niveau 2 développé et points clés), 1 = publication évaluée."""
     l3 = c.get("l3") or {}
@@ -220,7 +250,14 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
         if not r:
             raise SystemExit(f"PMID {pmid} curé mais absent de data/raw")
         date = article_date(r, since)
-        articles.append({**c, **common(r, topic_id, date), "curated": True, "depth": depth_of(c),
+        l3 = c.get("l3") or {}
+        txt = " ".join([r.get("title", ""), " ".join(x["text"] if isinstance(x, dict) else str(x) for x in (r.get("abstract") or [])),
+                        c.get("l2") or "", " ".join((l3.get("points") or []) if isinstance(l3, dict) else [])])
+        qt = quick_tags(txt, c.get("type"))
+        extra = {"em": qt["em"], "pre": qt["pre"]}
+        if not c.get("nm") and qt["nm_auto"]:
+            extra["nm"], extra["nm_auto"] = qt["nm_auto"], True
+        articles.append({**c, **extra, **common(r, topic_id, date), "curated": True, "depth": depth_of(c),
                          "abstract": r.get("abstract", []), "keywords": r.get("keywords", [])[:10]})
     for pmid, r in raw.items():
         if pmid in curated or pmid in excluded:
@@ -233,9 +270,11 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
             offtopic.append([pmid, topic_id, date[:4], r["title"][:200], why])
             continue
         t, lvl = auto_type(r)
+        qt = quick_tags(r.get("title", "") + " " + " ".join(x["text"] if isinstance(x, dict) else str(x) for x in (r.get("abstract") or [])), t)
         articles.append({
             **common(r, topic_id, date), "curated": False, "type": t, "level": lvl, "effect": "—",
-            "theme": "Non analysé", "ctx": auto_subgroups(topic_id, r), "pop": "—", "aim": "—", "mode": [], "nm": [], "n": None,
+            "theme": "Non analysé", "ctx": auto_subgroups(topic_id, r), "pop": "—", "aim": "—", "mode": [], "nm": qt["nm_auto"], "n": None,
+            "em": qt["em"], "pre": qt["pre"],
             "title_fr": r["title"], "l1": conclusion(r, 240), "kw": " ".join((r.get("keywords") or [])[:6] + (r.get("mesh") or [])[:6])[:160],
         })
         if r.get("abstract"):
@@ -255,7 +294,7 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
     return meta, articles, syntheses, abstracts
 
 
-RAW_DEFAULTS = {"theme": "Non analysé", "effect": "—", "pop": "—", "aim": "—", "mode": [], "nm": [], "n": None,
+RAW_DEFAULTS = {"em": [], "pre": "", "theme": "Non analysé", "effect": "—", "pop": "—", "aim": "—", "mode": [], "nm": [], "n": None,
                 "doi": None, "pmcid": None, "license": None, "pdf": None, "oa": False, "cited_by": 0, "pub_types": []}
 
 

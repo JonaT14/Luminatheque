@@ -54,7 +54,7 @@ const state = {
   level: store.get("level", 1),
   q: "",
   limit: 60,
-  f: { fiche: new Set(), years: new Set(), groups: new Set(), levels: new Set(), pops: new Set(), ctx: new Set(), effects: new Set(), themes: new Set(), pdf: false, key: false, reco: false, from: "", to: "" },
+  f: { fiche: new Set(), years: new Set(), groups: new Set(), levels: new Set(), pops: new Set(), ctx: new Set(), effects: new Set(), themes: new Set(), quick: new Set(), bands: new Set(), em: new Set(), pdf: false, key: false, reco: false, from: "", to: "" },
   sort: "date",
   cardLevel: new Map(),
   selected: new Set(store.get("selected", [])),
@@ -157,6 +157,9 @@ function filtered(list = all()) {
     if (f.key && !a.key) return false;
     if (f.reco && !(a.type === "guideline" || /position paper|consensus|guideline|recommendation|WALT/i.test(a.title || ""))) return false;
     if (f.fiche.size && !f.fiche.has(READ_STATE[rstate(a)][0])) return false;
+    if (f.quick.size && !f.quick.has(quickType(a).k)) return false;
+    if (f.bands.size && !(a.nm || []).some((n) => f.bands.has(nmBand(n)))) return false;
+    if (f.em.size && !f.em.has(emOf(a)[0] || "nd") && !emOf(a).some((x) => f.em.has(x))) return false;
     if (f.from && a.date < f.from) return false;
     if (f.to && a.date > f.to) return false;
     return true;
@@ -191,10 +194,11 @@ const paras = (t) => String(t || "").split(/\n\n+/).map((p) => `<p>${hl(p, state
 
 function cardRaw(a, opts = {}) {
   return `<article class="card raw" data-pmid="${a.pmid}">
-    <div class="card-top"><div class="badges">${stBadge(a)}${typeBadge(a)}${lvlBadge(a)}${(a.ctx || []).slice(0, 2).map((c) => `<span class="badge">${esc(CTX[c] || c)}</span>`).join("")}</div>
+    <div class="card-top"><div class="badges">${stBadge(a)}${(a.ctx || []).slice(0, 2).map((c) => `<span class="badge">${esc(CTX[c] || c)}</span>`).join("")}</div>
     ${opts.noSel ? "" : `<label class="sel"><input type="checkbox" data-sel="${a.pmid}" ${state.selected.has(a.pmid) ? "checked" : ""}> Sélectionner</label>`}</div>
     <h3 lang="en"><a href="/article/${a.pmid}">${hl(a.title, state.q)}</a></h3>
     <div class="src">${metaLine(a)}</div>
+    ${quickBlock(a)}
     ${a.l1 ? `<p class="l1" lang="en"><span class="eyebrow" style="display:block;margin-bottom:4px">Conclusion des auteurs (VO)</span>${hl(a.l1, state.q)}</p>` : ""}
     <div class="card-actions"><a class="btn small" href="/article/${a.pmid}">Résumé complet</a><a class="btn small" href="https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/" target="_blank" rel="noopener">PubMed ↗</a></div></article>`;
 }
@@ -211,6 +215,43 @@ function stateBar(list, link = true) {
     <ul class="rslegend">${[2, 1, 0].map((i) => `<li><span class="rs" data-s="${i}"><i aria-hidden="true"></i>${READ_STATE[i][1]}</span><b class="mono">${n[i].toLocaleString("fr-FR")}</b><small>${Math.round(100 * n[i] / tot)} %</small></li>`).join("")}</ul>
     ${link ? `<a class="muted" style="font-size:.78rem" href="/methode#etats">Que signifient ces trois états ?</a>` : ""}</div>`;
 }
+/* lecture rapide : type d'étude et grade, longueurs d'onde, mode d'émission */
+const GRADE = { 1: "A", 2: "B", 3: "C", 4: "C" };
+function quickType(a) {
+  const g = groupOf(a);
+  if (a.type === "preclinical") return a.pre === "vitro" ? { k: "vitro", c: "pre", l: "In vitro / Lab", ic: "vitro" } : a.pre === "both" ? { k: "vivo", c: "pre", l: "In vivo + in vitro", ic: "vivo" } : { k: "vivo", c: "pre", l: "In vivo / Animal", ic: "vivo" };
+  if (g === "syn") return { k: "syn", c: "syn", l: a.type === "guideline" ? "Recommandation" : a.type === "umbrella" ? "Revue de revues" : a.type === "ma" ? "Méta-analyse" : "Revue systématique", ic: "scale" };
+  if (g === "rct") return { k: "rct", c: "rct", l: "Essai randomisé (ECR)", ic: "scale" };
+  if (g === "clin") return { k: "clin", c: "clin", l: typeLabel(a), ic: "people" };
+  return { k: "autre", c: "other", l: typeLabel(a), ic: "doc" };
+}
+const QT_LABEL = { syn: "Synthèses et recommandations", rct: "Essais randomisés", clin: "Études cliniques non randomisées", vivo: "In vivo / animal", vitro: "In vitro / laboratoire", autre: "Revues narratives et autres" };
+const QI = {
+  scale: '<path d="M12 4v16M7 20h10M5 8h14M5 8l-2.5 6a3 3 0 0 0 5 0zM19 8l-2.5 6a3 3 0 0 0 5 0z"/>',
+  people: '<circle cx="9" cy="8" r="3"/><path d="M3 20c.7-3.5 3-5 6-5s5.3 1.5 6 5"/><circle cx="17" cy="9" r="2.3"/><path d="M16 14.2c2.6-.2 4.5 1.3 5 4.3"/>',
+  vivo: '<ellipse cx="11" cy="14" rx="7" ry="5"/><circle cx="17.5" cy="9" r="2.6"/><path d="M4 15c-2 0-2.5 2-1 3"/><circle cx="18" cy="8.6" r=".5"/>',
+  vitro: '<path d="M9 3h6M10 3v7l-5 8.5A1.7 1.7 0 0 0 6.5 21h11a1.7 1.7 0 0 0 1.5-2.5L14 10V3"/><circle cx="10" cy="16" r="1"/><circle cx="14" cy="17.5" r="1"/>',
+  doc: '<path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4"/>',
+  cw: '<path d="M2 12h3l2-5 3 10 3-10 3 10 2-5h4"/>',
+  pulse: '<path d="M2 14h3V6h3v8h3V6h3v8h3V6h3v8"/>',
+  super: '<path d="M2 15h2l1.2-9 1.2 9H9l1.2-9 1.2 9h2.4l1.2-9 1.2 9h2.4l1.2-9 1.2 9H22"/>',
+};
+const qi = (k) => `<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true">${QI[k]}</svg>`;
+const nmBand = (n) => n < 570 ? "bleu-vert" : n < 620 ? "jaune-orange" : n < 700 ? "rouge" : n < 780 ? "rouge lointain" : n <= 1000 ? "proche infrarouge" : "infrarouge > 1000 nm";
+const BANDS = ["bleu-vert", "jaune-orange", "rouge", "rouge lointain", "proche infrarouge", "infrarouge > 1000 nm"];
+const EM = { cw: ["CW (continu)", "cw"], pulse: ["Pulsé (Hz)", "pulse"], super: ["Super-pulsé", "super"], nd: ["Mode non précisé", ""] };
+const emOf = (a) => a.em || [];
+function quickBlock(a) {
+  const q = quickType(a), gr = GRADE[a.level];
+  const nm = [...new Set((a.nm || []).map(Math.round))].sort((x, y) => x - y).slice(0, 5);
+  const em = emOf(a);
+  const auto = a.curated === false ? " (détecté automatiquement)" : "";
+  return `<div class="qb">
+    <div class="qb-row"><span class="qb-l">Preuve · type d'étude</span><div class="qb-b"><button type="button" class="qtag" data-qc="${q.c}" data-f="quick" data-v="${q.k}" aria-pressed="${state.f.quick.has(q.k)}" title="Filtrer : ${esc(QT_LABEL[q.k])}">${qi(q.ic)}${esc(q.l)}${gr ? ` · Grade ${gr}` : ""}</button>${a.level ? `<span class="qtag lvlq" data-l="${a.level}" title="${esc(LEVELS[a.level][1])}">Niveau ${a.level}</span>` : ""}</div></div>
+    <div class="qb-row"><span class="qb-l">Longueurs d'onde</span><div class="qb-b">${nm.length ? nm.map((n) => `<button type="button" class="qnm" style="--nm:${nmColor(n)}" data-f="bands" data-v="${nmBand(n)}" aria-pressed="${state.f.bands.has(nmBand(n))}" title="Filtrer : ${nmBand(n)}${auto}"><i></i>${n} nm</button>`).join("") : `<span class="qtag qnd">Non précisées</span>`}</div></div>
+    <div class="qb-row"><span class="qb-l">Mode d'émission</span><div class="qb-b">${(em.length ? em : ["nd"]).map((k) => `<button type="button" class="qtag qem" data-em="${EM[k][1]}" data-f="em" data-v="${k}" aria-pressed="${state.f.em.has(k)}" title="Filtrer : ${EM[k][0]}${k !== "nd" ? auto : ""}">${k !== "nd" ? qi(k) : ""}${EM[k][0]}</button>`).join("")}</div></div>
+  </div>`;
+}
 function card(a, opts = {}) {
   if (!a.curated && a.curated !== undefined) return cardRaw(a, opts);
   const lv = state.cardLevel.get(a.pmid) || state.level;
@@ -218,10 +259,11 @@ function card(a, opts = {}) {
     : lv === 2 ? `<p class="l1">${hl(a.l1, state.q)}</p><div class="more prose">${paras(a.l2)}</div>`
     : `<p class="l1">${hl(a.l1, state.q)}</p><div class="more prose">${paras(a.l2)}${l3Html(a)}</div>`;
   return `<article class="card" data-pmid="${a.pmid}">
-    <div class="card-top"><div class="badges">${stBadge(a)}${typeBadge(a)}${lvlBadge(a)}${effBadge(a)}${a.pdf ? '<span class="pdf-flag">PDF</span>' : ""}${a.key ? '<span class="star">★ À retenir</span>' : ""}</div>
+    <div class="card-top"><div class="badges">${stBadge(a)}${effBadge(a)}${a.pdf ? '<span class="pdf-flag">PDF</span>' : ""}${a.key ? '<span class="star">★ À retenir</span>' : ""}</div>
     ${opts.noSel ? "" : `<label class="sel"><input type="checkbox" data-sel="${a.pmid}" ${state.selected.has(a.pmid) ? "checked" : ""}> Sélectionner</label>`}</div>
     <h3><a href="/article/${a.pmid}">${hl(a.title_fr, state.q)}</a></h3>
     <div class="src">${metaLine(a)}</div>
+    ${quickBlock(a)}
     ${body}
     <div class="card-actions">
       ${lv < 3 ? `<button class="btn small" data-more="${a.pmid}">${levelBars(lv + 1)}Lire plus · ${READ[lv + 1][0]}</button>` : `<button class="btn small" data-less="${a.pmid}">Réduire</button>`}
@@ -733,6 +775,9 @@ function viewPubs() {
       </div>
       ${filterGroup("État de lecture", "fiche", [...countBy(base, (a) => READ_STATE[rstate(a)][0]).entries()].sort((x, y) => READ_STATE.findIndex((r) => r[0] === y[0]) - READ_STATE.findIndex((r) => r[0] === x[0])), (v) => (READ_STATE.find((r) => r[0] === v) || [v, v])[1])}
       ${filterGroup("Année", "years", [...countBy(base, (a) => a.year).entries()].sort((a, b) => b[0] - a[0]))}
+      ${filterGroup("Lecture rapide · type", "quick", ord(countBy(base, (a) => quickType(a).k), ["syn", "rct", "clin", "vivo", "vitro", "autre"]), (v) => QT_LABEL[v])}
+      ${filterGroup("Longueur d'onde", "bands", ord(countBy(base, (a) => [...new Set((a.nm || []).map(nmBand))]), BANDS), (v) => v)}
+      ${filterGroup("Mode d'émission", "em", ord(countBy(base, (a) => emOf(a).length ? emOf(a) : ["nd"]), ["cw", "pulse", "super", "nd"]), (v) => EM[v][0])}
       ${filterGroup("Type d'étude", "groups", ord(countBy(base, groupOf), GROUPS.map((g) => g.id)), (v) => GROUPS.find((g) => g.id === v).label)}
       ${filterGroup("Niveau de preuve", "levels", ord(countBy(base, (a) => a.level), [1, 2, 3, 4, 5, 0]), (v) => v ? `${v} · ${LEVELS[v][0]}` : "Non gradé")}
       ${filterGroup("Résultat", "effects", ord(countBy(base.filter((a) => EFFECTS[a.effect]), (a) => a.effect), Object.keys(EFFECTS)), (v) => EFFECTS[v][0])}
@@ -1768,7 +1813,8 @@ document.addEventListener("click", async (e) => {
   else if (d.aread) { state.cardLevel.set(legacyHash().slice(8), +d.aread); rerender(); }
   else if (d.more) { state.cardLevel.set(d.more, Math.min(3, (state.cardLevel.get(d.more) || state.level) + 1)); rerender(); }
   else if (d.less) { state.cardLevel.set(d.less, 1); rerender(); }
-  else if (d.f) { const set = state.f[d.f]; const v = ["years", "levels"].includes(d.f) ? +d.v : d.v; set.has(v) ? set.delete(v) : set.add(v); rerender(); }
+  else if (d.f) { const set = state.f[d.f]; const v = ["years", "levels"].includes(d.f) ? +d.v : d.v; set.has(v) ? set.delete(v) : set.add(v);
+    if (legacyHash() === "publications") rerender(); else { state.filtersOpen = true; go("publications"); } }
   else if (d.preset) {
     const p = d.preset; const td = today();
     if (p === "7j") { state.f.from = iso(new Date(Date.now() - 7 * 864e5)); state.f.to = td; }
@@ -1855,7 +1901,7 @@ $("#scrim")?.addEventListener("click", () => setMenu(false));
 addEventListener("keydown", (e) => { if (e.key === "Escape" && document.body.classList.contains("menu-open")) setMenu(false); });
 $("#side-find")?.addEventListener("input", () => renderTopics());
 const sideBtn = $("#side-toggle");
-function applySide(off) { document.body.classList.toggle("side-off", off); sideBtn?.setAttribute("aria-expanded", String(!off)); sideBtn?.setAttribute("aria-label", off ? "Afficher le menu" : "Masquer le menu"); }
+function applySide(off) { document.body.classList.toggle("side-off", off); sideBtn?.setAttribute("aria-expanded", String(!off)); sideBtn?.setAttribute("aria-label", off ? "Afficher le menu" : "Masquer le menu"); sideBtn?.setAttribute("data-tip", off ? "Afficher le menu" : "Masquer le menu"); }
 applySide(store.get("side-off", false));
 sideBtn?.addEventListener("click", () => { const off = !document.body.classList.contains("side-off"); store.set("side-off", off); applySide(off); });
 const themeBtn = $("#theme-toggle");
