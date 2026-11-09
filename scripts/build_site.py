@@ -483,9 +483,9 @@ def main() -> None:
                        and (d.get("techno") == fam["id"] or (fam["id"] == "endo" and d.get("categorie") in fam["types"]))]
                 seen_p, union = set(), []
                 for i in ids:
-                    for h in hits[i]:
-                        if h["p"] not in seen_p:
-                            seen_p.add(h["p"]); union.append(h)
+                    for hit in hits[i]:
+                        if hit["p"] not in seen_p:
+                            seen_p.add(hit["p"]); union.append(hit)
                 tr = {x["n"]: x for i in ids for x in trial_hits[i]}
                 union.sort(key=lambda h: (-h["c"], -h["y"]))
                 fam.update({"membres": [i for i in ids if i in kept], "n": len(union), "nc": sum(h["c"] for h in union),
@@ -545,6 +545,11 @@ def main() -> None:
                "drafts_file": drafts_file, "securite": json.loads((ROOT / "data/securite.json").read_text()) if (ROOT / "data/securite.json").exists() else None, "reco": json.loads((ROOT / "data/recommandations.json").read_text()) if (ROOT / "data/recommandations.json").exists() else None, "n_drafts": len(drafts), "repo": REPO,
                "alerts_api": ALERTS_API,
                "patients": json.loads((ROOT / "data/fiches_patients.json").read_text()) if (ROOT / "data/fiches_patients.json").exists() else []}
+    # garde-fou : chaque fichier annoncé au site doit exister (sinon une page reste bloquée sur « Chargement… »)
+    missing = [v for k, v in payload.items() if k.endswith("_file") and v and not (ROOT / v).exists()]
+    missing += [t["file"] for t in topics if t.get("file") and not (ROOT / t["file"]).exists()]
+    if missing:
+        raise SystemExit(f"Fichiers de données introuvables : {missing}")
     out = ROOT / "assets/data.js"
     out.write_text("window.LUMINA = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n")
     stamp_assets()
