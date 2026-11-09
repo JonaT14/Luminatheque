@@ -21,6 +21,7 @@ import html
 import json
 import pathlib
 import re
+import shutil
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = "https://luminatheque.onrender.com"
@@ -76,6 +77,8 @@ def main():
     ap.add_argument("--sortie", default=str(ROOT))
     out = pathlib.Path(ap.parse_args().sortie)
     D = payload(ROOT / "assets/data.js")
+    if (out / "p").exists():
+        shutil.rmtree(out / "p")  # repartir de zéro : une publication écartée ne doit plus avoir de page
     pg = Pages(out)
     topics = [t for t in D["topics"] if t.get("file")]
     labels = {t["id"]: t["label"] for t in topics}
@@ -84,10 +87,10 @@ def main():
     for t in topics:
         syn = (D.get("syntheses", {}).get(t["id"]) or {}).get("global") or {}
         intro = f"<p>{E(t.get('description'))}</p>"
-        stats = f"<p>{t.get('n', 0)} publications indexées depuis 2000, dont {t.get('n_curated', 0)} fiches rédigées en trois niveaux de lecture.</p>"
+        stats = f"<p>{t.get('n', 0)} notices indexées depuis 2000, dont {t.get('n_curated', 0)} publications évaluées après lecture et {t.get('n_deep', 0)} analyses approfondies en trois niveaux de lecture.</p>"
         low = t["label"] if t["label"].isupper() else t["label"].lower()
         pg.write(f"/{t['id']}", f"Photobiomodulation et {low} · Luminathèque",
-                 short(f"Veille scientifique sur la photobiomodulation en {t['label'].lower()} : {t.get('n', 0)} publications, {t.get('n_curated', 0)} fiches rédigées, synthèses, essais en cours et paramètres."),
+                 short(f"Veille scientifique sur la photobiomodulation en {t['label'].lower()} : {t.get('n', 0)} notices indexées, {t.get('n_curated', 0)} publications évaluées, {t.get('n_deep', 0)} analyses approfondies, synthèses, essais en cours et paramètres."),
                  f"<h1>Photobiomodulation · {E(t['label'])}</h1>{intro}{stats}" + (f"<h2>{E(syn.get('headline'))}</h2><p>{E(syn.get('l1'))}</p>" if syn else ""))
         for v, lab in VIEWS.items():
             desc = {"publications": f"Les {t.get('n', 0)} publications sur la photobiomodulation en {t['label'].lower()}, classées par type d'étude, niveau de preuve et résultat.",

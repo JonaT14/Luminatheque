@@ -156,7 +156,7 @@ function filtered(list = all()) {
     if (f.pdf && !a.pdf) return false;
     if (f.key && !a.key) return false;
     if (f.reco && !(a.type === "guideline" || /position paper|consensus|guideline|recommendation|WALT/i.test(a.title || ""))) return false;
-    if (f.fiche.size && !f.fiche.has(a.curated === false ? "indexée" : "rédigée")) return false;
+    if (f.fiche.size && !f.fiche.has(READ_STATE[rstate(a)][0])) return false;
     if (f.from && a.date < f.from) return false;
     if (f.to && a.date > f.to) return false;
     return true;
@@ -191,12 +191,25 @@ const paras = (t) => String(t || "").split(/\n\n+/).map((p) => `<p>${hl(p, state
 
 function cardRaw(a, opts = {}) {
   return `<article class="card raw" data-pmid="${a.pmid}">
-    <div class="card-top"><div class="badges"><span class="badge raw-badge">Non analysé</span>${typeBadge(a)}${lvlBadge(a)}${(a.ctx || []).slice(0, 2).map((c) => `<span class="badge">${esc(CTX[c] || c)}</span>`).join("")}</div>
+    <div class="card-top"><div class="badges">${stBadge(a)}${typeBadge(a)}${lvlBadge(a)}${(a.ctx || []).slice(0, 2).map((c) => `<span class="badge">${esc(CTX[c] || c)}</span>`).join("")}</div>
     ${opts.noSel ? "" : `<label class="sel"><input type="checkbox" data-sel="${a.pmid}" ${state.selected.has(a.pmid) ? "checked" : ""}> Sélectionner</label>`}</div>
     <h3 lang="en"><a href="/article/${a.pmid}">${hl(a.title, state.q)}</a></h3>
     <div class="src">${metaLine(a)}</div>
     ${a.l1 ? `<p class="l1" lang="en"><span class="eyebrow" style="display:block;margin-bottom:4px">Conclusion des auteurs (VO)</span>${hl(a.l1, state.q)}</p>` : ""}
     <div class="card-actions"><a class="btn small" href="/article/${a.pmid}">Résumé complet</a><a class="btn small" href="https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/" target="_blank" rel="noopener">PubMed ↗</a></div></article>`;
+}
+/* trois états de lecture : notice indexée → publication évaluée → analyse approfondie */
+const READ_STATE = [
+  ["indexée", "Notice indexée", "Retrouvée par la veille et retenue par le tri automatique de pertinence. Type d'étude et niveau de preuve déduits de PubMed, non relus."],
+  ["évaluée", "Publication évaluée", "Résumé lu : type d'étude, niveau de preuve, population, sous-thème et sens du résultat vérifiés, avec un résumé en une phrase. Les niveaux 2 et 3 restent sommaires."],
+  ["approfondie", "Analyse approfondie", "Fiche complète en trois niveaux de lecture : méthode et résultats chiffrés, points forts, limites et portée pratique."]];
+const rstate = (a) => a.curated === false ? 0 : (a.depth || 1);
+const stBadge = (a) => { const i = rstate(a); return `<span class="rs" data-s="${i}" title="${esc(READ_STATE[i][2])}"><i aria-hidden="true"></i>${READ_STATE[i][1]}</span>`; };
+function stateBar(list, link = true) {
+  const n = [0, 0, 0]; list.forEach((a) => n[rstate(a)]++); const tot = list.length || 1;
+  return `<div class="rsbar-wrap"><div class="rsbar" role="img" aria-label="${n[0]} notices indexées, ${n[1]} publications évaluées, ${n[2]} analyses approfondies">${[2, 1, 0].map((i) => n[i] ? `<i data-s="${i}" style="flex:${n[i]}"></i>` : "").join("")}</div>
+    <ul class="rslegend">${[2, 1, 0].map((i) => `<li><span class="rs" data-s="${i}"><i aria-hidden="true"></i>${READ_STATE[i][1]}</span><b class="mono">${n[i].toLocaleString("fr-FR")}</b><small>${Math.round(100 * n[i] / tot)} %</small></li>`).join("")}</ul>
+    ${link ? `<a class="muted" style="font-size:.78rem" href="/methode#etats">Que signifient ces trois états ?</a>` : ""}</div>`;
 }
 function card(a, opts = {}) {
   if (!a.curated && a.curated !== undefined) return cardRaw(a, opts);
@@ -205,7 +218,7 @@ function card(a, opts = {}) {
     : lv === 2 ? `<p class="l1">${hl(a.l1, state.q)}</p><div class="more prose">${paras(a.l2)}</div>`
     : `<p class="l1">${hl(a.l1, state.q)}</p><div class="more prose">${paras(a.l2)}${l3Html(a)}</div>`;
   return `<article class="card" data-pmid="${a.pmid}">
-    <div class="card-top"><div class="badges">${typeBadge(a)}${lvlBadge(a)}${effBadge(a)}${a.pdf ? '<span class="pdf-flag">PDF</span>' : ""}${a.key ? '<span class="star">★ À retenir</span>' : ""}</div>
+    <div class="card-top"><div class="badges">${stBadge(a)}${typeBadge(a)}${lvlBadge(a)}${effBadge(a)}${a.pdf ? '<span class="pdf-flag">PDF</span>' : ""}${a.key ? '<span class="star">★ À retenir</span>' : ""}</div>
     ${opts.noSel ? "" : `<label class="sel"><input type="checkbox" data-sel="${a.pmid}" ${state.selected.has(a.pmid) ? "checked" : ""}> Sélectionner</label>`}</div>
     <h3><a href="/article/${a.pmid}">${hl(a.title_fr, state.q)}</a></h3>
     <div class="src">${metaLine(a)}</div>
@@ -542,7 +555,7 @@ async function homeSuggest(q) {
   render(grp("Publications", [`<span class="sug muted"><small>Recherche dans les ${kfmt(D.topics.reduce((a, t) => a + (t.n || 0), 0))} publications…</small></span>`]));
   const S = await ensureSearch().catch(() => null); if (!S || normTxt($("#home-q")?.value || "").trim() !== nq) return;
   const hits = searchRows(S, q);
-  render(grp(`Publications · ${hits.length}`, [...hits.slice(0, 5).map((i) => { const r = S.rows[i]; return `<a class="sug" href="/article/${r[0]}" data-tp="${S.topics[r[1]]}"><b>${esc(r[8])}</b><small>${esc(topicShort(S.topics[r[1]]))} · ${r[2]}${r[5] ? " · fiche rédigée" : ""}</small></a>`; }),
+  render(grp(`Publications · ${hits.length}`, [...hits.slice(0, 5).map((i) => { const r = S.rows[i]; return `<a class="sug" href="/article/${r[0]}" data-tp="${S.topics[r[1]]}"><b>${esc(r[8])}</b><small>${esc(topicShort(S.topics[r[1]]))} · ${r[2]}${r[5] ? (r[5] === 2 ? " · analyse approfondie" : " · évaluée") : ""}</small></a>`; }),
     `<a class="sug sug-all" href="/recherche?q=${encodeURIComponent(q.trim())}"><b>${hits.length ? `Voir les ${hits.length} publications →` : "Aucune publication : ouvrir la bibliothèque →"}</b></a>`]));
 }
 function newsBlock() {
@@ -558,7 +571,7 @@ function newsBlock() {
   return `<section class="home-news" aria-labelledby="news-h"><div class="home-h"><div><span class="eyebrow">Nouveautés scientifiques</span><h2 id="news-h">${when}</h2></div>
       <p class="muted">Les dernières publications pertinentes, les recommandations actualisées et les nouveaux essais cliniques, toutes spécialités confondues. Mise à jour le ${fmtDate(D.generated)}.</p></div>
     <div class="news-cols">
-      <div class="news-col"><h3>${svgI("doc")}Publications <span class="n">${arts.length}</span></h3><ul>${arts.slice(0, 6).map(([k, v]) => { const [tp, pm] = k.split(":"); return `<li><a href="/article/${pm}" data-tp="${tp}">${esc(v[4])}</a><small>${esc(topicShort(tp))} · ${fmtDate(v[0])}${v[1] ? ` · <b>fiche rédigée</b>${v[2] ? ` · niveau ${v[2]}` : ""}` : " · notice"}</small></li>`; }).join("") || '<li class="muted">Rien de nouveau sur la période.</li>'}</ul></div>
+      <div class="news-col"><h3>${svgI("doc")}Publications <span class="n">${arts.length}</span></h3><ul>${arts.slice(0, 6).map(([k, v]) => { const [tp, pm] = k.split(":"); return `<li><a href="/article/${pm}" data-tp="${tp}">${esc(v[4])}</a><small>${esc(topicShort(tp))} · ${fmtDate(v[0])}${v[1] ? ` · <b>évaluée</b>${v[2] ? ` · niveau ${v[2]}` : ""}` : " · notice indexée"}</small></li>`; }).join("") || '<li class="muted">Rien de nouveau sur la période.</li>'}</ul></div>
       <div class="news-col"><h3>${svgI("flask")}Essais cliniques <span class="n">${ess.length}</span></h3><ul>${ess2.slice(0, 5).map(([id, v]) => `<li><a href="/${v[2]}/essais" data-tp="${v[2]}">${esc(v[4])}</a><small>${esc(topicShort(v[2]))} · ${esc(id)} · ${v[0] === v[1] ? "nouvel essai" : "statut mis à jour"} le ${fmtDate(v[0] >= v[1] ? v[0] : v[1])}</small></li>`).join("") || '<li class="muted">Aucun nouvel essai.</li>'}</ul></div>
       <div class="news-col"><h3>${svgI("check")}Recommandations</h3><ul>${recos.map(([, r]) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.org)} ${r.annee} · ${esc(r.titre)}</a><small>${esc(r.type)}${r.date ? ` · ${esc(r.date)}` : ""}</small></li>`).join("")}</ul><a class="more" href="/parametres" data-parall>Toutes les fiches paramètres →</a></div>
     </div></section>`;
@@ -576,10 +589,10 @@ const svgI = (k, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24"
 function viewLanding() {
   setNav("home"); renderTopics();
   const act = D.topics.filter((t) => !isSoon(t));
-  const nPub = act.reduce((a, t) => a + (t.n || 0), 0), nCur = act.reduce((a, t) => a + (t.n_curated || 0), 0), nTr = act.reduce((a, t) => a + (t.trials?.now || 0) + (t.trials?.soon || 0), 0);
+  const nPub = act.reduce((a, t) => a + (t.n || 0), 0), nCur = act.reduce((a, t) => a + (t.n_curated || 0), 0), nDeep = act.reduce((a, t) => a + (t.n_deep || 0), 0), nTr = act.reduce((a, t) => a + (t.trials?.now || 0) + (t.trials?.soon || 0), 0);
   const nInd = indications().length, nPar = act.reduce((a, t) => a + (t.params?.length || 0), 0);
   const entries = [["steth", "Indications cliniques", "Explorer les pathologies", `${nInd} indications, de l'arthrose à la mucite`, "#indications", ""],
-    ["book", "Bibliothèque", "Publications et synthèses", `${kfmt(nPub)} publications, ${kfmt(nCur)} fiches rédigées`, "/recherche", ""],
+    ["book", "Bibliothèque", "Publications et synthèses", `${kfmt(nPub)} notices, ${kfmt(nCur)} évaluées, ${nDeep} analyses approfondies`, "/recherche", ""],
     ["dial", "Protocoles", "Paramètres et dosimétrie", `${nPar} fiches paramètres, recommandations AFSOS, MASCC et WALT`, "/parametres", " data-parall"],
     ["person", "Fiches patients", "Explications à imprimer", `${(D.patients || []).length} fiches illustrées en PDF A4`, "/patients", ""]];
   app().innerHTML = `<div class="view home">
@@ -590,7 +603,7 @@ function viewLanding() {
         <input id="home-q" type="search" placeholder="Une pathologie, un traitement, une étude…" aria-label="Rechercher une pathologie, un traitement ou une étude" autocomplete="off" aria-controls="home-sug">
         <div class="home-sug" id="home-sug" hidden></div></div>
       <p class="home-try">Par exemple : ${["mucite", "arthrose du genou", "radiodermite", "sécheresse vaginale", "neuropathie chimio-induite", "myopie"].map((x) => `<button type="button" class="chip" data-try="${x}">${x}</button>`).join("")}</p>
-      <p class="home-kpi"><span><b>${kfmt(nPub)}</b> publications</span><span><b>${kfmt(nCur)}</b> fiches rédigées</span><span><b>${act.length}</b> spécialités</span><span><b>${nTr}</b> essais suivis</span></p>
+      <p class="home-kpi"><span><b>${kfmt(nPub)}</b> notices indexées</span><span><b>${kfmt(nCur)}</b> publications évaluées</span><span><b>${nDeep}</b> analyses approfondies</span><span><b>${act.length}</b> spécialités</span><span><b>${nTr}</b> essais suivis</span></p>
     </section>
     <nav class="home-entries" aria-label="Points d'entrée">${entries.map(([ic, k, t, d, h, x]) => `<a class="entry" href="${h}"${x}><span class="entry-ic">${svgI(ic, 22)}</span><span class="eyebrow">${k}</span><b>${t}</b><small>${d}</small><span class="entry-go" aria-hidden="true">→</span></a>`).join("")}</nav>
     ${newsBlock()}
@@ -599,7 +612,7 @@ function viewLanding() {
       <div class="chips" role="group" aria-label="Domaine">${[["", "Tous les domaines"], ...DOMAINS.map(([k, l]) => [k, l])].map(([k, l]) => `<button class="chip" data-dom="${k}" aria-pressed="${(state.dom || "") === k}">${esc(l)}</button>`).join("")}</div>
       <div id="ind-box">${indGrid()}</div></section>
     <section class="home-spe" aria-labelledby="spe-h"><div class="home-h"><div><span class="eyebrow">Ou par spécialité</span><h2 id="spe-h">Les ${act.length} spécialités suivies</h2></div></div>
-      <div class="spe-grid">${act.map((t) => `<a class="spe" href="/${t.id}" style="--tc:${t.color}"><span class="tile">${esc(t.abbr)}</span><span><b>${esc(t.label)}</b><small>${kfmt(t.n)} publications · ${t.n_curated} fiches</small></span></a>`).join("")}</div></section>
+      <div class="spe-grid">${act.map((t) => `<a class="spe" href="/${t.id}" style="--tc:${t.color}"><span class="tile">${esc(t.abbr)}</span><span><b>${esc(t.label)}</b><small>${kfmt(t.n)} notices · ${t.n_curated} évaluées · ${t.n_deep || 0} approfondies</small></span></a>`).join("")}</div></section>
   </div>`;
 }
 /* ---------------- bibliothèque : recherche dans toutes les spécialités ---------------- */
@@ -619,7 +632,7 @@ function renderSearch() {
   const box = $("#sr-box"), S = window.LUMINA_S; if (!box || !S) return;
   const q = (state.srQ || "").trim();
   if (!q) {
-    box.innerHTML = `<div class="spe-grid lib">${D.topics.filter((t) => !isSoon(t)).map((t) => `<div class="spe" style="--tc:${t.color}"><span class="tile">${esc(t.abbr)}</span><span><b>${esc(t.label)}</b><small>${kfmt(t.n)} publications · ${t.n_curated} fiches rédigées</small>
+    box.innerHTML = `<div class="spe-grid lib">${D.topics.filter((t) => !isSoon(t)).map((t) => `<div class="spe" style="--tc:${t.color}"><span class="tile">${esc(t.abbr)}</span><span><b>${esc(t.label)}</b><small>${kfmt(t.n)} notices · ${t.n_curated} évaluées · ${t.n_deep || 0} approfondies</small>
       <span class="spe-links"><a href="/${t.id}/publications" data-tp="${t.id}">Publications</a><a href="/${t.id}/syntheses" data-tp="${t.id}">Synthèses</a><a href="/${t.id}/essais" data-tp="${t.id}">Essais</a></span></span></div>`).join("")}</div>`;
     return;
   }
@@ -629,10 +642,10 @@ function renderSearch() {
   const inds = indications().filter((x) => normTxt(q).split(/\s+/).every((w) => x.key.includes(w))).slice(0, 6);
   box.innerHTML = `${inds.length ? `<div class="sr-inds"><span class="eyebrow">Indications correspondantes</span><div class="chips">${inds.map((x) => `<button class="chip" data-ind="${x.topic}|${esc(x.ctx)}">${esc(x.label)} <span class="n">${esc(topicShort(x.topic))}</span></button>`).join("")}</div></div>` : ""}
     <div class="ess-bar"><div class="chips"><button class="chip" data-srt="" aria-pressed="${!state.srTopic}">Toutes <span class="n">${all.length}</span></button>${Object.entries(byT).sort((a, b) => b[1] - a[1]).map(([t, n]) => `<button class="chip" data-srt="${t}" aria-pressed="${state.srTopic === t}">${esc(topicShort(t))} <span class="n">${n}</span></button>`).join("")}</div>
-      <button class="chip" data-srcur aria-pressed="${!!state.srCur}">Fiches rédigées seulement</button></div>
-    <p class="muted" style="margin:0">${xs.length} résultat${xs.length > 1 ? "s" : ""} · fiches rédigées et niveaux de preuve élevés en premier</p>
+      <button class="chip" data-srcur aria-pressed="${!!state.srCur}">Publications évaluées seulement</button></div>
+    <p class="muted" style="margin:0">${xs.length} résultat${xs.length > 1 ? "s" : ""} · analyses approfondies, publications évaluées et niveaux de preuve élevés en premier</p>
     <ul class="sr-list">${xs.slice(0, state.srLim).map((i) => { const r = S.rows[i], tp = S.topics[r[1]]; return `<li><a href="/article/${r[0]}" data-tp="${tp}">${esc(r[8])}</a>
-      <small><span class="sr-t" style="--tc:${D.topics.find((t) => t.id === tp)?.color}">${esc(topicShort(tp))}</span> ${r[2]} · ${esc(TYPES[r[3]]?.[0] || r[3])}${r[4] ? ` · niveau ${r[4]}` : ""}${r[5] ? ` · <b>fiche rédigée</b>` : ""}${EFFECTS[r[6]] ? ` · <span class="eff" data-e="${r[6]}">${EFF_ICON[r[6]]}${EFFECTS[r[6]][0]}</span>` : ""}</small></li>`; }).join("") || '<li class="empty">Aucune publication ne contient tous ces mots.</li>'}</ul>
+      <small><span class="sr-t" style="--tc:${D.topics.find((t) => t.id === tp)?.color}">${esc(topicShort(tp))}</span> ${r[2]} · ${esc(TYPES[r[3]]?.[0] || r[3])}${r[4] ? ` · niveau ${r[4]}` : ""}${r[5] ? ` · <b>${r[5] === 2 ? "analyse approfondie" : "évaluée"}</b>` : ""}${EFFECTS[r[6]] ? ` · <span class="eff" data-e="${r[6]}">${EFF_ICON[r[6]]}${EFFECTS[r[6]][0]}</span>` : ""}</small></li>`; }).join("") || '<li class="empty">Aucune publication ne contient tous ces mots.</li>'}</ul>
     ${xs.length > state.srLim ? `<p style="text-align:center"><button class="btn" data-srmore>Afficher 100 de plus</button></p>` : ""}`;
 }
 
@@ -649,7 +662,7 @@ function viewHome() {
     <div class="hero-text">
       <span class="eyebrow">Veille photobiomodulation · ${esc(t.label)}</span>
       <h1>Ce que la recherche a publié sur la <em>PBM et ${esc(t.hero || t.label.toLowerCase())}</em> depuis ${esc((t.since || "2024").slice(0, 4))}</h1>
-      <p class="lead">${list.length} publications PubMed analysées une par une, chacune lisible en trois niveaux, avec son niveau de preuve et, quand l'article est en accès libre, le PDF intégré.</p>
+      <p class="lead">${list.length.toLocaleString("fr-FR")} publications indexées sur la photobiomodulation, dont ${list.filter((a) => rstate(a) > 0).length} évaluées après lecture, parmi lesquelles ${list.filter((a) => rstate(a) === 2).length} font l'objet d'une analyse approfondie. Seules les publications évaluées comptent dans le sens des résultats et les synthèses.</p>
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="eyebrow">Niveau de lecture</span>${levelSwitch(state.level)}</div>
       <div class="syn-card">
         <div class="panel-head" style="margin:0"><div style="display:grid;gap:6px"><span class="eyebrow">Synthèse ${esc((t.since || "2024").slice(0, 4))} → aujourd'hui</span><h3 style="font-size:1.08rem">${esc(g?.headline || "Synthèse")}</h3></div><a href="${P("syntheses")}" class="btn small">Toutes les synthèses</a></div>
@@ -659,11 +672,12 @@ function viewHome() {
     <div style="display:grid;gap:16px">
       <div class="kpis">
         <div class="kpi"><b>${list.length.toLocaleString("fr-FR")}</b><span>notices indexées, de ${yearsOf(list)[0]} à ${yearsOf(list).slice(-1)[0]}</span></div>
-        <div class="kpi"><b>${list.filter((a) => a.curated !== false).length}</b><span>fiches rédigées en 3 niveaux</span></div>
+        <div class="kpi"><b>${list.filter((a) => rstate(a) > 0).length}</b><span>publications évaluées, dont ${list.filter((a) => rstate(a) === 2).length} analyses approfondies</span></div>
         <div class="kpi"><b>${rct}</b><span>essais randomisés</span></div>
         <div class="kpi"><b>${syn}</b><span>revues systématiques, méta-analyses et recommandations</span></div>
         <div class="kpi"><b>${list.filter((a) => a.pdf).length}</b><span>PDF en accès libre lisibles sur le site</span></div>
       </div>
+      <div class="panel"><div class="panel-head"><h3>État de lecture</h3></div>${stateBar(list)}</div>
       <div class="panel"><div class="panel-head"><h3>Niveaux de preuve</h3><a class="btn small" href="/methode">Comprendre</a></div>${chartPyramid(list)}</div>
       ${t.trials && t.trials.now + t.trials.soon ? `<a class="panel ess-teaser" href="${P("essais")}"><span class="eyebrow">Études en cours</span><span><b>${t.trials.now}</b> essais en cours · <b>${t.trials.soon}</b> projets en construction</span><span class="muted">Promoteurs, investigateurs et pays, d'après ClinicalTrials.gov et les registres de l'OMS →</span></a>` : ""}
       <p class="muted" style="font-size:.78rem">Dernière mise à jour : <span class="mono">${fmtDate(D.generated)}</span> · veille ${esc(t.cadence)} · PubMed + Europe PMC</p>
@@ -685,7 +699,7 @@ function viewHome() {
   </section>
   <section class="grid-2">
     <div class="panel"><div class="panel-head"><h2>Longueurs d'onde étudiées</h2><p>Fiches rédigées</p></div>${chartSpectrum(list)}</div>
-    <div class="panel"><div class="panel-head"><h2>Sens des résultats</h2><p>Par période · fiches rédigées</p></div>${chartEffects(list)}</div>
+    <div class="panel"><div class="panel-head"><h2>Sens des résultats</h2><p>Par période · publications évaluées</p></div>${chartEffects(list)}</div>
   </section></div>`;
 }
 
@@ -717,7 +731,7 @@ function viewPubs() {
         <div class="dates"><label class="muted" style="font-size:.75rem">Du<input type="date" id="f-from" value="${state.f.from}"></label><label class="muted" style="font-size:.75rem">Au<input type="date" id="f-to" value="${state.f.to}"></label></div>
         <select id="f-week" aria-label="Aller à une semaine"><option value="">Choisir une semaine…</option>${weeks.map(([k, n]) => `<option value="${k}">${k.replace("-S", " · S")} (${weekLabel(k)}) · ${n}</option>`).join("")}</select>
       </div>
-      ${filterGroup("Fiche", "fiche", [...countBy(base, (a) => a.curated === false ? "indexée" : "rédigée").entries()].sort(), (v) => v === "rédigée" ? "Fiche rédigée (3 niveaux)" : "Notice indexée")}
+      ${filterGroup("État de lecture", "fiche", [...countBy(base, (a) => READ_STATE[rstate(a)][0]).entries()].sort((x, y) => READ_STATE.findIndex((r) => r[0] === y[0]) - READ_STATE.findIndex((r) => r[0] === x[0])), (v) => (READ_STATE.find((r) => r[0] === v) || [v, v])[1])}
       ${filterGroup("Année", "years", [...countBy(base, (a) => a.year).entries()].sort((a, b) => b[0] - a[0]))}
       ${filterGroup("Type d'étude", "groups", ord(countBy(base, groupOf), GROUPS.map((g) => g.id)), (v) => GROUPS.find((g) => g.id === v).label)}
       ${filterGroup("Niveau de preuve", "levels", ord(countBy(base, (a) => a.level), [1, 2, 3, 4, 5, 0]), (v) => v ? `${v} · ${LEVELS[v][0]}` : "Non gradé")}
@@ -741,10 +755,10 @@ async function viewArticleRaw(a) {
     a.pmcid && [`https://pmc.ncbi.nlm.nih.gov/articles/${a.pmcid}/`, "PMC (texte intégral)"], [`https://europepmc.org/article/MED/${a.pmid}`, "Europe PMC"]].filter(Boolean);
   app().innerHTML = `<div class="article"><div style="display:grid;gap:22px;min-width:0">
     <a href="${P("publications")}" class="btn small" style="justify-self:start">← Publications</a>
-    <header><div class="badges"><span class="badge raw-badge">Non analysé</span>${typeBadge(a)}${lvlBadge(a)}</div>
+    <header><div class="badges">${stBadge(a)}${typeBadge(a)}${lvlBadge(a)}</div>
       <h1 lang="en" style="font-size:clamp(1.3rem,1.05rem + 1.2vw,1.9rem)">${esc(a.title)}</h1>
       <p class="src muted" style="font:500 .85rem var(--f-display)">${esc((a.authors || []).join(", "))} · <i>${esc(a.journal)}</i><br>${metaLine(a)}</p></header>
-    <div class="callout">Cette notice est indexée mais n'a pas encore de fiche en trois niveaux. Le type d'étude, le niveau de preuve et le sous-groupe sont détectés automatiquement à partir de PubMed et peuvent être imprécis.</div>
+    <div class="callout"><b>Notice indexée</b> : cette publication a été retrouvée par la veille et retenue par le tri automatique de pertinence, mais elle n'a pas encore été lue. Le type d'étude, le niveau de preuve et le sous-groupe sont déduits de PubMed et peuvent être imprécis ; elle ne compte pas dans le sens des résultats ni dans les synthèses. <a href="/methode#etats">Les trois états de lecture</a></div>
     <section class="panel"><h3 style="margin-bottom:10px">Résumé des auteurs (PubMed, en anglais)</h3><div class="abstract" id="raw-abs" lang="en"><p class="muted">Chargement du résumé…</p></div></section>
     </div><aside style="display:grid;gap:18px;min-width:0"><div class="panel"><h3 style="margin-bottom:6px">Fiche technique</h3><dl class="facts">
       ${[["Type (auto)", typeLabel(a)], ["Niveau (indicatif)", a.level ? `${a.level} · ${LEVELS[a.level][0]}` : "Non gradé"], ["Sous-groupe (auto)", (a.ctx || []).map((c) => CTX[c] || c).join(", ") || "—"], ["Mise en ligne", fmtDate(a.date)], ["PMID", a.pmid], ["Types PubMed", (a.pub_types || []).join(", ") || "—"]].map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>
@@ -756,7 +770,13 @@ async function viewArticleRaw(a) {
 function viewArticle(pmid) {
   setNav("publications");
   const a = byId(pmid);
-  if (!a) { app().innerHTML = `<div class="empty">Publication introuvable (PMID ${esc(pmid)}). <a href="${P("publications")}">Retour aux publications</a></div>`; return; }
+  if (!a) {
+    app().innerHTML = `<div class="empty">Publication introuvable (PMID ${esc(pmid)}). <a href="${P("publications")}">Retour aux publications</a></div>`;
+    (window.LUMINA_X ? Promise.resolve() : loadScript(D.offtopic_file)).then(() => { const x = (window.LUMINA_X || []).find((r) => r[0] === pmid); if (!x || legacyHash() !== "article-" + pmid) return;
+      app().innerHTML = `<div class="view" style="max-width:760px"><span class="eyebrow">PMID ${esc(pmid)} · ${esc(topicShort(x[1]))} · ${x[2]}</span><h1 lang="en" style="font-size:1.5rem">${esc(x[3])}</h1>
+        <div class="callout"><b>Publication écartée comme hors sujet</b> : ${esc(x[4])}. Elle a été retrouvée par la requête PubMed mais ne porte pas sur la photobiomodulation ; elle n'est comptée ni dans les publications, ni dans les statistiques, ni dans les synthèses. <a href="/methode#ecartees">Comment le tri est fait</a></div>
+        <p><a class="btn small" href="https://pubmed.ncbi.nlm.nih.gov/${esc(pmid)}/" target="_blank" rel="noopener">Voir sur PubMed ↗</a> <a class="btn small" href="${P("publications")}">Retour aux publications</a></p></div>`; }).catch(() => {});
+    return; }
   document.title = `${a.title_fr || a.title} · Luminathèque`;
   if (a.curated === false) return viewArticleRaw(a);
   const lv = state.cardLevel.get(pmid) || state.level;
@@ -776,10 +796,11 @@ function viewArticle(pmid) {
     <div style="display:grid;gap:22px;min-width:0">
       <a href="${P("publications")}" class="btn small" style="justify-self:start">← Publications</a>
       <header>
-        <div class="badges">${typeBadge(a)}${lvlBadge(a)}${effBadge(a)}${a.key ? '<span class="star">★ À retenir</span>' : ""}</div>
+        <div class="badges">${stBadge(a)}${typeBadge(a)}${lvlBadge(a)}${effBadge(a)}${a.key ? '<span class="star">★ À retenir</span>' : ""}</div>
         <h1 style="font-size:clamp(1.4rem,1.1rem + 1.4vw,2.1rem)">${esc(a.title_fr)}</h1>
         <p class="orig">${esc(a.title)}</p>
         <p class="src muted" style="font:500 .85rem var(--f-display)">${esc((a.authors || []).join(", "))} · <i>${esc(a.journal)}</i><br>${metaLine(a)}</p>
+        ${rstate(a) === 1 ? `<div class="callout" style="margin-top:12px"><b>Publication évaluée</b> : le résumé a été lu, et le type d'étude, le niveau de preuve et le sens du résultat ont été vérifiés. L'analyse détaillée n'est pas encore rédigée : les niveaux 2 et 3 ci-dessous restent sommaires. <a href="/methode#etats">Les trois états de lecture</a></div>` : ""}
       </header>
       <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">${levelSwitch(lv, "data-aread")}<button class="btn small" data-cite="${a.pmid}">Copier la référence</button></div>
       <section class="panel">${body}</section>
@@ -848,7 +869,7 @@ function viewSyntheses() {
       <div class="syn-tabs">${tabs.map(([k, l]) => `<button class="chip" data-syn="${k}" aria-pressed="${state.synTab === k}">${l}</button>`).join("")}</div>
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="eyebrow">Niveau de lecture</span>${levelSwitch(state.level)}</div></div>
     <section class="panel syn-body"><h2>${esc(cur?.headline || "")}</h2>${body}
-      <p class="muted" style="font-size:.85rem">Rédigé à partir des ${yearList.filter((a) => a.curated !== false).length} fiches rédigées de la période (${yearList.length} notices indexées). Pour un autre découpage (semaines, trimestres, sélection d'articles), utilisez le <a href="/comparer">comparateur</a>.</p></section>
+      <p class="muted" style="font-size:.85rem">Rédigé à partir des ${yearList.filter((a) => a.curated !== false).length} publications évaluées de la période (${yearList.length} notices indexées). Pour un autre découpage (semaines, trimestres, sélection d'articles), utilisez le <a href="/comparer">comparateur</a>.</p></section>
     ${tbl}${stats}
     <section class="grid-2"><div class="panel"><div class="panel-head"><h2>Méta-analyses de la période</h2></div>${chartForest(yearList)}</div>
       <div class="panel"><div class="panel-head"><h2>Essais de la période</h2></div>${chartDumbbell(yearList)}</div></section>
@@ -994,7 +1015,7 @@ async function viewDevices(sel) {
       <div class="dev-facts"><span><b>Lumière</b>${esc(d.lumiere)}</span><span><b>Usage</b>${USAGE[d.usage] || "—"}</span><span><b>Études citant l'appareil</b>${d.n}</span><span><b>Fiches rédigées</b>${d.nc}</span><span><b>Essais en cours</b>${d.trials.length}</span></div>
       <div class="grid-2" style="align-items:start">
         <div><h3 style="margin-bottom:10px">Par thème</h3><div class="bars-h">${Object.entries(d.topics).sort((a, b) => b[1] - a[1]).map(([t, v]) => `<div class="row"><span>${esc(topicShort(t))}</span><span class="track"><i style="width:${(100 * v / maxT).toFixed(1)}%"></i></span><b class="mono">${v}</b></div>`).join("")}</div></div>
-        <div><h3 style="margin-bottom:10px">Résultats des fiches</h3>${effBar(d.studies) || '<p class="muted">Aucune fiche rédigée ne cite cet appareil.</p>'}
+        <div><h3 style="margin-bottom:10px">Résultats des fiches</h3>${effBar(d.studies) || '<p class="muted">Aucune publication évaluée ne cite cet appareil.</p>'}
           <p class="muted" style="font-size:.8rem;margin-top:8px">${Object.keys(EFFECTS).map((k) => { const v = d.studies.filter((h) => h.c && h.e === k).length; return v ? `${EFFECTS[k][0]} : ${v}` : ""; }).filter(Boolean).join(" · ")}</p></div>
       </div>
       ${Object.keys(byTopic).length ? `<h3 style="margin:18px 0 8px">${d.kind === "marque" ? "Études qui citent l'appareil" : "Fiches rédigées utilisant ce type d'appareil"}</h3>${Object.entries(byTopic).map(([t, xs]) => `<details class="dev-group" ${Object.keys(byTopic).length < 3 ? "open" : ""}><summary><b>${esc(topicShort(t))}</b> <span class="muted">· ${xs.length}</span></summary><ul class="plist">${xs.slice(0, 150).map((h) => `<li><a href="/article/${h.p}">${esc(h.ti)}</a> <span class="muted">· ${h.y} · ${esc(TYPES[h.ty]?.[0] || h.ty)}</span>${h.c && EFFECTS[h.e] ? ` <span class="eff" data-e="${h.e}">${EFF_ICON[h.e]}${EFFECTS[h.e][0]}</span>` : ""}</li>`).join("")}</ul></details>`).join("")}` : ""}
@@ -1358,6 +1379,14 @@ function viewMethode() {
   setNav("methode"); const t = topic();
   app().innerHTML = `<div class="view" style="max-width:900px">
     <div style="display:grid;gap:12px"><span class="eyebrow">Méthode</span><h1>Comment lire ce site</h1></div>
+    <section class="panel prose" id="etats" style="max-width:none;scroll-margin-top:90px"><h2>Trois états de lecture</h2>
+      <p>Chaque publication porte l'un de ces trois états. Ils disent ce qui a réellement été fait, pour que le nombre de notices ne laisse pas croire à une lecture qu'elles n'ont pas eue.</p>
+      <dl class="rsdef">${READ_STATE.map((r, i) => `<div><dt><span class="rs" data-s="${i}"><i aria-hidden="true"></i>${r[1]}</span></dt><dd>${esc(r[2])}</dd></div>`).join("")}</dl>
+      <p>Le sens des résultats, les synthèses et les comparaisons ne s'appuient que sur les publications évaluées et les analyses approfondies.</p>
+      <div class="rs-table-wrap"><table class="rs-table"><thead><tr><th>Spécialité</th><th>Notices indexées</th><th>Évaluées</th><th>Analyses approfondies</th><th>Écartées (hors sujet)</th></tr></thead><tbody>${D.topics.filter((x) => !isSoon(x)).map((x) => `<tr><th>${esc(x.label)}</th><td>${(x.n - x.n_curated).toLocaleString("fr-FR")}</td><td>${x.n_curated - (x.n_deep || 0)}</td><td>${x.n_deep || 0}</td><td>${x.n_offtopic || 0}</td></tr>`).join("")}</tbody></table></div></section>
+    <section class="panel prose" id="ecartees" style="max-width:none;scroll-margin-top:90px"><h2>Publications écartées comme hors sujet</h2>
+      <p>Les requêtes PubMed ramènent aussi des travaux qui ne portent pas sur la photobiomodulation : vélocimétrie laser, optogénétique, thérapie sonodynamique ou photodynamique, photopolymérisation de composites, éclairage LED… Une notice est conservée seulement si son titre, son résumé ou ses descripteurs décrivent une intervention de PBM. Elle est écartée si aucune intervention de PBM n'y figure, ou si son sujet principal est une autre technique. Le tri est automatique et vérifiable : les publications évaluées n'y sont jamais soumises, et une notice écartée à tort peut être réintégrée.</p>
+      <p><b>${D.topics.reduce((a, x) => a + (x.n_offtopic || 0), 0).toLocaleString("fr-FR")}</b> notices écartées à ce jour. <button class="btn small" data-offlist>Afficher la liste</button></p><div id="offlist"></div></section>
     <section class="panel prose" style="max-width:none"><h2>Trois niveaux de lecture</h2>
       <p><b>${levelBars(1)}Express</b> : une ou deux lignes, le résultat principal en chiffres.</p>
       <p><b>${levelBars(2)}Essentiel</b> : un ou deux paragraphes sur la méthode, les résultats et leur portée.</p>
@@ -1720,6 +1749,8 @@ document.addEventListener("click", async (e) => {
   if (Object.keys(d).some((k) => k.startsWith("br"))) { e.preventDefault(); await brClick(t); return; }
   if (d.topic) { setTopic(d.topic); return; }
   if (d.ind) { const [tp, c] = d.ind.split("|"); applyTopic(tp); state.f.ctx.add(c); state.filtersOpen = true; renderTopics(); go("publications"); return; }
+  if ("offlist" in d) { t.disabled = true; try { if (!window.LUMINA_X) await loadScript(D.offtopic_file); } catch { $("#offlist").textContent = "Liste indisponible."; return; }
+    const X = window.LUMINA_X; $("#offlist").innerHTML = `<div class="off-list">${X.map((x) => `<div><a href="https://pubmed.ncbi.nlm.nih.gov/${x[0]}/" target="_blank" rel="noopener">${esc(x[3])}</a><small>${esc(topicShort(x[1]))} · ${x[2]} · PMID ${x[0]} · ${esc(x[4])}</small></div>`).join("")}</div>`; t.remove(); return; }
   if ("parall" in d) { state.parScope = "all"; go("parametres"); return; }
   if (d.try) { const i = $("#home-q"); i.value = d.try; i.focus(); homeSuggest(d.try); return; }
   if (d.dom !== undefined) { state.dom = d.dom; state.indAll = false; $("#ind-box").innerHTML = indGrid(); $$("[data-dom]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.dom === state.dom))); return; }
@@ -1728,7 +1759,7 @@ document.addEventListener("click", async (e) => {
   if ("srcur" in d) { state.srCur = !state.srCur; state.srLim = 100; renderSearch(); return; }
   if ("srmore" in d) { state.srLim += 100; renderSearch(); return; }
   if ("effy" in d) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : "");
-    state.f.fiche.add("rédigée"); d.effy.split(",").forEach((y) => state.f.years.add(+y)); if (d.effk) state.f.effects.add(d.effk); else Object.keys(EFFECTS).forEach((k) => state.f.effects.add(k));
+    state.f.fiche.add("évaluée"); state.f.fiche.add("approfondie"); d.effy.split(",").forEach((y) => state.f.years.add(+y)); if (d.effk) state.f.effects.add(d.effk); else Object.keys(EFFECTS).forEach((k) => state.f.effects.add(k));
     state.filtersOpen = true; state.sort = "date"; go("publications"); return; }
   if (d.sub) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : ""); state.f.ctx.add(d.sub); state.filtersOpen = true; go("publications"); return; }
   if ("morelist" in d) { state.limit += 120; rerender(); return; }

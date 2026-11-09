@@ -20,6 +20,7 @@ Usage : python3 scripts/build_site.py [--prune-pdfs]
 from __future__ import annotations
 
 import argparse
+import sys
 import collections
 import datetime as dt
 import hashlib
@@ -148,6 +149,17 @@ def auto_type(r: dict) -> tuple[str, int]:
     return "autre", 0
 
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from pertinence import is_pbm  # noqa: E402  filtre des notices hors sujet
+
+
+def depth_of(c: dict) -> int:
+    """État de lecture d'une fiche : 2 = analyse approfondie (niveau 2 développé et points clés), 1 = publication évaluée."""
+    l3 = c.get("l3") or {}
+    pts = l3.get("points") if isinstance(l3, dict) else l3
+    return 2 if pts and len(c.get("l2") or "") >= 150 else 1
+
+
 def auto_subgroups(topic_id: str, r: dict) -> list[str]:
     text = " ".join([r.get("title", ""), " ".join(r.get("keywords") or []), " ".join(r.get("mesh") or [])]).lower()
     return [code for code, rx in SUBGROUP_RULES.get(topic_id, []) if re.search(rx, text)]
@@ -199,6 +211,8 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
                 raise SystemExit(f"PMID en double dans la curation : {c['pmid']}")
             curated[c["pmid"]] = c
     excluded = set(json.loads((cur_dir / "exclus.json").read_text())) if (cur_dir / "exclus.json").exists() else set()
+    forced = set(json.loads((cur_dir / "inclus.json").read_text())) if (cur_dir / "inclus.json").exists() else set()
+    offtopic = []
 
     articles, abstracts = [], {}
     for pmid, c in curated.items():
@@ -206,13 +220,17 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
         if not r:
             raise SystemExit(f"PMID {pmid} curé mais absent de data/raw")
         date = article_date(r, since)
-        articles.append({**c, **common(r, topic_id, date), "curated": True,
+        articles.append({**c, **common(r, topic_id, date), "curated": True, "depth": depth_of(c),
                          "abstract": r.get("abstract", []), "keywords": r.get("keywords", [])[:10]})
     for pmid, r in raw.items():
         if pmid in curated or pmid in excluded:
             continue
         date = article_date(r, since)
         if date[:4] < since[:4]:
+            continue
+        ok, why = is_pbm(r)
+        if not ok and pmid not in forced:
+            offtopic.append([pmid, topic_id, date[:4], r["title"][:200], why])
             continue
         t, lvl = auto_type(r)
         articles.append({
@@ -230,8 +248,10 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
                                       "hero", "exclusions_note", "subgroups", "pubmed_query")}
     par_path = cur_dir / "parametres.json"
     meta["params"] = json.loads(par_path.read_text()) if par_path.exists() else []
-    meta.update(n_raw=len(raw), n_excluded=len(excluded), n=len(articles), n_curated=sum(a["curated"] for a in articles),
+    meta.update(n_raw=len(raw), n_excluded=len(excluded), n_offtopic=len(offtopic), n=len(articles), n_curated=sum(a["curated"] for a in articles),
+                n_deep=sum(a.get("depth") == 2 for a in articles),
                 sub_n=dict(collections.Counter(c for a in articles for c in (a.get("ctx") or []))))
+    meta["_offtopic"] = offtopic
     return meta, articles, syntheses, abstracts
 
 
@@ -371,6 +391,7 @@ def main() -> None:
     ap.add_argument("--prune-pdfs", action="store_true", help="supprime les PDF des notices sans fiche rédigée")
     args = ap.parse_args()
     topics, syntheses, all_articles = [], {}, []
+    offtopic_all: list = []
     for t in sorted((ROOT / "data/topics").glob("*.json")):
         info = json.loads(t.read_text())
         if info.get("status") == "à venir" or not (ROOT / "data/raw" / f"{t.stem}.json").exists():
@@ -398,6 +419,7 @@ def main() -> None:
         write_versioned(ROOT / "assets/topics" / f"{t.stem}.{h}.js", js)
         meta["file"] = f"assets/topics/{t.stem}.{h}.js"
         meta["years"] = sorted({a["year"] for a in arts})
+        offtopic_all += meta.pop("_offtopic")
         topics.append(meta)
         syntheses[t.stem] = syn
         all_articles += arts
@@ -524,9 +546,18 @@ def main() -> None:
         write_versioned(ROOT / "assets/topics" / f"_brouillons.{bh}.js", js)
         drafts_file = f"assets/topics/_brouillons.{bh}.js"
         print(f"→ {len(drafts)} brouillon(s) de fiche à valider")
+    # notices écartées automatiquement comme hors sujet (scripts/pertinence.py), consultables sur la page Méthode
+    js = "window.LUMINA_X = " + json.dumps(sorted(offtopic_all, key=lambda x: (x[1], x[2]), reverse=True), ensure_ascii=False, separators=(",", ":")) + ";\n"
+    xh = hashlib.sha1(js.encode()).hexdigest()[:10]
+    for old in (ROOT / "assets/topics").glob("_ecartees.*js"):
+        if old.name != f"_ecartees.{xh}.js":
+            old.unlink()
+    write_versioned(ROOT / "assets/topics" / f"_ecartees.{xh}.js", js)
+    offtopic_file = f"assets/topics/_ecartees.{xh}.js"
+    print(f"→ {len(offtopic_all)} notices écartées comme hors sujet")
     # index léger de toutes les publications pour la recherche de l'accueil (chargé à la demande)
     tix = {t["id"]: i for i, t in enumerate(topics)}
-    rows = [[a["pmid"], tix[a["topic"]], a["year"], a["type"], a.get("level") or 0, int(a["curated"]), a["effect"] if a["curated"] else "",
+    rows = [[a["pmid"], tix[a["topic"]], a["year"], a["type"], a.get("level") or 0, a.get("depth", 1) if a["curated"] else 0, a["effect"] if a["curated"] else "",
              a.get("ctx") or [], a.get("title_fr") or a["title"], a["title"] if a["curated"] and a.get("title_fr") else ""]
             for a in sorted(all_articles, key=lambda a: a["date"], reverse=True)]
     js = "window.LUMINA_S = " + json.dumps({"topics": [t["id"] for t in topics], "rows": rows}, ensure_ascii=False, separators=(",", ":")) + ";\n"
@@ -541,7 +572,7 @@ def main() -> None:
     order = {"actif": 0, None: 0, "à venir": 1}
     topics.sort(key=lambda x: (order.get(x.get("status"), 0), x["label"]))
     payload = {"generated": dt.date.today().isoformat(), "topics": topics, "syntheses": syntheses, "n_chunks": N_CHUNKS,
-               "trials_file": f"assets/topics/_essais.{h}.js" if trials else None, "devices_file": devices_file, "search_file": search_file, "news": recent_news(sv, all_articles, trials),
+               "trials_file": f"assets/topics/_essais.{h}.js" if trials else None, "devices_file": devices_file, "search_file": search_file, "offtopic_file": offtopic_file, "news": recent_news(sv, all_articles, trials),
                "drafts_file": drafts_file, "securite": json.loads((ROOT / "data/securite.json").read_text()) if (ROOT / "data/securite.json").exists() else None, "reco": json.loads((ROOT / "data/recommandations.json").read_text()) if (ROOT / "data/recommandations.json").exists() else None, "n_drafts": len(drafts), "repo": REPO,
                "alerts_api": ALERTS_API,
                "patients": json.loads((ROOT / "data/fiches_patients.json").read_text()) if (ROOT / "data/fiches_patients.json").exists() else []}
