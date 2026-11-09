@@ -1,5 +1,65 @@
 [
  {
+  "id": "genou",
+  "titre": "Soulager la douleur de l'arthrose du genou",
+  "sous_titre": "L'arthrose du genou",
+  "topic": "musculo-squelettique",
+  "ctx": [
+   "arthrose"
+  ],
+  "illus": "genou",
+  "couleur": "#2f8fe0",
+  "niveau": "prometteuse",
+  "messages": [
+   [
+    "douleur",
+    "Moins de douleur et de raideur au genou."
+   ],
+   [
+    "marche",
+    "Toujours associée à des exercices adaptés, qui restent le traitement de base."
+   ],
+   [
+    "loupe",
+    "Efficace à doses suffisantes ; les résultats varient selon les protocoles."
+   ]
+  ],
+  "seance": {
+   "duree": "5 à 15 minutes",
+   "ou": "Cabinet de kinésithérapie ou de rééducation",
+   "sensation": "Rien, ou une chaleur douce (laser haute intensité)",
+   "qui": "Un kinésithérapeute ou un médecin"
+  },
+  "calendrier": {
+   "par_semaine": 3,
+   "semaines": 4,
+   "texte": "Environ 10 à 16 séances, deux à trois fois par semaine.",
+  "total": "10–16"
+  },
+  "attentes": "Le soulagement apparaît en général en 2 à 4 semaines. Il est plus net quand les exercices sont poursuivis.",
+  "securite": [
+   "Indolore, sans médicament.",
+   "Lunettes de protection pendant la séance.",
+   "Ne remplace pas l'activité physique."
+  ],
+  "faq": [
+   [
+    "Est-ce que ça répare le cartilage ?",
+    "Non, l'effet porte sur la douleur et l'inflammation, pas sur l'usure du cartilage."
+   ],
+   [
+    "Combien de temps dure l'effet ?",
+    "Plusieurs semaines dans les études ; des séances d'entretien peuvent être proposées."
+   ]
+  ],
+  "sources": [
+   "31662383",
+   "39367994"
+  ],
+  "accroche": "Une approche complémentaire, sans médicament",
+  "note": "La photobiomodulation vise surtout à réduire les symptômes. Elle ne fait pas repousser le cartilage usé."
+ },
+ {
   "id": "mucite",
   "titre": "Prévenir les aphtes et brûlures de la bouche pendant le traitement du cancer",
   "sous_titre": "La mucite buccale",
@@ -61,7 +121,8 @@
    "31286228",
    "38265122",
    "35013780"
-  ]
+  ],
+  "optique": "Cette fiche concerne une application dans la bouche, pendant le traitement du cancer."
  },
  {
   "id": "radiodermite",
@@ -233,63 +294,6 @@
    "22875413",
    "12973834",
    "38129368"
-  ]
- },
- {
-  "id": "genou",
-  "titre": "Soulager la douleur de l'arthrose du genou",
-  "sous_titre": "L'arthrose du genou",
-  "topic": "musculo-squelettique",
-  "ctx": [
-   "arthrose"
-  ],
-  "illus": "genou",
-  "couleur": "#2f8fe0",
-  "niveau": "prometteuse",
-  "messages": [
-   [
-    "douleur",
-    "Moins de douleur et de raideur au genou."
-   ],
-   [
-    "marche",
-    "Toujours associée à des exercices adaptés, qui restent le traitement de base."
-   ],
-   [
-    "loupe",
-    "Efficace à doses suffisantes ; les résultats varient selon les protocoles."
-   ]
-  ],
-  "seance": {
-   "duree": "5 à 15 minutes",
-   "ou": "Cabinet de kinésithérapie ou de rééducation",
-   "sensation": "Rien, ou une chaleur douce (laser haute intensité)",
-   "qui": "Un kinésithérapeute ou un médecin"
-  },
-  "calendrier": {
-   "par_semaine": 3,
-   "semaines": 4,
-   "texte": "Environ 10 à 16 séances, deux à trois fois par semaine."
-  },
-  "attentes": "Le soulagement apparaît en général en 2 à 4 semaines. Il est plus net quand les exercices sont poursuivis.",
-  "securite": [
-   "Indolore, sans médicament.",
-   "Lunettes de protection pendant la séance.",
-   "Ne remplace pas l'activité physique."
-  ],
-  "faq": [
-   [
-    "Est-ce que ça répare le cartilage ?",
-    "Non, l'effet porte sur la douleur et l'inflammation, pas sur l'usure du cartilage."
-   ],
-   [
-    "Combien de temps dure l'effet ?",
-    "Plusieurs semaines dans les études ; des séances d'entretien peuvent être proposées."
-   ]
-  ],
-  "sources": [
-   "31662383",
-   "39367994"
   ]
  },
  {
@@ -582,7 +586,8 @@
    "42329990",
    "42228167",
    "37183056"
-  ]
+  ],
+  "optique": "Cette fiche concerne une application locale, dans le vagin ou sur la vulve, avec une sonde lumineuse au cabinet."
  },
  {
   "id": "dmla",
@@ -639,7 +644,8 @@
   "sources": [
    "37972955",
    "41791029"
-  ]
+  ],
+  "optique": "L’appareil ophtalmologique dédié envoie trois couleurs de lumière vers la rétine."
  },
  {
   "id": "myopie",
@@ -697,7 +703,8 @@
    "34863776",
    "39672511",
    "41072941"
-  ]
+  ],
+  "optique": "La fiche décrit un dispositif de lumière rouge prescrit et utilisé avec un suivi ophtalmologique."
  },
  {
   "id": "dents-sagesse",
@@ -755,7 +762,8 @@
    "38821660",
    "35013845",
    "32919077"
-  ]
+  ],
+  "optique": "Cette fiche concerne une application dans la bouche et sur la joue, après une extraction."
  },
  {
   "id": "memoire",

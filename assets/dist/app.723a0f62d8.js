@@ -928,50 +928,58 @@ function viewParams() {
 
 
 /* ---------------- fiches patients ---------------- */
+const PT_IMG = (id) => `/assets/fiches/${id}.jpg`;
+const PT_PDF = (id) => `/assets/fiches/pdf/${id}.pdf`;
+const ptNum = (f) => String((D.patients || []).indexOf(f) + 1).padStart(2, "0");
+const ptCat = (f) => (D.topics.find((t) => t.id === f.topic) || {}).label || "";
 function viewPatientsList() {
-  setNav("patients"); const PT = window.LUMINA_PT; const xs = D.patients || [];
-  app().innerHTML = `<div class="view">
-    <div style="display:grid;gap:12px"><span class="eyebrow">Fiches patients · à imprimer ou à partager</span><h1>Expliquer la photobiomodulation à vos patients</h1>
-      <p class="lead" style="max-width:72ch">Des fiches illustrées, en langage simple : ce que c'est, comment se passe une séance, ce que disent les études et les précautions. Chaque fiche s'imprime sur une page recto verso.</p></div>
+  setNav("patients"); const xs = D.patients || [];
+  app().innerHTML = `<div class="view ps-lib">
+    <div class="ps-libhead"><span class="ps-eyebrow">Bibliothèque · ${xs.length} fiches</span><h1>Fiches patients</h1>
+      <p>Comprendre la photobiomodulation, indication par indication. Consultez chaque fiche en ligne ou téléchargez son PDF A4, conçu pour une impression recto verso.</p></div>
     <a class="panel doc-strip" href="/securite#docs"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M10 13l2 2 4-4"/></svg><span><b>Pour le dossier médical</b> : modèles de consentement éclairé et de fiche de traçabilité des paramètres délivrés, à imprimer ou à télécharger.</span><span class="muted">Ouvrir →</span></a>
-    <div class="pt-grid">${xs.map((f) => `<a class="pt-card" href="/patients/${f.id}" style="--pc:${f.couleur}">
-      <div class="pt-card-img">${PT.hero(f.illus, f.couleur)}</div>
-      <div class="pt-card-body"><span class="eyebrow">${esc(f.sous_titre)}</span><h3>${esc(f.titre)}</h3><span class="pniv" data-n="${(NIVEAU[f.niveau] || [])[1] || "unc"}">${esc((NIVEAU[f.niveau] || [f.niveau])[0])}</span></div></a>`).join("")}</div>
+    <div class="ps-grid">${xs.map((f, i) => `<article class="ps-card">
+      <a class="ps-thumb${f.id === "genou" ? " cover" : ""}" href="/patients/${f.id}" tabindex="-1" aria-hidden="true"><img src="${PT_IMG(f.id)}" alt="" loading="lazy"></a>
+      <div class="ps-cbody"><span class="ps-eyebrow">N° ${String(i + 1).padStart(2, "0")} · ${esc(f.sous_titre)}</span><h2><a href="/patients/${f.id}">${esc(f.titre)}</a></h2>
+        <div class="ps-links"><a href="/patients/${f.id}">Voir la fiche ↗</a><a href="${PT_PDF(f.id)}" download>PDF A4 ↓</a></div></div></article>`).join("")}</div>
   </div>`;
 }
 async function viewPatient(id) {
-  setNav("patients"); const PT = window.LUMINA_PT; const f = (D.patients || []).find((x) => x.id === id);
+  setNav("patients"); const f = (D.patients || []).find((x) => x.id === id);
   if (!f) return viewPatientsList();
   try { await ensureTopic(f.topic); } catch { /* compteur indisponible */ }
-  const arts = ((window.LUMINA_T || {})[f.topic] || []).map((a) => hydrate(a, f.topic)).filter((a) => a.curated !== false && (a.ctx || []).some((c) => f.ctx.includes(c)));
-  const fav = arts.filter((a) => a.effect === "favorable").length;
-  const meas = arts.filter((a) => EFFECTS[a.effect]).length;
-  const S = f.seance;
-  app().innerHTML = `<div class="view pt-sheet" style="--pc:${f.couleur}">
-    <div class="pt-actions no-print"><a class="btn small" href="/patients">← Toutes les fiches</a><button class="btn small" data-print>Imprimer la fiche</button><button class="btn small" data-copylink>Copier le lien</button></div>
-    <section class="pt-top">
-      <div class="pt-top-text"><span class="pt-kicker">${esc(f.sous_titre)}</span><h1>${esc(f.titre)}</h1>
-        <p class="pt-def"><b>La photobiomodulation</b> utilise une lumière douce, rouge ou infrarouge, qui ne chauffe pas et ne brûle pas, pour aider les cellules à se réparer et à calmer l'inflammation et la douleur.</p></div>
-      <div class="pt-top-img">${PT.hero(f.illus, f.couleur)}</div>
-    </section>
-    <section class="pt-msgs">${f.messages.map(([ic, t]) => `<div class="pt-msg"><span class="pt-ic">${PT.icon(ic, f.couleur)}</span><p>${esc(t)}</p></div>`).join("")}</section>
-    <section class="pt-block"><h2><span>1</span>Comment ça marche ?</h2>${PT.mechanism()}</section>
-    <section class="pt-block"><h2><span>2</span>Comment se passe une séance ?</h2>
-      <div class="pt-steps">${[["lumiere", "Durée", S.duree], ["maison", "Où", S.ou], ["main", "Ce que l'on ressent", S.sensation], ["valide", "Qui la réalise", S.qui]].map(([ic, k, v]) => `<div class="pt-step"><span class="pt-ic">${PT.icon(ic, f.couleur)}</span><b>${k}</b><p>${esc(v)}</p></div>`).join("")}</div>
-      <div class="pt-calwrap"><div><h3>Le rythme habituel</h3><p>${esc(f.calendrier.texte)}</p><p class="pt-note">${esc(f.attentes)}</p></div>${PT.calendar(f.calendrier, f.couleur)}</div>
-    </section>
-    <section class="pt-block pt-evidence"><h2><span>3</span>Ce que disent les études</h2>
-      <div class="pt-evgrid">${PT.gauge(f.niveau)}
-        <div>${meas ? `<p class="pt-big"><b>${fav}</b> sur <b>${meas}</b></p><p>études analysées sur le site concluent en faveur de la photobiomodulation pour cette indication.</p><div class="pt-evbar"><i style="width:${(100 * fav / meas).toFixed(0)}%"></i></div>` : `<p>Les études sont en cours d'analyse sur le site.</p>`}
-          <p class="pt-note">${esc({ "recommandée": "Les sociétés savantes la recommandent ou la proposent dans cette indication.", prometteuse: "Les résultats sont encourageants mais doivent encore être confirmés par de grands essais.", incertaine: "Les résultats sont contradictoires : parlez-en avec votre soignant.", "non démontrée": "L'efficacité n'est pas démontrée à ce jour." }[f.niveau] || "")}</p></div></div>
-    </section>
-    <section class="pt-block pt-two">
-      <div><h2><span>4</span>Est-ce sans danger ?</h2><ul class="pt-safe">${f.securite.map((t) => `<li>${esc(t)}</li>`).join("")}
-        <li>La séance ne doit jamais viser directement les yeux, sauf appareil ophtalmologique prévu pour cela.</li></ul></div>
-      <div><h2><span>5</span>Vos questions</h2>${f.faq.map(([q, a]) => `<details class="pt-faq" open><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</div>
-    </section>
-    <footer class="pt-foot"><p>Fiche d'information générale réalisée à partir de la littérature scientifique (Luminathèque, ${fmtDate(D.generated)}). Elle ne remplace pas l'avis de votre médecin ou de votre soignant.</p>
-      ${f.sources.length ? `<p class="no-print">Pour les soignants : ${f.sources.map((s) => `<a href="/article/${s}">${s}</a>`).join(", ")} · <a href="${P("parametres")}">fiches paramètres</a></p>` : ""}</footer>
+  const arts = ((window.LUMINA_T || {})[f.topic] || []).map((a) => hydrate(a, f.topic));
+  const cur = arts.filter((a) => a.curated !== false && (a.ctx || []).some((c) => f.ctx.includes(c)));
+  const fav = cur.filter((a) => a.effect === "favorable").length;
+  const meas = cur.filter((a) => EFFECTS[a.effect]).length;
+  const ref = (pm) => arts.find((a) => a.pmid === pm) || (typeof byId === "function" && byId(pm)) || null;
+  const S = f.seance, num = ptNum(f), niv = (NIVEAU[f.niveau] || [f.niveau])[0];
+  const sec = (n, k, h, body) => `<section class="ps-sec" id="${k}"><div class="ps-label"><div class="ps-num">${n}</div><h2>${h}</h2></div><div class="ps-main">${body}</div></section>`;
+  const diagram = f.optique
+    ? `<div class="ps-diagram optical"><div class="ps-dvis" aria-hidden="true"></div><div><span class="ps-eyebrow">La lumière utilisée</span><p class="ps-optxt">${esc(f.optique)}</p></div></div>`
+    : `<p class="ps-lead">La lumière rouge et infrarouge pénètre la peau et stimule les mitochondries des cellules. Cela peut contribuer à moduler l'inflammation et à soulager la douleur.</p>
+       <div class="ps-diagram"><div class="ps-dvis" role="img" aria-label="Schéma simplifié des couches de la peau traversées par des faisceaux de lumière rouge et infrarouge"><i class="ray red"></i><i class="ray nir"></i><span class="lay one">Épiderme</span><span class="lay two">Derme</span><span class="lay three">Hypoderme</span></div>
+         <div><span class="ps-eyebrow">Deux familles de lumière</span><div class="ps-wave"><span class="dot"></span><div><b>Lumière rouge</b><span>Environ 630–700 nm</span></div></div><div class="ps-wave"><span class="dot deep"></span><div><b>Proche infrarouge</b><span>Environ 780–1 000 nm</span></div></div><p class="ps-small">Schéma pédagogique simplifié, non représentatif d'une profondeur de pénétration mesurée.</p></div></div>`;
+  const caution = { "recommandée": "Les sociétés savantes la recommandent ou la proposent dans cette indication.", prometteuse: "Les résultats sont encourageants mais doivent encore être confirmés par de grands essais.", incertaine: "Les résultats sont contradictoires : parlez-en avec votre soignant.", "non démontrée": "L'efficacité n'est pas démontrée à ce jour." }[f.niveau] || "";
+  app().innerHTML = `<div class="view ps" id="ps-top">
+    <div class="ps-bar no-print"><nav class="ps-crumb" aria-label="Fil d’Ariane"><a href="/patients">Fiches patients</a><span aria-hidden="true">›</span><span>${esc(ptCat(f))}</span><span aria-hidden="true">›</span><strong>${esc(f.sous_titre)}</strong></nav>
+      <div class="ps-actions"><button class="ps-btn" data-copylink>↗ Partager</button><a class="ps-btn" href="${PT_PDF(f.id)}" download>PDF A4</a><button class="ps-btn primary" data-print>⎙ Imprimer la fiche</button></div></div>
+    <div class="ps-ponly ps-pbrand"><span>Luminathèque</span><span>Photobiomodulation · Éducation patient</span></div>
+    <section class="ps-hero${f.id === "genou" ? " cover" : ""}"><div class="ps-hcopy"><span class="ps-eyebrow">Comprendre votre traitement · Fiche n° ${num}</span><h1>${esc(f.titre)}</h1>
+        <p><b>La photobiomodulation</b> utilise une lumière douce, rouge ou infrarouge, qui ne chauffe pas et ne brûle pas, pour aider les cellules à se réparer et à calmer l'inflammation et la douleur.</p><span class="ps-tag">${esc(f.accroche || f.sous_titre)}</span></div>
+      <div class="ps-himg"><img src="${PT_IMG(f.id)}" alt=""></div></section>
+    <div class="ps-intro">${f.messages.map(([, t], i) => `<div class="ps-benefit"><span class="sym" aria-hidden="true">${["✦", "↗", "◉"][i] || "•"}</span><b>${esc(t)}</b></div>`).join("")}</div>
+    ${sec("01 / COMPRENDRE", "fonctionnement", "Comment ça marche ?", diagram + (f.note ? `<div class="ps-note">${esc(f.note)}</div>` : ""))}
+    ${sec("02 / EN PRATIQUE", "seance", "Comment se passe une séance ?", `<dl class="ps-metrics">${[["Durée", S.duree], ["Lieu", S.ou], ["Sensation", S.sensation], ["Professionnel", S.qui]].map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>
+      <div class="ps-sched"><div><h3>Le rythme habituel</h3><p>${esc(f.calendrier.texte)}</p><p>${esc(f.attentes)}</p></div>${f.calendrier.total ? `<div class="big" aria-hidden="true">${esc(f.calendrier.total)}<small>SÉANCES</small></div>` : ""}</div>`)}
+    <div class="ps-ponly ps-pcont"><span>Luminathèque · Fiche n° ${num}</span><span>${esc(f.sous_titre)}</span></div>
+    ${sec("03 / SCIENCE", "preuves", "Ce que disent les études", `<div class="ps-ev"><div class="ps-evtop"><span class="ps-eyebrow">Synthèse de Luminathèque</span><span class="ps-proof" data-n="${(NIVEAU[f.niveau] || [])[1] || "unc"}">Niveau de preuve · ${esc(niv)}</span></div>
+      ${meas ? `<div class="ps-stat">${fav} / ${meas}</div><p>études analysées sur le site concluent en faveur de la photobiomodulation pour les catégories associées à cette fiche.</p>` : `<p>Les études sont en cours d'analyse sur le site.</p>`}
+      <p class="ps-caution">${esc(caution)} Le nombre d’études favorables ne mesure pas à lui seul l’efficacité clinique.</p></div>`)}
+    ${sec("04 / SÉCURITÉ", "securite", "Est-ce sans danger ?", `<ul class="ps-checks">${[...f.securite, "La séance ne doit jamais viser directement les yeux, sauf appareil ophtalmologique prévu pour cela."].map((t) => `<li>${esc(t)}</li>`).join("")}</ul>`)}
+    ${sec("05 / VOS QUESTIONS", "questions", "Les réponses essentielles", `<div class="ps-faq">${f.faq.map(([q, a]) => `<details open><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</div>`)}
+    <footer class="ps-foot">${f.sources.length ? `<div class="ps-refs"><h2>Références scientifiques</h2><ul>${f.sources.map((pm) => { const a = ref(pm); return `<li><a href="/article/${pm}">${esc(a ? a.title_fr || a.title : "Publication PMID " + pm)}</a><span>${a ? `${esc(a.journal_abbr || "")} · ${esc(a.year || "")} · ` : ""}PMID ${pm}</span></li>`; }).join("")}</ul></div>` : ""}
+      <p>Fiche d'information générale réalisée à partir de la littérature scientifique (Luminathèque, ${fmtDate(D.generated)}). Elle ne remplace pas l'avis de votre médecin ou de votre soignant. Illustration à visée pédagogique.<span class="no-print"><br><a href="${P("parametres")}">Fiches paramètres pour les soignants</a></span></p></footer>
   </div>`;
 }
 

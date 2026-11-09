@@ -52,14 +52,14 @@ class Pages:
         self.image = SITE + "/" + (m.group(1) if m else "assets/logo.png")
         self.urls = []
 
-    def write(self, path, title, desc, body, kind="website"):
+    def write(self, path, title, desc, body, kind="website", image=None):
         url = SITE + path
         head = (f"<title>{E(title)}</title>\n<meta name=\"description\" content=\"{E(desc)}\">\n"
                 f"<link rel=\"canonical\" href=\"{E(url)}\">\n"
                 f"<meta property=\"og:site_name\" content=\"Luminathèque\">\n<meta property=\"og:locale\" content=\"fr_FR\">\n"
                 f"<meta property=\"og:type\" content=\"{kind}\">\n<meta property=\"og:title\" content=\"{E(title)}\">\n"
                 f"<meta property=\"og:description\" content=\"{E(desc)}\">\n<meta property=\"og:url\" content=\"{E(url)}\">\n"
-                f"<meta property=\"og:image\" content=\"{E(self.image)}\">\n<meta name=\"twitter:card\" content=\"summary\">\n"
+                f"<meta property=\"og:image\" content=\"{E(image or self.image)}\">\n<meta name=\"twitter:card\" content=\"{'summary_large_image' if image else 'summary'}\">\n"
                 f"<meta name=\"twitter:title\" content=\"{E(title)}\">\n<meta name=\"twitter:description\" content=\"{E(desc)}\">")
         base = re.sub(r'<meta (name="description"|property="og:[a-z_]+"|name="twitter:[a-z]+")[^>]*>\n?|<link rel="canonical"[^>]*>\n?', "", self.tpl)
         page = re.sub(r"<title>.*?</title>", lambda _: head, base, count=1, flags=re.S)
@@ -121,12 +121,12 @@ def main():
                      f"<h1>{E(d['nom'])}</h1><p>{E(d.get('fabricant'))}</p><p>{E(d.get('description'))}</p><p>{E(d.get('lumiere'))} · {d.get('n', 0)} études, {d.get('nc', 0)} fiches.</p>")
     # fiches patients
     pts = D.get("patients") or []
-    pg.write("/patients", "Fiches patients · Luminathèque", "Fiches illustrées pour expliquer la photobiomodulation aux patients : séance, calendrier, niveau de preuve, sécurité.",
+    pg.write("/patients", "Fiches patients · Luminathèque", "Fiches illustrées pour expliquer la photobiomodulation aux patients, indication par indication : séance, rythme, niveau de preuve, sécurité. En ligne ou en PDF A4.",
              "<h1>Fiches patients</h1><ul>" + "".join(f"<li><a href=\"/patients/{E(f['id'])}\">{E(f['titre'])}</a></li>" for f in pts) + "</ul>")
     for f in pts:
         msgs = "".join(f"<li>{E(m[1])}</li>" for m in f.get("messages", []))
         pg.write(f"/patients/{f['id']}", f"{f['titre']} · Fiche patient · Luminathèque", short(f.get("sous_titre") + " — " + " ".join(m[1] for m in f.get("messages", []))),
-                 f"<h1>{E(f['titre'])}</h1><p>{E(f.get('sous_titre'))}</p><ul>{msgs}</ul>")
+                 f"<h1>{E(f['titre'])}</h1><p>{E(f.get('sous_titre'))}</p><ul>{msgs}</ul>", image=f"{SITE}/assets/fiches/{f['id']}.jpg")
     for v, lab in (("alertes", "Alertes par mail"), ("brouillons", "Brouillons"), ("parametres", "Paramètres"), ("publications", "Publications"), ("syntheses", "Synthèses"), ("essais", "Études en cours")):
         pg.write(f"/{v}", f"{lab} · Luminathèque", "Luminathèque, veille scientifique sur la photobiomodulation.", f"<h1>{E(lab)}</h1>")
     sec = D.get("securite") or {}

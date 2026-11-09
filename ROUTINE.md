@@ -34,7 +34,7 @@ Le script interroge ClinicalTrials.gov pour tous les thèmes et liste les essais
 
 - **Paramètres** (`data/curation/<thème>/parametres.json`) : quand une nouvelle méta-analyse, une recommandation ou un grand essai change le réglage conseillé ou le niveau de preuve d'une indication, mettre à jour la fiche (`niveau` : `recommandée`, `prometteuse`, `incertaine`, `non démontrée`) et ajouter son PMID dans `sources` (il doit avoir une fiche rédigée).
 - **Appareils** (`data/appareils.json`) : la détection est automatique dans les résumés et les essais ; ajouter une entrée (avec son expression régulière) quand une nouvelle marque ou un nouveau type d'appareil apparaît.
-- **Fiches patients** (`data/fiches_patients.json`) : revoir le niveau de preuve et les sources quand la fiche paramètres correspondante change.
+- **Fiches patients** (`data/fiches_patients.json`, illustrations dans `assets/fiches/`) : revoir le niveau de preuve et les sources quand la fiche paramètres correspondante change, puis régénérer les PDF A4 avec `python3 scripts/fiches_pdf.py`.
 
 ### Autres registres (OMS)
 
