@@ -377,12 +377,14 @@ function chartEffects(list) {
 
 /* ---------------- vues ---------------- */
 const app = () => $("#app");
-const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", essais: "Études en cours", appareils: "Appareils", parametres: "Paramètres", patients: "Fiches patients", alertes: "Alertes par mail", brouillons: "Brouillons", securite: "Sécurité et médicolégal", methode: "Méthode" };
+const NAV_LABEL = { home: "Accueil", recherche: "Bibliothèque", accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", essais: "Études en cours", appareils: "Appareils", parametres: "Paramètres", patients: "Fiches patients", alertes: "Alertes par mail", brouillons: "Brouillons", securite: "Sécurité et médicolégal", methode: "Méthode" };
 function setNav(id) {
   $$("[data-nav]").forEach((a) => a.setAttribute("aria-current", a.dataset.nav === id ? "page" : "false"));
-  const c = $("#crumb"); if (c) c.innerHTML = `${esc(topic().label)} <span aria-hidden="true">/</span> <b>${NAV_LABEL[id] || ""}</b>`;
-  document.title = `${NAV_LABEL[id] || "Luminathèque"}${["accueil", "publications", "syntheses", "essais", "parametres"].includes(id) ? " · " + topic().label : ""} · Luminathèque`;
+  const glob = id === "home" || id === "recherche";
+  const c = $("#crumb"); if (c) c.innerHTML = glob ? `<b>${NAV_LABEL[id]}</b>` : `${esc(topic().label)} <span aria-hidden="true">/</span> <b>${NAV_LABEL[id] || ""}</b>`;
+  document.title = id === "home" ? "Luminathèque · veille scientifique sur la photobiomodulation" : `${NAV_LABEL[id] || "Luminathèque"}${["accueil", "publications", "syntheses", "essais", "parametres"].includes(id) ? " · " + topic().label : ""} · Luminathèque`;
   const tl = $('.tool[data-nav="parametres"]'); if (tl) tl.setAttribute("href", P("parametres"));
+  $$('.mnav [data-nav="accueil"]').forEach((a) => a.setAttribute("href", `/${state.topic}`));
 }
 const SUB_ICON = {
   accueil: '<rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/>',
@@ -397,7 +399,8 @@ function renderTopics() {
   const q = ($("#side-find")?.value || "").trim().toLowerCase();
   const norm = (x) => x.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
   const tile = (t) => `<span class="tile" aria-hidden="true">${esc(t.abbr || t.label.slice(0, 2))}</span>`;
-  box.innerHTML = D.topics.map((t) => { const n = t.n ?? 0; const on = t.id === state.topic && !isSoon(t);
+  const glob = cur === "home" || cur === "recherche";
+  box.innerHTML = D.topics.map((t) => { const n = t.n ?? 0; const on = t.id === state.topic && !isSoon(t) && !glob;
     const name = t.nav || t.short || t.label;
     if (!on && q && !norm(t.label + " " + name).includes(norm(q))) return "";
     if (!on) return `<button type="button" class="tp" data-topic="${t.id}" aria-pressed="false" title="${esc(t.label)}" style="--tc:${t.color || "var(--accent)"}">${tile(t)}<span class="tp-l">${esc(name)}</span>${isSoon(t) ? '<span class="soon">À venir</span>' : `<span class="count">${kfmt(n)}</span>`}</button>`;
@@ -412,7 +415,8 @@ const TOPIC_VIEWS = ["publications", "syntheses", "essais", "parametres"];
 const topicFromPath = () => { const s = decodeURIComponent(location.pathname.split("/")[1] || ""); return D.topics.some((t) => t.id === s) ? s : null; };
 function legacyHash() {
   const seg = decodeURIComponent(location.pathname).split("/").filter(Boolean);
-  if (!seg.length) return "accueil";
+  if (!seg.length) return "home";
+  if (seg[0] === "recherche") return "recherche" + (location.search ? "?" + location.search.slice(1) : "");
   if (D.topics.some((t) => t.id === seg[0])) return seg[1] || "accueil";
   if (seg[0] === "article" && seg[1]) return "article-" + seg[1];
   if (seg[0] === "appareils") return seg[1] ? "appareil-" + seg[1] : "appareils";
@@ -423,6 +427,8 @@ function legacyHash() {
 }
 function pathFor(h, topicId = state.topic) {
   h = String(h || "").replace(/^#/, ""); let m;
+  if (h === "home") return "/";
+  if (h.startsWith("recherche")) return "/recherche" + (h.includes("?") && h.split("?")[1] ? "?" + h.split("?")[1] : "");
   if (!h || h === "accueil") return `/${topicId}`;
   if (TOPIC_VIEWS.includes(h)) return `/${topicId}/${h}`;
   if ((m = h.match(/^article-(.+)/))) return `/article/${m[1]}`;
@@ -457,6 +463,177 @@ function viewSoon(id) {
     <p class="muted" style="max-width:56ch">Ce thème suivra le même principe que les autres : revue de la littérature sur plusieurs années, fiches en trois niveaux de lecture, niveaux de preuve, synthèses annuelles et étude comparative, puis veille hebdomadaire.</p>
     <div class="chips" style="justify-content:center">${actives.map((x) => `<button class="chip" data-topic="${x.id}">Voir ${esc(x.label)}</button>`).join("")}</div>
   </section></div>`;
+}
+
+/* ---------------- accueil général : partir d'un besoin clinique ---------------- */
+const DOMAINS = [
+  ["locomoteur", "Douleur, os et muscles", ["musculo-squelettique", "sport"]],
+  ["cancer", "Cancer et soins de support", ["oncologie-support", "mucite-orale"]],
+  ["nerfs", "Cerveau et nerfs", ["neurologie", "neuropathie-peripherique"]],
+  ["peau", "Peau et cicatrisation", ["dermatologie"]],
+  ["bouche", "Bouche et dents", ["odontologie"]],
+  ["yeux", "Yeux", ["ophtalmologie"]],
+  ["orl", "Oreille, nez, gorge", ["orl"]],
+  ["femme", "Santé de la femme", ["gynecologie"]],
+  ["coeur", "Cœur et vaisseaux", ["cardiologie"]],
+];
+const domOf = (tp) => (DOMAINS.find((d) => d[2].includes(tp)) || [""])[0];
+const normTxt = (x) => String(x || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const SKIP_CTX = new Set(["autres", "général", "mixte", "populations"]);
+const IND_LABEL = { "mucite-orale|ORL": "Mucite buccale · radiothérapie ORL", "mucite-orale|chimio": "Mucite buccale · chimiothérapie", "mucite-orale|CSH": "Mucite buccale · greffe de cellules souches" };
+const IND_DOM = { CIPN: "cancer", radiodermite: "cancer", onco: "cancer", "main-pied": "cancer", "lymphœdème": "cancer", trismus: "cancer", "xérostomie": "cancer", ONM: "cancer" };
+/* recherche en français dans des titres anglais : quelques équivalences courantes */
+const SYN = { genou: ["knee"], arthrose: ["osteoarthritis", "arthrosis"], gonarthrose: ["knee osteoarthritis", "knee"], epaule: ["shoulder"], hanche: ["hip"], dos: ["back", "low back"], lombalgie: ["low back pain", "lumbar"], cervicalgie: ["neck pain"], tendinite: ["tendinopathy", "tendinitis", "tendon"], tendinopathie: ["tendinopathy"], douleur: ["pain"], muscle: ["muscle", "muscular"], plaie: ["wound", "ulcer"], plaies: ["wound", "ulcer"], ulcere: ["ulcer"], cicatrisation: ["healing", "wound"], cicatrice: ["scar"], brulure: ["burn"], peau: ["skin"], cheveux: ["hair", "alopecia"], alopecie: ["alopecia", "hair"], acne: ["acne"], mucite: ["mucositis"], sein: ["breast"], cancer: ["cancer", "tumor", "oncolog"], chimiotherapie: ["chemotherapy"], radiotherapie: ["radiotherapy", "radiation"], radiodermite: ["radiation dermatitis", "radiodermatitis"], lymphoedeme: ["lymphedema", "lymphoedema"], neuropathie: ["neuropathy"], nerf: ["nerve"], cerveau: ["brain", "cerebral"], memoire: ["memory", "cognitive"], demence: ["dementia"], alzheimer: ["alzheimer"], parkinson: ["parkinson"], depression: ["depression"], sommeil: ["sleep"], avc: ["stroke"], dent: ["tooth", "teeth", "dental"], dents: ["teeth", "tooth", "dental"], machoire: ["jaw", "temporomandibular"], atm: ["temporomandibular", "tmd"], orthodontie: ["orthodontic"], implant: ["implant"], gencive: ["gingiva", "periodont"], oeil: ["eye", "ocular"], yeux: ["eye", "ocular"], myopie: ["myopia"], dmla: ["macular degeneration", "amd"], secheresse: ["dry", "dryness", "xerosis"], vaginale: ["vaginal", "vulvovaginal"], vagin: ["vaginal"], menopause: ["menopaus"], grossesse: ["pregnan"], acouphenes: ["tinnitus"], surdite: ["hearing loss"], diabete: ["diabet"], coeur: ["heart", "cardiac"], enfant: ["child", "pediatric", "paediatric"], sport: ["sport", "athlete", "exercise"], fibromyalgie: ["fibromyalgia"], fatigue: ["fatigue"], inflammation: ["inflammat"] };
+const tokAlts = (w) => [w, ...(SYN[w] || [])];
+let IND_CACHE = null;
+function indications() {
+  if (IND_CACHE) return IND_CACHE;
+  IND_CACHE = D.topics.filter((t) => !isSoon(t)).flatMap((t) => (t.subgroups || Object.keys(t.sub_n || {})).filter((c) => !SKIP_CTX.has(c) && CTX[c]).map((c) => {
+    const pars = (t.params || []).filter((p) => p.ctx === c);
+    const best = pars.map((p) => p.niveau).sort((a, b) => Object.keys(NIVEAU).indexOf(a) - Object.keys(NIVEAU).indexOf(b))[0];
+    return { topic: t.id, ctx: c, label: IND_LABEL[t.id + "|" + c] || CTX[c], n: (t.sub_n || {})[c] || 0, pars, best, dom: domOf(t.id), dom2: IND_DOM[c],
+      pt: (D.patients || []).find((f) => f.topic === t.id && f.ctx.includes(c)),
+      key: normTxt([IND_LABEL[t.id + "|" + c] || CTX[c], t.label, ...pars.map((p) => p.indication), ...((D.patients || []).filter((f) => f.topic === t.id && f.ctx.includes(c)).map((f) => f.titre))].join(" ")) };
+  })).filter((x) => x.n >= 3).sort((a, b) => (b.pars.length || b.pt ? 1 : 0) - (a.pars.length || a.pt ? 1 : 0) || b.n - a.n);
+  return IND_CACHE;
+}
+function indCard(x) {
+  const t = D.topics.find((y) => y.id === x.topic);
+  return `<article class="ind" style="--tc:${t.color || "var(--accent)"}">
+    <div class="ind-top"><span class="ind-spe">${esc(t.short || t.label)}</span>${x.best ? `<span class="pniv" data-n="${NIVEAU[x.best][1]}">${NIVEAU[x.best][0]}</span>` : ""}</div>
+    <h3><button type="button" data-ind="${x.topic}|${esc(x.ctx)}">${esc(x.label)}</button></h3>
+    <p class="muted">${kfmt(x.n)} publication${x.n > 1 ? "s" : ""}${x.pars.length ? ` · ${x.pars.length} protocole${x.pars.length > 1 ? "s" : ""}` : ""}</p>
+    <div class="ind-links"><button type="button" data-ind="${x.topic}|${esc(x.ctx)}">Études</button>${x.pars.length ? `<a href="/${x.topic}/parametres" data-tp="${x.topic}">Paramètres</a>` : ""}${x.pt ? `<a href="/patients/${x.pt.id}">Fiche patient</a>` : ""}</div></article>`;
+}
+function indGrid() {
+  const xs = indications().filter((x) => !state.dom || x.dom === state.dom || x.dom2 === state.dom);
+  const lim = state.indAll || state.dom ? xs.length : 18;
+  return `<div class="ind-grid">${xs.slice(0, lim).map(indCard).join("")}</div>${xs.length > lim ? `<p style="text-align:center;margin:14px 0 0"><button class="btn" data-indall>Voir les ${xs.length} indications</button></p>` : ""}`;
+}
+async function ensureSearch() { if (!window.LUMINA_S && D.search_file) await loadScript(D.search_file); const S = window.LUMINA_S; if (S && !S.txt) {
+  const sh = S.topics.map((id) => normTxt(D.topics.find((t) => t.id === id)?.short || id));
+  S.txt = S.rows.map((r) => normTxt(r[8] + " " + r[9] + " " + r[7].map((c) => CTX[c] || c).join(" ")) + " " + sh[r[1]]); } return S; }
+function searchRows(S, q) {
+  const toks = normTxt(q).split(/[^a-z0-9]+/).filter((w) => w.length > 1); if (!toks.length) return [];
+  const out = [];
+  const alts = toks.map(tokAlts);
+  for (let i = 0; i < S.rows.length; i++) { const tx = S.txt[i]; if (alts.every((as) => as.some((w) => tx.includes(w)))) out.push(i); }
+  const sc = (i) => { const r = S.rows[i]; return (r[5] ? 4 : 0) + (r[4] ? 6 - r[4] : 0) + (alts.every((as) => as.some((w) => normTxt(r[8]).includes(w))) ? 2 : 0) + r[2] / 1000; };
+  return out.sort((a, b) => sc(b) - sc(a));
+}
+const PAGES = [["Appareils et technologies", "/appareils", "appareil laser led lit cabine sonde casque technologie classe dosimetrie transposer marque"],
+  ["Sécurité et contre-indications", "/securite", "securite contre-indication contre indication medicament photosensibilisant grossesse cancer tumeur yeux lunettes consentement tracabilite medicolegal"],
+  ["Fiches paramètres de toutes les spécialités", "/parametres", "parametres protocole dose dosimetrie longueur onde joules walt mascc afsos recommandation"],
+  ["Méthode et niveaux de preuve", "/methode", "methode niveau preuve gradation"], ["Comparateur de périodes", "/comparer", "comparer comparateur periode evolution"]];
+async function homeSuggest(q) {
+  const box = $("#home-sug"); if (!box) return;
+  const nq = normTxt(q).trim(); if (nq.length < 2) { box.hidden = true; box.innerHTML = ""; return; }
+  const toks = nq.split(/[^a-z0-9]+/).filter(Boolean); const has = (txt) => toks.every((w) => normTxt(txt).includes(w));
+  const inds = indications().filter((x) => toks.every((w) => x.key.includes(w))).slice(0, 5);
+  if (!inds.length) indications().filter((x) => toks.every((w) => tokAlts(w).some((a) => x.key.includes(a)))).slice(0, 5).forEach((x) => inds.push(x));
+  const pars = D.topics.flatMap((t) => (t.params || []).map((p) => [t, p])).filter(([t, p]) => has(p.indication + " " + (CTX[p.ctx] || "") + " " + t.label)).slice(0, 4);
+  const pts = (D.patients || []).filter((f) => has(f.titre + " " + f.sous_titre)).slice(0, 3);
+  const pgs = PAGES.filter(([l, , k]) => has(l + " " + k)).slice(0, 2);
+  const grp = (title, items) => items.length ? `<div class="sug-g"><span class="eyebrow">${title}</span>${items.join("")}</div>` : "";
+  const render = (pubHtml) => { box.hidden = false; box.innerHTML = grp("Indications cliniques", inds.map((x) => `<button type="button" class="sug" data-ind="${x.topic}|${esc(x.ctx)}"><b>${esc(x.label)}</b><small>${esc(topicShort(x.topic))} · ${kfmt(x.n)} publications</small></button>`))
+    + grp("Protocoles", pars.map(([t, p]) => `<a class="sug" href="/${t.id}/parametres" data-tp="${t.id}"><b>${esc(p.indication)}</b><small>${esc(t.short)} · ${esc((NIVEAU[p.niveau] || [p.niveau])[0])}</small></a>`))
+    + grp("Fiches patients", pts.map((f) => `<a class="sug" href="/patients/${f.id}"><b>${esc(f.titre)}</b><small>${esc(f.sous_titre)}</small></a>`))
+    + grp("Pages", pgs.map(([l, h]) => `<a class="sug" href="${h}"${h === "/parametres" ? " data-parall" : ""}><b>${esc(l)}</b></a>`)) + pubHtml; };
+  render(grp("Publications", [`<span class="sug muted"><small>Recherche dans les ${kfmt(D.topics.reduce((a, t) => a + (t.n || 0), 0))} publications…</small></span>`]));
+  const S = await ensureSearch().catch(() => null); if (!S || normTxt($("#home-q")?.value || "").trim() !== nq) return;
+  const hits = searchRows(S, q);
+  render(grp(`Publications · ${hits.length}`, [...hits.slice(0, 5).map((i) => { const r = S.rows[i]; return `<a class="sug" href="/article/${r[0]}" data-tp="${S.topics[r[1]]}"><b>${esc(r[8])}</b><small>${esc(topicShort(S.topics[r[1]]))} · ${r[2]}${r[5] ? " · fiche rédigée" : ""}</small></a>`; }),
+    `<a class="sug sug-all" href="/recherche?q=${encodeURIComponent(q.trim())}"><b>${hits.length ? `Voir les ${hits.length} publications →` : "Aucune publication : ouvrir la bibliothèque →"}</b></a>`]));
+}
+function newsBlock() {
+  const N = D.news || { a: {}, e: {} }; const gen = Date.parse(D.generated);
+  let days = 7, arts = [];
+  for (const d of [7, 14, 35]) { days = d; const lim = new Date(gen - d * 864e5).toISOString().slice(0, 10); arts = Object.entries(N.a).filter(([, v]) => v[0] >= lim); if (arts.length >= 6) break; }
+  const lim = new Date(gen - days * 864e5).toISOString().slice(0, 10);
+  arts.sort((a, b) => (b[1][1] - a[1][1]) || ((a[1][2] || 9) - (b[1][2] || 9)) || b[1][0].localeCompare(a[1][0]));
+  const ess = Object.entries(N.e).filter(([, v]) => v[0] >= lim || v[1] >= lim).sort((a, b) => b[1][0].localeCompare(a[1][0]));
+  const ess2 = ess.length >= 3 ? ess : Object.entries(N.e).sort((a, b) => b[1][0].localeCompare(a[1][0]));
+  const recos = Object.entries(D.reco?.sources || {}).sort((a, b) => b[1].annee - a[1].annee).slice(0, 3);
+  const when = { 7: "Cette semaine", 14: "Ces quinze derniers jours", 35: "Ces dernières semaines" }[days];
+  return `<section class="home-news" aria-labelledby="news-h"><div class="home-h"><div><span class="eyebrow">Nouveautés scientifiques</span><h2 id="news-h">${when}</h2></div>
+      <p class="muted">Les dernières publications pertinentes, les recommandations actualisées et les nouveaux essais cliniques, toutes spécialités confondues. Mise à jour le ${fmtDate(D.generated)}.</p></div>
+    <div class="news-cols">
+      <div class="news-col"><h3>${svgI("doc")}Publications <span class="n">${arts.length}</span></h3><ul>${arts.slice(0, 6).map(([k, v]) => { const [tp, pm] = k.split(":"); return `<li><a href="/article/${pm}" data-tp="${tp}">${esc(v[4])}</a><small>${esc(topicShort(tp))} · ${fmtDate(v[0])}${v[1] ? ` · <b>fiche rédigée</b>${v[2] ? ` · niveau ${v[2]}` : ""}` : " · notice"}</small></li>`; }).join("") || '<li class="muted">Rien de nouveau sur la période.</li>'}</ul></div>
+      <div class="news-col"><h3>${svgI("flask")}Essais cliniques <span class="n">${ess.length}</span></h3><ul>${ess2.slice(0, 5).map(([id, v]) => `<li><a href="/${v[2]}/essais" data-tp="${v[2]}">${esc(v[4])}</a><small>${esc(topicShort(v[2]))} · ${esc(id)} · ${v[0] === v[1] ? "nouvel essai" : "statut mis à jour"} le ${fmtDate(v[0] >= v[1] ? v[0] : v[1])}</small></li>`).join("") || '<li class="muted">Aucun nouvel essai.</li>'}</ul></div>
+      <div class="news-col"><h3>${svgI("check")}Recommandations</h3><ul>${recos.map(([, r]) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.org)} ${r.annee} · ${esc(r.titre)}</a><small>${esc(r.type)}${r.date ? ` · ${esc(r.date)}` : ""}</small></li>`).join("")}</ul><a class="more" href="/parametres" data-parall>Toutes les fiches paramètres →</a></div>
+    </div></section>`;
+}
+const HOME_I = {
+  doc: '<path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M10 12h6M10 16h6"/>',
+  flask: '<path d="M9 3h6M10 3v6l-5.5 9.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7.5 15h9"/>',
+  check: '<path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/>',
+  steth: '<path d="M6 3v6a5 5 0 0 0 10 0V3"/><path d="M11 14v2a5 5 0 0 0 10 0v-2"/><circle cx="21" cy="12" r="1.6"/>',
+  book: '<path d="M4 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H4zM20 5h-4a3 3 0 0 0-3 3"/><path d="M20 5v13h-6"/>',
+  dial: '<path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/>',
+  person: '<circle cx="12" cy="7" r="3.5"/><path d="M5 20c1-4 4-6 7-6s6 2 7 6"/>',
+};
+const svgI = (k, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" aria-hidden="true">${HOME_I[k]}</svg>`;
+function viewLanding() {
+  setNav("home"); renderTopics();
+  const act = D.topics.filter((t) => !isSoon(t));
+  const nPub = act.reduce((a, t) => a + (t.n || 0), 0), nCur = act.reduce((a, t) => a + (t.n_curated || 0), 0), nTr = act.reduce((a, t) => a + (t.trials?.now || 0) + (t.trials?.soon || 0), 0);
+  const nInd = indications().length, nPar = act.reduce((a, t) => a + (t.params?.length || 0), 0);
+  const entries = [["steth", "Indications cliniques", "Explorer les pathologies", `${nInd} indications, de l'arthrose à la mucite`, "#indications", ""],
+    ["book", "Bibliothèque", "Publications et synthèses", `${kfmt(nPub)} publications, ${kfmt(nCur)} fiches rédigées`, "/recherche", ""],
+    ["dial", "Protocoles", "Paramètres et dosimétrie", `${nPar} fiches paramètres, recommandations AFSOS, MASCC et WALT`, "/parametres", " data-parall"],
+    ["person", "Fiches patients", "Explications à imprimer", `${(D.patients || []).length} fiches illustrées en PDF A4`, "/patients", ""]];
+  app().innerHTML = `<div class="view home">
+    <section class="home-hero">
+      <span class="live"><i></i>Luminathèque · Veille active</span>
+      <h1>Que recherchez-vous aujourd'hui&nbsp;?</h1>
+      <div class="home-search" role="search"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <input id="home-q" type="search" placeholder="Une pathologie, un traitement, une étude…" aria-label="Rechercher une pathologie, un traitement ou une étude" autocomplete="off" aria-controls="home-sug">
+        <div class="home-sug" id="home-sug" hidden></div></div>
+      <p class="home-try">Par exemple : ${["mucite", "arthrose du genou", "radiodermite", "sécheresse vaginale", "neuropathie chimio-induite", "myopie"].map((x) => `<button type="button" class="chip" data-try="${x}">${x}</button>`).join("")}</p>
+      <p class="home-kpi"><span><b>${kfmt(nPub)}</b> publications</span><span><b>${kfmt(nCur)}</b> fiches rédigées</span><span><b>${act.length}</b> spécialités</span><span><b>${nTr}</b> essais suivis</span></p>
+    </section>
+    <nav class="home-entries" aria-label="Points d'entrée">${entries.map(([ic, k, t, d, h, x]) => `<a class="entry" href="${h}"${x}><span class="entry-ic">${svgI(ic, 22)}</span><span class="eyebrow">${k}</span><b>${t}</b><small>${d}</small><span class="entry-go" aria-hidden="true">→</span></a>`).join("")}</nav>
+    ${newsBlock()}
+    <section id="indications" class="home-ind" aria-labelledby="ind-h"><div class="home-h"><div><span class="eyebrow">Indications cliniques</span><h2 id="ind-h">Explorer les pathologies</h2></div>
+      <p class="muted">Partez d'un besoin clinique : chaque indication mène à ses études, à ses paramètres et, quand elle existe, à sa fiche patient.</p></div>
+      <div class="chips" role="group" aria-label="Domaine">${[["", "Tous les domaines"], ...DOMAINS.map(([k, l]) => [k, l])].map(([k, l]) => `<button class="chip" data-dom="${k}" aria-pressed="${(state.dom || "") === k}">${esc(l)}</button>`).join("")}</div>
+      <div id="ind-box">${indGrid()}</div></section>
+    <section class="home-spe" aria-labelledby="spe-h"><div class="home-h"><div><span class="eyebrow">Ou par spécialité</span><h2 id="spe-h">Les ${act.length} spécialités suivies</h2></div></div>
+      <div class="spe-grid">${act.map((t) => `<a class="spe" href="/${t.id}" style="--tc:${t.color}"><span class="tile">${esc(t.abbr)}</span><span><b>${esc(t.label)}</b><small>${kfmt(t.n)} publications · ${t.n_curated} fiches</small></span></a>`).join("")}</div></section>
+  </div>`;
+}
+/* ---------------- bibliothèque : recherche dans toutes les spécialités ---------------- */
+async function viewSearch(q) {
+  setNav("recherche"); renderTopics();
+  state.srQ = q; state.srLim = 100;
+  app().innerHTML = `<div class="view">
+    <div style="display:grid;gap:12px"><span class="eyebrow">Bibliothèque · toutes spécialités</span><h1>Publications et synthèses</h1>
+      <p class="lead" style="max-width:74ch">Recherchez dans l'ensemble des publications indexées, en français ou en anglais, ou ouvrez les synthèses d'une spécialité.</p></div>
+    <div class="home-search lib"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="sr-q" type="search" value="${esc(q)}" placeholder="Pathologie, traitement, auteur d'une étude…" aria-label="Rechercher dans toutes les publications" autocomplete="off"></div>
+    <div id="sr-box"><div class="empty">Chargement de l'index…</div></div></div>`;
+  const i = $("#sr-q"); i.focus(); i.setSelectionRange(q.length, q.length);
+  try { await ensureSearch(); } catch { $("#sr-box").innerHTML = `<div class="empty">Index indisponible. Rechargez la page.</div>`; return; }
+  renderSearch();
+}
+function renderSearch() {
+  const box = $("#sr-box"), S = window.LUMINA_S; if (!box || !S) return;
+  const q = (state.srQ || "").trim();
+  if (!q) {
+    box.innerHTML = `<div class="spe-grid lib">${D.topics.filter((t) => !isSoon(t)).map((t) => `<div class="spe" style="--tc:${t.color}"><span class="tile">${esc(t.abbr)}</span><span><b>${esc(t.label)}</b><small>${kfmt(t.n)} publications · ${t.n_curated} fiches rédigées</small>
+      <span class="spe-links"><a href="/${t.id}/publications" data-tp="${t.id}">Publications</a><a href="/${t.id}/syntheses" data-tp="${t.id}">Synthèses</a><a href="/${t.id}/essais" data-tp="${t.id}">Essais</a></span></span></div>`).join("")}</div>`;
+    return;
+  }
+  const all = searchRows(S, q);
+  const byT = {}; all.forEach((i) => { const tp = S.topics[S.rows[i][1]]; byT[tp] = (byT[tp] || 0) + 1; });
+  const xs = all.filter((i) => (!state.srTopic || S.topics[S.rows[i][1]] === state.srTopic) && (!state.srCur || S.rows[i][5]));
+  const inds = indications().filter((x) => normTxt(q).split(/\s+/).every((w) => x.key.includes(w))).slice(0, 6);
+  box.innerHTML = `${inds.length ? `<div class="sr-inds"><span class="eyebrow">Indications correspondantes</span><div class="chips">${inds.map((x) => `<button class="chip" data-ind="${x.topic}|${esc(x.ctx)}">${esc(x.label)} <span class="n">${esc(topicShort(x.topic))}</span></button>`).join("")}</div></div>` : ""}
+    <div class="ess-bar"><div class="chips"><button class="chip" data-srt="" aria-pressed="${!state.srTopic}">Toutes <span class="n">${all.length}</span></button>${Object.entries(byT).sort((a, b) => b[1] - a[1]).map(([t, n]) => `<button class="chip" data-srt="${t}" aria-pressed="${state.srTopic === t}">${esc(topicShort(t))} <span class="n">${n}</span></button>`).join("")}</div>
+      <button class="chip" data-srcur aria-pressed="${!!state.srCur}">Fiches rédigées seulement</button></div>
+    <p class="muted" style="margin:0">${xs.length} résultat${xs.length > 1 ? "s" : ""} · fiches rédigées et niveaux de preuve élevés en premier</p>
+    <ul class="sr-list">${xs.slice(0, state.srLim).map((i) => { const r = S.rows[i], tp = S.topics[r[1]]; return `<li><a href="/article/${r[0]}" data-tp="${tp}">${esc(r[8])}</a>
+      <small><span class="sr-t" style="--tc:${D.topics.find((t) => t.id === tp)?.color}">${esc(topicShort(tp))}</span> ${r[2]} · ${esc(TYPES[r[3]]?.[0] || r[3])}${r[4] ? ` · niveau ${r[4]}` : ""}${r[5] ? ` · <b>fiche rédigée</b>` : ""}${EFFECTS[r[6]] ? ` · <span class="eff" data-e="${r[6]}">${EFF_ICON[r[6]]}${EFFECTS[r[6]][0]}</span>` : ""}</small></li>`; }).join("") || '<li class="empty">Aucune publication ne contient tous ces mots.</li>'}</ul>
+    ${xs.length > state.srLim ? `<p style="text-align:center"><button class="btn" data-srmore>Afficher 100 de plus</button></p>` : ""}`;
 }
 
 function viewHome() {
@@ -1503,6 +1680,9 @@ async function route() {
   const tp = topicFromPath(); if (tp && tp !== state.topic) { applyTopic(tp); renderTopics(); }
   const bare = location.pathname.match(/^\/(publications|syntheses|essais|parametres)\/?$/); if (bare) history.replaceState(null, "", pathFor(bare[1]) + location.search);
   const h = legacyHash();
+  if (h === "home") return viewLanding();
+  if (h.startsWith("recherche")) return viewSearch(new URLSearchParams(h.split("?")[1] || "").get("q") || "");
+  if (h.startsWith("article-") && window.LUMINA_S && !byId(h.slice(8))) { const r = window.LUMINA_S.rows.find((x) => x[0] === h.slice(8)); if (r) { applyTopic(window.LUMINA_S.topics[r[1]]); renderTopics(); } }
   if (!isSoon() && !LOADED.has(state.topic)) {
     app().innerHTML = `<div class="empty">Chargement de ${esc(topic().label)}…</div>`;
     try { await ensureTopic(state.topic); } catch { app().innerHTML = `<div class="empty">Impossible de charger ce thème. Rechargez la page.</div>`; return; }
@@ -1539,6 +1719,14 @@ document.addEventListener("click", async (e) => {
   if (Object.keys(d).some((k) => k.startsWith("al"))) { e.preventDefault(); await alClick(t); return; }
   if (Object.keys(d).some((k) => k.startsWith("br"))) { e.preventDefault(); await brClick(t); return; }
   if (d.topic) { setTopic(d.topic); return; }
+  if (d.ind) { const [tp, c] = d.ind.split("|"); applyTopic(tp); state.f.ctx.add(c); state.filtersOpen = true; renderTopics(); go("publications"); return; }
+  if ("parall" in d) { state.parScope = "all"; go("parametres"); return; }
+  if (d.try) { const i = $("#home-q"); i.value = d.try; i.focus(); homeSuggest(d.try); return; }
+  if (d.dom !== undefined) { state.dom = d.dom; state.indAll = false; $("#ind-box").innerHTML = indGrid(); $$("[data-dom]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.dom === state.dom))); return; }
+  if ("indall" in d) { state.indAll = true; $("#ind-box").innerHTML = indGrid(); return; }
+  if (d.srt !== undefined) { state.srTopic = d.srt; state.srLim = 100; renderSearch(); return; }
+  if ("srcur" in d) { state.srCur = !state.srCur; state.srLim = 100; renderSearch(); return; }
+  if ("srmore" in d) { state.srLim += 100; renderSearch(); return; }
   if ("effy" in d) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : "");
     state.f.fiche.add("rédigée"); d.effy.split(",").forEach((y) => state.f.years.add(+y)); if (d.effk) state.f.effects.add(d.effk); else Object.keys(EFFECTS).forEach((k) => state.f.effects.add(k));
     state.filtersOpen = true; state.sort = "date"; go("publications"); return; }
@@ -1609,16 +1797,22 @@ let essT; document.addEventListener("input", (e) => {
   if (e.target.id === "al-email" && state.alert) { state.alert.email = e.target.value; return; }
   if (e.target.id === "medq") { clearTimeout(essT); essT = setTimeout(() => { state.medQ = e.target.value; const pos = e.target.selectionStart; viewSecurite(); const i = $("#medq"); if (i) { i.focus(); i.setSelectionRange(pos, pos); } }, 150); return; }
   if (/^c-[pant]$/.test(e.target.id)) { tracCalc(); return; }
+  if (e.target.id === "home-q") { clearTimeout(essT); essT = setTimeout(() => homeSuggest(e.target.value), 120); return; }
+  if (e.target.id === "sr-q") { clearTimeout(essT); essT = setTimeout(() => { state.srQ = e.target.value; state.srLim = 100; history.replaceState(null, "", state.srQ.trim() ? `/recherche?q=${encodeURIComponent(state.srQ.trim())}` : "/recherche"); renderSearch(); }, 180); return; }
   if (e.target.id?.startsWith("tc-") || e.target.name === "tc-u") { if (e.target.id === "tc-p" && $("#tc-pk")) $("#tc-pk").value = ""; calcTranspo(); return; }
   if (e.target.id !== "essq" && e.target.id !== "devq") return; clearTimeout(essT); const id = e.target.id;
   essT = setTimeout(async () => { state[id === "essq" ? "essQ" : "devQ"] = e.target.value; const pos = e.target.selectionStart; await rerender(); const i = $("#" + id); if (i) { i.focus(); i.setSelectionRange(pos, pos); } }, 220);
 });
 $("#q").addEventListener("input", (e) => {
   clearTimeout(qTimer); qTimer = setTimeout(() => {
+    if (["home", "recherche"].includes(legacyHash().split("?")[0])) { const v = e.target.value.trim(); e.target.value = ""; if (v) go(`/recherche?q=${encodeURIComponent(v)}`); return; }
     state.q = e.target.value.trim(); if (state.q && state.sort === "date") state.sort = "pertinence"; if (!state.q && state.sort === "pertinence") state.sort = "date";
     if (legacyHash() !== "publications") go("publications"); else rerender();
   }, 160);
 });
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && e.target.id === "home-q" && e.target.value.trim()) { e.preventDefault(); go(`/recherche?q=${encodeURIComponent(e.target.value.trim())}`); }
+  if (e.key === "Escape" && e.target.id === "home-q") { const b = $("#home-sug"); if (b) b.hidden = true; } });
 document.addEventListener("keydown", (e) => { if (e.key === "/" && !/input|textarea|select/i.test(document.activeElement.tagName)) { e.preventDefault(); $("#q").focus(); } });
 
 /* thème clair / sombre : choix mémorisé, sinon réglage du système */
@@ -1646,7 +1840,8 @@ document.addEventListener("click", (e) => {
   const href = a.getAttribute("href");
   if (href.startsWith("#")) { e.preventDefault(); document.getElementById(href.slice(1))?.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
   if (!href.startsWith("/") || href.startsWith("//") || /^\/(assets|pdfs|flux|data|scripts)\/|^\/alertes\/|\.[a-z0-9]{2,5}(\?|$)/i.test(href)) return;
-  e.preventDefault(); const [pth, frag] = href.split("#"); go(pth); if (frag) setTimeout(() => document.getElementById(frag)?.scrollIntoView({ block: "start" }), 60);
+  e.preventDefault(); if (a.dataset.tp && a.dataset.tp !== state.topic) { applyTopic(a.dataset.tp); renderTopics(); }
+  const [pth, frag] = href.split("#"); go(pth); if (frag) setTimeout(() => document.getElementById(frag)?.scrollIntoView({ block: "start" }), 60);
 });
 renderTopics(); route(); updateSelbar();
 })();

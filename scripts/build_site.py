@@ -230,7 +230,8 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
                                       "hero", "exclusions_note", "subgroups", "pubmed_query")}
     par_path = cur_dir / "parametres.json"
     meta["params"] = json.loads(par_path.read_text()) if par_path.exists() else []
-    meta.update(n_raw=len(raw), n_excluded=len(excluded), n=len(articles), n_curated=sum(a["curated"] for a in articles))
+    meta.update(n_raw=len(raw), n_excluded=len(excluded), n=len(articles), n_curated=sum(a["curated"] for a in articles),
+                sub_n=dict(collections.Counter(c for a in articles for c in (a.get("ctx") or []))))
     return meta, articles, syntheses, abstracts
 
 
@@ -523,12 +524,24 @@ def main() -> None:
         write_versioned(ROOT / "assets/topics" / f"_brouillons.{bh}.js", js)
         drafts_file = f"assets/topics/_brouillons.{bh}.js"
         print(f"→ {len(drafts)} brouillon(s) de fiche à valider")
+    # index léger de toutes les publications pour la recherche de l'accueil (chargé à la demande)
+    tix = {t["id"]: i for i, t in enumerate(topics)}
+    rows = [[a["pmid"], tix[a["topic"]], a["year"], a["type"], a.get("level") or 0, int(a["curated"]), a["effect"] if a["curated"] else "",
+             a.get("ctx") or [], a.get("title_fr") or a["title"], a["title"] if a["curated"] and a.get("title_fr") else ""]
+            for a in sorted(all_articles, key=lambda a: a["date"], reverse=True)]
+    js = "window.LUMINA_S = " + json.dumps({"topics": [t["id"] for t in topics], "rows": rows}, ensure_ascii=False, separators=(",", ":")) + ";\n"
+    sh = hashlib.sha1(js.encode()).hexdigest()[:10]
+    for old in (ROOT / "assets/topics").glob("_recherche.*js"):
+        if old.name != f"_recherche.{sh}.js":
+            old.unlink()
+    write_versioned(ROOT / "assets/topics" / f"_recherche.{sh}.js", js)
+    search_file = f"assets/topics/_recherche.{sh}.js"
     sv = track_news(all_articles, trials)
     write_feeds(topics, all_articles, sv)
     order = {"actif": 0, None: 0, "à venir": 1}
     topics.sort(key=lambda x: (order.get(x.get("status"), 0), x["label"]))
     payload = {"generated": dt.date.today().isoformat(), "topics": topics, "syntheses": syntheses, "n_chunks": N_CHUNKS,
-               "trials_file": f"assets/topics/_essais.{h}.js" if trials else None, "devices_file": devices_file, "news": recent_news(sv, all_articles, trials),
+               "trials_file": f"assets/topics/_essais.{h}.js" if trials else None, "devices_file": devices_file, "search_file": search_file, "news": recent_news(sv, all_articles, trials),
                "drafts_file": drafts_file, "securite": json.loads((ROOT / "data/securite.json").read_text()) if (ROOT / "data/securite.json").exists() else None, "reco": json.loads((ROOT / "data/recommandations.json").read_text()) if (ROOT / "data/recommandations.json").exists() else None, "n_drafts": len(drafts), "repo": REPO,
                "alerts_api": ALERTS_API,
                "patients": json.loads((ROOT / "data/fiches_patients.json").read_text()) if (ROOT / "data/fiches_patients.json").exists() else []}

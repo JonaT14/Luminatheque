@@ -143,6 +143,7 @@ def main():
              "<h1>Sécurité, contre-indications et médicolégal</h1>" + "".join(f"<h2>{E(c['titre'])}</h2><p>{E(c['regle'])}</p>" for c in sec.get("contre_indications", [])))
     pg.write("/securite/consentement", "Consentement éclairé à la photobiomodulation · Luminathèque", "Modèle de consentement éclairé à la photobiomodulation, avec questionnaire de sécurité, à imprimer ou télécharger.", "<h1>Consentement éclairé à la photobiomodulation</h1>")
     pg.write("/securite/tracabilite", "Fiche de traçabilité des séances de photobiomodulation · Luminathèque", "Modèle de fiche de traçabilité des paramètres délivrés (longueur d'onde, puissance, énergie, fluence), avec calcul automatique.", "<h1>Fiche de traçabilité</h1>")
+    pg.write("/recherche", "Bibliothèque · Luminathèque", "Rechercher dans toutes les publications sur la photobiomodulation indexées par Luminathèque, toutes spécialités confondues, et ouvrir les synthèses.", "<h1>Publications et synthèses</h1>")
     pg.write("/methode", "Méthode · Luminathèque", "Sources, sélection des études, niveaux de preuve et rédaction des fiches de Luminathèque.", "<h1>Méthode</h1>")
     pg.write("/comparer", "Comparateur · Luminathèque", "Comparer deux périodes ou une sélection d'études sur la photobiomodulation.", "<h1>Comparateur</h1>")
     (out / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
