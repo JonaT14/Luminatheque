@@ -200,7 +200,7 @@ function cardRaw(a, opts = {}) {
     <div class="src">${metaLine(a)}</div>
     ${quickBlock(a)}
     ${a.l1 ? `<p class="l1" lang="en"><span class="eyebrow" style="display:block;margin-bottom:4px">Conclusion des auteurs (VO)</span>${hl(a.l1, state.q)}</p>` : ""}
-    <div class="card-actions"><a class="btn small" href="/article/${a.pmid}">Résumé complet</a><a class="btn small" href="https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/" target="_blank" rel="noopener">PubMed ↗</a></div></article>`;
+    <div class="card-actions"><a class="btn small" href="/article/${a.pmid}">Résumé complet</a><a class="btn small" href="https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/" target="_blank" rel="noopener">PubMed ↗</a>${bridgeLinks(a.topic || state.topic, a.ctx, { compact: true })}</div></article>`;
 }
 /* trois états de lecture : notice indexée → publication évaluée → analyse approfondie */
 const READ_STATE = [
@@ -268,6 +268,7 @@ function card(a, opts = {}) {
     <div class="card-actions">
       ${lv < 3 ? `<button class="btn small" data-more="${a.pmid}">${levelBars(lv + 1)}Lire plus · ${READ[lv + 1][0]}</button>` : `<button class="btn small" data-less="${a.pmid}">Réduire</button>`}
       <a class="btn small" href="/article/${a.pmid}">Fiche complète${a.pdf ? " + PDF" : ""}</a>
+      ${bridgeLinks(a.topic || state.topic, a.ctx, { compact: true })}
     </div></article>`;
 }
 
@@ -558,7 +559,7 @@ function indCard(x) {
     <div class="ind-top"><span class="ind-spe">${esc(t.short || t.label)}</span>${x.best ? `<span class="pniv" data-n="${NIVEAU[x.best][1]}">${NIVEAU[x.best][0]}</span>` : ""}</div>
     <h3><button type="button" data-ind="${x.topic}|${esc(x.ctx)}">${esc(x.label)}</button></h3>
     <p class="muted">${kfmt(x.n)} publication${x.n > 1 ? "s" : ""}${x.pars.length ? ` · ${x.pars.length} protocole${x.pars.length > 1 ? "s" : ""}` : ""}</p>
-    <div class="ind-links"><button type="button" data-ind="${x.topic}|${esc(x.ctx)}">Études</button>${x.pars.length ? `<a href="/${x.topic}/parametres" data-tp="${x.topic}">Paramètres</a>` : ""}${x.pt ? `<a href="/patients/${x.pt.id}">Fiche patient</a>` : ""}</div></article>`;
+    <div class="ind-links"><button type="button" data-ind="${x.topic}|${esc(x.ctx)}">Études</button>${x.pars.length ? `<a href="${parHref(x.topic, (D.topics.find((t) => t.id === x.topic).params || []).indexOf(x.pars[0]))}" data-tp="${x.topic}">Paramètres</a><button type="button" data-adapt="${x.topic}|${(D.topics.find((t) => t.id === x.topic).params || []).indexOf(x.pars[0])}">Adapter</button>` : ""}${x.pt ? `<a href="/patients/${x.pt.id}">Fiche patient</a>` : ""}</div></article>`;
 }
 function indGrid() {
   const xs = indications().filter((x) => !state.dom || x.dom === state.dom || x.dom2 === state.dom);
@@ -591,7 +592,7 @@ async function homeSuggest(q) {
   const pgs = PAGES.filter(([l, , k]) => has(l + " " + k)).slice(0, 2);
   const grp = (title, items) => items.length ? `<div class="sug-g"><span class="eyebrow">${title}</span>${items.join("")}</div>` : "";
   const render = (pubHtml) => { box.hidden = false; box.innerHTML = grp("Indications cliniques", inds.map((x) => `<button type="button" class="sug" data-ind="${x.topic}|${esc(x.ctx)}"><b>${esc(x.label)}</b><small>${esc(topicShort(x.topic))} · ${kfmt(x.n)} publications</small></button>`))
-    + grp("Protocoles", pars.map(([t, p]) => `<a class="sug" href="/${t.id}/parametres" data-tp="${t.id}"><b>${esc(p.indication)}</b><small>${esc(t.short)} · ${esc((NIVEAU[p.niveau] || [p.niveau])[0])}</small></a>`))
+    + grp("Protocoles", pars.map(([t, p]) => `<a class="sug" href="${parHref(t.id, t.params.indexOf(p))}" data-tp="${t.id}"><b>${esc(p.indication)}</b><small>${esc(t.short)} · ${esc((NIVEAU[p.niveau] || [p.niveau])[0])}</small></a>`))
     + grp("Fiches patients", pts.map((f) => `<a class="sug" href="/patients/${f.id}"><b>${esc(f.titre)}</b><small>${esc(f.sous_titre)}</small></a>`))
     + grp("Pages", pgs.map(([l, h]) => `<a class="sug" href="${h}"${h === "/parametres" ? " data-parall" : ""}><b>${esc(l)}</b></a>`)) + pubHtml; };
   render(grp("Publications", [`<span class="sug muted"><small>Recherche dans les ${kfmt(D.topics.reduce((a, t) => a + (t.n || 0), 0))} publications…</small></span>`]));
@@ -807,9 +808,11 @@ async function viewArticleRaw(a) {
     <section class="panel"><h3 style="margin-bottom:10px">Résumé des auteurs (PubMed, en anglais)</h3><div class="abstract" id="raw-abs" lang="en"><p class="muted">Chargement du résumé…</p></div></section>
     </div><aside style="display:grid;gap:18px;min-width:0"><div class="panel"><h3 style="margin-bottom:6px">Fiche technique</h3><dl class="facts">
       ${[["Type (auto)", typeLabel(a)], ["Niveau (indicatif)", a.level ? `${a.level} · ${LEVELS[a.level][0]}` : "Non gradé"], ["Sous-groupe (auto)", (a.ctx || []).map((c) => CTX[c] || c).join(", ") || "—"], ["Mise en ligne", fmtDate(a.date)], ["PMID", a.pmid], ["Types PubMed", (a.pub_types || []).join(", ") || "—"]].map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>
-      <div class="panel"><h3 style="margin-bottom:10px">Sources</h3><div class="links">${links.map(([h, l]) => `<a class="btn small" href="${h}" target="_blank" rel="noopener">${l} ↗</a>`).join("")}</div><div style="margin-top:12px">${exportBtns("art")}</div></div></aside></div>`;
+      <div class="panel"><h3 style="margin-bottom:10px">Sources</h3><div class="links">${links.map(([h, l]) => `<a class="btn small" href="${h}" target="_blank" rel="noopener">${l} ↗</a>`).join("")}</div><div style="margin-top:12px">${exportBtns("art")}</div></div>
+      ${bridgeLinks(a.topic || state.topic, a.ctx) ? `<div class="panel">${bridgeLinks(a.topic || state.topic, a.ctx)}</div>` : ""}<div id="dosi-box">${dosimetryPanel(a)}</div></aside></div>`;
   scrollTo(0, 0);
   const ab = await abstractOf(a); const box = $("#raw-abs");
+  const db = $("#dosi-box"); if (db && ab.length) db.innerHTML = dosimetryPanel(a, ab);
   if (box) box.innerHTML = ab.length ? ab.map((x) => `<p>${x.label ? `<b>${esc(x.label)}</b> ` : ""}${esc(x.text)}</p>`).join("") : `<p class="muted">Résumé indisponible ici. <a href="https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/" target="_blank" rel="noopener">Voir sur PubMed</a>.</p>`;
 }
 function viewArticle(pmid) {
@@ -864,6 +867,7 @@ function viewArticle(pmid) {
           ["Thème", a.theme], ["Mise en ligne", fmtDate(a.date) + " · " + a.week.replace("-S", " S")], ["PMID", a.pmid], ["Citations", String(a.cited_by ?? 0) + " (Europe PMC)"]]
           .map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>
       <div class="panel"><h3 style="margin-bottom:10px">Sources</h3><div class="links">${links.map(([h, l]) => `<a class="btn small" href="${h}" target="_blank" rel="noopener">${l} ↗</a>`).join("")}</div><div style="margin-top:12px">${exportBtns("art")}</div></div>
+      ${bridgeLinks(a.topic || state.topic, a.ctx) ? `<div class="panel">${bridgeLinks(a.topic || state.topic, a.ctx)}</div>` : ""}<div id="dosi-box">${dosimetryPanel(a)}</div>
       ${related.length ? `<div class="panel"><h3 style="margin-bottom:10px">Même thème · ${esc(a.theme)}</h3><div style="display:grid;gap:10px">${related.map((r) => `<a href="/article/${r.pmid}" style="text-decoration:none;color:var(--ink);display:grid;gap:4px"><span style="font:600 .9rem/1.3 var(--f-display)">${esc(r.title_fr)}</span><span class="muted" style="font:500 .75rem var(--f-display)">${typeLabel(r)} · ${r.year}</span></a>`).join("")}</div></div>` : ""}
     </aside></div>`;
   if (a.pdf) renderPdf(a.pdf);
@@ -916,6 +920,10 @@ function viewSyntheses() {
         <span style="flex:1"></span><button type="button" class="btn small primary" data-synpdf>${'<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M12 11v6M9 14l3 3 3-3"/></svg>'} Exporter en PDF</button>${exportBtns("syn", synRefs(yearList).length)}</div></div>
     <section class="panel syn-body"><h2>${esc(cur?.headline || "")}</h2>${body}
       <p class="muted" style="font-size:.85rem">Rédigé à partir des ${yearList.filter((a) => a.curated !== false).length} publications évaluées de la période (${yearList.length} notices indexées). Pour un autre découpage (semaines, trimestres, sélection d'articles), utilisez le <a href="/comparer">comparateur</a>.</p></section>
+    ${(() => { const ps = parsOf(state.topic), pts = (D.patients || []).filter((f) => f.topic === state.topic); return ps.length || pts.length ? `<section class="panel"><div class="panel-head"><div><span class="eyebrow">Du diagnostic au réglage</span><h2>Passer à la pratique</h2></div></div>
+      <div class="bridge-grid">${ps.map(([p, i]) => `<div class="bg-it"><a href="${parHref(state.topic, i)}"><b>${esc(p.indication)}</b><small>${esc(CTX[p.ctx] || p.ctx)}${p.params?.Dose && p.params.Dose !== "—" ? " · " + esc(p.params.Dose) : ""}</small></a>
+        <span class="bg-act"><a class="br" href="${parHref(state.topic, i)}">${brI("dial")}<span>Paramètres</span></a><button type="button" class="br br-go" data-adapt="${state.topic}|${i}">${brI("clock")}<span>Adapter</span></button>${ptOf(state.topic, [p.ctx]) ? `<a class="br br-pt" href="/patients/${ptOf(state.topic, [p.ctx]).id}">${brI("person")}<span>Fiche patient</span></a>` : ""}</span></div>`).join("")}
+      ${pts.filter((f) => !ps.some(([p]) => f.ctx.includes(p.ctx))).map((f) => `<div class="bg-it"><a href="/patients/${f.id}"><b>${esc(f.titre)}</b><small>Fiche patient</small></a></div>`).join("")}</div></section>` : ""; })()}
     ${tbl}${stats}
     <section class="grid-2"><div class="panel"><div class="panel-head"><h2>Méta-analyses de la période</h2></div>${chartForest(yearList)}</div>
       <div class="panel"><div class="panel-head"><h2>Essais de la période</h2></div>${chartDumbbell(yearList)}</div></section>
@@ -1305,21 +1313,131 @@ function nmStrip(list) {
   return `<div class="nmstrip" aria-label="Longueurs d'onde des fiches de cette indication"><div class="nmstrip-track"></div>${pts.map(([n, e]) => `<i data-e="${e}" style="left:${x(n)}%" title="${n} nm · ${EFFECTS[e]?.[0] || e}"></i>`).join("")}
     <span style="left:0">400</span><span style="left:${x(600)}%">600</span><span style="left:${x(800)}%">800</span><span style="left:${x(1000)}%">1 000 nm</span></div>`;
 }
+/* ---------------- ponts « du diagnostic au réglage » ---------------- */
+const parsOf = (topicId, ctxs) => ((D.topics.find((t) => t.id === topicId) || {}).params || []).map((p, i) => [p, i]).filter(([p]) => !ctxs || ctxs.includes(p.ctx));
+const parHref = (topicId, i) => `/${topicId}/parametres#par-${topicId}-${i}`;
+const ptOf = (topicId, ctxs) => (D.patients || []).find((f) => f.topic === topicId && (!ctxs || f.ctx.some((c) => ctxs.includes(c))));
+const BR_I = { dial: '<path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/>',
+  person: '<circle cx="12" cy="7" r="3.5"/><path d="M5 20c1-4 4-6 7-6s6 2 7 6"/>', clock: '<circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/>',
+  send: '<path d="M21 3 10 14M21 3l-7 18-4-7-7-4z"/>', print: '<path d="M6 9V3h12v6M6 18H4v-7h16v7h-2"/><path d="M6 14h12v7H6z"/>' };
+const brI = (k) => `<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true">${BR_I[k]}</svg>`;
+function bridgeLinks(topicId, ctxs, opts = {}) {
+  const ps = parsOf(topicId, ctxs), pt = ptOf(topicId, ctxs);
+  if (!ps.length && !pt) return "";
+  return `<div class="bridge${opts.compact ? " compact" : ""}">${opts.compact ? "" : `<span class="eyebrow">Passer à la pratique</span>`}
+    ${ps.slice(0, opts.compact ? 1 : 4).map(([p, i]) => `<a class="br" href="${parHref(topicId, i)}" data-tp="${topicId}">${brI("dial")}<span>${opts.compact ? "Paramètres dosimétriques" : `Paramètres · ${esc(p.indication)}`}</span></a>`).join("")}
+    ${ps.length && !opts.compact ? `<button type="button" class="br br-go" data-adapt="${topicId}|${ps[0][1]}">${brI("clock")}<span>Adapter à mon appareil</span></button>` : ""}
+    ${pt ? `<a class="br br-pt" href="/patients/${pt.id}">${brI("person")}<span>Fiche patient${opts.compact ? "" : ` · ${esc(pt.titre)}`}</span></a>` : ""}</div>`;
+}
+/* paramètres dosimétriques extraits du résumé d'une étude */
+function extractDosimetry(text) {
+  const T = String(text || "").replace(/ /g, " "), out = [];
+  const grab = (label, rx, fmt) => { const seen = new Set(); for (const m of T.matchAll(rx)) { const v = fmt(m).trim(); if (!seen.has(v) && seen.size < 4) { seen.add(v); } } if (seen.size) out.push([label, [...seen]]); };
+  const num = "\\d+(?:[.,]\\d+)?", rg = `${num}(?:\\s*(?:-|–|to|and|or|à|et)\\s*${num})?`;
+  grab("Longueur d'onde", new RegExp(`(${rg})\\s*nm\\b`, "gi"), (m) => `${m[1]} nm`);
+  grab("Fluence", new RegExp(`(${rg})\\s*J\\s*/\\s*cm\\s*(?:2|²)`, "gi"), (m) => `${m[1]} J/cm²`);
+  grab("Énergie", new RegExp(`(${rg})\\s*J(?:oules?)?\\b(?!\\s*/)(?:\\s*(?:per|par|/)\\s*(point|site|session|séance))?`, "gi"), (m) => `${m[1]} J${m[2] ? " par " + m[2].replace("per ", "") : ""}`);
+  grab("Irradiance", new RegExp(`(${rg})\\s*(m?W)\\s*/\\s*cm\\s*(?:2|²)`, "gi"), (m) => `${m[1]} ${m[2]}/cm²`);
+  grab("Puissance", new RegExp(`(${rg})\\s*(mW|W)\\b(?!\\s*/)`, "g"), (m) => `${m[1]} ${m[2]}`);
+  grab("Fréquence", new RegExp(`(${rg})\\s*(k?Hz)\\b`, "gi"), (m) => `${m[1]} ${m[2]}`);
+  grab("Durée", new RegExp(`(${rg})\\s*(s|sec|seconds?|secondes?|min|minutes?)\\b(?:\\s*(?:per|par)\\s*(point|site|session|séance))?`, "gi"), (m) => `${m[1]} ${m[2].startsWith("min") ? "min" : "s"}${m[3] ? " par " + m[3] : ""}`);
+  grab("Séances", new RegExp(`(${rg})\\s*(sessions?|séances?|applications?|treatments?)\\b`, "gi"), (m) => `${m[1]} séances`);
+  return out;
+}
+function dosimetryPanel(a, abs) {
+  const txt = [(abs || a.abstract || []).map((x) => x.text).join(" "), a.l2 || "", (a.l3?.points || []).join(" ")].join(" ");
+  const ex = extractDosimetry(txt);
+  return `<div class="panel dosi" id="dosi"><h3 style="margin-bottom:4px">Paramètres dosimétriques extraits</h3><p class="muted" style="font-size:.76rem;margin:0 0 10px">Repérés automatiquement dans le résumé${a.curated !== false ? " et la fiche" : ""} : à vérifier dans l'article.</p>
+    ${ex.length ? `<dl class="dosi-l">${ex.map(([k, vs]) => `<div><dt>${k}</dt><dd>${vs.map((v) => `<span>${esc(v)}</span>`).join("")}</dd></div>`).join("")}</dl>` : `<p class="muted" style="font-size:.85rem;margin:0">Aucun paramètre chiffré dans le résumé.</p>`}</div>`;
+}
+/* « Adapter à mon appareil » : fluence ou énergie du protocole → temps d'illumination selon la machine */
+const MACH_PRESETS = [["Laser 3B · 100 mW, spot 0,5 cm²", 100, 0.5], ["Laser 3B · 50 mW, spot 0,1 cm²", 50, 0.1], ["Sonde multi-diodes · 200 mW, 5 cm²", 200, 5],
+  ["Panneau LED · 50 mW/cm² (à 15 cm)", 50, 1], ["Lit corps entier · 30 mW/cm²", 30, 1], ["Laser classe 4 · 6 W, 10 cm²", 6000, 10]];
+const machines = () => store.get("machines", []);
+function parseDose(txt) {
+  const t = String(txt || "").replace(/ /g, " ");
+  const m = t.match(/(\d+(?:[.,]\d+)?)(?:\s*(?:–|-|à)\s*(\d+(?:[.,]\d+)?))?\s*J(\s*\/\s*cm²)?/);
+  if (!m) return null;
+  const lo = parseFloat(m[1].replace(",", ".")), hi = m[2] ? parseFloat(m[2].replace(",", ".")) : lo;
+  return { lo, hi, unit: m[3] ? "F" : "J" };
+}
+function openAdapt(topicId, i) {
+  const p = (D.topics.find((t) => t.id === topicId) || {}).params?.[i]; if (!p) return;
+  const walt = waltRows(topicId, p.ctx).filter((r) => new RegExp(r.kw, "i").test(p.indication + " " + (p.params?.Zone || "")));
+  const dose = parseDose(p.params?.Dose);
+  const pt = ptOf(topicId, [p.ctx]);
+  let dlg = $("#adapt"); if (!dlg) { dlg = document.createElement("dialog"); dlg.id = "adapt"; dlg.className = "adapt"; document.body.append(dlg); }
+  const ms = machines();
+  dlg.innerHTML = `<form method="dialog" class="ad-in">
+    <div class="ad-h"><div><span class="eyebrow">${esc(topicShort(topicId))} · protocole</span><h2>${esc(p.indication)}</h2></div><button class="icon-btn" value="close" aria-label="Fermer">✕</button></div>
+    <div class="ad-proto">${["Longueur d'onde", "Dose", "Puissance", "Séances"].filter((k) => p.params?.[k] && p.params[k] !== "—").map((k) => `<span><b>${k}</b>${esc(p.params[k])}</span>`).join("")}${walt.length ? `<span><b>WALT</b>${walt.map((r) => `${esc(r.zone)} : ${esc(r.g780[1])} J (780–860 nm) · ${esc(r.g904[1])} J (904 nm)`).join(" ; ")}</span>` : ""}</div>
+    <div class="ad-grid">
+      <fieldset><legend>1. Dose visée</legend>
+        <div class="seg"><label><input type="radio" name="ad-u" value="F" ${!dose || dose.unit === "F" ? "checked" : ""}> Fluence (J/cm²)</label><label><input type="radio" name="ad-u" value="J" ${dose && dose.unit === "J" ? "checked" : ""}> Énergie par point (J)</label></div>
+        <label class="tc-f"><span>Valeur ${dose ? `<small class="muted">(protocole : ${dose.lo === dose.hi ? dose.lo : dose.lo + " à " + dose.hi})</small>` : `<small class="muted">(non chiffrée dans la fiche : saisissez celle de votre source)</small>`}</span>
+          <span class="tc-in"><input id="ad-dose" inputmode="decimal" value="${dose ? String(dose.lo === dose.hi ? dose.lo : (dose.lo + dose.hi) / 2).replace(".", ",") : ""}"><i>J ou J/cm²</i></span></label></fieldset>
+      <fieldset><legend>2. Votre appareil</legend>
+        <select id="ad-mach" aria-label="Choisir un appareil"><option value="">Saisie libre…</option>${ms.length ? `<optgroup label="Mes appareils">${ms.map((m, k) => `<option value="m${k}">${esc(m[0])}</option>`).join("")}</optgroup>` : ""}<optgroup label="Exemples types">${MACH_PRESETS.map((m, k) => `<option value="p${k}">${esc(m[0])}</option>`).join("")}</optgroup></select>
+        <label class="tc-f"><span>Puissance de sortie</span><span class="tc-in"><input id="ad-p" inputmode="decimal" value="${ms[0] ? String(ms[0][1]).replace(".", ",") : ""}"><i>mW</i></span></label>
+        <label class="tc-f"><span>Surface du faisceau ou de la zone éclairée</span><span class="tc-in"><input id="ad-s" inputmode="decimal" value="${ms[0] ? String(ms[0][2]).replace(".", ",") : ""}"><i>cm²</i></span></label>
+        <div class="ad-save"><input id="ad-name" placeholder="Nom (ex. laser du cabinet)" aria-label="Nom de l'appareil"><button type="button" class="btn small" data-adsave>Mémoriser</button></div></fieldset>
+      <output id="ad-out" class="tc-out" aria-live="polite"></output>
+    </div>
+    <div class="ad-foot">${pt ? `<a class="br br-pt" href="/patients/${pt.id}">${brI("person")}<span>Fiche patient · ${esc(pt.titre)}</span></a><a class="br" href="/assets/fiches/pdf/${pt.id}.pdf" download>${brI("print")}<span>Imprimer (PDF A4)</span></a><button type="button" class="br" data-ptsend="${pt.id}">${brI("send")}<span>Envoyer au patient</span></button>` : `<span class="muted" style="font-size:.82rem">Pas encore de fiche patient pour cette indication.</span>`}
+      <span style="flex:1"></span><span class="muted" style="font-size:.74rem">Repère de calcul : vérifiez la notice de l'appareil et mesurez la puissance réelle.</span></div>
+  </form>`;
+  if (ms[0]) $("#ad-mach").value = "m0";
+  dlg.dataset.pw = p.params?.Puissance || ""; dlg.showModal(); calcAdapt();
+}
+function calcAdapt() {
+  const box = $("#ad-out"); if (!box) return;
+  const v = (id) => { const x = parseFloat(($("#" + id)?.value || "").replace(/\s/g, "").replace(",", ".")); return isFinite(x) && x > 0 ? x : null; };
+  const f = (x, d = 1) => x.toLocaleString("fr-FR", { maximumFractionDigits: d });
+  const u = document.querySelector('input[name="ad-u"]:checked')?.value || "F";
+  const P = v("ad-p"), S = v("ad-s"), dose = v("ad-dose");
+  const E = P && S ? P / S : null; // mW/cm²
+  let t = null; if (dose && u === "F" && E) t = dose / (E / 1000); if (dose && u === "J" && P) t = dose / (P / 1000);
+  const mmss = (x) => { const m = Math.floor(x / 60), s2 = Math.round(x % 60); return m ? `${m} min ${String(s2).padStart(2, "0")} s` : `${f(x)} s`; };
+  const pw = String($("#adapt")?.dataset.pw || "").replace(/\u00a0/g, " "); let warn = "";
+  const m = pw.match(/(\d+(?:[.,]\d+)?)(?:\s*(?:–|-|à)\s*(\d+(?:[.,]\d+)?))?\s*(m?W)(\s*\/\s*cm²)?/);
+  if (m && /\d/.test(pw) && !/W\s*;|moyenne/i.test(pw)) {
+    const k = m[3] === "W" ? 1000 : 1, lo = parseFloat(m[1].replace(",", ".")) * k, hi = (m[2] ? parseFloat(m[2].replace(",", ".")) : lo / k) * (m[2] ? k : k);
+    const mine = m[4] ? E : P, unit = m[4] ? "mW/cm²" : "mW";
+    if (mine && (mine > hi * 3 || mine < lo / 3)) warn = `<div class="tc-warn" data-ok="false"><dt>À vérifier</dt><dd>${mine > hi ? "Bien plus" : "Bien moins"} que le protocole</dd><small>Le protocole indique ${esc(pw)} ; votre appareil délivre ${f(mine)} ${unit}. À fluence égale, l'effet n'est pas garanti quand l'${m[4] ? "irradiance" : "puissance"} change d'un facteur 3 ou plus : rapprochez-vous des conditions de l'étude (distance, surface, réglage).</small></div>`;
+    else if (mine) warn = `<div class="tc-warn" data-ok="true"><dt>Cohérence</dt><dd>Proche du protocole</dd><small>Protocole : ${esc(pw)} · votre appareil : ${f(mine)} ${unit}.</small></div>`;
+  }
+  box.innerHTML = t ? `<dl><div class="tc-main"><dt>Temps d'illumination ${u === "J" ? "par point" : "par zone"}</dt><dd>${mmss(t)}</dd>
+      <small>${u === "F" ? `${f(dose)} J/cm² ÷ ${f(E)} mW/cm²` : `${f(dose)} J ÷ ${f(P)} mW`}</small></div>
+      ${E ? `<div><dt>Irradiance de l'appareil</dt><dd>${f(E)} mW/cm²</dd></div>` : ""}
+      ${S ? `<div><dt>${u === "F" ? "Énergie délivrée sur la zone" : "Fluence correspondante"}</dt><dd>${u === "F" ? `${f(dose * S)} J` : `${f(dose / S)} J/cm²`}</dd></div>` : ""}${warn}</dl>`
+    : `<p class="muted">Renseignez la dose${u === "F" ? ", la puissance et la surface" : " et la puissance"} pour obtenir le temps d'illumination.</p>`;
+}
+async function sendPatient(id) {
+  const f = (D.patients || []).find((x) => x.id === id); if (!f) return;
+  const url = `${SITE}/patients/${id}`, text = `${f.titre} : fiche d'information sur la photobiomodulation (version à jour).`;
+  if (navigator.share) { try { await navigator.share({ title: f.titre, text, url }); return; } catch { /* annulé */ } }
+  location.href = `mailto:?subject=${encodeURIComponent(f.titre + " · fiche patient")}&body=${encodeURIComponent(text + "\n\n" + url + "\n\nVersion PDF : " + SITE + "/assets/fiches/pdf/" + id + ".pdf")}`;
+}
+
 function paramCard(p, topicId) {
   const [nl, nc] = NIVEAU[p.niveau] || [p.niveau, "unc"];
   const list = (window.LUMINA_T?.[topicId] ? all() : []).filter((a) => a.curated !== false && (a.ctx || []).includes(p.ctx));
-  return `<article class="pcard">
+  const pi = ((D.topics.find((t) => t.id === topicId) || {}).params || []).indexOf(p), pt = ptOf(topicId, [p.ctx]);
+  return `<article class="pcard" id="par-${topicId}-${pi}">
     <header><div style="display:grid;gap:6px"><span class="eyebrow">${esc(topicShort(topicId))} · ${esc(CTX[p.ctx] || p.ctx)}</span><h3>${esc(p.indication)}</h3></div><span style="display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end">${[...new Set([...recoItems(topicId, p.ctx).map((i) => D.reco.sources[i.source].org), ...(waltRows(topicId, p.ctx).length ? ["WALT"] : [])])].map(recoOrg).join("")}<span class="pniv" data-n="${nc}">${nl}</span></span></header>
     <p class="presume">${esc(p.resume)}</p>
     <div class="pgrid">${Object.entries(p.params).filter(([, v]) => v && v !== "—").map(([k, v]) => `<div class="ptile"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">${PAR_ICON[k] || ""}</svg><div><b>${esc(k)}</b><span>${esc(v)}${k === "Longueur d'onde" ? nmSwatches(v) : ""}</span></div></div>`).join("")}</div>
     ${p.conseils.length || p.prudence.length ? `<div class="pnotes">${p.conseils.map((c) => `<p class="ok">${esc(c)}</p>`).join("")}${p.prudence.map((c) => `<p class="warn">${esc(c)}</p>`).join("")}</div>` : ""}
     ${(() => { const its = recoItems(topicId, p.ctx); const rows0 = waltRows(topicId, p.ctx); const rk = rows0.filter((r) => new RegExp(r.kw, "i").test(p.indication + " " + (p.params?.Zone || ""))); const rows = rk.length ? rk : rows0; return its.length || rows.length ? `<div class="preco"><span class="eyebrow">Recommandations des sociétés savantes</span>${its.map((i) => recoItem(i, false)).join("")}${rows.length ? waltTable(rows) : ""}</div>` : ""; })()}
     ${topicId === state.topic && list.length >= 3 ? `<div class="pstrip"><span class="eyebrow">Longueurs d'onde des ${list.length} fiches de ce sous-groupe</span>${nmStrip(list)}</div>` : ""}
+    <div class="bridge pc-actions"><button type="button" class="br br-go" data-adapt="${topicId}|${pi}">${brI("clock")}<span>Adapter à mon appareil</span></button>
+      ${pt ? `<a class="br br-pt" href="/patients/${pt.id}">${brI("person")}<span>Fiche patient</span></a><a class="br" href="/assets/fiches/pdf/${pt.id}.pdf" download>${brI("print")}<span>Imprimer</span></a><button type="button" class="br" data-ptsend="${pt.id}">${brI("send")}<span>Envoyer</span></button>` : ""}
+      <a class="br" href="/${topicId}/publications" data-tp="${topicId}" data-pubctx="${esc(p.ctx)}">${brI("dial")}<span>Études de l'indication</span></a></div>
     <footer><span class="eyebrow">Sources</span>${p.sources.map((id) => { const a = byId(id); return `<a class="psrc" href="/article/${id}" title="${esc(a?.title_fr || "")}">${a ? esc((TYPES[a.type]?.[0] || "") + " " + a.year) : "PMID " + id}</a>`; }).join("")}</footer>
   </article>`;
 }
 function viewParams() {
-  setNav("parametres");
+  setNav("parametres"); setTimeout(() => { const h = location.hash.slice(1); const el = h && document.getElementById(h); if (el) { el.scrollIntoView({ block: "start" }); el.classList.add("flash"); } }, 30);
   const scope = state.parScope, t = topic();
   const groups = scope === "all" ? D.topics.filter((x) => x.params?.length).map((x) => [x.id, x.params]) : [[t.id, t.params || []]];
   const n = groups.reduce((s, [, xs]) => s + xs.length, 0);
@@ -1331,6 +1449,7 @@ function viewParams() {
     ${scope === "all" ? "" : recoPanel(t.id, true)}
     ${groups.map(([id, xs]) => `${scope === "all" ? `<h2 class="pgroup">${esc(D.topics.find((x) => x.id === id).label)}</h2>` : ""}<div class="pcards">${xs.map((p) => paramCard(p, id)).join("")}</div>`).join("") || ""}
     ${!n ? `<div class="empty">Pas encore de fiche paramètres pour ce thème.</div>` : ""}
+    <div class="callout"><b>Adapter à mon appareil</b> convertit la dose du protocole (fluence en J/cm² ou énergie par point en J) en temps d'illumination selon la puissance et la surface de votre machine, que vous pouvez mémoriser dans ce navigateur.</div>
     <div class="callout">Ces repères résument la littérature ; ils ne remplacent ni la formation à l'appareil utilisé, ni les consignes du fabricant, ni le jugement clinique. Les doses s'entendent par point d'application sauf mention contraire.</div>
   </div>`;
 }
@@ -1862,6 +1981,11 @@ document.addEventListener("click", async (e) => {
   if (d.topic) { setTopic(d.topic); return; }
   if (d.ind) { const [tp, c] = d.ind.split("|"); applyTopic(tp); state.f.ctx.add(c); state.filtersOpen = true; renderTopics(); go("publications"); return; }
   if ("synpdf" in d) { printSynthesis(); return; }
+  if (d.adapt) { const [tp, i] = d.adapt.split("|"); openAdapt(tp, +i); return; }
+  if (d.ptsend) { sendPatient(d.ptsend); return; }
+  if ("adsave" in d) { const n = ($("#ad-name").value || "").trim() || "Mon appareil"; const P = parseFloat(($("#ad-p").value || "").replace(",", ".")), S = parseFloat(($("#ad-s").value || "").replace(",", "."));
+    if (!(P > 0 && S > 0)) { $("#ad-name").placeholder = "Renseignez d'abord puissance et surface"; return; }
+    const ms = machines().filter((m) => m[0] !== n); ms.unshift([n, P, S]); store.set("machines", ms.slice(0, 8)); t.textContent = "Mémorisé ✓"; return; }
   if (d.exp) {
     let xs = [], base = "luminatheque";
     if (d.exp === "list") { xs = filtered(all()); base = `luminatheque-${state.topic}`; }
@@ -1949,6 +2073,7 @@ let essT; document.addEventListener("input", (e) => {
   if (e.target.id === "al-email" && state.alert) { state.alert.email = e.target.value; return; }
   if (e.target.id === "medq") { clearTimeout(essT); essT = setTimeout(() => { state.medQ = e.target.value; const pos = e.target.selectionStart; viewSecurite(); const i = $("#medq"); if (i) { i.focus(); i.setSelectionRange(pos, pos); } }, 150); return; }
   if (/^c-[pant]$/.test(e.target.id)) { tracCalc(); return; }
+  if (e.target.closest?.("#adapt")) { if (e.target.id === "ad-mach") { const v2 = e.target.value; const m = v2[0] === "m" ? machines()[+v2.slice(1)] : v2[0] === "p" ? MACH_PRESETS[+v2.slice(1)] : null; if (m) { $("#ad-p").value = String(m[1]).replace(".", ","); $("#ad-s").value = String(m[2]).replace(".", ","); $("#ad-name").value = v2[0] === "m" ? m[0] : ""; } } calcAdapt(); return; }
   if (e.target.id === "home-q") { clearTimeout(essT); essT = setTimeout(() => homeSuggest(e.target.value), 120); return; }
   if (e.target.id === "sr-q") { clearTimeout(essT); essT = setTimeout(() => { state.srQ = e.target.value; state.srLim = 100; history.replaceState(null, "", state.srQ.trim() ? `/recherche?q=${encodeURIComponent(state.srQ.trim())}` : "/recherche"); renderSearch(); }, 180); return; }
   if (e.target.id?.startsWith("tc-") || e.target.name === "tc-u") { if (e.target.id === "tc-p" && $("#tc-pk")) $("#tc-pk").value = ""; calcTranspo(); return; }
@@ -1963,6 +2088,7 @@ $("#q").addEventListener("input", (e) => {
   }, 160);
 });
 document.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && e.target.closest?.("#adapt") && e.target.tagName === "INPUT") { e.preventDefault(); return; }
   if (e.key === "Enter" && e.target.id === "home-q" && e.target.value.trim()) { e.preventDefault(); go(`/recherche?q=${encodeURIComponent(e.target.value.trim())}`); }
   if (e.key === "Escape" && e.target.id === "home-q") { const b = $("#home-sug"); if (b) b.hidden = true; } });
 document.addEventListener("keydown", (e) => { if (e.key === "/" && !/input|textarea|select/i.test(document.activeElement.tagName)) { e.preventDefault(); $("#q").focus(); } });
@@ -1993,7 +2119,8 @@ document.addEventListener("click", (e) => {
   if (href.startsWith("#")) { e.preventDefault(); document.getElementById(href.slice(1))?.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
   if (!href.startsWith("/") || href.startsWith("//") || /^\/(assets|pdfs|flux|data|scripts)\/|^\/alertes\/|\.[a-z0-9]{2,5}(\?|$)/i.test(href)) return;
   e.preventDefault(); if (a.dataset.tp && a.dataset.tp !== state.topic) { applyTopic(a.dataset.tp); renderTopics(); }
-  const [pth, frag] = href.split("#"); go(pth); if (frag) setTimeout(() => document.getElementById(frag)?.scrollIntoView({ block: "start" }), 60);
+  if (a.dataset.pubctx) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : ""); state.f.ctx.add(a.dataset.pubctx); state.filtersOpen = true; }
+  const [pth, frag] = href.split("#"); go(frag && /^par-/.test(frag) ? pth + "#" + frag : pth); if (frag) setTimeout(() => document.getElementById(frag)?.scrollIntoView({ block: "start" }), 60);
 });
 renderTopics(); route(); updateSelbar();
 })();
