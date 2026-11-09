@@ -121,18 +121,18 @@ def render(db: dict, email: str, prefs: dict, news: dict, since: str) -> tuple[s
             for a in v["f"][:25]:
                 ef = EFFECT.get(a.get("effect"))
                 h.append(f'''<tr><td style="padding:8px 0;border-bottom:1px solid {C.LINE}">
-<a href="{C.SITE_URL}/#article-{a['pmid']}" style="font:600 15px/1.35 Helvetica,Arial;color:{C.INK};text-decoration:none">{E(a['title_fr'])}</a>
+<a href="{C.SITE_URL}/article/{a['pmid']}" style="font:600 15px/1.35 Helvetica,Arial;color:{C.INK};text-decoration:none">{E(a['title_fr'])}</a>
 <div style="font:12px/1.5 Helvetica,Arial;color:{C.MUTED};margin-top:3px">{E(TYPES.get(a['type'], a['type']))} · {E(a.get('journal_abbr') or '')} {a['year']}{f' · <span style="color:{ef[1]};font-weight:600">{E(ef[0])}</span>' if ef else ''}</div>
 <div style="font:14px/1.5 Helvetica,Arial;color:#3b382f;margin-top:4px">{E(a.get('l1') or '')}</div></td></tr>''')
-                text.append(f"- {a['title_fr']} ({TYPES.get(a['type'], a['type'])}) {C.SITE_URL}/#article-{a['pmid']}")
+                text.append(f"- {a['title_fr']} ({TYPES.get(a['type'], a['type'])}) {C.SITE_URL}/article/{a['pmid']}")
             if len(v["f"]) > 25:
                 h.append(f'<tr><td style="font:13px Helvetica,Arial;color:{C.MUTED};padding:6px 0">… et {len(v["f"]) - 25} autres fiches sur le site.</td></tr>')
         if v["n"]:
             h.append(f'<tr><td style="font:600 11px/1.4 Helvetica,Arial;letter-spacing:.12em;text-transform:uppercase;color:{C.MUTED};padding:14px 0 4px">Nouvelles publications</td></tr>')
             for a in v["n"][:30]:
-                h.append(f'''<tr><td style="padding:6px 0;border-bottom:1px solid {C.LINE}"><a href="{C.SITE_URL}/#article-{a['pmid']}" lang="en" style="font:14px/1.4 Helvetica,Arial;color:{C.INK};text-decoration:none">{E(a['title'])}</a>
+                h.append(f'''<tr><td style="padding:6px 0;border-bottom:1px solid {C.LINE}"><a href="{C.SITE_URL}/article/{a['pmid']}" lang="en" style="font:14px/1.4 Helvetica,Arial;color:{C.INK};text-decoration:none">{E(a['title'])}</a>
 <div style="font:12px/1.5 Helvetica,Arial;color:{C.MUTED}">{E(TYPES.get(a.get('type'), 'Publication'))} · {E(a.get('journal_abbr') or '')} {a['year']}</div></td></tr>''')
-                text.append(f"- {a['title']} {C.SITE_URL}/#article-{a['pmid']}")
+                text.append(f"- {a['title']} {C.SITE_URL}/article/{a['pmid']}")
             if len(v["n"]) > 30:
                 h.append(f'<tr><td style="font:13px Helvetica,Arial;color:{C.MUTED};padding:6px 0">… et {len(v["n"]) - 30} autres publications sur le site.</td></tr>')
         if v["e"]:
@@ -146,7 +146,7 @@ def render(db: dict, email: str, prefs: dict, news: dict, since: str) -> tuple[s
     inner = f"""<h1 style="font:700 24px/1.2 Georgia,serif;margin:6px 0 4px">Vos alertes {E(period)}</h1>
 <p style="color:{C.MUTED};margin:0 0 6px">{E(resume)}</p>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0">{''.join(blocks)}</table>
-<p style="margin:26px 0 4px">{C.button(C.SITE_URL + '/#accueil', 'Ouvrir Luminathèque')}</p>"""
+<p style="margin:26px 0 4px">{C.button(C.SITE_URL + '/', 'Ouvrir Luminathèque')}</p>"""
     footer = (f'Vous recevez cette lettre car vous êtes abonné aux alertes ({E(C.describe_prefs(prefs))}).<br>'
               f'<a href="{E(C.manage_url(email))}" style="color:{C.MUTED}">Modifier mes alertes</a> · '
               f'<a href="{E(C.unsubscribe_url(email))}" style="color:{C.MUTED}">Me désabonner</a>')

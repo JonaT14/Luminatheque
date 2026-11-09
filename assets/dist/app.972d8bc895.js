@@ -193,10 +193,10 @@ function cardRaw(a, opts = {}) {
   return `<article class="card raw" data-pmid="${a.pmid}">
     <div class="card-top"><div class="badges"><span class="badge raw-badge">Non analysé</span>${typeBadge(a)}${lvlBadge(a)}${(a.ctx || []).slice(0, 2).map((c) => `<span class="badge">${esc(CTX[c] || c)}</span>`).join("")}</div>
     ${opts.noSel ? "" : `<label class="sel"><input type="checkbox" data-sel="${a.pmid}" ${state.selected.has(a.pmid) ? "checked" : ""}> Sélectionner</label>`}</div>
-    <h3 lang="en"><a href="#article-${a.pmid}">${hl(a.title, state.q)}</a></h3>
+    <h3 lang="en"><a href="/article/${a.pmid}">${hl(a.title, state.q)}</a></h3>
     <div class="src">${metaLine(a)}</div>
     ${a.l1 ? `<p class="l1" lang="en"><span class="eyebrow" style="display:block;margin-bottom:4px">Conclusion des auteurs (VO)</span>${hl(a.l1, state.q)}</p>` : ""}
-    <div class="card-actions"><a class="btn small" href="#article-${a.pmid}">Résumé complet</a><a class="btn small" href="https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/" target="_blank" rel="noopener">PubMed ↗</a></div></article>`;
+    <div class="card-actions"><a class="btn small" href="/article/${a.pmid}">Résumé complet</a><a class="btn small" href="https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/" target="_blank" rel="noopener">PubMed ↗</a></div></article>`;
 }
 function card(a, opts = {}) {
   if (!a.curated && a.curated !== undefined) return cardRaw(a, opts);
@@ -207,12 +207,12 @@ function card(a, opts = {}) {
   return `<article class="card" data-pmid="${a.pmid}">
     <div class="card-top"><div class="badges">${typeBadge(a)}${lvlBadge(a)}${effBadge(a)}${a.pdf ? '<span class="pdf-flag">PDF</span>' : ""}${a.key ? '<span class="star">★ À retenir</span>' : ""}</div>
     ${opts.noSel ? "" : `<label class="sel"><input type="checkbox" data-sel="${a.pmid}" ${state.selected.has(a.pmid) ? "checked" : ""}> Sélectionner</label>`}</div>
-    <h3><a href="#article-${a.pmid}">${hl(a.title_fr, state.q)}</a></h3>
+    <h3><a href="/article/${a.pmid}">${hl(a.title_fr, state.q)}</a></h3>
     <div class="src">${metaLine(a)}</div>
     ${body}
     <div class="card-actions">
       ${lv < 3 ? `<button class="btn small" data-more="${a.pmid}">${levelBars(lv + 1)}Lire plus · ${READ[lv + 1][0]}</button>` : `<button class="btn small" data-less="${a.pmid}">Réduire</button>`}
-      <a class="btn small" href="#article-${a.pmid}">Fiche complète${a.pdf ? " + PDF" : ""}</a>
+      <a class="btn small" href="/article/${a.pmid}">Fiche complète${a.pdf ? " + PDF" : ""}</a>
     </div></article>`;
 }
 
@@ -297,7 +297,7 @@ function chartForest(list) {
     if (m.lo && m.hi) s += `<line x1="${x(Math.max(lo, m.lo))}" x2="${x(Math.min(hi, m.hi))}" y1="${cy}" y2="${cy}" stroke="var(--s1)" stroke-width="2"/>`;
     s += `<rect x="${x(m.rr) - 6}" y="${cy - 6}" width="12" height="12" rx="2" fill="${m.lo ? "var(--s1)" : "var(--surface)"}" stroke="var(--s1)" stroke-width="2"/>`;
     s += `<text x="${W - R + 10}" y="${cy + 4}" class="mono" style="fill:var(--ink)">${String(m.rr.toFixed(2)).replace(".", ",")}${m.lo ? ` [${String(m.lo.toFixed(2)).replace(".", ",")}–${String(m.hi.toFixed(2)).replace(".", ",")}]` : " (IC n.d.)"}</text>`;
-    s += `<a href="#article-${a.pmid}"><rect class="hit" x="0" y="${cy - rowH / 2}" width="${W}" height="${rowH}" data-tip="${esc(`<b>${a.title_fr}</b><br>RR ${m.rr}${m.lo ? ` [${m.lo}–${m.hi}]` : ""} · cliquer pour ouvrir la fiche`)}"/></a>`;
+    s += `<a href="/article/${a.pmid}"><rect class="hit" x="0" y="${cy - rowH / 2}" width="${W}" height="${rowH}" data-tip="${esc(`<b>${a.title_fr}</b><br>RR ${m.rr}${m.lo ? ` [${m.lo}–${m.hi}]` : ""} · cliquer pour ouvrir la fiche`)}"/></a>`;
   });
   return `<div class="chart">${s}</svg></div><p class="muted" style="font-size:.8rem">Risque relatif (échelle logarithmique). En dessous de 1, moins de mucites avec la PBM. Carré vide : intervalle de confiance non rapporté dans le résumé.</p>`;
 }
@@ -315,7 +315,7 @@ function chartDumbbell(list) {
     s += `<text x="0" y="${cy - 3}" style="font-weight:600;fill:var(--ink)">${esc(lab)}</text><text x="0" y="${cy + 12}">${esc(sub.length > 28 ? sub.slice(0, 27) + "…" : sub)}</text>`;
     s += `<line x1="${x(m.a)}" x2="${x(m.b)}" y1="${cy}" y2="${cy}" stroke="var(--line)" stroke-width="4" stroke-linecap="round"/>`;
     s += `<circle cx="${x(m.b)}" cy="${cy}" r="6" fill="var(--s2)" stroke="var(--surface)" stroke-width="2"/><circle cx="${x(m.a)}" cy="${cy}" r="6" fill="var(--s1)" stroke="var(--surface)" stroke-width="2"/>`;
-    s += `<a href="#article-${a.pmid}"><rect class="hit" x="0" y="${cy - rowH / 2}" width="${W}" height="${rowH}" data-tip="${esc(`<b>${a.title_fr}</b><br>${m.a_label} : ${String(m.a).replace(".", ",")} %<br>${m.b_label} : ${String(m.b).replace(".", ",")} %`)}"/></a>`;
+    s += `<a href="/article/${a.pmid}"><rect class="hit" x="0" y="${cy - rowH / 2}" width="${W}" height="${rowH}" data-tip="${esc(`<b>${a.title_fr}</b><br>${m.a_label} : ${String(m.a).replace(".", ",")} %<br>${m.b_label} : ${String(m.b).replace(".", ",")} %`)}"/></a>`;
   });
   return `<div class="chart">${s}</svg></div>${legend([["Bras étudié (PBM ou modalité testée)", "var(--s1)"], ["Comparateur (placebo, standard ou autre voie)", "var(--s2)"]])}`;
 }
@@ -381,6 +381,8 @@ const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", sy
 function setNav(id) {
   $$("[data-nav]").forEach((a) => a.setAttribute("aria-current", a.dataset.nav === id ? "page" : "false"));
   const c = $("#crumb"); if (c) c.innerHTML = `${esc(topic().label)} <span aria-hidden="true">/</span> <b>${NAV_LABEL[id] || ""}</b>`;
+  document.title = `${NAV_LABEL[id] || "Luminathèque"}${["accueil", "publications", "syntheses", "essais", "parametres"].includes(id) ? " · " + topic().label : ""} · Luminathèque`;
+  const tl = $('.tool[data-nav="parametres"]'); if (tl) tl.setAttribute("href", P("parametres"));
 }
 const SUB_ICON = {
   accueil: '<rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/>',
@@ -391,7 +393,7 @@ const kfmt = (n) => n >= 1000 ? (n / 1000).toLocaleString("fr-FR", { maximumFrac
 function renderTopics() {
   const box = $("#side-topics"); if (!box) return;
   const sub = [["accueil", "Tableau de bord"], ["publications", "Publications"], ["syntheses", "Synthèses"], ["essais", "Études en cours"]];
-  const cur = decodeURIComponent(location.hash.slice(1)).split("-")[0];
+  const cur = legacyHash().split(/[-?]/)[0];
   const q = ($("#side-find")?.value || "").trim().toLowerCase();
   const norm = (x) => x.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
   const tile = (t) => `<span class="tile" aria-hidden="true">${esc(t.abbr || t.label.slice(0, 2))}</span>`;
@@ -401,13 +403,47 @@ function renderTopics() {
     if (!on) return `<button type="button" class="tp" data-topic="${t.id}" aria-pressed="false" title="${esc(t.label)}" style="--tc:${t.color || "var(--accent)"}">${tile(t)}<span class="tp-l">${esc(name)}</span>${isSoon(t) ? '<span class="soon">À venir</span>' : `<span class="count">${kfmt(n)}</span>`}</button>`;
     const tr = t.trials ? t.trials.now + t.trials.soon : 0;
     return `<div class="tp-card" style="--tc:${t.color || "var(--accent)"}"><button type="button" class="tp on" data-topic="${t.id}" aria-pressed="true" title="${esc(t.label)}">${tile(t)}<span class="tp-l">${esc(name)}</span><svg class="chev" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg></button>
-      <div class="side-sub">${sub.map(([k, l]) => `<a class="sub" href="#${k}" data-nav="${k}" aria-current="${cur === k || (k === "accueil" && (!cur || cur === "article")) ? "page" : "false"}"><svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true">${SUB_ICON[k]}</svg><span>${l}</span>${k === "publications" ? `<span class="count">${kfmt(n)}</span>` : k === "essais" && tr ? `<span class="count">${tr}</span>` : ""}</a>`).join("")}</div></div>`; }).join("") || `<p class="muted" style="padding:8px 10px;font-size:.85rem">Aucune spécialité ne correspond.</p>`;
+      <div class="side-sub">${sub.map(([k, l]) => `<a class="sub" href="${P(k)}" data-nav="${k}" aria-current="${cur === k || (k === "accueil" && (!cur || cur === "article")) ? "page" : "false"}"><svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true">${SUB_ICON[k]}</svg><span>${l}</span>${k === "publications" ? `<span class="count">${kfmt(n)}</span>` : k === "essais" && tr ? `<span class="count">${tr}</span>` : ""}</a>`).join("")}</div></div>`; }).join("") || `<p class="muted" style="padding:8px 10px;font-size:.85rem">Aucune spécialité ne correspond.</p>`;
   $("#topic").innerHTML = D.topics.map((t) => `<option value="${t.id}" ${t.id === state.topic ? "selected" : ""}>${esc(t.short || t.label)}${isSoon(t) ? " · à venir" : ""}</option>`).join("");
   const up = $("#side-update"); if (up) up.textContent = `Mis à jour le ${fmtDate(D.generated)}`;
 }
-function setTopic(id) {
+/* ---------------- adresses (History API) : /<thème>[/<rubrique>], /article/<pmid>, /appareils/<id>, /patients/<id>… ---------------- */
+const TOPIC_VIEWS = ["publications", "syntheses", "essais", "parametres"];
+const topicFromPath = () => { const s = decodeURIComponent(location.pathname.split("/")[1] || ""); return D.topics.some((t) => t.id === s) ? s : null; };
+function legacyHash() {
+  const seg = decodeURIComponent(location.pathname).split("/").filter(Boolean);
+  if (!seg.length) return "accueil";
+  if (D.topics.some((t) => t.id === seg[0])) return seg[1] || "accueil";
+  if (seg[0] === "article" && seg[1]) return "article-" + seg[1];
+  if (seg[0] === "appareils") return seg[1] ? "appareil-" + seg[1] : "appareils";
+  if (seg[0] === "patients") return seg[1] ? "patient-" + seg[1] : "patients";
+  if (seg[0] === "alertes") return "alertes" + (location.search ? "?" + location.search.slice(1) : "");
+  return seg[0];
+}
+function pathFor(h, topicId = state.topic) {
+  h = String(h || "").replace(/^#/, ""); let m;
+  if (!h || h === "accueil") return `/${topicId}`;
+  if (TOPIC_VIEWS.includes(h)) return `/${topicId}/${h}`;
+  if ((m = h.match(/^article-(.+)/))) return `/article/${m[1]}`;
+  if ((m = h.match(/^appareil-(.+)/))) return `/appareils/${m[1]}`;
+  if ((m = h.match(/^patient-(.+)/))) return `/patients/${m[1]}`;
+  if ((m = h.match(/^alertes\?(.*)/))) return `/alertes?${m[1]}`;
+  return `/${h}`;
+}
+const P = (h) => pathFor(h);
+function go(h, replace) {
+  const url = String(h).startsWith("/") ? h : pathFor(h);
+  if (url !== location.pathname + location.search) history[replace ? "replaceState" : "pushState"](null, "", url);
+  route(); updateSelbar(); if (typeof setMenu === "function") setMenu(false); scrollTo(0, 0);
+}
+function applyTopic(id) {
   state.topic = id; store.set("topic", id); INDEX.clear(); state.cmp = null; state.synTab = "global"; state.essCtx = ""; state.essReg = ""; state.cardLevel.clear();
   for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : "");
+}
+function setTopic(id) {
+  const h = legacyHash(); applyTopic(id);
+  if (topicFromPath()) history.pushState(null, "", pathFor(h, id));
+  else if (h.startsWith("article-") || h === "accueil") history.pushState(null, "", `/${id}`);
   renderTopics(); route(); scrollTo(0, 0);
 }
 function viewSoon(id) {
@@ -437,7 +473,7 @@ function viewHome() {
       <p class="lead">${list.length} publications PubMed analysées une par une, chacune lisible en trois niveaux, avec son niveau de preuve et, quand l'article est en accès libre, le PDF intégré.</p>
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="eyebrow">Niveau de lecture</span>${levelSwitch(state.level)}</div>
       <div class="syn-card">
-        <div class="panel-head" style="margin:0"><div style="display:grid;gap:6px"><span class="eyebrow">Synthèse ${esc((t.since || "2024").slice(0, 4))} → aujourd'hui</span><h3 style="font-size:1.08rem">${esc(g?.headline || "Synthèse")}</h3></div><a href="#syntheses" class="btn small">Toutes les synthèses</a></div>
+        <div class="panel-head" style="margin:0"><div style="display:grid;gap:6px"><span class="eyebrow">Synthèse ${esc((t.since || "2024").slice(0, 4))} → aujourd'hui</span><h3 style="font-size:1.08rem">${esc(g?.headline || "Synthèse")}</h3></div><a href="${P("syntheses")}" class="btn small">Toutes les synthèses</a></div>
         <div class="prose ${state.level === 1 ? "l1" : ""}">${synBody}</div>
       </div>
     </div>
@@ -449,8 +485,8 @@ function viewHome() {
         <div class="kpi"><b>${syn}</b><span>revues systématiques, méta-analyses et recommandations</span></div>
         <div class="kpi"><b>${list.filter((a) => a.pdf).length}</b><span>PDF en accès libre lisibles sur le site</span></div>
       </div>
-      <div class="panel"><div class="panel-head"><h3>Niveaux de preuve</h3><a class="btn small" href="#methode">Comprendre</a></div>${chartPyramid(list)}</div>
-      ${t.trials && t.trials.now + t.trials.soon ? `<a class="panel ess-teaser" href="#essais"><span class="eyebrow">Études en cours</span><span><b>${t.trials.now}</b> essais en cours · <b>${t.trials.soon}</b> projets en construction</span><span class="muted">Promoteurs, investigateurs et pays, d'après ClinicalTrials.gov et les registres de l'OMS →</span></a>` : ""}
+      <div class="panel"><div class="panel-head"><h3>Niveaux de preuve</h3><a class="btn small" href="/methode">Comprendre</a></div>${chartPyramid(list)}</div>
+      ${t.trials && t.trials.now + t.trials.soon ? `<a class="panel ess-teaser" href="${P("essais")}"><span class="eyebrow">Études en cours</span><span><b>${t.trials.now}</b> essais en cours · <b>${t.trials.soon}</b> projets en construction</span><span class="muted">Promoteurs, investigateurs et pays, d'après ClinicalTrials.gov et les registres de l'OMS →</span></a>` : ""}
       <p class="muted" style="font-size:.78rem">Dernière mise à jour : <span class="mono">${fmtDate(D.generated)}</span> · veille ${esc(t.cadence)} · PubMed + Europe PMC</p>
     </div>
   </section>
@@ -459,7 +495,7 @@ function viewHome() {
       return `<button type="button" class="card" data-sub="${g}" style="text-align:left;cursor:pointer;font:inherit;color:inherit"><span class="eyebrow">${xs.length} publications · ${xs.filter((a) => a.type === "rct").length} ECR · ${xs.filter((a) => groupOf(a) === "syn").length} synthèses</span><h3>${esc(CTX[g])}</h3><span class="muted" style="font-size:.85rem">${esc(SUB_DESC[g] || "")}</span><span class="badges">${Object.keys(EFFECTS).map((k) => { const n = xs.filter((a) => a.effect === k).length; return n ? `<span class="eff" data-e="${k}">${EFF_ICON[k]}${n}</span>` : ""; }).join("")}</span></button>`; }).join("")}</div></section>` : ""}
   ${recoPanel(t.id, false)}
   <section class="grid-2">
-    <div class="panel"><div class="panel-head"><h2>Dernières parutions</h2><a class="btn small" href="#publications">Tout voir</a></div><div style="display:grid;gap:10px">${latest.map((a) => card(a, { noSel: true })).join("")}</div></div>
+    <div class="panel"><div class="panel-head"><h2>Dernières parutions</h2><a class="btn small" href="${P("publications")}">Tout voir</a></div><div style="display:grid;gap:10px">${latest.map((a) => card(a, { noSel: true })).join("")}</div></div>
     <div class="panel"><div class="panel-head"><h2>À retenir</h2><p>Les essais et synthèses les plus solides</p></div><div style="display:grid;gap:10px">${keys.map((a) => card(a, { noSel: true })).join("")}</div></div>
   </section>
 
@@ -525,7 +561,7 @@ async function viewArticleRaw(a) {
   const links = [a.doi && [`https://doi.org/${a.doi}`, "Article original (DOI)"], [`https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/`, "PubMed"],
     a.pmcid && [`https://pmc.ncbi.nlm.nih.gov/articles/${a.pmcid}/`, "PMC (texte intégral)"], [`https://europepmc.org/article/MED/${a.pmid}`, "Europe PMC"]].filter(Boolean);
   app().innerHTML = `<div class="article"><div style="display:grid;gap:22px;min-width:0">
-    <a href="#publications" class="btn small" style="justify-self:start">← Publications</a>
+    <a href="${P("publications")}" class="btn small" style="justify-self:start">← Publications</a>
     <header><div class="badges"><span class="badge raw-badge">Non analysé</span>${typeBadge(a)}${lvlBadge(a)}</div>
       <h1 lang="en" style="font-size:clamp(1.3rem,1.05rem + 1.2vw,1.9rem)">${esc(a.title)}</h1>
       <p class="src muted" style="font:500 .85rem var(--f-display)">${esc((a.authors || []).join(", "))} · <i>${esc(a.journal)}</i><br>${metaLine(a)}</p></header>
@@ -541,7 +577,8 @@ async function viewArticleRaw(a) {
 function viewArticle(pmid) {
   setNav("publications");
   const a = byId(pmid);
-  if (!a) { app().innerHTML = `<div class="empty">Publication introuvable (PMID ${esc(pmid)}). <a href="#publications">Retour aux publications</a></div>`; return; }
+  if (!a) { app().innerHTML = `<div class="empty">Publication introuvable (PMID ${esc(pmid)}). <a href="${P("publications")}">Retour aux publications</a></div>`; return; }
+  document.title = `${a.title_fr || a.title} · Luminathèque`;
   if (a.curated === false) return viewArticleRaw(a);
   const lv = state.cardLevel.get(pmid) || state.level;
   const related = all().filter((x) => x.pmid !== a.pmid && x.theme === a.theme).slice(0, 4);
@@ -558,7 +595,7 @@ function viewArticle(pmid) {
   ].filter(Boolean);
   app().innerHTML = `<div class="article">
     <div style="display:grid;gap:22px;min-width:0">
-      <a href="#publications" class="btn small" style="justify-self:start">← Publications</a>
+      <a href="${P("publications")}" class="btn small" style="justify-self:start">← Publications</a>
       <header>
         <div class="badges">${typeBadge(a)}${lvlBadge(a)}${effBadge(a)}${a.key ? '<span class="star">★ À retenir</span>' : ""}</div>
         <h1 style="font-size:clamp(1.4rem,1.1rem + 1.4vw,2.1rem)">${esc(a.title_fr)}</h1>
@@ -582,7 +619,7 @@ function viewArticle(pmid) {
           ["Thème", a.theme], ["Mise en ligne", fmtDate(a.date) + " · " + a.week.replace("-S", " S")], ["PMID", a.pmid], ["Citations", String(a.cited_by ?? 0) + " (Europe PMC)"]]
           .map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>
       <div class="panel"><h3 style="margin-bottom:10px">Sources</h3><div class="links">${links.map(([h, l]) => `<a class="btn small" href="${h}" target="_blank" rel="noopener">${l} ↗</a>`).join("")}</div></div>
-      ${related.length ? `<div class="panel"><h3 style="margin-bottom:10px">Même thème · ${esc(a.theme)}</h3><div style="display:grid;gap:10px">${related.map((r) => `<a href="#article-${r.pmid}" style="text-decoration:none;color:var(--ink);display:grid;gap:4px"><span style="font:600 .9rem/1.3 var(--f-display)">${esc(r.title_fr)}</span><span class="muted" style="font:500 .75rem var(--f-display)">${typeLabel(r)} · ${r.year}</span></a>`).join("")}</div></div>` : ""}
+      ${related.length ? `<div class="panel"><h3 style="margin-bottom:10px">Même thème · ${esc(a.theme)}</h3><div style="display:grid;gap:10px">${related.map((r) => `<a href="/article/${r.pmid}" style="text-decoration:none;color:var(--ink);display:grid;gap:4px"><span style="font:600 .9rem/1.3 var(--f-display)">${esc(r.title_fr)}</span><span class="muted" style="font:500 .75rem var(--f-display)">${typeLabel(r)} · ${r.year}</span></a>`).join("")}</div></div>` : ""}
     </aside></div>`;
   if (a.pdf) renderPdf(a.pdf);
   scrollTo(0, 0);
@@ -632,7 +669,7 @@ function viewSyntheses() {
       <div class="syn-tabs">${tabs.map(([k, l]) => `<button class="chip" data-syn="${k}" aria-pressed="${state.synTab === k}">${l}</button>`).join("")}</div>
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="eyebrow">Niveau de lecture</span>${levelSwitch(state.level)}</div></div>
     <section class="panel syn-body"><h2>${esc(cur?.headline || "")}</h2>${body}
-      <p class="muted" style="font-size:.85rem">Rédigé à partir des ${yearList.filter((a) => a.curated !== false).length} fiches rédigées de la période (${yearList.length} notices indexées). Pour un autre découpage (semaines, trimestres, sélection d'articles), utilisez le <a href="#comparer">comparateur</a>.</p></section>
+      <p class="muted" style="font-size:.85rem">Rédigé à partir des ${yearList.filter((a) => a.curated !== false).length} fiches rédigées de la période (${yearList.length} notices indexées). Pour un autre découpage (semaines, trimestres, sélection d'articles), utilisez le <a href="/comparer">comparateur</a>.</p></section>
     ${tbl}${stats}
     <section class="grid-2"><div class="panel"><div class="panel-head"><h2>Méta-analyses de la période</h2></div>${chartForest(yearList)}</div>
       <div class="panel"><div class="panel-head"><h2>Essais de la période</h2></div>${chartDumbbell(yearList)}</div></section>
@@ -704,7 +741,7 @@ async function viewEssais() {
       ${rows.map((v) => `<tr><th>${esc(v.name)}</th><td>${esc(SPONSOR_CLASS[v.cls] || "—")}</td><td>${esc([...v.people].slice(0, 3).join(", ") || "—")}${v.people.size > 3 ? ` <span class="muted">et ${v.people.size - 3} autre(s)</span>` : ""}</td><td>${esc([...v.countries].join(", ") || "—")}</td><td>${[...v.ctx].map((c) => `<span class="badge">${esc(CTX[c] || c)}</span>`).join(" ")}</td><td class="num">${v.now || ""}</td><td class="num">${v.soon || ""}</td></tr>`).join("")}</tbody></table></div></section>` : `<div class="empty">Aucun porteur pour ce filtre.</div>`;
   } else {
     body = `<div class="trials">${list.map(trialCard).join("") || `<div class="empty">Aucune étude pour ce filtre.</div>`}</div>`;
-    if (tab === "soon" && protos.length && !state.essCtx) body += `<section class="panel"><div class="panel-head"><h2>Protocoles publiés</h2><p>Projets décrits dans une revue avant leurs résultats (3 dernières années)</p></div><ul class="plist">${protos.map((a) => `<li><a href="#article-${a.pmid}">${esc(a.title_fr || a.title)}</a> <span class="muted">· ${esc(a.journal_abbr || "")}, ${fmtDate(a.date)}${a.authors?.length ? ` · ${esc(a.authors[0])}${a.authors.length > 1 ? " et al." : ""}` : ""}</span></li>`).join("")}</ul></section>`;
+    if (tab === "soon" && protos.length && !state.essCtx) body += `<section class="panel"><div class="panel-head"><h2>Protocoles publiés</h2><p>Projets décrits dans une revue avant leurs résultats (3 dernières années)</p></div><ul class="plist">${protos.map((a) => `<li><a href="/article/${a.pmid}">${esc(a.title_fr || a.title)}</a> <span class="muted">· ${esc(a.journal_abbr || "")}, ${fmtDate(a.date)}${a.authors?.length ? ` · ${esc(a.authors[0])}${a.authors.length > 1 ? " et al." : ""}` : ""}</span></li>`).join("")}</ul></section>`;
   }
   app().innerHTML = `<div class="view">
     <div style="display:grid;gap:12px"><span class="eyebrow">Études en cours · ${esc(t.label)}</span><h1>Essais en cours et projets en construction</h1>
@@ -763,17 +800,17 @@ async function viewDevices(sel) {
     const trials = d.trials.filter((x) => !tf || x.t === tf);
     const maxT = Math.max(...Object.values(d.topics), 1);
     detail = `<section class="panel dev-detail" id="dev-detail">
-      <div class="panel-head"><div style="display:flex;gap:14px;align-items:center">${devIcon(d.icon, 34)}<div style="display:grid;gap:4px"><span class="eyebrow">${d.kind === "marque" ? esc(d.fabricant || "Marque") : "Type d'appareil"}</span><h2>${esc(d.nom)}</h2></div></div><a class="btn small" href="#appareils">Fermer</a></div>
+      <div class="panel-head"><div style="display:flex;gap:14px;align-items:center">${devIcon(d.icon, 34)}<div style="display:grid;gap:4px"><span class="eyebrow">${d.kind === "marque" ? esc(d.fabricant || "Marque") : "Type d'appareil"}</span><h2>${esc(d.nom)}</h2></div></div><a class="btn small" href="/appareils">Fermer</a></div>
       <p class="lead" style="max-width:75ch;font-size:1rem">${esc(d.description)}</p>
-      ${d.kind === "marque" && d.categorie ? `<p style="margin:-4px 0 12px">Catégorie : <a href="#appareil-${d.categorie}">${esc(devs.find((x) => x.id === d.categorie)?.nom || d.categorie)}</a></p>` : ""}
-      ${d.kind === "type" && devs.some((x) => x.categorie === d.id) ? `<div style="margin:-4px 0 14px"><span class="eyebrow">Appareils de cette catégorie</span><div class="chips" style="margin-top:8px">${devs.filter((x) => x.categorie === d.id).map((x) => `<a class="chip" href="#appareil-${x.id}" style="text-decoration:none">${esc(x.nom)}${x.n ? `<span class="n">${x.n}</span>` : ""}</a>`).join("")}</div></div>` : ""}
+      ${d.kind === "marque" && d.categorie ? `<p style="margin:-4px 0 12px">Catégorie : <a href="/appareils/${d.categorie}">${esc(devs.find((x) => x.id === d.categorie)?.nom || d.categorie)}</a></p>` : ""}
+      ${d.kind === "type" && devs.some((x) => x.categorie === d.id) ? `<div style="margin:-4px 0 14px"><span class="eyebrow">Appareils de cette catégorie</span><div class="chips" style="margin-top:8px">${devs.filter((x) => x.categorie === d.id).map((x) => `<a class="chip" href="/appareils/${x.id}" style="text-decoration:none">${esc(x.nom)}${x.n ? `<span class="n">${x.n}</span>` : ""}</a>`).join("")}</div></div>` : ""}
       <div class="dev-facts"><span><b>Lumière</b>${esc(d.lumiere)}</span><span><b>Usage</b>${USAGE[d.usage] || "—"}</span><span><b>Études citant l'appareil</b>${d.n}</span><span><b>Fiches rédigées</b>${d.nc}</span><span><b>Essais en cours</b>${d.trials.length}</span></div>
       <div class="grid-2" style="align-items:start">
         <div><h3 style="margin-bottom:10px">Par thème</h3><div class="bars-h">${Object.entries(d.topics).sort((a, b) => b[1] - a[1]).map(([t, v]) => `<div class="row"><span>${esc(topicShort(t))}</span><span class="track"><i style="width:${(100 * v / maxT).toFixed(1)}%"></i></span><b class="mono">${v}</b></div>`).join("")}</div></div>
         <div><h3 style="margin-bottom:10px">Résultats des fiches</h3>${effBar(d.studies) || '<p class="muted">Aucune fiche rédigée ne cite cet appareil.</p>'}
           <p class="muted" style="font-size:.8rem;margin-top:8px">${Object.keys(EFFECTS).map((k) => { const v = d.studies.filter((h) => h.c && h.e === k).length; return v ? `${EFFECTS[k][0]} : ${v}` : ""; }).filter(Boolean).join(" · ")}</p></div>
       </div>
-      ${Object.keys(byTopic).length ? `<h3 style="margin:18px 0 8px">${d.kind === "marque" ? "Études qui citent l'appareil" : "Fiches rédigées utilisant ce type d'appareil"}</h3>${Object.entries(byTopic).map(([t, xs]) => `<details class="dev-group" ${Object.keys(byTopic).length < 3 ? "open" : ""}><summary><b>${esc(topicShort(t))}</b> <span class="muted">· ${xs.length}</span></summary><ul class="plist">${xs.slice(0, 150).map((h) => `<li><a href="#article-${h.p}">${esc(h.ti)}</a> <span class="muted">· ${h.y} · ${esc(TYPES[h.ty]?.[0] || h.ty)}</span>${h.c && EFFECTS[h.e] ? ` <span class="eff" data-e="${h.e}">${EFF_ICON[h.e]}${EFFECTS[h.e][0]}</span>` : ""}</li>`).join("")}</ul></details>`).join("")}` : ""}
+      ${Object.keys(byTopic).length ? `<h3 style="margin:18px 0 8px">${d.kind === "marque" ? "Études qui citent l'appareil" : "Fiches rédigées utilisant ce type d'appareil"}</h3>${Object.entries(byTopic).map(([t, xs]) => `<details class="dev-group" ${Object.keys(byTopic).length < 3 ? "open" : ""}><summary><b>${esc(topicShort(t))}</b> <span class="muted">· ${xs.length}</span></summary><ul class="plist">${xs.slice(0, 150).map((h) => `<li><a href="/article/${h.p}">${esc(h.ti)}</a> <span class="muted">· ${h.y} · ${esc(TYPES[h.ty]?.[0] || h.ty)}</span>${h.c && EFFECTS[h.e] ? ` <span class="eff" data-e="${h.e}">${EFF_ICON[h.e]}${EFFECTS[h.e][0]}</span>` : ""}</li>`).join("")}</ul></details>`).join("")}` : ""}
       ${trials.length ? `<h3 style="margin:18px 0 8px">Essais en cours ou en construction</h3><ul class="plist">${trials.map((x) => `<li><a href="${esc(x.u || `https://clinicaltrials.gov/study/${x.n}`)}" target="_blank" rel="noopener">${esc(x.ti)}</a> <span class="muted">· ${esc(topicShort(x.t))} · ${esc((TRIAL_STATUS[x.st] || [x.st])[0])}</span></li>`).join("")}</ul>` : ""}
       <p class="muted" style="font-size:.78rem;margin-top:14px">Détection automatique du nom de l'appareil dans le titre et le résumé : une étude peut citer un appareil sans l'avoir utilisé, et beaucoup d'articles ne nomment pas leur matériel.</p>
     </section>`;
@@ -786,7 +823,7 @@ async function viewDevices(sel) {
     <div class="ess-bar"><div class="syn-tabs">${[["type", "Types d'appareils"], ["marque", "Marques citées"]].map(([k, l]) => `<button class="chip" data-devkind="${k}" aria-pressed="${kind === k}">${l}<span class="n">${devs.filter((x) => x.kind === k).length}</span></button>`).join("")}</div>
       <input class="ess-q" id="devq" type="search" placeholder="Rechercher un appareil, un fabricant, une longueur d'onde…" value="${esc(state.devQ)}" aria-label="Rechercher un appareil"></div>
     <div class="chips"><button class="chip" data-devtopic="" aria-pressed="${!tf}">Tous les thèmes</button>${topicsWith.map((t) => `<button class="chip" data-devtopic="${t.id}" aria-pressed="${tf === t.id}">${esc(t.short)}</button>`).join("")}</div>
-    <div class="dev-grid">${list.map((x) => `<a class="card dev-card" href="#appareil-${x.id}" aria-current="${x.id === sel}">
+    <div class="dev-grid">${list.map((x) => `<a class="card dev-card" href="/appareils/${x.id}" aria-current="${x.id === sel}">
       <div class="card-top"><div style="display:flex;gap:10px;align-items:center">${devIcon(x.icon)}<div><h3>${esc(x.nom)}</h3>${x.fabricant ? `<span class="src">${esc(x.fabricant)}</span>` : ""}</div></div><span class="badge">${USAGE[x.usage] || ""}</span></div>
       <p class="src" style="margin:0">${esc(x.lumiere)}</p>
       ${x.kind === "marque" && x.categorie ? `<span class="badge" style="justify-self:start">${esc(devs.find((y) => y.id === x.categorie)?.nom || "")}</span>` : ""}
@@ -822,7 +859,7 @@ function waltTable(rows) {
 function recoSources(ids) {
   return `<div class="reco-srcs">${ids.map((id) => { const s = D.reco.sources[id]; return `<details class="reco-card"><summary>${recoOrg(s.org)}<span><b>${esc(s.titre)}</b><small>${esc(s.type)} · ${esc(s.date || String(s.annee))}</small></span></summary>
     <p>${esc(s.resume)}</p>${s.auteurs ? `<p class="muted" style="font-size:.8rem">${esc(s.auteurs)}</p>` : ""}${s.points ? `<ul>${s.points.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
-    <p class="reco-src">${s.pmid ? `<a href="#article-${s.pmid}">Fiche sur le site</a> · ` : ""}<a href="${esc(s.url)}" target="_blank" rel="noopener">Page officielle ↗</a>${s.pdf ? ` · <a href="${esc(s.pdf)}" target="_blank" rel="noopener">Document PDF ↗</a>` : ""}</p></details>`; }).join("")}</div>`;
+    <p class="reco-src">${s.pmid ? `<a href="/article/${s.pmid}">Fiche sur le site</a> · ` : ""}<a href="${esc(s.url)}" target="_blank" rel="noopener">Page officielle ↗</a>${s.pdf ? ` · <a href="${esc(s.pdf)}" target="_blank" rel="noopener">Document PDF ↗</a>` : ""}</p></details>`; }).join("")}</div>`;
 }
 function recoPanel(theme, full) {
   const items = recoItems(theme); const rows = waltRows(theme);
@@ -832,7 +869,7 @@ function recoPanel(theme, full) {
     ${full ? recoSources(ids) : ""}
     ${items.length ? `<div class="reco-list">${items.map((i) => recoItem(i, !full)).join("")}</div>` : ""}
     ${rows.length ? `<h3 style="margin:16px 0 8px">Doses recommandées par la WALT (laser)</h3>${waltTable(rows)}` : ""}
-    ${full ? "" : `<p style="margin-top:12px"><a class="btn small" href="#parametres">Paramètres détaillés et documents sources →</a></p>`}</section>`;
+    ${full ? "" : `<p style="margin-top:12px"><a class="btn small" href="${P("parametres")}">Paramètres détaillés et documents sources →</a></p>`}</section>`;
 }
 
 /* ---------------- fiches paramètres ---------------- */
@@ -867,7 +904,7 @@ function paramCard(p, topicId) {
     ${p.conseils.length || p.prudence.length ? `<div class="pnotes">${p.conseils.map((c) => `<p class="ok">${esc(c)}</p>`).join("")}${p.prudence.map((c) => `<p class="warn">${esc(c)}</p>`).join("")}</div>` : ""}
     ${(() => { const its = recoItems(topicId, p.ctx); const rows0 = waltRows(topicId, p.ctx); const rk = rows0.filter((r) => new RegExp(r.kw, "i").test(p.indication + " " + (p.params?.Zone || ""))); const rows = rk.length ? rk : rows0; return its.length || rows.length ? `<div class="preco"><span class="eyebrow">Recommandations des sociétés savantes</span>${its.map((i) => recoItem(i, false)).join("")}${rows.length ? waltTable(rows) : ""}</div>` : ""; })()}
     ${topicId === state.topic && list.length >= 3 ? `<div class="pstrip"><span class="eyebrow">Longueurs d'onde des ${list.length} fiches de ce sous-groupe</span>${nmStrip(list)}</div>` : ""}
-    <footer><span class="eyebrow">Sources</span>${p.sources.map((id) => { const a = byId(id); return `<a class="psrc" href="#article-${id}" title="${esc(a?.title_fr || "")}">${a ? esc((TYPES[a.type]?.[0] || "") + " " + a.year) : "PMID " + id}</a>`; }).join("")}</footer>
+    <footer><span class="eyebrow">Sources</span>${p.sources.map((id) => { const a = byId(id); return `<a class="psrc" href="/article/${id}" title="${esc(a?.title_fr || "")}">${a ? esc((TYPES[a.type]?.[0] || "") + " " + a.year) : "PMID " + id}</a>`; }).join("")}</footer>
   </article>`;
 }
 function viewParams() {
@@ -894,7 +931,7 @@ function viewPatientsList() {
   app().innerHTML = `<div class="view">
     <div style="display:grid;gap:12px"><span class="eyebrow">Fiches patients · à imprimer ou à partager</span><h1>Expliquer la photobiomodulation à vos patients</h1>
       <p class="lead" style="max-width:72ch">Des fiches illustrées, en langage simple : ce que c'est, comment se passe une séance, ce que disent les études et les précautions. Chaque fiche s'imprime sur une page recto verso.</p></div>
-    <div class="pt-grid">${xs.map((f) => `<a class="pt-card" href="#patient-${f.id}" style="--pc:${f.couleur}">
+    <div class="pt-grid">${xs.map((f) => `<a class="pt-card" href="/patients/${f.id}" style="--pc:${f.couleur}">
       <div class="pt-card-img">${PT.hero(f.illus, f.couleur)}</div>
       <div class="pt-card-body"><span class="eyebrow">${esc(f.sous_titre)}</span><h3>${esc(f.titre)}</h3><span class="pniv" data-n="${(NIVEAU[f.niveau] || [])[1] || "unc"}">${esc((NIVEAU[f.niveau] || [f.niveau])[0])}</span></div></a>`).join("")}</div>
   </div>`;
@@ -908,7 +945,7 @@ async function viewPatient(id) {
   const meas = arts.filter((a) => EFFECTS[a.effect]).length;
   const S = f.seance;
   app().innerHTML = `<div class="view pt-sheet" style="--pc:${f.couleur}">
-    <div class="pt-actions no-print"><a class="btn small" href="#patients">← Toutes les fiches</a><button class="btn small" data-print>Imprimer la fiche</button><button class="btn small" data-copylink>Copier le lien</button></div>
+    <div class="pt-actions no-print"><a class="btn small" href="/patients">← Toutes les fiches</a><button class="btn small" data-print>Imprimer la fiche</button><button class="btn small" data-copylink>Copier le lien</button></div>
     <section class="pt-top">
       <div class="pt-top-text"><span class="pt-kicker">${esc(f.sous_titre)}</span><h1>${esc(f.titre)}</h1>
         <p class="pt-def"><b>La photobiomodulation</b> utilise une lumière douce, rouge ou infrarouge, qui ne chauffe pas et ne brûle pas, pour aider les cellules à se réparer et à calmer l'inflammation et la douleur.</p></div>
@@ -931,7 +968,7 @@ async function viewPatient(id) {
       <div><h2><span>5</span>Vos questions</h2>${f.faq.map(([q, a]) => `<details class="pt-faq" open><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</div>
     </section>
     <footer class="pt-foot"><p>Fiche d'information générale réalisée à partir de la littérature scientifique (Luminathèque, ${fmtDate(D.generated)}). Elle ne remplace pas l'avis de votre médecin ou de votre soignant.</p>
-      ${f.sources.length ? `<p class="no-print">Pour les soignants : ${f.sources.map((s) => `<a href="#article-${s}">${s}</a>`).join(", ")} · <a href="#parametres">fiches paramètres</a></p>` : ""}</footer>
+      ${f.sources.length ? `<p class="no-print">Pour les soignants : ${f.sources.map((s) => `<a href="/article/${s}">${s}</a>`).join(", ")} · <a href="${P("parametres")}">fiches paramètres</a></p>` : ""}</footer>
   </div>`;
 }
 
@@ -967,7 +1004,7 @@ function autoText(P, xs, name) {
   const rr = P.rr.filter((a) => a.metric.lo).map((a) => `RR ${a.metric.rr.toFixed(2).replace(".", ",")} (${a.journal_abbr} ${a.year})`).join(" ; ");
   const best = xs.filter((a) => a.level && a.level <= 2 && a.key).slice(0, 4);
   return `<p><b>${esc(name)}</b> : ${P.n} publication(s), dont ${P.rct} essai(s) randomisé(s) et ${P.syn} synthèse(s) systématique(s). ${P.pctStrong} % relèvent des niveaux de preuve 1–2. ${P.fav} étude(s) concluent en faveur de la PBM sur ${[...P.effects.values()].reduce((s, v) => s + v, 0)} qui mesurent un effet. Thèmes dominants : ${esc(top)}.${rr ? ` Estimations poolées : ${esc(rr)}.` : ""}</p>
-    ${best.length ? `<ul>${best.map((a) => `<li><a href="#article-${a.pmid}">${esc(a.journal_abbr)} ${a.year}</a> : ${esc(a.l1)}</li>`).join("")}</ul>` : ""}`;
+    ${best.length ? `<ul>${best.map((a) => `<li><a href="/article/${a.pmid}">${esc(a.journal_abbr)} ${a.year}</a> : ${esc(a.l1)}</li>`).join("")}</ul>` : ""}`;
 }
 function diffText(PA, PB, nA, nB) {
   const newThemes = [...PB.themes.keys()].filter((t) => !PA.themes.has(t)); const gone = [...PA.themes.keys()].filter((t) => !PB.themes.has(t));
@@ -1125,7 +1162,7 @@ async function viewAlertes(params) {
     <aside class="al-side">
       <section class="panel al-prev"><span class="eyebrow">Aperçu</span><h2>Ce que vous auriez reçu ces ${Math.round((Date.now() - Date.parse(D.news?.since || D.generated)) / 6048e5)} dernières semaines</h2>
         ${nT ? `<div class="al-kpis"><div><b>${cnt("f")}</b><span>fiches</span></div><div><b>${cnt("n")}</b><span>publications</span></div><div><b>${cnt("e")}</b><span>essais</span></div></div>
-          ${pv.length ? pv.map(([tp, v]) => `<div class="al-pt"><b>${esc(topicShort(tp))}</b>${[...v.f.slice(0, 3).map((x) => `<a href="#article-${x.pmid}">${esc(x.ti)}</a>`), ...v.e.slice(0, 2).map((x) => `<span>${esc(x.ti)} <em>· essai</em></span>`), ...(v.f.length < 2 ? v.n.slice(0, 2).map((x) => `<a href="#article-${x.pmid}" lang="en">${esc(x.ti)}</a>`) : [])].join("")}${v.f.length + v.n.length + v.e.length > 5 ? `<small class="muted">et ${v.f.length + v.n.length + v.e.length - Math.min(3, v.f.length) - Math.min(2, v.e.length) - (v.f.length < 2 ? Math.min(2, v.n.length) : 0)} autre(s)</small>` : ""}</div>`).join("") : `<p class="muted">Rien de neuf dans ces thèmes sur la période : vous n'auriez reçu aucune lettre (on n'envoie jamais de lettre vide).</p>`}` : `<p class="muted">Choisissez un thème pour voir un aperçu.</p>`}
+          ${pv.length ? pv.map(([tp, v]) => `<div class="al-pt"><b>${esc(topicShort(tp))}</b>${[...v.f.slice(0, 3).map((x) => `<a href="/article/${x.pmid}">${esc(x.ti)}</a>`), ...v.e.slice(0, 2).map((x) => `<span>${esc(x.ti)} <em>· essai</em></span>`), ...(v.f.length < 2 ? v.n.slice(0, 2).map((x) => `<a href="/article/${x.pmid}" lang="en">${esc(x.ti)}</a>`) : [])].join("")}${v.f.length + v.n.length + v.e.length > 5 ? `<small class="muted">et ${v.f.length + v.n.length + v.e.length - Math.min(3, v.f.length) - Math.min(2, v.e.length) - (v.f.length < 2 ? Math.min(2, v.n.length) : 0)} autre(s)</small>` : ""}</div>`).join("") : `<p class="muted">Rien de neuf dans ces thèmes sur la période : vous n'auriez reçu aucune lettre (on n'envoie jamais de lettre vide).</p>`}` : `<p class="muted">Choisissez un thème pour voir un aperçu.</p>`}
       </section>
       ${manage ? "" : `<section class="panel"><h3>Déjà inscrit ?</h3><p class="muted" style="font-size:.85rem;margin:6px 0 10px">Recevez à nouveau votre lien personnel pour modifier vos alertes.</p>
         <div class="al-mail"><input id="al-email2" type="email" placeholder="Votre adresse" aria-label="Adresse mail de l'abonnement"><button class="btn" data-al-link>Recevoir mon lien</button></div>${a.linkSent ? `<p class="al-ok" style="margin-top:8px">Si un abonnement existe pour cette adresse, le lien vient d'être envoyé.</p>` : ""}</section>`}
@@ -1156,7 +1193,7 @@ async function alClick(t) {
     try { await alApi("/api/preferences", { body: { e: a.manage.e, t: a.manage.t, prefs: alEncode(a) } }); a.sent = "Vos choix sont enregistrés."; } catch (x) { a.err = x.message; }
     a.busy = false; }
   else if ("alUnsub" in d) { if (!confirm("Se désabonner et effacer votre adresse ?")) return true;
-    try { await alApi("/api/desinscription", { body: { e: a.manage.e, t: a.manage.t } }); state.alert = alDefault(); state.alert.api = a.api; location.hash = "alertes?etat=desinscrit"; return true; } catch (x) { a.err = x.message; } }
+    try { await alApi("/api/desinscription", { body: { e: a.manage.e, t: a.manage.t } }); state.alert = alDefault(); state.alert.api = a.api; go("alertes?etat=desinscrit"); return true; } catch (x) { a.err = x.message; } }
   else if ("alLink" in d) { const em = $("#al-email2")?.value.trim(); if (!em) return true;
     try { await alApi("/api/lien", { body: { email: em } }); a.linkSent = true; } catch (x) { a.err = x.message; } }
   else return false;
@@ -1261,7 +1298,9 @@ async function brClick(t) {
 
 /* ---------------- routage & événements ---------------- */
 async function route() {
-  const h = decodeURIComponent(location.hash.slice(1));
+  const tp = topicFromPath(); if (tp && tp !== state.topic) { applyTopic(tp); renderTopics(); }
+  const bare = location.pathname.match(/^\/(publications|syntheses|essais|parametres)\/?$/); if (bare) history.replaceState(null, "", pathFor(bare[1]) + location.search);
+  const h = legacyHash();
   if (!isSoon() && !LOADED.has(state.topic)) {
     app().innerHTML = `<div class="empty">Chargement de ${esc(topic().label)}…</div>`;
     try { await ensureTopic(state.topic); } catch { app().innerHTML = `<div class="empty">Impossible de charger ce thème. Rechargez la page.</div>`; return; }
@@ -1285,24 +1324,24 @@ async function route() {
 async function rerender() { const y = scrollY; await route(); scrollTo(0, y); updateSelbar(); }
 function updateSelbar() {
   const bar = $("#selbar"); const n = state.selected.size; store.set("selected", [...state.selected]);
-  bar.hidden = !n || location.hash === "#comparer"; $("#selcount").textContent = n;
+  bar.hidden = !n || legacyHash() === "comparer"; $("#selcount").textContent = n;
 }
 
-addEventListener("hashchange", () => { route(); updateSelbar(); if (!location.hash.startsWith("#article-")) scrollTo(0, 0); });
+addEventListener("popstate", () => { route(); updateSelbar(); setMenu(false); });
 document.addEventListener("click", async (e) => {
   const t = e.target.closest("button, [data-sel]"); if (!t) return;
   const d = t.dataset;
   if (Object.keys(d).some((k) => k.startsWith("al"))) { e.preventDefault(); await alClick(t); return; }
   if (Object.keys(d).some((k) => k.startsWith("br"))) { e.preventDefault(); await brClick(t); return; }
-  if (d.topic) { const h = location.hash.slice(1).split("?")[0]; if (!["accueil", "publications", "syntheses", "essais", ""].includes(h) && !h.startsWith("article-")) history.replaceState(null, "", "#accueil"); setTopic(d.topic); return; }
+  if (d.topic) { setTopic(d.topic); return; }
   if ("effy" in d) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : "");
     state.f.fiche.add("rédigée"); d.effy.split(",").forEach((y) => state.f.years.add(+y)); if (d.effk) state.f.effects.add(d.effk); else Object.keys(EFFECTS).forEach((k) => state.f.effects.add(k));
-    state.filtersOpen = true; state.sort = "date"; location.hash = "publications"; return; }
-  if (d.sub) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : ""); state.f.ctx.add(d.sub); state.filtersOpen = true; location.hash = "publications"; return; }
+    state.filtersOpen = true; state.sort = "date"; go("publications"); return; }
+  if (d.sub) { for (const k in state.f) state.f[k] = state.f[k] instanceof Set ? new Set() : (typeof state.f[k] === "boolean" ? false : ""); state.f.ctx.add(d.sub); state.filtersOpen = true; go("publications"); return; }
   if ("morelist" in d) { state.limit += 120; rerender(); return; }
   if (d.f || d.preset || "reset" in d) state.limit = 60;
   if (d.read) { state.level = +d.read; state.cardLevel.clear(); store.set("level", state.level); rerender(); }
-  else if (d.aread) { state.cardLevel.set(location.hash.slice(9), +d.aread); rerender(); }
+  else if (d.aread) { state.cardLevel.set(legacyHash().slice(8), +d.aread); rerender(); }
   else if (d.more) { state.cardLevel.set(d.more, Math.min(3, (state.cardLevel.get(d.more) || state.level) + 1)); rerender(); }
   else if (d.less) { state.cardLevel.set(d.less, 1); rerender(); }
   else if (d.f) { const set = state.f[d.f]; const v = ["years", "levels"].includes(d.f) ? +d.v : d.v; set.has(v) ? set.delete(v) : set.add(v); rerender(); }
@@ -1319,7 +1358,7 @@ document.addEventListener("click", async (e) => {
   else if ("print" in d) { print(); }
   else if ("copylink" in d) { try { await navigator.clipboard.writeText(location.href); t.textContent = "Lien copié"; } catch { t.textContent = location.href; } }
   else if (d.parscope) { state.parScope = d.parscope; rerender(); }
-  else if (d.devkind) { state.devKind = d.devkind; location.hash = "appareils"; rerender(); }
+  else if (d.devkind) { state.devKind = d.devkind; go("appareils"); }
   else if ("devtopic" in d) { state.devTopic = d.devtopic; rerender(); }
   else if (d.esstab) { state.essTab = d.esstab; rerender(); }
   else if ("essctx" in d) { state.essCtx = d.essctx; rerender(); }
@@ -1332,7 +1371,7 @@ document.addEventListener("click", async (e) => {
     rerender();
   }
   else if (d.clearsel) { const P = state.cmp[d.clearsel]; delete P.pmids; rerender(); }
-  else if (d.zoom) { pdfZoom = Math.max(0.6, Math.min(2.6, pdfZoom + 0.25 * +d.zoom)); const a = byId(location.hash.slice(9)); if (a?.pdf) { $("#pages").innerHTML = '<p class="muted">Mise à l\'échelle…</p>'; renderPdf(a.pdf); } }
+  else if (d.zoom) { pdfZoom = Math.max(0.6, Math.min(2.6, pdfZoom + 0.25 * +d.zoom)); const a = byId(legacyHash().slice(8)); if (a?.pdf) { $("#pages").innerHTML = '<p class="muted">Mise à l\'échelle…</p>'; renderPdf(a.pdf); } }
   else if (d.copy || d.cite) {
     const text = d.copy ? $(d.copy).value : (() => { const a = byId(d.cite); return `${(a.authors || []).join(", ")}. ${a.title} ${a.journal_abbr}. ${a.date.slice(0, 4)}. ${a.doi ? "doi:" + a.doi + ". " : ""}PMID: ${a.pmid}.`; })();
     try { await navigator.clipboard.writeText(text); t.textContent = "Copié"; }
@@ -1342,7 +1381,7 @@ document.addEventListener("click", async (e) => {
     state.cmp = state.cmp || cmpDefault();
     if (d.selcompare === "merge") { state.cmp.mode = "merge"; state.cmp.A = { ...state.cmp.A, pmids: [...state.selected] }; }
     else { state.cmp.mode = "compare"; state.cmp.B = { ...state.cmp.B, pmids: [...state.selected] }; }
-    location.hash = "comparer";
+    go("comparer");
   }
   else if ("selclear" in d) { state.selected.clear(); rerender(); }
 });
@@ -1369,7 +1408,7 @@ let essT; document.addEventListener("input", (e) => {
 $("#q").addEventListener("input", (e) => {
   clearTimeout(qTimer); qTimer = setTimeout(() => {
     state.q = e.target.value.trim(); if (state.q && state.sort === "date") state.sort = "pertinence"; if (!state.q && state.sort === "pertinence") state.sort = "date";
-    if (location.hash !== "#publications") location.hash = "publications"; else rerender();
+    if (legacyHash() !== "publications") go("publications"); else rerender();
   }, 160);
 });
 document.addEventListener("keydown", (e) => { if (e.key === "/" && !/input|textarea|select/i.test(document.activeElement.tagName)) { e.preventDefault(); $("#q").focus(); } });
@@ -1379,7 +1418,7 @@ function setMenu(open) { document.body.classList.toggle("menu-open", open); $("#
 $("#menu-btn")?.addEventListener("click", () => setMenu(true));
 $("#menu-close")?.addEventListener("click", () => setMenu(false));
 $("#scrim")?.addEventListener("click", () => setMenu(false));
-addEventListener("hashchange", () => setMenu(false));
+
 addEventListener("keydown", (e) => { if (e.key === "Escape" && document.body.classList.contains("menu-open")) setMenu(false); });
 $("#side-find")?.addEventListener("input", () => renderTopics());
 const sideBtn = $("#side-toggle");
@@ -1392,5 +1431,14 @@ function applyTheme(t) { if (t) document.documentElement.setAttribute("data-them
 applyTheme(store.get("theme", null));
 themeBtn?.addEventListener("click", () => { const cur = document.documentElement.getAttribute("data-theme") || (sysDark() ? "dark" : "light"); const next = cur === "dark" ? "light" : "dark"; store.set("theme", next); applyTheme(next); });
 if (!D.topics.some((t) => t.id === state.topic)) state.topic = D.topics[0].id;
+if (location.hash.length > 1 && /^#(accueil|publications|syntheses|essais|parametres|comparer|methode|appareils?|patients?|alertes|brouillons|article-)/.test(location.hash)) history.replaceState(null, "", pathFor(decodeURIComponent(location.hash.slice(1))));
+document.addEventListener("click", (e) => {
+  if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+  const a = e.target.closest("a[href]"); if (!a || a.target === "_blank" || a.hasAttribute("download")) return;
+  const href = a.getAttribute("href");
+  if (href.startsWith("#")) { e.preventDefault(); document.getElementById(href.slice(1))?.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
+  if (!href.startsWith("/") || href.startsWith("//") || /^\/(assets|pdfs|flux|data|scripts)\/|^\/alertes\/|\.[a-z0-9]{2,5}(\?|$)/i.test(href)) return;
+  e.preventDefault(); go(href);
+});
 renderTopics(); route(); updateSelbar();
 })();

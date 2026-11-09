@@ -345,8 +345,8 @@ def write_feeds(topics: list, all_articles: list, sv: dict) -> None:
         kind = "Fiche rédigée" if a["curated"] else "Nouvelle publication"
         title = a.get("title_fr") or a["title"]
         summ = a.get("l1") or ""
-        return (f"<entry><id>{SITE_URL}/#article-{a['pmid']}/{a['topic']}</id><title>{x(title)}</title>"
-                f"<link href=\"{SITE_URL}/#article-{a['pmid']}\"/><updated>{seen}T08:00:00Z</updated>"
+        return (f"<entry><id>{SITE_URL}/article/{a['pmid']}/{a['topic']}</id><title>{x(title)}</title>"
+                f"<link href=\"{SITE_URL}/article/{a['pmid']}\"/><updated>{seen}T08:00:00Z</updated>"
                 f"<category term=\"{x(labels.get(a['topic'], a['topic']))}\"/>"
                 f"<summary>{x(kind + ' · ' + labels.get(a['topic'], '') + ' · ' + (a.get('journal_abbr') or '') + ' — ' + summ)}</summary></entry>")
 

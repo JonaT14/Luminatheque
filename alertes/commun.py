@@ -92,7 +92,7 @@ def check(email: str, tok: str, purpose: str = "gerer") -> bool:
 
 
 def manage_url(email: str) -> str:
-    return f"{SITE_URL}/#alertes?e={urllib.parse.quote(norm(email))}&t={token(email)}"
+    return f"{SITE_URL}/alertes?e={urllib.parse.quote(norm(email))}&t={token(email)}"
 
 
 def unsubscribe_url(email: str) -> str:

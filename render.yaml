@@ -2,9 +2,15 @@ services:
   - type: web
     name: luminatheque
     runtime: static
-    buildCommand: "echo 'Site statique, pas de compilation'"
+    buildCommand: "python3 scripts/build_pages.py"
     staticPublishPath: .
     pullRequestPreviewsEnabled: false
+    routes:
+      # toute adresse sans fichier (ex. /mucite-orale/publications) est servie par l'application ;
+      # Render n'applique pas cette règle quand un fichier existe (assets, PDF, pages pré-remplies)
+      - type: rewrite
+        source: /*
+        destination: /index.html
     headers:
       - path: /*
         name: X-Content-Type-Options

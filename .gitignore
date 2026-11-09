@@ -2,3 +2,24 @@ data/fulltext/
 __pycache__/
 .DS_Store
 alertes/.dev/
+
+# pages pré-remplies générées au déploiement (scripts/build_pages.py)
+/article/
+/appareils/
+/patients/
+/methode/
+/comparer/
+/sitemap.xml
+/robots.txt
+/cardiologie/
+/dermatologie/
+/gynecologie/
+/mucite-orale/
+/musculo-squelettique/
+/neurologie/
+/neuropathie-peripherique/
+/odontologie/
+/oncologie-support/
+/ophtalmologie/
+/orl/
+/sport/

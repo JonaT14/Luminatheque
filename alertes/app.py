@@ -130,11 +130,11 @@ def inscription():
 def confirmer():
     e, t = request.args.get("e", ""), request.args.get("t", "")
     if not C.check(e, t, "confirmer"):
-        return redirect(f"{C.SITE_URL}/#alertes?etat=lien-invalide")
+        return redirect(f"{C.SITE_URL}/alertes?etat=lien-invalide")
     st = C.store()
     cur = st.get(e)
     if not cur:
-        return redirect(f"{C.SITE_URL}/#alertes?etat=inconnu")
+        return redirect(f"{C.SITE_URL}/alertes?etat=inconnu")
     if cur.get("LUMINA_STATUT") != "actif":
         st.put(e, LUMINA_STATUT="actif", LUMINA_DATE=dt.date.today().isoformat())
         try:
@@ -179,10 +179,10 @@ def desinscription():
     e = d.get("e") or request.args.get("e", "")
     t = d.get("t") or request.args.get("t", "")
     if not C.check(e, t):
-        return (redirect(f"{C.SITE_URL}/#alertes?etat=lien-invalide") if request.method == "GET" else err("Lien invalide.", 403))
+        return (redirect(f"{C.SITE_URL}/alertes?etat=lien-invalide") if request.method == "GET" else err("Lien invalide.", 403))
     C.store().delete(e)   # RGPD : l'adresse est effacée, pas seulement désactivée
     if request.method == "GET":
-        return redirect(f"{C.SITE_URL}/#alertes?etat=desinscrit")
+        return redirect(f"{C.SITE_URL}/alertes?etat=desinscrit")
     return jsonify({"ok": True})
 
 
@@ -203,4 +203,4 @@ def lien():
 
 @app.get("/")
 def accueil():
-    return redirect(f"{C.SITE_URL}/#alertes")
+    return redirect(f"{C.SITE_URL}/alertes")

@@ -40,6 +40,10 @@ Une même étude peut avoir une fiche dans plusieurs thèmes : la médecine du s
 - **Synthèses** : bilans 2000–2009, 2010–2019, 2020–2023, 2024, 2025, 2026 et étude comparative avec tableau.
 - **Comparateur** : fusionner une période (par exemple semaines 1 à 20) ou comparer deux périodes, ou une sélection d'articles cochés. Le récapitulatif et les graphiques sont recalculés, et une demande de synthèse rédigée peut être copiée pour Claude.
 
+## Adresses
+
+Chaque page a sa propre adresse, partageable : `/<thème>` (tableau de bord), `/<thème>/publications`, `/<thème>/syntheses`, `/<thème>/essais`, `/<thème>/parametres`, `/article/<PMID>`, `/appareils/<id>`, `/patients/<id>`, `/methode`, `/comparer`. Les anciens liens en `#…` sont convertis automatiquement. Au déploiement, `scripts/build_pages.py` écrit une page pré-remplie (titre, description, aperçu Open Graph, résumé lisible sans JavaScript) pour chaque thème, fiche rédigée, appareil et fiche patient, ainsi que `sitemap.xml` ; les autres adresses sont servies par l'application (règle de réécriture dans `render.yaml`).
+
 ## Ouvrir le site
 
 Le lecteur PDF a besoin d'un petit serveur local (les navigateurs bloquent la lecture de fichiers depuis le disque) :
@@ -48,7 +52,7 @@ Le lecteur PDF a besoin d'un petit serveur local (les navigateurs bloquent la le
 python3 -m http.server 8000
 ```
 
-puis ouvrir <http://localhost:8000>. Le reste du site fonctionne aussi en ouvrant directement `index.html`.
+puis ouvrir <http://localhost:8000>. Ce petit serveur ne renvoie pas les adresses profondes (`/mucite-orale/publications`) vers l'application : partir de la page d'accueil, ou lancer `python3 scripts/build_pages.py` pour créer les pages correspondantes.
 
 Pour le mettre en ligne, activer **GitHub Pages** (Settings → Pages → Source : *GitHub Actions*). Le workflow `.github/workflows/pages.yml` publie alors le site à chaque push sur `main`.
 
