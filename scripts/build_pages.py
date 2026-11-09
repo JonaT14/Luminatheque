@@ -65,7 +65,7 @@ class Pages:
         page = re.sub(r"<title>.*?</title>", lambda _: head, base, count=1, flags=re.S)
         page = re.sub(r'(<main class="wrap" id="app" tabindex="-1">).*?(</main>)',
                       lambda m: m.group(1) + f'<div class="view prerender">{body}</div>' + m.group(2), page, count=1, flags=re.S)
-        f = self.out / path.strip("/") / "index.html"
+        f = self.out / "p" / path.strip("/") / "index.html"
         f.parent.mkdir(parents=True, exist_ok=True)
         f.write_text(page, encoding="utf-8")
         self.urls.append(url)
@@ -95,9 +95,14 @@ def main():
                     "parametres": f"Paramètres de photobiomodulation en {t['label'].lower()} : longueur d'onde, dose, zone, séances, recommandations AFSOS, WALT et MASCC."}[v]
             pg.write(f"/{t['id']}/{v}", f"{lab} · {t['label']} · Luminathèque", short(desc), f"<h1>{E(lab)} · {E(t['label'])}</h1><p>{E(desc)}</p>")
         for a in payload(ROOT / t["file"]):
-            if not a.get("curated") or a["pmid"] in seen:
+            if a["pmid"] in seen:
                 continue
             seen.add(a["pmid"])
+            if not a.get("curated"):
+                pg.write(f"/article/{a['pmid']}", f"{a['title']} · Luminathèque", short(a.get("l1") or a["title"], 220),
+                         f"<p class=\"eyebrow\">{E(labels.get(t['id']))} · {E(a.get('journal_abbr'))} {E(a.get('year'))} · PMID {E(a['pmid'])}</p><h1 lang=\"en\">{E(a['title'])}</h1>"
+                         f"<p lang=\"en\">{E(a.get('l1'))}</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/{E(a['pmid'])}/\">Voir sur PubMed</a></p>", kind="article")
+                continue
             meta = " · ".join(x for x in [TYPES.get(a.get("type"), ""), f"niveau de preuve {a['level']}" if a.get("level") else "",
                                            EFFECT.get(a.get("effect"), ""), f"{a.get('journal_abbr') or ''} {a.get('year', '')}".strip(), f"PMID {a['pmid']}"] if x)
             l2 = "".join(f"<p>{E(p)}</p>" for p in str(a.get("l2") or "").split("\n\n") if p.strip())
@@ -121,12 +126,14 @@ def main():
         msgs = "".join(f"<li>{E(m[1])}</li>" for m in f.get("messages", []))
         pg.write(f"/patients/{f['id']}", f"{f['titre']} · Fiche patient · Luminathèque", short(f.get("sous_titre") + " — " + " ".join(m[1] for m in f.get("messages", []))),
                  f"<h1>{E(f['titre'])}</h1><p>{E(f.get('sous_titre'))}</p><ul>{msgs}</ul>")
+    for v, lab in (("alertes", "Alertes par mail"), ("brouillons", "Brouillons"), ("parametres", "Paramètres"), ("publications", "Publications"), ("syntheses", "Synthèses"), ("essais", "Études en cours")):
+        pg.write(f"/{v}", f"{lab} · Luminathèque", "Luminathèque, veille scientifique sur la photobiomodulation.", f"<h1>{E(lab)}</h1>")
     pg.write("/methode", "Méthode · Luminathèque", "Sources, sélection des études, niveaux de preuve et rédaction des fiches de Luminathèque.", "<h1>Méthode</h1>")
     pg.write("/comparer", "Comparateur · Luminathèque", "Comparer deux périodes ou une sélection d'études sur la photobiomodulation.", "<h1>Comparateur</h1>")
     (out / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                                     + "".join(f"<url><loc>{E(u)}</loc><lastmod>{D['generated']}</lastmod></url>\n" for u in [SITE + "/"] + pg.urls) + "</urlset>\n", encoding="utf-8")
+                                     + "".join(f"<url><loc>{E(u)}</loc><lastmod>{D['generated']}</lastmod></url>\n" for u in [SITE + "/"] + [u for u in pg.urls if not re.search(r"/(alertes|brouillons|parametres|publications|syntheses|essais)$", u)]) + "</urlset>\n", encoding="utf-8")
     (out / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /alertes\nDisallow: /brouillons\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
-    print(f"{len(pg.urls)} pages pré-remplies (dont {n_art} fiches) et sitemap.xml")
+    print(f"{len(pg.urls)} pages pré-remplies (dont {n_art} fiches rédigées) et sitemap.xml")
 
 
 if __name__ == "__main__":

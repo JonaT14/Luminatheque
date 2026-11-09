@@ -4,22 +4,6 @@ __pycache__/
 alertes/.dev/
 
 # pages pré-remplies générées au déploiement (scripts/build_pages.py)
-/article/
-/appareils/
-/patients/
-/methode/
-/comparer/
+/p/
 /sitemap.xml
 /robots.txt
-/cardiologie/
-/dermatologie/
-/gynecologie/
-/mucite-orale/
-/musculo-squelettique/
-/neurologie/
-/neuropathie-peripherique/
-/odontologie/
-/oncologie-support/
-/ophtalmologie/
-/orl/
-/sport/

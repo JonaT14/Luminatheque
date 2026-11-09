@@ -6,8 +6,15 @@ services:
     staticPublishPath: .
     pullRequestPreviewsEnabled: false
     routes:
-      # toute adresse sans fichier (ex. /mucite-orale/publications) est servie par l'application ;
+      # toute adresse sans fichier est servie par une page pré-remplie ou, à défaut, par l application ;
       # Render n'applique pas cette règle quand un fichier existe (assets, PDF, pages pré-remplies)
+      # pages pré-remplies (scripts/build_pages.py) : titre, description et aperçu par adresse
+      - type: rewrite
+        source: /:a/:b
+        destination: /p/:a/:b/index.html
+      - type: rewrite
+        source: /:a
+        destination: /p/:a/index.html
       - type: rewrite
         source: /*
         destination: /index.html
