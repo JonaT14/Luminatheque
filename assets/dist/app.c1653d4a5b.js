@@ -451,7 +451,7 @@ function applyTopic(id) {
 function setTopic(id) {
   const h = legacyHash(); applyTopic(id);
   if (topicFromPath()) history.pushState(null, "", pathFor(h, id));
-  else if (h.startsWith("article-") || h === "accueil") history.pushState(null, "", `/${id}`);
+  else history.pushState(null, "", `/${id}`); // accueil général, bibliothèque, appareils… : ouvrir le tableau de bord du thème
   renderTopics(); route(); scrollTo(0, 0);
 }
 function viewSoon(id) {
