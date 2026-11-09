@@ -2,7 +2,7 @@
 
 À relancer après toute modification de data/fiches_patients.json :
     python3 scripts/build_site.py && python3 scripts/fiches_pdf.py
-Nécessite Node et Playwright (Chromium). Les PDF sont versionnés : Render ne les régénère pas.
+Nécessite Node et Playwright (Chromium), et segno pour les QR codes. Les PDF sont versionnés : Render ne les régénère pas.
 """
 import json
 import pathlib
@@ -30,6 +30,7 @@ class SPA(http.server.SimpleHTTPRequestHandler):
 
 
 def main():
+    subprocess.run([sys.executable, str(ROOT / "scripts/fiches_qr.py")], check=True)
     ids = [f["id"] for f in json.loads((ROOT / "data/fiches_patients.json").read_text())]
     OUT.mkdir(parents=True, exist_ok=True)
     srv = http.server.ThreadingHTTPServer(("127.0.0.1", 0), functools.partial(SPA, directory=str(ROOT)))

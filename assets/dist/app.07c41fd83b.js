@@ -787,7 +787,7 @@ function viewPubs() {
       <div class="fgroup"><label class="check"><input type="checkbox" id="f-pdf" ${state.f.pdf ? "checked" : ""}> PDF disponible sur le site</label><label class="check"><input type="checkbox" id="f-key" ${state.f.key ? "checked" : ""}> Seulement « À retenir »</label><label class="check"><input type="checkbox" id="f-reco" ${state.f.reco ? "checked" : ""}> Recommandations et prises de position (WALT, MASCC, consensus)</label></div>
     </aside>
     <section style="min-width:0">
-      <div class="results-head"><span class="count"><b>${list.length}</b> publication${list.length > 1 ? "s" : ""}${state.q ? ` pour « ${esc(state.q)} »` : ""}</span>
+      <div class="results-head"><span class="count"><b>${list.length}</b> publication${list.length > 1 ? "s" : ""}${state.q ? ` pour « ${esc(state.q)} »` : ""}</span>${list.length ? exportBtns("list", list.length <= 2000 ? null : null) : ""}
         <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">${levelSwitch(state.level)}
         <label class="muted" style="font:500 .8rem var(--f-display)">Trier <select id="sort" style="border:1px solid var(--line);border-radius:8px;padding:5px;background:var(--surface)">
           ${[["date", "Plus récentes"], ["pertinence", "Pertinence"], ["preuve", "Niveau de preuve"], ["effectif", "Effectif"]].map(([v, l]) => `<option value="${v}" ${state.sort === v ? "selected" : ""}>${l}</option>`).join("")}</select></label></div></div>
@@ -807,7 +807,7 @@ async function viewArticleRaw(a) {
     <section class="panel"><h3 style="margin-bottom:10px">Résumé des auteurs (PubMed, en anglais)</h3><div class="abstract" id="raw-abs" lang="en"><p class="muted">Chargement du résumé…</p></div></section>
     </div><aside style="display:grid;gap:18px;min-width:0"><div class="panel"><h3 style="margin-bottom:6px">Fiche technique</h3><dl class="facts">
       ${[["Type (auto)", typeLabel(a)], ["Niveau (indicatif)", a.level ? `${a.level} · ${LEVELS[a.level][0]}` : "Non gradé"], ["Sous-groupe (auto)", (a.ctx || []).map((c) => CTX[c] || c).join(", ") || "—"], ["Mise en ligne", fmtDate(a.date)], ["PMID", a.pmid], ["Types PubMed", (a.pub_types || []).join(", ") || "—"]].map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>
-      <div class="panel"><h3 style="margin-bottom:10px">Sources</h3><div class="links">${links.map(([h, l]) => `<a class="btn small" href="${h}" target="_blank" rel="noopener">${l} ↗</a>`).join("")}</div></div></aside></div>`;
+      <div class="panel"><h3 style="margin-bottom:10px">Sources</h3><div class="links">${links.map(([h, l]) => `<a class="btn small" href="${h}" target="_blank" rel="noopener">${l} ↗</a>`).join("")}</div><div style="margin-top:12px">${exportBtns("art")}</div></div></aside></div>`;
   scrollTo(0, 0);
   const ab = await abstractOf(a); const box = $("#raw-abs");
   if (box) box.innerHTML = ab.length ? ab.map((x) => `<p>${x.label ? `<b>${esc(x.label)}</b> ` : ""}${esc(x.text)}</p>`).join("") : `<p class="muted">Résumé indisponible ici. <a href="https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/" target="_blank" rel="noopener">Voir sur PubMed</a>.</p>`;
@@ -863,7 +863,7 @@ function viewArticle(pmid) {
           ["Objectif", a.aim], ["Modalité", (a.mode || []).join(", ") || "—"], ["Longueurs d'onde", a.nm?.length ? a.nm.join(" / ") + " nm" : "non précisé"], ["Effectif", a.n ? `${a.n} ${a.type === "preclinical" ? "(animaux/unités)" : "patients"}` : "—"],
           ["Thème", a.theme], ["Mise en ligne", fmtDate(a.date) + " · " + a.week.replace("-S", " S")], ["PMID", a.pmid], ["Citations", String(a.cited_by ?? 0) + " (Europe PMC)"]]
           .map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>
-      <div class="panel"><h3 style="margin-bottom:10px">Sources</h3><div class="links">${links.map(([h, l]) => `<a class="btn small" href="${h}" target="_blank" rel="noopener">${l} ↗</a>`).join("")}</div></div>
+      <div class="panel"><h3 style="margin-bottom:10px">Sources</h3><div class="links">${links.map(([h, l]) => `<a class="btn small" href="${h}" target="_blank" rel="noopener">${l} ↗</a>`).join("")}</div><div style="margin-top:12px">${exportBtns("art")}</div></div>
       ${related.length ? `<div class="panel"><h3 style="margin-bottom:10px">Même thème · ${esc(a.theme)}</h3><div style="display:grid;gap:10px">${related.map((r) => `<a href="/article/${r.pmid}" style="text-decoration:none;color:var(--ink);display:grid;gap:4px"><span style="font:600 .9rem/1.3 var(--f-display)">${esc(r.title_fr)}</span><span class="muted" style="font:500 .75rem var(--f-display)">${typeLabel(r)} · ${r.year}</span></a>`).join("")}</div></div>` : ""}
     </aside></div>`;
   if (a.pdf) renderPdf(a.pdf);
@@ -912,7 +912,8 @@ function viewSyntheses() {
   app().innerHTML = `<div class="view">
     <div style="display:grid;gap:14px"><span class="eyebrow">Synthèses · ${esc(topic().label)}</span><h1>Bilans annuels et étude comparative</h1>
       <div class="syn-tabs">${tabs.map(([k, l]) => `<button class="chip" data-syn="${k}" aria-pressed="${state.synTab === k}">${l}</button>`).join("")}</div>
-      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="eyebrow">Niveau de lecture</span>${levelSwitch(state.level)}</div></div>
+      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="eyebrow">Niveau de lecture</span>${levelSwitch(state.level)}
+        <span style="flex:1"></span><button type="button" class="btn small primary" data-synpdf>${'<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M12 11v6M9 14l3 3 3-3"/></svg>'} Exporter en PDF</button>${exportBtns("syn", synRefs(yearList).length)}</div></div>
     <section class="panel syn-body"><h2>${esc(cur?.headline || "")}</h2>${body}
       <p class="muted" style="font-size:.85rem">Rédigé à partir des ${yearList.filter((a) => a.curated !== false).length} publications évaluées de la période (${yearList.length} notices indexées). Pour un autre découpage (semaines, trimestres, sélection d'articles), utilisez le <a href="/comparer">comparateur</a>.</p></section>
     ${tbl}${stats}
@@ -921,6 +922,71 @@ function viewSyntheses() {
   </div>`;
 }
 
+
+/* ---------------- exports professionnels : RIS, BibTeX, synthèse en PDF ---------------- */
+const SITE = "https://luminatheque.onrender.com";
+const authorsOf = (a) => (a.authors || []).filter((x) => x !== "et al.");
+function risOf(a) {
+  const L = [["TY", "JOUR"], ...authorsOf(a).map((x) => ["AU", x.replace(/^(\S+)\s+(\S+)$/, "$1, $2")]), ["TI", a.title], ["T2", a.journal || a.journal_abbr], ["J2", a.journal_abbr],
+    ["PY", String(a.year)], ["DA", (a.date || "").replace(/-/g, "/")], a.doi && ["DO", a.doi], ["AN", "PMID:" + a.pmid], ["UR", `https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/`],
+    a.pmcid && ["L2", `https://pmc.ncbi.nlm.nih.gov/articles/${a.pmcid}/`], a.title_fr && a.title_fr !== a.title && ["N1", "Titre français (Luminathèque) : " + a.title_fr],
+    a.curated !== false && a.l1 && ["AB", "Luminathèque — " + a.l1], ["N1", `État de lecture Luminathèque : ${READ_STATE[rstate(a)][1]}${a.level ? ` · niveau de preuve ${a.level}` : ""}. Fiche : ${SITE}/article/${a.pmid}`],
+    (a.authors || []).includes("et al.") && ["N1", "Liste d'auteurs abrégée aux trois premiers : compléter depuis PubMed ou le DOI."], ["ER", ""]].filter(Boolean);
+  return L.map(([k, v]) => `${k}  - ${v}`).join("\r\n");
+}
+const bibEsc = (x) => String(x || "").replace(/([{}%&$#_])/g, "\\$1");
+function bibOf(a) {
+  const au = authorsOf(a).map((x) => { const m = x.match(/^(.+?)\s+([A-Z\-]+)$/); return m ? `${m[1]}, ${m[2].split("").join(". ")}.` : x; });
+  const f = [["author", au.join(" and ") + ((a.authors || []).includes("et al.") ? " and others" : "")], ["title", `{${bibEsc(a.title)}}`], ["journal", bibEsc(a.journal || a.journal_abbr)], ["shortjournal", bibEsc(a.journal_abbr)],
+    ["year", a.year], ["date", a.date], ["doi", a.doi], ["pmid", a.pmid], ["eprint", a.pmid], ["eprinttype", "pubmed"], ["url", `https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/`],
+    ["note", `Luminathèque : ${READ_STATE[rstate(a)][1].toLowerCase()}${a.level ? `, niveau de preuve ${a.level}` : ""}`]].filter(([, v]) => v);
+  return `@article{pmid${a.pmid},\n${f.map(([k, v]) => `  ${k} = {${v}}`).join(",\n")}\n}`;
+}
+function download(name, text, mime) {
+  const url = URL.createObjectURL(new Blob(["﻿" + text], { type: mime + ";charset=utf-8" }));
+  const l = document.createElement("a"); l.href = url; l.download = name; document.body.append(l); l.click(); l.remove(); setTimeout(() => URL.revokeObjectURL(url), 2000);
+}
+function exportRefs(xs, fmt, base) {
+  if (!xs.length) return;
+  const stamp = today();
+  if (fmt === "ris") download(`${base}-${stamp}.ris`, xs.map(risOf).join("\r\n\r\n") + "\r\n", "application/x-research-info-systems");
+  else download(`${base}-${stamp}.bib`, `% Luminathèque · ${xs.length} référence(s) · export du ${fmtDate(stamp)}\n% ${SITE}\n\n` + xs.map(bibOf).join("\n\n") + "\n", "application/x-bibtex");
+}
+const exportBtns = (scope, n) => `<span class="exp" role="group" aria-label="Exporter les références"><span class="exp-l">Exporter${n != null ? ` ${n}` : ""}</span><button type="button" class="btn small" data-exp="${scope}" data-fmt="ris" title="RIS : Zotero, EndNote, Mendeley, RefWorks">RIS</button><button type="button" class="btn small" data-exp="${scope}" data-fmt="bib" title="BibTeX : LaTeX, JabRef, Zotero">BibTeX</button></span>`;
+function citeHtml(a, i) {
+  const au = authorsOf(a); const etal = (a.authors || []).includes("et al.");
+  return `<li><span class="ref-n">${i}</span><span>${esc(au.join(", "))}${etal ? ", et al." : ""}. ${esc(a.title)} <i>${esc(a.journal_abbr || a.journal || "")}</i>. ${a.year}.${a.doi ? ` doi:${esc(a.doi)}.` : ""} PMID ${a.pmid}.
+    <small>${esc(READ_STATE[rstate(a)][1])}${a.level ? ` · niveau ${a.level}` : ""}${EFFECTS[a.effect] ? ` · ${EFFECTS[a.effect][0].toLowerCase()}` : ""}</small></span></li>`;
+}
+function synRefs(list) {
+  const ev = list.filter((a) => rstate(a) > 0);
+  const strong = ev.filter((a) => (a.level && a.level <= 2) || a.key);
+  return (strong.length >= 8 ? strong : ev).sort((x, y) => (x.level || 9) - (y.level || 9) || y.year - x.year).slice(0, 80);
+}
+function synthesisPrint(S, tabKey, list) {
+  const t = topic(), cur = tabKey === "global" ? S.global : S.years?.[tabKey]; if (!cur) return "";
+  const refs = synRefs(list), url = `${SITE}/${t.id}/syntheses`;
+  const tbl = tabKey === "global" && S.global?.table ? `<h2>Tableau comparatif</h2><table class="sp-t"><thead><tr><th></th>${S.global.table.cols.map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${S.global.table.rows.map((r) => `<tr><th>${esc(r.label)}</th>${r.cells.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>` : "";
+  return `<div class="sp-head"><div><b>Luminathèque</b><span>Veille scientifique · photobiomodulation</span></div><div class="sp-meta">${esc(t.label)} · ${tabKey === "global" ? "étude comparative" : "bilan " + esc(tabKey)}<br>Exporté le ${fmtDate(today())} · données au ${fmtDate(D.generated)}</div></div>
+    <h1>${esc(cur.headline)}</h1>
+    <p class="sp-basis">Synthèse rédigée à partir de ${list.filter((a) => rstate(a) > 0).length} publications évaluées (${list.length} notices indexées), dont ${list.filter((a) => rstate(a) === 2).length} analyses approfondies. Version en ligne, mise à jour chaque semaine : ${url}</p>
+    <h2>En bref</h2><p class="sp-l1">${esc(cur.l1)}</p>
+    <h2>L'essentiel</h2>${paras(cur.l2)}
+    <h2>Analyse détaillée</h2>${(cur.l3 || []).map((x) => `<h3>${esc(x.h)}</h3><p>${esc(x.p)}</p>`).join("")}
+    ${tbl}
+    <h2>Références</h2><p class="sp-note">Publications évaluées de la période sur lesquelles repose la synthèse, des plus probantes (synthèses d'essais, essais randomisés, publications « à retenir ») aux autres ; ${refs.length} sur ${list.filter((a) => rstate(a) > 0).length}. Liste complète exportable en RIS ou BibTeX depuis la page en ligne.</p>
+    <ol class="sp-refs">${refs.map((a, i) => citeHtml(a, i + 1)).join("")}</ol>
+    <p class="sp-foot">Luminathèque · outil de veille ; ne remplace ni l'avis médical ni les recommandations officielles. ${url}</p>`;
+}
+function printSynthesis() {
+  const S = D.syntheses[state.topic] || {}; const k = state.synTab;
+  const inTab = (a) => { if (k === "global") return true; const m = String(k).match(/^(\d{4})\s*[–-]\s*(\d{4})$/); return m ? a.year >= +m[1] && a.year <= +m[2] : String(a.year) === String(k); };
+  let box = $("#syn-print"); if (!box) { box = document.createElement("div"); box.id = "syn-print"; document.body.append(box); }
+  box.innerHTML = synthesisPrint(S, k, all().filter(inTab));
+  document.body.classList.add("printing-syn");
+  const done = () => { document.body.classList.remove("printing-syn"); removeEventListener("afterprint", done); };
+  addEventListener("afterprint", done); setTimeout(() => print(), 50);
+}
 
 /* ---------------- études en cours & projets en construction (ClinicalTrials.gov + registres de l'OMS) ---------------- */
 const TRIAL_STATUS = { RECRUITING: ["Recrutement ouvert", "rec"], ENROLLING_BY_INVITATION: ["Inclusion sur invitation", "inv"],
@@ -1322,7 +1388,8 @@ async function viewPatient(id) {
     ${sec("04 / SÉCURITÉ", "securite", "Est-ce sans danger ?", `<ul class="ps-checks">${[...f.securite, "La séance ne doit jamais viser directement les yeux, sauf appareil ophtalmologique prévu pour cela."].map((t) => `<li>${esc(t)}</li>`).join("")}</ul>`)}
     ${sec("05 / VOS QUESTIONS", "questions", "Les réponses essentielles", `<div class="ps-faq">${f.faq.map(([q, a]) => `<details open><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</div>`)}
     <footer class="ps-foot">${f.sources.length ? `<div class="ps-refs"><h2>Références scientifiques</h2><ul>${f.sources.map((pm) => { const a = ref(pm); return `<li><a href="/article/${pm}">${esc(a ? a.title_fr || a.title : "Publication PMID " + pm)}</a><span>${a ? `${esc(a.journal_abbr || "")} · ${esc(a.year || "")} · ` : ""}PMID ${pm}</span></li>`; }).join("")}</ul></div>` : ""}
-      <p>Fiche d'information générale réalisée à partir de la littérature scientifique (Luminathèque, ${fmtDate(D.generated)}). Elle ne remplace pas l'avis de votre médecin ou de votre soignant. Illustration à visée pédagogique.<span class="no-print"><br><a href="${P("parametres")}">Fiches paramètres pour les soignants</a></span></p></footer>
+      <div><div class="ps-qr"><img src="/assets/fiches/qr/${f.id}.svg" alt="QR code vers la version en ligne de cette fiche" width="88" height="88"><p><b>Version actualisée</b>Scannez ce code ou rendez-vous sur <span class="ps-url">luminatheque.onrender.com/patients/${f.id}</span>. La fiche en ligne suit l'évolution des études ; cette version date du ${fmtDate(D.generated)}.</p></div>
+      <p>Fiche d'information générale réalisée à partir de la littérature scientifique (Luminathèque, ${fmtDate(D.generated)}). Elle ne remplace pas l'avis de votre médecin ou de votre soignant. Illustration à visée pédagogique.<span class="no-print"><br><a href="${P("parametres")}">Fiches paramètres pour les soignants</a></span></p></div></footer>
   </div>`;
 }
 
@@ -1794,6 +1861,14 @@ document.addEventListener("click", async (e) => {
   if (Object.keys(d).some((k) => k.startsWith("br"))) { e.preventDefault(); await brClick(t); return; }
   if (d.topic) { setTopic(d.topic); return; }
   if (d.ind) { const [tp, c] = d.ind.split("|"); applyTopic(tp); state.f.ctx.add(c); state.filtersOpen = true; renderTopics(); go("publications"); return; }
+  if ("synpdf" in d) { printSynthesis(); return; }
+  if (d.exp) {
+    let xs = [], base = "luminatheque";
+    if (d.exp === "list") { xs = filtered(all()); base = `luminatheque-${state.topic}`; }
+    else if (d.exp === "sel") { xs = [...state.selected].map(byId).filter(Boolean); base = "luminatheque-selection"; }
+    else if (d.exp === "syn") { const k = state.synTab; const inTab = (a) => { if (k === "global") return true; const m = String(k).match(/^(\d{4})\s*[–-]\s*(\d{4})$/); return m ? a.year >= +m[1] && a.year <= +m[2] : String(a.year) === String(k); }; xs = synRefs(all().filter(inTab)); base = `luminatheque-synthese-${state.topic}`; }
+    else if (d.exp === "art") { const id = legacyHash().slice(8); const a = byId(id); xs = a ? [a] : []; base = `pmid-${id}`; }
+    exportRefs(xs, d.fmt, base); return; }
   if ("offlist" in d) { t.disabled = true; try { if (!window.LUMINA_X) await loadScript(D.offtopic_file); } catch { $("#offlist").textContent = "Liste indisponible."; return; }
     const X = window.LUMINA_X; $("#offlist").innerHTML = `<div class="off-list">${X.map((x) => `<div><a href="https://pubmed.ncbi.nlm.nih.gov/${x[0]}/" target="_blank" rel="noopener">${esc(x[3])}</a><small>${esc(topicShort(x[1]))} · ${x[2]} · PMID ${x[0]} · ${esc(x[4])}</small></div>`).join("")}</div>`; t.remove(); return; }
   if ("parall" in d) { state.parScope = "all"; go("parametres"); return; }
