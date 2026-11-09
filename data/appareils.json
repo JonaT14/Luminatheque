@@ -7,7 +7,7 @@
   "description": "Lasers de forte puissance (plusieurs watts), souvent pulsés, utilisés surtout en rééducation pour atteindre les tissus profonds.",
   "lumiere": "plusieurs W, 810–1 064 nm",
   "usage": "cabinet",
-  "rx": "high[- ]intensity laser|\\bhilt\\b|class iv laser|class 4 laser|high[- ]power laser|high[- ]power diode|super[- ]?pulsed|nd:yag laser therapy|hilterapia"
+  "rx": "high[- ]intensity laser|\\bhilt\\b|class iv laser|class 4 laser|high[- ]power laser|high[- ]power diode|nd:yag laser therapy|hilterapia"
  },
  {
   "id": "laser-be",
@@ -130,6 +130,16 @@
   "rx": "whole[- ]body photobiomodulation|whole[- ]body light|light bed|full[- ]body"
  },
  {
+  "id": "superpulse",
+  "nom": "Laser super-pulsé ou magnéto-infrarouge",
+  "kind": "type",
+  "icon": "magneto",
+  "description": "Diodes laser 905 nm émettant des impulsions de quelques nanosecondes à forte puissance crête, souvent associées à des LED et à un champ magnétique statique (PBMT-sMF, magnétolaser).",
+  "lumiere": "905 nm pulsé (ns) + LED, champ magnétique",
+  "usage": "cabinet",
+  "rx": "super[- ]?pulsed|superpulsed|\\bPBMT[- ]?sMF\\b|static magnetic field|magneto[- ]?(laser|infrared|photo)|magnetolaser|magnetic infrared laser|laser.{0,40}magnetic field|magnetic field.{0,40}(laser|photobiomodulation|light[- ]emitting)|\\bMILTA\\b"
+ },
+ {
   "id": "domicile",
   "nom": "Appareil à usage domestique",
   "kind": "type",
@@ -148,7 +158,8 @@
   "description": "Laser associant une émission continue à 808 nm et une émission pulsée à 905 nm synchronisées.",
   "lumiere": "808 + 905 nm",
   "usage": "cabinet",
-  "rx": "multiwave locked|\\bmls\\b|\\bm6 laser|asa laser|mphi"
+  "rx": "multiwave locked|\\bmls\\b|\\bm6 laser|asa laser|mphi",
+  "techno": "hplt"
  },
  {
   "id": "klaser",
@@ -159,7 +170,8 @@
   "description": "Laser de classe IV à plusieurs longueurs d'onde, surtout utilisé en rééducation.",
   "lumiere": "660–1 064 nm",
   "usage": "cabinet",
-  "rx": "k-laser|k laser\\b"
+  "rx": "k-laser|k laser\\b",
+  "techno": "hplt"
  },
  {
   "id": "btl",
@@ -170,7 +182,8 @@
   "description": "Gamme de lasers haute intensité et basse énergie de rééducation.",
   "lumiere": "1 064 nm (haute intensité)",
   "usage": "cabinet",
-  "rx": "\\bbtl[- ]?\\d"
+  "rx": "\\bbtl[- ]?\\d",
+  "techno": "hplt"
  },
  {
   "id": "lightforce",
@@ -181,7 +194,8 @@
   "description": "Lasers thérapeutiques de classe IV.",
   "lumiere": "variable",
   "usage": "cabinet",
-  "rx": "lightforce|litecure"
+  "rx": "lightforce|litecure",
+  "techno": "hplt"
  },
  {
   "id": "multiradiance",
@@ -192,7 +206,8 @@
   "description": "Émetteurs combinant laser super-pulsé, LED et champ magnétique (PBMT-sMF).",
   "lumiere": "905 nm pulsé + LED",
   "usage": "cabinet",
-  "rx": "multi ?radiance"
+  "rx": "multi ?radiance",
+  "techno": "superpulse"
  },
  {
   "id": "thor",
@@ -203,7 +218,8 @@
   "description": "Lasers et clusters LED, ainsi que des casques LED.",
   "lumiere": "660–810 nm",
   "usage": "les deux",
-  "rx": "\\bthor\\b"
+  "rx": "\\bthor\\b",
+  "techno": "lllt"
  },
  {
   "id": "erchonia",
@@ -214,7 +230,8 @@
   "description": "Lasers basse énergie à balayage.",
   "lumiere": "635 nm",
   "usage": "cabinet",
-  "rx": "erchonia"
+  "rx": "erchonia",
+  "techno": "lllt"
  },
  {
   "id": "bioptron",
@@ -225,7 +242,8 @@
   "description": "Lampe de lumière polarisée polychromatique.",
   "lumiere": "480–3 400 nm polarisée",
   "usage": "les deux",
-  "rx": "bioptron|polari[sz]ed polychromatic"
+  "rx": "bioptron|polari[sz]ed polychromatic",
+  "techno": "led"
  },
  {
   "id": "anodyne",
@@ -236,7 +254,8 @@
   "description": "Plaques de diodes infrarouges (énergie infrarouge monochromatique), étudiées surtout dans la neuropathie.",
   "lumiere": "890 nm",
   "usage": "les deux",
-  "rx": "anodyne|monochromatic infrared"
+  "rx": "anodyne|monochromatic infrared",
+  "techno": "led"
  },
  {
   "id": "thera",
@@ -247,7 +266,8 @@
   "description": "Lasers thérapeutiques à super-impulsions.",
   "lumiere": "660 et 905 nm",
   "usage": "cabinet",
-  "rx": "theralase|thera lase"
+  "rx": "theralase|thera lase",
+  "techno": "superpulse"
  },
  {
   "id": "lumix",
@@ -258,7 +278,8 @@
   "description": "Laser haute puissance à super-impulsions.",
   "lumiere": "proche infrarouge super-pulsé",
   "usage": "cabinet",
-  "rx": "lumix"
+  "rx": "lumix",
+  "techno": "superpulse"
  },
  {
   "id": "biolase",
@@ -269,7 +290,8 @@
   "description": "Lasers dentaires (diode, Er,Cr:YSGG) dont certains modes de PBM.",
   "lumiere": "940 nm (diode)",
   "usage": "cabinet",
-  "rx": "biolase|epic x|epic 10"
+  "rx": "biolase|epic x|epic 10",
+  "techno": "hplt"
  },
  {
   "id": "siro",
@@ -280,7 +302,8 @@
   "description": "Laser diode dentaire, utilisé aussi en PBM.",
   "lumiere": "970 nm",
   "usage": "cabinet",
-  "rx": "sirolaser"
+  "rx": "sirolaser",
+  "techno": "hplt"
  },
  {
   "id": "doctorsmile",
@@ -291,7 +314,8 @@
   "description": "Lasers dentaires, dont des pièces à main de PBM (embout plat).",
   "lumiere": "810–980 nm",
   "usage": "cabinet",
-  "rx": "doctor smile|lambda spa"
+  "rx": "doctor smile|lambda spa",
+  "techno": "hplt"
  },
  {
   "id": "orthopulse",
@@ -302,7 +326,8 @@
   "description": "Appareil intrabuccal à LED porté à domicile pour accélérer le mouvement orthodontique.",
   "lumiere": "850 nm",
   "usage": "domicile",
-  "rx": "orthopulse|biolux"
+  "rx": "orthopulse|biolux",
+  "techno": "endo"
  },
  {
   "id": "valeda",
@@ -313,7 +338,8 @@
   "description": "Système de PBM rétinienne à trois longueurs d'onde pour la DMLA sèche (essais LIGHTSITE).",
   "lumiere": "590, 660, 850 nm",
   "usage": "cabinet",
-  "rx": "valeda|lumithera"
+  "rx": "valeda|lumithera",
+  "techno": "dedie"
  },
  {
   "id": "eyerising",
@@ -324,7 +350,8 @@
   "description": "Appareil de lumière rouge répétée basse intensité contre la myopie de l'enfant.",
   "lumiere": "650 nm",
   "usage": "domicile",
-  "rx": "eyerising"
+  "rx": "eyerising",
+  "techno": "dedie"
  },
  {
   "id": "myMask",
@@ -335,7 +362,8 @@
   "description": "Masque LED périoculaire pour la sécheresse oculaire et la dysfonction meibomienne.",
   "lumiere": "rouge",
   "usage": "cabinet",
-  "rx": "my mask|espansione"
+  "rx": "my mask|espansione",
+  "techno": "led"
  },
  {
   "id": "vielight",
@@ -346,7 +374,8 @@
   "description": "Casques transcrâniens et intranasaux proche infrarouge pulsés à 40 Hz (Neuro Gamma, Neuro RX).",
   "lumiere": "810 nm",
   "usage": "domicile",
-  "rx": "vielight"
+  "rx": "vielight",
+  "techno": "dedie"
  },
  {
   "id": "neurothera",
@@ -357,7 +386,8 @@
   "description": "Laser transcrânien à 808 nm testé dans l'AVC aigu (essais NEST 1 à 3).",
   "lumiere": "808 nm",
   "usage": "cabinet",
-  "rx": "neurothera|\\bphotothera\\b"
+  "rx": "neurothera|\\bphotothera\\b",
+  "techno": "dedie"
  },
  {
   "id": "regenlife",
@@ -368,7 +398,8 @@
   "description": "Dispositifs de PBM associant casque et ceinture abdominale (axe cerveau-intestin), testés dans l'Alzheimer.",
   "lumiere": "proche infrarouge",
   "usage": "cabinet",
-  "rx": "regenlife|rgn ?[56]\\d0"
+  "rx": "regenlife|rgn ?[56]\\d0",
+  "techno": "dedie"
  },
  {
   "id": "nirscure",
@@ -379,7 +410,8 @@
   "description": "Dispositif proche infrarouge transcrânien testé dans l'Alzheimer.",
   "lumiere": "proche infrarouge",
   "usage": "domicile",
-  "rx": "nirscure"
+  "rx": "nirscure",
+  "techno": "dedie"
  },
  {
   "id": "luciole",
@@ -390,7 +422,8 @@
   "description": "Casque de lumière rouge testé dans la démence.",
   "lumiere": "rouge",
   "usage": "domicile",
-  "rx": "luciole"
+  "rx": "luciole",
+  "techno": "dedie"
  },
  {
   "id": "tini",
@@ -401,7 +434,8 @@
   "description": "Laser proche infrarouge auriculaire contre les acouphènes.",
   "lumiere": "830 nm",
   "usage": "cabinet",
-  "rx": "\\btini\\b"
+  "rx": "\\btini\\b",
+  "techno": "endo"
  },
  {
   "id": "hairmax",
@@ -412,7 +446,8 @@
   "description": "Peignes et bandeaux laser contre la chute de cheveux.",
   "lumiere": "655 nm",
   "usage": "domicile",
-  "rx": "hairmax"
+  "rx": "hairmax",
+  "techno": "dedie"
  },
  {
   "id": "igrow",
@@ -423,7 +458,8 @@
   "description": "Casque laser et LED capillaire.",
   "lumiere": "655 nm",
   "usage": "domicile",
-  "rx": "\\bigrow"
+  "rx": "\\bigrow",
+  "techno": "dedie"
  },
  {
   "id": "theradome",
@@ -434,7 +470,8 @@
   "description": "Casque laser capillaire.",
   "lumiere": "678 nm",
   "usage": "domicile",
-  "rx": "theradome"
+  "rx": "theradome",
+  "techno": "dedie"
  },
  {
   "id": "revian",
@@ -445,7 +482,8 @@
   "description": "Bonnet LED capillaire.",
   "lumiere": "620 et 660 nm",
   "usage": "domicile",
-  "rx": "revian"
+  "rx": "revian",
+  "techno": "dedie"
  },
  {
   "id": "omnilux",
@@ -456,7 +494,8 @@
   "description": "Panneaux et masques LED dermatologiques.",
   "lumiere": "415, 633, 830 nm",
   "usage": "les deux",
-  "rx": "omnilux"
+  "rx": "omnilux",
+  "techno": "led"
  },
  {
   "id": "dermalux",
@@ -467,7 +506,8 @@
   "description": "Panneaux LED dermatologiques.",
   "lumiere": "415, 633, 830 nm",
   "usage": "cabinet",
-  "rx": "dermalux"
+  "rx": "dermalux",
+  "techno": "led"
  },
  {
   "id": "emoled",
@@ -478,7 +518,8 @@
   "description": "LED bleue portative pour les plaies.",
   "lumiere": "400–430 nm",
   "usage": "cabinet",
-  "rx": "emoled"
+  "rx": "emoled",
+  "techno": "led"
  },
  {
   "id": "gentlewaves",
@@ -489,7 +530,8 @@
   "description": "LED jaune pulsée pour le photorajeunissement.",
   "lumiere": "590 nm",
   "usage": "cabinet",
-  "rx": "gentlewaves"
+  "rx": "gentlewaves",
+  "techno": "led"
  },
  {
   "id": "milta",
@@ -501,7 +543,8 @@
   "lumiere": "laser nano-pulsé + infrarouge + LED RVB",
   "usage": "cabinet",
   "rx": "\\bmilta\\b|physioquanta",
-  "categorie": "vaginal"
+  "categorie": "vaginal",
+  "techno": "superpulse"
  },
  {
   "id": "intimleds",
@@ -513,7 +556,8 @@
   "lumiere": "rouge et proche infrarouge",
   "usage": "cabinet",
   "rx": "intimleds",
-  "categorie": "vaginal"
+  "categorie": "vaginal",
+  "techno": "endo"
  },
  {
   "id": "sola",
@@ -525,7 +569,8 @@
   "lumiere": "proche infrarouge",
   "usage": "cabinet",
   "rx": "sol[aá] pelvic",
-  "categorie": "vaginal"
+  "categorie": "vaginal",
+  "techno": "endo"
  },
  {
   "id": "bcure",
@@ -536,7 +581,8 @@
   "description": "Laser portable à usage domestique.",
   "lumiere": "808 nm",
   "usage": "domicile",
-  "rx": "b-cure"
+  "rx": "b-cure",
+  "techno": "lllt"
  },
  {
   "id": "summus",
@@ -547,7 +593,8 @@
   "description": "Laser de classe IV.",
   "lumiere": "variable",
   "usage": "cabinet",
-  "rx": "summus"
+  "rx": "summus",
+  "techno": "hplt"
  },
  {
   "id": "elixir",
@@ -558,7 +605,8 @@
   "description": "Dispositif de PBM périopératoire autorisé par la FDA.",
   "lumiere": "rouge et proche infrarouge",
   "usage": "les deux",
-  "rx": "elixir md"
+  "rx": "elixir md",
+  "techno": "dedie"
  },
  {
   "id": "neurolumen",
@@ -569,7 +617,8 @@
   "description": "Appareil associant électrostimulation, LED et laser.",
   "lumiere": "rouge et proche infrarouge",
   "usage": "domicile",
-  "rx": "neurolumen"
+  "rx": "neurolumen",
+  "techno": "dedie"
  },
  {
   "id": "pdneuro",
@@ -580,7 +629,8 @@
   "description": "Casque LED transcrânien pour la maladie de Parkinson.",
   "lumiere": "635 et 810 nm",
   "usage": "domicile",
-  "rx": "pdneuro"
+  "rx": "pdneuro",
+  "techno": "dedie"
  },
  {
   "id": "cognilum",
@@ -591,7 +641,8 @@
   "description": "Dispositif de PBM transcrânienne testé dans l'autisme.",
   "lumiere": "proche infrarouge",
   "usage": "domicile",
-  "rx": "cognilum"
+  "rx": "cognilum",
+  "techno": "dedie"
  },
  {
   "id": "atp38",
@@ -603,7 +654,8 @@
   "description": "Système de photothérapie LED sur pied à panneaux orientables, conçu en Suisse, utilisé en médecine du sport, en oncologie de support (radiodermite, mucite), en dermatologie et en esthétique. Distribué notamment par Biotech Dental.",
   "lumiere": "LED, plusieurs longueurs d'onde du bleu au proche infrarouge",
   "usage": "cabinet",
-  "rx": "\\batp ?38\\b|stema care"
+  "rx": "\\batp ?38\\b|stema care",
+  "techno": "led"
  },
  {
   "id": "bodyboost",
@@ -615,7 +667,8 @@
   "description": "Lit de photobiomodulation corps entier destiné aux cabinets, spas et centres esthétiques : environ 6 750 LED bleues, rouges et proche infrarouge, séances d'environ 25 minutes.",
   "lumiere": "LED bleu, rouge et proche infrarouge",
   "usage": "cabinet",
-  "rx": "body ?boost bed|beam supreme"
+  "rx": "body ?boost bed|beam supreme",
+  "techno": "corps"
  },
  {
   "id": "novothor",
@@ -627,7 +680,8 @@
   "description": "Cabine corps entier à LED rouges et proche infrarouge, étudiée dans la fibromyalgie, la récupération sportive et le sommeil (études pilotes et essai contre sham en cours).",
   "lumiere": "LED 660 + 850 nm",
   "usage": "cabinet",
-  "rx": "novo ?thor"
+  "rx": "novo ?thor",
+  "techno": "corps"
  },
  {
   "id": "arrc",
@@ -639,6 +693,7 @@
   "description": "Lit LED corps entier de forte puissance, comparé au NovoTHOR et à un sham dans un essai randomisé américain.",
   "lumiere": "LED rouge et proche infrarouge",
   "usage": "cabinet",
-  "rx": "\\barrc\\b"
+  "rx": "\\barrc\\b",
+  "techno": "corps"
  }
 ]

@@ -36,7 +36,7 @@ VIEWS = {"publications": "Publications", "syntheses": "Synthèses", "essais": "�
 def payload(path):
     s = path.read_text(encoding="utf-8")
     m = re.search(r"=\s*([\[{])", s)
-    return json.loads(s[m.start(1):].rstrip().rstrip(";"))
+    return json.JSONDecoder().raw_decode(s, m.start(1))[0]
 
 
 def short(txt, n=200):
@@ -114,8 +114,16 @@ def main():
     # appareils
     if D.get("devices_file"):
         devs = payload(ROOT / D["devices_file"])
-        pg.write("/appareils", "Recherche par appareil · Luminathèque", "Études et essais de photobiomodulation par type d'appareil (laser, LED, casque, cabine corps entier…) et par marque.",
+        pg.write("/appareils", "Recherche par appareil · Luminathèque", "Matrice technologique de la photobiomodulation (LED, lasers classe 3B et 4, super-pulsés, sondes endocavitaires, lits corps entier), outil de transposition des protocoles, études par appareil et par marque.",
                  "<h1>Recherche par appareil</h1><ul>" + "".join(f"<li><a href=\"/appareils/{E(d['id'])}\">{E(d['nom'])}</a></li>" for d in devs) + "</ul>")
+        src = (ROOT / D["devices_file"]).read_text(encoding="utf-8")
+        if "window.LUMINA_TECH" in src:
+            tech = json.JSONDecoder().raw_decode(src, src.index("{", src.index("window.LUMINA_TECH")))[0]
+            for f in tech["familles"] + [tech["dedies"]]:
+                facts = "".join(f"<li><b>{E(l)}</b> : {E(f.get(k))}</li>" for k, l in tech["parametres"] if f.get(k))
+                pg.write(f"/appareils/techno-{f['id']}", f"{f['nom']} · Technologies de photobiomodulation · Luminathèque",
+                         short(f"{f['nom']} : {f.get('resume') or f.get('texte')} Paramètres physiques, transposition des protocoles publiés et {f.get('n', 0)} études indexées."),
+                         f"<h1>{E(f['nom'])}</h1><p>{E(f.get('resume') or f.get('texte'))}</p><ul>{facts}</ul>")
         for d in devs:
             pg.write(f"/appareils/{d['id']}", f"{d['nom']} · Appareils · Luminathèque", short(d.get("description")),
                      f"<h1>{E(d['nom'])}</h1><p>{E(d.get('fabricant'))}</p><p>{E(d.get('description'))}</p><p>{E(d.get('lumiere'))} · {d.get('n', 0)} études, {d.get('nc', 0)} fiches.</p>")

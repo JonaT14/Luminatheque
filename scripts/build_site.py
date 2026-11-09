@@ -471,6 +471,27 @@ def main() -> None:
                 "n": len(hs), "nc": sum(h["c"] for h in hs), "fav": sum(h["e"] == "favorable" for h in hs),
                 "topics": dict(collections.Counter(h["t"] for h in hs)), "studies": keep, "trials": trial_hits[d["id"]]})
         js = "window.LUMINA_D = " + json.dumps(out_dev, ensure_ascii=False, separators=(",", ":")) + ";\n"
+        # matrice technologique : agrégat des types et des marques de chaque famille physique (data/technologies.json)
+        tech_p = ROOT / "data/technologies.json"
+        if tech_p.exists():
+            tech = json.loads(tech_p.read_text())
+            kept = {d["id"] for d in out_dev}
+            tech["dedies"]["id"] = "dedie"
+            for fam in tech["familles"] + [tech["dedies"]]:
+                ids = [i for i in fam["types"] if i in hits] + [d["id"] for d in devices if d["kind"] == "marque"
+                       and (d.get("techno") == fam["id"] or (fam["id"] == "endo" and d.get("categorie") in fam["types"]))]
+                seen_p, union = set(), []
+                for i in ids:
+                    for h in hits[i]:
+                        if h["p"] not in seen_p:
+                            seen_p.add(h["p"]); union.append(h)
+                tr = {x["n"]: x for i in ids for x in trial_hits[i]}
+                union.sort(key=lambda h: (-h["c"], -h["y"]))
+                fam.update({"membres": [i for i in ids if i in kept], "n": len(union), "nc": sum(h["c"] for h in union),
+                            "eff": dict(collections.Counter(h["e"] for h in union if h["c"])),
+                            "topics": dict(collections.Counter(h["t"] for h in union)),
+                            "studies": [h for h in union if h["c"]][:300], "n_trials": len(tr)})
+            js += "window.LUMINA_TECH = " + json.dumps(tech, ensure_ascii=False, separators=(",", ":")) + ";\n"
         dh = hashlib.sha1(js.encode()).hexdigest()[:10]
         for old in (ROOT / "assets/topics").glob("_appareils.*js"):
             if old.name != f"_appareils.{dh}.js":

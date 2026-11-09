@@ -484,6 +484,56 @@ footer { border-top: 1px solid var(--line); padding-block: 22px; font: 400 .78re
 .psrc { font: 500 .74rem var(--f-display); padding: 4px 9px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); text-decoration: none; border: 1px solid var(--line); }
 .psrc:hover { border-color: var(--accent); color: var(--accent); }
 
+/* ---------- matrice technologique des appareils ---------- */
+.tm-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); max-width: 100%; }
+.tm-wrap:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.tm { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 1080px; font-size: .84rem; line-height: 1.45; }
+.tm th, .tm td { padding: 11px 13px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+.tm tbody tr:last-child th, .tm tbody tr:last-child td { border-bottom: 0; }
+.tm td + td, .tm th + td, .tm thead th + th { border-left: 1px solid var(--line); }
+.tm tbody th { position: sticky; left: 0; z-index: 1; background: var(--surface-2); width: 150px; min-width: 130px; font: 600 .74rem/1.35 var(--f-display); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.tm thead th:first-child { position: sticky; left: 0; z-index: 2; background: var(--surface-2); vertical-align: bottom; }
+.tm thead th { width: 15%; background: var(--surface); box-shadow: inset 0 4px 0 var(--tc, var(--accent)); }
+.tm thead th a { display: grid; gap: 6px; text-decoration: none; color: var(--ink); }
+.tm thead th a:hover b { color: var(--tc); }
+.tm thead th a[aria-current="true"] b { color: var(--tc); text-decoration: underline; }
+.tm thead th .dev-ic { color: var(--tc); stroke: var(--tc); }
+.tm thead th b { font: 600 .92rem/1.25 var(--f-display); }
+.tm thead th small { font-weight: 400; color: var(--muted); font-size: .76rem; line-height: 1.35; }
+.tm tbody tr:hover td { background: color-mix(in srgb, var(--accent) 4%, var(--surface)); }
+.tm-ev td { display: table-cell; } .tm-ev .effbar { margin: 8px 0 4px; } .tm-ev small, .dev-detail small.muted { display: block; font-size: .72rem; }
+.tm-facts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 10px; margin: 0; }
+.tm-facts > div { background: var(--surface-2); border-radius: 12px; padding: 10px 13px; }
+.tm-facts dt { font: 600 .66rem var(--f-display); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 3px; }
+.tm-facts dd { margin: 0; font-size: .88rem; line-height: 1.45; }
+.tm-cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.tm-col { border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; border-top: 3px solid var(--tc, var(--accent)); }
+.tm-col h3 { font-size: .95rem; margin-bottom: 6px; } .tm-col ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: .86rem; line-height: 1.45; }
+@media (max-width: 860px) { .tm-cols { grid-template-columns: 1fr; } }
+.tc { display: grid; gap: 14px; }
+.tc-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; align-items: start; }
+@media (max-width: 980px) { .tc-grid { grid-template-columns: 1fr; } }
+.tc fieldset { border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px 14px; margin: 0; display: grid; gap: 10px; min-width: 0; }
+.tc legend { font: 600 .8rem var(--f-display); padding: 0 6px; }
+.tc-f { display: grid; gap: 4px; font-size: .8rem; color: var(--ink-2); }
+.tc-in { display: flex; align-items: center; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); overflow: hidden; }
+.tc-in:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.tc-in input { flex: 1; min-width: 0; border: 0; background: none; padding: 8px 10px; font: 500 .95rem var(--f-mono); color: var(--ink); outline: none; }
+.tc-in i { font-style: normal; font-size: .74rem; color: var(--muted); padding: 0 10px; white-space: nowrap; }
+.tc .seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.tc .seg label { display: flex; gap: 6px; align-items: center; font-size: .8rem; padding: 6px 10px; border: 1px solid var(--line); border-radius: 99px; cursor: pointer; }
+.tc .seg label:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
+.tc-pulse summary { cursor: pointer; font-size: .8rem; color: var(--accent); margin-bottom: 8px; }
+.tc-pulse[open] { display: grid; gap: 10px; }
+.tc-out { display: block; background: var(--surface-2); border-radius: 14px; padding: 14px 16px; min-height: 100%; }
+.tc-out dl { margin: 0; display: grid; gap: 12px; }
+.tc-out dt { font: 600 .68rem var(--f-display); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.tc-out dd { margin: 2px 0; font: 600 1.15rem var(--f-mono); }
+.tc-out .tc-main dd { font-size: 1.7rem; color: var(--accent); }
+.tc-out small { display: block; font-size: .76rem; color: var(--ink-2); line-height: 1.45; }
+.tc-warn[data-ok="false"] { border-left: 3px solid var(--def); padding-left: 10px; } .tc-warn[data-ok="false"] dd { color: var(--def); }
+.tc-warn[data-ok="true"] { border-left: 3px solid var(--fav); padding-left: 10px; }
+
 /* ---------- fiches patients (maquette « papier ») ---------- */
 .pt-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 .ps, .ps-lib { --ps-ink: #24312f; --ps-muted: #68736f; --ps-line: #e5e6df; --ps-paper: #faf8f5; --ps-wine: #953e4b; --ps-sage: #e9eee8; --ps-serif: 'Playfair Display', Georgia, serif; --ps-sans: 'DM Sans', var(--f-display), sans-serif; }

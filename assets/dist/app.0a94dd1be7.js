@@ -58,7 +58,7 @@ const state = {
   sort: "date",
   cardLevel: new Map(),
   selected: new Set(store.get("selected", [])),
-  synTab: "global", essTab: "now", essCtx: "", essReg: "", essQ: "", devKind: "type", devQ: "", devTopic: "", parScope: "topic",
+  synTab: "global", essTab: "now", essCtx: "", essReg: "", essQ: "", devKind: "techno", devQ: "", devTopic: "", parScope: "topic",
   cmp: null,
 };
 const topic = () => D.topics.find((t) => t.id === state.topic) || D.topics[0];
@@ -778,6 +778,7 @@ const DEV_ICON = {
   oeil: '<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
   corps: '<path d="M3 16h18M5 16v3M19 16v3"/><circle cx="7" cy="12" r="2"/><path d="M10 13h9"/><path d="M5 7h14" stroke-dasharray="2 2"/>',
   domicile: '<path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-5h4v5"/>',
+  magneto: '<path d="M6 4v8a6 6 0 0 0 12 0V4"/><path d="M6 8h3M15 8h3"/><path d="M3 20l3-2 2 2 3-2 2 2 3-2 2 2 3-2"/>',
 };
 const USAGE = { cabinet: "Au cabinet", domicile: "À domicile", "les deux": "Cabinet et domicile" };
 const topicShort = (id) => D.topics.find((t) => t.id === id)?.short || id;
@@ -791,7 +792,13 @@ async function viewDevices(sel) {
   setNav("appareils");
   app().innerHTML = `<div class="empty">Chargement des appareils…</div>`;
   let devs; try { devs = await ensureDevices(); } catch { app().innerHTML = `<div class="empty">Index des appareils indisponible. Rechargez la page.</div>`; return; }
+  const TECH = window.LUMINA_TECH;
+  if (sel && sel.startsWith("techno-")) state.devKind = "techno";
+  else if (sel && state.devKind === "techno") state.devKind = devs.find((x) => x.id === sel)?.kind || "type";
+  if (state.devKind === "techno" && !TECH) state.devKind = "type";
   const kind = state.devKind, q = state.devQ.toLowerCase(), tf = state.devTopic;
+  const tabs = `<div class="syn-tabs">${[["techno", "Technologies", TECH ? TECH.familles.length : 0], ["type", "Types d'appareils"], ["marque", "Marques citées"]].map(([k, l, n]) => `<button class="chip" data-devkind="${k}" aria-pressed="${kind === k}">${l}<span class="n">${n ?? devs.filter((x) => x.kind === k).length}</span></button>`).join("")}</div>`;
+  if (kind === "techno") return viewTechno(devs, sel && sel.startsWith("techno-") ? sel.slice(7) : "", tabs);
   const list = devs.filter((d) => d.kind === kind && (!tf || d.topics[tf] || d.trials.some((x) => x.t === tf)) && (!q || [d.nom, d.fabricant, d.description, d.lumiere].join(" ").toLowerCase().includes(q)))
     .sort((a, b) => b.nc - a.nc || b.n - a.n);
   const d = sel && devs.find((x) => x.id === sel);
@@ -804,6 +811,7 @@ async function viewDevices(sel) {
     detail = `<section class="panel dev-detail" id="dev-detail">
       <div class="panel-head"><div style="display:flex;gap:14px;align-items:center">${devIcon(d.icon, 34)}<div style="display:grid;gap:4px"><span class="eyebrow">${d.kind === "marque" ? esc(d.fabricant || "Marque") : "Type d'appareil"}</span><h2>${esc(d.nom)}</h2></div></div><a class="btn small" href="/appareils">Fermer</a></div>
       <p class="lead" style="max-width:75ch;font-size:1rem">${esc(d.description)}</p>
+      ${techOf(d) ? `<p style="margin:-4px 0 12px">Technologie : <a href="/appareils/techno-${techOf(d).id}">${esc(techOf(d).nom)}</a></p>` : ""}
       ${d.kind === "marque" && d.categorie ? `<p style="margin:-4px 0 12px">Catégorie : <a href="/appareils/${d.categorie}">${esc(devs.find((x) => x.id === d.categorie)?.nom || d.categorie)}</a></p>` : ""}
       ${d.kind === "type" && devs.some((x) => x.categorie === d.id) ? `<div style="margin:-4px 0 14px"><span class="eyebrow">Appareils de cette catégorie</span><div class="chips" style="margin-top:8px">${devs.filter((x) => x.categorie === d.id).map((x) => `<a class="chip" href="/appareils/${x.id}" style="text-decoration:none">${esc(x.nom)}${x.n ? `<span class="n">${x.n}</span>` : ""}</a>`).join("")}</div></div>` : ""}
       <div class="dev-facts"><span><b>Lumière</b>${esc(d.lumiere)}</span><span><b>Usage</b>${USAGE[d.usage] || "—"}</span><span><b>Études citant l'appareil</b>${d.n}</span><span><b>Fiches rédigées</b>${d.nc}</span><span><b>Essais en cours</b>${d.trials.length}</span></div>
@@ -822,7 +830,7 @@ async function viewDevices(sel) {
     <div style="display:grid;gap:12px"><span class="eyebrow">Appareils · tous thèmes</span><h1>Recherche par appareil</h1>
       <p class="lead" style="max-width:72ch">Retrouvez les études et les essais en cours selon le type de matériel (laser haute intensité, casque, masque LED…) ou la marque citée dans les articles.</p></div>
     ${detail}
-    <div class="ess-bar"><div class="syn-tabs">${[["type", "Types d'appareils"], ["marque", "Marques citées"]].map(([k, l]) => `<button class="chip" data-devkind="${k}" aria-pressed="${kind === k}">${l}<span class="n">${devs.filter((x) => x.kind === k).length}</span></button>`).join("")}</div>
+    <div class="ess-bar">${tabs}
       <input class="ess-q" id="devq" type="search" placeholder="Rechercher un appareil, un fabricant, une longueur d'onde…" value="${esc(state.devQ)}" aria-label="Rechercher un appareil"></div>
     <div class="chips"><button class="chip" data-devtopic="" aria-pressed="${!tf}">Tous les thèmes</button>${topicsWith.map((t) => `<button class="chip" data-devtopic="${t.id}" aria-pressed="${tf === t.id}">${esc(t.short)}</button>`).join("")}</div>
     <div class="dev-grid">${list.map((x) => `<a class="card dev-card" href="/appareils/${x.id}" aria-current="${x.id === sel}">
@@ -836,6 +844,98 @@ async function viewDevices(sel) {
   if (d) $("#dev-detail")?.scrollIntoView({ block: "start" });
 }
 
+
+/* ---------------- matrice technologique ---------------- */
+function techOf(d) {
+  const T = window.LUMINA_TECH; if (!T) return null;
+  const fams = [...T.familles, T.dedies];
+  return d.kind === "marque" ? fams.find((f) => f.id === d.techno) || null : fams.find((f) => f.types.includes(d.id)) || null;
+}
+const techEff = (f) => { const n = Object.entries(f.eff || {}).filter(([k]) => EFFECTS[k]).reduce((a, [, v]) => a + v, 0);
+  return n ? `<div class="effbar" role="img" aria-label="Résultats des fiches rédigées">${Object.keys(EFFECTS).map((k) => f.eff[k] ? `<i data-e="${k}" style="flex:${f.eff[k]}" title="${EFFECTS[k][0]} : ${f.eff[k]}"></i>` : "").join("")}</div><small class="muted">${f.eff.favorable || 0} favorables sur ${n} fiches qui mesurent un effet</small>` : `<small class="muted">Pas encore de fiche rédigée</small>`; };
+function viewTechno(devs, fid, tabs) {
+  const T = window.LUMINA_TECH, fams = T.familles, f = fid && [...fams, T.dedies].find((x) => x.id === fid);
+  const byId = (i) => devs.find((x) => x.id === i);
+  const chips = (ids) => ids.map(byId).filter(Boolean).map((x) => `<a class="chip" href="/appareils/${x.id}" style="text-decoration:none">${x.kind === "type" ? "" : '<span class="muted">●</span> '}${esc(x.nom)}${x.n ? `<span class="n">${x.n}</span>` : ""}</a>`).join("");
+  let detail = "";
+  if (f) {
+    const byTopic = {}; f.studies.forEach((h) => (byTopic[h.t] = byTopic[h.t] || []).push(h));
+    const maxT = Math.max(...Object.values(f.topics), 1);
+    const list = (k, l) => f[k] ? `<div class="tm-col"><h3>${l}</h3><ul>${f[k].map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : "";
+    detail = `<section class="panel dev-detail" id="dev-detail" style="--tc:${f.couleur || "var(--accent)"}">
+      <div class="panel-head"><div style="display:flex;gap:14px;align-items:center">${devIcon(f.icon || "domicile", 34)}<div style="display:grid;gap:4px"><span class="eyebrow">Technologie</span><h2>${esc(f.nom)}</h2></div></div><a class="btn small" href="/appareils">Fermer</a></div>
+      <p class="lead" style="max-width:75ch;font-size:1rem">${esc(f.resume || f.texte)}</p>
+      ${f.source ? `<dl class="tm-facts">${T.parametres.map(([k, l]) => `<div><dt>${l}</dt><dd>${esc(f[k])}${k === "nm" ? nmSwatches(f[k]) : ""}</dd></div>`).join("")}</dl>` : ""}
+      ${f.forces ? `<div class="tm-cols">${list("forces", "Points forts")}${list("limites", "Limites")}${list("transposer", "Transposer une étude")}</div>` : ""}
+      <div><span class="eyebrow">Types et marques de cette technologie</span><div class="chips" style="margin-top:8px">${chips(f.membres)}</div></div>
+      <div class="dev-facts"><span><b>Études indexées</b>${f.n}</span><span><b>Fiches rédigées</b>${f.nc}</span><span><b>Essais en cours</b>${f.n_trials}</span></div>
+      <div class="grid-2" style="align-items:start">
+        <div><h3 style="margin-bottom:10px">Par thème</h3><div class="bars-h">${Object.entries(f.topics).sort((a, b) => b[1] - a[1]).map(([t, v]) => `<div class="row"><span>${esc(topicShort(t))}</span><span class="track"><i style="width:${(100 * v / maxT).toFixed(1)}%"></i></span><b class="mono">${v}</b></div>`).join("")}</div></div>
+        <div><h3 style="margin-bottom:10px">Résultats des fiches</h3>${techEff(f)}</div></div>
+      ${Object.keys(byTopic).length ? `<h3 style="margin:8px 0 0">Fiches rédigées utilisant cette technologie</h3>${Object.entries(byTopic).sort((a, b) => b[1].length - a[1].length).map(([t, xs]) => `<details class="dev-group"><summary><b>${esc(topicShort(t))}</b> <span class="muted">· ${xs.length}</span></summary><ul class="plist">${xs.map((h) => `<li><a href="/article/${h.p}">${esc(h.ti)}</a> <span class="muted">· ${h.y} · ${esc(TYPES[h.ty]?.[0] || h.ty)}</span>${EFFECTS[h.e] ? ` <span class="eff" data-e="${h.e}">${EFF_ICON[h.e]}${EFFECTS[h.e][0]}</span>` : ""}</li>`).join("")}</ul></details>`).join("")}` : ""}
+      <p class="muted" style="font-size:.78rem">Classement automatique : une étude est rattachée à une technologie quand son titre ou son résumé décrit ce type de matériel ou cite une marque correspondante. Les valeurs physiques sont des ordres de grandeur ; seule la notice de votre appareil et une mesure fait foi.</p>
+    </section>`;
+  }
+  const row = (k, l) => `<tr><th scope="row">${l}</th>${fams.map((x) => `<td>${esc(x[k])}${k === "nm" ? nmSwatches(x[k]) : ""}</td>`).join("")}</tr>`;
+  app().innerHTML = `<div class="view">
+    <div style="display:grid;gap:12px"><span class="eyebrow">Appareils · matrice technologique</span><h1>Recherche par appareil</h1>
+      <p class="lead" style="max-width:76ch">${esc(T.intro)}</p></div>
+    ${detail}
+    <div class="ess-bar">${tabs}</div>
+    <div class="tm-wrap" tabindex="0" aria-label="Matrice des technologies, défilable horizontalement"><table class="tm">
+      <thead><tr><th scope="col"><span class="eyebrow">Paramètre</span></th>${fams.map((x) => `<th scope="col" style="--tc:${x.couleur}"><a href="/appareils/techno-${x.id}" aria-current="${x.id === fid}">${devIcon(x.icon, 26)}<b>${esc(x.nom)}</b><small>${esc(x.resume)}</small></a></th>`).join("")}</tr></thead>
+      <tbody>${T.parametres.map(([k, l]) => row(k, l)).join("")}
+        <tr class="tm-ev"><th scope="row">Littérature indexée</th>${fams.map((x) => `<td><b class="mono">${x.n}</b> études · <b class="mono">${x.nc}</b> fiches${x.n_trials ? ` · <b class="mono">${x.n_trials}</b> essais` : ""}${techEff(x)}</td>`).join("")}</tr>
+        <tr><th scope="row"></th>${fams.map((x) => `<td><a class="btn small" href="/appareils/techno-${x.id}">Détails et études →</a></td>`).join("")}</tr></tbody></table></div>
+    <a class="panel doc-strip" href="/appareils/techno-dedie">${devIcon("casque", 22)}<span><b>${esc(T.dedies.nom)}</b> : ${esc(T.dedies.texte)}</span><span class="muted">${T.dedies.n} études →</span></a>
+    ${transpoCalc()}
+  </div>`;
+  if (f) $("#dev-detail")?.scrollIntoView({ block: "start" });
+  else calcTranspo();
+}
+function transpoCalc() {
+  const inp = (id, l, ph, unit) => `<label class="tc-f"><span>${l}</span><span class="tc-in"><input id="${id}" inputmode="decimal" placeholder="${ph}" autocomplete="off"><i>${unit}</i></span></label>`;
+  return `<section class="panel tc" id="transposer"><div class="panel-head"><div><span class="eyebrow">Outil</span><h2>Transposer un protocole publié à votre appareil</h2></div></div>
+    <p class="muted" style="margin:0;max-width:80ch">Saisissez la dose de l'étude et les caractéristiques de votre appareil : l'outil calcule la durée d'application et compare les irradiances. Pour un appareil pulsé, renseignez la puissance crête, la fréquence et la durée d'impulsion : la puissance moyenne est calculée.</p>
+    <div class="tc-grid">
+      <fieldset><legend>Protocole de l'étude</legend>
+        <div class="seg" role="radiogroup" aria-label="Unité de dose"><label><input type="radio" name="tc-u" value="J" checked> Énergie par point (J)</label><label><input type="radio" name="tc-u" value="F"> Fluence (J/cm²)</label></div>
+        ${inp("tc-dose", "Dose de l'étude", "ex. 4", "J ou J/cm²")}${inp("tc-irr0", "Irradiance de l'étude (facultatif)", "ex. 100", "mW/cm²")}</fieldset>
+      <fieldset><legend>Votre appareil</legend>
+        ${inp("tc-p", "Puissance moyenne de sortie", "ex. 100", "mW")}${inp("tc-s", "Surface du faisceau ou de la sonde", "ex. 0,5", "cm²")}
+        <details class="tc-pulse"><summary>Appareil pulsé : calculer la puissance moyenne</summary>
+          ${inp("tc-pk", "Puissance crête", "ex. 25", "W")}${inp("tc-hz", "Fréquence", "ex. 5000", "Hz")}${inp("tc-ns", "Durée d'impulsion", "ex. 100", "ns")}</details></fieldset>
+      <output class="tc-out" id="tc-out" aria-live="polite"></output>
+    </div></section>`;
+}
+function calcTranspo() {
+  const box = $("#tc-out"); if (!box) return;
+  const v = (id) => { const x = parseFloat(($("#" + id)?.value || "").replace(/\s/g, "").replace(",", ".")); return isFinite(x) && x > 0 ? x : null; };
+  const fr = (x, d = 1) => x.toLocaleString("fr-FR", { maximumFractionDigits: d });
+  const unit = document.querySelector('input[name="tc-u"]:checked')?.value || "J";
+  const pk = v("tc-pk"), hz = v("tc-hz"), ns = v("tc-ns");
+  const pulsed = pk && hz && ns ? pk * 1000 * hz * ns * 1e-9 : null;
+  if (pulsed) $("#tc-p").value = fr(pulsed, 2);
+  const P = v("tc-p"), S = v("tc-s"), dose = v("tc-dose"), irr0 = v("tc-irr0");
+  const out = [];
+  if (pulsed) out.push(`<div><dt>Puissance moyenne</dt><dd>${fr(pulsed, 2)} mW</dd><small>${fr(pk)} W × ${fr(hz, 0)} Hz × ${fr(ns, 0)} ns (rapport cyclique ${fr(hz * ns * 1e-7, 4)} %)</small></div>`);
+  const irr = P && S ? P / S : null;
+  if (irr) out.push(`<div><dt>Irradiance de votre appareil</dt><dd>${fr(irr)} mW/cm²</dd></div>`);
+  let t = null;
+  if (dose && P) {
+    if (unit === "J") t = dose / (P / 1000);
+    else if (S) t = dose * S / (P / 1000);
+  }
+  if (t) {
+    const mm = Math.floor(t / 60), ss = Math.round(t % 60);
+    out.push(`<div class="tc-main"><dt>Durée par point ou par zone</dt><dd>${mm ? `${mm} min ${String(ss).padStart(2, "0")} s` : `${fr(t)} s`}</dd><small>${unit === "J" ? `${fr(dose)} J ÷ ${fr(P, 2)} mW` : `${fr(dose)} J/cm² × ${fr(S, 2)} cm² ÷ ${fr(P, 2)} mW`}${S && unit === "J" ? ` · fluence ${fr(dose / S)} J/cm²` : ""}${S && unit === "F" ? ` · énergie ${fr(dose * S)} J` : ""}</small></div>`);
+  }
+  if (irr && irr0) {
+    const r = irr / irr0;
+    out.push(`<div class="tc-warn" data-ok="${r >= 1 / 3 && r <= 3}"><dt>Comparaison avec l'étude</dt><dd>× ${fr(r, 2)}</dd><small>${r >= 1 / 3 && r <= 3 ? "Irradiance du même ordre que celle de l'étude : transposition raisonnable à dose égale." : "Irradiance très différente de celle de l'étude : même à fluence égale, l'effet n'est pas garanti (réponse biphasique, loi de réciprocité non vérifiée en PBM). Ajustez la distance ou la surface, ou cherchez une étude plus proche de votre matériel."}</small></div>`);
+  }
+  box.innerHTML = out.length ? `<dl>${out.join("")}</dl>` : `<p class="muted">Renseignez au moins la dose de l'étude et la puissance de votre appareil.</p>`;
+}
 
 /* ---------------- recommandations officielles (AFSOS, WALT, MASCC) ---------------- */
 const RECO_ORG = { AFSOS: "afsos", WALT: "walt", MASCC: "mascc", "MASCC/ISOO": "mascc" };
@@ -1509,6 +1609,7 @@ let essT; document.addEventListener("input", (e) => {
   if (e.target.id === "al-email" && state.alert) { state.alert.email = e.target.value; return; }
   if (e.target.id === "medq") { clearTimeout(essT); essT = setTimeout(() => { state.medQ = e.target.value; const pos = e.target.selectionStart; viewSecurite(); const i = $("#medq"); if (i) { i.focus(); i.setSelectionRange(pos, pos); } }, 150); return; }
   if (/^c-[pant]$/.test(e.target.id)) { tracCalc(); return; }
+  if (e.target.id?.startsWith("tc-") || e.target.name === "tc-u") { if (e.target.id === "tc-p" && $("#tc-pk")) $("#tc-pk").value = ""; calcTranspo(); return; }
   if (e.target.id !== "essq" && e.target.id !== "devq") return; clearTimeout(essT); const id = e.target.id;
   essT = setTimeout(async () => { state[id === "essq" ? "essQ" : "devQ"] = e.target.value; const pos = e.target.selectionStart; await rerender(); const i = $("#" + id); if (i) { i.focus(); i.setSelectionRange(pos, pos); } }, 220);
 });
