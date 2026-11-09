@@ -1,0 +1,32 @@
+[
+ {
+  "pmid": "39204116",
+  "title_fr": "Dosimétrie et protocoles de PBM dans l'ostéonécrose des mâchoires médicamenteuse : revue systématique et consensus",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "ONM"
+  ],
+  "aim": "les deux",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 12,
+  "effect": "favorable",
+  "theme": "Ostéonécrose des mâchoires",
+  "l1": "Douze études : la PBM est utile en prévention et en traitement de l'ostéonécrose médicamenteuse, mais les protocoles sont hétérogènes ; les auteurs proposent des paramètres de consensus pour de futurs essais.",
+  "l2": "Revue systématique (PROSPERO) des études cliniques de PBM, seule ou associée au traitement standard, dans l'ostéonécrose des mâchoires liée aux bisphosphonates, antirésorbeurs ou antiangiogéniques : 12 études sur 126.\n\nRésultats globalement favorables mais conclusions inconstantes ; les auteurs formulent un consensus de dosimétrie et de protocole pour les futurs essais randomisés.",
+  "l3": {
+   "points": [
+    "Consensus de dosimétrie.",
+    "Préventif et curatif."
+   ],
+   "limites": [
+    "Études peu nombreuses et hétérogènes."
+   ],
+   "pratique": "Complément possible du traitement médical ou chirurgical, selon des protocoles standardisés."
+  }
+ }
+]

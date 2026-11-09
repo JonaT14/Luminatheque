@@ -1,0 +1,970 @@
+{
+ "sources": {
+  "afsos-pbm-2026": {
+   "org": "AFSOS",
+   "titre": "Photobiomodulation (PBM) en soins oncologiques de support",
+   "annee": 2026,
+   "date": "octobre 2026",
+   "type": "Référentiel national",
+   "url": "https://www.afsos.org/fiche-referentiel/photobiomodulation-pbm-en-soins-oncologiques-de-support/",
+   "pdf": "https://www.afsos.org/wp-content/uploads/2026/10/Referentiel-AFSOS-PBM.pdf",
+   "auteurs": "Coordination : A. Lemaire (Valenciennes), A. Eche Gass (Toulouse) ; groupe de travail pluridisciplinaire (dont R.-J. Bensadoun, A. Chilles)",
+   "resume": "Premier référentiel français (présenté comme le premier européen) sur la PBM en soins oncologiques de support : paramètres génériques sans marque d'appareil, 20 indications avec niveau de preuve, précautions, modèle financier et formation.",
+   "points": [
+    "Fluence cible : 3 J/cm² en prévention, 6 à 9 J/cm² en curatif ; irradiance 10 à 150 mW/cm² selon l'indication.",
+    "Rouge (630–690 nm) en intrabuccal, proche infrarouge (800–1 000 nm) en transcutané ; bleu pour ses propriétés antiseptiques.",
+    "Précautions : jamais de laser ni de lumière bleue sur les yeux (LED rouge ou infrarouge possible à travers les paupières), pas d'application directe sur une tumeur, pas de zone abdomino-pelvienne chez la femme enceinte.",
+    "PBM possible pendant les traitements du cancer ou à distance chez un patient guéri avec des séquelles.",
+    "Réservée aux professionnels de santé formés (accord d'experts) ; appareils marqués CE fortement recommandés.",
+    "Pas d'acte CCAM dédié : démarche en cours auprès du ministère et de la HAS.",
+    "Cabines corps entier : pas encore de publication en soins oncologiques de support."
+   ]
+  },
+  "afsos-neuro-2024": {
+   "org": "AFSOS",
+   "titre": "Douleurs neuropathiques iatrogènes du cancer (AFSOS–SFETD)",
+   "annee": 2024,
+   "date": "décembre 2024",
+   "type": "Référentiel national",
+   "url": "https://www.afsos.org/referentiels-recommandations/decouvrir-tous-les-referentiels/",
+   "auteurs": "Coordination : A. Boden (Toulouse), A. Lemaire (Lille), avec la SFETD",
+   "resume": "Référentiel sur les douleurs neuropathiques post-chirurgicales, post-radiques et chimio-induites ; la PBM y est traitée comme traitement émergent.",
+   "points": [
+    "Hormis la mucite et la radiodermite, la PBM n'apparaît dans les recommandations internationales que par la WALT ; elle n'a pas été étudiée dans la méta-analyse ASCO 2020.",
+    "Une méta-analyse du MD Anderson (2018) la place au même niveau de recommandation modéré que la duloxétine, seules approches recommandées dans la neuropathie chimio-induite.",
+    "La WALT la recommande en traitement curatif de la neuropathie chimio-induite (consensus 2022).",
+    "Les premiers essais français dans la neuropathie chimio-induite étaient en cours lors de la rédaction."
+   ]
+  },
+  "walt-2022": {
+   "org": "WALT",
+   "titre": "PBM et effets secondaires des traitements du cancer : prise de position WALT 2022",
+   "annee": 2022,
+   "type": "Consensus international",
+   "pmid": "36110957",
+   "url": "https://doi.org/10.3389/fonc.2022.927685",
+   "resume": "Premier consensus international de la WALT sur la PBM en soins de support : mucite, radiodermite, lymphœdème, neuropathie chimio-induite, xérostomie, trismus, dysgueusie, ostéonécrose, syndrome main-pied, GVH…"
+  },
+  "walt-doses": {
+   "org": "WALT",
+   "titre": "Doses recommandées en laser basse énergie (tendinopathies et arthrose)",
+   "annee": 2010,
+   "date": "2010, révision 904 nm octobre 2022",
+   "type": "Tableaux de doses",
+   "url": "https://waltpbm.org/documentation-links/recommendations/",
+   "resume": "Tableaux officiels de la WALT : nombre de points et joules par zone pour les lasers 780–860 nm (GaAlAs) et 904 nm (GaAs), révisés en 2022 pour le 904 nm (dose anti-inflammatoire).",
+   "points": [
+    "Traitement quotidien pendant 2 semaines ou un jour sur deux pendant 3 à 4 semaines.",
+    "L'irradiation doit couvrir l'essentiel du tissu tendineux ou synovial atteint.",
+    "Commencer à la dose du tableau puis la réduire de 30 % quand l'inflammation est contrôlée (pas pour le canal carpien).",
+    "Fenêtre thérapeutique : ± 50 % des valeurs ; en dehors, ce n'est plus de la PBM efficace.",
+    "780–860 nm : 5 à 500 mW, 20 à 300 s d'irradiation ; 904 nm : puissance crête > 1 W, moyenne > 5 mW, 30 à 600 s.",
+    "Doses établies pour des peaux claires."
+   ]
+  },
+  "mascc-mucite-2020": {
+   "org": "MASCC/ISOO",
+   "titre": "Recommandations MASCC/ISOO sur la prise en charge des mucites",
+   "annee": 2020,
+   "type": "Recommandations internationales",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32786044/",
+   "resume": "La PBM intrabuccale est recommandée pour prévenir la mucite en greffe de cellules souches, en radiothérapie ORL (avec ou sans chimiothérapie) et suggérée dans d'autres contextes."
+  },
+  "mascc-radiodermite-2023": {
+   "org": "MASCC",
+   "titre": "Recommandations MASCC sur la prévention et le traitement de la radiodermite aiguë",
+   "annee": 2023,
+   "type": "Recommandations internationales",
+   "pmid": "36990615",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36990615/",
+   "resume": "Consensus Delphi international : la PBM fait partie des mesures recommandées pour prévenir la radiodermite aiguë (cancer du sein)."
+  }
+ },
+ "items": [
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "mucite-orale",
+   "ctx": [
+    "ORL",
+    "chimio",
+    "CSH",
+    "mixte"
+   ],
+   "indication": "Mucite : prévention",
+   "niveau": "1",
+   "params": {
+    "Longueur d'onde": "630–690 nm en intrabuccal · 800–1 000 nm en transcutané",
+    "Irradiance": "10–50 mW/cm² (intrabuccal) · 30–150 mW/cm² (transcutané)",
+    "Fluence cible": "3 J/cm² (intrabuccal) · 6 J/cm² (transcutané)",
+    "Séances": "Une séance avant chaque traitement oncologique (radiothérapie, chimiothérapie, thérapie ciblée)",
+    "Zone": "Muqueuse buccale ; traiter aussi les glandes salivaires"
+   },
+   "note": "Préférer les dispositifs couvrant une grande surface de muqueuse (fibres optiques, larges sondes)."
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "mucite-orale",
+   "ctx": [
+    "ORL",
+    "chimio",
+    "CSH",
+    "mixte"
+   ],
+   "indication": "Mucite : traitement curatif",
+   "niveau": "1",
+   "params": {
+    "Longueur d'onde": "630–690 nm en intrabuccal · 800–1 000 nm en transcutané",
+    "Irradiance": "10–50 mW/cm² · 30–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm² (intrabuccal) · 9 J/cm² (transcutané)",
+    "Séances": "3 à 4 fois par semaine, 15 à 20 séances ou jusqu'à cicatrisation",
+    "Zone": "Muqueuse buccale et glandes salivaires"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "oncologie-support",
+   "ctx": [
+    "xérostomie"
+   ],
+   "indication": "Xérostomie et hyposalivation",
+   "niveau": "Accord d'experts",
+   "params": {
+    "Longueur d'onde": "630–1 000 nm",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "2 à 3 fois par semaine pendant au moins 3 à 4 semaines, puis entretien si besoin",
+    "Zone": "Loges parotidiennes et sous-mandibulaires (grande sonde au contact), glandes sublinguales en intrabuccal"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "oncologie-support",
+   "ctx": [
+    "autres"
+   ],
+   "indication": "Dysphagie aiguë",
+   "niveau": "5",
+   "params": {
+    "Longueur d'onde": "800–1 000 nm",
+    "Irradiance": "30–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "2 à 3 fois par semaine pendant au moins 3 à 4 semaines",
+    "Zone": "Hypopharynx et haut œsophage (face antérieure et faces latérales) ; bloc cervical antalgique si odynophagie"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "oncologie-support",
+   "ctx": [
+    "autres"
+   ],
+   "indication": "Dysphonie",
+   "niveau": "Accord d'experts",
+   "params": {
+    "Longueur d'onde": "800–1 000 nm",
+    "Irradiance": "30–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "2 à 3 fois par semaine pendant 2 à 4 semaines, puis entretien",
+    "Zone": "Larynx (face antérieure et faces latérales) ; ganglions cervicaux possibles (rouge + infrarouge, 3–6 J/cm²)"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "orl",
+   "ctx": [
+    "pharynx"
+   ],
+   "indication": "Dysphonie après traitement du cancer",
+   "niveau": "Accord d'experts",
+   "params": {
+    "Longueur d'onde": "800–1 000 nm",
+    "Irradiance": "30–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "2 à 3 fois par semaine pendant 2 à 4 semaines, puis entretien",
+    "Zone": "Larynx (face antérieure et faces latérales)"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "oncologie-support",
+   "ctx": [
+    "autres"
+   ],
+   "indication": "Dysgueusie",
+   "niveau": "5",
+   "params": {
+    "Longueur d'onde": "630–690 nm et/ou 800–1 000 nm, en intrabuccal",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "3 à 4 fois par semaine pendant 3 à 4 semaines"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "oncologie-support",
+   "ctx": [
+    "trismus"
+   ],
+   "indication": "Trismus",
+   "niveau": "5",
+   "params": {
+    "Longueur d'onde": "800–1 000 nm",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "3 à 4 fois par semaine pendant 4 à 6 semaines, pendant et après les traitements",
+    "Zone": "Articulations temporo-mandibulaires"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "odontologie",
+   "ctx": [
+    "ONM"
+   ],
+   "indication": "Ostéonécrose de la mâchoire",
+   "niveau": "4",
+   "params": {
+    "Longueur d'onde": "800–1 000 nm, intrabuccal et transcutané",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "3 à 4 fois par semaine pendant 4 à 6 semaines",
+    "Zone": "Muqueuses maxillaire et/ou mandibulaire, en complément du traitement médical ou chirurgical"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "oncologie-support",
+   "ctx": [
+    "lymphœdème"
+   ],
+   "indication": "Lymphœdème",
+   "niveau": "3",
+   "params": {
+    "Longueur d'onde": "400–1 000 nm",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "2 à 3 fois par semaine pendant au moins 3 à 4 semaines, puis entretien",
+    "Zone": "Selon la localisation ; intérêt aussi dans les lymphocèles après cancer du sein"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "oncologie-support",
+   "ctx": [
+    "main-pied"
+   ],
+   "indication": "Syndrome main-pied (érythrodysesthésie palmo-plantaire)",
+   "niveau": "5",
+   "params": {
+    "Longueur d'onde": "630–690 nm et/ou 800–1 000 nm",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "2 à 3 fois par semaine pendant 2 à 4 semaines",
+    "Zone": "Paumes et plantes, faces dorsales pour l'effet antalgique"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "oncologie-support",
+   "ctx": [
+    "autres"
+   ],
+   "indication": "Réaction du greffon contre l'hôte (GVH)",
+   "niveau": "4",
+   "params": {
+    "Longueur d'onde": "Buccale : 630–690 nm intrabuccal ou 800–1 000 nm · cutanée : 400–1 000 nm",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "Buccale 3–9 J/cm² · vaginale et cutanée 6–9 J/cm²",
+    "Séances": "2 à 3 fois par semaine pendant au moins 3 à 4 semaines",
+    "Zone": "Bouche, vagin, vulve, peau (cabine corps entier si atteinte étendue)"
+   },
+   "note": "Xérophtalmie : LED rouge et infrarouge à travers les paupières, 3–6 J/cm², jugée pertinente sans recommandation formelle."
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "neuropathie-peripherique",
+   "ctx": [
+    "CIPN"
+   ],
+   "indication": "Neuropathie chimio-induite",
+   "niveau": "4",
+   "params": {
+    "Longueur d'onde": "400–1 000 nm",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6 J/cm²",
+    "Séances": "Aiguë : 3 à 4 fois par semaine pendant 4 à 6 semaines · chronique séquellaire : 2 fois par semaine pendant 4 à 8 semaines",
+    "Zone": "Mains et pieds ; action sur la douleur et les troubles sensitifs, moteurs et proprioceptifs"
+   }
+  },
+  {
+   "source": "afsos-neuro-2024",
+   "theme": "neuropathie-peripherique",
+   "ctx": [
+    "CIPN"
+   ],
+   "indication": "Neuropathie chimio-induite : place dans la stratégie",
+   "niveau": "Modéré (MD Anderson 2018)",
+   "params": {
+    "Longueur d'onde": "—",
+    "Irradiance": "—",
+    "Fluence cible": "—",
+    "Séances": "PBM et duloxétine : seules approches recommandées (niveau modéré) dans la méta-analyse du MD Anderson ; recommandée en curatif par la WALT"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "dermatologie",
+   "ctx": [
+    "radiodermite"
+   ],
+   "indication": "Radiodermite aiguë : prévention",
+   "niveau": "1",
+   "params": {
+    "Longueur d'onde": "400–1 000 nm",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "3 J/cm²",
+    "Séances": "30 à 120 minutes avant les séances, 3 à 4 fois par semaine pendant toute la radiothérapie",
+    "Zone": "Champ d'irradiation"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "dermatologie",
+   "ctx": [
+    "radiodermite"
+   ],
+   "indication": "Radiodermite aiguë : traitement",
+   "niveau": "1",
+   "params": {
+    "Longueur d'onde": "400–1 000 nm",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "3 à 4 fois par semaine jusqu'à cicatrisation"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "oncologie-support",
+   "ctx": [
+    "autres"
+   ],
+   "indication": "Radiodermite aiguë (prévention et traitement)",
+   "niveau": "1",
+   "params": {
+    "Longueur d'onde": "400–1 000 nm",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "3 J/cm² en prévention · 6–9 J/cm² en curatif",
+    "Séances": "3 à 4 fois par semaine pendant la radiothérapie, puis jusqu'à cicatrisation"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "dermatologie",
+   "ctx": [
+    "cicatrices"
+   ],
+   "indication": "Fibrose radique",
+   "niveau": "Accord d'experts",
+   "params": {
+    "Longueur d'onde": "400–1 000 nm",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "3 à 4 fois par semaine pendant 6 à 8 semaines"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "oncologie-support",
+   "ctx": [
+    "trismus",
+    "autres"
+   ],
+   "indication": "Fibrose radique",
+   "niveau": "Accord d'experts",
+   "params": {
+    "Longueur d'onde": "400–1 000 nm",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "3 à 4 fois par semaine pendant 6 à 8 semaines"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "dermatologie",
+   "ctx": [
+    "alopécie"
+   ],
+   "indication": "Alopécie chimio-induite",
+   "niveau": "Accord d'experts",
+   "params": {
+    "Longueur d'onde": "630–690 nm (le rouge 630–680 nm est le plus efficace)",
+    "Irradiance": "10–50 mW/cm²",
+    "Fluence cible": "6 J/cm²",
+    "Séances": "3 à 4 fois par semaine pendant 6 à 8 semaines",
+    "Zone": "Cuir chevelu, idéalement avec un casque dédié"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "gynecologie",
+   "ctx": [
+    "onco"
+   ],
+   "indication": "Sécheresse vaginale, vulvodynie et vaginodynie sur fibrose après cancer",
+   "niveau": "Accord d'experts",
+   "params": {
+    "Longueur d'onde": "630–690 nm et/ou 800–1 000 nm, vulvaire et intravaginal",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "3 à 4 fois par semaine pendant 6 à 8 semaines",
+    "Zone": "Vagin et/ou vulve"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "gynecologie",
+   "ctx": [
+    "onco",
+    "pelvien"
+   ],
+   "indication": "Cystite radique séquellaire",
+   "niveau": "Accord d'experts",
+   "params": {
+    "Longueur d'onde": "400–1 000 nm",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "3 à 4 fois par semaine pendant 6 à 8 semaines",
+    "Zone": "Région sus-pubienne, avec traitement endovaginal"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "oncologie-support",
+   "ctx": [
+    "autres"
+   ],
+   "indication": "Cystite radique et anite après traitement du cancer",
+   "niveau": "Accord d'experts",
+   "params": {
+    "Longueur d'onde": "400–1 000 nm (cystite) · 630–690 et/ou 800–1 000 nm (anite)",
+    "Irradiance": "10–150 mW/cm²",
+    "Fluence cible": "6–9 J/cm²",
+    "Séances": "3 à 4 fois par semaine pendant 6 à 8 semaines",
+    "Zone": "Sus-pubienne et endovaginale ; marge anale et rectum"
+   }
+  },
+  {
+   "source": "afsos-pbm-2026",
+   "theme": "ophtalmologie",
+   "ctx": [
+    "sécheresse"
+   ],
+   "indication": "Sécheresse oculaire de la GVH",
+   "niveau": "Non gradé (jugée pertinente)",
+   "params": {
+    "Longueur d'onde": "LED rouge + proche infrarouge, pulsée, à travers les paupières",
+    "Irradiance": "—",
+    "Fluence cible": "3–6 J/cm²",
+    "Séances": "—",
+    "Zone": "Paupières fermées ; jamais de laser ni de lumière bleue sur l'œil"
+   }
+  },
+  {
+   "source": "mascc-mucite-2020",
+   "theme": "mucite-orale",
+   "ctx": [
+    "ORL",
+    "CSH",
+    "chimio",
+    "mixte"
+   ],
+   "indication": "Mucite : PBM recommandée en prévention",
+   "niveau": "Recommandation",
+   "params": {
+    "Longueur d'onde": "—",
+    "Irradiance": "—",
+    "Fluence cible": "—",
+    "Séances": "Greffe de cellules souches, radiothérapie ORL avec ou sans chimiothérapie"
+   }
+  },
+  {
+   "source": "mascc-radiodermite-2023",
+   "theme": "dermatologie",
+   "ctx": [
+    "radiodermite"
+   ],
+   "indication": "Radiodermite aiguë : PBM recommandée en prévention",
+   "niveau": "Recommandation",
+   "params": {
+    "Longueur d'onde": "—",
+    "Irradiance": "—",
+    "Fluence cible": "—",
+    "Séances": "Cancer du sein en particulier"
+   }
+  }
+ ],
+ "walt_doses": [
+  {
+   "zone": "Canal carpien",
+   "theme": "neuropathie-peripherique",
+   "ctx": "compression",
+   "g780": [
+    "2-3",
+    "8",
+    "min 4 J/point"
+   ],
+   "g904": [
+    "2-3",
+    "4",
+    "min 2 J/point"
+   ],
+   "g904r": [
+    "2-3",
+    "2",
+    "min 1 J/point"
+   ],
+   "kw": "carpien|canal carpien"
+  },
+  {
+   "zone": "Épicondylite latérale",
+   "theme": "musculo-squelettique",
+   "ctx": "tendon",
+   "g780": [
+    "1-2",
+    "4",
+    "max 100 mW/cm²"
+   ],
+   "g904": [
+    "2-3",
+    "2",
+    "max 100 mW/cm²"
+   ],
+   "g904r": [
+    "1-2",
+    "1",
+    "max 100 mW/cm²"
+   ],
+   "kw": "épicondyl|coude|tennis"
+  },
+  {
+   "zone": "Long biceps",
+   "theme": "musculo-squelettique",
+   "ctx": "épaule",
+   "g780": [
+    "1-2",
+    "6",
+    ""
+   ],
+   "g904": [
+    "2-3",
+    "2",
+    ""
+   ],
+   "g904r": [
+    "1-2",
+    "2",
+    ""
+   ],
+   "kw": "biceps|épaule|coiffe"
+  },
+  {
+   "zone": "Supra-épineux",
+   "theme": "musculo-squelettique",
+   "ctx": "épaule",
+   "g780": [
+    "2-3",
+    "8",
+    "min 4 J/point"
+   ],
+   "g904": [
+    "2-3",
+    "4",
+    "min 2 J/point"
+   ],
+   "g904r": [
+    "2-3",
+    "2",
+    "min 2 J/point"
+   ],
+   "kw": "supra|coiffe|épaule|sous-acromial|conflit"
+  },
+  {
+   "zone": "Infra-épineux",
+   "theme": "musculo-squelettique",
+   "ctx": "épaule",
+   "g780": [
+    "2-3",
+    "8",
+    "min 4 J/point"
+   ],
+   "g904": [
+    "2-3",
+    "4",
+    "min 2 J/point"
+   ],
+   "g904r": [
+    "2-3",
+    "2",
+    "min 2 J/point"
+   ],
+   "kw": "infra|coiffe|épaule"
+  },
+  {
+   "zone": "Grand trochanter",
+   "theme": "musculo-squelettique",
+   "ctx": "tendon",
+   "g780": [
+    "2-4",
+    "8",
+    ""
+   ],
+   "g904": [
+    "2-3",
+    "2",
+    ""
+   ],
+   "g904r": [
+    "2-3",
+    "2",
+    ""
+   ],
+   "kw": "trochant|hanche|fessier"
+  },
+  {
+   "zone": "Tendon rotulien",
+   "theme": "musculo-squelettique",
+   "ctx": "tendon",
+   "g780": [
+    "2-3",
+    "8",
+    ""
+   ],
+   "g904": [
+    "2-3",
+    "2",
+    ""
+   ],
+   "g904r": [
+    "2-3",
+    "2",
+    ""
+   ],
+   "kw": "rotul|patell|genou"
+  },
+  {
+   "zone": "Bandelette ilio-tibiale",
+   "theme": "musculo-squelettique",
+   "ctx": "tendon",
+   "g780": [
+    "1-2",
+    "4",
+    "max 100 mW/cm²"
+   ],
+   "g904": [
+    "2-3",
+    "2",
+    "max 100 mW/cm²"
+   ],
+   "g904r": [
+    "2-3",
+    "1",
+    "max 100 mW/cm²"
+   ],
+   "kw": "ilio|bandelette"
+  },
+  {
+   "zone": "Tendon d'Achille",
+   "theme": "musculo-squelettique",
+   "ctx": "tendon",
+   "g780": [
+    "2-3",
+    "8",
+    "max 100 mW/cm²"
+   ],
+   "g904": [
+    "2-3",
+    "2",
+    "max 100 mW/cm²"
+   ],
+   "g904r": [
+    "2-3",
+    "2",
+    "max 100 mW/cm²"
+   ],
+   "kw": "achill"
+  },
+  {
+   "zone": "Aponévrosite plantaire",
+   "theme": "musculo-squelettique",
+   "ctx": "tendon",
+   "g780": [
+    "2-3",
+    "8",
+    "min 4 J/point"
+   ],
+   "g904": [
+    "2-3",
+    "4",
+    "min 2 J/point"
+   ],
+   "g904r": [
+    "2-3",
+    "4",
+    "min 2 J/point"
+   ],
+   "kw": "plantaire|aponévros|talalg"
+  },
+  {
+   "zone": "Doigts (IPP, MCP)",
+   "theme": "musculo-squelettique",
+   "ctx": "arthrose",
+   "g780": [
+    "1-2",
+    "4",
+    ""
+   ],
+   "g904": [
+    "1-2",
+    "1",
+    ""
+   ],
+   "g904r": [
+    "1-2",
+    "2",
+    ""
+   ],
+   "kw": "doigt|main|polyarthrite|rhumato"
+  },
+  {
+   "zone": "Poignet",
+   "theme": "musculo-squelettique",
+   "ctx": "arthrose",
+   "g780": [
+    "2-4",
+    "8",
+    ""
+   ],
+   "g904": [
+    "2-3",
+    "2",
+    ""
+   ],
+   "g904r": [
+    "2-3",
+    "3",
+    ""
+   ],
+   "kw": "poignet|polyarthrite|rhumato"
+  },
+  {
+   "zone": "Articulation huméro-radiale",
+   "theme": "musculo-squelettique",
+   "ctx": "arthrose",
+   "g780": [
+    "1-2",
+    "4",
+    ""
+   ],
+   "g904": [
+    "2-3",
+    "2",
+    ""
+   ],
+   "g904r": [
+    "1-2",
+    "2",
+    ""
+   ],
+   "kw": "coude"
+  },
+  {
+   "zone": "Coude",
+   "theme": "musculo-squelettique",
+   "ctx": "arthrose",
+   "g780": [
+    "2-4",
+    "8",
+    ""
+   ],
+   "g904": [
+    "2-3",
+    "2",
+    ""
+   ],
+   "g904r": [
+    "2-3",
+    "3",
+    ""
+   ],
+   "kw": "coude"
+  },
+  {
+   "zone": "Gléno-humérale",
+   "theme": "musculo-squelettique",
+   "ctx": "épaule",
+   "g780": [
+    "2-4",
+    "8",
+    "min 4 J/point"
+   ],
+   "g904": [
+    "2-3",
+    "2",
+    "min 1 J/point"
+   ],
+   "g904r": [
+    "3",
+    "3",
+    "min 2 J/point"
+   ],
+   "kw": "capsulite|épaule|gléno"
+  },
+  {
+   "zone": "Acromio-claviculaire",
+   "theme": "musculo-squelettique",
+   "ctx": "épaule",
+   "g780": [
+    "1-2",
+    "4",
+    ""
+   ],
+   "g904": [
+    "2-3",
+    "2",
+    ""
+   ],
+   "g904r": [
+    "1-2",
+    "2",
+    ""
+   ],
+   "kw": "acromio|épaule"
+  },
+  {
+   "zone": "Temporo-mandibulaire",
+   "theme": "musculo-squelettique",
+   "ctx": "ATM",
+   "g780": [
+    "1-2",
+    "4",
+    ""
+   ],
+   "g904": [
+    "2-3",
+    "2",
+    ""
+   ],
+   "g904r": [
+    "1-2",
+    "2",
+    ""
+   ],
+   "kw": "temporo|atm|mâchoire"
+  },
+  {
+   "zone": "Rachis cervical",
+   "theme": "musculo-squelettique",
+   "ctx": "rachis",
+   "g780": [
+    "4-12",
+    "16",
+    "min 4 J/point"
+   ],
+   "g904": [
+    "4",
+    "4",
+    "min 1 J/point"
+   ],
+   "g904r": [
+    "6",
+    "6",
+    "min 2 J/point"
+   ],
+   "kw": "cervic|nuque|cou"
+  },
+  {
+   "zone": "Rachis lombaire",
+   "theme": "musculo-squelettique",
+   "ctx": "rachis",
+   "g780": [
+    "4-8",
+    "16",
+    "min 4 J/point"
+   ],
+   "g904": [
+    "4",
+    "4",
+    "min 1 J/point"
+   ],
+   "g904r": [
+    "4",
+    "4",
+    "min 2 J/point"
+   ],
+   "kw": "lomb|dos|rachis"
+  },
+  {
+   "zone": "Hanche",
+   "theme": "musculo-squelettique",
+   "ctx": "arthrose",
+   "g780": [
+    "2-4",
+    "12",
+    "min 6 J/point"
+   ],
+   "g904": [
+    "2",
+    "4",
+    "min 2 J/point"
+   ],
+   "g904r": [
+    "2-3",
+    "10",
+    "min 2 J/point"
+   ],
+   "kw": "hanche|coxarthr"
+  },
+  {
+   "zone": "Genou (médial)",
+   "theme": "musculo-squelettique",
+   "ctx": "arthrose",
+   "g780": [
+    "3-6",
+    "12",
+    "min 4 J/point"
+   ],
+   "g904": [
+    "4-6",
+    "4",
+    "min 1 J/point"
+   ],
+   "g904r": [
+    "2-4",
+    "6",
+    "min 2 J/point"
+   ],
+   "kw": "genou|gonarthr"
+  },
+  {
+   "zone": "Cheville",
+   "theme": "musculo-squelettique",
+   "ctx": "arthrose",
+   "g780": [
+    "2-4",
+    "8",
+    ""
+   ],
+   "g904": [
+    "2-4",
+    "2",
+    ""
+   ],
+   "g904r": [
+    "2-4",
+    "6",
+    ""
+   ],
+   "kw": "cheville"
+  }
+ ]
+}

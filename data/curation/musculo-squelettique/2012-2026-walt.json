@@ -1,0 +1,180 @@
+[
+ {
+  "pmid": "22233559",
+  "title_fr": "Laser basse énergie et recommandations de dose de la WALT",
+  "type": "guideline",
+  "level": 5,
+  "pop": "adulte",
+  "ctx": [
+   "tendon",
+   "arthrose",
+   "rachis",
+   "épaule",
+   "ATM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   780,
+   820,
+   860,
+   904
+  ],
+  "n": null,
+  "effect": "—",
+  "theme": "Doses WALT",
+  "l1": "La WALT rappelle ses doses minimales par point et par pathologie (tendinopathies, arthrose, rachis) : en dessous, le laser n'est pas de la PBM efficace.",
+  "l2": "Mise au point de la World Association for Laser Therapy sur ses recommandations de dose, publiées en 2010 pour les lasers 780–860 nm et 904 nm : nombre de points, joules par point et dose totale pour chaque tendon et chaque articulation, rythme de 2 semaines quotidiennes ou 3 à 4 semaines un jour sur deux.\n\nLes essais négatifs utilisent souvent des doses hors de la fenêtre thérapeutique (± 50 % des valeurs du tableau).",
+  "l3": {
+   "points": [
+    "Tableaux par pathologie et par type de laser.",
+    "Fenêtre thérapeutique de ± 50 %.",
+    "Réduire la dose de 30 % une fois l'inflammation contrôlée."
+   ],
+   "limites": [
+    "Doses établies pour des peaux claires.",
+    "Extrapolées en partie de l'échographie des tissus."
+   ],
+   "pratique": "Vérifier que le protocole respecte les doses WALT avant d'interpréter un essai ou de traiter."
+  },
+  "key": true
+ },
+ {
+  "pmid": "30188251",
+  "title_fr": "Laser basse énergie et doses recommandées par la WALT dans les troubles et blessures musculo-squelettiques",
+  "type": "guideline",
+  "level": 5,
+  "pop": "adulte",
+  "ctx": [
+   "tendon",
+   "arthrose",
+   "rachis",
+   "épaule",
+   "ATM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   780,
+   820,
+   860,
+   904
+  ],
+  "n": null,
+  "effect": "—",
+  "theme": "Doses WALT",
+  "l1": "Mise à jour (2018) : les essais qui respectent les doses WALT montrent un effet antalgique, ceux qui ne les respectent pas sont souvent négatifs.",
+  "l2": "Article de position sur les recommandations de dose WALT dans les troubles musculo-squelettiques : doses par point et par zone, rythme des séances, et lien entre respect des doses et résultats des essais et des méta-analyses.",
+  "l3": {
+   "points": [
+    "Lien dose–efficacité dans les méta-analyses.",
+    "Rappel de la fenêtre thérapeutique."
+   ],
+   "limites": [
+    "Pas de résumé détaillé.",
+    "Texte d'experts."
+   ],
+   "pratique": "S'appuyer sur les tableaux WALT pour régler l'appareil."
+  },
+  "key": true
+ },
+ {
+  "pmid": "23351679",
+  "title_fr": "Doses WALT non respectées dans un essai sur le tendon d'Achille",
+  "type": "letter",
+  "level": 0,
+  "pop": "adulte",
+  "ctx": [
+   "tendon"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Doses WALT",
+  "l1": "Lettre : l'essai négatif sur la tendinopathie d'Achille utilisait une dose inférieure aux recommandations WALT, ce qui peut expliquer son échec.",
+  "l2": "Lettre à l'éditeur critiquant un essai sur le tendon d'Achille : la dose délivrée était en dessous du minimum recommandé par la WALT (Achille : 2 à 3 points, 8 J au total en 780–860 nm, 100 mW/cm² au maximum).\n\nLes auteurs rappellent que les conclusions négatives d'un essai sous-dosé ne s'appliquent pas à la PBM bien conduite.",
+  "l3": {
+   "points": [
+    "Exemple concret de sous-dosage."
+   ],
+   "limites": [
+    "Lettre, pas d'essai."
+   ],
+   "pratique": "Un essai négatif doit être relu à l'aune de sa dose."
+  }
+ },
+ {
+  "pmid": "33435928",
+  "title_fr": "Recommandations de traitement négligées dans un essai sur la gonarthrose",
+  "type": "letter",
+  "level": 0,
+  "pop": "adulte",
+  "ctx": [
+   "arthrose"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Doses WALT",
+  "l1": "Lettre : l'essai concluant à l'inefficacité du laser dans la gonarthrose a utilisé une dose trop faible selon la WALT, sans mesurer la puissance réelle de l'appareil.",
+  "l2": "Lettre à propos d'un essai brésilien associant exercice et laser dans la gonarthrose. Les auteurs calculent une dose par point inférieure aux recommandations WALT et rappellent leur méta-analyse de 22 essais contre placebo : l'effet antalgique n'apparaît qu'avec des doses conformes.\n\nIls soulignent aussi que beaucoup d'appareils délivrent moins que la puissance affichée.",
+  "l3": {
+   "points": [
+    "Méta-analyse de 22 essais citée.",
+    "Importance de la calibration."
+   ],
+   "limites": [
+    "Lettre."
+   ],
+   "pratique": "Mesurer la puissance réelle de son appareil et respecter les doses WALT."
+  }
+ },
+ {
+  "pmid": "42900010",
+  "title_fr": "Photobiomodulation et douleur des troubles temporo-mandibulaires : revue systématique",
+  "type": "sr",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "ATM"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [
+   635,
+   940
+  ],
+  "n": 9,
+  "effect": "mitigé",
+  "theme": "ATM",
+  "l1": "Neuf publications : la PBM fait mieux que le sham dans trois cohortes myogènes sur cinq ; certitude faible, et aucun essai ne rapporte tous les paramètres exigés par la WALT.",
+  "l2": "Revue systématique (PRISMA 2020) des essais contrôlés de 2016 à 2026 dans les troubles temporo-mandibulaires diagnostiqués selon les critères RDC/DC-TMD : neuf publications, huit cohortes.\n\nProtocoles très hétérogènes (635–940 nm, 5 à 300 J/cm²), sans méta-analyse possible. La douleur baisse souvent aussi sous placebo ; trois cohortes myogènes sur cinq favorisent la PBM. Certitude faible (myogène) à très faible (arthrogène).",
+  "l3": {
+   "points": [
+    "Stratification myalgie / arthralgie.",
+    "Évaluation GRADE.",
+    "Contrôle des paramètres WALT."
+   ],
+   "limites": [
+    "Hétérogénéité, pas de méta-analyse.",
+    "Peu d'essais récents."
+   ],
+   "pratique": "Option possible dans la douleur myogène, avec un protocole complet et documenté."
+  }
+ }
+]

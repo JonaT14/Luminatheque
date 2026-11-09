@@ -508,7 +508,7 @@ def main() -> None:
     topics.sort(key=lambda x: (order.get(x.get("status"), 0), x["label"]))
     payload = {"generated": dt.date.today().isoformat(), "topics": topics, "syntheses": syntheses, "n_chunks": N_CHUNKS,
                "trials_file": f"assets/topics/_essais.{h}.js" if trials else None, "devices_file": devices_file, "news": recent_news(sv, all_articles, trials),
-               "drafts_file": drafts_file, "n_drafts": len(drafts), "repo": REPO,
+               "drafts_file": drafts_file, "reco": json.loads((ROOT / "data/recommandations.json").read_text()) if (ROOT / "data/recommandations.json").exists() else None, "n_drafts": len(drafts), "repo": REPO,
                "alerts_api": ALERTS_API,
                "patients": json.loads((ROOT / "data/fiches_patients.json").read_text()) if (ROOT / "data/fiches_patients.json").exists() else []}
     out = ROOT / "assets/data.js"

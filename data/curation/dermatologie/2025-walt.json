@@ -1,0 +1,32 @@
+[
+ {
+  "pmid": "40403870",
+  "title_fr": "Photobiomodulation, cellules souches et médecine régénérative : prise de position WALT 2025",
+  "type": "guideline",
+  "level": 5,
+  "pop": "mixte",
+  "ctx": [
+   "cicatrices"
+  ],
+  "aim": "—",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "—",
+  "theme": "Prise de position WALT",
+  "l1": "La WALT propose des paramètres de PBM associée aux cellules souches (prolifération, différenciation, cicatrisation), surtout tirés d'études in vitro et animales ; les essais cliniques manquent.",
+  "l2": "Prise de position d'experts de la WALT sur l'association PBM et cellules souches : revue des effets moléculaires, cellulaires et tissulaires, et recommandations de paramètres par domaine.\n\nEffets favorables sur la prolifération, la différenciation, l'angiogenèse et la cicatrisation, mais essentiellement précliniques.",
+  "l3": {
+   "points": [
+    "Recommandations de paramètres par domaine."
+   ],
+   "limites": [
+    "Peu de données cliniques."
+   ],
+   "pratique": "Cadre pour la recherche plutôt que pour la pratique courante."
+  }
+ }
+]

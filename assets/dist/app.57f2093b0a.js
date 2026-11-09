@@ -54,7 +54,7 @@ const state = {
   level: store.get("level", 1),
   q: "",
   limit: 60,
-  f: { fiche: new Set(), years: new Set(), groups: new Set(), levels: new Set(), pops: new Set(), ctx: new Set(), effects: new Set(), themes: new Set(), pdf: false, key: false, from: "", to: "" },
+  f: { fiche: new Set(), years: new Set(), groups: new Set(), levels: new Set(), pops: new Set(), ctx: new Set(), effects: new Set(), themes: new Set(), pdf: false, key: false, reco: false, from: "", to: "" },
   sort: "date",
   cardLevel: new Map(),
   selected: new Set(store.get("selected", [])),
@@ -155,6 +155,7 @@ function filtered(list = all()) {
     if (f.themes.size && !f.themes.has(a.theme)) return false;
     if (f.pdf && !a.pdf) return false;
     if (f.key && !a.key) return false;
+    if (f.reco && !(a.type === "guideline" || /position paper|consensus|guideline|recommendation|WALT/i.test(a.title || ""))) return false;
     if (f.fiche.size && !f.fiche.has(a.curated === false ? "indexée" : "rédigée")) return false;
     if (f.from && a.date < f.from) return false;
     if (f.to && a.date > f.to) return false;
@@ -456,6 +457,7 @@ function viewHome() {
 
   ${t.subgroups ? `<section class="panel"><div class="panel-head"><h2>Sous-groupes</h2><p>Cliquez pour voir les publications du sous-groupe</p></div><div class="grid-3">${t.subgroups.map((g) => { const xs = list.filter((a) => (a.ctx || []).includes(g));
       return `<button type="button" class="card" data-sub="${g}" style="text-align:left;cursor:pointer;font:inherit;color:inherit"><span class="eyebrow">${xs.length} publications · ${xs.filter((a) => a.type === "rct").length} ECR · ${xs.filter((a) => groupOf(a) === "syn").length} synthèses</span><h3>${esc(CTX[g])}</h3><span class="muted" style="font-size:.85rem">${esc(SUB_DESC[g] || "")}</span><span class="badges">${Object.keys(EFFECTS).map((k) => { const n = xs.filter((a) => a.effect === k).length; return n ? `<span class="eff" data-e="${k}">${EFF_ICON[k]}${n}</span>` : ""; }).join("")}</span></button>`; }).join("")}</div></section>` : ""}
+  ${recoPanel(t.id, false)}
   <section class="grid-2">
     <div class="panel"><div class="panel-head"><h2>Dernières parutions</h2><a class="btn small" href="#publications">Tout voir</a></div><div style="display:grid;gap:10px">${latest.map((a) => card(a, { noSel: true })).join("")}</div></div>
     <div class="panel"><div class="panel-head"><h2>À retenir</h2><p>Les essais et synthèses les plus solides</p></div><div style="display:grid;gap:10px">${keys.map((a) => card(a, { noSel: true })).join("")}</div></div>
@@ -508,7 +510,7 @@ function viewPubs() {
       ${filterGroup(topic().subgroups ? "Sous-groupe" : "Contexte", "ctx", [...countBy(base, (a) => a.ctx || []).entries()].sort((a, b) => b[1] - a[1]), (v) => CTX[v] || v)}
       ${filterGroup("Population", "pops", [...countBy(base.filter((a) => a.pop !== "—"), (a) => a.pop).entries()])}
       ${filterGroup("Thème", "themes", [...countBy(base, (a) => a.theme).entries()].sort((a, b) => b[1] - a[1]))}
-      <div class="fgroup"><label class="check"><input type="checkbox" id="f-pdf" ${state.f.pdf ? "checked" : ""}> PDF disponible sur le site</label><label class="check"><input type="checkbox" id="f-key" ${state.f.key ? "checked" : ""}> Seulement « À retenir »</label></div>
+      <div class="fgroup"><label class="check"><input type="checkbox" id="f-pdf" ${state.f.pdf ? "checked" : ""}> PDF disponible sur le site</label><label class="check"><input type="checkbox" id="f-key" ${state.f.key ? "checked" : ""}> Seulement « À retenir »</label><label class="check"><input type="checkbox" id="f-reco" ${state.f.reco ? "checked" : ""}> Recommandations et prises de position (WALT, MASCC, consensus)</label></div>
     </aside>
     <section style="min-width:0">
       <div class="results-head"><span class="count"><b>${list.length}</b> publication${list.length > 1 ? "s" : ""}${state.q ? ` pour « ${esc(state.q)} »` : ""}</span>
@@ -796,6 +798,43 @@ async function viewDevices(sel) {
 }
 
 
+/* ---------------- recommandations officielles (AFSOS, WALT, MASCC) ---------------- */
+const RECO_ORG = { AFSOS: "afsos", WALT: "walt", MASCC: "mascc", "MASCC/ISOO": "mascc" };
+const recoOrg = (o) => `<span class="org" data-o="${RECO_ORG[o] || "x"}">${esc(o)}</span>`;
+const recoNiv = (n) => `<span class="rniv" data-n="${/^1$/.test(n) || /^Recommandation/.test(n) ? "a" : /^[23]$|Modéré/.test(n) ? "b" : /^[45]$/.test(n) ? "c" : "d"}">${/^\d$/.test(n) ? "Niveau de preuve " + n : esc(n)}</span>`;
+const recoItems = (theme, ctx) => (D.reco?.items || []).filter((i) => i.theme === theme && (!ctx || i.ctx.includes(ctx)));
+const waltRows = (theme, ctx) => (D.reco?.walt_doses || []).filter((r) => r.theme === theme && (!ctx || r.ctx === ctx));
+function recoItem(i, compact) {
+  const src = D.reco.sources[i.source];
+  const ps = Object.entries(i.params).filter(([, v]) => v && v !== "—");
+  return `<div class="reco-it"><div class="reco-h">${recoOrg(src.org)}<b>${esc(i.indication)}</b>${recoNiv(i.niveau)}</div>
+    ${ps.length ? `<dl class="reco-p">${ps.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}${k === "Longueur d'onde" ? nmSwatches(v) : ""}</dd></div>`).join("")}</dl>` : ""}
+    ${i.note ? `<p class="muted" style="font-size:.8rem;margin:4px 0 0">${esc(i.note)}</p>` : ""}
+    ${compact ? "" : `<p class="reco-src"><a href="${esc(src.pdf || src.url)}" target="_blank" rel="noopener">${esc(src.org)} ${src.annee} · ${esc(src.titre)} ↗</a></p>`}</div>`;
+}
+function waltTable(rows) {
+  if (!rows.length) return "";
+  const cell = (g) => `<td><b>${esc(g[1])} J</b> <span class="muted">· ${esc(g[0])} pts</span>${g[2] ? `<small>${esc(g[2])}</small>` : ""}</td>`;
+  return `<div class="walt-t"><table><thead><tr><th>Zone</th><th>780–860 nm<small>WALT 2010</small></th><th>904 nm<small>WALT 2010</small></th><th>904 nm<small>révision 2022</small></th></tr></thead>
+    <tbody>${rows.map((r) => `<tr><th>${esc(r.zone)}</th>${cell(r.g780)}${cell(r.g904)}${cell(r.g904r)}</tr>`).join("")}</tbody></table>
+    <p class="muted" style="font-size:.76rem;margin-top:6px">Dose totale en joules sur la zone et nombre de points (ou cm²). Quotidien 2 semaines ou un jour sur deux 3 à 4 semaines ; réduire de 30 % quand l'inflammation est contrôlée ; fenêtre ± 50 %. <a href="${esc(D.reco.sources["walt-doses"].url)}" target="_blank" rel="noopener">Tableaux WALT ↗</a></p></div>`;
+}
+function recoSources(ids) {
+  return `<div class="reco-srcs">${ids.map((id) => { const s = D.reco.sources[id]; return `<details class="reco-card"><summary>${recoOrg(s.org)}<span><b>${esc(s.titre)}</b><small>${esc(s.type)} · ${esc(s.date || String(s.annee))}</small></span></summary>
+    <p>${esc(s.resume)}</p>${s.auteurs ? `<p class="muted" style="font-size:.8rem">${esc(s.auteurs)}</p>` : ""}${s.points ? `<ul>${s.points.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+    <p class="reco-src">${s.pmid ? `<a href="#article-${s.pmid}">Fiche sur le site</a> · ` : ""}<a href="${esc(s.url)}" target="_blank" rel="noopener">Page officielle ↗</a>${s.pdf ? ` · <a href="${esc(s.pdf)}" target="_blank" rel="noopener">Document PDF ↗</a>` : ""}</p></details>`; }).join("")}</div>`;
+}
+function recoPanel(theme, full) {
+  const items = recoItems(theme); const rows = waltRows(theme);
+  if (!items.length && !rows.length) return "";
+  const ids = [...new Set([...items.map((i) => i.source), ...(rows.length ? ["walt-doses"] : [])])];
+  return `<section class="panel reco-panel" id="reco"><div class="panel-head"><div><span class="eyebrow">Sociétés savantes</span><h2>Ce que disent les recommandations</h2></div><p>${ids.map((id) => recoOrg(D.reco.sources[id].org)).filter((v, i, a) => a.indexOf(v) === i).join(" ")}</p></div>
+    ${full ? recoSources(ids) : ""}
+    ${items.length ? `<div class="reco-list">${items.map((i) => recoItem(i, !full)).join("")}</div>` : ""}
+    ${rows.length ? `<h3 style="margin:16px 0 8px">Doses recommandées par la WALT (laser)</h3>${waltTable(rows)}` : ""}
+    ${full ? "" : `<p style="margin-top:12px"><a class="btn small" href="#parametres">Paramètres détaillés et documents sources →</a></p>`}</section>`;
+}
+
 /* ---------------- fiches paramètres ---------------- */
 const NIVEAU = { "recommandée": ["Recommandée", "ok"], prometteuse: ["Prometteuse", "pro"], incertaine: ["Incertaine", "unc"], "non démontrée": ["Non démontrée", "no"] };
 const PAR_ICON = {
@@ -822,10 +861,11 @@ function paramCard(p, topicId) {
   const [nl, nc] = NIVEAU[p.niveau] || [p.niveau, "unc"];
   const list = (window.LUMINA_T?.[topicId] ? all() : []).filter((a) => a.curated !== false && (a.ctx || []).includes(p.ctx));
   return `<article class="pcard">
-    <header><div style="display:grid;gap:6px"><span class="eyebrow">${esc(topicShort(topicId))} · ${esc(CTX[p.ctx] || p.ctx)}</span><h3>${esc(p.indication)}</h3></div><span class="pniv" data-n="${nc}">${nl}</span></header>
+    <header><div style="display:grid;gap:6px"><span class="eyebrow">${esc(topicShort(topicId))} · ${esc(CTX[p.ctx] || p.ctx)}</span><h3>${esc(p.indication)}</h3></div><span style="display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end">${[...new Set([...recoItems(topicId, p.ctx).map((i) => D.reco.sources[i.source].org), ...(waltRows(topicId, p.ctx).length ? ["WALT"] : [])])].map(recoOrg).join("")}<span class="pniv" data-n="${nc}">${nl}</span></span></header>
     <p class="presume">${esc(p.resume)}</p>
     <div class="pgrid">${Object.entries(p.params).filter(([, v]) => v && v !== "—").map(([k, v]) => `<div class="ptile"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">${PAR_ICON[k] || ""}</svg><div><b>${esc(k)}</b><span>${esc(v)}${k === "Longueur d'onde" ? nmSwatches(v) : ""}</span></div></div>`).join("")}</div>
     ${p.conseils.length || p.prudence.length ? `<div class="pnotes">${p.conseils.map((c) => `<p class="ok">${esc(c)}</p>`).join("")}${p.prudence.map((c) => `<p class="warn">${esc(c)}</p>`).join("")}</div>` : ""}
+    ${(() => { const its = recoItems(topicId, p.ctx); const rows0 = waltRows(topicId, p.ctx); const rk = rows0.filter((r) => new RegExp(r.kw, "i").test(p.indication + " " + (p.params?.Zone || ""))); const rows = rk.length ? rk : rows0; return its.length || rows.length ? `<div class="preco"><span class="eyebrow">Recommandations des sociétés savantes</span>${its.map((i) => recoItem(i, false)).join("")}${rows.length ? waltTable(rows) : ""}</div>` : ""; })()}
     ${topicId === state.topic && list.length >= 3 ? `<div class="pstrip"><span class="eyebrow">Longueurs d'onde des ${list.length} fiches de ce sous-groupe</span>${nmStrip(list)}</div>` : ""}
     <footer><span class="eyebrow">Sources</span>${p.sources.map((id) => { const a = byId(id); return `<a class="psrc" href="#article-${id}" title="${esc(a?.title_fr || "")}">${a ? esc((TYPES[a.type]?.[0] || "") + " " + a.year) : "PMID " + id}</a>`; }).join("")}</footer>
   </article>`;
@@ -840,6 +880,7 @@ function viewParams() {
       <p class="lead" style="max-width:74ch">Pour chaque indication, les réglages associés aux meilleurs résultats dans les recommandations et les méta-analyses : longueur d'onde, puissance, dose, zone, rythme des séances et type d'appareil. Chaque valeur renvoie à ses sources.</p></div>
     <div class="ess-bar"><div class="syn-tabs">${[["topic", "Ce thème"], ["all", "Tous les thèmes"]].map(([k, l]) => `<button class="chip" data-parscope="${k}" aria-pressed="${scope === k}">${l}</button>`).join("")}</div>
       <div class="plegend">${Object.values(NIVEAU).map(([l, c]) => `<span class="pniv" data-n="${c}">${l}</span>`).join("")}</div></div>
+    ${scope === "all" ? "" : recoPanel(t.id, true)}
     ${groups.map(([id, xs]) => `${scope === "all" ? `<h2 class="pgroup">${esc(D.topics.find((x) => x.id === id).label)}</h2>` : ""}<div class="pcards">${xs.map((p) => paramCard(p, id)).join("")}</div>`).join("") || ""}
     ${!n ? `<div class="empty">Pas encore de fiche paramètres pour ce thème.</div>` : ""}
     <div class="callout">Ces repères résument la littérature ; ils ne remplacent ni la formation à l'appareil utilisé, ni les consignes du fabricant, ni le jugement clinique. Les doses s'entendent par point d'application sauf mention contraire.</div>
@@ -1312,7 +1353,7 @@ document.addEventListener("change", (e) => {
   else if (t.id === "al-consent" && state.alert) state.alert.consent = t.checked;
   else if (t.id === "f-from" || t.id === "f-to") { state.f[t.id === "f-from" ? "from" : "to"] = t.value; rerender(); }
   else if (t.id === "f-week" && t.value) { const [a, b] = weekRange(t.value, t.value); state.f.from = a; state.f.to = b; state.sort = "date"; rerender(); }
-  else if (t.id === "f-pdf" || t.id === "f-key") { state.f[t.id.slice(2)] = t.checked; rerender(); }
+  else if (t.id === "f-pdf" || t.id === "f-key" || t.id === "f-reco") { state.f[t.id.slice(2)] = t.checked; rerender(); }
   else if (t.id === "sort") { state.sort = t.value; rerender(); }
   else if (t.id === "topic") setTopic(t.value);
   else if (t.dataset.wk) { const [id, side] = t.dataset.wk.split("-"); const P = state.cmp[id]; const other = $(`[data-wk="${id}-${side === "from" ? "to" : "from"}"]`).value;
