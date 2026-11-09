@@ -85,7 +85,8 @@ def main():
         syn = (D.get("syntheses", {}).get(t["id"]) or {}).get("global") or {}
         intro = f"<p>{E(t.get('description'))}</p>"
         stats = f"<p>{t.get('n', 0)} publications indexées depuis 2000, dont {t.get('n_curated', 0)} fiches rédigées en trois niveaux de lecture.</p>"
-        pg.write(f"/{t['id']}", f"Photobiomodulation et {t['label'].lower()} · Luminathèque",
+        low = t["label"] if t["label"].isupper() else t["label"].lower()
+        pg.write(f"/{t['id']}", f"Photobiomodulation et {low} · Luminathèque",
                  short(f"Veille scientifique sur la photobiomodulation en {t['label'].lower()} : {t.get('n', 0)} publications, {t.get('n_curated', 0)} fiches rédigées, synthèses, essais en cours et paramètres."),
                  f"<h1>Photobiomodulation · {E(t['label'])}</h1>{intro}{stats}" + (f"<h2>{E(syn.get('headline'))}</h2><p>{E(syn.get('l1'))}</p>" if syn else ""))
         for v, lab in VIEWS.items():
@@ -128,6 +129,12 @@ def main():
                  f"<h1>{E(f['titre'])}</h1><p>{E(f.get('sous_titre'))}</p><ul>{msgs}</ul>")
     for v, lab in (("alertes", "Alertes par mail"), ("brouillons", "Brouillons"), ("parametres", "Paramètres"), ("publications", "Publications"), ("syntheses", "Synthèses"), ("essais", "Études en cours")):
         pg.write(f"/{v}", f"{lab} · Luminathèque", "Luminathèque, veille scientifique sur la photobiomodulation.", f"<h1>{E(lab)}</h1>")
+    sec = D.get("securite") or {}
+    pg.write("/securite", "Sécurité, contre-indications et médicolégal · Luminathèque",
+             "Contre-indications de la photobiomodulation, protection oculaire EN 207, médicaments photosensibilisants (risque réel en rouge et infrarouge), cadre médicolégal, consentement et traçabilité.",
+             "<h1>Sécurité, contre-indications et médicolégal</h1>" + "".join(f"<h2>{E(c['titre'])}</h2><p>{E(c['regle'])}</p>" for c in sec.get("contre_indications", [])))
+    pg.write("/securite/consentement", "Consentement éclairé à la photobiomodulation · Luminathèque", "Modèle de consentement éclairé à la photobiomodulation, avec questionnaire de sécurité, à imprimer ou télécharger.", "<h1>Consentement éclairé à la photobiomodulation</h1>")
+    pg.write("/securite/tracabilite", "Fiche de traçabilité des séances de photobiomodulation · Luminathèque", "Modèle de fiche de traçabilité des paramètres délivrés (longueur d'onde, puissance, énergie, fluence), avec calcul automatique.", "<h1>Fiche de traçabilité</h1>")
     pg.write("/methode", "Méthode · Luminathèque", "Sources, sélection des études, niveaux de preuve et rédaction des fiches de Luminathèque.", "<h1>Méthode</h1>")
     pg.write("/comparer", "Comparateur · Luminathèque", "Comparer deux périodes ou une sélection d'études sur la photobiomodulation.", "<h1>Comparateur</h1>")
     (out / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

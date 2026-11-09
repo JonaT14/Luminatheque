@@ -377,7 +377,7 @@ function chartEffects(list) {
 
 /* ---------------- vues ---------------- */
 const app = () => $("#app");
-const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", essais: "Études en cours", appareils: "Appareils", parametres: "Paramètres", patients: "Fiches patients", alertes: "Alertes par mail", brouillons: "Brouillons", methode: "Méthode" };
+const NAV_LABEL = { accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", essais: "Études en cours", appareils: "Appareils", parametres: "Paramètres", patients: "Fiches patients", alertes: "Alertes par mail", brouillons: "Brouillons", securite: "Sécurité et médicolégal", methode: "Méthode" };
 function setNav(id) {
   $$("[data-nav]").forEach((a) => a.setAttribute("aria-current", a.dataset.nav === id ? "page" : "false"));
   const c = $("#crumb"); if (c) c.innerHTML = `${esc(topic().label)} <span aria-hidden="true">/</span> <b>${NAV_LABEL[id] || ""}</b>`;
@@ -417,6 +417,7 @@ function legacyHash() {
   if (seg[0] === "article" && seg[1]) return "article-" + seg[1];
   if (seg[0] === "appareils") return seg[1] ? "appareil-" + seg[1] : "appareils";
   if (seg[0] === "patients") return seg[1] ? "patient-" + seg[1] : "patients";
+  if (seg[0] === "securite") return seg[1] ? "securite-" + seg[1] : "securite";
   if (seg[0] === "alertes") return "alertes" + (location.search ? "?" + location.search.slice(1) : "");
   return seg[0];
 }
@@ -427,6 +428,7 @@ function pathFor(h, topicId = state.topic) {
   if ((m = h.match(/^article-(.+)/))) return `/article/${m[1]}`;
   if ((m = h.match(/^appareil-(.+)/))) return `/appareils/${m[1]}`;
   if ((m = h.match(/^patient-(.+)/))) return `/patients/${m[1]}`;
+  if ((m = h.match(/^securite-(.+)/))) return `/securite/${m[1]}`;
   if ((m = h.match(/^alertes\?(.*)/))) return `/alertes?${m[1]}`;
   return `/${h}`;
 }
@@ -931,6 +933,7 @@ function viewPatientsList() {
   app().innerHTML = `<div class="view">
     <div style="display:grid;gap:12px"><span class="eyebrow">Fiches patients · à imprimer ou à partager</span><h1>Expliquer la photobiomodulation à vos patients</h1>
       <p class="lead" style="max-width:72ch">Des fiches illustrées, en langage simple : ce que c'est, comment se passe une séance, ce que disent les études et les précautions. Chaque fiche s'imprime sur une page recto verso.</p></div>
+    <a class="panel doc-strip" href="/securite#docs"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M10 13l2 2 4-4"/></svg><span><b>Pour le dossier médical</b> : modèles de consentement éclairé et de fiche de traçabilité des paramètres délivrés, à imprimer ou à télécharger.</span><span class="muted">Ouvrir →</span></a>
     <div class="pt-grid">${xs.map((f) => `<a class="pt-card" href="/patients/${f.id}" style="--pc:${f.couleur}">
       <div class="pt-card-img">${PT.hero(f.illus, f.couleur)}</div>
       <div class="pt-card-body"><span class="eyebrow">${esc(f.sous_titre)}</span><h3>${esc(f.titre)}</h3><span class="pniv" data-n="${(NIVEAU[f.niveau] || [])[1] || "unc"}">${esc((NIVEAU[f.niveau] || [f.niveau])[0])}</span></div></a>`).join("")}</div>
@@ -1296,6 +1299,97 @@ async function brClick(t) {
   rerender(); return true;
 }
 
+/* ---------------- sécurité, contre-indications, médicolégal, documents ---------------- */
+const RISK = { "négligeable": "n", faible: "f", "modéré": "m", "réel": "r" };
+const STATUT = { absolue: "abs", relative: "rel", "précaution": "pre", "selon la technologie": "sel", "selon le produit": "sel" };
+const srcLinks = (xs) => (xs || []).map((s) => s.pmid ? `<a href="/article/${s.pmid}" title="Fiche sur le site">${esc(s.label)}</a> <a href="${esc(s.url)}" target="_blank" rel="noopener" aria-label="PubMed">↗</a>` : s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>` : esc(s.label)).join(" · ");
+const SHIELD = '<path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/>';
+function viewSecurite() {
+  setNav("securite"); const S = D.securite; if (!S) { app().innerHTML = `<div class="empty">Rubrique indisponible.</div>`; return; }
+  const q = (state.medQ || "").trim().toLowerCase(); const norm = (x) => x.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const meds = [...S.medicaments, ...S.conditions].filter((m) => !q || norm(`${m.nom} ${m.ex} ${m.type}`).includes(norm(q)));
+  const band = (k, l, nm) => `<th><span class="band band-${k}"></span>${l}<small>${nm}</small></th>`;
+  app().innerHTML = `<div class="view secu">
+    <div style="display:grid;gap:12px"><span class="eyebrow">Sécurité · tous les thèmes</span><h1>Sécurité, contre-indications et médicolégal</h1>
+      <p class="lead" style="max-width:76ch">Les règles à connaître avant la première séance : situations à éviter, protection oculaire, médicaments photosensibilisants, cadre médicolégal, et les documents à remettre ou à garder au dossier. Chaque point renvoie à ses sources.</p></div>
+    <nav class="secu-nav" aria-label="Sommaire"><a href="#ci">Contre-indications</a><a href="#med">Médicaments photosensibilisants</a><a href="#legal">Cadre médicolégal</a><a href="#docs">Consentement et traçabilité</a></nav>
+
+    <section class="panel" id="ci"><div class="panel-head"><h2>Contre-indications et précautions</h2><p class="plegend"><span class="stat" data-s="abs">Absolue</span><span class="stat" data-s="rel">Relative</span><span class="stat" data-s="pre">Précaution</span><span class="stat" data-s="sel">Au cas par cas</span></p></div>
+      <div class="ci-grid">${S.contre_indications.map((c) => `<article class="ci" data-s="${STATUT[c.statut] || "sel"}"><header><h3>${esc(c.titre)}</h3><span class="stat" data-s="${STATUT[c.statut] || "sel"}">${esc(c.statut)}</span></header>
+        <p class="ci-rule">${esc(c.regle)}</p>${c.detail?.length ? `<ul>${c.detail.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}<p class="ci-src">${srcLinks(c.sources)}</p></article>`).join("")}</div></section>
+
+    <section class="panel" id="med"><div class="panel-head"><div><h2>Vérifier un médicament photosensibilisant</h2><p>Risque estimé selon le spectre d'action, pour la lumière bleue, rouge et proche infrarouge</p></div></div>
+      <div class="callout" style="margin-bottom:14px">La plupart des médicaments photosensibilisants réagissent aux <b>ultraviolets</b> (moins de 400 nm), pas au rouge ni au proche infrarouge utilisés en photobiomodulation : la mention « photosensibilisant » de la notice ne contre-indique donc pas, à elle seule, une séance en rouge ou en infrarouge. Les vraies exceptions sont les produits de photothérapie dynamique et quelques colorants qui absorbent le rouge.</div>
+      <input class="ess-q" id="medq" type="search" placeholder="Rechercher un médicament, une classe (ex. doxycycline, millepertuis, kétoprofène)…" value="${esc(state.medQ || "")}" aria-label="Rechercher un médicament" style="width:100%;max-width:560px;margin-bottom:12px">
+      <div class="med-t"><table><thead><tr><th>Médicament ou situation</th><th>Spectre d'action</th>${band("b", "Bleu", "400–500 nm")}${band("r", "Rouge", "600–700 nm")}${band("i", "Proche infrarouge", "700–1 100 nm")}<th>Conduite</th></tr></thead>
+      <tbody>${meds.map((m) => `<tr><th><b>${esc(m.nom)}</b><small>${esc(m.ex)}</small><small>${esc(m.type)}</small></th><td>${esc(m.spectre)}</td>${["bleu", "rouge", "ir"].map((k) => `<td><span class="risk" data-r="${RISK[m.risque[k]]}">${esc(m.risque[k])}</span></td>`).join("")}<td>${esc(m.conseil)}<p class="ci-src">${srcLinks(m.sources)}</p></td></tr>`).join("") || `<tr><td colspan="6" class="muted">Aucun résultat : ce médicament n'est pas dans la liste. En cas de doute, vérifier son spectre d'absorption (souvent UV) dans le RCP.</td></tr>`}</tbody></table></div>
+      <p class="muted" style="font-size:.78rem;margin-top:8px">Niveaux : <span class="risk" data-r="n">négligeable</span> pas de réaction photochimique connue à ces longueurs d'onde · <span class="risk" data-r="f">faible</span> en limite de spectre · <span class="risk" data-r="m">modéré</span> absorption partielle, prudence · <span class="risk" data-r="r">réel</span> le produit est activé par cette lumière : ne pas traiter. Mis à jour ${esc(S.maj)}.</p></section>
+
+    <section class="panel" id="legal"><div class="panel-head"><h2>Cadre médicolégal</h2><p>France · état au moment de la mise à jour</p></div>
+      <div class="ci-grid">${S.medicolegal.map((m) => `<article class="ci legal"><h3>${esc(m.titre)}</h3><p>${esc(m.texte)}</p><p class="ci-src">${srcLinks(m.sources)}</p></article>`).join("")}</div></section>
+
+    <section class="panel" id="docs"><div class="panel-head"><h2>Consentement et traçabilité</h2><p>Modèles à imprimer, à remplir à l'écran ou à télécharger au format Word</p></div>
+      <div class="doc-cards">
+        <a class="doc-card" href="/securite/consentement"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M10 13l2 2 4-4M10 18h6"/></svg><span><b>Consentement éclairé</b><small>Information du patient, questionnaire de sécurité, signatures</small></span></a>
+        <a class="doc-card" href="/securite/tracabilite"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg><span><b>Fiche de traçabilité</b><small>Paramètres délivrés à chaque séance, avec calcul automatique de l'énergie et de la fluence</small></span></a>
+      </div></section>
+    <div class="callout">Ces repères ne remplacent ni la formation, ni les notices des fabricants, ni le jugement clinique. En cas de doute sur un médicament ou une situation, s'abstenir et demander un avis.</div>
+  </div>`;
+}
+const DOCS = {
+  consentement: { titre: "Consentement éclairé à la photobiomodulation" },
+  tracabilite: { titre: "Fiche de traçabilité des séances de photobiomodulation" },
+};
+function tracCalc() {
+  const v = (id) => parseFloat(($("#" + id)?.value || "").replace(",", "."));
+  const P = v("c-p"), A = v("c-a"), t = v("c-t"), n = v("c-n") || 1;
+  const fmt = (x, d = 2) => isFinite(x) ? x.toLocaleString("fr-FR", { maximumFractionDigits: d }) : "—";
+  const irr = P / A, E = P * t / 1000, F = E / A, tot = E * n;
+  const out = $("#c-out"); if (out) out.innerHTML = `<span><b>${fmt(irr, 1)}</b> mW/cm²<small>irradiance</small></span><span><b>${fmt(E)}</b> J<small>énergie par point</small></span><span><b>${fmt(F)}</b> J/cm²<small>fluence</small></span><span><b>${fmt(tot, 1)}</b> J<small>énergie totale</small></span>`;
+}
+function docHtml(id) {
+  const line = (l) => `<div class="dl"><span>${l}</span><i></i></div>`;
+  const box = (l) => `<label class="dbox"><input type="checkbox"> ${l}</label>`;
+  if (id === "consentement") return `<h1>Consentement éclairé à la photobiomodulation</h1>
+    <div class="dgrid">${line("Nom, prénom du patient")}${line("Date de naissance")}${line("Professionnel de santé")}${line("Établissement / cabinet")}</div>
+    <h2>Information</h2>
+    <p>La photobiomodulation (PBM) utilise une lumière rouge, proche infrarouge ou bleue, émise par un laser de basse énergie ou des diodes (LED), pour stimuler la réparation des tissus et diminuer l'inflammation et la douleur. Elle ne chauffe pas, ne brûle pas et n'utilise ni rayons X ni ultraviolets.</p>
+    ${line("Indication proposée")}${line("Nombre de séances envisagé et rythme")}${line("Zone(s) traitée(s)")}
+    <p><b>Bénéfices attendus :</b> ceux décrits dans les études pour cette indication, sans garantie de résultat. <b>Alternatives :</b> les autres traitements de votre situation vous ont été présentés.</p>
+    <p><b>Effets possibles :</b> sensation de chaleur légère, rougeur passagère, rarement une fatigue ou un mal de tête après la séance. Le principal risque est oculaire : des lunettes de protection adaptées vous seront fournies et doivent être portées pendant toute la séance.</p>
+    <h2>Questionnaire de sécurité</h2>
+    <div class="dchecks">${box("Je suis enceinte ou je peux l'être")}${box("J'ai une épilepsie déclenchée par la lumière")}${box("J'ai un stimulateur cardiaque, un défibrillateur ou un neurostimulateur")}${box("J'ai un cancer en cours de traitement ou une lésion non diagnostiquée dans la zone à traiter")}${box("J'ai reçu une photothérapie dynamique ou un produit photosensibilisant récemment")}${box("Je prends du millepertuis ou un médicament photosensibilisant")}${box("J'ai une maladie de la thyroïde, des yeux, ou une maladie aggravée par la lumière (lupus, porphyrie)")}${box("J'ai un tatouage ou une zone insensible dans la zone à traiter")}</div>
+    ${line("Précisions, traitements en cours")}
+    <h2>Consentement</h2>
+    <p>J'ai reçu une information claire et adaptée, j'ai pu poser mes questions, et je consens librement à la photobiomodulation. Je peux retirer mon consentement à tout moment, sans conséquence sur ma prise en charge.</p>
+    <div class="dgrid">${line("Fait à")}${line("Le")}${line("Signature du patient (ou de son représentant)")}${line("Signature du professionnel")}</div>
+    <p class="dfoot">Modèle Luminathèque, d'après le référentiel AFSOS PBM 2026 et les articles L1111-2 et L1111-4 du Code de la santé publique ; à adapter à votre pratique.</p>`;
+  return `<h1>Fiche de traçabilité · photobiomodulation</h1>
+    <div class="dgrid">${line("Nom, prénom du patient")}${line("Date de naissance / n° de dossier")}${line("Indication")}${line("Prescripteur")}</div>
+    <h2>Appareil</h2>
+    <div class="dgrid">${line("Marque, modèle, n° de série")}${line("Classe laser (IEC 60825-1) ou LED · marquage CE")}${line("Longueur(s) d'onde (nm)")}${line("Mode : continu / pulsé (fréquence Hz)")}</div>
+    <h2 class="no-print">Calcul des paramètres</h2>
+    <div class="calc no-print"><label>Puissance moyenne (mW)<input id="c-p" inputmode="decimal" value="100"></label><label>Surface du faisceau (cm²)<input id="c-a" inputmode="decimal" value="1"></label><label>Temps par point (s)<input id="c-t" inputmode="decimal" value="60"></label><label>Nombre de points<input id="c-n" inputmode="decimal" value="4"></label><div class="calc-out" id="c-out"></div></div>
+    <h2>Séances</h2>
+    <table class="dtable"><thead><tr><th>N°</th><th>Date</th><th>Zone(s), points</th><th>nm</th><th>mW</th><th>cm²</th><th>s / point</th><th>J / point</th><th>J/cm²</th><th>J total</th><th>Lunettes EN 207 (patient, opérateur)</th><th>Tolérance, effets</th><th>Opérateur</th></tr></thead>
+      <tbody>${Array.from({ length: 10 }, (_, i) => `<tr><td>${i + 1}</td>${"<td></td>".repeat(12)}</tr>`).join("")}</tbody></table>
+    <div class="dgrid">${line("Vérifications avant la 1re séance : contre-indications, médicaments photosensibilisants")}${line("Évaluation finale (échelle, photo, mesure)")}</div>
+    <p class="dfoot">Formules : irradiance (mW/cm²) = puissance / surface ; énergie (J) = puissance (W) × temps (s) ; fluence (J/cm²) = énergie / surface. Modèle Luminathèque, d'après le référentiel AFSOS PBM 2026 et les recommandations de la WALT.</p>`;
+}
+function viewDoc(id) {
+  setNav("securite"); const d = DOCS[id]; if (!d) return viewSecurite();
+  document.title = `${d.titre} · Luminathèque`;
+  app().innerHTML = `<div class="view doc-sheet">
+    <div class="pt-actions no-print"><a class="btn small" href="/securite#docs">← Sécurité</a><button class="btn small" data-print>Imprimer ou enregistrer en PDF</button><button class="btn small" data-docword="${id}">Télécharger (Word)</button></div>
+    <article class="doc" id="doc">${docHtml(id)}</article></div>`;
+  if (id === "tracabilite") tracCalc();
+}
+function docWord(id) {
+  const html = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word"><head><meta charset="utf-8"><title>${DOCS[id].titre}</title>
+    <style>body{font-family:Calibri,Arial,sans-serif;font-size:11pt}h1{font-size:16pt}h2{font-size:13pt;margin-top:14pt}.dl span{display:block;margin-top:8pt}.dl i{display:block;border-bottom:1px solid #999;height:14pt}table{border-collapse:collapse;width:100%}td,th{border:1px solid #999;padding:3pt;font-size:8pt;height:16pt}.no-print{display:none}.dbox{display:block}</style></head><body>${docHtml(id)}</body></html>`;
+  const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob(["﻿", html], { type: "application/msword" })); a.download = `luminatheque-${id}.doc`; a.click();
+}
+
 /* ---------------- routage & événements ---------------- */
 async function route() {
   const tp = topicFromPath(); if (tp && tp !== state.topic) { applyTopic(tp); renderTopics(); }
@@ -1316,6 +1410,8 @@ async function route() {
   if (h.startsWith("patient-")) return viewPatient(h.slice(8));
   if (h === "patients") return viewPatientsList();
   if (h === "brouillons") return viewBrouillons();
+  if (h === "securite") return viewSecurite();
+  if (h.startsWith("securite-")) return viewDoc(h.slice(9));
   if (h === "alertes" || h.startsWith("alertes?")) return viewAlertes(new URLSearchParams(h.split("?")[1] || ""));
   if (isSoon() && h !== "methode") return viewSoon(NAV_LABEL[h] ? h : "accueil");
   await ({ publications: viewPubs, syntheses: viewSyntheses, essais: viewEssais, parametres: viewParams, comparer: viewCompare, methode: viewMethode }[h] || viewHome)();
@@ -1331,6 +1427,7 @@ addEventListener("popstate", () => { route(); updateSelbar(); setMenu(false); })
 document.addEventListener("click", async (e) => {
   const t = e.target.closest("button, [data-sel]"); if (!t) return;
   const d = t.dataset;
+  if (d.docword) { docWord(d.docword); return; }
   if (Object.keys(d).some((k) => k.startsWith("al"))) { e.preventDefault(); await alClick(t); return; }
   if (Object.keys(d).some((k) => k.startsWith("br"))) { e.preventDefault(); await brClick(t); return; }
   if (d.topic) { setTopic(d.topic); return; }
@@ -1402,6 +1499,8 @@ document.addEventListener("change", (e) => {
 let qTimer;
 let essT; document.addEventListener("input", (e) => {
   if (e.target.id === "al-email" && state.alert) { state.alert.email = e.target.value; return; }
+  if (e.target.id === "medq") { clearTimeout(essT); essT = setTimeout(() => { state.medQ = e.target.value; const pos = e.target.selectionStart; viewSecurite(); const i = $("#medq"); if (i) { i.focus(); i.setSelectionRange(pos, pos); } }, 150); return; }
+  if (/^c-[pant]$/.test(e.target.id)) { tracCalc(); return; }
   if (e.target.id !== "essq" && e.target.id !== "devq") return; clearTimeout(essT); const id = e.target.id;
   essT = setTimeout(async () => { state[id === "essq" ? "essQ" : "devQ"] = e.target.value; const pos = e.target.selectionStart; await rerender(); const i = $("#" + id); if (i) { i.focus(); i.setSelectionRange(pos, pos); } }, 220);
 });
@@ -1438,7 +1537,7 @@ document.addEventListener("click", (e) => {
   const href = a.getAttribute("href");
   if (href.startsWith("#")) { e.preventDefault(); document.getElementById(href.slice(1))?.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
   if (!href.startsWith("/") || href.startsWith("//") || /^\/(assets|pdfs|flux|data|scripts)\/|^\/alertes\/|\.[a-z0-9]{2,5}(\?|$)/i.test(href)) return;
-  e.preventDefault(); go(href);
+  e.preventDefault(); const [pth, frag] = href.split("#"); go(pth); if (frag) setTimeout(() => document.getElementById(frag)?.scrollIntoView({ block: "start" }), 60);
 });
 renderTopics(); route(); updateSelbar();
 })();

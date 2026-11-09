@@ -1,0 +1,836 @@
+{
+ "contre_indications": [
+  {
+   "id": "yeux",
+   "titre": "Yeux et rétine",
+   "statut": "absolue",
+   "regle": "Jamais de faisceau laser ni de lumière bleue dirigé vers l'œil, même paupières fermées. Lunettes de protection adaptées à la longueur d'onde pour le patient, l'opérateur et toute personne présente.",
+   "detail": [
+    "Laser : lunettes conformes à la norme EN 207, avec une densité optique suffisante à la longueur d'onde de l'appareil (marquage sur la monture) ; indispensables dès la classe 3B (IEC 60825-1).",
+    "LED rouge ou proche infrarouge : application à travers les paupières possible (sécheresse oculaire, GVH), selon l'AFSOS.",
+    "Les appareils de lumière rouge pour la myopie de l'enfant n'ont pas tous le même niveau d'exposition rétinienne : une évaluation de 4 appareils a montré des dépassements des seuils de sécurité."
+   ],
+   "sources": [
+    {
+     "label": "AFSOS, référentiel PBM 2026",
+     "url": "https://www.afsos.org/wp-content/uploads/2026/10/Referentiel-AFSOS-PBM.pdf"
+    },
+    {
+     "label": "Ostrin 2026, sécurité de 4 appareils de lumière rouge (myopie)",
+     "pmid": "41642586",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41642586/"
+    }
+   ]
+  },
+  {
+   "id": "tumeur",
+   "titre": "Tumeur maligne active",
+   "statut": "absolue",
+   "regle": "Pas d'application directe sur une tumeur active ou une lésion suspecte non diagnostiquée, en dehors des indications de soins de support validées (mucite, radiodermite…).",
+   "detail": [
+    "En soins de support, la PBM est possible pendant les traitements du cancer ou chez un patient guéri avec des séquelles (AFSOS).",
+    "Le suivi à long terme d'un essai randomisé de phase III (mucite, cancers ORL) ne montre pas de baisse de survie chez les patients traités par laser.",
+    "Les revues dosimétriques des études animales ne retrouvent pas de stimulation tumorale aux doses de PBM utilisées en clinique ; la prudence reste de règle sur la tumeur elle-même."
+   ],
+   "sources": [
+    {
+     "label": "AFSOS, référentiel PBM 2026",
+     "url": "https://www.afsos.org/wp-content/uploads/2026/10/Referentiel-AFSOS-PBM.pdf"
+    },
+    {
+     "label": "Antunes 2017, survie à long terme (essai de phase III)",
+     "pmid": "28688677",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28688677/"
+    },
+    {
+     "label": "Bensadoun 2020, sécurité chez le patient atteint de cancer",
+     "pmid": "32198559",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32198559/"
+    },
+    {
+     "label": "Zecha 2016, mécanismes, dosimétrie et sécurité",
+     "pmid": "26984240",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26984240/"
+    },
+    {
+     "label": "Cronshaw 2026, sécurité oncologique : réévaluation dosimétrique",
+     "pmid": "42652240",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42652240/"
+    }
+   ]
+  },
+  {
+   "id": "grossesse",
+   "titre": "Grossesse",
+   "statut": "relative",
+   "regle": "Pas d'irradiation de la région abdomino-pelvienne chez la femme enceinte, faute de données.",
+   "detail": [
+    "Les autres zones peuvent être traitées.",
+    "Les études sur le périnée et la cicatrice de césarienne concernent la période après l'accouchement."
+   ],
+   "sources": [
+    {
+     "label": "AFSOS, référentiel PBM 2026",
+     "url": "https://www.afsos.org/wp-content/uploads/2026/10/Referentiel-AFSOS-PBM.pdf"
+    }
+   ]
+  },
+  {
+   "id": "thyroide",
+   "titre": "Glande thyroïde",
+   "statut": "précaution",
+   "regle": "Éviter d'irradier la thyroïde quand elle n'est pas la cible (traitement cervical, mucite par voie transcutanée) ; la protéger ou décaler les points.",
+   "detail": [
+    "Précaution historique, d'ordre théorique.",
+    "Des essais randomisés de laser sur la thyroïdite auto-immune n'ont pas montré d'effet délétère, avec un suivi à long terme."
+   ],
+   "sources": [
+    {
+     "label": "Höfling 2013, essai contre placebo (thyroïdite auto-immune)",
+     "pmid": "22718472",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22718472/"
+    },
+    {
+     "label": "Höfling 2018, sécurité à long terme",
+     "pmid": "30532779",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30532779/"
+    }
+   ]
+  },
+  {
+   "id": "stimulateur",
+   "titre": "Stimulateur cardiaque, défibrillateur, neurostimulateur",
+   "statut": "selon la technologie",
+   "regle": "Le laser et les LED n'émettent pas de champ électromagnétique notable : pas d'interférence attendue. La prudence porte sur les appareils qui associent des champs magnétiques pulsés ou de l'électrostimulation.",
+   "detail": [
+    "Vérifier la notice de l'appareil de PBM (modules magnétiques ou électriques) et celle du dispositif implanté.",
+    "Ne pas appliquer un laser de forte puissance (classe IV) en regard direct du boîtier (échauffement)."
+   ],
+   "sources": [
+    {
+     "label": "Accord professionnel ; notices des fabricants",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "id": "epilepsie",
+   "titre": "Épilepsie photosensible",
+   "statut": "relative",
+   "regle": "Éviter une lumière visible pulsée dans le champ visuel (casque, masque, panneau face au visage) chez un patient épileptique photosensible ; préférer le mode continu ou l'infrarouge.",
+   "detail": [
+    "Les crises photo-induites sont déclenchées par une lumière visible qui clignote, surtout entre 15 et 25 Hz (plage à risque d'environ 3 à 60 Hz).",
+    "L'infrarouge, invisible, n'est pas en cause."
+   ],
+   "sources": [
+    {
+     "label": "Martins da Silva 2017, photosensibilité et épilepsie",
+     "pmid": "28532712",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28532712/"
+    },
+    {
+     "label": "Brodaczewski 2026, scintillement des LED et risque de crise",
+     "pmid": "42635523",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42635523/"
+    }
+   ]
+  },
+  {
+   "id": "photosensibilisants",
+   "titre": "Médicaments photosensibilisants, photothérapie dynamique récente",
+   "statut": "selon le produit",
+   "regle": "Vérifier les traitements avant la séance : la plupart des médicaments photosensibilisants réagissent aux UV et non au rouge ou à l'infrarouge ; les agents de photothérapie dynamique sont l'exception majeure.",
+   "detail": [
+    "Utiliser le vérificateur ci-dessous."
+   ],
+   "sources": [
+    {
+     "label": "Blakely 2019, photosensibilité médicamenteuse : mise à jour",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021, de la lumière aux réactions cliniques",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    }
+   ]
+  },
+  {
+   "id": "brulure",
+   "titre": "Risque thermique (laser de forte puissance)",
+   "statut": "précaution",
+   "regle": "Avec un laser de classe IV : surveiller l'échauffement sur peau foncée, tatouage, zone insensible (neuropathie, cicatrice) ou fragile (rétinoïdes) ; préférer le mode pulsé ou balayer la zone.",
+   "detail": [
+    "Le mode pulsé réduit l'échauffement ressenti (AFSOS).",
+    "Les doses WALT sont établies pour des peaux claires."
+   ],
+   "sources": [
+    {
+     "label": "AFSOS, référentiel PBM 2026",
+     "url": "https://www.afsos.org/wp-content/uploads/2026/10/Referentiel-AFSOS-PBM.pdf"
+    },
+    {
+     "label": "WALT, tableaux de doses",
+     "url": "https://waltpbm.org/documentation-links/recommendations/"
+    }
+   ]
+  }
+ ],
+ "medicaments": [
+  {
+   "nom": "Tétracyclines",
+   "ex": "doxycycline, minocycline, lymécycline",
+   "type": "Phototoxique",
+   "spectre": "UVA (≈ 320–400 nm)",
+   "risque": {
+    "bleu": "faible",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Pas de précaution particulière en rouge et infrarouge ; prudence avec la lumière bleue proche de 400 nm.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Fluoroquinolones",
+   "ex": "ciprofloxacine, lévofloxacine, ofloxacine",
+   "type": "Phototoxique",
+   "spectre": "UVA",
+   "risque": {
+    "bleu": "faible",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Pas de précaution particulière en rouge et infrarouge.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Amiodarone",
+   "ex": "amiodarone",
+   "type": "Phototoxique, pigmentation",
+   "spectre": "UVA, visible court",
+   "risque": {
+    "bleu": "faible",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Photosensibilité UV fréquente et durable ; rouge et infrarouge sans risque photochimique connu.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "AINS",
+   "ex": "kétoprofène (gel), piroxicam, diclofénac",
+   "type": "Photoallergique (kétoprofène), phototoxique",
+   "spectre": "UVA",
+   "risque": {
+    "bleu": "faible",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Le kétoprofène topique donne des photo-allergies durables aux UV ; pas de risque connu en rouge et infrarouge.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Diurétiques",
+   "ex": "hydrochlorothiazide, furosémide",
+   "type": "Phototoxique, photoallergique",
+   "spectre": "UVA, UVB",
+   "risque": {
+    "bleu": "négligeable",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Pas de précaution particulière.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Phénothiazines et tricycliques",
+   "ex": "chlorpromazine, amitriptyline",
+   "type": "Phototoxique, photoallergique",
+   "spectre": "UVA",
+   "risque": {
+    "bleu": "faible",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Pas de précaution particulière en rouge et infrarouge.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Antifongiques azolés",
+   "ex": "voriconazole",
+   "type": "Phototoxique (et risque carcinologique cutané au long cours)",
+   "spectre": "UVA, UVB",
+   "risque": {
+    "bleu": "négligeable",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Pas de précaution particulière en PBM.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Antipaludéens",
+   "ex": "hydroxychloroquine, quinine",
+   "type": "Phototoxique",
+   "spectre": "UV",
+   "risque": {
+    "bleu": "négligeable",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Pas de précaution particulière.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Rétinoïdes",
+   "ex": "isotrétinoïne, acitrétine, trétinoïne topique",
+   "type": "Fragilité cutanée (amincissement)",
+   "spectre": "UV (sensibilité accrue)",
+   "risque": {
+    "bleu": "négligeable",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Pas de réaction photochimique au rouge ou à l'infrarouge ; prudence thermique avec un laser de forte puissance sur peau fragilisée.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Méthotrexate",
+   "ex": "méthotrexate",
+   "type": "Réactivation des coups de soleil (UV)",
+   "spectre": "UV",
+   "risque": {
+    "bleu": "négligeable",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Pas de précaution particulière.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Psoralènes",
+   "ex": "méthoxsalène (PUVA)",
+   "type": "Phototoxique",
+   "spectre": "UVA (320–380 nm)",
+   "risque": {
+    "bleu": "faible",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Éviter la lumière bleue le jour de la prise ; rouge et infrarouge sans risque connu.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Inhibiteurs de BRAF",
+   "ex": "vémurafénib",
+   "type": "Phototoxique",
+   "spectre": "UVA",
+   "risque": {
+    "bleu": "faible",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Pas de précaution particulière en rouge et infrarouge.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    },
+    {
+     "label": "Fattore 2024, photosensibilité des anticancéreux",
+     "pmid": "38884533",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38884533/"
+    }
+   ]
+  },
+  {
+   "nom": "Millepertuis (hypéricine)",
+   "ex": "millepertuis (Hypericum perforatum)",
+   "type": "Phototoxique",
+   "spectre": "Visible, maximum vers 590 nm (orange)",
+   "risque": {
+    "bleu": "modéré",
+    "rouge": "faible",
+    "ir": "négligeable"
+   },
+   "conseil": "Seul photosensibilisant courant qui absorbe dans le visible : prudence avec la lumière verte, orange et rouge court (≤ 630 nm) ; l'infrarouge est sans risque connu.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Photothérapie dynamique topique (ALA, MAL)",
+   "ex": "acide aminolévulinique, aminolévulinate de méthyle",
+   "type": "Photosensibilisant (protoporphyrine IX)",
+   "spectre": "405 nm et 635 nm",
+   "risque": {
+    "bleu": "réel",
+    "rouge": "réel",
+    "ir": "négligeable"
+   },
+   "conseil": "Ne pas éclairer la zone traitée en bleu ni en rouge dans les 48 heures ; c'est précisément la lumière qui active ces produits.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Vertéporfine",
+   "ex": "Visudyne",
+   "type": "Photosensibilisant (photothérapie dynamique oculaire)",
+   "spectre": "689 nm",
+   "risque": {
+    "bleu": "modéré",
+    "rouge": "réel",
+    "ir": "modéré"
+   },
+   "conseil": "Pas de PBM rouge ni proche infrarouge dans les 48 heures suivant la perfusion.",
+   "sources": [
+    {
+     "label": "EMA, Visudyne",
+     "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/visudyne"
+    }
+   ]
+  },
+  {
+   "nom": "Porfimère, témoporfine",
+   "ex": "Photofrin, Foscan",
+   "type": "Photosensibilisants systémiques",
+   "spectre": "630 nm (porfimère), 652 nm (témoporfine)",
+   "risque": {
+    "bleu": "réel",
+    "rouge": "réel",
+    "ir": "faible"
+   },
+   "conseil": "Photosensibilité de plusieurs semaines : pas de PBM pendant la période d'éviction de la lumière indiquée par le centre.",
+   "sources": [
+    {
+     "label": "EMA, Foscan",
+     "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/foscan"
+    }
+   ]
+  },
+  {
+   "nom": "Padéliporfine",
+   "ex": "Tookad",
+   "type": "Photosensibilisant (prostate)",
+   "spectre": "753 nm",
+   "risque": {
+    "bleu": "faible",
+    "rouge": "modéré",
+    "ir": "réel"
+   },
+   "conseil": "Pas de PBM proche infrarouge pendant la période d'éviction de la lumière.",
+   "sources": [
+    {
+     "label": "EMA, Tookad",
+     "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tookad"
+    }
+   ]
+  },
+  {
+   "nom": "Bleu de méthylène",
+   "ex": "bleu de méthylène (perfusion, topique)",
+   "type": "Colorant photosensibilisant",
+   "spectre": "660–670 nm",
+   "risque": {
+    "bleu": "négligeable",
+    "rouge": "réel",
+    "ir": "faible"
+   },
+   "conseil": "Absorbe le rouge (il sert d'ailleurs en photothérapie antimicrobienne) : éviter le rouge sur une zone colorée ou après une perfusion récente.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Vert d'indocyanine",
+   "ex": "ICG (angiographie, chirurgie)",
+   "type": "Colorant",
+   "spectre": "≈ 800 nm",
+   "risque": {
+    "bleu": "négligeable",
+    "rouge": "faible",
+    "ir": "modéré"
+   },
+   "conseil": "Effet photothermique possible en proche infrarouge de forte puissance le jour de l'injection.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  }
+ ],
+ "conditions": [
+  {
+   "nom": "Porphyries (maladie)",
+   "ex": "protoporphyrie érythropoïétique, porphyrie cutanée tardive",
+   "type": "Photosensibilité endogène",
+   "spectre": "405 nm (bande de Soret), bandes faibles 500–630 nm",
+   "risque": {
+    "bleu": "réel",
+    "rouge": "faible",
+    "ir": "négligeable"
+   },
+   "conseil": "Éviter la lumière bleue ; prudence en rouge court ; l'infrarouge est sans risque connu.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  },
+  {
+   "nom": "Lupus cutané",
+   "ex": "lupus érythémateux",
+   "type": "Photosensibilité de la maladie",
+   "spectre": "UV, parfois visible",
+   "risque": {
+    "bleu": "faible",
+    "rouge": "négligeable",
+    "ir": "négligeable"
+   },
+   "conseil": "Éviter la lumière bleue ; rouge et infrarouge sans risque connu.",
+   "sources": [
+    {
+     "label": "Blakely 2019",
+     "pmid": "30888626",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30888626/"
+    },
+    {
+     "label": "Kowalska 2021",
+     "pmid": "34451820",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34451820/"
+    },
+    {
+     "label": "Hofmann 2021",
+     "pmid": "33491908",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33491908/"
+    }
+   ]
+  }
+ ],
+ "medicolegal": [
+  {
+   "titre": "Information et consentement",
+   "texte": "Le patient doit recevoir une information loyale, claire et appropriée (bénéfices attendus, alternatives, effets possibles, nombre de séances) et donner son consentement libre et éclairé, tracé dans le dossier.",
+   "sources": [
+    {
+     "label": "Code de la santé publique, art. L1111-2 et L1111-4",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "titre": "Qui peut pratiquer",
+   "texte": "En France, il n'est pas obligatoire d'être professionnel de santé pour pratiquer la PBM ; l'AFSOS considère (accord d'experts) qu'en soins oncologiques de support elle relève exclusivement des professionnels de santé formés (DU, séminaires, stages).",
+   "sources": [
+    {
+     "label": "AFSOS, référentiel PBM 2026",
+     "url": "https://www.afsos.org/wp-content/uploads/2026/10/Referentiel-AFSOS-PBM.pdf"
+    }
+   ]
+  },
+  {
+   "titre": "Appareils",
+   "texte": "Utiliser un dispositif médical marqué CE (règlement européen 2017/745) ; c'est fortement recommandé, et obligatoire en établissement de santé selon l'AFSOS. Lasers classés selon la norme IEC 60825-1 (classes 1 à 4) ; LED évaluées selon IEC 62471 (groupes de risque photobiologique).",
+   "sources": [
+    {
+     "label": "AFSOS, référentiel PBM 2026",
+     "url": "https://www.afsos.org/wp-content/uploads/2026/10/Referentiel-AFSOS-PBM.pdf"
+    },
+    {
+     "label": "Règlement (UE) 2017/745",
+     "url": "https://eur-lex.europa.eu/eli/reg/2017/745/oj"
+    }
+   ]
+  },
+  {
+   "titre": "Protection oculaire",
+   "texte": "Lunettes conformes à la norme EN 207 pour les lasers (densité optique adaptée à la longueur d'onde), pour le patient, l'opérateur et les tiers ; signalisation de la salle pour les lasers de classe 3B et 4.",
+   "sources": [
+    {
+     "label": "AFSOS, référentiel PBM 2026",
+     "url": "https://www.afsos.org/wp-content/uploads/2026/10/Referentiel-AFSOS-PBM.pdf"
+    }
+   ]
+  },
+  {
+   "titre": "Traçabilité",
+   "texte": "Noter à chaque séance l'appareil, la longueur d'onde, la puissance, la surface, le temps, l'énergie et la fluence délivrées, les zones traitées et la tolérance : c'est la condition d'une évaluation et d'une défense en cas de litige. La WALT recommande de rapporter l'ensemble de ces paramètres.",
+   "sources": [
+    {
+     "label": "AFSOS, référentiel PBM 2026",
+     "url": "https://www.afsos.org/wp-content/uploads/2026/10/Referentiel-AFSOS-PBM.pdf"
+    },
+    {
+     "label": "WALT, recommandations",
+     "url": "https://waltpbm.org/documentation-links/recommendations/"
+    }
+   ]
+  },
+  {
+   "titre": "Cotation",
+   "texte": "Pas d'acte CCAM dédié : la cotation par assimilation à un acte de destruction laser est interdite et expose à des pénalités ; la PBM peut être intégrée à une consultation ou à une hospitalisation de jour pluridisciplinaire.",
+   "sources": [
+    {
+     "label": "AFSOS, référentiel PBM 2026",
+     "url": "https://www.afsos.org/wp-content/uploads/2026/10/Referentiel-AFSOS-PBM.pdf"
+    }
+   ]
+  }
+ ],
+ "maj": "novembre 2026"
+}
