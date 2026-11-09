@@ -159,7 +159,7 @@
    635,
    940
   ],
-  "n": 9,
+  "n": null,
   "effect": "mitigé",
   "theme": "ATM",
   "l1": "Neuf publications : la PBM fait mieux que le sham dans trois cohortes myogènes sur cinq ; certitude faible, et aucun essai ne rapporte tous les paramètres exigés par la WALT.",
@@ -175,6 +175,7 @@
     "Peu d'essais récents."
    ],
    "pratique": "Option possible dans la douleur myogène, avec un protocole complet et documenté."
-  }
+  },
+  "k": 9
  }
 ]

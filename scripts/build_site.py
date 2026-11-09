@@ -151,6 +151,9 @@ def auto_type(r: dict) -> tuple[str, int]:
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from pertinence import is_pbm  # noqa: E402  filtre des notices hors sujet
+from controle import check_cards  # noqa: E402  contrôle qualité des fiches avant publication
+QA_ERRORS: list = []
+QA_WARNINGS: list = []
 
 
 RX_SUPER = re.compile(r"super[- ]?puls", re.I)
@@ -241,6 +244,9 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
                 raise SystemExit(f"PMID en double dans la curation : {c['pmid']}")
             curated[c["pmid"]] = c
     excluded = set(json.loads((cur_dir / "exclus.json").read_text())) if (cur_dir / "exclus.json").exists() else set()
+    errs, warns = check_cards(topic_id, list(curated.values()), {c for c, _ in SUBGROUP_RULES.get(topic_id, [])} | set(topic.get("subgroups") or []))
+    QA_ERRORS.extend(errs)
+    QA_WARNINGS.extend(warns)
     forced = set(json.loads((cur_dir / "inclus.json").read_text())) if (cur_dir / "inclus.json").exists() else set()
     offtopic = []
 
@@ -615,6 +621,12 @@ def main() -> None:
                "drafts_file": drafts_file, "securite": json.loads((ROOT / "data/securite.json").read_text()) if (ROOT / "data/securite.json").exists() else None, "reco": json.loads((ROOT / "data/recommandations.json").read_text()) if (ROOT / "data/recommandations.json").exists() else None, "n_drafts": len(drafts), "repo": REPO,
                "alerts_api": ALERTS_API,
                "patients": json.loads((ROOT / "data/fiches_patients.json").read_text()) if (ROOT / "data/fiches_patients.json").exists() else []}
+    # contrôle qualité : aucune publication tant qu'une fiche contient une erreur (scripts/controle.py)
+    if QA_WARNINGS:
+        print(f"→ contrôle qualité : {len(QA_WARNINGS)} avertissement(s) non bloquant(s)")
+    if QA_ERRORS:
+        raise SystemExit("Contrôle qualité : publication bloquée\n  " + "\n  ".join(QA_ERRORS))
+    print("→ contrôle qualité : aucune erreur bloquante")
     # garde-fou : chaque fichier annoncé au site doit exister (sinon une page reste bloquée sur « Chargement… »)
     missing = [v for k, v in payload.items() if k.endswith("_file") and v and not (ROOT / v).exists()]
     missing += [t["file"] for t in topics if t.get("file") and not (ROOT / t["file"]).exists()]

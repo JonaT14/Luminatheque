@@ -13,7 +13,7 @@
    "laser"
   ],
   "nm": [],
-  "n": 12,
+  "n": null,
   "effect": "favorable",
   "theme": "Ostéonécrose des mâchoires",
   "l1": "Douze études : la PBM est utile en prévention et en traitement de l'ostéonécrose médicamenteuse, mais les protocoles sont hétérogènes ; les auteurs proposent des paramètres de consensus pour de futurs essais.",
@@ -27,6 +27,7 @@
     "Études peu nombreuses et hétérogènes."
    ],
    "pratique": "Complément possible du traitement médical ou chirurgical, selon des protocoles standardisés."
-  }
+  },
+  "k": 12
  }
 ]

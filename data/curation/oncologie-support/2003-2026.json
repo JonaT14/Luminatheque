@@ -266,7 +266,7 @@
   "pmid": "23803270",
   "title_fr": "Laser basse énergie comme alternative au drainage lymphatique manuel : essai pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "lymphœdème"
@@ -295,7 +295,7 @@
   "pmid": "24820476",
   "title_fr": "Laser-acupuncture et débit salivaire dans le syndrome de Gougerot-Sjögren",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "xérostomie"
@@ -529,7 +529,7 @@
   "pmid": "29851090",
   "title_fr": "Laser basse énergie dans le lymphœdème lié au cancer du sein : essai de faisabilité",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "lymphœdème"
@@ -588,7 +588,7 @@
   "pmid": "31079232",
   "title_fr": "Laser en complément de la thérapie décongestive dans le lymphœdème : essai pilote contre placebo",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "lymphœdème"
@@ -646,7 +646,7 @@
   "pmid": "31754836",
   "title_fr": "PBM dans le syndrome main-pied des chimiothérapies : étude pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "main-pied"
@@ -1444,7 +1444,7 @@
   "pmid": "40973840",
   "title_fr": "Laser ou TENS sur les glandes salivaires dans le diabète de type 2 : analyse intermédiaire",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "xérostomie"
@@ -1651,7 +1651,7 @@
   "pmid": "42071320",
   "title_fr": "PBM dans le lymphœdème chronique des cancers ORL : essai pilote randomisé",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "lymphœdème"

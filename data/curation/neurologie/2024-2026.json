@@ -183,7 +183,7 @@
   "pmid": "39198866",
   "title_fr": "Laser-acupuncture 810 nm en complément dans la migraine chronique : essai pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "autres"
@@ -1316,7 +1316,7 @@
   "pmid": "42231857",
   "title_fr": "PBM transcrânienne dans le trouble cognitif léger : évaluation cognitive, métabolique et d'imagerie",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "démences"
@@ -1346,7 +1346,7 @@
   "pmid": "42373537",
   "title_fr": "Irradiation laser intravasculaire et récupération fonctionnelle après AVC ischémique : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "AVC"
@@ -1553,7 +1553,7 @@
   "pmid": "42840704",
   "title_fr": "PBM cérébrale dans la commotion sportive aiguë : essai pilote RECOVERY",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "TC"

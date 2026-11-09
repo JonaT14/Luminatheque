@@ -59,7 +59,7 @@
 "l2":"Essai brésilien en double aveugle. La douleur (EVA) baisse dans les deux groupes sans différence. Le groupe PBM montre des gains sur certains nerfs (médian, tibial, fibulaire) et sur la limitation d'activité (SALSA).",
 "l3":{"points":["SF-36 : amélioration de la douleur dans les deux groupes."],"limites":["Petit effectif, critères multiples."],"pratique":"—"}},
 
-{"pmid":"41091232","title_fr":"Paramètres dosimétriques et résultats cliniques de la PBM dans la neuropathie diabétique : revue","type":"review","level":3,"pop":"adulte","ctx":["diabète"],"aim":"traitement","mode":[],"nm":[630,670,808,904],"n":null,"effect":"favorable","theme":"Dosimétrie","key":true,
+{"pmid":"41091232","title_fr":"Paramètres dosimétriques et résultats cliniques de la PBM dans la neuropathie diabétique : revue","type":"sr","k":23,"level":3,"pop":"adulte","ctx":["diabète"],"aim":"traitement","mode":[],"nm":[630,670,808,904],"n":null,"effect":"favorable","theme":"Dosimétrie","key":true,
 "l1":"23 études (2015–2025) : les meilleurs résultats sont obtenus à 630–670 nm ou 808–904 nm, 3 à 10 J/cm², 45 à 100 mW et au moins 12 séances.",
 "l2":"Revue de six bases (dont LILACS et SciELO), études cliniques et précliniques. Elle fournit une fenêtre de paramètres utilisable pour un protocole.",
 "l3":{"points":["Fluence 3–10 J/cm² ; puissance 45–100 mW ; ≥ 12 séances."],"limites":["Revue non quantitative."],"pratique":"Fenêtre de paramètres pratique pour la neuropathie diabétique."}},

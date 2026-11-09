@@ -985,7 +985,7 @@
   "pmid": "28253073",
   "title_fr": "Laser et efficacité de l'alignement dentaire : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1364,7 +1364,7 @@
   "pmid": "28967495",
   "title_fr": "Laser basse énergie et douleur après retraitement endodontique : essai en triple aveugle",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "endo"
@@ -1418,7 +1418,7 @@
   "pmid": "29016741",
   "title_fr": "Laser basse énergie et résorption radiculaire orthodontique : pilote en double aveugle",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1745,7 +1745,7 @@
   "pmid": "29577710",
   "title_fr": "Traitement parodontal avec ou sans laser et IL-1β : pilote multicentrique",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "paro"

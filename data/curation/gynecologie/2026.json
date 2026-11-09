@@ -125,7 +125,7 @@
 "l2":"Ovocytes de 114 femmes en stimulation ovarienne, randomisés PBM ou témoin. L'activité de phosphorylation oxydative augmente de 194 à 240 %. Les auteurs demandent une évaluation de la sécurité embryonnaire avant usage clinique.",
 "l3":{"points":["810 nm, 1 W, 60 J/cm², 1 min."],"limites":["In vitro ; sécurité embryonnaire non évaluée."],"pratique":"—"}},
 
-{"pmid":"42272970","title_fr":"LED 630 nm, fonction ovarienne et fertilité chez la femme d'âge reproductif avancé","type":"preclinical","level":4,"pop":"adulte","ctx":["fertilité"],"aim":"traitement","mode":["LED"],"nm":[630],"n":null,"effect":"favorable","theme":"Fertilité",
+{"pmid":"42272970","title_fr":"LED 630 nm, fonction ovarienne et fertilité chez la femme d'âge reproductif avancé","type":"cases","level":4,"pop":"adulte","ctx":["fertilité"],"aim":"traitement","mode":["LED"],"nm":[630],"n":null,"effect":"favorable","theme":"Fertilité",
 "l1":"La LED 630 nm améliore la fonction mitochondriale des ovocytes chez la souris âgée ; dans un pilote clinique, un dispositif portable augmente le compte de follicules antraux (2 → 6).",
 "l2":"Mécanisme : activation du complexe II mitochondrial (SDHB). Chez les femmes à réserve ovarienne diminuée, le nombre d'ovocytes recueillis tend à augmenter (2 → 5, NS).",
 "l3":{"points":["AFC : médiane 2 → 6 (p = 0,011)."],"limites":["Pilote sans témoin."],"pratique":"—"}}

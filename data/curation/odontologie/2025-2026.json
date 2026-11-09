@@ -2039,7 +2039,7 @@
   "pmid": "41987432",
   "title_fr": "Colle cyanoacrylate avec laser pour fermer les lambeaux sans suture : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -2530,7 +2530,7 @@
   "pmid": "42472732",
   "title_fr": "PBM après élongation coronaire esthétique : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -2638,7 +2638,7 @@
   "pmid": "42667337",
   "title_fr": "PBM 660 et 808 nm et S100A8/A9 dans la pulpite symptomatique : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "endo"
@@ -2776,7 +2776,7 @@
   "pmid": "42946902",
   "title_fr": "PBM et fin de l'anesthésie chez l'enfant : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "pédiatrie",
   "ctx": [
    "anesthésie"

@@ -276,7 +276,7 @@
   "pmid": "18269665",
   "title_fr": "Laser basse énergie et cicatrisation après gingivectomie : pilote contrôlé",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -357,7 +357,7 @@
   "pmid": "18785848",
   "title_fr": "Laser He-Ne en complément du traitement de la parodontite modérée à sévère : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -736,7 +736,7 @@
   "pmid": "21617973",
   "title_fr": "Laser basse énergie, douleur, gonflement et trismus après extraction de dent de sagesse : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -820,7 +820,7 @@
   "pmid": "22092477",
   "title_fr": "Lambeau déplacé coronairement avec laser basse énergie : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -928,7 +928,7 @@
   "pmid": "22524327",
   "title_fr": "Laser diode 810 nm, douleur et réponse tissulaire après lambeau de Widman modifié",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -2156,7 +2156,7 @@
   "pmid": "26381208",
   "title_fr": "Photothérapie laser et réparation osseuse alvéolaire après extraction : micro-scanner et histologie",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "chirurgie",

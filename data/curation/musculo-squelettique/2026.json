@@ -238,7 +238,7 @@
   "pmid": "42057468",
   "title_fr": "Laser basse énergie associé aux ultrasons contre les douleurs de croissance de l'enfant : étude pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "pédiatrie",
   "ctx": [
    "muscle"
@@ -327,7 +327,7 @@
   "pmid": "42106735",
   "title_fr": "PBM associée au T-PRF dans les fractures mandibulaires postérieures : étude pilote randomisée",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "os"
@@ -856,7 +856,7 @@
   "pmid": "42475306",
   "title_fr": "Laser-acupuncture invasive (650 et 830 nm) dans la gonarthrose : essai pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "arthrose"

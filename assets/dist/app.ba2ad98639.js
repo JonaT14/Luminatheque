@@ -183,7 +183,7 @@ const levelBars = (n) => `<span class="level-bars" aria-hidden="true">${[1, 2, 3
 function levelSwitch(cur, attr = "data-read") {
   return `<div class="levels" role="group" aria-label="Niveau de lecture">${[1, 2, 3].map((n) => `<button type="button" ${attr}="${n}" aria-pressed="${n === cur}">${levelBars(n)}${READ[n][0]}<small>${READ[n][1]}</small></button>`).join("")}</div>`;
 }
-const metaLine = (a) => `<span class="mono">${fmtDate(a.date)}</span> · ${esc(a.journal_abbr || a.journal)}${a.n ? ` · <span class="mono">n = ${a.n}</span>` : ""}${a.nm?.length ? ` · <span class="mono">${a.nm.join("/")} nm</span>` : ""}`;
+const metaLine = (a) => `<span class="mono">${fmtDate(a.date)}</span> · ${esc(a.journal_abbr || a.journal)}${a.k ? ` · <span class="mono">${a.k} études</span>` : ""}${a.n ? ` · <span class="mono">n = ${a.n}${a.k || ["sr", "ma", "umbrella", "guideline"].includes(a.type) ? " participants" : ""}</span>` : ""}${a.nm?.length ? ` · <span class="mono">${a.nm.join("/")} nm</span>` : ""}`;
 function l3Html(a) {
   const x = a.l3 || {};
   return `${x.points?.length ? `<h4>Méthode et résultats clés</h4><ul>${x.points.map((p) => `<li>${hl(p, state.q)}</li>`).join("")}</ul>` : ""}
@@ -816,6 +816,7 @@ async function viewArticleRaw(a) {
   if (box) box.innerHTML = ab.length ? ab.map((x) => `<p>${x.label ? `<b>${esc(x.label)}</b> ` : ""}${esc(x.text)}</p>`).join("") : `<p class="muted">Résumé indisponible ici. <a href="https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/" target="_blank" rel="noopener">Voir sur PubMed</a>.</p>`;
 }
 function viewArticle(pmid) {
+  const a0 = byId(pmid); if (a0 && a0.topic && a0.topic !== state.topic && !D.articles.some((x) => x.pmid === pmid && x.topic === state.topic)) { applyTopic(a0.topic); renderTopics(); }
   setNav("publications");
   const a = byId(pmid);
   if (!a) {
@@ -863,7 +864,7 @@ function viewArticle(pmid) {
     <aside style="display:grid;gap:18px;min-width:0">
       <div class="panel"><h3 style="margin-bottom:6px">Fiche technique</h3><dl class="facts">
         ${[["Type", typeLabel(a)], ["Niveau de preuve", a.level ? `${a.level} · ${LEVELS[a.level][0]}` : "Non gradé"], ["Population", a.pop], ["Contexte", (a.ctx || []).map((c) => CTX[c] || c).join(", ") || "—"],
-          ["Objectif", a.aim], ["Modalité", (a.mode || []).join(", ") || "—"], ["Longueurs d'onde", a.nm?.length ? a.nm.join(" / ") + " nm" : "non précisé"], ["Effectif", a.n ? `${a.n} ${a.type === "preclinical" ? "(animaux/unités)" : "patients"}` : "—"],
+          ["Objectif", a.aim], ["Modalité", (a.mode || []).join(", ") || "—"], ["Longueurs d'onde", a.nm?.length ? a.nm.join(" / ") + " nm" : "non précisé"], ...(a.k ? [["Études incluses", String(a.k)]] : []), ["Effectif", a.n ? `${a.n} ${a.type === "preclinical" ? "(animaux/unités)" : "patients"}` : "—"],
           ["Thème", a.theme], ["Mise en ligne", fmtDate(a.date) + " · " + a.week.replace("-S", " S")], ["PMID", a.pmid], ["Citations", String(a.cited_by ?? 0) + " (Europe PMC)"]]
           .map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>
       <div class="panel"><h3 style="margin-bottom:10px">Sources</h3><div class="links">${links.map(([h, l]) => `<a class="btn small" href="${h}" target="_blank" rel="noopener">${l} ↗</a>`).join("")}</div><div style="margin-top:12px">${exportBtns("art")}</div></div>

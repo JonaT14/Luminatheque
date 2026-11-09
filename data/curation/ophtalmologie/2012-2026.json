@@ -90,7 +90,7 @@
   "pmid": "31430763",
   "title_fr": "Lumière rouge 670 nm contre la rétinopathie du prématuré : essai pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "pédiatrie",
   "ctx": [
    "rétinopathie"
@@ -517,7 +517,7 @@
   "pmid": "36927052",
   "title_fr": "Laser portable 445 nm ou lumière pulsée intense dans la sécheresse oculaire : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "sécheresse"
@@ -1624,7 +1624,7 @@
   "pmid": "40388203",
   "title_fr": "Lumière rouge répétée chez des écoliers de plusieurs ethnies : analyse à 3 mois",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -2053,7 +2053,7 @@
   "pmid": "41165747",
   "title_fr": "Lumière rouge et orthokératologie chez l'enfant espagnol : analyse à 6 mois",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"

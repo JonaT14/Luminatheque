@@ -576,7 +576,7 @@
   "pmid": "31773372",
   "title_fr": "PBM et résorption radiculaire orthodontique : pilote en micro-scanner",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -849,7 +849,7 @@
   "pmid": "31970564",
   "title_fr": "PBM en complément de la préservation alvéolaire : étude préliminaire",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -1204,7 +1204,7 @@
   "pmid": "32438716",
   "title_fr": "PBM et mouvement orthodontique : nouveau protocole",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1474,7 +1474,7 @@
   "pmid": "32642953",
   "title_fr": "PBM et réparation muqueuse après extraction chez le patient irradié : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -1501,7 +1501,7 @@
   "pmid": "32662840",
   "title_fr": "Laser et cicatrisation du site implantaire : étude exploratoire",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "implants"

@@ -571,7 +571,7 @@
    "laser"
   ],
   "nm": [],
-  "n": 14,
+  "n": null,
   "effect": "favorable",
   "theme": "Infarctus",
   "l1": "Sur 14 études animales, le laser réduit surtout la taille de l'infarctus par des effets anti-inflammatoires, pro-angiogéniques et antioxydants ; l'effet sur la fonction cardiaque est rarement démontré.",
@@ -586,7 +586,8 @@
     "Hétérogénéité des protocoles."
    ],
    "pratique": "Pas encore d'application clinique."
-  }
+  },
+  "k": 14
  },
  {
   "pmid": "28181487",
@@ -1299,7 +1300,7 @@
    660,
    808
   ],
-  "n": 6,
+  "n": null,
   "effect": "favorable",
   "theme": "Irradiation sanguine (ILIB)",
   "l1": "Six études animales et humaines montrent que l'ILIB augmente les cytokines anti-inflammatoires et le monoxyde d'azote et réduit les cytokines pro-inflammatoires.",
@@ -1313,7 +1314,8 @@
     "Mélange animal et humain."
    ],
    "pratique": "Base mécanistique, sans indication clinique."
-  }
+  },
+  "k": 6
  },
  {
   "pmid": "41065846",

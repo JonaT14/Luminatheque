@@ -123,7 +123,7 @@
   "pmid": "18665761",
   "title_fr": "Laser basse énergie dans la maladie de Ménière : pilote de 20 patients",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "vertiges"
@@ -358,7 +358,7 @@
   "pmid": "25030898",
   "title_fr": "Stimulation magnétique et laser combinés dans les acouphènes chroniques : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "acouphènes"
@@ -446,7 +446,7 @@
   "pmid": "27839705",
   "title_fr": "Lumière basse énergie contre la fatigue vocale",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "pharynx"
@@ -510,7 +510,7 @@
   "pmid": "31469529",
   "title_fr": "Lumière basse énergie dans les acouphènes cochléaires : essai préliminaire",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "acouphènes",
@@ -1038,7 +1038,7 @@
   "pmid": "40197959",
   "title_fr": "Effets immédiats du laser basse énergie sur la voix de femmes sans trouble vocal",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "pharynx"

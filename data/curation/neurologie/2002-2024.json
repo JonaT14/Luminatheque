@@ -748,7 +748,7 @@
   "pmid": "31050950",
   "title_fr": "PBM transcrânienne et intranasale à domicile dans la démence : essai pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "démences"
@@ -1078,7 +1078,7 @@
   "pmid": "33525934",
   "title_fr": "Laser infrarouge transcrânien et cognition du sujet âgé bipolaire : preuve de concept",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "humeur"
@@ -1198,7 +1198,7 @@
   "pmid": "34092640",
   "title_fr": "PBM transcrânienne et intrabuccale dans la maladie de Parkinson : essai pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "parkinson"
@@ -1229,7 +1229,7 @@
   "pmid": "34215216",
   "title_fr": "PBM transcrânienne, intranasale, cervicale et abdominale dans le Parkinson : preuve de concept",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "parkinson"
@@ -1347,7 +1347,7 @@
   "pmid": "35499744",
   "title_fr": "PBM et fatigue dans la sclérose en plaques récurrente-rémittente : pilote",
   "type": "rct",
-  "level": 1,
+  "level": 2,
   "pop": "adulte",
   "ctx": [
    "SEP"
