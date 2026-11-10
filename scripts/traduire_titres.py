@@ -44,7 +44,7 @@ GLOSSAIRE = [
     (r"\bcrosstalk\b", "dialogue"),
     (r"poteaux? (?:à|en) fibre", "tenons en fibre"),
     (r"dentine racine", "dentine radiculaire"),
-    (r"\s+([:;?!])", r" \1"), (r"(\w)([:;?!])", r"\1 \2"),
+    (r"\s+([:;?!])", r" \1"), (r"(\w)([:;?!])(?=\s|$)", r"\1 \2"), (r"(\w) :(?=\S)", r"\1:"),
     (r"mucosite", "mucite"),
     (r"blessure(s?) de la moelle", r"lésion\1 de la moelle"),
     (r"guérison des? (?:plaies|blessures)", "cicatrisation"),
