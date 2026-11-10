@@ -3,7 +3,7 @@
   "pmid": "33985492",
   "title_fr": "PBM et cicatrisation gingivale de seconde intention : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -84,7 +84,7 @@
   "pmid": "34114609",
   "title_fr": "Laser et stabilité des mini-vis orthodontiques : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho",
@@ -112,7 +112,7 @@
   "pmid": "34217567",
   "title_fr": "Laser contre la douleur, l'œdème et le trismus après chirurgie des dents de sagesse : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -220,7 +220,7 @@
   "pmid": "34328796",
   "title_fr": "PBM et douleur orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -247,7 +247,7 @@
   "pmid": "34342772",
   "title_fr": "Lasers dentaires proche infrarouge et hypersensibilité dentinaire : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "hypersensibilité"
@@ -437,7 +437,7 @@
   "pmid": "34599400",
   "title_fr": "PBM et médiateurs inflammatoires pendant le mouvement orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho",
@@ -493,7 +493,7 @@
   "pmid": "34642786",
   "title_fr": "Lumière basse énergie et hypersensibilité dentinaire : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "hypersensibilité"
@@ -520,7 +520,7 @@
   "pmid": "34662524",
   "title_fr": "Densité d'énergie optimale de la PBM contre la douleur orthodontique : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -744,7 +744,7 @@
   "pmid": "34939836",
   "title_fr": "Paramètres de délivrance de la PBM en dentisterie : approche fondée sur les preuves",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "autres"
@@ -798,7 +798,7 @@
   "pmid": "35013845",
   "title_fr": "Laser basse énergie et douleur après extraction des dents de sagesse inférieures : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -825,7 +825,7 @@
   "pmid": "35024960",
   "title_fr": "PBM des lésions gingivales des maladies auto-immunes : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -987,7 +987,7 @@
   "pmid": "35490059",
   "title_fr": "PBM, stabilité implantaire et suites opératoires : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "implants"
@@ -1122,7 +1122,7 @@
   "pmid": "35298283",
   "title_fr": "PBM et sensibilité du blanchiment au fauteuil : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "hypersensibilité"
@@ -1149,7 +1149,7 @@
   "pmid": "35304644",
   "title_fr": "PBM et accélération du mouvement orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1478,7 +1478,7 @@
   "pmid": "35686695",
   "title_fr": "PBM autour des implants dentaires : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "implants"
@@ -1998,7 +1998,7 @@
   "pmid": "36707888",
   "title_fr": "Laser et stabilité des mini-vis orthodontiques : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho",
@@ -2053,7 +2053,7 @@
   "pmid": "36856530",
   "title_fr": "PBM et stabilité des implants en titane : méta-analyse des paramètres",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "implants"
@@ -2080,7 +2080,7 @@
   "pmid": "37023343",
   "title_fr": "Laser dans l'hypersensibilité dentinaire : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "hypersensibilité"
@@ -2107,7 +2107,7 @@
   "pmid": "37140820",
   "title_fr": "PBM en complément du traitement parodontal chez le diabétique de type 2 : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -2188,7 +2188,7 @@
   "pmid": "37290483",
   "title_fr": "PBM après chirurgie des dents de sagesse : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -2215,7 +2215,7 @@
   "pmid": "37339352",
   "title_fr": "Interventions non chirurgicales pour accélérer le mouvement orthodontique : revue Cochrane",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"

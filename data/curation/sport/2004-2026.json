@@ -151,7 +151,7 @@
   "pmid": "29090398",
   "title_fr": "PBM, performance et fatigue musculaire chez le sujet sain : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "performance"
@@ -479,7 +479,7 @@
   "pmid": "37419235",
   "title_fr": "PBM, fonction du genou et tolérance à l'effort chez le sujet âgé : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "populations"
@@ -539,7 +539,7 @@
   "pmid": "38668764",
   "title_fr": "PBM dans l'entorse de cheville : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "blessures"

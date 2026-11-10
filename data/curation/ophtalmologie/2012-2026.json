@@ -608,7 +608,7 @@
   "pmid": "37030495",
   "title_fr": "Lumière rouge répétée contre la progression de la myopie : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -730,7 +730,7 @@
   "pmid": "37565498",
   "title_fr": "Lumière rouge répétée et contrôle de la myopie : méta-analyse d'essais randomisés",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -854,7 +854,7 @@
   "pmid": "38099371",
   "title_fr": "Lumière rouge répétée chez l'enfant et l'adolescent : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -916,7 +916,7 @@
   "pmid": "38378527",
   "title_fr": "Lumière rouge répétée et myopie de l'enfant : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -1038,7 +1038,7 @@
   "pmid": "38723579",
   "title_fr": "Lumière rouge basse intensité et myopie de l'enfant : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -1409,7 +1409,7 @@
   "pmid": "39638706",
   "title_fr": "PBM et lumière pulsée intense dans la dysfonction meibomienne : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "sécheresse"
@@ -1469,7 +1469,7 @@
   "pmid": "39826095",
   "title_fr": "Lumière rouge basse intensité et progression de la myopie : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -1500,7 +1500,7 @@
   "pmid": "39981627",
   "title_fr": "Effet à long terme de la lumière rouge répétée sur la myopie : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -1531,7 +1531,7 @@
   "pmid": "40219611",
   "title_fr": "Interventions de contrôle de la myopie : méta-analyses en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -1746,7 +1746,7 @@
   "pmid": "40528385",
   "title_fr": "Lumière rouge fovéale intense chez l'enfant pré-myope : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -1807,7 +1807,7 @@
   "pmid": "40610049",
   "title_fr": "Atropine, orthokératologie ou lumière rouge dans la myopie : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -1868,7 +1868,7 @@
   "pmid": "40841455",
   "title_fr": "Lumière rouge répétée contre traitements classiques de la myopie : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -2146,7 +2146,7 @@
   "pmid": "41451106",
   "title_fr": "Lumière rouge et développement réfractif : méta-analyse dose-réponse",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -2208,7 +2208,7 @@
   "pmid": "41680682",
   "title_fr": "Lumière rouge répétée chez l'enfant et l'adolescent : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -2303,7 +2303,7 @@
   "pmid": "41846466",
   "title_fr": "Lumière rouge répétée : efficacité selon la durée et sécurité, méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -2394,7 +2394,7 @@
   "pmid": "42140330",
   "title_fr": "Lumière rouge en complément de l'orthokératologie ou des verres DIMS : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -2545,7 +2545,7 @@
   "pmid": "42995527",
   "title_fr": "Lumière rouge répétée contre la myopie : méta-analyse actualisée et complète",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -2576,7 +2576,7 @@
   "pmid": "42895250",
   "title_fr": "Rapport coût-efficacité des traitements de la myopie chez l'enfant chinois",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"

@@ -3,7 +3,8 @@ name: Veille hebdomadaire
 #   1) interroge PubMed et Europe PMC pour chaque spécialité active (trois dernières semaines, pour rattraper
 #      les retards d'indexation) ;
 #   2) met à jour le statut des essais cliniques (ClinicalTrials.gov) ;
-#   3) reconstruit le site : tri de pertinence (scripts/pertinence.py) puis contrôle qualité (scripts/controle.py),
+#   3) traduit en français les titres des nouvelles notices (traduction automatique, signalée sur le site) ;
+#   3 bis) reconstruit le site : tri de pertinence (scripts/pertinence.py) puis contrôle qualité (scripts/controle.py),
 #      qui bloque la publication en cas d'erreur ;
 #   4) publie. Les nouvelles publications arrivent en « notice indexée » ; elles ne deviennent « évaluées »
 #      qu'après lecture (page Brouillons ou rédaction manuelle, voir ROUTINE.md).
@@ -43,6 +44,11 @@ jobs:
       - name: Mettre à jour les essais cliniques
         continue-on-error: true
         run: python3 scripts/fetch_trials.py
+      - name: Traduire les titres des nouvelles notices
+        continue-on-error: true
+        run: |
+          pip install argostranslate
+          python3 scripts/traduire_titres.py --max 800 --minutes 25
       - name: Reconstruire le site (tri de pertinence et contrôle qualité)
         run: python3 scripts/build_site.py
       - name: Publier

@@ -196,7 +196,7 @@ function cardRaw(a, opts = {}) {
   return `<article class="card raw" data-pmid="${a.pmid}">
     <div class="card-top"><div class="badges">${stBadge(a)}${(a.ctx || []).slice(0, 2).map((c) => `<span class="badge">${esc(CTX[c] || c)}</span>`).join("")}</div>
     ${opts.noSel ? "" : `<label class="sel"><input type="checkbox" data-sel="${a.pmid}" ${state.selected.has(a.pmid) ? "checked" : ""}> Sélectionner</label>`}</div>
-    <h3 lang="en"><a href="/article/${a.pmid}">${hl(a.title, state.q)}</a></h3>
+    ${a.tr ? `<h3><a href="/article/${a.pmid}">${hl(a.title_fr, state.q)}</a></h3><p class="orig-t"><span lang="en">${hl(a.title, state.q)}</span> <span class="tr-auto" title="Titre traduit automatiquement de l'anglais : le titre original fait foi.">traduction automatique</span></p>` : `<h3 lang="en"><a href="/article/${a.pmid}">${hl(a.title, state.q)}</a></h3>`}
     <div class="src">${metaLine(a)}</div>
     ${quickBlock(a)}
     ${a.l1 ? `<p class="l1" lang="en"><span class="eyebrow" style="display:block;margin-bottom:4px">Conclusion des auteurs (VO)</span>${hl(a.l1, state.q)}</p>` : ""}
@@ -805,7 +805,7 @@ async function viewArticleRaw(a) {
   app().innerHTML = `<div class="article"><div style="display:grid;gap:22px;min-width:0">
     <a href="${P("publications")}" class="btn small" style="justify-self:start">← Publications</a>
     <header><div class="badges">${stBadge(a)}${typeBadge(a)}${lvlBadge(a)}</div>
-      <h1 lang="en" style="font-size:clamp(1.3rem,1.05rem + 1.2vw,1.9rem)">${esc(a.title)}</h1>
+      ${a.tr ? `<h1 style="font-size:clamp(1.3rem,1.05rem + 1.2vw,1.9rem)">${esc(a.title_fr)}</h1><p class="orig-t"><span lang="en">${esc(a.title)}</span> <span class="tr-auto" title="Titre traduit automatiquement de l'anglais : le titre original fait foi.">traduction automatique</span></p>` : `<h1 lang="en" style="font-size:clamp(1.3rem,1.05rem + 1.2vw,1.9rem)">${esc(a.title)}</h1>`}
       <p class="src muted" style="font:500 .85rem var(--f-display)">${esc((a.authors || []).join(", "))} · <i>${esc(a.journal)}</i><br>${metaLine(a)}</p></header>
     <div class="callout"><b>Notice indexée</b> : cette publication a été retrouvée par la veille et retenue par le tri automatique de pertinence, mais elle n'a pas encore été lue. Le type d'étude, le niveau de preuve et le sous-groupe sont déduits de PubMed et peuvent être imprécis ; elle ne compte pas dans le sens des résultats ni dans les synthèses. <a href="/methode#etats">Les trois états de lecture</a></div>
     <section class="panel"><h3 style="margin-bottom:10px">Résumé des auteurs (PubMed, en anglais)</h3><div class="abstract" id="raw-abs" lang="en"><p class="muted">Chargement du résumé…</p></div></section>

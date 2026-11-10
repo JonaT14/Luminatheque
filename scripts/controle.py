@@ -5,7 +5,8 @@ Erreurs bloquantes (le site n'est pas généré tant qu'elles existent) :
       aucun « 9 patients ») : utiliser « k » pour le nombre d'études et « n » pour les participants ;
   E2  sous-thème (ctx) étranger à la spécialité (ex. « ATM » dans Cardiologie) ;
   E3  effectif invalide (non entier, nul ou négatif) ou « k » sur une étude qui n'est pas une synthèse ;
-  E4  niveau de preuve incompatible avec le type d'étude (essai randomisé gradé 1, préclinique gradé 1 à 4…).
+  E4  niveau de preuve incompatible avec le type d'étude (essai randomisé gradé 1, préclinique gradé 1 à 4,
+      synthèse gradée 4…).
 Avertissements (affichés, non bloquants) :
   W1  synthèse sans nombre d'études « k » alors que le texte en annonce un.
 """
@@ -52,6 +53,8 @@ def check_cards(topic_id, cards, allowed_ctx):
         lvl = c.get("level")
         if lvl and typ in LEVEL_OK and lvl not in LEVEL_OK[typ]:
             errors.append(f"E4 {where} : niveau {lvl} incompatible avec le type « {typ} »")
+        if lvl == 4 and typ in SYN:
+            errors.append(f"E4 {where} : une synthèse ne peut pas être de niveau 4 (1 = essais randomisés, 3 = plans d'étude mêlés, 5 = préclinique)")
         if lvl == 1 and typ not in SYN:
             errors.append(f"E4 {where} : niveau 1 réservé aux synthèses d'essais (type « {typ} »)")
     return errors, warnings

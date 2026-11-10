@@ -209,7 +209,7 @@
   "pmid": "41964853",
   "title_fr": "Laser haute intensité dans les tendinopathies : méta-analyse d'essais randomisés",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "tendon"
@@ -297,7 +297,7 @@
   "pmid": "42080480",
   "title_fr": "PBM contre la douleur et pour la fonction après fracture : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "os"
@@ -474,7 +474,7 @@
   "pmid": "42176209",
   "title_fr": "Kinésithérapie associée aux exercices à domicile dans la fasciite plantaire : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "tendon"
@@ -622,7 +622,7 @@
   "pmid": "42286680",
   "title_fr": "Laser haute intensité dans le syndrome fémoro-patellaire : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "arthrose"
@@ -651,7 +651,7 @@
   "pmid": "42332459",
   "title_fr": "Thérapie manuelle, exercice, laser, ultrasons et TENS dans les troubles de l'ATM : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ATM"
@@ -710,7 +710,7 @@
   "pmid": "42365270",
   "title_fr": "Thérapies non médicamenteuses dans la DTM myogène de l'adulte : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ATM"
@@ -826,7 +826,7 @@
   "pmid": "42473844",
   "title_fr": "PBM en complément du renforcement musculaire chez le sujet âgé : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "muscle"
@@ -1008,7 +1008,7 @@
   "pmid": "42733098",
   "title_fr": "Laser basse énergie dans le conflit sous-acromial : méta-analyse d'essais randomisés",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "épaule"
@@ -1037,7 +1037,7 @@
   "pmid": "42819314",
   "title_fr": "L'importance de la puissance en PBM : revue systématique et méta-analyse du laser haute intensité",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "tendon",

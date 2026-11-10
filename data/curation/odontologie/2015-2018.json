@@ -3,7 +3,7 @@
   "pmid": "26881201",
   "title_fr": "Techniques mini-invasives pour accélérer le mouvement orthodontique : revue des études animales",
   "type": "sr",
-  "level": 3,
+  "level": 5,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -138,7 +138,7 @@
   "pmid": "26932392",
   "title_fr": "Laser basse énergie en complément du traitement parodontal non chirurgical : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -165,7 +165,7 @@
   "pmid": "27016661",
   "title_fr": "Laser basse énergie et mouvement dentaire induit : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -931,7 +931,7 @@
   "pmid": "28009052",
   "title_fr": "Interventions non médicamenteuses contre la douleur orthodontique : revue Cochrane",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1093,7 +1093,7 @@
   "pmid": "28301678",
   "title_fr": "Interventions pour accélérer le mouvement orthodontique : revue de revues",
   "type": "sr",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1283,7 +1283,7 @@
   "pmid": "28621287",
   "title_fr": "Ibuprofène et laser contre la douleur orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1337,7 +1337,7 @@
   "pmid": "29089818",
   "title_fr": "Laser basse énergie et douleur orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1391,7 +1391,7 @@
   "pmid": "28987483",
   "title_fr": "Laser après extraction des dents de sagesse incluses : revue avec GRADE",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -1555,7 +1555,7 @@
   "pmid": "29204915",
   "title_fr": "La PBM est-elle efficace dans l'hypersensibilité dentinaire ? Revue systématique",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "hypersensibilité"
@@ -1609,7 +1609,7 @@
   "pmid": "29330655",
   "title_fr": "Traitements de l'hypersensibilité des lésions cervicales non carieuses : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "hypersensibilité"
@@ -1664,7 +1664,7 @@
   "pmid": "29374364",
   "title_fr": "Laser en complément des greffes pour les récessions gingivales : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -1718,7 +1718,7 @@
   "pmid": "29582585",
   "title_fr": "Laser en complément de la greffe de conjonctif dans les récessions : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -1909,7 +1909,7 @@
   "pmid": "29930369",
   "title_fr": "Soulagement non médicamenteux de la douleur orthodontique",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"

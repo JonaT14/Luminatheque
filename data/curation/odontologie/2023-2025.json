@@ -31,7 +31,7 @@
   "pmid": "37578665",
   "title_fr": "Laser et alignement dentaire orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -113,7 +113,7 @@
   "pmid": "37667064",
   "title_fr": "PBM par laser et accélération du mouvement orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -332,7 +332,7 @@
   "pmid": "37985344",
   "title_fr": "Laser, douleur postopératoire et retraitement endodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "endo"
@@ -413,7 +413,7 @@
   "pmid": "38168817",
   "title_fr": "Interventions contre la douleur de la séparation orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -575,7 +575,7 @@
   "pmid": "38386625",
   "title_fr": "Interventions physiques contre la douleur orthodontique : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -602,7 +602,7 @@
   "pmid": "38821660",
   "title_fr": "PBM après extraction des dents de sagesse mandibulaires : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -740,7 +740,7 @@
   "pmid": "38538810",
   "title_fr": "Thérapies complémentaires contre la douleur après chirurgie des dents de sagesse : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -767,7 +767,7 @@
   "pmid": "38556608",
   "title_fr": "Photothérapie et douleur après réintervention endodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "endo"
@@ -931,7 +931,7 @@
   "pmid": "38845193",
   "title_fr": "PBM et douleur de l'infiltration anesthésique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "pédiatrie",
   "ctx": [
    "anesthésie"
@@ -958,7 +958,7 @@
   "pmid": "38886713",
   "title_fr": "Alvéolite et efficacité du laser : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -985,7 +985,7 @@
   "pmid": "38914185",
   "title_fr": "PBM et ostéo-intégration des implants : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "implants"
@@ -1012,7 +1012,7 @@
   "pmid": "39073657",
   "title_fr": "Pulpotomie au laser ou conventionnelle des dents temporaires : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "endo"
@@ -1066,7 +1066,7 @@
   "pmid": "39093490",
   "title_fr": "PBM en complément du traitement parodontal de base : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -1202,7 +1202,7 @@
   "pmid": "39143876",
   "title_fr": "Douleur après extraction de dents temporaires : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -1256,7 +1256,7 @@
   "pmid": "39287434",
   "title_fr": "Lasers adjuvants et douleur post-endodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "endo"
@@ -1310,7 +1310,7 @@
   "pmid": "39400334",
   "title_fr": "PBM et stabilité implantaire : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "implants"
@@ -1364,7 +1364,7 @@
   "pmid": "39438196",
   "title_fr": "PBM intrabuccale et douleur de l'infiltration : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "anesthésie"
@@ -1393,7 +1393,7 @@
   "pmid": "39460822",
   "title_fr": "PBM, préservation alvéolaire et stabilité implantaire : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "chirurgie",
@@ -1421,7 +1421,7 @@
   "pmid": "39472604",
   "title_fr": "Lasers et douleur après traitement endodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "endo"
@@ -1475,7 +1475,7 @@
   "pmid": "39530606",
   "title_fr": "Laser et douleur de l'alvéolite",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -1556,7 +1556,7 @@
   "pmid": "39616232",
   "title_fr": "PBM par laser et accélération du mouvement orthodontique : revue parapluie",
   "type": "sr",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1719,7 +1719,7 @@
   "pmid": "39775158",
   "title_fr": "Aides contre la douleur et l'anxiété de l'anesthésie chez l'enfant : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "pédiatrie",
   "ctx": [
    "anesthésie"
@@ -1828,7 +1828,7 @@
   "pmid": "39853546",
   "title_fr": "PBM, stabilité implantaire et perte osseuse crestale en site cicatrisé : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "implants"
@@ -1855,7 +1855,7 @@
   "pmid": "40003385",
   "title_fr": "Rapport coût-efficacité de la PBM après extraction de dent de sagesse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -1909,7 +1909,7 @@
   "pmid": "39903156",
   "title_fr": "Laser diode basse énergie après extraction de dent de sagesse : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "chirurgie"

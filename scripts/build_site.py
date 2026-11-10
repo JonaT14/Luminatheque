@@ -155,6 +155,7 @@ def auto_type(r: dict) -> tuple[str, int]:
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from pertinence import is_pbm  # noqa: E402  filtre des notices hors sujet
 from controle import check_cards  # noqa: E402  contrôle qualité des fiches avant publication
+TITRES_FR = json.loads((ROOT / "data/titres_fr.json").read_text()) if (ROOT / "data/titres_fr.json").exists() else {}  # traduction automatique
 QA_ERRORS: list = []
 QA_WARNINGS: list = []
 
@@ -284,7 +285,7 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
             **common(r, topic_id, date), "curated": False, "type": t, "level": lvl, "effect": "—",
             "theme": "Non analysé", "ctx": auto_subgroups(topic_id, r), "pop": "—", "aim": "—", "mode": [], "nm": qt["nm_auto"], "n": None,
             "em": qt["em"], "pre": qt["pre"],
-            "title_fr": r["title"], "l1": conclusion(r, 240), "kw": " ".join((r.get("keywords") or [])[:6] + (r.get("mesh") or [])[:6])[:160],
+            "title_fr": TITRES_FR.get(pmid) or r["title"], "tr": int(pmid in TITRES_FR), "l1": conclusion(r, 240), "kw": " ".join((r.get("keywords") or [])[:6] + (r.get("mesh") or [])[:6])[:160],
         })
         if r.get("abstract"):
             abstracts[pmid] = r["abstract"]
@@ -303,7 +304,7 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
     return meta, articles, syntheses, abstracts
 
 
-RAW_DEFAULTS = {"em": [], "pre": "", "theme": "Non analysé", "effect": "—", "pop": "—", "aim": "—", "mode": [], "nm": [], "n": None,
+RAW_DEFAULTS = {"tr": 0, "em": [], "pre": "", "theme": "Non analysé", "effect": "—", "pop": "—", "aim": "—", "mode": [], "nm": [], "n": None,
                 "doi": None, "pmcid": None, "license": None, "pdf": None, "oa": False, "cited_by": 0, "pub_types": []}
 
 
@@ -391,7 +392,7 @@ def recent_news(sv: dict, all_articles: list, trials: dict, days: int = 35) -> d
         for k, d in sv[kind].items():
             a = by_key.get(k)
             if d >= lim and a and (kind == "fiches" or not a["curated"]):
-                arts[k] = [d, int(a["curated"]), a.get("level") or 0, a.get("ctx") or [], (a.get("title_fr") if a["curated"] else a["title"])[:160]]
+                arts[k] = [d, int(a["curated"]), a.get("level") or 0, a.get("ctx") or [], (a.get("title_fr") or a["title"])[:160]]
     tr = {x["nct"]: (tp, x) for tp, xs in trials.items() for x in xs}
     ess = {}
     for k, v in sv["essais"].items():
@@ -606,7 +607,7 @@ def main() -> None:
     # index léger de toutes les publications pour la recherche de l'accueil (chargé à la demande)
     tix = {t["id"]: i for i, t in enumerate(topics)}
     rows = [[a["pmid"], tix[a["topic"]], a["year"], a["type"], a.get("level") or 0, a.get("depth", 1) if a["curated"] else 0, a["effect"] if a["curated"] else "",
-             a.get("ctx") or [], a.get("title_fr") or a["title"], a["title"] if a["curated"] and a.get("title_fr") else ""]
+             a.get("ctx") or [], a.get("title_fr") or a["title"], a["title"] if a.get("title_fr") and a.get("title_fr") != a["title"] else ""]
             for a in sorted(all_articles, key=lambda a: a["date"], reverse=True)]
     js = "window.LUMINA_S = " + json.dumps({"topics": [t["id"] for t in topics], "rows": rows}, ensure_ascii=False, separators=(",", ":")) + ";\n"
     sh = hashlib.sha1(js.encode()).hexdigest()[:10]

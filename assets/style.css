@@ -1145,3 +1145,7 @@ dialog.adapt::backdrop { background: rgba(15, 18, 25, .45); backdrop-filter: blu
 .pub-h1 { font-size: 1.35rem; letter-spacing: -.02em; margin: 0 0 12px; } .pub-h1 span { color: var(--muted); font-weight: 500; }
 .trial { min-width: 0; } .trial .card-top { flex-wrap: wrap; gap: 8px; } .trial h3, .trial .src { overflow-wrap: anywhere; }
 @media (max-width: 560px) { .trial .card-top .btn { white-space: normal; flex: 1 1 100%; text-align: center; } .tmeta { grid-template-columns: 1fr; } }
+
+/* ---------- titres traduits automatiquement ---------- */
+.orig-t { margin: 2px 0 0; font-size: .8rem; color: var(--muted); line-height: 1.4; font-style: italic; }
+.tr-auto { font: 600 .62rem var(--f-display); font-style: normal; text-transform: uppercase; letter-spacing: .06em; border: 1px dashed var(--line-2, var(--line)); border-radius: 99px; padding: 2px 7px; white-space: nowrap; cursor: help; }

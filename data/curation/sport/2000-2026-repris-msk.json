@@ -275,7 +275,7 @@
   "pmid": "40954632",
   "title_fr": "PBM, compression pneumatique et électrostimulation pour la récupération musculaire : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "récupération"
@@ -305,7 +305,7 @@
   "pmid": "40995827",
   "title_fr": "PBM et performance musculaire chez les volleyeurs et les footballeurs : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "récupération"
@@ -1826,7 +1826,7 @@
   "pmid": "42473844",
   "title_fr": "PBM en complément du renforcement musculaire chez le sujet âgé : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "populations"

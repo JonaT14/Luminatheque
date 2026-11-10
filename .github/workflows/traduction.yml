@@ -1,0 +1,35 @@
+name: Traduction des titres
+# À la demande : traduit en français le stock de titres des notices non lues (traduction automatique hors ligne,
+# signalée sur le site). Les nouveautés sont ensuite traduites chaque semaine par la « Veille hebdomadaire ».
+on:
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "Nombre maximal de titres à traduire"
+        default: "15000"
+permissions:
+  contents: write
+concurrency:
+  group: veille
+  cancel-in-progress: false
+jobs:
+  traduire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install argostranslate
+      - name: Traduire
+        run: python3 scripts/traduire_titres.py --max "${{ inputs.max || '15000' }}" --minutes 300
+      - name: Reconstruire le site et publier
+        run: |
+          python3 scripts/build_site.py
+          git config user.name "Luminathèque (automate)"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data assets flux index.html
+          if git diff --cached --quiet; then echo "Rien à publier."; exit 0; fi
+          git commit -m "Titres des notices traduits en français (traduction automatique)"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done

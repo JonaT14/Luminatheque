@@ -113,7 +113,7 @@
   "pmid": "31064350",
   "title_fr": "PBM, stabilité et succès des implants : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "implants"
@@ -441,7 +441,7 @@
   "pmid": "31780019",
   "title_fr": "PBM et accélération du mouvement orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -795,7 +795,7 @@
   "pmid": "31926767",
   "title_fr": "Traitements assistés par laser dans l'ostéonécrose des mâchoires médicamenteuse : revue",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ONM"
@@ -903,7 +903,7 @@
   "pmid": "32056052",
   "title_fr": "Chirurgie laser dans l'ostéonécrose des mâchoires médicamenteuse : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ONM"
@@ -958,7 +958,7 @@
   "pmid": "32080952",
   "title_fr": "Laser ou désensibilisants topiques dans l'hypersensibilité dentinaire : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "hypersensibilité"
@@ -1095,7 +1095,7 @@
   "pmid": "32314880",
   "title_fr": "Laser et accélération du mouvement orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1421,7 +1421,7 @@
   "k": 9,
   "title_fr": "Longueurs d'onde efficaces de la PBM pour accélérer le mouvement orthodontique : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1448,7 +1448,7 @@
   "pmid": "32613416",
   "title_fr": "Laser en complément de la chirurgie parodontale : douleur et cicatrisation",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -1529,7 +1529,7 @@
   "pmid": "32678697",
   "title_fr": "PBM avec différents lasers et durée du traitement orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1611,7 +1611,7 @@
   "pmid": "34643019",
   "title_fr": "Interventions pour accélérer le recul canin : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1692,7 +1692,7 @@
   "pmid": "32919077",
   "title_fr": "PBM dans l'alvéolite sèche : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -1746,7 +1746,7 @@
   "pmid": "33058775",
   "title_fr": "Laser et suites opératoires des dents de sagesse : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -1994,7 +1994,7 @@
   "pmid": "33586080",
   "title_fr": "Laser et stabilité des mini-implants orthodontiques : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho",
@@ -2078,7 +2078,7 @@
   "pmid": "33660109",
   "title_fr": "PBM et stabilité des mini-implants : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho",
@@ -2133,7 +2133,7 @@
   "pmid": "33723980",
   "title_fr": "PBM après traitement orthodontique : revue",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -2160,7 +2160,7 @@
   "pmid": "33733872",
   "title_fr": "PBM et accélération du mouvement orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"

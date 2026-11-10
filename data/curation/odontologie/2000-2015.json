@@ -519,7 +519,7 @@
   "pmid": "20578865",
   "title_fr": "Interventions contre la douleur des appareils orthodontiques fixes : revue systématique",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -655,7 +655,7 @@
   "pmid": "21329811",
   "title_fr": "Lasers dans l'hypersensibilité dentinaire : revue systématique",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "hypersensibilité"
@@ -901,7 +901,7 @@
   "pmid": "22398186",
   "title_fr": "Laser après extraction des dents de sagesse inférieures incluses : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -1149,7 +1149,7 @@
   "pmid": "23001570",
   "title_fr": "Laser basse énergie et douleur orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1315,7 +1315,7 @@
   "pmid": "23609160",
   "title_fr": "Lasers dans l'hypersensibilité dentinaire : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "hypersensibilité"
@@ -1423,7 +1423,7 @@
   "pmid": "24326745",
   "title_fr": "Laser basse énergie et accélération du mouvement orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1452,7 +1452,7 @@
   "pmid": "24554452",
   "title_fr": "Laser basse énergie pour accélérer le mouvement orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1560,7 +1560,7 @@
   "pmid": "25072362",
   "title_fr": "Méthodes non conventionnelles pour accélérer le mouvement orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1587,7 +1587,7 @@
   "pmid": "25098769",
   "title_fr": "Laser basse énergie après chirurgie des dents de sagesse inférieures : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -1641,7 +1641,7 @@
   "pmid": "25258106",
   "title_fr": "Laser basse énergie et douleur orthodontique : revue systématique",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1857,7 +1857,7 @@
   "pmid": "25738176",
   "title_fr": "Interventions chirurgicales et non chirurgicales pour accélérer le mouvement orthodontique",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1911,7 +1911,7 @@
   "pmid": "25800534",
   "title_fr": "Laser diode basse énergie et douleur orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -2102,7 +2102,7 @@
   "pmid": "26315965",
   "title_fr": "Laser et douleur des séparateurs orthodontiques : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -2293,7 +2293,7 @@
   "pmid": "26576758",
   "title_fr": "Interventions non chirurgicales pour accélérer le mouvement orthodontique : revue Cochrane",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"

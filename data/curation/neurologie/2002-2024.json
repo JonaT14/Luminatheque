@@ -781,7 +781,7 @@
   "pmid": "31549906",
   "title_fr": "PBM transcrânienne et performance cognitive du jeune adulte sain : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "démences"
@@ -871,7 +871,7 @@
   "pmid": "32326425",
   "title_fr": "PBM dans la maladie de Parkinson chez l'animal : revue systématique",
   "type": "sr",
-  "level": 3,
+  "level": 5,
   "pop": "adulte",
   "ctx": [
    "parkinson"
@@ -930,7 +930,7 @@
   "pmid": "32504695",
   "title_fr": "PBM dans la lésion médullaire : revue systématique et méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 5,
   "pop": "adulte",
   "ctx": [
    "autres"
@@ -1110,7 +1110,7 @@
   "pmid": "33791887",
   "title_fr": "Laser basse énergie après lésion médullaire traumatique : méta-analyse animale",
   "type": "ma",
-  "level": 4,
+  "level": 5,
   "pop": "adulte",
   "ctx": [
    "autres"
@@ -1169,7 +1169,7 @@
   "pmid": "34119804",
   "title_fr": "PBM transcrânienne dans les troubles cérébraux : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "autres"
@@ -1289,7 +1289,7 @@
   "pmid": "35484784",
   "title_fr": "PBM dans les modèles expérimentaux de lésion médullaire : revue systématique",
   "type": "sr",
-  "level": 3,
+  "level": 5,
   "pop": "adulte",
   "ctx": [
    "autres"
@@ -1377,7 +1377,7 @@
   "pmid": "35698294",
   "title_fr": "PBM dans le traumatisme crânien aigu : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 5,
   "pop": "adulte",
   "ctx": [
    "TC"
@@ -1407,7 +1407,7 @@
   "pmid": "35847661",
   "title_fr": "Photothérapie et cognition dans la démence : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "démences"
@@ -1496,7 +1496,7 @@
   "pmid": "36203812",
   "title_fr": "PBM et neuro-inflammation : revue des études animales",
   "type": "sr",
-  "level": 3,
+  "level": 5,
   "pop": "adulte",
   "ctx": [
    "autres"
@@ -1556,7 +1556,7 @@
   "pmid": "36302150",
   "title_fr": "PBM et neuro-inflammation dans les modèles animaux de maladies neurodégénératives",
   "type": "sr",
-  "level": 3,
+  "level": 5,
   "pop": "adulte",
   "ctx": [
    "démences",
@@ -1648,7 +1648,7 @@
   "pmid": "36404359",
   "title_fr": "PBM dans les troubles de l'humeur : revue systématique",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "humeur"
@@ -1678,7 +1678,7 @@
   "pmid": "36967820",
   "title_fr": "Thérapies non médicamenteuses et cognition dans la démence : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "démences"
@@ -1827,7 +1827,7 @@
   "pmid": "37651208",
   "title_fr": "PBM transcrânienne et symptômes dépressifs : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "humeur"
@@ -1887,7 +1887,7 @@
   "pmid": "37843594",
   "title_fr": "PBM et déclin cognitif lié à l'âge : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "démences"
@@ -1947,7 +1947,7 @@
   "pmid": "38356614",
   "title_fr": "PBM et symptômes dépressifs : méta-analyse d'essais randomisés",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "humeur"
@@ -2068,7 +2068,7 @@
   "pmid": "38551974",
   "title_fr": "Neuromodulation dans la SLA, dont la PBM : revue et méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "SLA"

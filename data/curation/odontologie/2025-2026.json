@@ -167,7 +167,7 @@
   "pmid": "40716837",
   "title_fr": "PBM et douleur de l'anesthésie chez l'enfant : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "pédiatrie",
   "ctx": [
    "anesthésie"
@@ -520,7 +520,7 @@
   "pmid": "40451374",
   "title_fr": "PBM et résorption radiculaire orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -659,7 +659,7 @@
   "pmid": "40604734",
   "title_fr": "PBM et stabilité implantaire : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "implants"
@@ -686,7 +686,7 @@
   "pmid": "40668432",
   "title_fr": "PBM et douleur des injections dentaires chez l'adulte et l'enfant : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "pédiatrie",
   "ctx": [
    "anesthésie"
@@ -767,7 +767,7 @@
   "pmid": "40725907",
   "title_fr": "Ibuprofène ou laser contre la douleur des séparateurs : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -794,7 +794,7 @@
   "pmid": "40750083",
   "title_fr": "PBM et douleur des injections chez l'adulte : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "anesthésie"
@@ -1172,7 +1172,7 @@
   "pmid": "41139001",
   "title_fr": "Efficacité à long terme des désensibilisants : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "hypersensibilité"
@@ -1280,7 +1280,7 @@
   "pmid": "41339991",
   "title_fr": "Laser dans les défauts intra-osseux parodontaux : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -1389,7 +1389,7 @@
   "pmid": "41410039",
   "title_fr": "PBM et cicatrisation du site donneur palatin : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -1416,7 +1416,7 @@
   "pmid": "41422215",
   "title_fr": "PBM et résorption radiculaire orthodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1443,7 +1443,7 @@
   "pmid": "41455157",
   "title_fr": "Interventions physiques et résorption radiculaire en orthodontie accélérée : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1470,7 +1470,7 @@
   "pmid": "41467963",
   "title_fr": "PBM en complément du surfaçage chez le diabétique avec parodontite : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -1497,7 +1497,7 @@
   "pmid": "41492762",
   "title_fr": "Laser basse énergie et douleur postopératoire endodontique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "endo"
@@ -1524,7 +1524,7 @@
   "pmid": "41578029",
   "title_fr": "Laser basse énergie en chirurgie orale : force des preuves",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "chirurgie"
@@ -1551,7 +1551,7 @@
   "pmid": "41580743",
   "title_fr": "Interventions contre la douleur orthodontique : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1632,7 +1632,7 @@
   "pmid": "42114940",
   "title_fr": "Laser basse énergie et douleur de l'injection chez l'enfant : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "pédiatrie",
   "ctx": [
    "anesthésie"
@@ -1686,7 +1686,7 @@
   "pmid": "41690039",
   "title_fr": "Traitements de l'ostéonécrose des mâchoires médicamenteuse : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ONM"
@@ -1821,7 +1821,7 @@
   "pmid": "41817644",
   "title_fr": "Laser diode et Er:YAG dans l'hypersensibilité des molaires hypominéralisées : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "hypersensibilité"
@@ -1875,7 +1875,7 @@
   "pmid": "41863036",
   "title_fr": "Laser ou traitement parodontal conventionnel chez le diabétique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "paro"
@@ -1930,7 +1930,7 @@
   "pmid": "41950291",
   "title_fr": "Interventions physiques adjuvantes et gouttières d'alignement : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -1957,7 +1957,7 @@
   "pmid": "41965616",
   "title_fr": "Interventions physiques non invasives et résorption radiculaire : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "ortho"
@@ -2066,7 +2066,7 @@
   "pmid": "42001923",
   "title_fr": "Le laser améliore-t-il la cicatrisation des lésions périapicales ? Méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "endo"
@@ -2257,7 +2257,7 @@
   "pmid": "42259468",
   "title_fr": "PBM préventive et douleur de la ponction anesthésique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "anesthésie"
@@ -2668,7 +2668,7 @@
   "pmid": "42706468",
   "title_fr": "Gestion de la douleur des dents hypominéralisées : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "anesthésie"
@@ -2832,7 +2832,7 @@
   "pmid": "42995303",
   "title_fr": "PBM et cicatrisation du site donneur palatin : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "paro"

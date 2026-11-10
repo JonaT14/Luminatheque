@@ -237,7 +237,7 @@
   "pmid": "23192573",
   "title_fr": "Laser basse énergie dans le lymphœdème secondaire au cancer du sein : revue systématique",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "lymphœdème"
@@ -324,7 +324,7 @@
   "pmid": "25432632",
   "title_fr": "Laser basse énergie, douleur et volume dans le lymphœdème lié au cancer du sein : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "lymphœdème"
@@ -413,7 +413,7 @@
   "pmid": "28249650",
   "title_fr": "Traitements de la xérostomie et de l'hyposialie radio-induites : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "xérostomie"
@@ -500,7 +500,7 @@
   "pmid": "29216916",
   "title_fr": "Laser dans le lymphœdème lié au cancer du sein : revue systématique",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "lymphœdème"
@@ -617,7 +617,7 @@
   "pmid": "31780036",
   "title_fr": "PBM dans le lymphœdème lié au cancer du sein : méta-analyse d'essais randomisés",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "lymphœdème"
@@ -764,7 +764,7 @@
   "pmid": "32964596",
   "title_fr": "Bénéfices aigus et cumulés de la PBM dans la xérostomie : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "xérostomie"
@@ -794,7 +794,7 @@
   "pmid": "33039721",
   "title_fr": "La PBM prévient-elle l'hyposialie pendant la radiothérapie ORL ? Méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "xérostomie"
@@ -911,7 +911,7 @@
   "pmid": "34014116",
   "title_fr": "Interventions contre le trismus des cancers ORL : revue systématique d'essais randomisés",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "trismus"
@@ -969,7 +969,7 @@
   "pmid": "34409539",
   "title_fr": "Lumière basse énergie et xérostomie liée à l'hyposialie : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "xérostomie"
@@ -999,7 +999,7 @@
   "pmid": "34779937",
   "title_fr": "Laser dans le lymphœdème lié au cancer du sein : revue des revues systématiques",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "lymphœdème"
@@ -1028,7 +1028,7 @@
   "pmid": "36042421",
   "title_fr": "Laser dans le lymphœdème lié au cancer du sein : revue systématique",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "lymphœdème"
@@ -1175,7 +1175,7 @@
   "pmid": "38129368",
   "title_fr": "Schémas de PBM dans le lymphœdème lié au cancer du sein : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "lymphœdème"
@@ -1204,7 +1204,7 @@
   "pmid": "38189964",
   "title_fr": "PBM des glandes salivaires : revue narrative et méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "xérostomie"
@@ -1237,7 +1237,7 @@
   "pmid": "38244087",
   "title_fr": "Laser basse énergie et qualité de vie dans la xérostomie de la radiothérapie ORL : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "xérostomie"
@@ -1297,7 +1297,7 @@
   "pmid": "39611899",
   "title_fr": "Laser, Kinesio taping et endermologie dans le lymphœdème après mastectomie : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "lymphœdème"
@@ -1326,7 +1326,7 @@
   "pmid": "39792256",
   "title_fr": "Prévention de l'hyposialie et de la xérostomie des traitements non chirurgicaux du cancer : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "xérostomie"
@@ -1414,7 +1414,7 @@
   "pmid": "40809028",
   "title_fr": "Interventions non médicamenteuses contre la xérostomie des cancers ORL : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "xérostomie"
@@ -1532,7 +1532,7 @@
   "pmid": "41253620",
   "title_fr": "Traitements de la xérostomie radio-induite des cancers ORL : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "xérostomie"
@@ -1592,7 +1592,7 @@
   "pmid": "41880047",
   "title_fr": "PBM, mucite, douleur, xérostomie et qualité de vie dans les cancers ORL : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "xérostomie"

@@ -3,7 +3,7 @@
   "pmid": "40531843",
   "title_fr": "Gonarthrose : méta-analyse en réseau des options thérapeutiques",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "arthrose"
@@ -61,7 +61,7 @@
   "pmid": "40954632",
   "title_fr": "PBM, compression pneumatique et électrostimulation pour la récupération musculaire : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "muscle"
@@ -149,7 +149,7 @@
   "pmid": "40719876",
   "title_fr": "Laser haute intensité dans la radiculopathie rachidienne : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "rachis"
@@ -178,7 +178,7 @@
   "pmid": "40767062",
   "title_fr": "Laser-auriculothérapie dans la douleur musculo-squelettique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "fibro"
@@ -239,7 +239,7 @@
   "pmid": "40856482",
   "title_fr": "Laser haute intensité ou basse énergie dans l'épicondylite latérale : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "tendon"
@@ -386,7 +386,7 @@
   "pmid": "40995827",
   "title_fr": "PBM et performance musculaire chez les volleyeurs et les footballeurs : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "muscle"
@@ -750,7 +750,7 @@
   "pmid": "41244766",
   "title_fr": "Agents physiques dans les fractures : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "os"
@@ -839,7 +839,7 @@
   "k": 40,
   "title_fr": "Intensité, fréquence et durée de la PBM dans les troubles temporo-mandibulaires : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "ATM"
@@ -898,7 +898,7 @@
   "pmid": "41449210",
   "title_fr": "Laser ou ondes de choc dans l'épicondylite latérale : méta-analyse d'essais randomisés",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "tendon"
@@ -929,7 +929,7 @@
   "k": 28,
   "title_fr": "Laser-acupuncture dans les troubles musculo-squelettiques : revue systématique et méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "fibro"
@@ -958,7 +958,7 @@
   "pmid": "41547416",
   "title_fr": "Laser-acupuncture, douleur et fonction motrice dans les troubles musculo-squelettiques : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "fibro"
@@ -1016,7 +1016,7 @@
   "pmid": "41571928",
   "title_fr": "Laser-acupuncture dans la gonarthrose : méta-analyse d'essais randomisés",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "arthrose"
@@ -1104,7 +1104,7 @@
   "pmid": "41670830",
   "title_fr": "Laser ou ondes de choc dans la fasciite plantaire chronique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "tendon"
@@ -1134,7 +1134,7 @@
   "pmid": "41697446",
   "title_fr": "Laser haute intensité ou basse énergie dans les troubles musculo-squelettiques : méta-analyse en réseau",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "tendon",
@@ -1165,7 +1165,7 @@
   "pmid": "41718549",
   "title_fr": "Laser dans la tendinopathie de la coiffe des rotateurs : méta-analyse avec méta-régression",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "épaule",

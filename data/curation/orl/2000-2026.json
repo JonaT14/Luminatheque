@@ -832,7 +832,7 @@
   "pmid": "38663361",
   "title_fr": "Laser basse énergie dans la rhinite allergique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "rhinite"
@@ -861,7 +861,7 @@
   "pmid": "38685701",
   "title_fr": "Rééducation et symptômes otologiques des troubles temporo-mandibulaires : revue",
   "type": "sr",
-  "level": 3,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "acouphènes"
@@ -890,7 +890,7 @@
   "pmid": "39020483",
   "title_fr": "Acouphènes et troubles temporo-mandibulaires : traitements et facteurs pronostiques, méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "acouphènes"
@@ -1097,7 +1097,7 @@
   "pmid": "41239066",
   "title_fr": "Laser basse énergie dans la rhinosinusite chronique : méta-analyse",
   "type": "ma",
-  "level": 4,
+  "level": 1,
   "pop": "adulte",
   "ctx": [
    "sinusite"
