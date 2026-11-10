@@ -19,7 +19,7 @@
 "l2":"Revue courte des effets anti-inflammatoires, antalgiques et biostimulants : douleur postopératoire, cicatrisation, troubles temporo-mandibulaires, mucite, orthodontie.\n\nPas de données nouvelles.",
 "l3":{"points":["Revue pédagogique."],"limites":["Méthode non décrite."],"pratique":"—"}},
 
-{"pmid":"39523254","title_fr":"PBM et mucite chez l'enfant : revue systématique","type":"sr","level":3,"pop":"pédiatrie","ctx":["mixte"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Synthèse des preuves",
+{"pmid":"39523254","k":20,"title_fr":"PBM et mucite chez l'enfant : revue systématique","type":"sr","level":3,"pop":"pédiatrie","ctx":["mixte"],"aim":"les deux","mode":[],"nm":[],"n":null,"effect":"favorable","theme":"Synthèse des preuves",
 "l1":"Vingt études pédiatriques : aucun effet indésirable et une seule étude sans bénéfice ; la PBM soulage la douleur et accélère la cicatrisation.",
 "l2":"Revue enregistrée (PROSPERO) sur PubMed, Embase, Cochrane et la littérature grise. L'effet antalgique est le plus constant ; la réduction de la sévérité, de la durée voire de l'incidence est aussi rapportée.\n\nL'effet préventif et les protocoles optimaux restent à préciser par des études de meilleure qualité.",
 "l3":{"points":["20 études, designs variés."],"limites":["Qualité des études hétérogène, pas de méta-analyse."],"pratique":"Encourage l'usage de la PBM en pédiatrie, surtout pour la douleur."}},
@@ -54,7 +54,7 @@
 "l2":"Revue narrative où chaque thème est confié à deux spécialistes : justification, preuves, rapport bénéfice/risque, pistes de recherche.\n\nConclusion : impression globalement positive, mais il faut de grands essais multicentriques avant une généralisation.",
 "l3":{"points":["Thèmes : mucite, xérostomie, dysgueusie, dysphagie, trismus/fibrose."],"limites":["Avis d'experts."],"pratique":"Feuille de route des indications émergentes."}},
 
-{"pmid":"39457676","title_fr":"Rapport coût-efficacité de la PBM pour prévenir et traiter la mucite : revue systématique","type":"sr","level":1,"pop":"adulte","ctx":["ORL"],"aim":"les deux","mode":[],"nm":[],"n":229,"effect":"favorable","theme":"Médico-économie","key":true,
+{"pmid":"39457676","k":3,"title_fr":"Rapport coût-efficacité de la PBM pour prévenir et traiter la mucite : revue systématique","type":"sr","level":1,"pop":"adulte","ctx":["ORL"],"aim":"les deux","mode":[],"nm":[],"n":229,"effect":"favorable","theme":"Médico-économie","key":true,
 "l1":"Trois essais (229 patients ORL) : la PBM coûte un peu plus à court terme mais fait économiser à moyen et long terme en évitant les mucites sévères. Certitude GRADE modérée.",
 "l2":"Revue PRISMA 2020 d'essais randomisés PBM contre placebo chez des patients ORL. Le surcoût initial est compensé par la réduction des complications : hospitalisations, nutrition, antalgiques.\n\nArgument utile pour convaincre une direction d'établissement, même si la base reste étroite (trois essais).",
 "l3":{"points":["Certitude GRADE : modérée.","Enregistrement CRD42024498825."],"limites":["Trois essais seulement, contextes de coûts différents."],"pratique":"Argument médico-économique pour financer un programme de PBM."}},
@@ -109,7 +109,7 @@
 "l2":"Analyse rétrospective des dossiers d'un hôpital brésilien, PBM réalisée par un seul opérateur. Plus il y avait de séances, meilleure était la survie, notamment aux stades III–IV.\n\nCe lien s'explique très probablement par des biais : les patients qui vivent plus longtemps ont plus d'occasions de recevoir des séances (biais de temps immortel), et les plus fragiles arrêtent plus tôt. Le message utile est l'absence de signal de surmortalité.",
 "l3":{"points":["Survie médiane : 1,07 an (sans PBM) contre 1,66 an (avec).","Stades III–IV, radiochimiothérapie, plus de 5 séances : 1,83 an."],"limites":["Biais de temps immortel et de sélection majeurs.","Rétrospectif, mono-opérateur."],"pratique":"Absence de signal de surmortalité ; ne pas en conclure que la PBM prolonge la survie."}},
 
-{"pmid":"38840131","title_fr":"Interventions non médicamenteuses et nutrition, complications et qualité de vie en radiothérapie ORL : méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["ORL"],"aim":"prévention","mode":[],"nm":[],"n":2814,"effect":"favorable","theme":"Synthèse des preuves",
+{"pmid":"38840131","k":27,"title_fr":"Interventions non médicamenteuses et nutrition, complications et qualité de vie en radiothérapie ORL : méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["ORL"],"aim":"prévention","mode":[],"nm":[],"n":2814,"effect":"favorable","theme":"Synthèse des preuves",
 "metric":{"kind":"rr","outcome":"Mucite (toutes interventions non médicamenteuses)","rr":0.54,"lo":0.37,"hi":0.80,"k":27},
 "l1":"27 essais (2 814 patients ORL) : les interventions non médicamenteuses, dont le laser basse énergie, limitent la perte de poids et réduisent la mucite (RR 0,54).",
 "l2":"Méta-analyse de cinq familles d'interventions : nutrition, exercice, rééducation de la déglutition, soutien psychologique et laser basse énergie. En sous-groupes, le laser contribue à limiter la perte de poids.\n\nL'estimation sur la mucite mélange plusieurs interventions et ne reflète pas la PBM seule.",
@@ -120,7 +120,7 @@
 "l2":"Voir aussi les réponses des 31 octobre et 3 novembre 2024.",
 "l3":{"points":["Correspondance."],"limites":["Contenu non indexé."],"pratique":"—"}},
 
-{"pmid":"38792366","title_fr":"Effet de la PBM sur les cytokines salivaires des patients ORL avec mucite : revue systématique","type":"sr","level":3,"pop":"adulte","ctx":["ORL"],"aim":"les deux","mode":["laser"],"nm":[660],"n":null,"effect":"favorable","theme":"Mécanismes",
+{"pmid":"38792366","k":4,"title_fr":"Effet de la PBM sur les cytokines salivaires des patients ORL avec mucite : revue systématique","type":"sr","level":3,"pop":"adulte","ctx":["ORL"],"aim":"les deux","mode":["laser"],"nm":[660],"n":null,"effect":"favorable","theme":"Mécanismes",
 "l1":"Quatre études brésiliennes (660 nm) : la PBM réduit la sévérité de la mucite ; l'IL-6 est la cytokine la plus liée à la mucite.",
 "l2":"Première revue sur la PBM et les cytokines salivaires (recherche jusqu'en février 2024). Cytokines étudiées : IL-12p70, TNF-α, IL-6, IL-8, IL-10, CXCL8, IL-1β.\n\nRésultats variables selon les traitements anticancéreux et le recueil de salive.",
 "l3":{"points":["4 études, toutes InGaAlP 660 nm."],"limites":["Très peu d'études, toutes d'un même pays."],"pratique":"L'IL-6 salivaire pourrait servir de biomarqueur dans les essais."}},
@@ -166,7 +166,7 @@
 "l2":"Étude américaine de faisabilité : traitement quotidien jusqu'à J+20 ou la prise de greffe. 979 des 1 035 rencontres ont permis de traiter au moins quatre sites.\n\nPar rapport à des témoins appariés : moins de jours d'hospitalisation (p = 0,009) et une mucite moins sévère (p = 0,03). Le Children's Oncology Group recommande désormais la PBM.",
 "l3":{"points":["Faisabilité 93,3 % ; mucite de grade 3 : 20 % (IC95 % 9,1–35,6)."],"limites":["Témoins appariés non randomisés."],"pratique":"Faisable en routine en greffe pédiatrique."}},
 
-{"pmid":"38265122","title_fr":"Efficacité de la PBM dans la mucite des patients ORL : revue systématique et méta-analyse d'essais randomisés","type":"ma","level":1,"pop":"adulte","ctx":["ORL"],"aim":"les deux","mode":["laser"],"nm":[632.8,660],"n":869,"effect":"favorable","theme":"Synthèse des preuves","key":true,
+{"pmid":"38265122","k":14,"title_fr":"Efficacité de la PBM dans la mucite des patients ORL : revue systématique et méta-analyse d'essais randomisés","type":"ma","level":1,"pop":"adulte","ctx":["ORL"],"aim":"les deux","mode":["laser"],"nm":[632.8,660],"n":869,"effect":"favorable","theme":"Synthèse des preuves","key":true,
 "metric":{"kind":"rr","outcome":"Mucite sévère en fin de traitement","rr":0.45,"lo":0.24,"hi":0.85,"k":14},
 "l1":"Quatorze essais (869 patients ORL) : la PBM réduit la mucite sévère (RR 0,45 en fin de traitement) et la douleur ; les meilleurs résultats sont obtenus à faible puissance (10–25 mW).",
 "l2":"Méta-analyse dans Head & Neck (PubMed, Embase, Cochrane, LILACS, Web of Science ; 2000–octobre 2023). L'incidence de mucite baisse dès la 2e semaine (RR 0,49) et jusqu'à la 7e (RR 0,77) ; la mucite sévère baisse dès la 3e semaine (RR 0,51) et jusqu'à la fin (RR 0,45 ; IC95 % 0,24–0,85).\n\nLa douleur diminue d'environ 1 point (DMP −1,09). Les lasers He-Ne ou InGaAlP de 10 à 25 mW donnent les meilleurs résultats. L'hétérogénéité est forte sur certaines estimations (I² jusqu'à 89 %).",

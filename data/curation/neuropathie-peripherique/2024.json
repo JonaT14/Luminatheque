@@ -49,7 +49,7 @@
 "l2":"Critères principaux : symptômes et vitesse de conduction ; secondaires : qualité de vie, douleur, glycémie, HbA1c, effets indésirables.",
 "l3":{"points":["PROSPERO CRD42023466586."],"limites":["Protocole."],"pratique":"—"}},
 
-{"pmid":"39801094","title_fr":"Fréquence et prise en charge des lésions nerveuses après pose d'implant mandibulaire : revue systématique","type":"sr","level":3,"pop":"adulte","ctx":["lésion nerveuse","orofaciale"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"—","theme":"Neuropathies orofaciales",
+{"pmid":"39801094","k":38,"title_fr":"Fréquence et prise en charge des lésions nerveuses après pose d'implant mandibulaire : revue systématique","type":"sr","level":3,"pop":"adulte","ctx":["lésion nerveuse","orofaciale"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"—","theme":"Neuropathies orofaciales",
 "l1":"Après implant mandibulaire, 12 % des patients ont une neuropathie à une semaine et 5 % à 3 mois (90 % et 42 % avec latéralisation du nerf) ; le laser fait partie des traitements proposés.",
 "l2":"Revue de 38 études avec méta-analyse de prévalence. Le traitement le plus fréquent reste médicamenteux ; le laser et la dépose de l'implant sont les autres options.",
 "l3":{"points":["Latéralisation du nerf : risque multiplié par 8."],"limites":["Qualité des études variable."],"pratique":"—"}},

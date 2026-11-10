@@ -1,0 +1,55 @@
+name: Veille hebdomadaire
+# Chaque lundi à 4 h 17 UTC (avant les brouillons et les alertes), ou à la demande :
+#   1) interroge PubMed et Europe PMC pour chaque spécialité active (trois dernières semaines, pour rattraper
+#      les retards d'indexation) ;
+#   2) met à jour le statut des essais cliniques (ClinicalTrials.gov) ;
+#   3) reconstruit le site : tri de pertinence (scripts/pertinence.py) puis contrôle qualité (scripts/controle.py),
+#      qui bloque la publication en cas d'erreur ;
+#   4) publie. Les nouvelles publications arrivent en « notice indexée » ; elles ne deviennent « évaluées »
+#      qu'après lecture (page Brouillons ou rédaction manuelle, voir ROUTINE.md).
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      jours:
+        description: "Nombre de jours à remonter"
+        default: "21"
+permissions:
+  contents: write
+concurrency:
+  group: veille
+  cancel-in-progress: false
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3 lxml
+      - name: Collecter les nouvelles publications
+        run: |
+          DEPUIS=$(date -u -d "-${{ inputs.jours || '21' }} days" +%F)
+          for f in data/topics/*.json; do
+            t=$(basename "$f" .json)
+            if grep -q '"status": "à venir"' "$f"; then continue; fi
+            echo "::group::$t depuis $DEPUIS"
+            python3 scripts/fetch_pubmed.py --topic "$t" --since "$DEPUIS" || echo "::warning::collecte incomplète pour $t"
+            echo "::endgroup::"
+          done
+      - name: Mettre à jour les essais cliniques
+        continue-on-error: true
+        run: python3 scripts/fetch_trials.py
+      - name: Reconstruire le site (tri de pertinence et contrôle qualité)
+        run: python3 scripts/build_site.py
+      - name: Publier
+        run: |
+          git config user.name "Luminathèque (automate)"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data assets flux index.html
+          if git diff --cached --quiet; then echo "Rien de nouveau cette semaine."; exit 0; fi
+          git commit -m "Veille hebdomadaire automatique du $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done

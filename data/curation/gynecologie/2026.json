@@ -85,17 +85,17 @@
 "l2":"Revue enregistrée (PROSPERO). Deux essais laser contre placebo : pas de différence de douleur à 20–24 h ni à 40–48 h, ni de cicatrisation.",
 "l3":{"points":["LLLT contre placebo : DM 0,12 (IC95 % −1,74 à 1,98) à 20–24 h."],"limites":["Très peu d'essais poolés."],"pratique":"—"}},
 
-{"pmid":"41682644","title_fr":"PBM et douleur et cicatrisation après épisiotomie : revue systématique et méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":null,"effect":"neutre","theme":"Périnée post-partum",
+{"pmid":"41682644","k":8,"title_fr":"PBM et douleur et cicatrisation après épisiotomie : revue systématique et méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":null,"effect":"neutre","theme":"Périnée post-partum",
 "l1":"Huit études : pas de bénéfice significatif de la PBM sur la douleur (DMS 0,04) ni la cicatrisation après épisiotomie ; certitude GRADE très faible.",
 "l2":"Méta-analyse incluant essais randomisés et non randomisés. Hétérogénéité considérable (I² 91–94 %), plusieurs essais à risque de biais élevé.",
 "l3":{"points":["Douleur : DMS 0,04 (IC95 % −0,60 à 0,68)."],"limites":["Hétérogénéité très forte."],"pratique":"—"}},
 
-{"pmid":"41616809","title_fr":"Moyens électrophysiques contre la douleur périnéale aiguë après accouchement : méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":1970,"effect":"neutre","theme":"Périnée post-partum","key":true,
+{"pmid":"41616809","k":17,"title_fr":"Moyens électrophysiques contre la douleur périnéale aiguë après accouchement : méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":1970,"effect":"neutre","theme":"Périnée post-partum","key":true,
 "l1":"17 essais (1 970 accouchées) : la cryothérapie est la mieux prouvée contre la douleur périnéale ; le laser basse énergie n'est pas plus efficace que le placebo (confiance modérée).",
 "l2":"Méta-analyse avec GRADE. Cryothérapie : −1,57 point jusqu'à 4 h (confiance élevée). TENS : efficace associée aux soins de routine (confiance modérée). Laser : DM 0,03 contre placebo.",
 "l3":{"points":["LLLT contre placebo : DM 0,03 (IC95 % −0,69 à 0,76)."],"limites":["Protocoles laser souvent à faible dose."],"pratique":"Préférer la cryothérapie en première intention pour la douleur périnéale immédiate."}},
 
-{"pmid":"42857478","title_fr":"Rééducation physique de la morbidité périnéale post-partum : méta-analyse d'essais randomisés","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":null,"effect":"neutre","theme":"Périnée post-partum",
+{"pmid":"42857478","k":9,"title_fr":"Rééducation physique de la morbidité périnéale post-partum : méta-analyse d'essais randomisés","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":null,"effect":"neutre","theme":"Périnée post-partum",
 "l1":"Neuf essais : la TENS réduit la douleur périnéale à court terme (DMS −1,19), pas le laser basse énergie (DMS −0,16).",
 "l2":"Méta-analyse PRISMA 2020 (recherche jusqu'en avril 2026). Le refroidissement est favorable sur l'œdème et la douleur immédiate.",
 "l3":{"points":["LLLT : DMS −0,16 (IC95 % −0,52 à 0,19)."],"limites":["Peu d'essais par modalité."],"pratique":"—"}},

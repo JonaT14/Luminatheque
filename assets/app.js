@@ -434,9 +434,11 @@ function chartEffects(list) {
 /* ---------------- vues ---------------- */
 const app = () => $("#app");
 const NAV_LABEL = { home: "Accueil", recherche: "Bibliothèque", accueil: "Tableau de bord", publications: "Publications", syntheses: "Synthèses", comparer: "Comparateur", essais: "Études en cours", appareils: "Appareils", parametres: "Paramètres", patients: "Fiches patients", alertes: "Alertes par mail", brouillons: "Brouillons", securite: "Sécurité et médicolégal", methode: "Méthode" };
+const GLOBAL_NAV = new Set(["home", "recherche", "appareils", "patients", "securite", "methode", "alertes", "brouillons"]);
 function setNav(id) {
   $$("[data-nav]").forEach((a) => a.setAttribute("aria-current", a.dataset.nav === id ? "page" : "false"));
-  const glob = id === "home" || id === "recherche";
+  const glob = GLOBAL_NAV.has(id);
+  if (glob !== state.navGlob) { state.navGlob = glob; renderTopics(); }
   const c = $("#crumb"); if (c) c.innerHTML = glob ? `<b>${NAV_LABEL[id]}</b>` : `${esc(topic().label)} <span aria-hidden="true">/</span> <b>${NAV_LABEL[id] || ""}</b>`;
   document.title = id === "home" ? "Luminathèque · veille scientifique sur la photobiomodulation" : `${NAV_LABEL[id] || "Luminathèque"}${["accueil", "publications", "syntheses", "essais", "parametres"].includes(id) ? " · " + topic().label : ""} · Luminathèque`;
   const tl = $('.tool[data-nav="parametres"]'); if (tl) tl.setAttribute("href", P("parametres"));
@@ -455,7 +457,7 @@ function renderTopics() {
   const q = ($("#side-find")?.value || "").trim().toLowerCase();
   const norm = (x) => x.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
   const tile = (t) => `<span class="tile" aria-hidden="true">${esc(t.abbr || t.label.slice(0, 2))}</span>`;
-  const glob = cur === "home" || cur === "recherche";
+  const glob = GLOBAL_NAV.has(cur === "appareil" ? "appareils" : cur === "patient" ? "patients" : cur);
   box.innerHTML = D.topics.map((t) => { const n = t.n ?? 0; const on = t.id === state.topic && !isSoon(t) && !glob;
     const name = t.nav || t.short || t.label;
     if (!on && q && !norm(t.label + " " + name).includes(norm(q))) return "";
@@ -788,6 +790,7 @@ function viewPubs() {
       <div class="fgroup"><label class="check"><input type="checkbox" id="f-pdf" ${state.f.pdf ? "checked" : ""}> PDF disponible sur le site</label><label class="check"><input type="checkbox" id="f-key" ${state.f.key ? "checked" : ""}> Seulement « À retenir »</label><label class="check"><input type="checkbox" id="f-reco" ${state.f.reco ? "checked" : ""}> Recommandations et prises de position (WALT, MASCC, consensus)</label></div>
     </aside>
     <section style="min-width:0">
+      <h1 class="pub-h1">Publications <span>· ${esc(topic().label)}</span></h1>
       <div class="results-head"><span class="count"><b>${list.length}</b> publication${list.length > 1 ? "s" : ""}${state.q ? ` pour « ${esc(state.q)} »` : ""}</span>${list.length ? exportBtns("list", list.length <= 2000 ? null : null) : ""}
         <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">${levelSwitch(state.level)}
         <label class="muted" style="font:500 .8rem var(--f-display)">Trier <select id="sort" style="border:1px solid var(--line);border-radius:8px;padding:5px;background:var(--surface)">
@@ -1943,6 +1946,14 @@ async function route() {
   const h = legacyHash();
   if (h === "home") return viewLanding();
   if (h.startsWith("recherche")) return viewSearch(new URLSearchParams(h.split("?")[1] || "").get("q") || "");
+  if (h.startsWith("appareil-")) return viewDevices(h.slice(9));
+  if (h === "appareils") return viewDevices();
+  if (h.startsWith("patient-")) return viewPatient(h.slice(8));
+  if (h === "patients") return viewPatientsList();
+  if (h === "brouillons") return viewBrouillons();
+  if (h === "securite") return viewSecurite();
+  if (h.startsWith("securite-")) return viewDoc(h.slice(9));
+  if (h === "alertes" || h.startsWith("alertes?")) return viewAlertes(new URLSearchParams(h.split("?")[1] || ""));
   if (h.startsWith("article-") && window.LUMINA_S && !byId(h.slice(8))) { const r = window.LUMINA_S.rows.find((x) => x[0] === h.slice(8)); if (r) { applyTopic(window.LUMINA_S.topics[r[1]]); renderTopics(); } }
   if (!isSoon() && !LOADED.has(state.topic)) {
     app().innerHTML = `<div class="empty">Chargement de ${esc(topic().label)}…</div>`;
@@ -1954,14 +1965,6 @@ async function route() {
     if (!byId(id)) for (const t of D.topics.filter((x) => !isSoon(x))) { await ensureTopic(t.id); if (byId(id)) break; }
     return viewArticle(id);
   }
-  if (h.startsWith("appareil-")) return viewDevices(h.slice(9));
-  if (h === "appareils") return viewDevices();
-  if (h.startsWith("patient-")) return viewPatient(h.slice(8));
-  if (h === "patients") return viewPatientsList();
-  if (h === "brouillons") return viewBrouillons();
-  if (h === "securite") return viewSecurite();
-  if (h.startsWith("securite-")) return viewDoc(h.slice(9));
-  if (h === "alertes" || h.startsWith("alertes?")) return viewAlertes(new URLSearchParams(h.split("?")[1] || ""));
   if (isSoon() && h !== "methode") return viewSoon(NAV_LABEL[h] ? h : "accueil");
   await ({ publications: viewPubs, syntheses: viewSyntheses, essais: viewEssais, parametres: viewParams, comparer: viewCompare, methode: viewMethode }[h] || viewHome)();
   if (!h.startsWith("article-")) $("#selbar")?.toggleAttribute("hidden", !state.selected.size || h === "comparer");

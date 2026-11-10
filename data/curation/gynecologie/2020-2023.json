@@ -144,7 +144,7 @@
 "l2":"Essai en double aveugle : 2 J, 66,7 J/cm², 20 s. La douleur baisse d'environ 1 point dans les deux groupes. Publié en ligne en 2019, dans le numéro de 2020.",
 "l3":{"points":["Effets secondaires : picotements (10/36), piqûres (2/36)."],"limites":["Séance unique."],"pratique":"Une seule séance ne suffit pas ; les essais positifs utilisent plusieurs séances."}},
 
-{"pmid":"34733773","title_fr":"Laser thérapeutique pendant la grossesse : revue systématique","type":"sr","level":3,"pop":"adulte","ctx":["obstétrique"],"aim":"—","mode":[],"nm":[],"n":null,"effect":"—","theme":"Sécurité",
+{"pmid":"34733773","k":53,"title_fr":"Laser thérapeutique pendant la grossesse : revue systématique","type":"sr","level":3,"pop":"adulte","ctx":["obstétrique"],"aim":"—","mode":[],"nm":[],"n":null,"effect":"—","theme":"Sécurité",
 "l1":"Revue : le laser basse énergie pour les troubles musculosquelettiques n'est pas recommandé pendant la grossesse faute de données de sécurité.",
 "l2":"53 articles analysés en urologie, dermatologie, obstétrique et orthopédie.",
 "l3":{"points":["Pas de recommandation pour la PBM musculosquelettique pendant la grossesse."],"limites":["Peu de données."],"pratique":"Prudence : éviter la PBM sur l'abdomen et le bassin pendant la grossesse hors protocole."}},

@@ -70,7 +70,7 @@
 "l2":"Essai égyptien, 6 semaines. EVA −1 point de plus, SF-12 +9 points.",
 "l3":{"points":["Seuil de douleur à la pression augmenté."],"limites":["Pas de simulation."],"pratique":"—"}},
 
-{"pmid":"41450164","title_fr":"Dispositifs énergétiques et douleur et cicatrisation de l'épisiotomie : méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":1377,"effect":"neutre","theme":"Périnée post-partum",
+{"pmid":"41450164","k":13,"title_fr":"Dispositifs énergétiques et douleur et cicatrisation de l'épisiotomie : méta-analyse","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":1377,"effect":"neutre","theme":"Périnée post-partum",
 "l1":"Treize études (1 377 femmes) : l'infrarouge réduit un peu la douleur d'épisiotomie, le laser basse énergie ne fait pas mieux que le placebo.",
 "l2":"Laser contre placebo : douleur DMS −0,31 (NS), cicatrisation DMS 0,23 (NS).",
 "l3":{"points":["Infrarouge : DMS −0,50."],"limites":["Hétérogénéité."],"pratique":"—"}},
@@ -80,7 +80,7 @@
 "l2":"Essai brésilien bicentrique en double aveugle. La douleur baisse dans les deux groupes ; 84 % de satisfaction.",
 "l3":{"points":["NRS 30 min : 3,63 contre 2,53 (p = 0,089)."],"limites":["Séance unique."],"pratique":"Une application unique ne suffit pas."}},
 
-{"pmid":"40500396","title_fr":"PBM des lésions du mamelon pendant l'allaitement : méta-analyse d'essais randomisés","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":null,"effect":"favorable","theme":"Allaitement","key":true,
+{"pmid":"40500396","k":7,"title_fr":"PBM des lésions du mamelon pendant l'allaitement : méta-analyse d'essais randomisés","type":"ma","level":1,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":["laser"],"nm":[],"n":null,"effect":"favorable","theme":"Allaitement","key":true,
 "metric":{"kind":"rr","outcome":"Douleur à la tétée (OR)","rr":0.43,"lo":0.23,"hi":0.79,"k":7},
 "l1":"Sept essais : la PBM réduit la douleur à la tétée (OR 0,43), accélère la cicatrisation des lésions du mamelon et améliore la qualité de vie ; certitude faible.",
 "l2":"Revue enregistrée (PROSPERO), PRISMA 2020, GRADE. La plupart des essais sont à faible risque de biais.",
@@ -91,7 +91,7 @@
 "l2":"Recherche de 2022 ; résultat moins favorable que la méta-analyse de juin 2025 qui inclut sept essais.",
 "l3":{"points":["DM −0,60 (IC95 % −1,52 à 0,31)."],"limites":["Trois essais."],"pratique":"—"}},
 
-{"pmid":"39986110","title_fr":"Interventions non médicamenteuses du traumatisme périnéal post-partum : revue exploratoire","type":"sr","level":3,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"—","theme":"Périnée post-partum",
+{"pmid":"39986110","k":41,"title_fr":"Interventions non médicamenteuses du traumatisme périnéal post-partum : revue exploratoire","type":"sr","level":3,"pop":"adulte","ctx":["obstétrique"],"aim":"traitement","mode":[],"nm":[],"n":null,"effect":"—","theme":"Périnée post-partum",
 "l1":"41 études : la cryothérapie domine la recherche (54 %) ; la PBM fait partie des approches moins étudiées.",
 "l2":"Cartographie des interventions et des critères ; la douleur est le critère le plus fréquent.",
 "l3":{"points":["Épisiotomie : 48,7 % des études."],"limites":["Revue exploratoire."],"pratique":"—"}}
