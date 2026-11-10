@@ -35,12 +35,13 @@
     "17443572",
     "17530300",
     "17587446"
-   ]
+   ],
+   "maj": "2026-11-10"
   },
   "2010–2019": {
-   "headline": "Explosion des essais : ATM, sport, laser haute intensité",
-   "l1": "La décennie 2010 est la plus productive (260 fiches). Les troubles temporo-mandibulaires passent d'un résultat négatif (2012) à des méta-analyses favorables (2018). La PBM sportive (performance, récupération, CK) se structure. Le laser haute intensité apparaît. Les recommandations sont partagées : l'ACP 2017 propose le laser dans la lombalgie chronique, alors qu'une revue parapluie de 2018 le déconseille dans la gonarthrose.",
-   "l2": "ATM : la méta-analyse de 2012 ne montre aucune supériorité sur le placebo, celle de 2014 un effet surtout fonctionnel, puis deux méta-analyses de 2018 sont favorables sur la douleur myofasciale (preuve modérée). Sport : laser et LED avant l'effort améliorent la performance et la récupération (2013), réduisent la CK (2018). Rachis : effet modéré mais cliniquement important à court terme dans la lombalgie chronique (GRADE, 2016) ; recommandation ACP 2017 ; OPTIMa 2016 pour la cervicalgie.\n\nArthrose : la méta-analyse de 2015 et la revue parapluie de 2018 sont négatives dans la gonarthrose, mais la méta-analyse de 2019 aux doses recommandées est positive (−32 mm au pic). Tendons : épaule (2014) et aponévrosite plantaire (2019) favorables ; les ondes de choc restent mieux classées dans la plantaire (2018). Fibromyalgie : méta-analyse favorable en 2019, surtout associée à l'exercice. Le laser haute intensité arrive : méta-analyse rachidienne favorable en 2018, avec une hétérogénéité élevée.",
+   "headline": "Explosion des essais : ATM et sport",
+   "l1": "La décennie 2010 est la plus productive (233 fiches). Les troubles temporo-mandibulaires passent d'un résultat négatif (2012) à des méta-analyses favorables (2018). La PBM sportive (performance, récupération, CK) se structure. Les recommandations sont partagées : l'ACP 2017 propose le laser dans la lombalgie chronique, alors qu'une revue parapluie de 2018 le déconseille dans la gonarthrose.",
+   "l2": "ATM : la méta-analyse de 2012 ne montre aucune supériorité sur le placebo, celle de 2014 un effet surtout fonctionnel, puis deux méta-analyses de 2018 sont favorables sur la douleur myofasciale (preuve modérée). Sport : laser et LED avant l'effort améliorent la performance et la récupération (2013), réduisent la CK (2018). Rachis : effet modéré mais cliniquement important à court terme dans la lombalgie chronique (GRADE, 2016) ; recommandation ACP 2017 ; OPTIMa 2016 pour la cervicalgie.\n\nArthrose : la méta-analyse de 2015 et la revue parapluie de 2018 sont négatives dans la gonarthrose, mais la méta-analyse de 2019 aux doses recommandées est positive (−32 mm au pic). Tendons : épaule (2014) et aponévrosite plantaire (2019) favorables ; les ondes de choc restent mieux classées dans la plantaire (2018). Fibromyalgie : méta-analyse favorable en 2019, surtout associée à l'exercice.",
    "l3": [
     {
      "h": "Troubles temporo-mandibulaires",
@@ -62,27 +63,21 @@
    "refs": [
     "31662383",
     "30653125",
-    "30932879",
     "30982176",
     "31107161",
     "31151332",
     "30402199",
     "30412072",
     "30414367",
-    "30572425",
-    "29688827",
     "29697718"
-   ]
+   ],
+   "maj": "2026-11-10"
   },
   "2020–2022": {
-   "headline": "Le laser haute intensité se confirme ; des avis négatifs sur le rachis et le tendon d'Achille",
-   "l1": "Entre 2020 et 2022, le laser haute intensité accumule des méta-analyses favorables (gonarthrose, épicondylite). Les méta-analyses sur l'ATM précisent les paramètres (910–1 100 nm, dose limitée). En revanche, une revue du Journal of Physiotherapy (2020) ne soutient pas la PBM dans la lombalgie et la cervicalgie, et le tendon d'Achille reste peu étayé.",
-   "l2": "Gonarthrose : HILT favorable (2020) ; HILT et LLLT sont tous deux de bons compléments de l'exercice, avec un avantage au HILT (2021) ; paramètres efficaces 4–8 J par point, 640–905 nm (2022) [1]. ATM : énergie de 0 à 10 J/cm² recommandée (2020), longueurs d'onde de 910 à 1 100 nm les mieux classées, laser supérieur à la TENS (2021–2022) [2]. Muscle : récupération cliniquement importante après un effort intense (2021), endurance sans gain de force (2022).\n\nPoints négatifs : PBM non soutenue dans la douleur rachidienne (J Physiother, 2020), certitude faible dans la tendinopathie d'Achille (2020). La revue parapluie sur les tendinopathies (2020) place les ondes de choc devant le laser. Dans la plantaire, le laser soulage à court terme sans faire mieux que les ondes de choc (2021–2022). Les douleurs myofasciales cervicales et du trapèze progressent (deux méta-analyses favorables en 2022).",
+   "headline": "Des paramètres précisés pour l'ATM ; des avis négatifs sur le rachis et le tendon d'Achille",
+   "l1": "Entre 2020 et 2022, les méta-analyses sur l'ATM précisent les paramètres (910–1 100 nm, dose limitée). En revanche, une revue du Journal of Physiotherapy (2020) ne soutient pas la PBM dans la lombalgie et la cervicalgie, et le tendon d'Achille reste peu étayé.",
+   "l2": "Gonarthrose : HILT et LLLT sont tous deux de bons compléments de l'exercice, avec un avantage au HILT (2021) ; paramètres efficaces 4–8 J par point, 640–905 nm (2022) [1]. ATM : énergie de 0 à 10 J/cm² recommandée (2020), longueurs d'onde de 910 à 1 100 nm les mieux classées, laser supérieur à la TENS (2021–2022) [2]. Muscle : récupération cliniquement importante après un effort intense (2021), endurance sans gain de force (2022).\n\nPoints négatifs : PBM non soutenue dans la douleur rachidienne (J Physiother, 2020), certitude faible dans la tendinopathie d'Achille (2020). La revue parapluie sur les tendinopathies (2020) place les ondes de choc devant le laser. Dans la plantaire, le laser soulage à court terme sans faire mieux que les ondes de choc (2021–2022). Les douleurs myofasciales cervicales et du trapèze progressent (deux méta-analyses favorables en 2022).",
    "l3": [
-    {
-     "h": "HILT ou LLLT",
-     "p": "Avantage au HILT dans la gonarthrose (2021), mais pas de supériorité démontrée dans les autres indications à ce stade."
-    },
     {
      "h": "ATM",
      "p": "Premières méta-analyses dose-réponse : proche infrarouge, énergie modérée."
@@ -91,23 +86,22 @@
    "refs": [
     "36576096",
     "34289157",
-    "35512124",
     "35703499",
     "35802348",
     "35962884",
-    "36186780",
     "36171024",
     "36219747",
     "36263978",
     "36354093",
     "36571559",
     "35107512"
-   ]
+   ],
+   "maj": "2026-11-10"
   },
   "2023–2024": {
    "headline": "Recommandations ATM et revues parapluie",
-   "l1": "Entre 2023 et 2024, la recommandation BMJ 2023 sur la douleur temporo-mandibulaire chronique privilégie les thérapies cognitives et manuelles. Les méta-analyses sur la laser-acupuncture et le HILT dans l'ATM sont favorables mais à risque de biais. En gonarthrose, les lasers 904–905 nm et 785–850 nm se distinguent contre simulation (2024). Une méta-analyse ne trouve pas de supériorité du HILT sur le LLLT.",
-   "l2": "Arthrose : HILT favorable (−1,5 point, surtout avec l'exercice, 2023) ; bénéfice chez les plus de 60 ans qui font de l'exercice ; méta-analyse 2024 favorable selon la longueur d'onde, mais une autre méta-analyse 2024 juge la certitude très faible. Rachis : HILT favorable dans la cervicalgie (preuve modérée, 2023), la lombalgie (2023) et la radiculopathie cervicale (2024) ; l'effet de la laser-acupuncture dans la lombalgie ne dure pas.\n\nATM : recommandation BMJ 2023 ; laser-acupuncture et HILT favorables mais études à risque de biais ; luxation discale sans consensus. Épaule : HILT favorable dans l'épaule gelée (2023) et le conflit sous-acromial (2024). Tendons : revue parapluie du HILT favorable dans certaines pathologies, entorse de cheville (douleur seulement), méta-analyse HILT contre LLLT sans supériorité (2024). Sport : endurance améliorée surtout chez les sujets peu entraînés ; la douleur des blessés baisse sans retour au jeu plus rapide.",
+   "l1": "Entre 2023 et 2024, la recommandation BMJ 2023 sur la douleur temporo-mandibulaire chronique privilégie les thérapies cognitives et manuelles. En gonarthrose, les lasers 904–905 nm et 785–850 nm se distinguent contre simulation (2024). Une méta-analyse ne trouve pas de supériorité du HILT sur le LLLT.",
+   "l2": "Arthrose : bénéfice chez les plus de 60 ans qui font de l'exercice ; méta-analyse 2024 favorable selon la longueur d'onde, mais une autre méta-analyse 2024 juge la certitude très faible. Rachis : l'effet de la laser-acupuncture dans la lombalgie ne dure pas.\n\nATM : recommandation BMJ 2023 ; luxation discale sans consensus. Tendons : entorse de cheville (douleur seulement), méta-analyse HILT contre LLLT sans supériorité (2024). Sport : endurance améliorée surtout chez les sujets peu entraînés ; la douleur des blessés baisse sans retour au jeu plus rapide.",
    "l3": [
     {
      "h": "Laser-acupuncture",
@@ -120,7 +114,6 @@
    ],
    "refs": [
     "39367994",
-    "39652213",
     "38308258",
     "38317586",
     "38374226",
@@ -128,16 +121,16 @@
     "38648000",
     "38668764",
     "38685701",
-    "38709332",
     "38722392",
     "38758297",
     "38775202"
-   ]
+   ],
+   "maj": "2026-11-10"
   },
   "2025": {
    "headline": "Revue parapluie : fibromyalgie et arthrose en tête",
    "l1": "Une revue parapluie (Syst Rev 2025) hiérarchise les indications de la PBM : les preuves les plus solides concernent la fibromyalgie et l'incapacité liée à l'arthrose, avec une certitude faible à modérée. La Société japonaise de l'ATM suggère le laser basse énergie, et une méta-analyse de 40 essais précise la dose optimale dans les DTM.",
-   "l2": "ATM : recommandations japonaises 2025 (laser suggéré après exercices et gouttière) ; méta-analyse de 40 essais avec des repères concrets (951–1 070 nm, moins de 100 mW, 3–4 séances par semaine pendant 10 semaines)  [1]; essais avec gouttière ou laser-acupuncture favorables. Rachis : HILT en tête des agents biophysiques dans la cervicalgie ; méta-analyse HILT favorable dans la radiculopathie.\n\nTendons : méta-analyses sur l'épicondylite (LLLT plus constant sur la douleur, HILT sur la force ; laser équivalent aux ondes de choc) ; HILT sans supériorité sur l'attelle dans la De Quervain. Muscle : préconditionnement favorable (courbatures, performance à 24 h), sports de ballon. Os : méta-analyse en réseau favorable au LLLT sur la douleur des fractures. Gonarthrose : un classement en réseau place l'orthèse et l'exercice devant le laser.",
+   "l2": "ATM : recommandations japonaises 2025 (laser suggéré après exercices et gouttière) ; méta-analyse de 40 essais avec des repères concrets (951–1 070 nm, moins de 100 mW, 3–4 séances par semaine pendant 10 semaines)  [1]; essais avec gouttière ou laser-acupuncture favorables.\n\nTendons : méta-analyses sur l'épicondylite (LLLT plus constant sur la douleur, HILT sur la force ; laser équivalent aux ondes de choc). Muscle : préconditionnement favorable (courbatures, performance à 24 h), sports de ballon. Os : méta-analyse en réseau favorable au LLLT sur la douleur des fractures. Gonarthrose : un classement en réseau place l'orthèse et l'exercice devant le laser.",
    "l3": [
     {
      "h": "Recommandations",
@@ -148,7 +141,6 @@
     "41420455",
     "39845448",
     "39809999",
-    "39814632",
     "40096874",
     "40192971",
     "40205065",
@@ -158,12 +150,13 @@
     "40399068",
     "40437920",
     "40531843"
-   ]
+   ],
+   "maj": "2026-11-10"
   },
   "2026": {
    "headline": "Plus de recul, des essais plus rigoureux, des résultats plus nuancés",
-   "l1": "En 2026, le HILT se confirme dans les tendinopathies (effet croissant jusqu'à 16 semaines) et la PBM est en tête pour la douleur de la DTM myogène. Mais les essais rigoureux tempèrent : aucun bénéfice ajouté à l'exercice de contrôle moteur dans la lombalgie chronique (J Physiother, suivi 12 mois), ni à l'exercice dans la fasciite plantaire. Les recommandations SIMFER classent les agents physiques comme adjuvants, avec une certitude faible.",
-   "l2": "Favorables : HILT dans les tendinopathies et la coiffe des rotateurs (le LLLT seul a un effet limité), méta-analyse en réseau sur la DTM myogène (PBM en tête sur la douleur), HILT ou LLLT dans les troubles musculo-squelettiques, essais HILT dans la gonarthrose (supérieur aux ultrasons à 12 semaines), doigt à ressaut, épicondylite, épaule hémiplégique, ménisque. Une revue sur la puissance du HILT (classe IV, environ 10 W) donne des repères, avec un ton de plaidoyer.\n\nNégatifs ou neutres : PBM ajoutée au contrôle moteur dans la lombalgie, laser portable à domicile, HILT après dry needling, LLLT après arthrocentèse de l'ATM, renforcement chez le sujet âgé, fasciite plantaire avec exercices. La laser-acupuncture reste mitigée (paramètres mal rapportés), et la PBM et la gouttière sont équivalentes à 48 semaines dans la myalgie aiguë.",
+   "l1": "En 2026, la PBM est en tête pour la douleur de la DTM myogène. Mais les essais rigoureux tempèrent : aucun bénéfice ajouté à l'exercice de contrôle moteur dans la lombalgie chronique (J Physiother, suivi 12 mois), ni à l'exercice dans la fasciite plantaire. Les recommandations SIMFER classent les agents physiques comme adjuvants, avec une certitude faible.",
+   "l2": "Favorables : méta-analyse en réseau sur la DTM myogène (PBM en tête sur la douleur), HILT ou LLLT dans les troubles musculo-squelettiques, essais HILT dans la gonarthrose (supérieur aux ultrasons à 12 semaines), doigt à ressaut, épicondylite, épaule hémiplégique, ménisque.\n\nNégatifs ou neutres : PBM ajoutée au contrôle moteur dans la lombalgie, laser portable à domicile, LLLT après arthrocentèse de l'ATM, renforcement chez le sujet âgé, fasciite plantaire avec exercices. La laser-acupuncture reste mitigée (paramètres mal rapportés), et la PBM et la gouttière sont équivalentes à 48 semaines dans la myalgie aiguë.",
    "l3": [
     {
      "h": "Lombalgie chronique",
@@ -177,33 +170,32 @@
    "refs": [
     "41571928",
     "41697446",
-    "41964853",
     "42176209",
-    "42286680",
     "42332459",
     "42365270",
     "42473844",
     "42733098",
     "42900010"
-   ]
+   ],
+   "maj": "2026-11-10"
   }
  },
  "global": {
   "headline": "2000 → 2026 : la PBM en rééducation, un complément utile mais rarement décisif",
-  "l1": "En 26 ans et près de 680 fiches, la PBM musculo-squelettique s'est imposée comme un complément de l'exercice. Elle est la mieux étayée dans les troubles temporo-mandibulaires, l'épicondylite et les tendinopathies, la gonarthrose (aux doses WALT), la fibromyalgie et la récupération musculaire. Les preuves sont faibles ou négatives dans la lombalgie chronique en complément de l'exercice. Le laser haute intensité (HILT) gagne du terrain sans supériorité constante.",
-  "l2": "Ce qui se confirme : ATM (méta-analyses favorables depuis 2018, repères de dose 2025, recommandations japonaises 2025), épicondylite (dès 2008), gonarthrose quand la dose est respectée (2007, 2019, 2024), fibromyalgie (2019, revue parapluie 2025) et préconditionnement musculaire (2013–2025). Ce qui ne se confirme pas : la lombalgie chronique (Journal of Physiotherapy 2020 et 2026), la tendinopathie d'Achille et le gain de force chez le sujet âgé.\n\nCe qui reste débattu : le HILT contre le LLLT (avantage au HILT dans la gonarthrose et la coiffe, équivalence ailleurs), la laser-acupuncture (efficace dans plusieurs méta-analyses, mais à risque de biais), et les fractures (antalgie à court terme sans effet démontré sur la consolidation). Les recommandations (ACP 2017, OPTIMa, BMJ 2023, SIMFER 2026) placent la PBM au mieux en option complémentaire.",
+  "l1": "En 26 ans et près de 600 fiches, la PBM musculo-squelettique s'est imposée comme un complément de l'exercice. Elle est la mieux étayée dans les troubles temporo-mandibulaires, l'épicondylite et les tendinopathies, la gonarthrose (aux doses WALT), la fibromyalgie et la récupération musculaire. Les preuves sont faibles ou négatives dans la lombalgie chronique en complément de l'exercice.",
+  "l2": "Ce qui se confirme : ATM (méta-analyses favorables depuis 2018, repères de dose 2025, recommandations japonaises 2025), épicondylite (dès 2008), gonarthrose quand la dose est respectée (2007, 2019, 2024), fibromyalgie (2019, revue parapluie 2025) et préconditionnement musculaire (2013–2025). Ce qui ne se confirme pas : la lombalgie chronique (Journal of Physiotherapy 2020 et 2026), la tendinopathie d'Achille et le gain de force chez le sujet âgé.\n\nCe qui reste débattu : le HILT contre le LLLT, la laser-acupuncture (efficace dans plusieurs méta-analyses, mais à risque de biais), et les fractures (antalgie à court terme sans effet démontré sur la consolidation). Les recommandations (ACP 2017, OPTIMa, BMJ 2023, SIMFER 2026) placent la PBM au mieux en option complémentaire.",
   "l3": [
    {
     "h": "0. Le temps long",
-    "p": "2000–2009 : 85 fiches, l'ère des revues Cochrane et de la WALT. 2010–2019 : 263 fiches, explosion de l'ATM et du sport. Depuis 2020 : 339 fiches, dominées par le HILT, les méta-analyses en réseau et les comparaisons avec les ondes de choc."
+    "p": "2000–2009 : 84 fiches, l'ère des revues Cochrane et de la WALT. 2010–2019 : 233 fiches, explosion de l'ATM et du sport. Depuis 2020 : 272 fiches, avec des méta-analyses en réseau et des comparaisons avec les ondes de choc."
+   },
+   {
+    "h": "Hors du champ : le laser haute intensité",
+    "p": "Le laser haute intensité agit en partie par la chaleur et ne relève pas de la photobiomodulation, qui est une lumière de faible intensité (laser basse énergie, ou LLLT, et LED). Les études qui ne portent que sur lui ont été retirées ; il n'apparaît plus que comme comparateur du laser basse énergie."
    },
    {
     "h": "1. La dose, fil rouge de la discipline",
     "p": "Les méta-analyses qui stratifient selon la dose WALT sont positives là où les méta-analyses globales sont neutres (gonarthrose 2015 contre 2019). Lire une étude impose de vérifier J par point, longueur d'onde et nombre de séances."
-   },
-   {
-    "h": "2. Laser haute intensité",
-    "p": "Il est apparu vers 2015 et fait l'objet de plus de méta-analyses favorables depuis 2020 : gonarthrose, rachis, épaule, tendinopathies. Il n'est pas supérieur au LLLT dans la méta-analyse de 2024 ; il est mieux classé dans la coiffe en 2026."
    },
    {
     "h": "3. Toujours avec l'exercice",
@@ -233,10 +225,10 @@
      "cells": [
       "Cochrane contradictoire ; MA 2007 + (dose)",
       "MA 2015 négatif ; parapluie 2018 contre ; MA 2019 +",
-      "HILT + ; HILT ≥ LLLT",
+      "HILT ≥ LLLT",
       "904/850 nm + ; certitude très faible",
       "Classement en réseau : laser derrière l'exercice",
-      "HILT > ultrasons ; ménisque +"
+      "ménisque +"
      ]
     },
     {
@@ -245,9 +237,9 @@
       "Épicondylite + (dose) ; tendinopathies +",
       "Épaule + ; plantaire +",
       "Achille faible ; ondes de choc > laser",
-      "Parapluie HILT + ; HILT = LLLT",
+      "HILT = LLLT",
       "Épicondylite : LLLT ou HILT ≈ ondes de choc",
-      "HILT tendinopathies + ; plantaire + exercice = 0"
+      "plantaire + exercice = 0"
      ]
     },
     {
@@ -256,8 +248,8 @@
       "Cervicalgie + ; lombalgie insuffisant",
       "Lombalgie modéré + ; ACP 2017",
       "J Physiother : non soutenu",
-      "HILT cervical/lombaire +",
-      "HILT en tête (cervicalgie)",
+      "—",
+      "—",
       "Lombalgie + exercice : négligeable"
      ]
     },
@@ -299,9 +291,7 @@
   "refs": [
    "41571928",
    "41697446",
-   "41964853",
    "42176209",
-   "42286680",
    "42332459",
    "42365270",
    "42473844",
@@ -309,6 +299,7 @@
    "42900010",
    "39845448",
    "39809999"
-  ]
+  ],
+  "maj": "2026-11-10"
  }
 }

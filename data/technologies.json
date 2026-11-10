@@ -1,16 +1,46 @@
 {
- "intro": "Les études décrivent rarement leur appareil par sa marque, mais presque toujours par sa physique : source, longueur d'onde, puissance, surface, mode d'émission. Classer le matériel par technologie permet de savoir si un protocole publié est transposable à votre équipement, et à quelles conditions.",
+ "intro": "La photobiomodulation utilise une lumière de faible intensité : laser basse énergie (LLLT) ou LED. Les études décrivent rarement leur appareil par sa marque, mais presque toujours par sa physique : source, longueur d'onde, puissance, surface, mode d'émission. Classer le matériel par technologie permet de savoir si un protocole publié est transposable à votre équipement, et à quelles conditions.",
  "parametres": [
-  ["source", "Source lumineuse"],
-  ["coherence", "Cohérence et spectre"],
-  ["nm", "Longueurs d'onde usuelles"],
-  ["puissance", "Puissance de sortie"],
-  ["irradiance", "Irradiance au tissu"],
-  ["surface", "Surface traitée"],
-  ["emission", "Mode d'émission"],
-  ["thermique", "Effet thermique"],
-  ["securite", "Classe et norme"],
-  ["dose", "Unité de dose à rapporter"]
+  [
+   "source",
+   "Source lumineuse"
+  ],
+  [
+   "coherence",
+   "Cohérence et spectre"
+  ],
+  [
+   "nm",
+   "Longueurs d'onde usuelles"
+  ],
+  [
+   "puissance",
+   "Puissance de sortie"
+  ],
+  [
+   "irradiance",
+   "Irradiance au tissu"
+  ],
+  [
+   "surface",
+   "Surface traitée"
+  ],
+  [
+   "emission",
+   "Mode d'émission"
+  ],
+  [
+   "thermique",
+   "Effet thermique"
+  ],
+  [
+   "securite",
+   "Classe et norme"
+  ],
+  [
+   "dose",
+   "Unité de dose à rapporter"
+  ]
  ],
  "familles": [
   {
@@ -30,10 +60,25 @@
    "thermique": "Faible ; échauffement cutané possible au contact ou en séance longue",
    "securite": "Hors classes laser ; sécurité photobiologique selon IEC 62471 (groupes de risque 0 à 3)",
    "dose": "Fluence (J/cm²) = irradiance (W/cm²) × durée (s), à la distance réelle",
-   "forces": ["Couvre une grande surface en une seule exposition", "Risque faible, pas de balayage, usage simple", "Combine facilement plusieurs longueurs d'onde"],
-   "limites": ["L'irradiance chute avec la distance et n'est pas homogène sur le panneau", "Les valeurs des fabricants sont souvent mesurées au contact, au centre, ou estimées d'après la puissance électrique", "Les longueurs d'onde « polychromatiques » ne sont pas toutes actives à dose utile"],
-   "transposer": ["Mesurer l'irradiance au tissu, à la distance utilisée, avec un puissance-mètre (thermopile) plutôt que de reprendre la fiche technique", "Reproduire la fluence et l'irradiance : obtenir la même fluence avec une irradiance dix fois plus faible et un temps dix fois plus long ne donne pas forcément le même effet (réponse biphasique)", "Vérifier la longueur d'onde réelle de chaque bande et la part de puissance qu'elle représente"],
-   "types": ["led", "masque"]
+   "forces": [
+    "Couvre une grande surface en une seule exposition",
+    "Risque faible, pas de balayage, usage simple",
+    "Combine facilement plusieurs longueurs d'onde"
+   ],
+   "limites": [
+    "L'irradiance chute avec la distance et n'est pas homogène sur le panneau",
+    "Les valeurs des fabricants sont souvent mesurées au contact, au centre, ou estimées d'après la puissance électrique",
+    "Les longueurs d'onde « polychromatiques » ne sont pas toutes actives à dose utile"
+   ],
+   "transposer": [
+    "Mesurer l'irradiance au tissu, à la distance utilisée, avec un puissance-mètre (thermopile) plutôt que de reprendre la fiche technique",
+    "Reproduire la fluence et l'irradiance : obtenir la même fluence avec une irradiance dix fois plus faible et un temps dix fois plus long ne donne pas forcément le même effet (réponse biphasique)",
+    "Vérifier la longueur d'onde réelle de chaque bande et la part de puissance qu'elle représente"
+   ],
+   "types": [
+    "led",
+    "masque"
+   ]
   },
   {
    "id": "lllt",
@@ -52,32 +97,25 @@
    "thermique": "Négligeable aux puissances usuelles",
    "securite": "IEC 60825-1 classe 3B : faisceau direct dangereux pour l'œil ; lunettes EN 207 adaptées à la longueur d'onde",
    "dose": "Énergie par point (J) = puissance (W) × durée (s) ; nombre de points ; surface du spot",
-   "forces": ["Dosimétrie précise et reproductible", "Base des doses WALT et des recommandations MASCC/ISOO pour la mucite", "Matériel le plus étudié (6 000 publications indexées sur le site)"],
-   "limites": ["Petite surface traitée : séances longues sur une zone étendue", "La surface du spot, indispensable pour calculer la fluence, est souvent absente des articles", "La puissance réelle des diodes dérive avec le temps"],
-   "transposer": ["Reproduire la longueur d'onde, l'énergie par point et le nombre de points (c'est l'unité de la WALT)", "À puissance différente, ajuster la durée pour garder l'énergie ; l'irradiance, elle, changera", "Contrôler périodiquement la puissance de sortie de l'appareil"],
-   "types": ["laser-be", "acu"]
-  },
-  {
-   "id": "hplt",
-   "nom": "Lasers haute puissance (HPLT/HILT, classe 4)",
-   "court": "Laser 4",
-   "icon": "laser",
-   "couleur": "#7a1f3d",
-   "resume": "Cohérent, irradiance élevée, part thermique à gérer.",
-   "source": "Diodes laser de forte puissance ou laser Nd:YAG (1 064 nm)",
-   "coherence": "Cohérente ; souvent plusieurs longueurs d'onde combinées dans la pièce à main",
-   "nm": "650 à 1 064 nm (810, 915, 980, 1 064 nm fréquents)",
-   "puissance": "Plus de 500 mW, couramment 1 à 30 W ; crêtes du kilowatt en Nd:YAG pulsé",
-   "irradiance": "Élevée : de l'ordre du W/cm², d'où le balayage continu",
-   "surface": "Pièce à main de 1 à 30 cm², balayée sur une zone de plusieurs dizaines de cm²",
-   "emission": "Continu, pulsé ou impulsions longues de haute crête (HILT)",
-   "thermique": "Réelle : chaleur perçue, brûlure possible si le faisceau reste immobile",
-   "securite": "IEC 60825-1 classe 4 : risque oculaire et cutané ; lunettes EN 207, zone laser contrôlée, opérateur formé",
-   "dose": "Énergie totale (J) et densité d'énergie (J/cm²) = énergie / surface balayée",
-   "forces": ["Délivre une dose importante en quelques minutes", "Adapté aux zones étendues ou profondes (rachis, hanche, genou)", "Pièces à main défocalisées utilisables en PBM au cabinet dentaire"],
-   "limites": ["L'effet thermique se mêle à l'effet photobiologique", "La chaleur ressentie gêne l'aveugle des essais contre placebo", "Dose totale souvent rapportée sans la surface : la densité réelle reste inconnue"],
-   "transposer": ["Comparer la densité d'énergie (J/cm²), pas l'énergie totale : 3 000 J sur 100 cm² ou sur 300 cm² ne sont pas la même dose", "Reproduire la vitesse de balayage et la distance de la pièce à main", "Ne pas transposer un protocole HILT sur un laser 3B en allongeant simplement le temps : l'irradiance et la part thermique diffèrent"],
-   "types": ["laser-hi"]
+   "forces": [
+    "Dosimétrie précise et reproductible",
+    "Base des doses WALT et des recommandations MASCC/ISOO pour la mucite",
+    "Matériel le plus étudié (6 000 publications indexées sur le site)"
+   ],
+   "limites": [
+    "Petite surface traitée : séances longues sur une zone étendue",
+    "La surface du spot, indispensable pour calculer la fluence, est souvent absente des articles",
+    "La puissance réelle des diodes dérive avec le temps"
+   ],
+   "transposer": [
+    "Reproduire la longueur d'onde, l'énergie par point et le nombre de points (c'est l'unité de la WALT)",
+    "À puissance différente, ajuster la durée pour garder l'énergie ; l'irradiance, elle, changera",
+    "Contrôler périodiquement la puissance de sortie de l'appareil"
+   ],
+   "types": [
+    "laser-be",
+    "acu"
+   ]
   },
   {
    "id": "superpulse",
@@ -96,10 +134,24 @@
    "thermique": "Négligeable (rapport cyclique très faible)",
    "securite": "Classe laser selon la puissance moyenne (1M à 3B) ; lunettes adaptées au 905 nm",
    "dose": "Puissance moyenne = puissance crête × fréquence × durée d'impulsion ; énergie = puissance moyenne × durée",
-   "forces": ["Forte puissance crête sans échauffement", "Nombreux essais en sport et en récupération musculaire", "Paramètres de fréquence ajustables"],
-   "limites": ["La part propre du champ magnétique n'a pas été isolée par des essais dédiés", "Doses parfois exprimées en puissance crête, ce qui les surestime d'un facteur mille ou plus", "Protocoles souvent propres au fabricant"],
-   "transposer": ["Recalculer la puissance moyenne de chaque source (laser et LED) : exemple, 25 W crête × 5 000 Hz × 100 ns = 12,5 mW", "Changer la fréquence change la dose délivrée en un temps donné", "Un appareil sans champ magnétique ni LED associées ne reproduit pas l'intervention étudiée"],
-   "types": ["superpulse"]
+   "forces": [
+    "Forte puissance crête sans échauffement",
+    "Nombreux essais en sport et en récupération musculaire",
+    "Paramètres de fréquence ajustables"
+   ],
+   "limites": [
+    "La part propre du champ magnétique n'a pas été isolée par des essais dédiés",
+    "Doses parfois exprimées en puissance crête, ce qui les surestime d'un facteur mille ou plus",
+    "Protocoles souvent propres au fabricant"
+   ],
+   "transposer": [
+    "Recalculer la puissance moyenne de chaque source (laser et LED) : exemple, 25 W crête × 5 000 Hz × 100 ns = 12,5 mW",
+    "Changer la fréquence change la dose délivrée en un temps donné",
+    "Un appareil sans champ magnétique ni LED associées ne reproduit pas l'intervention étudiée"
+   ],
+   "types": [
+    "superpulse"
+   ]
   },
   {
    "id": "endo",
@@ -111,17 +163,32 @@
    "source": "LED ou diode laser sur sonde, embout ou gouttière (vaginale, intrabuccale, intranasale, auriculaire)",
    "coherence": "Selon la source : LED non cohérente ou laser cohérent",
    "nm": "630–660 nm et 810–980 nm",
-   "puissance": "10 mW à 1 W ; davantage pour les lasers dentaires défocalisés",
+   "puissance": "10 mW à 500 mW",
    "irradiance": "Modérée, au contact de la muqueuse",
    "surface": "Embout dentaire de 0,5 à 1 cm² ; sonde vaginale cylindrique de 20 à 60 cm²",
    "emission": "Continu ou pulsé",
    "thermique": "Faible ; la muqueuse est plus sensible que la peau",
    "securite": "Dispositif médical au contact : gaine à usage unique ou désinfection ; règles laser si diode laser",
    "dose": "Énergie par point ou fluence sur la muqueuse ; surface d'une sonde cylindrique = 2π × rayon × longueur éclairée",
-   "forces": ["Pas d'atténuation par la peau : la dose arrive directement sur le tissu cible", "Indications ciblées : mucite, orthodontie, syndrome génito-urinaire, rhinite", "Utilisable au cabinet ou à domicile selon le modèle"],
-   "limites": ["Essais encore petits pour les sondes vaginales", "Géométrie et surface éclairée rarement publiées", "Hygiène et tolérance de la muqueuse à surveiller"],
-   "transposer": ["Reproduire la longueur d'onde, la puissance, la durée et la géométrie de la sonde (surface éclairée)", "Pour la bouche, se référer aux doses MASCC/ISOO et WALT par point", "Pour une sonde vaginale, rapporter la dose à la surface du cylindre"],
-   "types": ["intrabuccal", "vaginal"]
+   "forces": [
+    "Pas d'atténuation par la peau : la dose arrive directement sur le tissu cible",
+    "Indications ciblées : mucite, orthodontie, syndrome génito-urinaire, rhinite",
+    "Utilisable au cabinet ou à domicile selon le modèle"
+   ],
+   "limites": [
+    "Essais encore petits pour les sondes vaginales",
+    "Géométrie et surface éclairée rarement publiées",
+    "Hygiène et tolérance de la muqueuse à surveiller"
+   ],
+   "transposer": [
+    "Reproduire la longueur d'onde, la puissance, la durée et la géométrie de la sonde (surface éclairée)",
+    "Pour la bouche, se référer aux doses MASCC/ISOO et WALT par point",
+    "Pour une sonde vaginale, rapporter la dose à la surface du cylindre"
+   ],
+   "types": [
+    "intrabuccal",
+    "vaginal"
+   ]
   },
   {
    "id": "corps",
@@ -140,15 +207,40 @@
    "thermique": "Chaleur générale modérée ; ventilation intégrée",
    "securite": "IEC 62471 ; lunettes ; vérifier les médicaments photosensibilisants",
    "dose": "Fluence à la peau = irradiance × durée (par exemple 30 mW/cm² × 600 s = 18 J/cm²)",
-   "forces": ["Traite tout le corps en 10 à 20 minutes", "Hypothèse d'effet systémique (récupération, douleur diffuse, fibromyalgie)", "Confort, aucune manipulation"],
-   "limites": ["Irradiance hétérogène entre le dos, les flancs et les extrémités", "Preuves surtout pilotes ; peu d'essais contre placebo", "Coût élevé, fiches techniques difficiles à vérifier"],
-   "transposer": ["Mesurer l'irradiance en plusieurs points (dos, cuisses, bras)", "Reproduire la durée, le nombre de séances et l'intervalle entre elles", "Deux lits de puissances différentes ne sont pas interchangeables (essai ARRC contre NovoTHOR)"],
-   "types": ["corps"]
+   "forces": [
+    "Traite tout le corps en 10 à 20 minutes",
+    "Hypothèse d'effet systémique (récupération, douleur diffuse, fibromyalgie)",
+    "Confort, aucune manipulation"
+   ],
+   "limites": [
+    "Irradiance hétérogène entre le dos, les flancs et les extrémités",
+    "Preuves surtout pilotes ; peu d'essais contre placebo",
+    "Coût élevé, fiches techniques difficiles à vérifier"
+   ],
+   "transposer": [
+    "Mesurer l'irradiance en plusieurs points (dos, cuisses, bras)",
+    "Reproduire la durée, le nombre de séances et l'intervalle entre elles",
+    "Deux lits de puissances différentes ne sont pas interchangeables (essai ARRC contre NovoTHOR)"
+   ],
+   "types": [
+    "corps"
+   ]
   }
  ],
  "dedies": {
   "nom": "Dispositifs dédiés à une indication",
   "texte": "Casques transcrâniens et capillaires, appareils ophtalmologiques, irradiation laser du sang, appareils domestiques : conçus pour un usage précis, avec des paramètres fixés par le fabricant. Un résultat ne se transpose qu'entre appareils de conception équivalente.",
-  "types": ["casque-tc", "casque-cap", "rlrl", "ophta", "ilib", "domicile"]
+  "types": [
+   "casque-tc",
+   "casque-cap",
+   "rlrl",
+   "ophta",
+   "ilib",
+   "domicile"
+  ]
+ },
+ "hors_champ": {
+  "nom": "Hors du champ : lasers de forte puissance",
+  "texte": "Les lasers haute intensité ou haute puissance (HILT, classe 4, plusieurs watts), les lasers CO2, Er:YAG, Nd:YAG, excimer ou à colorant pulsé et la lumière pulsée intense agissent par la chaleur, l'ablation ou la coagulation. Ce ne sont pas des appareils de photobiomodulation : ils ne figurent ni dans cette matrice ni dans les publications du site, sauf comme comparateurs du laser basse énergie."
  }
 }

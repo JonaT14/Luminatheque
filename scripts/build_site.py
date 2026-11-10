@@ -153,7 +153,7 @@ def auto_type(r: dict) -> tuple[str, int]:
 
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from pertinence import is_pbm  # noqa: E402  filtre des notices hors sujet
+from pertinence import is_pbm, non_pbm_laser  # noqa: E402  filtre des notices hors sujet
 from controle import check_cards  # noqa: E402  contrôle qualité des fiches avant publication
 TITRES_FR = json.loads((ROOT / "data/titres_fr.json").read_text()) if (ROOT / "data/titres_fr.json").exists() else {}  # traduction automatique
 QA_ERRORS: list = []
@@ -248,17 +248,21 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
                 raise SystemExit(f"PMID en double dans la curation : {c['pmid']}")
             curated[c["pmid"]] = c
     excluded = set(json.loads((cur_dir / "exclus.json").read_text())) if (cur_dir / "exclus.json").exists() else set()
-    errs, warns = check_cards(topic_id, list(curated.values()), {c for c, _ in SUBGROUP_RULES.get(topic_id, [])} | set(topic.get("subgroups") or []))
-    QA_ERRORS.extend(errs)
-    QA_WARNINGS.extend(warns)
     forced = set(json.loads((cur_dir / "inclus.json").read_text())) if (cur_dir / "inclus.json").exists() else set()
     offtopic = []
 
     articles, abstracts = [], {}
+    dropped = set()
     for pmid, c in curated.items():
         r = raw.get(pmid)
         if not r:
             raise SystemExit(f"PMID {pmid} curé mais absent de data/raw")
+        # une fiche rédigée est retirée si elle est exclue à la main ou si elle porte sur un laser hors PBM
+        why = "exclue après relecture" if pmid in excluded else ("" if pmid in forced else non_pbm_laser(r))
+        if why:
+            dropped.add(pmid)
+            offtopic.append([pmid, topic_id, article_date(r, since)[:4], r["title"][:200], why])
+            continue
         date = article_date(r, since)
         l3 = c.get("l3") or {}
         txt = " ".join([r.get("title", ""), " ".join(x["text"] if isinstance(x, dict) else str(x) for x in (r.get("abstract") or [])),
@@ -269,6 +273,9 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
             extra["nm"], extra["nm_auto"] = qt["nm_auto"], True
         articles.append({**c, **extra, **common(r, topic_id, date), "curated": True, "depth": depth_of(c),
                          "abstract": r.get("abstract", []), "keywords": r.get("keywords", [])[:10]})
+    errs, warns = check_cards(topic_id, [c for p, c in curated.items() if p not in dropped], {c for c, _ in SUBGROUP_RULES.get(topic_id, [])} | set(topic.get("subgroups") or []))
+    QA_ERRORS.extend(errs)
+    QA_WARNINGS.extend(warns)
     for pmid, r in raw.items():
         if pmid in curated or pmid in excluded:
             continue
@@ -625,6 +632,18 @@ def main() -> None:
                "drafts_file": drafts_file, "securite": json.loads((ROOT / "data/securite.json").read_text()) if (ROOT / "data/securite.json").exists() else None, "reco": json.loads((ROOT / "data/recommandations.json").read_text()) if (ROOT / "data/recommandations.json").exists() else None, "n_drafts": len(drafts), "repo": REPO,
                "alerts_api": ALERTS_API,
                "patients": json.loads((ROOT / "data/fiches_patients.json").read_text()) if (ROOT / "data/fiches_patients.json").exists() else []}
+    # les fiches paramètres et les fiches patients ne doivent citer que des publications encore publiées
+    published = {a["pmid"] for a in all_articles if a["curated"]}
+    for t in topics:
+        for p in t.get("params") or []:
+            for src in p.get("sources") or []:
+                if src not in published:
+                    QA_ERRORS.append(f"E5 {t['id']} : la fiche paramètres « {p['indication'][:50]} » cite {src}, qui n'a pas (ou plus) de fiche publiée")
+    fp = ROOT / "data/fiches_patients.json"
+    for f in (json.loads(fp.read_text()) if fp.exists() else []):
+        for src in f.get("sources") or []:
+            if src not in published:
+                QA_ERRORS.append(f"E5 fiche patient « {f['id']} » : cite {src}, qui n'a pas (ou plus) de fiche publiée")
     # contrôle qualité : aucune publication tant qu'une fiche contient une erreur (scripts/controle.py)
     if QA_WARNINGS:
         print(f"→ contrôle qualité : {len(QA_WARNINGS)} avertissement(s) non bloquant(s)")

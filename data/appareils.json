@@ -1,17 +1,7 @@
 [
  {
-  "id": "laser-hi",
-  "nom": "Laser haute intensité (classe IV)",
-  "kind": "type",
-  "icon": "laser",
-  "description": "Lasers de forte puissance (plusieurs watts), souvent pulsés, utilisés surtout en rééducation pour atteindre les tissus profonds.",
-  "lumiere": "plusieurs W, 810–1 064 nm",
-  "usage": "cabinet",
-  "rx": "high[- ]intensity laser|\\bhilt\\b|class iv laser|class 4 laser|high[- ]power laser|high[- ]power diode|nd:yag laser therapy|hilterapia"
- },
- {
   "id": "laser-be",
-  "nom": "Laser basse énergie (classe IIIb)",
+  "nom": "Laser basse énergie (LLLT, classe 3B)",
   "kind": "type",
   "icon": "laser",
   "description": "Lasers de faible puissance (quelques dizaines à quelques centaines de mW), appliqués point par point : c'est l'outil historique de la PBM.",
@@ -150,54 +140,6 @@
   "rx": "home[- ]based|home use|at[- ]home|self[- ]administered|wearable|portable device|home device"
  },
  {
-  "id": "mls",
-  "nom": "MLS (ASA)",
-  "kind": "marque",
-  "icon": "laser",
-  "fabricant": "ASA (Italie)",
-  "description": "Laser associant une émission continue à 808 nm et une émission pulsée à 905 nm synchronisées.",
-  "lumiere": "808 + 905 nm",
-  "usage": "cabinet",
-  "rx": "multiwave locked|\\bmls\\b|\\bm6 laser|asa laser|mphi",
-  "techno": "hplt"
- },
- {
-  "id": "klaser",
-  "nom": "K-Laser",
-  "kind": "marque",
-  "icon": "laser",
-  "fabricant": "Eltech K-Laser (Italie)",
-  "description": "Laser de classe IV à plusieurs longueurs d'onde, surtout utilisé en rééducation.",
-  "lumiere": "660–1 064 nm",
-  "usage": "cabinet",
-  "rx": "k-laser|k laser\\b",
-  "techno": "hplt"
- },
- {
-  "id": "btl",
-  "nom": "BTL (laser haute intensité)",
-  "kind": "marque",
-  "icon": "laser",
-  "fabricant": "BTL (République tchèque)",
-  "description": "Gamme de lasers haute intensité et basse énergie de rééducation.",
-  "lumiere": "1 064 nm (haute intensité)",
-  "usage": "cabinet",
-  "rx": "\\bbtl[- ]?\\d",
-  "techno": "hplt"
- },
- {
-  "id": "lightforce",
-  "nom": "LightForce (LiteCure)",
-  "kind": "marque",
-  "icon": "laser",
-  "fabricant": "LiteCure (États-Unis)",
-  "description": "Lasers thérapeutiques de classe IV.",
-  "lumiere": "variable",
-  "usage": "cabinet",
-  "rx": "lightforce|litecure",
-  "techno": "hplt"
- },
- {
   "id": "multiradiance",
   "nom": "Multi Radiance",
   "kind": "marque",
@@ -268,54 +210,6 @@
   "usage": "cabinet",
   "rx": "theralase|thera lase",
   "techno": "superpulse"
- },
- {
-  "id": "lumix",
-  "nom": "Lumix (Fisioline)",
-  "kind": "marque",
-  "icon": "laser",
-  "fabricant": "Fisioline (Italie)",
-  "description": "Laser haute puissance à super-impulsions.",
-  "lumiere": "proche infrarouge super-pulsé",
-  "usage": "cabinet",
-  "rx": "lumix",
-  "techno": "superpulse"
- },
- {
-  "id": "biolase",
-  "nom": "Biolase",
-  "kind": "marque",
-  "icon": "laser",
-  "fabricant": "Biolase (États-Unis)",
-  "description": "Lasers dentaires (diode, Er,Cr:YSGG) dont certains modes de PBM.",
-  "lumiere": "940 nm (diode)",
-  "usage": "cabinet",
-  "rx": "biolase|epic x|epic 10",
-  "techno": "hplt"
- },
- {
-  "id": "siro",
-  "nom": "SiroLaser (Dentsply Sirona)",
-  "kind": "marque",
-  "icon": "laser",
-  "fabricant": "Dentsply Sirona (Allemagne, États-Unis)",
-  "description": "Laser diode dentaire, utilisé aussi en PBM.",
-  "lumiere": "970 nm",
-  "usage": "cabinet",
-  "rx": "sirolaser",
-  "techno": "hplt"
- },
- {
-  "id": "doctorsmile",
-  "nom": "Doctor Smile (Lambda)",
-  "kind": "marque",
-  "icon": "laser",
-  "fabricant": "Lambda (Italie)",
-  "description": "Lasers dentaires, dont des pièces à main de PBM (embout plat).",
-  "lumiere": "810–980 nm",
-  "usage": "cabinet",
-  "rx": "doctor smile|lambda spa",
-  "techno": "hplt"
  },
  {
   "id": "orthopulse",
@@ -583,18 +477,6 @@
   "usage": "domicile",
   "rx": "b-cure",
   "techno": "lllt"
- },
- {
-  "id": "summus",
-  "nom": "Summus",
-  "kind": "marque",
-  "icon": "laser",
-  "fabricant": "Summus Medical Laser (États-Unis)",
-  "description": "Laser de classe IV.",
-  "lumiere": "variable",
-  "usage": "cabinet",
-  "rx": "summus",
-  "techno": "hplt"
  },
  {
   "id": "elixir",

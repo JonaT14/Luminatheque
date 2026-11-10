@@ -9,7 +9,7 @@
  "since": "2000-01-01",
  "cadence": "hebdomadaire",
  "hero": "le système nerveux central",
- "exclusions_note": "neuropathies périphériques (thème dédié), fibromyalgie (musculo-squelettique), ophtalmologie, stimulation magnétique ou électrique sans lumière, lasers chirurgicaux…",
+ "exclusions_note": "neuropathies périphériques (thème dédié), fibromyalgie (musculo-squelettique), ophtalmologie, stimulation magnétique ou électrique sans lumière, lasers chirurgicaux, lasers haute intensité ou haute puissance (HILT, classe 4), CO2, Er:YAG, Nd:YAG…",
  "subgroups": [
   "SEP",
   "SLA",

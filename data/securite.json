@@ -104,7 +104,7 @@
    "regle": "Le laser et les LED n'émettent pas de champ électromagnétique notable : pas d'interférence attendue. La prudence porte sur les appareils qui associent des champs magnétiques pulsés ou de l'électrostimulation.",
    "detail": [
     "Vérifier la notice de l'appareil de PBM (modules magnétiques ou électriques) et celle du dispositif implanté.",
-    "Ne pas appliquer un laser de forte puissance (classe IV) en regard direct du boîtier (échauffement)."
+    "Ne pas appliquer la sonde en regard direct du boîtier."
    ],
    "sources": [
     {
@@ -158,9 +158,9 @@
   },
   {
    "id": "brulure",
-   "titre": "Risque thermique (laser de forte puissance)",
+   "titre": "Échauffement cutané",
    "statut": "précaution",
-   "regle": "Avec un laser de classe IV : surveiller l'échauffement sur peau foncée, tatouage, zone insensible (neuropathie, cicatrice) ou fragile (rétinoïdes) ; préférer le mode pulsé ou balayer la zone.",
+   "regle": "La photobiomodulation ne doit pas chauffer. Surveiller malgré tout l'échauffement sur peau foncée, tatouage, zone insensible (neuropathie, cicatrice) ou fragile (rétinoïdes) ; préférer le mode pulsé ou balayer la zone.",
    "detail": [
     "Le mode pulsé réduit l'échauffement ressenti (AFSOS).",
     "Les doses WALT sont établies pour des peaux claires."

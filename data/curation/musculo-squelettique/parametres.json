@@ -10,7 +10,7 @@
    "Dose": "4–8 J par point",
    "Zone": "Interligne articulaire et capsule",
    "Séances": "10 à 16 séances",
-   "Appareil": "Laser basse énergie ; laser haute intensité"
+   "Appareil": "Laser basse énergie"
   },
   "conseils": [
    "Associer systématiquement à l'exercice."
@@ -28,22 +28,21 @@
   "ctx": "tendon",
   "indication": "Épicondylite et tendinopathies",
   "niveau": "prometteuse",
-  "resume": "À dose optimale, le laser appliqué sur l'insertion tendineuse soulage à court terme ; le laser haute intensité montre un effet croissant jusqu'à 16 semaines.",
+  "resume": "À dose optimale, le laser appliqué sur l'insertion tendineuse soulage à court terme.",
   "params": {
    "Longueur d'onde": "904 nm (et 632 nm)",
    "Puissance": "—",
    "Dose": "Doses WALT",
    "Zone": "Insertion tendineuse, points douloureux",
    "Séances": "Plusieurs séances par semaine pendant 4 à 8 semaines",
-   "Appareil": "Laser basse énergie ou haute intensité"
+   "Appareil": "Laser basse énergie"
   },
   "conseils": [
    "Associer aux exercices excentriques."
   ],
   "prudence": [],
   "sources": [
-   "18510742",
-   "41964853"
+   "18510742"
   ]
  },
  {
@@ -81,7 +80,7 @@
    "Dose": "—",
    "Zone": "Zone douloureuse",
    "Séances": "—",
-   "Appareil": "Laser basse énergie ou haute intensité"
+   "Appareil": "Laser basse énergie"
   },
   "conseils": [],
   "prudence": [
@@ -97,14 +96,14 @@
   "ctx": "épaule",
   "indication": "Conflit sous-acromial et tendinopathie de la coiffe",
   "niveau": "incertaine",
-  "resume": "Le laser basse énergie améliore la douleur sans effet sur l'incapacité ; le laser haute intensité fait mieux.",
+  "resume": "Le laser basse énergie améliore la douleur sans effet sur l'incapacité.",
   "params": {
    "Longueur d'onde": "—",
    "Puissance": "—",
    "Dose": "—",
    "Zone": "Coiffe des rotateurs",
    "Séances": "Réévaluer vers 12 séances",
-   "Appareil": "Laser haute intensité de préférence"
+   "Appareil": "Laser basse énergie"
   },
   "conseils": [],
   "prudence": [
@@ -113,27 +112,6 @@
   "sources": [
    "42733098",
    "41718549"
-  ]
- },
- {
-  "ctx": "tendon",
-  "indication": "Laser haute intensité (classe IV) : repères de puissance",
-  "niveau": "prometteuse",
-  "resume": "Dans les pathologies profondes, le laser de classe IV réduit durablement la douleur et a fait mieux que le laser basse énergie dans 13 comparaisons sur 13.",
-  "params": {
-   "Longueur d'onde": "810–1 064 nm",
-   "Puissance": "Moyenne 9,3 W ; densité médiane 10 W/cm²",
-   "Dose": "—",
-   "Zone": "Tissus profonds",
-   "Séances": "Cure de quelques semaines",
-   "Appareil": "Laser haute intensité"
-  },
-  "conseils": [],
-  "prudence": [
-   "Revue au ton de plaidoyer ; protocoles à affiner."
-  ],
-  "sources": [
-   "42819314"
   ]
  }
 ]

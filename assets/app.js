@@ -1162,7 +1162,7 @@ async function viewDevices(sel) {
   const topicsWith = D.topics.filter((t) => devs.some((x) => x.kind === kind && x.topics[t.id]));
   app().innerHTML = `<div class="view">
     <div style="display:grid;gap:12px"><span class="eyebrow">Appareils · tous thèmes</span><h1>Recherche par appareil</h1>
-      <p class="lead" style="max-width:72ch">Retrouvez les études et les essais en cours selon le type de matériel (laser haute intensité, casque, masque LED…) ou la marque citée dans les articles.</p></div>
+      <p class="lead" style="max-width:72ch">Retrouvez les études et les essais en cours selon le type de matériel (laser basse énergie, LED, casque, masque…) ou la marque citée dans les articles.</p></div>
     ${detail}
     <div class="ess-bar">${tabs}
       <input class="ess-q" id="devq" type="search" placeholder="Rechercher un appareil, un fabricant, une longueur d'onde…" value="${esc(state.devQ)}" aria-label="Rechercher un appareil"></div>
@@ -1221,6 +1221,7 @@ function viewTechno(devs, fid, tabs) {
       <tbody>${T.parametres.map(([k, l]) => row(k, l)).join("")}
         <tr class="tm-ev"><th scope="row">Littérature indexée</th>${fams.map((x) => `<td><b class="mono">${x.n}</b> études · <b class="mono">${x.nc}</b> fiches${x.n_trials ? ` · <b class="mono">${x.n_trials}</b> essais` : ""}${techEff(x)}</td>`).join("")}</tr>
         <tr><th scope="row"></th>${fams.map((x) => `<td><a class="btn small" href="/appareils/techno-${x.id}">Détails et études →</a></td>`).join("")}</tr></tbody></table></div>
+    ${T.hors_champ ? `<div class="callout"><b>${esc(T.hors_champ.nom)}</b> : ${esc(T.hors_champ.texte)}</div>` : ""}
     <a class="panel doc-strip" href="/appareils/techno-dedie">${devIcon("casque", 22)}<span><b>${esc(T.dedies.nom)}</b> : ${esc(T.dedies.texte)}</span><span class="muted">${T.dedies.n} études →</span></a>
     ${transpoCalc()}
   </div>`;
@@ -1369,7 +1370,7 @@ function dosimetryPanel(a, abs) {
 }
 /* « Adapter à mon appareil » : fluence ou énergie du protocole → temps d'illumination selon la machine */
 const MACH_PRESETS = [["Laser 3B · 100 mW, spot 0,5 cm²", 100, 0.5], ["Laser 3B · 50 mW, spot 0,1 cm²", 50, 0.1], ["Sonde multi-diodes · 200 mW, 5 cm²", 200, 5],
-  ["Panneau LED · 50 mW/cm² (à 15 cm)", 50, 1], ["Lit corps entier · 30 mW/cm²", 30, 1], ["Laser classe 4 · 6 W, 10 cm²", 6000, 10]];
+  ["Panneau LED · 50 mW/cm² (à 15 cm)", 50, 1], ["Lit corps entier · 30 mW/cm²", 30, 1]]; 
 const machines = () => store.get("machines", []);
 function parseDose(txt) {
   const t = String(txt || "").replace(/ /g, " ");
@@ -1633,7 +1634,8 @@ function viewMethode() {
       <p>Le sens des résultats, les synthèses et les comparaisons ne s'appuient que sur les publications évaluées et les analyses approfondies.</p>
       <div class="rs-table-wrap"><table class="rs-table"><thead><tr><th>Spécialité</th><th>Notices indexées</th><th>Évaluées</th><th>Analyses approfondies</th><th>Écartées (hors sujet)</th></tr></thead><tbody>${D.topics.filter((x) => !isSoon(x)).map((x) => `<tr><th>${esc(x.label)}</th><td>${(x.n - x.n_curated).toLocaleString("fr-FR")}</td><td>${x.n_curated - (x.n_deep || 0)}</td><td>${x.n_deep || 0}</td><td>${x.n_offtopic || 0}</td></tr>`).join("")}</tbody></table></div></section>
     <section class="panel prose" id="ecartees" style="max-width:none;scroll-margin-top:90px"><h2>Publications écartées comme hors sujet</h2>
-      <p>Les requêtes PubMed ramènent aussi des travaux qui ne portent pas sur la photobiomodulation : vélocimétrie laser, optogénétique, thérapie sonodynamique ou photodynamique, photopolymérisation de composites, éclairage LED… Une notice est conservée seulement si son titre, son résumé ou ses descripteurs décrivent une intervention de PBM. Elle est écartée si aucune intervention de PBM n'y figure, ou si son sujet principal est une autre technique. Le tri est automatique et vérifiable : les publications évaluées n'y sont jamais soumises, et une notice écartée à tort peut être réintégrée.</p>
+      <p><b>Ce que le site appelle photobiomodulation</b> : une lumière de faible intensité, sans effet thermique, délivrée par un laser basse énergie (LLLT, son ancien nom : <i>low-level laser therapy</i>) ou par des LED. Les lasers de forte puissance (haute intensité ou HILT, classe 4), les lasers CO2, Er:YAG, Nd:YAG, excimer ou à colorant pulsé, la lumière pulsée intense et les lasers chirurgicaux n'en font pas partie : une étude qui ne porte que sur eux est écartée, sauf si elle les compare à un bras de faible intensité.</p>
+      <p>Les requêtes PubMed ramènent aussi des travaux sans rapport avec la PBM : vélocimétrie laser, optogénétique, thérapie sonodynamique ou photodynamique, photopolymérisation de composites, éclairage LED… Une notice est conservée seulement si son titre, son résumé ou ses descripteurs décrivent une intervention de PBM. Elle est écartée si aucune intervention de PBM n'y figure, ou si son sujet principal est une autre technique. Le tri est automatique et vérifiable ; il s'applique aussi aux publications évaluées, et une étude écartée à tort peut être réintégrée.</p>
       <p><b>${D.topics.reduce((a, x) => a + (x.n_offtopic || 0), 0).toLocaleString("fr-FR")}</b> notices écartées à ce jour. <button class="btn small" data-offlist>Afficher la liste</button></p><div id="offlist"></div></section>
     <section class="panel prose" style="max-width:none"><h2>Trois niveaux de lecture</h2>
       <p><b>${levelBars(1)}Express</b> : une ou deux lignes, le résultat principal en chiffres.</p>

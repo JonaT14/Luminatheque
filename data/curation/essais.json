@@ -325,11 +325,6 @@
    "neurodev",
    "PBM transcrânienne et ergothérapie chez l'enfant autiste"
   ],
-  "CTRI/2026/02/102913": [
-   "musculo-squelettique",
-   "rachis",
-   "Ondes de choc contre laser de classe IV dans la coccygodynie"
-  ],
   "CTRI/2026/02/102952": [
    "musculo-squelettique",
    "ATM",
@@ -385,11 +380,6 @@
    "ATM",
    "Lumière contre la douleur des troubles de l'articulation temporo-mandibulaire"
   ],
-  "CTRI/2026/02/104613": [
-   "musculo-squelettique",
-   "tendon",
-   "Deux traitements de kinésithérapie (dont laser) contre la talalgie"
-  ],
   "CTRI/2026/03/105370": [
    "odontologie",
    "implants",
@@ -419,11 +409,6 @@
    "odontologie",
    "anesthésie",
    "Moyens de réduire la douleur de l'injection anesthésique (dont laser)"
-  ],
-  "CTRI/2026/03/106151": [
-   "musculo-squelettique",
-   "épaule",
-   "Ondes de choc contre laser haute intensité dans la capsulite rétractile"
   ],
   "CTRI/2026/03/106393": [
    "odontologie",
@@ -685,11 +670,6 @@
    "tendon",
    "Champs électromagnétiques pulsés contre laser dans la talalgie chronique"
   ],
-  "CTRI/2026/06/111900": [
-   "musculo-squelettique",
-   "rachis",
-   "Laser contre exercice dans la lombalgie chronique"
-  ],
   "CTRI/2026/06/111961": [
    "odontologie",
    "autres",
@@ -754,11 +734,6 @@
    "odontologie",
    "endo",
    "Laser basse énergie contre sham sur la douleur après traitement canalaire des molaires de lait"
-  ],
-  "CTRI/2026/07/113717": [
-   "musculo-squelettique",
-   "rachis",
-   "Laser haute intensité et exercice dans la lombalgie mécanique"
   ],
   "CTRI/2026/07/113812": [
    "odontologie",
@@ -869,11 +844,6 @@
    "musculo-squelettique",
    "ATM",
    "Laser basse énergie et force de morsure dans les troubles temporo-mandibulaires"
-  ],
-  "CTRI/2026/09/118339": [
-   "musculo-squelettique",
-   "rachis",
-   "Laser haute intensité dans la cervicalgie mécanique chronique"
   ],
   "CTRI/2026/09/118552": [
    "odontologie",
@@ -995,20 +965,10 @@
    "neurodev",
    "PBM transcrânienne chez l'enfant autiste"
   ],
-  "ChiCTR2600125698": [
-   "musculo-squelettique",
-   "rachis",
-   "Laser haute énergie et massage cervical dans la cervicarthrose"
-  ],
   "ChiCTR2600126126": [
    "neurologie",
    "neurodev",
    "PBM transcrânienne et interventions multiples chez l'enfant avec TDAH"
-  ],
-  "ChiCTR2600126398": [
-   "musculo-squelettique",
-   "arthrose",
-   "Laser haute intensité après prothèse de hanche : inflammation et fonction"
   ],
   "ChiCTR2600126780": [
    "neurologie",
@@ -1085,11 +1045,6 @@
    "diabète",
    "Modalités de kinésithérapie (dont laser) dans la neuropathie diabétique"
   ],
-  "IRCT20180507039571N6": [
-   "musculo-squelettique",
-   "rachis",
-   "Thérapie manuelle et laser dans la lombalgie"
-  ],
   "IRCT20190618043930N2": [
    "musculo-squelettique",
    "muscle",
@@ -1120,16 +1075,6 @@
    "rachis",
    "Laser dans la discopathie lombaire"
   ],
-  "IRCT20231203060255N3": [
-   "musculo-squelettique",
-   "rachis",
-   "Magnésium et laser haute puissance dans la radiculopathie lombaire chronique"
-  ],
-  "IRCT20231203060255N4": [
-   "musculo-squelettique",
-   "arthrose",
-   "Laser haute puissance interstitiel dans la gonarthrose"
-  ],
   "IRCT20231209060303N1": [
    "odontologie",
    "anesthésie",
@@ -1150,25 +1095,10 @@
    "diabète",
    "Laser basse puissance contre ultrasons basse fréquence dans la polyneuropathie diabétique"
   ],
-  "IRCT20240207060929N1": [
-   "musculo-squelettique",
-   "muscle",
-   "Ondes de choc radiales contre laser haute intensité dans le syndrome myofascial du trapèze"
-  ],
-  "IRCT20240317061317N1": [
-   "neuropathie-peripherique",
-   "compression",
-   "Laser et ondes de choc dans le canal carpien"
-  ],
   "IRCT20240518061830N1": [
    "neurologie",
    "parkinson",
    "Photobiomodulation et symptômes moteurs de la maladie de Parkinson"
-  ],
-  "IRCT20240618062163N1": [
-   "musculo-squelettique",
-   "tendon",
-   "Infiltration contre laser haute puissance dans le doigt à ressaut"
   ],
   "IRCT20240710062385N1": [
    "odontologie",
@@ -1179,11 +1109,6 @@
    "odontologie",
    "implants",
    "Laser basse énergie 940 nm et ostéo-intégration des implants postérieurs"
-  ],
-  "IRCT20240908062974N1": [
-   "dermatologie",
-   "plaies",
-   "Laser haute intensité et cicatrisation des plaies du diabétique"
   ],
   "IRCT20240916063064N1": [
    "neurologie",
@@ -1250,20 +1175,10 @@
    "ATM",
    "Laser basse énergie dans les troubles temporo-mandibulaires"
   ],
-  "IRCT20251008067547N1": [
-   "neuropathie-peripherique",
-   "diabète",
-   "Laser haute puissance contre kinésithérapie dans la polyneuropathie diabétique"
-  ],
   "IRCT20251013067608N1": [
    "musculo-squelettique",
    "ATM",
    "PBM associée à la bromélaïne orale dans le syndrome algo-dysfonctionnel de l'appareil manducateur"
-  ],
-  "IRCT20251015067641N1": [
-   "sport",
-   "performance",
-   "Laser haute puissance et fatigue musculaire de l'épaule chez l'adulte sain"
   ],
   "IRCT20251102067861N1": [
    "musculo-squelettique",
@@ -1295,20 +1210,10 @@
    "compression",
    "Laser et échographie du nerf médian dans le canal carpien"
   ],
-  "IRCT20260201068723N1": [
-   "neurologie",
-   "autres",
-   "Laser basse ou haute puissance dans la paralysie faciale de Bell"
-  ],
   "IRCT20260412069053N1": [
    "neurologie",
    "humeur",
    "Photobiomodulation et fonctions mentales dans le trouble obsessionnel compulsif"
-  ],
-  "IRCT20260420069117N1": [
-   "musculo-squelettique",
-   "arthrose",
-   "PRP avec ou sans laser haute puissance dans la gonarthrose"
   ],
   "ISRCTN12589862": [
    "mucite-orale",
@@ -1344,11 +1249,6 @@
    "musculo-squelettique",
    "ATM",
    "Laser-acupuncture des points Shu dans le dysfonctionnement temporo-mandibulaire"
-  ],
-  "ITMCTR2026001822": [
-   "musculo-squelettique",
-   "rachis",
-   "Ondes de choc et laser haute énergie dans la hernie discale lombaire"
   ],
   "JPRN-UMIN000054271": [
    "sport",
@@ -1435,11 +1335,6 @@
    "parkinson",
    "Illumination proche infrarouge intraventriculaire pour la neuroprotection du Parkinson débutant (France)"
   ],
-  "NCT04445545": [
-   "musculo-squelettique",
-   "fibro",
-   "Laser haute intensité sur les points gâchettes myofasciaux"
-  ],
   "NCT04671862": [
    "mucite-orale",
    "ORL",
@@ -1514,11 +1409,6 @@
    "odontologie",
    "ortho",
    "Dispositif OrthoPulse de photobiomodulation pendant le traitement orthodontique"
-  ],
-  "NCT05689788": [
-   "musculo-squelettique",
-   "rachis",
-   "Laser haute intensité contre sham dans la cervicalgie"
   ],
   "NCT05756959": [
    "ophtalmologie",
@@ -1740,11 +1630,6 @@
    "myopie",
    "Puissance et fréquence minimales de lumière rouge répétée pour freiner la myopie"
   ],
-  "NCT06732570": [
-   "musculo-squelettique",
-   "épaule",
-   "Laser haute intensité dans le conflit de l'épaule"
-  ],
   "NCT06732622": [
    "neuropathie-peripherique",
    "orofaciale",
@@ -1790,21 +1675,6 @@
    "ATM",
    "Laser basse énergie ou TENS dans la douleur myofasciale des DTM"
   ],
-  "NCT06793293": [
-   "gynecologie",
-   "obstétrique",
-   "Laser haute intensité contre la douleur de la cicatrice de césarienne"
-  ],
-  "NCT06803472": [
-   "dermatologie",
-   "cicatrices",
-   "Laser haute intensité pulsé ou ondes de choc sur les cicatrices hypertrophiques de brûlure"
-  ],
-  "NCT06812611": [
-   "musculo-squelettique",
-   "muscle",
-   "Laser haute intensité dans les lésions musculaires"
-  ],
   "NCT06819033": [
    "dermatologie",
    "inflammatoire",
@@ -1829,16 +1699,6 @@
    "neurologie",
    "parkinson",
    "Lumière rouge frontale dans les symptômes du Parkinson"
-  ],
-  "NCT06916650": [
-   "musculo-squelettique",
-   "épaule",
-   "Laser haute intensité, infiltration ou thérapie manuelle dans l'épaule gelée"
-  ],
-  "NCT06916676": [
-   "musculo-squelettique",
-   "arthrose",
-   "Optimisation de la dose de laser haute intensité dans la gonarthrose"
   ],
   "NCT06956404": [
    "neurologie",
@@ -1920,25 +1780,10 @@
    "rachis",
    "Laser-acupuncture contre la cervicalgie des patients hémodialysés"
   ],
-  "NCT07102602": [
-   "musculo-squelettique",
-   "muscle",
-   "Laser haute intensité préventif et fatigue musculaire"
-  ],
   "NCT07104513": [
    "ophtalmologie",
    "myopie",
    "Efficacité et facteurs prédictifs de la lumière rouge répétée dans la myopie"
-  ],
-  "NCT07108400": [
-   "musculo-squelettique",
-   "arthrose",
-   "Laser haute puissance, acide hyaluronique et rééducation dans la coxarthrose"
-  ],
-  "NCT07112742": [
-   "musculo-squelettique",
-   "arthrose",
-   "Laser haute intensité et exercice dans l'arthrose du pouce"
   ],
   "NCT07121686": [
    "dermatologie",
@@ -2015,11 +1860,6 @@
    "orofaciale",
    "Laser basse énergie dans la paralysie faciale de Bell"
   ],
-  "NCT07196800": [
-   "musculo-squelettique",
-   "rachis",
-   "Dose de laser haute puissance dans la cervicalgie non spécifique"
-  ],
   "NCT07204145": [
    "neurologie",
    "démences",
@@ -2070,11 +1910,6 @@
    "ortho",
    "Laser basse énergie et vitamine D sur le déplacement dentaire sous appareil fixe"
   ],
-  "NCT07287046": [
-   "musculo-squelettique",
-   "tendon",
-   "Laser haute intensité ou ondes de choc focalisées dans la fasciite plantaire"
-  ],
   "NCT07287527": [
    "neurologie",
    "démences",
@@ -2084,11 +1919,6 @@
    "neurologie",
    "autres",
    "Acupuncture, électroacupuncture ou laser-acupuncture dans la migraine : biomarqueurs"
-  ],
-  "NCT07294157": [
-   "neuropathie-peripherique",
-   "compression",
-   "Attelle de repos ou laser haute intensité dans le canal carpien"
   ],
   "NCT07307885": [
    "dermatologie",
@@ -2130,11 +1960,6 @@
    "AVC",
    "PBM et activité électrique cérébrale après AVC (aphasie)"
   ],
-  "NCT07328360": [
-   "neuropathie-peripherique",
-   "compression",
-   "Laser haute puissance dans la méralgie paresthésique"
-  ],
   "NCT07329712": [
    "ophtalmologie",
    "sécheresse",
@@ -2149,21 +1974,6 @@
    "ophtalmologie",
    "sécheresse",
    "Photothérapie basse énergie contre sham sur la surface oculaire dans la maladie de Basedow"
-  ],
-  "NCT07342426": [
-   "musculo-squelettique",
-   "tendon",
-   "Laser haute intensité à faible ou forte dose dans l'épicondylite latérale"
-  ],
-  "NCT07352787": [
-   "musculo-squelettique",
-   "fibro",
-   "Essai HILT-TRAP : laser haute intensité dans la douleur myofasciale du trapèze"
-  ],
-  "NCT07356362": [
-   "neuropathie-peripherique",
-   "autres",
-   "Laser haute puissance contre sham dans la notalgie paresthésique"
   ],
   "NCT07369804": [
    "ophtalmologie",
@@ -2205,16 +2015,6 @@
    "myopie",
    "Lumière rouge chez l'adulte fort ou très fort myope"
   ],
-  "NCT07414069": [
-   "neuropathie-peripherique",
-   "compression",
-   "Laser haute intensité contre sham dans le canal carpien : clinique, échographie, EMG"
-  ],
-  "NCT07419542": [
-   "gynecologie",
-   "GSM",
-   "Laser-acupuncture haute puissance contre les bouffées de chaleur de la ménopause"
-  ],
   "NCT07425080": [
    "gynecologie",
    "fertilité",
@@ -2224,11 +2024,6 @@
    "musculo-squelettique",
    "os",
    "PBM à domicile après ostéosynthèse d'une fracture du radius distal"
-  ],
-  "NCT07436650": [
-   "mucite-orale",
-   "CSH",
-   "Laser haute puissance contre la mucite de l'enfant greffé de CSH"
   ],
   "NCT07445945": [
    "neurologie",
@@ -2284,11 +2079,6 @@
    "ophtalmologie",
    "myopie",
    "Différentes interventions (dont lumière rouge) dans la myopie qui progresse sous orthokératologie"
-  ],
-  "NCT07501416": [
-   "musculo-squelettique",
-   "épaule",
-   "Laser haute intensité contre sham dans l'épaule douloureuse de l'hémiplégique"
   ],
   "NCT07510646": [
    "neurologie",
@@ -2355,25 +2145,10 @@
    "humeur",
    "Laser-acupuncture auriculaire et sommeil après cancer du sein"
   ],
-  "NCT07551245": [
-   "musculo-squelettique",
-   "arthrose",
-   "Laser haute intensité ou agents physiques classiques dans la gonarthrose"
-  ],
   "NCT07554690": [
    "ophtalmologie",
    "DMLA",
    "Laser de photobiomodulation contre sham dans les pseudo-drusen réticulés de la DMLA"
-  ],
-  "NCT07556926": [
-   "musculo-squelettique",
-   "rachis",
-   "Laser haute intensité et mobilisations de Mulligan dans la lombalgie chronique"
-  ],
-  "NCT07557524": [
-   "dermatologie",
-   "plaies",
-   "Laser haute intensité pulsé ou thérapie par pression négative dans les ulcères neuropathiques"
   ],
   "NCT07558720": [
    "odontologie",
@@ -2384,21 +2159,6 @@
    "musculo-squelettique",
    "tendon",
    "Ondes de choc ou laser basse énergie dans l'épicondylite latérale"
-  ],
-  "NCT07566507": [
-   "musculo-squelettique",
-   "arthrose",
-   "Laser haute énergie dans la rhizarthrose"
-  ],
-  "NCT07568288": [
-   "musculo-squelettique",
-   "épaule",
-   "Laser haute intensité après réparation arthroscopique de la coiffe des rotateurs"
-  ],
-  "NCT07584603": [
-   "musculo-squelettique",
-   "arthrose",
-   "Laser haute intensité et cartilage fémoral dans la gonarthrose"
   ],
   "NCT07588243": [
    "dermatologie",
@@ -2440,11 +2200,6 @@
    "diabète",
    "PBM contre sham dans la neuropathie diabétique"
   ],
-  "NCT07615920": [
-   "musculo-squelettique",
-   "épaule",
-   "Laser haute intensité ou ondes de choc dans la tendinopathie du supra-épineux"
-  ],
   "NCT07626580": [
    "odontologie",
    "ortho",
@@ -2460,20 +2215,10 @@
    "démences",
    "Vielight Neuro RX-Duo contre sham dans le trouble cognitif léger"
   ],
-  "NCT07654790": [
-   "musculo-squelettique",
-   "tendon",
-   "Ondes de choc ou laser haute intensité dans l'épicondylite chronique"
-  ],
   "NCT07658235": [
    "odontologie",
    "ortho",
    "Micro-ostéoperforations contre PBM 976 nm pour accélérer la rétraction de la canine maxillaire"
-  ],
-  "NCT07661407": [
-   "musculo-squelettique",
-   "arthrose",
-   "Laser haute intensité contre sham dans la gonarthrose"
   ],
   "NCT07661667": [
    "neuropathie-peripherique",
@@ -2485,16 +2230,6 @@
    "arthrose",
    "Laser ou ionophorèse dans la gonarthrose"
   ],
-  "NCT07667998": [
-   "musculo-squelettique",
-   "épaule",
-   "Laser haute intensité ou ondes de choc : épaisseur du tendon supra-épineux"
-  ],
-  "NCT07672327": [
-   "musculo-squelettique",
-   "tendon",
-   "Laser haute intensité, ondes courtes et ondes de choc dans la fasciite plantaire"
-  ],
   "NCT07680309": [
    "dermatologie",
    "plaies",
@@ -2504,11 +2239,6 @@
    "neuropathie-peripherique",
    "CIPN",
    "PBM dans la neuropathie périphérique débutante liée aux traitements du cancer (Belgique)"
-  ],
-  "NCT07688915": [
-   "musculo-squelettique",
-   "rachis",
-   "Laser haute intensité ou infiltration épidurale dans la radiculopathie par hernie lombaire"
   ],
   "NCT07697768": [
    "gynecologie",
@@ -2524,11 +2254,6 @@
    "neuropathie-peripherique",
    "compression",
    "PBM et neuroplasticité du nerf médian dans le canal carpien"
-  ],
-  "NCT07734922": [
-   "musculo-squelettique",
-   "os",
-   "Laser haute intensité et kinésithérapie pour la santé osseuse après la ménopause"
   ],
   "NCT07739147": [
    "dermatologie",
@@ -2675,20 +2400,10 @@
    "autres",
    "Laser-acupuncture 810 nm dans la migraine chronique : réponse clinique et imagerie"
   ],
-  "NCT07895862": [
-   "musculo-squelettique",
-   "muscle",
-   "Effets aigus du laser haute intensité sur la douleur, la raideur et la force chez le sujet sain"
-  ],
   "NCT07899866": [
    "dermatologie",
    "radiodermite",
    "Facteurs de radiodermite chez les patients ORL sous PBM préventive"
-  ],
-  "NCT07903142": [
-   "musculo-squelettique",
-   "tendon",
-   "Laser haute intensité, stimulation magnétique et ondes de choc dans les troubles musculo-squelettiques"
   ],
   "NCT07909720": [
    "ophtalmologie",
@@ -3130,11 +2845,6 @@
    "ATM",
    "Laser, douleur et mobilité dans les troubles de la région de la mâchoire"
   ],
-  "RBR-8hbr85z": [
-   "musculo-squelettique",
-   "muscle",
-   "Laser haute intensité dans les douleurs musculaires de la nuque et de l'épaule"
-  ],
   "RBR-8k9xz7z": [
    "sport",
    "populations",
@@ -3230,40 +2940,15 @@
    "ortho",
    "PBM au fauteuil contre la douleur après changement d'aligneur"
   ],
-  "TCTR20240521002": [
-   "musculo-squelettique",
-   "arthrose",
-   "Laser haute intensité contre ultrasons pulsés, avec exercice, dans la gonarthrose"
-  ],
   "TCTR20251007003": [
    "musculo-squelettique",
    "ATM",
    "Traitements non invasifs (dont laser) des troubles temporo-mandibulaires musculaires"
   ],
-  "TCTR20260127002": [
-   "neuropathie-peripherique",
-   "compression",
-   "Ondes de choc focalisées et laser haute intensité, seuls ou associés, dans le canal carpien"
-  ],
-  "TCTR20260205002": [
-   "musculo-squelettique",
-   "tendon",
-   "Laser haute intensité contre ondes de choc focalisées dans l'aponévrosite plantaire"
-  ],
   "TCTR20260310002": [
    "oncologie-support",
    "lymphœdème",
    "Laser basse énergie 2 ou 4 J/cm² dans le lymphœdème après cancer du sein"
-  ],
-  "TCTR20260320001": [
-   "musculo-squelettique",
-   "muscle",
-   "Kinésithérapie, laser haute puissance, ondes de choc ou stimulation magnétique dans les troubles musculo-squelettiques liés au travail"
-  ],
-  "TCTR20260420004": [
-   "musculo-squelettique",
-   "muscle",
-   "Stimulation magnétique périphérique contre laser haute intensité dans le syndrome myofascial du trapèze"
   ],
   "TCTR20260711003": [
    "dermatologie",
@@ -3274,6 +2959,11 @@
    "dermatologie",
    "cicatrices",
    "PRP activé par photobiomodulation dans les cicatrices d'acné (hémi-visage)"
+  ],
+  "IRCT20260201068723N1": [
+   "neurologie",
+   "autres",
+   "Laser basse ou haute puissance dans la paralysie faciale de Bell"
   ]
  },
  "exclus": [
@@ -3394,6 +3084,68 @@
   "RBR-6wn3v5g",
   "RBR-72nr8hc",
   "RBR-9vcph8x",
-  "TCTR20260908009"
+  "TCTR20260908009",
+  "NCT07557524",
+  "NCT06803472",
+  "NCT07895862",
+  "NCT07903142",
+  "NCT07568288",
+  "NCT07654790",
+  "NCT07734922",
+  "NCT07661407",
+  "NCT07615920",
+  "NCT07584603",
+  "NCT07667998",
+  "NCT07672327",
+  "NCT07556926",
+  "NCT07551245",
+  "NCT07501416",
+  "NCT07352787",
+  "NCT07342426",
+  "NCT06812611",
+  "NCT07566507",
+  "NCT07112742",
+  "NCT07688915",
+  "NCT04445545",
+  "NCT06916650",
+  "NCT06916676",
+  "NCT07196800",
+  "NCT07102602",
+  "NCT05689788",
+  "NCT06732570",
+  "NCT07108400",
+  "CTRI/2026/09/118339",
+  "ITMCTR2026001822",
+  "CTRI/2026/07/113717",
+  "CTRI/2026/06/111900",
+  "IRCT20260420069117N1",
+  "CTRI/2026/03/106151",
+  "TCTR20260320001",
+  "CTRI/2026/02/104613",
+  "ChiCTR2600125698",
+  "CTRI/2026/02/102913",
+  "TCTR20260205002",
+  "IRCT20180507039571N6",
+  "IRCT20231203060255N4",
+  "IRCT20231203060255N3",
+  "IRCT20240618062163N1",
+  "TCTR20240521002",
+  "IRCT20240207060929N1",
+  "NCT07436650",
+  "NCT07356362",
+  "NCT07328360",
+  "NCT07294157",
+  "NCT07414069",
+  "TCTR20260127002",
+  "IRCT20251008067547N1",
+  "IRCT20240317061317N1",
+  "NCT06793293",
+  "IRCT20251015067641N1",
+  "ChiCTR2600126398",
+  "IRCT20240908062974N1",
+  "NCT07287046",
+  "NCT07419542",
+  "RBR-8hbr85z",
+  "TCTR20260420004"
  ]
 }

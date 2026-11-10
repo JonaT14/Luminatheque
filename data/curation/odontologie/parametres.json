@@ -194,8 +194,8 @@
   "resume": "Méta-analyse de 205 patients : œdème réduit de 4 mm entre J5 et deux semaines et douleur nettement plus faible jusqu'à cinq semaines ; pas d'effet sur l'ouverture buccale.",
   "params": {
    "Longueur d'onde": "660–940 nm",
-   "Puissance": "100 mW (diode basse énergie) à quelques watts (940 nm haute puissance)",
-   "Dose": "3–12 J/cm² par point en basse énergie ; jusqu'à 70–85 J/cm² avec les lasers 940 nm de forte puissance",
+   "Puissance": "Environ 100 mW (diode basse énergie)",
+   "Dose": "3–12 J/cm² par point",
    "Zone": "Points extrabuccaux répartis sur la zone d'œdème (joues, angle mandibulaire), complétés en intrabuccal",
    "Séances": "Juste après l'intervention puis à 24 h, 48 h et 72 h, ou 2 à 3 fois par semaine pendant deux semaines",
    "Appareil": "Laser diode"
@@ -212,7 +212,6 @@
    "34791563",
    "35690502",
    "30803856",
-   "31678060",
    "37070708"
   ]
  }

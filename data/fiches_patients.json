@@ -27,14 +27,14 @@
   "seance": {
    "duree": "5 à 15 minutes",
    "ou": "Cabinet de kinésithérapie ou de rééducation",
-   "sensation": "Rien, ou une chaleur douce (laser haute intensité)",
+   "sensation": "Rien, ou une très légère chaleur",
    "qui": "Un kinésithérapeute ou un médecin"
   },
   "calendrier": {
    "par_semaine": 3,
    "semaines": 4,
    "texte": "Environ 10 à 16 séances, deux à trois fois par semaine.",
-  "total": "10–16"
+   "total": "10–16"
   },
   "attentes": "Le soulagement apparaît en général en 2 à 4 semaines. Il est plus net quand les exercices sont poursuivis.",
   "securite": [
@@ -319,7 +319,7 @@
    ],
    [
     "loupe",
-    "Utile à court terme ; le laser haute intensité est le mieux étudié aujourd'hui."
+    "Utile à court terme."
    ]
   ],
   "seance": {
@@ -350,8 +350,7 @@
    ]
   ],
   "sources": [
-   "18510742",
-   "41964853"
+   "18510742"
   ]
  },
  {

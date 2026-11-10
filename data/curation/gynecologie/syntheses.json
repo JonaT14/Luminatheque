@@ -144,7 +144,7 @@
   "2000–2019": {
    "headline": "Vingt ans de pionniers : obstétrique, dysménorrhée et premiers essais vulvaires",
    "l1": "Avant 2020, la PBM en gynécologie reste marginale : une vingtaine d'études, surtout en obstétrique (mamelons, épisiotomie), dans la dysménorrhée et, à la fin de la période, dans la vulve (vestibulodynie, lichen scléreux). Les patchs lumineux contre la dysménorrhée et le laser contre les crevasses sont positifs ; le laser après épisiotomie ne l'est pas.",
-   "l2": "En obstétrique, le laser après épisiotomie échoue dans trois essais (52, 114 et 54 femmes), alors que la LED et le laser 660 nm soulagent les lésions et la douleur des mamelons (8 et 59 femmes). Le laser sur la cicatrice de césarienne ne perturbe pas l'allaitement. La laser-acupuncture ne réduit ni les bouffées de chaleur (40 femmes) ni la dysménorrhée (48 femmes), mais un patch lumineux adhésif est efficace dans deux essais coréens (31 puis 88 femmes, −4,3 contre −1,8 points) [1].\n\nÀ la fin de la décennie apparaissent les premiers essais vulvaires et pelviens : vestibulodynie (78 % contre 44 % d'amélioration, critère principal seulement), lichen scléreux (Nd:YAG non ablatif > dermocorticoïdes), endométriose (laser haute intensité pulsé, douleur et qualité de vie). Trois protocoles brésiliens annoncent les essais de la décennie suivante.",
+   "l2": "En obstétrique, le laser après épisiotomie échoue dans trois essais (52, 114 et 54 femmes), alors que la LED et le laser 660 nm soulagent les lésions et la douleur des mamelons (8 et 59 femmes). Le laser sur la cicatrice de césarienne ne perturbe pas l'allaitement. La laser-acupuncture ne réduit ni les bouffées de chaleur (40 femmes) ni la dysménorrhée (48 femmes), mais un patch lumineux adhésif est efficace dans deux essais coréens (31 puis 88 femmes, −4,3 contre −1,8 points) [1].\n\nTrois protocoles brésiliens annoncent les essais de la décennie suivante.",
    "l3": [
     {
      "h": "Obstétrique",
@@ -156,12 +156,11 @@
     },
     {
      "h": "Vulve et pelvis",
-     "p": "Vestibulodynie (34 femmes) : amélioration chez 78 % contre 44 %. Lichen scléreux : Nd:YAG non ablatif > corticoïdes jusqu'à 6 mois (40 femmes). Endométriose : laser haute intensité pulsé, douleur et adhérences réduites (40 femmes)."
+     "p": "Vestibulodynie (34 femmes) : amélioration chez 78 % contre 44 %."
     }
    ],
    "refs": [
-    "26797192",
-    "30981618"
+    "26797192"
    ]
   }
  },
@@ -227,7 +226,7 @@
     {
      "label": "Vulve & vagin",
      "cells": [
-      "Vestibulodynie (pilote) ; lichen Nd:YAG > corticoïdes",
+      "Vestibulodynie (pilote)",
       "Revue lasers vulvodynie",
       "Lichen scléreux (100) ; candidose ECR",
       "Vestibulodynie : ECR positif",

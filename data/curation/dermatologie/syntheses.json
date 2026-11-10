@@ -63,7 +63,7 @@
   "2020–2022": {
    "headline": "Méta-analyses en série et position de la WALT",
    "l1": "Les méta-analyses sur le pied diabétique (2020, 2021) et sur l'alopécie (2020, 2022) se multiplient et restent favorables. En radiodermite, les essais sont contrastés (LABRA négatif, DERMISHEAD positif) ; la WALT 2022 classe la radiodermite parmi les toxicités où la PBM est bien étayée.",
-   "l2": "Pied diabétique : trois méta-analyses d'essais randomisés favorables, dont une qui recense les paramètres les plus utilisés. La PBM à domicile chez des patients fragiles et le laser haute intensité dans les plaies réfractaires (60 patients) élargissent l'usage. Alopécie : méta-analyses des traitements combinés et méta-analyse par bande de longueur d'onde (2022).\n\nRadiodermite : LABRA (radiothérapie hypofractionnée, 71 patientes) est négatif, DERMISHEAD (ORL, 46 patients) est positif, et la méta-analyse de 2021 est mitigée. En inflammatoire, le lichen plan buccal et les lésions buccales du pemphigus progressent ; dans l'herpès labial, une méta-analyse (2022) et un essai de prévention sur 2 ans sont favorables. Côté cicatrices, la LED rouge en hémivisage et la LED 830 nm après thyroïdectomie (double aveugle) sont positives.",
+   "l2": "Pied diabétique : trois méta-analyses d'essais randomisés favorables, dont une qui recense les paramètres les plus utilisés. Alopécie : méta-analyses des traitements combinés et méta-analyse par bande de longueur d'onde (2022).\n\nRadiodermite : LABRA (radiothérapie hypofractionnée, 71 patientes) est négatif, DERMISHEAD (ORL, 46 patients) est positif, et la méta-analyse de 2021 est mitigée. En inflammatoire, le lichen plan buccal et les lésions buccales du pemphigus progressent ; dans l'herpès labial, une méta-analyse (2022) et un essai de prévention sur 2 ans sont favorables. Côté cicatrices, la LED rouge en hémivisage et la LED 830 nm après thyroïdectomie (double aveugle) sont positives.",
    "l3": [
     {
      "h": "Radiodermite",
@@ -112,8 +112,6 @@
     "38387618",
     "38598529",
     "38725143",
-    "38837237",
-    "38902432",
     "39404126",
     "39426526",
     "36755885",
@@ -136,7 +134,6 @@
     "39828269",
     "40335193",
     "39982518",
-    "40108006",
     "40186874",
     "40253006",
     "40419363",
@@ -171,7 +168,7 @@
   "l3": [
    {
     "h": "0. Le temps long",
-    "p": "2000–2009 : 29 fiches, surtout des ulcères veineux négatifs. 2010–2019 : 91 fiches, avec l'essor du pied diabétique et de l'alopécie. Depuis 2020 : 137 fiches, des méta-analyses en série et l'arrivée des recommandations (WALT 2022, MASCC 2023, JAAD 2025)."
+    "p": "2000–2009 : 29 fiches, surtout des ulcères veineux négatifs. 2010–2019 : 90 fiches, avec l'essor du pied diabétique et de l'alopécie. Depuis 2020 : 134 fiches, des méta-analyses en série et l'arrivée des recommandations (WALT 2022, MASCC 2023, JAAD 2025)."
    },
    {
     "h": "1. Hors du champ : les lasers ablatifs et vasculaires",
@@ -277,7 +274,6 @@
    "39828269",
    "40335193",
    "39982518",
-   "40108006",
    "40186874",
    "40253006",
    "40419363"

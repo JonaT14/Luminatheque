@@ -49,22 +49,21 @@
   "ctx": "compression",
   "indication": "Syndrome du canal carpien",
   "niveau": "incertaine",
-  "resume": "Pas de preuve forte ; les meilleurs résultats sont obtenus dans une fenêtre de longueur d'onde et de dose. Le laser haute intensité a une preuve modérée à court terme.",
+  "resume": "Pas de preuve forte ; les meilleurs résultats sont obtenus dans une fenêtre de longueur d'onde et de dose.",
   "params": {
    "Longueur d'onde": "780–860 nm",
    "Puissance": "—",
    "Dose": "9–11 J/cm²",
    "Zone": "Canal carpien, trajet du nerf médian",
    "Séances": "Cure courte (2 à 4 semaines)",
-   "Appareil": "Laser basse énergie ou haute intensité"
+   "Appareil": "Laser basse énergie"
   },
   "conseils": [],
   "prudence": [
    "Effet à long terme peu documenté."
   ],
   "sources": [
-   "28272964",
-   "38207201"
+   "28272964"
   ]
  },
  {
