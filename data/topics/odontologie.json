@@ -1,17 +1,20 @@
 {
  "id": "odontologie",
  "code": "od",
- "label": "Odontologie",
- "short": "Odontologie",
+ "label": "Odonto-chirurgie maxillo-faciale",
+ "short": "Odonto · CMF",
  "color": "#8a5cf6",
  "status": "actif",
- "description": "Photobiomodulation en odontologie et chirurgie orale : dents de sagesse et extractions, orthodontie, implants, parodontologie, hypersensibilité dentinaire, endodontie, ostéonécrose des mâchoires, anesthésie et anxiété au fauteuil.",
+ "description": "Photobiomodulation en odontologie et en chirurgie maxillo-faciale : dents de sagesse et extractions, chirurgie orthognathique et troubles sensitifs du nerf alvéolaire inférieur, fractures et reconstruction des mâchoires, fentes labio-palatines, orthodontie, implants, parodontologie, hypersensibilité dentinaire, endodontie, ostéonécrose des mâchoires, anesthésie et anxiété au fauteuil.",
  "since": "2000-01-01",
  "cadence": "hebdomadaire",
- "hero": "la sphère bucco-dentaire",
+ "hero": "la sphère bucco-dentaire et maxillo-faciale",
  "exclusions_note": "mucite (thème dédié), troubles de l'ATM (musculo-squelettique), lésions nerveuses (neuropathies), lasers chirurgicaux ou de désinfection seuls, photothérapie dynamique antimicrobienne…",
  "subgroups": [
   "chirurgie",
+  "orthognathique",
+  "traumato",
+  "fentes",
   "ortho",
   "implants",
   "paro",
@@ -21,8 +24,8 @@
   "anesthésie",
   "autres"
  ],
- "pubmed_query": "(\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"low-intensity laser\"[tiab] OR \"low-power laser\"[tiab] OR \"LLLT\"[tiab] OR \"PBMT\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"light-emitting diode\"[tiab] OR \"laser acupuncture\"[tiab] OR \"repeated low-level red-light\"[tiab] OR \"low-level red light\"[tiab] OR \"red light therapy\"[tiab] OR \"high-intensity laser\"[tiab] OR \"laser biostimulation\"[tiab]) AND (\"dental\"[tiab] OR \"tooth\"[tiab] OR \"teeth\"[tiab] OR \"third molar\"[tiab] OR \"orthodontic*\"[tiab] OR \"implant*\"[tiab] OR \"periodont*\"[tiab] OR \"dentin*\"[tiab] OR \"endodontic\"[tiab] OR \"extraction\"[tiab] OR \"Stomatognathic Diseases\"[MeSH] OR \"osteonecrosis of the jaw\"[tiab] OR \"gingiv*\"[tiab]) NOT (\"photodynamic\"[ti] OR \"mucositis\"[ti])",
- "trials_cond": "\"third molar\" OR \"tooth extraction\" OR orthodontic OR \"dental implant\" OR periodontitis OR \"dentin hypersensitivity\" OR endodontic OR \"osteonecrosis of the jaw\" OR \"dental anxiety\" OR \"dental pain\" OR gingivitis OR \"alveolar osteitis\"",
+ "pubmed_query": "(\"photobiomodulation\"[tiab] OR \"low-level laser\"[tiab] OR \"low level laser\"[tiab] OR \"low-intensity laser\"[tiab] OR \"low-power laser\"[tiab] OR \"LLLT\"[tiab] OR \"PBMT\"[tiab] OR \"Low-Level Light Therapy\"[MeSH] OR \"light-emitting diode\"[tiab] OR \"laser acupuncture\"[tiab] OR \"repeated low-level red-light\"[tiab] OR \"low-level red light\"[tiab] OR \"red light therapy\"[tiab] OR \"high-intensity laser\"[tiab] OR \"laser biostimulation\"[tiab]) AND (\"dental\"[tiab] OR \"tooth\"[tiab] OR \"teeth\"[tiab] OR \"third molar\"[tiab] OR \"orthodontic*\"[tiab] OR \"implant*\"[tiab] OR \"periodont*\"[tiab] OR \"dentin*\"[tiab] OR \"endodontic\"[tiab] OR \"extraction\"[tiab] OR \"Stomatognathic Diseases\"[MeSH] OR \"osteonecrosis of the jaw\"[tiab] OR \"gingiv*\"[tiab] OR \"maxillofacial\"[tiab] OR \"orthognathic\"[tiab] OR \"sagittal split\"[tiab] OR \"Le Fort\"[tiab] OR \"inferior alveolar nerve\"[tiab] OR \"mental nerve\"[tiab] OR \"lingual nerve\"[tiab] OR \"mandibular fracture*\"[tiab] OR \"maxillary fracture*\"[tiab] OR \"zygomatic\"[tiab] OR \"jaw fracture*\"[tiab] OR \"facial fracture*\"[tiab] OR \"condylar\"[tiab] OR \"distraction osteogenesis\"[tiab] OR \"cleft lip\"[tiab] OR \"cleft palate\"[tiab] OR \"alveolar cleft\"[tiab] OR \"Orthognathic Surgical Procedures\"[MeSH] OR \"Mandibular Fractures\"[MeSH] OR \"Maxillofacial Injuries\"[MeSH] OR \"Cleft Palate\"[MeSH]) NOT (\"photodynamic\"[ti] OR \"mucositis\"[ti])",
+ "trials_cond": "\"third molar\" OR \"tooth extraction\" OR orthodontic OR \"dental implant\" OR periodontitis OR \"dentin hypersensitivity\" OR endodontic OR \"osteonecrosis of the jaw\" OR \"dental anxiety\" OR \"dental pain\" OR gingivitis OR \"alveolar osteitis\" OR \"orthognathic surgery\" OR \"sagittal split osteotomy\" OR \"mandibular fracture\" OR \"maxillofacial surgery\" OR \"cleft lip\" OR \"cleft palate\" OR \"inferior alveolar nerve injury\" OR \"distraction osteogenesis\"",
  "abbr": "Od",
- "nav": "Odontologie"
+ "nav": "Odonto-CMF"
 }

@@ -1,0 +1,1264 @@
+[
+ {
+  "pmid": "37561792",
+  "title_fr": "PBM et lésions du nerf alvéolaire inférieur : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique",
+   "traumato"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810,
+   830
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Sur 15 essais randomisés (14 poolés), la PBM n'améliore pas la sensibilité du nerf alvéolaire inférieur dans les deux premières semaines mais l'améliore nettement au-delà de 30 jours.",
+  "l2": "Méta-analyse (PubMed, Embase, Cochrane, Web of Science, littérature grise) des essais randomisés de PBM dans les lésions du nerf alvéolaire inférieur après chirurgie orthognathique, extraction de dents de sagesse incluses ou fracture mandibulaire : 15 essais retenus sur 219 articles, 14 dans la méta-analyse.\n\nPas d'effet à court terme (0–48 h, 14 jours), effet significatif à partir de 30 jours. Le taux de réponse ne dépend pas du délai de début du traitement (avant ou après 6 mois). La discrimination thermique reste peu modifiée dans la plupart des essais.",
+  "l3": {
+   "points": [
+    "Synthèse la plus complète sur les lésions du nerf alvéolaire inférieur (trois causes chirurgicales).",
+    "Effet visible à partir d'un mois, y compris quand le traitement commence tard."
+   ],
+   "limites": [
+    "Essais petits, protocoles et tests sensitifs hétérogènes.",
+    "Récupération spontanée fréquente : les essais sans témoin ne comptent pas."
+   ],
+   "pratique": "Proposer la PBM en complément dès le diagnostic d'hypoesthésie, sur plusieurs semaines ; un début tardif reste utile."
+  },
+  "k": 15,
+  "key": true
+ },
+ {
+  "pmid": "37610457",
+  "title_fr": "PBM et douleur, œdème et trismus après chirurgie orthognathique : méta-analyse d'essais randomisés",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   660,
+   940
+  ],
+  "n": 205,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Après chirurgie orthognathique, la PBM réduit l'œdème (−4,3 mm) entre J5 et deux semaines et fortement la douleur (DMS −1,37) jusqu'à cinq semaines, sans effet sur l'ouverture buccale.",
+  "l2": "Méta-analyse d'essais randomisés (sept bases et littérature grise, RoB 2.0) comparant le laser basse énergie, pendant ou juste après l'intervention, au traitement médicamenteux seul ou à l'absence de traitement : 205 patients (114 laser, 91 témoins).\n\nLongueurs d'onde de 660 à 940 nm, densités d'énergie de 5 à 100 J/cm², surtout en points extrabuccaux répartis. Œdème réduit de 4,27 mm (IC 95 % −5,13 à −3,41) de J5 à deux semaines ; douleur nettement plus faible (DMS −1,37) de J1 à cinq semaines ; ouverture buccale non modifiée (p = 0,11).",
+  "l3": {
+   "points": [
+    "Risque de biais globalement faible.",
+    "Effet chiffré sur l'œdème et la douleur, les deux plaintes principales des premières semaines."
+   ],
+   "limites": [
+    "Hétérogénéité élevée des protocoles (5 à 100 J/cm²).",
+    "Peu de patients au total."
+   ],
+   "pratique": "Option complémentaire simple en postopératoire immédiat de la chirurgie orthognathique, en points extrabuccaux sur le trajet de l'œdème."
+  },
+  "key": true
+ },
+ {
+  "pmid": "35690502",
+  "title_fr": "Protocoles contre la douleur après chirurgie orthognathique : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "La PBM réduit la douleur des 48 premières heures après chirurgie orthognathique (DMS −0,69) par rapport au placebo, avec une preuve de très faible qualité.",
+  "l2": "Méta-analyse des essais randomisés (jusqu'en juillet 2020) comparant l'analgésie préventive et le laser basse énergie au placebo après chirurgie orthognathique. La PBM réduit la douleur dans les 48 heures (DMS −0,69 ; IC −1,17 à −0,21), un peu moins que l'analgésie préventive (DMS −1,33).",
+  "l3": {
+   "points": [
+    "Compare la PBM aux stratégies médicamenteuses."
+   ],
+   "limites": [
+    "Qualité de preuve très faible (GRADE)."
+   ],
+   "pratique": "Complément à l'analgésie, pas un substitut."
+  }
+ },
+ {
+  "pmid": "34238645",
+  "title_fr": "PBM après chirurgie orthognathique : douleur, œdème et troubles sensitifs, revue systématique",
+  "type": "sr",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique",
+   "traumato"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Sur 15 essais randomisés, la PBM soulage la douleur après chirurgie orthognathique et améliore au moins un test sensitif du nerf alvéolaire inférieur dans les 11 essais qui l'évaluent ; l'effet sur l'œdème est inconstant.",
+  "l2": "Revue systématique (PRISMA ; PubMed, Embase, Web of Science) des essais randomisés de PBM après chirurgie orthognathique publiés jusqu'en septembre 2020 : 15 essais, aucun n'évaluant tous les critères.\n\nDouleur : les trois essais concernés sont positifs. Œdème : deux essais sur quatre. Troubles sensitifs du nerf alvéolaire inférieur : les onze essais montrent un bénéfice sur au moins un test. Méta-analyse impossible en raison de l'hétérogénéité.",
+  "l3": {
+   "points": [
+    "Essais randomisés uniquement.",
+    "Résultat cohérent sur la récupération sensitive."
+   ],
+   "limites": [
+    "Pas de méta-analyse ; tests sensitifs très variés."
+   ],
+   "pratique": "Envisager la PBM dès la période postopératoire immédiate, intervention peu invasive."
+  },
+  "k": 15,
+  "key": true
+ },
+ {
+  "pmid": "39929358",
+  "title_fr": "Laser basse énergie et neuropathies maxillo-faciales : revue systématique d'essais randomisés",
+  "type": "sr",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 1220,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Sur 18 essais randomisés (1 220 patients) dans les paresthésies, névralgies et paralysies faciales, le laser réduit la douleur de 3,5 points sur 10 et accélère d'environ 45 % la récupération sensitive.",
+  "l2": "Revue systématique (PubMed, Web of Science, Scopus, EBSCO, jusqu'en décembre 2024) des essais randomisés de laser basse énergie dans les neuropathies maxillo-faciales : paresthésies, névralgies, paralysie faciale.\n\n18 essais, 1 220 patients. Baisse de la douleur (EVA −3,5 ; IC −4,2 à −2,8), récupération des seuils sensitifs plus rapide d'environ 45 %, cicatrisation plus rapide d'environ 25 %. Effets indésirables légers (érythème transitoire) dans moins de 5 % des cas.",
+  "l3": {
+   "points": [
+    "Large échantillon pour le domaine.",
+    "Données de sécurité rassurantes."
+   ],
+   "limites": [
+    "Mélange d'indications très différentes (paresthésie, névralgie, paralysie).",
+    "Dosimétrie variable, essais souvent petits ; chiffres globaux à interpréter avec prudence."
+   ],
+   "pratique": "Argument en faveur de la PBM dans les troubles sensitifs postopératoires, à adapter à chaque indication."
+  },
+  "key": true
+ },
+ {
+  "pmid": "34791563",
+  "title_fr": "Laser basse énergie et douleur, œdème et trismus après chirurgie orthognathique : revue systématique",
+  "type": "sr",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 190,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Cinq essais (190 patients) : la PBM aide à réduire la douleur et le trismus après chirurgie orthognathique ; l'effet sur l'œdème reste discuté.",
+  "l2": "Revue systématique (11 bases) des essais randomisés contre placebo ; cinq essais de 2014 à 2020, deux à faible risque de biais. Bénéfice sur la douleur et l'ouverture buccale, résultats contradictoires sur l'œdème.",
+  "l3": {
+   "points": [
+    "Recherche très large."
+   ],
+   "limites": [
+    "Peu d'essais."
+   ],
+   "pratique": "Outil d'appoint pour la douleur et le trismus."
+  },
+  "k": 5
+ },
+ {
+  "pmid": "30661183",
+  "title_fr": "Laser basse énergie et lésion du nerf alvéolaire inférieur après ostéotomie sagittale : revue systématique",
+  "type": "sr",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   760,
+   930
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Dans six essais contrôlés sur sept, le laser (760–930 nm, 20–200 mW, 3 à 20 séances) améliore les troubles sensitifs du nerf alvéolaire inférieur après ostéotomie sagittale.",
+  "l2": "Revue systématique des essais contrôlés jusqu'en novembre 2017 : sept études, diode 760–930 nm, 20–200 mW, 10 à 95 J par point, 3 à 20 séances, suivi jusqu'à 23 mois. Amélioration subjective et d'au moins un test objectif dans six études.",
+  "l3": {
+   "points": [
+    "Fenêtre de paramètres utile."
+   ],
+   "limites": [
+    "Petits effectifs, protocoles hétérogènes."
+   ],
+   "pratique": "Paramètres de départ : diode proche infrarouge, plusieurs séances."
+  },
+  "k": 7
+ },
+ {
+  "pmid": "29053658",
+  "title_fr": "Laser basse énergie et troubles sensitifs après chirurgie orthognathique : revue d'essais randomisés",
+  "type": "sr",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Trois essais randomisés seulement : effets favorables sur la douleur et la paresthésie, mais pas de recommandation possible.",
+  "l2": "Revue systématique (PROSPERO) jusqu'en novembre 2016 : trois essais. Douleur réduite à 24 et 72 h, récupération sensitive meilleure à 60 jours ; méta-analyse impossible.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Trois essais, hétérogènes."
+   ],
+   "pratique": "Données encourageantes mais anciennes ; voir les méta-analyses récentes."
+  },
+  "k": 3
+ },
+ {
+  "pmid": "36964825",
+  "title_fr": "Laser-acupuncture et neuropathies en odontologie : revue systématique",
+  "type": "sr",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   790,
+   810
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Quatre essais randomisés : la laser-acupuncture (790–810 nm, au moins deux séances par semaine) améliore la récupération sensitive ou motrice faciale.",
+  "l2": "Revue systématique (Cochrane, RoB 2) des essais de laser-acupuncture dans les paresthésies, paralysies faciales et névralgies d'origine dentaire : quatre essais, tous favorables à des degrés divers.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Quatre essais seulement."
+   ],
+   "pratique": "Alternative possible quand l'irradiation directe du trajet nerveux est difficile."
+  },
+  "k": 4
+ },
+ {
+  "pmid": "33433080",
+  "title_fr": "PBM et récupération du nerf alvéolaire inférieur après chirurgie orale : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique",
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808,
+   830
+  ],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Sept études (dont trois essais randomisés) après extraction ou implant : deux essais sur trois favorables, mais pas de conclusion ferme possible.",
+  "l2": "Revue systématique (sept bases) : trois essais randomisés, une étude observationnelle et trois séries de cas ; 4 à 74 patients par étude ; diode 808–830 nm, 5–500 mW, 3 à 244 J/cm². Récupération meilleure chez les patients jeunes et traités dans les six mois.",
+  "l3": {
+   "points": [
+    "Signale l'intérêt d'un traitement précoce."
+   ],
+   "limites": [
+    "Récupération spontanée possible ; études sans témoin."
+   ],
+   "pratique": "Traiter tôt, dans les six mois, quand c'est possible."
+  },
+  "k": 7
+ },
+ {
+  "pmid": "22177820",
+  "title_fr": "Traitements du déficit sensitif après chirurgie des troisièmes molaires : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique",
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Dix études : le laser basse énergie et l'acupuncture sont les deux options non chirurgicales, avec une amélioration chez plus de la moitié des patients.",
+  "l2": "Revue systématique de dix articles sur les lésions du nerf lingual ou alvéolaire inférieur après extraction de troisièmes molaires : quatre techniques chirurgicales et deux non chirurgicales (laser, acupuncture). Moment optimal du traitement non déterminé.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Études anciennes, souvent sans témoin."
+   ],
+   "pratique": "La PBM est une option non chirurgicale de première intention."
+  },
+  "k": 10
+ },
+ {
+  "pmid": "24740534",
+  "title_fr": "Interventions contre les lésions iatrogènes des nerfs alvéolaire inférieur et lingual : revue Cochrane",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "mitigé",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "La revue Cochrane ne trouve pas de preuve suffisante pour recommander un traitement, laser compris, des lésions iatrogènes des nerfs alvéolaire inférieur et lingual.",
+  "l2": "Revue Cochrane (jusqu'en octobre 2013) des traitements chirurgicaux, médicamenteux et psychologiques des lésions iatrogènes du nerf alvéolaire inférieur ou lingual. Très peu d'essais, preuves de faible qualité ; la revue appelle à des essais randomisés centrés sur la sensibilité et la douleur.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Antérieure aux essais randomisés publiés depuis 2014."
+   ],
+   "pratique": "À relire avec les méta-analyses récentes, plus favorables."
+  }
+ },
+ {
+  "pmid": "31802332",
+  "title_fr": "Rééducation après traumatisme maxillo-facial : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "traumato"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Fractures & chirurgie maxillo-faciale",
+  "l1": "Neuf études (PBM, bande neuromusculaire, cryothérapie, exercices, TENS) : aucune technique, PBM comprise, ne prévient le trismus après fracture maxillo-faciale.",
+  "l2": "Revue systématique et méta-analyse (cinq études poolables) des techniques non médicamenteuses après chirurgie de fracture maxillo-faciale : pas de différence sur le trismus ; la cryothérapie réduit la douleur, la bande et la cryothérapie l'œdème jusqu'à J3.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Peu de patients par étude, fractures variées."
+   ],
+   "pratique": "Pas d'argument pour la PBM contre le trismus post-traumatique."
+  },
+  "k": 9
+ },
+ {
+  "pmid": "35545921",
+  "title_fr": "PBM pendant la disjonction maxillaire : méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Orthodontie",
+  "l1": "Pendant la disjonction maxillaire, la PBM n'accélère pas la reminéralisation de la suture palatine à trois mois.",
+  "l2": "Revue systématique et méta-analyse (GRADE) : cinq essais randomisés, trois poolés, hétérogénéité élevée (I² 81 %). Pas de différence de néoformation osseuse à trois mois (p = 0,85).",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Trois essais poolés."
+   ],
+   "pratique": "Pas d'indication établie pour accélérer la consolidation de la suture."
+  },
+  "k": 5
+ },
+ {
+  "pmid": "24679851",
+  "title_fr": "PBM et œdème et douleur après chirurgie orthognathique : essai en hémiface",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 10,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 10 patients (ostéotomie sagittale et Le Fort I), le côté irradié gonfle moins de J3 à J30 et fait moins mal à 24 h et J3.",
+  "l2": "Essai en hémiface, laser intra- et extrabuccal d'un côté, simulation de l'autre.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Dix patients."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "24608207",
+  "title_fr": "Laser et troubles sensitifs du nerf mandibulaire après ostéotomie sagittale : essai contre placebo",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 31,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 31 patients, le laser (8 séances le premier mois) améliore plus vite et plus complètement la sensibilité de la lèvre que le placebo à six mois.",
+  "l2": "Essai randomisé en double aveugle, 17 laser contre 14 placebo, suivi à six mois.",
+  "l3": {
+   "points": [
+    "Contre placebo, en aveugle."
+   ],
+   "limites": [
+    "Effectif modeste."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "24011464",
+  "title_fr": "Laser et troubles sensitifs après ostéotomie sagittale bilatérale : essai croisé",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 10,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 10 patients, le côté traité récupère plus vite sa sensibilité, presque complètement à 60 jours.",
+  "l2": "Essai randomisé en hémiface (NCT01530100), suivi 60 jours.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Dix patients."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "28538060",
+  "title_fr": "Laser et LED sur la récupération du nerf alvéolaire inférieur après ostéotomie sagittale",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 20,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 20 patients, laser et LED améliorent l'EVA de sensibilité (+21 à 25 %) et la discrimination tactile jusqu'à six mois, sans effet sur la piqûre ou le contact.",
+  "l2": "Essai randomisé en double aveugle, six tests sensitifs jusqu'à J180.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Vingt patients."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "28495411",
+  "title_fr": "Laser basse énergie et déficit sensitif après ostéotomie sagittale : essai en bouche divisée",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   660,
+   810
+  ],
+  "n": 16,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 16 patients, le côté laser (660 nm intrabuccal, 810 nm extrabuccal) retrouve une meilleure discrimination de deux points à J45 et J60.",
+  "l2": "Essai randomisé en double aveugle, bouche divisée. Laser à 24, 48 et 72 h puis deux fois par semaine pendant trois semaines : 660 nm intrabuccal (200 mW, 10 s, 2 J, 1,5 J/cm²) puis 810 nm extrabuccal (200 mW, 10 s, 2 J, 7 J/cm²) le long du nerf.",
+  "l3": {
+   "points": [
+    "Protocole entièrement décrit."
+   ],
+   "limites": [
+    "Seize patients ; effet tardif seulement."
+   ],
+   "pratique": "Protocole reproductible au cabinet."
+  }
+ },
+ {
+  "pmid": "29532196",
+  "title_fr": "Laser GaAlAs et ouverture buccale après chirurgie orthognathique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   780
+  ],
+  "n": 82,
+  "effect": "mitigé",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 82 patients, le laser 780 nm n'améliore l'ouverture buccale qu'après chirurgie bimaxillaire, et seulement chez l'homme.",
+  "l2": "Essai prospectif en quatre sous-groupes (disjonction, maxillaire, mandibulaire, bimaxillaire), 28 points de 2 J, trois jours.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Analyses en sous-groupes."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "30509397",
+  "title_fr": "Laser et récupération des nerfs lingual et alvéolaire inférieur lésés : essai en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 35,
+  "effect": "neutre",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 35 patients lésés lors d'une extraction, d'un implant ou d'une anesthésie, 46,7 % s'améliorent sous laser contre 38,5 % sous placebo : différence non démontrée.",
+  "l2": "Essai randomisé en double aveugle, tests neurosensoriels complets à trois mois, lésions de 3 à plus de 12 mois.",
+  "l3": {
+   "points": [
+    "Méthode rigoureuse."
+   ],
+   "limites": [
+    "Lésions anciennes, effectif faible."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "30599885",
+  "title_fr": "Laser basse énergie et récupération sensitive après ostéotomie sagittale : essai en hémiface",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 20,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 20 patients, le côté laser récupère mieux, surtout quand le traitement commence dans le mois qui suit l'intervention.",
+  "l2": "Essai randomisé en double aveugle ; cinq séances à 3–4 semaines d'intervalle, précoces ou tardives (6 à 12 mois).",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Vingt patients."
+   ],
+   "pratique": "Commencer tôt."
+  }
+ },
+ {
+  "pmid": "30803856",
+  "title_fr": "Laser et mouvements mandibulaires, douleur et œdème après chirurgie bimaxillaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 30,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 30 patients, le laser 808 nm (3 J/cm², 100 mW) améliore l'ouverture, la latéralité et la propulsion à deux semaines et réduit la douleur ; pas d'effet net sur l'œdème.",
+  "l2": "Essai randomisé en double aveugle contre placebo, suivi 60 jours.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Effet sur l'œdème non significatif."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "31678060",
+  "title_fr": "PBM 940 nm et œdème après chirurgie orthognathique mandibulaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   940
+  ],
+  "n": 60,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 60 patients sous naproxène, le laser 940 nm (68 J/cm² à 15 mm, trois fois par semaine pendant deux semaines) résorbe plus vite l'œdème.",
+  "l2": "Essai randomisé en trois groupes : deux protocoles laser 940 nm de forte puissance (2,5 et 4,1 W) et témoin.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Lasers de forte puissance : transposition limitée aux appareils équivalents."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "32122703",
+  "title_fr": "PBM et troubles sensitifs après ostéotomie sagittale : essai en triple aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   980
+  ],
+  "n": 18,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 18 patients, le laser 980 nm (100 mW, 12 J/cm², 12 points, de la veille à J28) améliore nettement la sensibilité à 30 et 60 jours.",
+  "l2": "Essai randomisé en triple aveugle, hémiface ; sans effet indésirable.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Dix-huit patients."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "37070708",
+  "title_fr": "PBM 940 nm en complément de la chirurgie orthognathique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   940
+  ],
+  "n": 20,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 20 patients, le laser 940 nm réduit la douleur (nulle à trois semaines) et le trismus à J14 et J30, sans effet sur la paresthésie.",
+  "l2": "Essai randomisé, séances de J0 à quatre semaines.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Vingt patients."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38191831",
+  "title_fr": "Deux lasers contre la paresthésie de la lèvre après ostéotomie sagittale",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 30,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 30 patients, les deux lasers accélèrent la récupération sensitive plus que la vitamine B.",
+  "l2": "Essai randomisé simple aveugle en trois groupes (deux lasers, vitamine B).",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Comparateur actif, pas de placebo."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38986264",
+  "title_fr": "PBM après L-PRF contre les troubles du nerf mentonnier après génioplastie",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   880
+  ],
+  "n": 20,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 20 patientes, le laser 880 nm (500 mW, 15 J/cm²) ajouté au L-PRF améliore la discrimination de deux points et le test au pinceau jusqu'à deux mois.",
+  "l2": "Essai randomisé en triple aveugle, bouche divisée, six séances jusqu'à J28.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Vingt patientes."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "41429186",
+  "title_fr": "Laser 810 nm et récupération sensitive après Le Fort I",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810
+  ],
+  "n": null,
+  "effect": "neutre",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Après ostéotomie de Le Fort I, le laser 810 nm n'accélère pas la récupération sensitive du médio-facial, mais améliore la satisfaction.",
+  "l2": "Essai randomisé en triple aveugle, hémiface, dans deux hôpitaux de Téhéran.",
+  "l3": {
+   "points": [],
+   "limites": [],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "42229538",
+  "title_fr": "Nd:YAG et diode contre les troubles sensitifs après chirurgie orthognathique",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810,
+   1064
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Après chirurgie bimaxillaire, le laser diode 810 nm (HR 10,7) et, moins nettement, le Nd:YAG 1 064 nm raccourcissent le délai de récupération sensitive par rapport à l'absence de traitement.",
+  "l2": "Essai randomisé en aveugle de l'évaluateur, deux fois par semaine pendant trois semaines (0,5 W, 4 J/cm²).",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Pas de placebo."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "34878933",
+  "title_fr": "Laser et laser-acupuncture contre la paresthésie après extraction de troisièmes molaires",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique",
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 60,
+  "effect": "mitigé",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 60 patients, le laser 808 nm fait aussi bien que le traitement médicamenteux et mieux que la laser-acupuncture.",
+  "l2": "Essai randomisé en trois groupes (médicament, laser 4 J par point, laser-acupuncture).",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Pas de placebo."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38272792",
+  "title_fr": "Facteurs de croissance concentrés ou laser après extraction de dents de sagesse incluses",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique",
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 31,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 31 patients, le laser 808 nm comme les facteurs de croissance améliorent la récupération du nerf alvéolaire inférieur et la cicatrisation mieux que la mécobalamine.",
+  "l2": "Essai randomisé en trois groupes, 14 jours de suivi.",
+  "l3": {
+   "points": [],
+   "limites": [],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38900722",
+  "title_fr": "PBM tardive et récupération du nerf alvéolaire inférieur après extraction de troisième molaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique",
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810
+  ],
+  "n": 36,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 36 patients atteints depuis plus de six mois, le laser 810 nm (12 séances) améliore la sensibilité à partir de la dixième séance.",
+  "l2": "Essai randomisé en triple aveugle contre sonde éteinte, suivi neuf mois.",
+  "l3": {
+   "points": [
+    "Lésions anciennes : récupération spontanée peu probable."
+   ],
+   "limites": [],
+   "pratique": "Même tardive, la PBM peut aider."
+  }
+ },
+ {
+  "pmid": "41273740",
+  "title_fr": "PBM contre la paresthésie du nerf alvéolaire inférieur après pose d'implant",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique",
+   "implants"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810
+  ],
+  "n": 24,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 24 patients, huit séances de laser 810 nm (200 mW, 6 J/cm²) améliorent plus vite et plus nettement la sensibilité que le placebo.",
+  "l2": "Essai randomisé contre laser inactif, vitamine B dans les deux groupes.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Vingt-quatre patients."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "42338379",
+  "title_fr": "Laser-acupuncture ou PBM directe contre l'hypoesthésie après extraction de troisième molaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "orthognathique",
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 60,
+  "effect": "favorable",
+  "theme": "Chirurgie orthognathique & nerf alvéolaire",
+  "l1": "Chez 60 patients, la PBM 808 nm directe et la laser-acupuncture améliorent toutes deux la sensibilité contre placebo (monofilament amélioré chez 80–85 % contre 25 %).",
+  "l2": "Essai randomisé en double aveugle, 15 séances (9 J/cm²), mécobalamine pour tous.",
+  "l3": {
+   "points": [
+    "Contre placebo."
+   ],
+   "limites": [],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "26468834",
+  "title_fr": "Laser et distraction ostéogénique symphysaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "traumato"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   830
+  ],
+  "n": 9,
+  "effect": "favorable",
+  "theme": "Fractures & chirurgie maxillo-faciale",
+  "l1": "Chez 9 adolescents, le laser 830 nm augmente la densité minérale de l'os néoformé après distraction symphysaire.",
+  "l2": "Essai randomisé, 8 séances à 48 h d'intervalle (40 mW, 8,4 J/cm²), scanner et stéréologie.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Neuf patients."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "34557956",
+  "title_fr": "Exercices et PBM en rééducation après fracture mandibulaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "traumato"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 14,
+  "effect": "mitigé",
+  "theme": "Fractures & chirurgie maxillo-faciale",
+  "l1": "Chez 14 adultes, la PBM associée aux exercices diminue la douleur à l'effort sans meilleure récupération fonctionnelle.",
+  "l2": "Essai randomisé en double aveugle contre placebo.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Quatorze patients."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "35551053",
+  "title_fr": "PBM tardive après neurotmésis du nerf mandibulaire sur fracture",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "traumato",
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810
+  ],
+  "n": 26,
+  "effect": "favorable",
+  "theme": "Fractures & chirurgie maxillo-faciale",
+  "l1": "Chez 26 patients atteints depuis plus de six mois, le laser 810 nm (12 séances) améliore la sensibilité tactile et la qualité de vie orale.",
+  "l2": "Essai randomisé en triple aveugle, suivi jusqu'à 12 mois.",
+  "l3": {
+   "points": [],
+   "limites": [],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "36348150",
+  "title_fr": "LED et troubles sensitifs du nerf alvéolaire inférieur après fracture mandibulaire",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "traumato",
+   "orthognathique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [
+   660,
+   850
+  ],
+  "n": 42,
+  "effect": "favorable",
+  "theme": "Fractures & chirurgie maxillo-faciale",
+  "l1": "Chez 42 patients opérés de fracture mandibulaire, la LED 660 et 850 nm accélère la récupération sensitive du menton sur six mois.",
+  "l2": "Essai randomisé, prototype LED (131 points).",
+  "l3": {
+   "points": [],
+   "limites": [],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "39840628",
+  "title_fr": "Laser semi-conducteur et cicatrisation après chirurgie de fracture maxillo-faciale",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "traumato"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 211,
+  "effect": "favorable",
+  "theme": "Fractures & chirurgie maxillo-faciale",
+  "l1": "Chez 211 patients, le laser basse énergie quotidien pendant six jours raccourcit la cicatrisation cutanée, améliore la cicatrice et la douleur, sans effet sur l'infection.",
+  "l2": "Essai randomisé à West China Hospital of Stomatology.",
+  "l3": {
+   "points": [
+    "Grand effectif."
+   ],
+   "limites": [],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "42106735",
+  "title_fr": "PBM et T-PRF dans les fractures mandibulaires postérieures : essai pilote",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "traumato"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 12,
+  "effect": "mitigé",
+  "theme": "Fractures & chirurgie maxillo-faciale",
+  "l1": "Chez 12 patients, la PBM ajoutée au T-PRF augmente la densité osseuse à 12 semaines et réduit la douleur, sans autre bénéfice clinique.",
+  "l2": "Essai pilote randomisé, ostéosynthèse par plaques.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Douze patients."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "34241896",
+  "title_fr": "Laser basse énergie et succès de l'anesthésie tronculaire en pulpite irréversible",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "anesthésie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 88,
+  "effect": "favorable",
+  "theme": "Anesthésie, douleur & anxiété au fauteuil",
+  "l1": "Chez 88 patients en pulpite irréversible, le laser ajouté à l'anesthésie tronculaire porte le taux de succès de 34 à 57 %.",
+  "l2": "Essai randomisé, articaïne 4 %.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Anesthésie pulpaire complète non obtenue."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "38829548",
+  "title_fr": "PBM pour écourter l'anesthésie tronculaire chez l'enfant",
+  "type": "rct",
+  "level": 2,
+  "pop": "pédiatrie",
+  "ctx": [
+   "anesthésie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 36,
+  "effect": "favorable",
+  "theme": "Anesthésie, douleur & anxiété au fauteuil",
+  "l1": "Chez 36 enfants de 6 à 9 ans, le laser 808 nm raccourcit l'anesthésie de la lèvre d'environ 12 minutes (123 contre 134 min).",
+  "l2": "Essai randomisé en double aveugle, bouche divisée.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Gain modeste."
+   ],
+   "pratique": "—"
+  }
+ }
+]
