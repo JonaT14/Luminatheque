@@ -1,5 +1,68 @@
 [
  {
+  "pmid": "42999938",
+  "doi": "10.1080/14656566.2026.2761125",
+  "pmcid": null,
+  "title": "An update on pharmacotherapies and emerging therapeutic approaches for geographic atrophy.",
+  "journal": "Expert opinion on pharmacotherapy",
+  "journal_abbr": "Expert Opin Pharmacother",
+  "authors": [
+   "Rowe LW",
+   "Guymer R",
+   "Wykoff CC",
+   "Regillo CD",
+   "Ho AC",
+   "Bernstein PS",
+   "Loewenstein A",
+   "Avery RL",
+   "Eliott D",
+   "Ciulla TA"
+  ],
+  "first_affiliation": "Moran Eye Center, University of Utah, Salt Lake City, UT, USA.",
+  "date_online": "2026-11-08",
+  "date_pub": "2026-11-08",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Age-related macular degeneration",
+   "avacincaptad pegol",
+   "complement system",
+   "gene therapy",
+   "geographic atrophy",
+   "pegcetacoplan"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "INTRODUCTION",
+    "text": "Geographic atrophy (GA) secondary to age-related macular degeneration is a leading cause of irreversible vision loss. The 2023 FDA approvals of pegcetacoplan and avacincaptad pegol were a milestone, but modest anatomic benefit without demonstrated prespecified functional benefit, increased neovascular conversion, and substantial treatment burden underscore the need for better therapies and more sensitive functional endpoints. The EMA denied pegcetacoplan's marketing authorization and issued an unsupportive provisional opinion on avacincaptad pegol, prompting its application withdrawal."
+   },
+   {
+    "label": "AREAS COVERED",
+    "text": "Based on searches of PubMed, trial registries, regulatory documents, and conference proceedings through September 2026, this review examines real-world experience with approved complement inhibitors; next-generation complement approaches, including C1q inhibition, systemic C5 and C3 suppression, and complement-directed gene therapies; and non-complement strategies targeting inflammation, mitochondrial dysfunction, apoptosis, the visual cycle, and iron homeostasis, with photobiomodulation and cell-based therapies as non-pharmacologic comparators. The strength of evidence is distinguished throughout, and the rationale for multi-target strategies is discussed."
+   },
+   {
+    "label": "EXPERT OPINION",
+    "text": "Current complement inhibitors fall short of ideal clinical utility, with no functional benefit demonstrated on prespecified endpoints and only exploratory, largely post hoc functional signals despite frequent injections. The field is moving toward multi-target strategies, functional endpoints, durable gene therapy platforms, and biomarker-driven patient selection."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1080/14656566.2026.2761125"
+   }
+  ],
+  "fetched": "2026-11-10"
+ },
+ {
   "pmid": "42975852",
   "doi": "10.1007/s44402-026-00178-1",
   "pmcid": null,

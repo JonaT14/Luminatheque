@@ -1,5 +1,85 @@
 [
  {
+  "pmid": "43002583",
+  "doi": "10.1093/bmb/ldag045",
+  "pmcid": null,
+  "title": "Nuclear magnetic resonance therapy for deep-tissue biophysical stimulation: an integrated clinical and molecular analysis.",
+  "journal": "British medical bulletin",
+  "journal_abbr": "Br Med Bull",
+  "authors": [
+   "Krpan D",
+   "Monajati A",
+   "Yasmeen A",
+   "Benn A",
+   "Shenouda RA",
+   "Hof PR",
+   "Kipp M",
+   "Mamisch TC",
+   "Schreiner AJ",
+   "Maffulli N",
+   "Schmitz C"
+  ],
+  "first_affiliation": "Poliklinika K-CENTAR, Vrbik 8 a, 10000 Zagreb, Croatia.",
+  "date_online": "2026-11-09",
+  "date_pub": "2026-10-05",
+  "pub_types": [
+   "Journal Article",
+   "Systematic Review"
+  ],
+  "mesh": [
+   "Humans",
+   "Magnetic Field Therapy",
+   "Animals",
+   "Musculoskeletal Diseases"
+  ],
+  "keywords": [
+   "anti-inflammatory modulation",
+   "deep-tissue biophysical stimulation",
+   "mitochondrial bioenergetics and redox signaling",
+   "musculoskeletal regeneration",
+   "nuclear magnetic resonance therapy"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "INTRODUCTION OR BACKGROUND",
+    "text": "Musculoskeletal disorders such as osteoarthritis, chronic low back pain, radicular syndromes, and osteoporosis require noninvasive treatments reaching deep anatomical structures. Nuclear magnetic resonance therapy (NMRT/MBST) delivers depth-independent resonance-based stimulation. This systematic review consolidates clinical and mechanistic evidence to evaluate NMRT/MBST among deep-tissue biophysical therapeutics."
+   },
+   {
+    "label": "SOURCES OF DATA",
+    "text": "A systematic search of PubMed, Ovid/Embase, and peer-reviewed literature identified 26 original studies spanning randomized and observational clinical evidence, imaging evaluations, veterinary trials, and in vitro research. Experimental findings on inflammatory, metabolic, mitochondrial, redox, and circadian pathways were integrated with clinical observations."
+   },
+   {
+    "label": "AREAS OF AGREEMENT",
+    "text": "NMRT/MBST shows a strong safety profile with no reported treatment-emergent adverse events. Across indications, studies demonstrate improvements in pain, function, and, selectively, structural or densitometric changes. Mechanistic evidence indicates modulation of mitochondrial bioenergetics, redox balance, inflammatory cascades, chondrogenic and osteogenic pathways, neurotrophic activity, and circadian regulation. These convergent processes mirror photobiomodulation, supporting NMRT/MBST as a deep-acting analog influencing regenerative biology in inaccessible tissues. Conventional pulsed electromagnetic field therapy is physically the closest comparator but shows narrower mechanistic overlap."
+   },
+   {
+    "label": "AREAS OF CONTROVERSY",
+    "text": "Evidence remains heterogeneous in methodology, outcome measures, and structural responses. The only placebo-controlled knee osteoarthritis trial found no superiority over sham, although baseline imbalance limits interpretation."
+   },
+   {
+    "label": "GROWING POINTS",
+    "text": "The depth-independent profile and mechanistic parallels suggest applications in deep cartilage, subchondral bone, intervertebral discs, and nerve-root environments, supporting multimodal biophysical strategies."
+   },
+   {
+    "label": "AREAS TIMELY FOR DEVELOPING RESEARCH",
+    "text": "Priorities include larger randomized trials, longitudinal structural evaluation, comparisons with optical modalities, and biomarker-guided personalization."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1093/bmb/ldag045"
+   }
+  ],
+  "fetched": "2026-11-10"
+ },
+ {
   "pmid": "42998202",
   "doi": "10.1007/s10103-025-04794-0",
   "pmcid": null,

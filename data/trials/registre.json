@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-08",
+ "fetched": "2026-11-10",
  "studies": [
   {
    "nct": "NCT07699679",
@@ -1045,6 +1045,63 @@
    "n_sites": 1,
    "matched": [
     "mucite-orale"
+   ]
+  },
+  {
+   "nct": "NCT07923916",
+   "title": "Photobiomodulation vs. Palatal Stent for Palatal Donor Site Healing After Free Gingival Grafting",
+   "official": "Clinical Effectiveness of Photobiomodulation-Assisted Wound Healing of Palatal Donor Sites Following Free Gingival Graft Harvesting Compared With Conventional Palatal Stent Protection: A Randomized Controlled Clinical Trial",
+   "acronym": null,
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2026-10-30",
+   "end": "2027-09-30",
+   "completion": "2027-12-30",
+   "first_posted": "2026-11-09",
+   "updated": "2026-11-09",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 50,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Mucogingival Deformity - Insufficient Keratinized Tissue",
+    "Lack of Keratinized Tissue",
+    "Wound Healing",
+    "Postoperative Pain",
+    "Palatal Donor Site Wound Healing"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Diode Laser Photobiomodulation (claros pico)"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Customized Acrylic Palatal Stent"
+    }
+   ],
+   "summary": "Harvesting a free gingival graft (FGG) creates an open wound on the roof of the mouth (palate) that heals by secondary intention. This healing process is frequently associated with postoperative pain, bleeding, functional discomfort during eating, and delayed tissue recovery. Standard care often involves using a custom plastic protective guard (palatal stent) to cover the open wound. Low-level light therapy, known as diode laser photobiomodulation (PBMT), is a non-invasive treatment proposed to stimulate cellular energy production and accelerate soft tissue healing. The purpose of this randomized controlled clinical trial is to evaluate whether diode laser photobiomodulation improves palatal donor site wound healing and reduces postoperative pain and discomfort compared with conventional palatal stent protection. A total of 50 systemically healthy adult participants requiring free gingiv",
+   "outcome": "Percentage of Palatal Wound Closure",
+   "sponsor": "Gulf Medical University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "sites": [
+    {
+     "facility": "Gulf Medical University",
+     "city": "Ajman",
+     "country": "United Arab Emirates"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "dermatologie"
    ]
   },
   {
@@ -2301,6 +2358,60 @@
    ]
   },
   {
+   "nct": "NCT07568288",
+   "title": "The Effectiveness of High-intensity Laser Therapy After Arthroscopic Shoulder Rotator Cuff Repair.",
+   "official": "The Effectiveness of High-intensity Laser Therapy After Arthroscopic Shoulder Rotator Cuff Repair. A Randomized Controlled Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-09",
+   "end": "2028-11",
+   "completion": "2029-09",
+   "first_posted": "2026-05-05",
+   "updated": "2026-05-05",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 46,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Rotator Cuff Tears"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "High intensity laser therapy"
+    },
+    {
+     "type": "OTHER",
+     "name": "Sham laser therapy"
+    }
+   ],
+   "summary": "This randomized controlled trial aims to evaluate the effectiveness of high-intensity laser therapy (HILT) as an adjunct to conventional rehabilitation in patients undergoing arthroscopic rotator cuff repair.\n\nDespite surgical repair, patients frequently experience postoperative pain, limited range of motion, and delayed functional recovery. Conventional physiotherapy represents the standard of care; however, additional strategies may be needed to optimize outcomes. High-intensity laser therapy has been proposed as a non-invasive intervention with potential analgesic and anti-inflammatory effects, but its effectiveness in the postoperative setting remains unclear.\n\nParticipants will be randomly allocated to one of two groups: an experimental group receiving HILT in addition to conventional physiotherapy, and a control group receiving sham laser therapy combined with the same rehabilitati",
+   "outcome": "Visual Analogue Scale",
+   "sponsor": "Istituto Ortopedico Rizzoli",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "Italy"
+   ],
+   "sites": [
+    {
+     "facility": "Istituto Ortopedico Rizzoli",
+     "city": "Bologna",
+     "country": "Italy"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "dermatologie",
+    "musculo-squelettique"
+   ]
+  },
+  {
    "nct": "NCT07806526",
    "title": "The Use of Photobiomodulation for Pain and Healing in Cesarean Section",
    "official": "The Use of Photobiomodulation for Pain and Healing in Cesarean Section: A Randomized, Controlled Clinical Trial",
@@ -2357,56 +2468,47 @@
    ]
   },
   {
-   "nct": "NCT07568288",
-   "title": "The Effectiveness of High-intensity Laser Therapy After Arthroscopic Shoulder Rotator Cuff Repair.",
-   "official": "The Effectiveness of High-intensity Laser Therapy After Arthroscopic Shoulder Rotator Cuff Repair. A Randomized Controlled Trial",
+   "nct": "NCT07800338",
+   "title": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus Therapeutic Ultrasound On Patients With Myofascial Pain Disorder : A Randomized Clinical Trial",
+   "official": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus Therapeutic Ultrasound On Patients With Myofascial Pain Disorder : A Randomized Clinical Trial",
    "acronym": null,
    "status": "NOT_YET_RECRUITING",
    "start": "2026-09",
-   "end": "2028-11",
-   "completion": "2029-09",
-   "first_posted": "2026-05-05",
-   "updated": "2026-05-05",
+   "end": "2027-01",
+   "completion": "2027-02",
+   "first_posted": "2026-09-02",
+   "updated": "2026-09-02",
    "type": "INTERVENTIONAL",
    "phases": [
     "NA"
    ],
-   "n": 46,
+   "n": 36,
    "allocation": "RANDOMIZED",
    "masking": "TRIPLE",
    "conditions": [
-    "Rotator Cuff Tears"
+    "TMJ"
    ],
    "interventions": [
     {
      "type": "DEVICE",
-     "name": "High intensity laser therapy"
-    },
-    {
-     "type": "OTHER",
-     "name": "Sham laser therapy"
+     "name": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus therapeutic Ultrasound On Patients With Myofascial Pain Disorder"
     }
    ],
-   "summary": "This randomized controlled trial aims to evaluate the effectiveness of high-intensity laser therapy (HILT) as an adjunct to conventional rehabilitation in patients undergoing arthroscopic rotator cuff repair.\n\nDespite surgical repair, patients frequently experience postoperative pain, limited range of motion, and delayed functional recovery. Conventional physiotherapy represents the standard of care; however, additional strategies may be needed to optimize outcomes. High-intensity laser therapy has been proposed as a non-invasive intervention with potential analgesic and anti-inflammatory effects, but its effectiveness in the postoperative setting remains unclear.\n\nParticipants will be randomly allocated to one of two groups: an experimental group receiving HILT in addition to conventional physiotherapy, and a control group receiving sham laser therapy combined with the same rehabilitati",
-   "outcome": "Visual Analogue Scale",
-   "sponsor": "Istituto Ortopedico Rizzoli",
+   "summary": "Myofascial pain dysfunction (MPD) is one of the most common causes of chronic orofacial pain, primarily affecting the masticatory muscles such as the masseter and temporalis. It leads to facial pain, muscle tenderness, and restricted mouth opening, significantly impacting patients' quality of life and daily function.\n\nDespite the wide range of conservative treatment modalities-such as medications, splint therapy, and physiotherapy-there is still no universally accepted approach that provides consistent and long-lasting relief.\n\nLow-level laser therapy (LLLT) and therapeutic ultrasound (US) are two non-invasive physical modalities frequently used in dentistry for pain control and tissue healing. Each has shown promising outcomes individually.\n\nAzizi et al. (2007) demonstrated that LLLT at 780 nm can significantly reduce pain and tenderness for up to three months, while Khairy (2018) repor",
+   "outcome": "pain",
+   "sponsor": "Cairo University",
    "sponsor_class": "OTHER",
    "collaborators": [],
-   "responsible": null,
+   "responsible": {
+    "name": "mohamed mostafa",
+    "title": "dentist",
+    "affiliation": "Cairo University"
+   },
    "officials": [],
-   "countries": [
-    "Italy"
-   ],
-   "sites": [
-    {
-     "facility": "Istituto Ortopedico Rizzoli",
-     "city": "Bologna",
-     "country": "Italy"
-    }
-   ],
-   "n_sites": 1,
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
    "matched": [
-    "dermatologie",
     "musculo-squelettique"
    ]
   },
@@ -2459,51 +2561,6 @@
     }
    ],
    "n_sites": 1,
-   "matched": [
-    "musculo-squelettique"
-   ]
-  },
-  {
-   "nct": "NCT07800338",
-   "title": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus Therapeutic Ultrasound On Patients With Myofascial Pain Disorder : A Randomized Clinical Trial",
-   "official": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus Therapeutic Ultrasound On Patients With Myofascial Pain Disorder : A Randomized Clinical Trial",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-09",
-   "end": "2027-01",
-   "completion": "2027-02",
-   "first_posted": "2026-09-02",
-   "updated": "2026-09-02",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 36,
-   "allocation": "RANDOMIZED",
-   "masking": "TRIPLE",
-   "conditions": [
-    "TMJ"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus therapeutic Ultrasound On Patients With Myofascial Pain Disorder"
-    }
-   ],
-   "summary": "Myofascial pain dysfunction (MPD) is one of the most common causes of chronic orofacial pain, primarily affecting the masticatory muscles such as the masseter and temporalis. It leads to facial pain, muscle tenderness, and restricted mouth opening, significantly impacting patients' quality of life and daily function.\n\nDespite the wide range of conservative treatment modalities-such as medications, splint therapy, and physiotherapy-there is still no universally accepted approach that provides consistent and long-lasting relief.\n\nLow-level laser therapy (LLLT) and therapeutic ultrasound (US) are two non-invasive physical modalities frequently used in dentistry for pain control and tissue healing. Each has shown promising outcomes individually.\n\nAzizi et al. (2007) demonstrated that LLLT at 780 nm can significantly reduce pain and tenderness for up to three months, while Khairy (2018) repor",
-   "outcome": "pain",
-   "sponsor": "Cairo University",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "mohamed mostafa",
-    "title": "dentist",
-    "affiliation": "Cairo University"
-   },
-   "officials": [],
-   "countries": [],
-   "sites": [],
-   "n_sites": 0,
    "matched": [
     "musculo-squelettique"
    ]
@@ -4239,6 +4296,67 @@
    ]
   },
   {
+   "nct": "NCT07672327",
+   "title": "Efficacy of Short Wave and Laser Therapy in Patients With Plantar Fasciitis",
+   "official": "Efficacy of Extracorporeal Shock Wave Therapy Versus High-intensity Laser Therapy in Patients With Plantar Fasciitis",
+   "acronym": "Blind assessor",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2026-06-01",
+   "end": "2026-06-01",
+   "completion": "2026-07-01",
+   "first_posted": "2026-06-26",
+   "updated": "2026-06-26",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Plantar Fasciitis, Chronic"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "conventional physical therapy"
+    },
+    {
+     "type": "OTHER",
+     "name": "Extracorporeal shock wave therapy"
+    },
+    {
+     "type": "OTHER",
+     "name": "High-intensity laser therapy"
+    }
+   ],
+   "summary": "Plantar fasciitis is a common painful condition. It accounts for 10-15% of all foot painful conditions. Recently, Extracorporeal shock wave therapy (ESWT) was used as an effective method in treatment of different musculoskeletal disorders. High-intensity laser therapy (HILT) is a relatively recent treatment option that has shown benefits in a wide range of musculoskeletal disorders.",
+   "outcome": "Hand held dynamometer",
+   "sponsor": "Ibrahim Abuomar Fadulaalhq Alramadhani",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Ibrahim Abuomar Fadulaalhq Alramadhani",
+    "title": "M. Sc. in Physical Therapy, Sport Physical Therapy (2021) College of Applied Medical Sciences, Umm Al-Qura University, Kingdom of Saudi Arabia",
+    "affiliation": "Umm Al-Qura University"
+   },
+   "officials": [],
+   "countries": [
+    "Saudi Arabia"
+   ],
+   "sites": [
+    {
+     "facility": "Mecca",
+     "city": "Mecca",
+     "country": "Saudi Arabia"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "musculo-squelettique"
+   ]
+  },
+  {
    "nct": "NCT07602933",
    "title": "Photobiomodulation Effects on Fatigue and Muscle Damage Induced by NMES",
    "official": "Effects of Photobiomodulation on Fatigue and Muscle Damage Induced by Neuromuscular Electrical Stimulation in Healthy Individuals: a Randomized Clinical Trial",
@@ -4320,67 +4438,6 @@
    "matched": [
     "musculo-squelettique",
     "sport"
-   ]
-  },
-  {
-   "nct": "NCT07672327",
-   "title": "Efficacy of Short Wave and Laser Therapy in Patients With Plantar Fasciitis",
-   "official": "Efficacy of Extracorporeal Shock Wave Therapy Versus High-intensity Laser Therapy in Patients With Plantar Fasciitis",
-   "acronym": "Blind assessor",
-   "status": "ACTIVE_NOT_RECRUITING",
-   "start": "2026-06-01",
-   "end": "2026-06-01",
-   "completion": "2026-07-01",
-   "first_posted": "2026-06-26",
-   "updated": "2026-06-26",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 60,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Plantar Fasciitis, Chronic"
-   ],
-   "interventions": [
-    {
-     "type": "OTHER",
-     "name": "conventional physical therapy"
-    },
-    {
-     "type": "OTHER",
-     "name": "Extracorporeal shock wave therapy"
-    },
-    {
-     "type": "OTHER",
-     "name": "High-intensity laser therapy"
-    }
-   ],
-   "summary": "Plantar fasciitis is a common painful condition. It accounts for 10-15% of all foot painful conditions. Recently, Extracorporeal shock wave therapy (ESWT) was used as an effective method in treatment of different musculoskeletal disorders. High-intensity laser therapy (HILT) is a relatively recent treatment option that has shown benefits in a wide range of musculoskeletal disorders.",
-   "outcome": "Hand held dynamometer",
-   "sponsor": "Ibrahim Abuomar Fadulaalhq Alramadhani",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Ibrahim Abuomar Fadulaalhq Alramadhani",
-    "title": "M. Sc. in Physical Therapy, Sport Physical Therapy (2021) College of Applied Medical Sciences, Umm Al-Qura University, Kingdom of Saudi Arabia",
-    "affiliation": "Umm Al-Qura University"
-   },
-   "officials": [],
-   "countries": [
-    "Saudi Arabia"
-   ],
-   "sites": [
-    {
-     "facility": "Mecca",
-     "city": "Mecca",
-     "country": "Saudi Arabia"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "musculo-squelettique"
    ]
   },
   {
@@ -4909,6 +4966,61 @@
    ]
   },
   {
+   "nct": "NCT07313826",
+   "title": "Treatment of Chronic Lower Back Pain With a Combination of Electrical Stimulation, LED, and Laser Therapy",
+   "official": "Neurolumen for Chronic Lower Back Pain: A Pilot RCT Study",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-05-01",
+   "end": "2028-01-01",
+   "completion": "2028-01-01",
+   "first_posted": "2026-01-02",
+   "updated": "2026-02-13",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 50,
+   "allocation": "RANDOMIZED",
+   "masking": "QUADRUPLE",
+   "conditions": [
+    "Chronic Low Back Pain"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Active Neurolumen"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Inactive Neurolumen"
+    }
+   ],
+   "summary": "This study will evaluate the impact of the Neurolumen medical device on chronic low back pain.",
+   "outcome": "Pain Intensity",
+   "sponsor": "Defense and Veterans Center for Integrative Pain Management",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Neurolumen LLC"
+   ],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "Naval Medical Center Portsmouth",
+     "city": "Portsmouth",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "musculo-squelettique"
+   ]
+  },
+  {
    "nct": "NCT07531654",
    "title": "Comparative Effectiveness of Standard and Modified Laser Therapy in Myofascial Pain Management.",
    "official": "Comparative Effectiveness of Standard and Modified Laser Therapy in Myofascial Pain Management: A Randomized Clinical Trial",
@@ -4958,61 +5070,6 @@
      "facility": "Cairo University",
      "city": "Cairo",
      "country": "Egypt"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "musculo-squelettique"
-   ]
-  },
-  {
-   "nct": "NCT07313826",
-   "title": "Treatment of Chronic Lower Back Pain With a Combination of Electrical Stimulation, LED, and Laser Therapy",
-   "official": "Neurolumen for Chronic Lower Back Pain: A Pilot RCT Study",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-05-01",
-   "end": "2028-01-01",
-   "completion": "2028-01-01",
-   "first_posted": "2026-01-02",
-   "updated": "2026-02-13",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 50,
-   "allocation": "RANDOMIZED",
-   "masking": "QUADRUPLE",
-   "conditions": [
-    "Chronic Low Back Pain"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Active Neurolumen"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Inactive Neurolumen"
-    }
-   ],
-   "summary": "This study will evaluate the impact of the Neurolumen medical device on chronic low back pain.",
-   "outcome": "Pain Intensity",
-   "sponsor": "Defense and Veterans Center for Integrative Pain Management",
-   "sponsor_class": "OTHER",
-   "collaborators": [
-    "Neurolumen LLC"
-   ],
-   "responsible": null,
-   "officials": [],
-   "countries": [
-    "United States"
-   ],
-   "sites": [
-    {
-     "facility": "Naval Medical Center Portsmouth",
-     "city": "Portsmouth",
-     "country": "United States"
     }
    ],
    "n_sites": 1,
@@ -5407,58 +5464,6 @@
    ]
   },
   {
-   "nct": "NCT07511803",
-   "title": "Photobiomodulation on Recovery in Female Futsal Athletes",
-   "official": "Effects of Photobiomodulation Therapy on Recovery After Exercise in Female Futsal Athletes",
-   "acronym": "PBMT",
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-04-15",
-   "end": "2026-06-01",
-   "completion": "2026-06-10",
-   "first_posted": "2026-04-06",
-   "updated": "2026-04-06",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 15,
-   "allocation": "RANDOMIZED",
-   "masking": "DOUBLE",
-   "conditions": [
-    "Muscle Recovery",
-    "Exercise",
-    "Phototherapy",
-    "Futsal"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Active PBMT"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Placebo PBMT"
-    }
-   ],
-   "summary": "The aim of this study is to investigate the effects of photobiomodulation therapy (PBMT) on recovery after high-intensity, intermittent exercises in female futsal athletes. It is hypothesized that PBMT is superior to placebo condition in improving the recovery of muscle function after high-intensity, intermittent exercises.",
-   "outcome": "Physical performance in the Bangsbo Sprint Test",
-   "sponsor": "Universidade Norte do Paraná",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Andreo Fernando Aguiar",
-    "title": "Principal Investigator",
-    "affiliation": "Universidade Norte do Paraná"
-   },
-   "officials": [],
-   "countries": [],
-   "sites": [],
-   "n_sites": 0,
-   "matched": [
-    "sport"
-   ]
-  },
-  {
    "nct": "NCT07511790",
    "title": "Photobiomodulation on Performance in Female Futsal Athletes",
    "official": "Effects of Photobiomodulation Therapy on Physical Performance in Female Futsal Athletes",
@@ -5493,6 +5498,58 @@
     }
    ],
    "summary": "The aim of this study is to investigate the effects of photobiomodulation therapy (PBMT) on physical performance in female futsal athletes. It is hypothesized that PBMT is superior to placebo condition in improving the ability to perform repeated sprints and aerobic capacity in high-intensity, intermittent activity (i.e., Bangsbo sprint test and yoyo intermittent recovery level-1, respectively).",
+   "outcome": "Physical performance in the Bangsbo Sprint Test",
+   "sponsor": "Universidade Norte do Paraná",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Andreo Fernando Aguiar",
+    "title": "Principal Investigator",
+    "affiliation": "Universidade Norte do Paraná"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "sport"
+   ]
+  },
+  {
+   "nct": "NCT07511803",
+   "title": "Photobiomodulation on Recovery in Female Futsal Athletes",
+   "official": "Effects of Photobiomodulation Therapy on Recovery After Exercise in Female Futsal Athletes",
+   "acronym": "PBMT",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-04-15",
+   "end": "2026-06-01",
+   "completion": "2026-06-10",
+   "first_posted": "2026-04-06",
+   "updated": "2026-04-06",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 15,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Muscle Recovery",
+    "Exercise",
+    "Phototherapy",
+    "Futsal"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Active PBMT"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Placebo PBMT"
+    }
+   ],
+   "summary": "The aim of this study is to investigate the effects of photobiomodulation therapy (PBMT) on recovery after high-intensity, intermittent exercises in female futsal athletes. It is hypothesized that PBMT is superior to placebo condition in improving the recovery of muscle function after high-intensity, intermittent exercises.",
    "outcome": "Physical performance in the Bangsbo Sprint Test",
    "sponsor": "Universidade Norte do Paraná",
    "sponsor_class": "OTHER",
@@ -6043,7 +6100,7 @@
   },
   {
    "nct": "NCT07425080",
-   "title": "HELIOS Advanced: Human Oocyte Illumination to Enhance Development",
+   "title": "HELIOS Advanced: Human Embryo Illumination to Enhance Development",
    "official": "HELIOS-Advanced: A Prospective, Staged Dose-Escalation Study of Photobiomodulation to Improve Embryo Development in In Vitro Fertilization",
    "acronym": "HELIOS-A",
    "status": "RECRUITING",
@@ -6051,7 +6108,7 @@
    "end": "2027-06-01",
    "completion": "2028-06-01",
    "first_posted": "2026-02-20",
-   "updated": "2026-03-25",
+   "updated": "2026-11-09",
    "type": "INTERVENTIONAL",
    "phases": [
     "NA"
@@ -6068,7 +6125,7 @@
      "name": "Photobiomodulation"
     }
    ],
-   "summary": "Oocytes need a lot of energy to complete meiosis and fertilize successfully. As women get older, the \"power plants\" of the cells (called mitochondria) don't work as well. This makes it harder for eggs and embryos to develop normally. One possible way to help is with a gentle light treatment called photobiomodulation (PBM). This uses a special type of red light that boosts energy production in cells and helps them stay healthy. This study will test whether adding this light treatment during in vitro fertilization (IVF) can improve embryo growth and pregnancy outcomes.",
+   "summary": "As women get older, the \"power plants\" of the cells (called mitochondria) don't work as well. This makes it harder for eggs and embryos to develop normally. One possible way to help is with a gentle light treatment called photobiomodulation (PBM). This uses a special type of red light that boosts energy production in cells and helps them stay healthy. This study will test whether adding this light treatment during in vitro fertilization (IVF) can improve embryo growth and pregnancy outcomes.",
    "outcome": "Number of usable blastocysts",
    "sponsor": "Columbia University",
    "sponsor_class": "OTHER",
@@ -6291,6 +6348,66 @@
    ]
   },
   {
+   "nct": "NCT07352787",
+   "title": "High-Intensity Laser Therapy for Trapezius Myofascial Pain (HILT-TRAP Study)",
+   "official": "High-Intensity Laser Therapy for Trapezius Myofascial Pain Syndrome: Effects on Pain, ROM, Function, and Depression A Four-Phase Development, Validation, and Evaluation Study",
+   "acronym": "HILT-TRAP Stud",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-03-10",
+   "end": "2026-12-15",
+   "completion": "2027-04-10",
+   "first_posted": "2026-01-20",
+   "updated": "2026-01-20",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 104,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Myofascial Pain Syndrome (MPS)"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "High-Intensity Laser Therapy"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham Laser Therapy"
+    }
+   ],
+   "summary": "This study aims to evaluate the effectiveness of optimized High-Intensity Laser Therapy (HILT) compared with sham treatment in patients with trapezius myofascial pain syndrome. Outcomes include pain intensity, cervical range of motion, functional disability, and depressive symptoms measured at baseline, post-intervention, and 16-week follow-up.",
+   "outcome": "Pain Intensity",
+   "sponsor": "Neveen Abd El Maksoad Kohaf",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Universiti Kebangsaan Malaysia Medical Centre"
+   ],
+   "responsible": {
+    "name": "Neveen Abd El Maksoad Kohaf",
+    "title": "Clinical Pharmacy Department, Faculty of Pharmacy (Girls), Al-Azhar University, Cairo, Egypt.",
+    "affiliation": "Al-Azhar University"
+   },
+   "officials": [],
+   "countries": [
+    "Iraq"
+   ],
+   "sites": [
+    {
+     "facility": "Al-Hussein Teaching Hospital",
+     "city": "Nasiriyah",
+     "country": "Iraq"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "musculo-squelettique",
+    "neurologie"
+   ]
+  },
+  {
    "nct": "NCT07460895",
    "title": "Effectiveness of Photobiomodulation for Myofascial Pain in Temporomandibular Disorders",
    "official": "Photobiomodulation in the Management of Myofascial Pain: A Randomized and Blinded Clinical Trial",
@@ -6350,66 +6467,6 @@
    "n_sites": 0,
    "matched": [
     "musculo-squelettique"
-   ]
-  },
-  {
-   "nct": "NCT07352787",
-   "title": "High-Intensity Laser Therapy for Trapezius Myofascial Pain (HILT-TRAP Study)",
-   "official": "High-Intensity Laser Therapy for Trapezius Myofascial Pain Syndrome: Effects on Pain, ROM, Function, and Depression A Four-Phase Development, Validation, and Evaluation Study",
-   "acronym": "HILT-TRAP Stud",
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-03-10",
-   "end": "2026-12-15",
-   "completion": "2027-04-10",
-   "first_posted": "2026-01-20",
-   "updated": "2026-01-20",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 104,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Myofascial Pain Syndrome (MPS)"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "High-Intensity Laser Therapy"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Sham Laser Therapy"
-    }
-   ],
-   "summary": "This study aims to evaluate the effectiveness of optimized High-Intensity Laser Therapy (HILT) compared with sham treatment in patients with trapezius myofascial pain syndrome. Outcomes include pain intensity, cervical range of motion, functional disability, and depressive symptoms measured at baseline, post-intervention, and 16-week follow-up.",
-   "outcome": "Pain Intensity",
-   "sponsor": "Neveen Abd El Maksoad Kohaf",
-   "sponsor_class": "OTHER",
-   "collaborators": [
-    "Universiti Kebangsaan Malaysia Medical Centre"
-   ],
-   "responsible": {
-    "name": "Neveen Abd El Maksoad Kohaf",
-    "title": "Clinical Pharmacy Department, Faculty of Pharmacy (Girls), Al-Azhar University, Cairo, Egypt.",
-    "affiliation": "Al-Azhar University"
-   },
-   "officials": [],
-   "countries": [
-    "Iraq"
-   ],
-   "sites": [
-    {
-     "facility": "Al-Hussein Teaching Hospital",
-     "city": "Nasiriyah",
-     "country": "Iraq"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "musculo-squelettique",
-    "neurologie"
    ]
   },
   {
@@ -7598,6 +7655,65 @@
    ]
   },
   {
+   "nct": "NCT07446127",
+   "title": "Adjunctive Diode Laser Therapy in Non-Surgical Periodontal Therapy",
+   "official": "Evaluation of the Effect of Adjunctive Diode Laser Therapy in Mechanical Scaling and Root Surface Debridement in Non-Surgical Periodontal Therapy",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2026-01-01",
+   "end": "2026-12-31",
+   "completion": "2026-12-31",
+   "first_posted": "2026-03-03",
+   "updated": "2026-03-03",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 20,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Periodontal Disease",
+    "Periodontal Pockets",
+    "Periodontal Attachment Loss"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "LASER assisted SRP"
+    },
+    {
+     "type": "DEVICE",
+     "name": "RsD"
+    }
+   ],
+   "summary": "The goal of this clinical trial is to evaluate the efficacy of adjunctive application of diode laser to mechanical, non-surgical root surface debridement in patients attending periodontal office. The main question it aims to answer is:\n\nTo compare the clinical effectiveness of adjunctive application of a 940-nm diode laser with root surface debridement to the effectiveness of root surface debridement alone.\n\nThis study is a split-mouth design, where each quadrant will be randomly allocated to one of the following groups:\n\nControl group (root surface debridement - RsD): scaling and root planing alone. Laser group (RsD + laser): scaling and root planing with adjunctive diode laser therapy Quadrants will be randomly allocated to the treatment groups",
+   "outcome": "PPD",
+   "sponsor": "Tel Aviv University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Michael Saminsky",
+    "title": "Doctor",
+    "affiliation": "Tel Aviv University"
+   },
+   "officials": [],
+   "countries": [
+    "Israel"
+   ],
+   "sites": [
+    {
+     "facility": "Dr Younis Mahmoud",
+     "city": "Afula",
+     "country": "Israel"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
    "nct": "NCT07286474",
    "title": "Effects of Laser Therapy and Vitamin D Pills on Braces Tooth Movement: A Random Controlled Study",
    "official": "The Effects of Combined Low-Level Laser Therapy (LLLT) and Oral Vitamin D3 Supplements on Orthodontic Tooth Movements: A Randomized Controlled Trial.",
@@ -7720,65 +7836,6 @@
      "facility": "Restorative Department, Faculty of Dentistry, Tanta University",
      "city": "Tanta",
      "country": "Egypt"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "odontologie"
-   ]
-  },
-  {
-   "nct": "NCT07446127",
-   "title": "Adjunctive Diode Laser Therapy in Non-Surgical Periodontal Therapy",
-   "official": "Evaluation of the Effect of Adjunctive Diode Laser Therapy in Mechanical Scaling and Root Surface Debridement in Non-Surgical Periodontal Therapy",
-   "acronym": null,
-   "status": "RECRUITING",
-   "start": "2026-01-01",
-   "end": "2026-12-31",
-   "completion": "2026-12-31",
-   "first_posted": "2026-03-03",
-   "updated": "2026-03-03",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 20,
-   "allocation": "RANDOMIZED",
-   "masking": "NONE",
-   "conditions": [
-    "Periodontal Disease",
-    "Periodontal Pockets",
-    "Periodontal Attachment Loss"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "LASER assisted SRP"
-    },
-    {
-     "type": "DEVICE",
-     "name": "RsD"
-    }
-   ],
-   "summary": "The goal of this clinical trial is to evaluate the efficacy of adjunctive application of diode laser to mechanical, non-surgical root surface debridement in patients attending periodontal office. The main question it aims to answer is:\n\nTo compare the clinical effectiveness of adjunctive application of a 940-nm diode laser with root surface debridement to the effectiveness of root surface debridement alone.\n\nThis study is a split-mouth design, where each quadrant will be randomly allocated to one of the following groups:\n\nControl group (root surface debridement - RsD): scaling and root planing alone. Laser group (RsD + laser): scaling and root planing with adjunctive diode laser therapy Quadrants will be randomly allocated to the treatment groups",
-   "outcome": "PPD",
-   "sponsor": "Tel Aviv University",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Michael Saminsky",
-    "title": "Doctor",
-    "affiliation": "Tel Aviv University"
-   },
-   "officials": [],
-   "countries": [
-    "Israel"
-   ],
-   "sites": [
-    {
-     "facility": "Dr Younis Mahmoud",
-     "city": "Afula",
-     "country": "Israel"
     }
    ],
    "n_sites": 1,
@@ -8492,6 +8549,59 @@
    ]
   },
   {
+   "nct": "NCT06812611",
+   "title": "Effects of High Intensity Laser Therapy in Muscle Injuries",
+   "official": "Effects of High Intensity Laser Therapy In Lower Limb Muscle Injuries: a Randomized Controlled Study",
+   "acronym": "THEALinMJ",
+   "status": "RECRUITING",
+   "start": "2025-12-01",
+   "end": "2027-01-01",
+   "completion": "2027-04-01",
+   "first_posted": "2025-02-06",
+   "updated": "2026-05-14",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 24,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Muscle Tear"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "High Energy Laser Group"
+    },
+    {
+     "type": "OTHER",
+     "name": "Exercise"
+    }
+   ],
+   "summary": "Muscle injuries are frequent traumatic events in daily life, particularly during sports. In sports, their incidence varies from 10% to 55% of total injuries. According to the Mueller Wohlfart classification, muscle injuries are classified into direct traumatic injuries (contusion-laceration) and indirect traumatic injuries, which are further divided into non-structural injuries (grade I and II) and structural injuries. Structural lesions are further divided into partial muscle lesions (grade III): 3 A, minor partial lesion, i.e. lesion of one or more primary bundles with a secondary bundle; 3 B, moderate partial lesion, i.e. lesion of at least one secondary bundle and with a rupture area \\< 50% of the muscle surface; and (sub)total muscle injury (grade IV).",
+   "outcome": "recovery of pain",
+   "sponsor": "Azienda Ospedaliero-Universitaria Consorziale Policlinico di Bari",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "Italy"
+   ],
+   "sites": [
+    {
+     "facility": "Policlinico di Bari",
+     "city": "Bari",
+     "country": "Italy"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "dermatologie"
+   ]
+  },
+  {
    "nct": "NCT07205640",
    "title": "Improving Healing in Children After Tooth Extraction Using Laser Therapy or Hyaluronic Acid",
    "official": "Effect of Low-Level Laser Therapy Versus Hyaluronic Acid on Wound Healing After First Permanent Molar Extraction in Children.",
@@ -8558,59 +8668,6 @@
    "matched": [
     "dermatologie",
     "odontologie"
-   ]
-  },
-  {
-   "nct": "NCT06812611",
-   "title": "Effects of High Intensity Laser Therapy in Muscle Injuries",
-   "official": "Effects of High Intensity Laser Therapy In Lower Limb Muscle Injuries: a Randomized Controlled Study",
-   "acronym": "THEALinMJ",
-   "status": "RECRUITING",
-   "start": "2025-12-01",
-   "end": "2027-01-01",
-   "completion": "2027-04-01",
-   "first_posted": "2025-02-06",
-   "updated": "2026-05-14",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 24,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Muscle Tear"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "High Energy Laser Group"
-    },
-    {
-     "type": "OTHER",
-     "name": "Exercise"
-    }
-   ],
-   "summary": "Muscle injuries are frequent traumatic events in daily life, particularly during sports. In sports, their incidence varies from 10% to 55% of total injuries. According to the Mueller Wohlfart classification, muscle injuries are classified into direct traumatic injuries (contusion-laceration) and indirect traumatic injuries, which are further divided into non-structural injuries (grade I and II) and structural injuries. Structural lesions are further divided into partial muscle lesions (grade III): 3 A, minor partial lesion, i.e. lesion of one or more primary bundles with a secondary bundle; 3 B, moderate partial lesion, i.e. lesion of at least one secondary bundle and with a rupture area \\< 50% of the muscle surface; and (sub)total muscle injury (grade IV).",
-   "outcome": "recovery of pain",
-   "sponsor": "Azienda Ospedaliero-Universitaria Consorziale Policlinico di Bari",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": null,
-   "officials": [],
-   "countries": [
-    "Italy"
-   ],
-   "sites": [
-    {
-     "facility": "Policlinico di Bari",
-     "city": "Bari",
-     "country": "Italy"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "dermatologie"
    ]
   },
   {

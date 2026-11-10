@@ -371,6 +371,66 @@
   "fetched": "2026-11-08"
  },
  {
+  "pmid": "42999359",
+  "doi": "10.1016/j.ibneur.2026.10.009",
+  "pmcid": "PMC13743380",
+  "title": "Effects of melatonin and transcranial photobiomodulation on neuroinflammation-related gene expression and anxiety-like behaviors in rats under chronic restraint stress.",
+  "journal": "IBRO neuroscience reports",
+  "journal_abbr": "IBRO Neurosci Rep",
+  "authors": [
+   "Mazaheri M",
+   "Radahmadi M",
+   "Hosseini-Nasab F",
+   "Eskandari N"
+  ],
+  "first_affiliation": "Applied Physiology Research Center, Cardiovascular Research Institute, Isfahan University of Medical Sciences, Isfahan, Iran.",
+  "date_online": "2026-10-18",
+  "date_pub": "2026-12-01",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Anxiety-like behaviors",
+   "Chronic stress",
+   "Melatonin",
+   "Neuroinflammation-related gene",
+   "Transcranial photobiomodulation"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Psychological stress causes immunological and behavioral alterations that can maladaptively affect the quality of life. However, melatonin (MLT) and transcranial photobiomodulation (tPBM) have promising effects on brain functions. This study investigated the effects of MLT and tPBM in rats under chronic stress by evaluating neuroinflammation-related gene expression and anxiety-like behaviors. Sixty-three male Wistar rats were randomly assigned to nine groups: Control (Co), Sham injection (Sh-I), Sham tPBM (Sh-tPBM), MLT, tPBM, Stress (St), Stress with Melatonin (St-MLT), Stress with tPBM (St-tPBM), and Stress with Melatonin and tPBM (St-MLT-tPBM). Chronic restraint stress (2 h/day for 21 days) was applied to all stressed rats. MLT (20 mg/kg; intraperitoneal) and tPBM (808 nm; delivered to the scalp surface) were administered following restraint stress. Gene expression of hippocampal neuroinflammation-associated genes (IL-17A, ICAM-1, VCAM-1, IL-1β, and Aif1) was measured by real-time PCR. Additionally, anxiety-like behaviors were evaluated by the elevated-plus maze test. Hippocampal IL-17A and ICAM-1 gene expression was higher in stressed rats than in normal subjects. However, in the St group, IL-1β expression remained unchanged, whereas Aif1 expression was decreased compared with the Co group. tPBM reversed the stress-induced upregulation of IL-17A and ICAM-1 expression, whereas MLT could not mitigate them compared with normal subjects. The combined MLT and tPBM treatment elicited gene expression changes similar to those observed with tPBM alone. Stress-induced anxiety-like behaviors were significantly reduced by MLT, with effects similar to those of the combined treatment, which outperformed tPBM alone. These findings suggest the potential of tPBM and melatonin as complementary approaches for mitigating stress-related alterations, highlighting further investigation to optimize their doses and treatment parameters."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1016/j.ibneur.2026.10.009"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13743380"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13743380?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-10"
+ },
+ {
   "pmid": "42888961",
   "doi": "10.1155/prm/1530362",
   "pmcid": "PMC13675831",

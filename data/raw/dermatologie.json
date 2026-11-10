@@ -58,6 +58,170 @@
   "fetched": "2026-11-07"
  },
  {
+  "pmid": "42995289",
+  "doi": "10.1007/s10103-026-05081-2",
+  "pmcid": "PMC13743576",
+  "title": "Preliminary exploration of sequential DPL and CO2 laser versus CO2 laser monotherapy for the prophylactic management of early postoperative linear scars: A retrospective cohort study.",
+  "journal": "Lasers in medical science",
+  "journal_abbr": "Lasers Med Sci",
+  "authors": [
+   "Huang J",
+   "Lv L",
+   "Yu S",
+   "Luo J",
+   "Yang J",
+   "Wang X"
+  ],
+  "first_affiliation": "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai, China.",
+  "date_online": "2026-11-06",
+  "date_pub": "2026-11-07",
+  "pub_types": [
+   "Journal Article",
+   "Comparative Study"
+  ],
+  "mesh": [
+   "Humans",
+   "Retrospective Studies",
+   "Lasers, Gas",
+   "Female",
+   "Male",
+   "Lasers, Dye",
+   "Adult",
+   "Cicatrix",
+   "Middle Aged",
+   "Treatment Outcome",
+   "Postoperative Complications",
+   "Low-Level Light Therapy",
+   "Young Adult"
+  ],
+  "keywords": [
+   "Dye pulsed light",
+   "Fractional CO2 laser",
+   "Linear scars",
+   "Prophylactic management",
+   "Wound healing"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND AND OBJECTIVES",
+    "text": "Prophylactic management of early postoperative linear scars remains a clinical challenge. This study aimed to evaluate the clinical outcomes of sequential dye pulsed light (DPL) and fractional CO2 laser (CO2 laser) versus CO2 laser monotherapy in the prevention of scar hypertrophy, and to explore potential simplified early interventions."
+   },
+   {
+    "label": "PATIENTS AND METHODS",
+    "text": "In this exploratory retrospective study, 38 patients with early postoperative linear scars were enrolled. They were divided into a sequential DPL-CO2 laser group and a CO2 laser monotherapy group (19 patients each). All received six monthly prophylactic treatments. Efficacy was assessed by two independent surgeons using the Patient and Observer Scar Assessment Scale (POSAS)."
+   },
+   {
+    "label": "RESULTS",
+    "text": "After six treatments, no statistically significant difference was detected in the total POSAS score between the two groups (p = 0.988, mean difference = -0.26, 95% CI: -1.66 to 1.14). Similarly, no significant differences were found in the patient (PSAS) or observer (OSAS) component scores. However, compared to baseline, both groups showed significant improvement in several key scar parameters, including vascularization, thickness, color, stiffness, and irregularity. One case of transient reactive hyperplasia in the CO2 group was resolved with conservative management."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "Both sequential DPL-CO2 laser therapy and CO2 laser monotherapy were associated with favorable clinical trajectories in early postoperative linear scars over 6 months. In this exploratory, underpowered retrospective cohort, no definitive comparative conclusions could be drawn between the two regimens. Spontaneous maturation likely contributed to these outcomes. The observed parallel trends generate a hypothesis requiring proper prospective randomized evaluation to determine the true utility of CO2 laser alone as a simplified early intervention."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by-nc-nd",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s10103-026-05081-2"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13743576"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13743576?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-10"
+ },
+ {
+  "pmid": "42995303",
+  "doi": "10.1007/s10103-026-05073-2",
+  "pmcid": "PMC13743645",
+  "title": "Effects of photobiomodulation therapy on secondary healing of the palatal donor site after free gingival graft harvesting: a systematic review and meta-analysis.",
+  "journal": "Lasers in medical science",
+  "journal_abbr": "Lasers Med Sci",
+  "authors": [
+   "Chu Thi Quynh H",
+   "Hoang TK",
+   "Dam MH",
+   "Nguyen Van DM",
+   "Pham LC"
+  ],
+  "first_affiliation": "Department of Prosthodontics, University of Medicine and Pharmacy, Vietnam National University, Hanoi, Vietnam.",
+  "date_online": "2026-11-06",
+  "date_pub": "2026-11-07",
+  "pub_types": [
+   "Journal Article",
+   "Systematic Review",
+   "Meta-Analysis",
+   "Review"
+  ],
+  "mesh": [
+   "Humans",
+   "Low-Level Light Therapy",
+   "Wound Healing",
+   "Gingiva",
+   "Postoperative Pain",
+   "Palate",
+   "Transplant Donor Site",
+   "Tissue and Organ Harvesting",
+   "Randomized Controlled Trials as Topic"
+  ],
+  "keywords": [
+   "Connective tissue harvesting",
+   "Free gingival graft",
+   "Low-level laser therapy",
+   "Pain",
+   "Palatal donor",
+   "Wound healing"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "This systematic review and meta-analysis evaluated photobiomodulation (PBM) therapy for postoperative pain and secondary wound healing at the palatal donor site after connective tissue harvesting. Following PRISMA guidelines, five databases were searched through 20 October 2025 for randomized controlled trials comparing PBM therapy with appropriate controls. Primary outcomes were postoperative pain (visual analogue scale, VAS) and epithelialization; secondary outcomes were analgesic consumption, remaining wound area, and bleeding. Random-effects meta-analysis was used, risk of bias was assessed with the Cochrane Risk of Bias 2.0 tool and certainty of evidence with GRADE. Nine randomized controlled trials with 299 participants were included. Day-1 pain could not be pooled. No statistically significant difference in postoperative pain was observed at day 3 or day 7, with reductions of approximately 1.2 and 0.4 points on a 0-10 scale. Complete epithelialization at 14 days was more than twice as frequent, with no significant difference at day 21. The remaining wound area at day 7 was smaller by approximately 22 mm². Heterogeneity was moderate for pain and low for healing outcomes. PBM therapy may increase the proportion of palatal donor sites achieving complete epithelialization at 14 days. For postoperative pain the evidence is very uncertain, and no statistically significant reduction was observed at either pooled time point. Most trials carried a high or unclear risk of bias, and treatment protocols were heterogeneous. Larger trials with standardized dosimetry are needed to establish the clinical value of PBM therapy at the palatal donor site."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s10103-026-05073-2"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13743645"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13743645?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-10"
+ },
+ {
   "pmid": "42982128",
   "doi": "10.1016/j.jormas.2026.103069",
   "pmcid": null,
