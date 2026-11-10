@@ -53,7 +53,7 @@ class Pages:
         self.image = SITE + "/" + (m.group(1) if m else "assets/logo.png")
         self.urls = []
 
-    def write(self, path, title, desc, body, kind="website", image=None):
+    def write(self, path, title, desc, body, kind="website", image=None, noindex=False):
         url = SITE + path
         head = (f"<title>{E(title)}</title>\n<meta name=\"description\" content=\"{E(desc)}\">\n"
                 f"<link rel=\"canonical\" href=\"{E(url)}\">\n"
@@ -66,10 +66,13 @@ class Pages:
         page = re.sub(r"<title>.*?</title>", lambda _: head, base, count=1, flags=re.S)
         page = re.sub(r'(<main class="wrap" id="app" tabindex="-1">).*?(</main>)',
                       lambda m: m.group(1) + f'<div class="view prerender">{body}</div>' + m.group(2), page, count=1, flags=re.S)
+        if noindex:
+            page = page.replace("<head>", "<head>\n<meta name=\"robots\" content=\"noindex\">", 1)
         f = self.out / "p" / path.strip("/") / "index.html"
         f.parent.mkdir(parents=True, exist_ok=True)
         f.write_text(page, encoding="utf-8")
-        self.urls.append(url)
+        if not noindex:
+            self.urls.append(url)
 
 
 def main():
@@ -114,6 +117,17 @@ def main():
                      f"<p class=\"eyebrow\">{E(labels.get(t['id']))} · {E(meta)}</p><h1>{E(a.get('title_fr'))}</h1><p lang=\"en\"><i>{E(a.get('title'))}</i></p>"
                      f"<p><b>{E(a.get('l1'))}</b></p>{l2}<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/{E(a['pmid'])}/\">Voir sur PubMed</a></p>", kind="article")
             n_art += 1
+    # études écartées : une page explique le retrait (sinon l'ancienne adresse renverrait une page vide)
+    n_off = 0
+    if D.get("offtopic_file"):
+        for x in payload(ROOT / D["offtopic_file"]):
+            if x[0] in seen:
+                continue
+            seen.add(x[0])
+            n_off += 1
+            pg.write(f"/article/{x[0]}", "Publication écartée · Luminathèque", "Cette publication ne relève pas de la photobiomodulation et n'est pas retenue par Luminathèque.",
+                     f"<p class=\"eyebrow\">PMID {E(x[0])} · {E(x[2])}</p><h1 lang=\"en\">{E(x[3])}</h1><p><b>Publication écartée</b> : {E(x[4])}.</p>"
+                     f"<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/{E(x[0])}/\">Voir sur PubMed</a></p>", noindex=True)
     # appareils
     if D.get("devices_file"):
         devs = payload(ROOT / D["devices_file"])
