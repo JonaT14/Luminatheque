@@ -30,6 +30,21 @@ GLOSSAIRE = [
     (r"\bl'examen syst[ée]matique", "la revue systématique"),
     (r"examen syst[ée]matique", "revue systématique"),
     (r"m[ée]ta ?- ?analyse", "méta-analyse"),
+    (r"lumi[èe]re rouge (?:de |à )?(?:faible|bas) niveau r[ée]p[ée]t[ée]e?", "lumière rouge répétée de faible intensité"),
+    (r"th[ée]rapie (?:de |à )?(?:faible|bas) niveau", "thérapie de faible intensité"),
+    (r"(?:de |à )(?:faible|bas) niveau", "de faible intensité"),
+    (r":\s*un examen\b", " : une revue"),
+    (r"\bun examen (narratif|critique|de la port[ée]e|parapluie|de la litt[ée]rature)", r"une revue \1"),
+    (r"examen de la port[ée]e", "revue exploratoire"),
+    (r"\bexamen (narratif|de la litt[ée]rature)", r"revue \1"),
+    (r"en (?:un )?seul aveugle", "en simple aveugle"),
+    (r"double[- ]aveugle", "double aveugle"),
+    (r"contr[ôo]l[ée] par placebo", "contre placebo"),
+    (r"essai clinique randomis[ée]", "essai randomisé"),
+    (r"\bcrosstalk\b", "dialogue"),
+    (r"poteaux? (?:à|en) fibre", "tenons en fibre"),
+    (r"dentine racine", "dentine radiculaire"),
+    (r"\s+([:;?!])", r" \1"), (r"(\w)([:;?!])", r"\1 \2"),
     (r"mucosite", "mucite"),
     (r"blessure(s?) de la moelle", r"lésion\1 de la moelle"),
     (r"guérison des? (?:plaies|blessures)", "cicatrisation"),
@@ -68,6 +83,8 @@ def main():
     ap.add_argument("--minutes", type=float, default=300, help="durée maximale")
     a = ap.parse_args()
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+    cache = {k: polish(v) for k, v in cache.items()}  # le glossaire s'applique aussi aux titres déjà traduits
+    CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0, sort_keys=True) + "\n")
     todo = pending(cache)[: a.max]
     print(f"{len(todo)} titre(s) à traduire ({len(cache)} déjà traduits)")
     if not todo:
