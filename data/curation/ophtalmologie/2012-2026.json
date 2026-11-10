@@ -742,20 +742,23 @@
   "nm": [
    650
   ],
-  "n": null,
+  "n": 1031,
   "effect": "favorable",
   "theme": "Myopie de l'enfant",
   "l1": "La lumière rouge freine la progression de la myopie entre 6 et 16 ans.",
-  "l2": "Méta-analyse d'essais randomisés.",
+  "l2": "Méta-analyse d'essais randomisés (PubMed, Embase, Cochrane, Wanfang, CNKI) de la lumière rouge répétée de faible intensité chez l'enfant myope : sept essais, 1 031 enfants de 6 à 16 ans.\n\nLongueur axiale réduite de 0,25 mm (IC −0,32 à −0,17 ; I² 13 %) et réfraction améliorée de 0,60 D (IC 0,44–0,76 ; I² 20 %) par rapport au témoin. Résultats identiques face aux verres simples, à l'orthokératologie ou à l'atropine faible dose, à 6 comme à 12 mois.",
   "l3": {
    "points": [
-    "Comparateurs variés."
+    "Faible hétérogénéité.",
+    "Effet constant quel que soit le comparateur."
    ],
    "limites": [
-    "Hétérogénéité."
+    "Essais presque tous chinois ; suivi d'un an au plus.",
+    "Rebond à l'arrêt non évalué."
    ],
-   "pratique": "Efficace."
-  }
+   "pratique": "Option efficace à court terme ; nécessite un suivi ophtalmologique et un appareil dédié."
+  },
+  "k": 7
  },
  {
   "pmid": "37634757",
@@ -854,7 +857,7 @@
   "pmid": "38099371",
   "title_fr": "Lumière rouge répétée chez l'enfant et l'adolescent : méta-analyse",
   "type": "ma",
-  "level": 1,
+  "level": 3,
   "pop": "pédiatrie",
   "ctx": [
    "myopie"
@@ -870,15 +873,16 @@
   "effect": "favorable",
   "theme": "Myopie de l'enfant",
   "l1": "La lumière rouge freine l'allongement axial et la myopie ; quelques arrêts pour éblouissement, sans effet grave.",
-  "l2": "Méta-analyse d'essais randomisés (sources chinoises et anglaises).",
+  "l2": "Méta-analyse (huit bases chinoises et internationales, jusqu'au 23 mars 2023) d'essais randomisés et d'essais contrôlés sur la lumière rouge répétée chez l'enfant et l'adolescent myopes : 411 yeux traités, 409 témoins.\n\nLongueur axiale réduite de 0,22 mm (IC −0,28 à −0,16) et réfraction améliorée de 0,46 D (IC 0,32–0,60). Cinq études rapportent des effets indésirables : deux arrêts pour lumière jugée trop vive, pas d'effet grave à court terme.",
   "l3": {
    "points": [
-    "Sécurité à court terme."
+    "Données de tolérance."
    ],
    "limites": [
-    "Durée optimale inconnue."
+    "Mélange d'essais randomisés et non randomisés.",
+    "Recul court."
    ],
-   "pratique": "Efficace et sûre à court terme."
+   "pratique": "Prévenir de l'éblouissement possible en début de traitement."
   }
  },
  {
@@ -932,15 +936,16 @@
   "effect": "favorable",
   "theme": "Myopie de l'enfant",
   "l1": "La lumière rouge contrôle la myopie à 3, 6 et 12 mois, avec une bonne acceptabilité.",
-  "l2": "Revue systématique avec méta-analyse.",
+  "l2": "Méta-analyse d'essais randomisés comparant la lumière rouge 650 nm aux verres simples chez l'enfant myope.\n\nÀ 6 mois : longueur axiale −0,21 mm (IC −0,28 à −0,15), réfraction +0,46 D, épaisseur choroïdienne +25 µm. À 12 mois : longueur axiale −0,31 mm (IC −0,42 à −0,19), réfraction +0,63 D (IC 0,52–0,73). Bonne acceptabilité, aucune lésion fonctionnelle ou structurelle documentée.",
   "l3": {
    "points": [
-    "Court terme."
+    "Essais randomisés uniquement.",
+    "Effet croissant de 3 à 12 mois."
    ],
    "limites": [
-    "Long terme et rebond à étudier."
+    "Effet à long terme et rebond à l'arrêt non étudiés."
    ],
-   "pratique": "Efficace à court terme."
+   "pratique": "Le gain attendu est d'environ 0,3 mm de longueur axiale sur un an."
   }
  },
  {
@@ -1485,16 +1490,17 @@
   "effect": "favorable",
   "theme": "Myopie de l'enfant",
   "l1": "La lumière rouge ralentit la progression de la réfraction et de la longueur axiale chez l'enfant myope et pré-myope.",
-  "l2": "Méta-analyse.",
+  "l2": "Méta-analyse (PubMed, Embase, Cochrane ; RevMan 5.4) de huit essais randomisés chez des moins de 18 ans, myopes ou pré-myopes.\n\nProgression de la réfraction réduite de 0,49 D (IC 0,27–0,71), longueur axiale −0,24 mm (IC −0,32 à −0,17), épaisseur choroïdienne +28 µm. L'effet sur la longueur axiale et la choroïde vaut aussi chez l'enfant pré-myope.",
   "l3": {
    "points": [
-    "Myopes et pré-myopes."
+    "Inclut les enfants pré-myopes."
    ],
    "limites": [
-    "Hétérogénéité."
+    "Huit essais, populations asiatiques."
    ],
-   "pratique": "Efficace."
-  }
+   "pratique": "L'effet préventif chez le pré-myope ouvre une indication, encore à confirmer."
+  },
+  "k": 8
  },
  {
   "pmid": "39981627",
@@ -1547,15 +1553,16 @@
   "effect": "favorable",
   "theme": "Myopie de l'enfant",
   "l1": "Parmi les interventions de contrôle de la myopie, la lumière rouge figure parmi les plus efficaces ; les effets indésirables restent à mieux documenter.",
-  "l2": "Revue systématique avec méta-analyses en réseau (Acta Ophthalmol).",
+  "l2": "Revue systématique avec méta-analyses en réseau (douze bases, recherche du 2 décembre 2023) des interventions de freination de la myopie de l'enfant.\n\nOrthokératologie, atropine, verres à microlentilles asphériques et verres à défocalisation freinent l'allongement axial (environ −0,21 mm). La lumière rouge de faible intensité le freine aussi, mais ses effets indésirables potentiels restent à évaluer. Plus de 70 % des études viennent d'Asie.",
   "l3": {
    "points": [
-    "Comparaison globale."
+    "Compare toutes les options dans un même réseau.",
+    "Méthode Cochrane, PRISMA."
    ],
    "limites": [
-    "Populations surtout asiatiques."
+    "La lumière rouge y est moins documentée que les autres options sur la sécurité."
    ],
-   "pratique": "Option de premier plan."
+   "pratique": "La lumière rouge est une option parmi d'autres ; le choix dépend du profil de l'enfant et de la surveillance possible."
   }
  },
  {
@@ -1758,20 +1765,21 @@
   "nm": [
    650
   ],
-  "n": null,
+  "n": 619,
   "effect": "favorable",
   "theme": "Myopie de l'enfant",
   "l1": "Chez l'enfant pré-myope, la lumière rouge réduit l'apparition de la myopie, l'allongement axial et améliore la réfraction.",
-  "l2": "Méta-analyse d'essais randomisés.",
+  "l2": "Méta-analyse de quatre essais (619 enfants pré-myopes, âge moyen 8,5 ans) sur la lumière rouge fovéale intense.\n\nIncidence de la myopie réduite à 6 mois (différence de risque −0,10 ; IC −0,15 à −0,05) et à 12 mois (−0,17). Longueur axiale −0,12 mm à 6 mois et −0,18 mm à 12 mois ; réfraction +0,27 D puis +0,36 D ; choroïde épaissie de 22 µm.",
   "l3": {
    "points": [
-    "Prévention."
+    "Première synthèse centrée sur la prévention."
    ],
    "limites": [
-    "Sécurité à long terme à étudier."
+    "Quatre essais ; sécurité à long terme inconnue chez des enfants non malades."
    ],
-   "pratique": "Stratégie préventive possible."
-  }
+   "pratique": "Prévention prometteuse mais à réserver à un cadre de suivi strict : il s'agit d'enfants sans myopie."
+  },
+  "k": 4
  },
  {
   "pmid": "40537562",
@@ -1823,15 +1831,16 @@
   "effect": "favorable",
   "theme": "Myopie de l'enfant",
   "l1": "Toutes ces options freinent la myopie ; à long terme, la lumière rouge est la plus efficace sur l'allongement axial et la réfraction.",
-  "l2": "Méta-analyse en réseau d'essais randomisés (Br J Ophthalmol).",
+  "l2": "Méta-analyse en réseau bayésienne d'essais randomisés (PubMed, Web of Science, Embase) comparant atropine 0,01 %, orthokératologie, lumière rouge et leurs associations, à 12 mois.\n\nToutes freinent la myopie. Lumière rouge : longueur axiale −0,31 mm, réfraction +0,76 D ; atropine 0,01 % : −0,13 mm et +0,25 D ; orthokératologie : −0,16 mm ; atropine + orthokératologie : −0,27 mm. La lumière rouge est classée première sur la longueur axiale.",
   "l3": {
    "points": [
-    "Classement favorable."
+    "Comparaisons directes et indirectes entre options usuelles."
    ],
    "limites": [
-    "Comparaisons indirectes."
+    "Classement fondé en partie sur des comparaisons indirectes.",
+    "Pas de données au-delà de 12 mois."
    ],
-   "pratique": "Option de premier plan."
+   "pratique": "Sur un an, la lumière rouge est au moins aussi efficace que les options de référence."
   }
  },
  {
@@ -2162,15 +2171,15 @@
   "effect": "mitigé",
   "theme": "Myopie de l'enfant",
   "l1": "L'effet de la lumière rouge suit une courbe non linéaire et diminue à partir du 3e mois.",
-  "l2": "Revue systématique avec méta-analyse dose-réponse.",
+  "l2": "Méta-analyse dose-réponse (PROSPERO CRD42024575823 ; quatre bases, jusqu'en août 2024) d'essais randomisés de lumière rouge répétée chez l'enfant, sur 1, 3, 6 et 12 mois.\n\nLa lumière rouge fait mieux que les comparateurs à chaque échéance pour la longueur axiale et la réfraction, mais l'effet n'est pas linéaire : il s'atténue à partir du troisième mois. Hétérogénéité élevée (I² de 75 à 91 %). Effet sur la courbure cornéenne non concluant.",
   "l3": {
    "points": [
-    "Effet maximal précoce."
+    "Analyse la cinétique de l'effet."
    ],
    "limites": [
-    "Jusqu'à 12 mois."
+    "Hétérogénéité élevée."
    ],
-   "pratique": "Effet qui s'atténue."
+   "pratique": "L'essentiel du gain est acquis dans les trois premiers mois : réévaluer ensuite l'intérêt de poursuivre."
   }
  },
  {
@@ -2224,15 +2233,16 @@
   "effect": "favorable",
   "theme": "Myopie de l'enfant",
   "l1": "La lumière rouge freine la myopie à court et moyen terme, avec une bonne tolérance ; sécurité à long terme et protocoles optimaux restent à préciser.",
-  "l2": "Méta-analyse jusqu'en septembre 2025.",
+  "l2": "Méta-analyse (PROSPERO CRD420251139693 ; PubMed, Embase, Cochrane, jusqu'au 30 septembre 2025) comparant la lumière rouge répétée aux verres simples chez l'enfant et l'adolescent.\n\nRéfraction améliorée jusqu'à +0,67 D à 12 mois (IC 0,53–0,82). Épaisseur choroïdienne augmentée à toutes les échéances (17 µm à 1 mois, 31 µm à 12 mois). Hétérogénéité notable sur la longueur axiale et la réfraction, mais effet toujours favorable. Bonne tolérance.",
   "l3": {
    "points": [
-    "Bien tolérée."
+    "Synthèse la plus récente.",
+    "Suit la choroïde à quatre échéances."
    ],
    "limites": [
-    "Long terme."
+    "Sécurité à long terme et protocole optimal à préciser."
    ],
-   "pratique": "Option prometteuse."
+   "pratique": "Efficace à court et moyen terme ; le suivi rétinien reste indispensable."
   }
  },
  {
@@ -2319,15 +2329,17 @@
   "effect": "favorable",
   "theme": "Myopie de l'enfant",
   "l1": "La lumière rouge réduit la myopie de façon dépendante de la durée jusqu'à 1 an ; certitude modérée sur la réfraction et la choroïde.",
-  "l2": "Méta-analyse d'essais randomisés.",
+  "l2": "Méta-analyse d'essais randomisés (PROSPERO CRD420251112677 ; PubMed, Embase, Cochrane, jusqu'en août 2025) chez les moins de 18 ans.\n\nEffet dépendant de la durée : à 12 mois, réfraction +0,68 D, longueur axiale −0,30 mm, choroïde +26,7 µm. Effet plus marqué chez les enfants les plus myopes au départ ; pas de différence entre 5 et 7 jours par semaine. Profondeur de chambre antérieure, épaisseur cornéenne et cristallin inchangés. Effets indésirables légers et transitoires.",
   "l3": {
    "points": [
-    "Effets indésirables légers."
+    "Certitude évaluée : modérée pour la réfraction et la choroïde.",
+    "Paramètres de sécurité structurelle analysés."
    ],
    "limites": [
-    "Sécurité rétinienne à approfondir."
+    "Certitude plus faible pour la longueur axiale.",
+    "Pas d'évaluation rétinienne complète à long terme."
    ],
-   "pratique": "Efficace ; surveiller."
+   "pratique": "Cinq jours par semaine suffisent ; le bénéfice est plus net chez les enfants les plus myopes."
   }
  },
  {

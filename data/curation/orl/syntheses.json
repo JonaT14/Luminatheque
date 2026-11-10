@@ -9,7 +9,8 @@
      "h": "Prudence",
      "p": "Les effets placebo sont importants dans les acouphènes."
     }
-   ]
+   ],
+   "refs": []
   },
   "2015–2026": {
    "headline": "Rhinite allergique, odorat post-Covid et acouphènes toujours débattus",
@@ -20,6 +21,11 @@
      "h": "Acouphènes somatosensoriels",
      "p": "Quand les acouphènes sont liés à la mâchoire ou au cou, traiter cette cause avec le laser donne de meilleurs résultats."
     }
+   ],
+   "refs": [
+    "41239066",
+    "38685701",
+    "39020483"
    ]
   }
  },
@@ -72,6 +78,11 @@
      ]
     }
    ]
-  }
+  },
+  "refs": [
+   "41239066",
+   "38685701",
+   "39020483"
+  ]
  }
 }

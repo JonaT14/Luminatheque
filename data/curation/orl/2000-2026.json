@@ -875,16 +875,19 @@
   "effect": "favorable",
   "theme": "Acouphènes",
   "l1": "Chez les patients avec DTM, les approches de rééducation, dont le laser, pourraient améliorer l'otalgie et les acouphènes.",
-  "l2": "Revue systématique d'essais randomisés.",
+  "l2": "Revue systématique d'essais randomisés (recherche jusqu'en octobre 2023) sur les approches de rééducation chez les patients atteints de troubles temporo-mandibulaires avec signes otologiques : 931 articles identifiés, cinq essais retenus (gouttière occlusale, laser basse énergie, kinésithérapie).\n\nLes approches de rééducation, laser compris, améliorent l'otalgie secondaire et les acouphènes. Aucun essai ne porte sur la plénitude d'oreille ou les vertiges.",
   "l3": {
    "points": [
-    "Acouphènes somatosensoriels."
+    "Essais randomisés uniquement.",
+    "Seule synthèse centrée sur les symptômes de l'oreille liés aux troubles temporo-mandibulaires."
    ],
    "limites": [
-    "Peu d'essais."
+    "Cinq essais, petits et hétérogènes ; le laser n'est qu'une des interventions.",
+    "Pas de méta-analyse."
    ],
-   "pratique": "Traiter la DTM."
-  }
+   "pratique": "Devant des acouphènes ou une otalgie avec trouble temporo-mandibulaire, la prise en charge de l'articulation, laser compris, peut soulager."
+  },
+  "k": 5
  },
  {
   "pmid": "39020483",
@@ -900,20 +903,22 @@
    "laser"
   ],
   "nm": [],
-  "n": null,
+  "n": 329,
   "effect": "favorable",
   "theme": "Acouphènes",
   "l1": "Une approche multidisciplinaire non invasive est la plus efficace sur les acouphènes liés aux DTM ; le laser Nd:YAG y contribue.",
-  "l2": "Méta-analyse d'essais randomisés.",
+  "l2": "Revue systématique avec méta-analyse des essais randomisés chez des patients ayant à la fois des acouphènes et un trouble temporo-mandibulaire diagnostiqué selon les critères DC/TMD : cinq essais sur 635 articles, 329 participants.\n\nDeux essais évaluent une approche pluridisciplinaire, deux les facteurs pronostiques, un seul le laser Nd:YAG à basse énergie. L'approche pluridisciplinaire non invasive est la plus efficace ; la sévérité initiale des acouphènes, le sexe, l'âge, la qualité de vie et l'ancienneté prédisent la réponse.",
   "l3": {
    "points": [
-    "Facteurs pronostiques."
+    "Diagnostic standardisé (DC/TMD).",
+    "Identifie des facteurs pronostiques utiles."
    ],
    "limites": [
-    "Hétérogénéité."
+    "Un seul essai de laser : la conclusion porte surtout sur l'approche pluridisciplinaire."
    ],
-   "pratique": "Approche multidisciplinaire."
-  }
+   "pratique": "Le laser se conçoit comme un élément d'une prise en charge pluridisciplinaire, pas comme un traitement isolé des acouphènes."
+  },
+  "k": 5
  },
  {
   "pmid": "39198335",
@@ -1111,15 +1116,17 @@
   "effect": "favorable",
   "theme": "Rhinosinusite",
   "l1": "Le laser et la PBM semblent efficaces et sûrs dans la rhinosinusite chronique ; des essais standardisés sont nécessaires.",
-  "l2": "Revue systématique avec méta-analyse.",
+  "l2": "Revue systématique et méta-analyse (PubMed, Scopus, Embase, Web of Science, Cochrane, jusqu'au 30 juin 2025) du laser basse énergie et de la PBM dans la rhinosinusite chronique.\n\nLes scores de symptômes s'améliorent à 2 semaines (DMS 0,64 ; IC 0,26–1,01), à 4 semaines (DMS 2,66, mais hétérogénéité de 92 %) et à 2–6 mois (DMS 0,86 ; IC 0,39–1,33). Pas d'amélioration significative au scanner (DMS 0,34 ; p = 0,06) ni sur les céphalées et la fatigue.",
   "l3": {
    "points": [
-    "Synthèse récente."
+    "Effet symptomatique retrouvé à trois échéances.",
+    "Bonne tolérance."
    ],
    "limites": [
-    "Peu d'essais."
+    "Peu de patients, protocoles non standardisés.",
+    "Pas d'effet objectivé à l'imagerie."
    ],
-   "pratique": "Option prometteuse."
+   "pratique": "Option d'appoint sur les symptômes de la rhinosinusite chronique ; ne remplace pas le traitement de fond."
   }
  },
  {

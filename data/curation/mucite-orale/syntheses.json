@@ -3,11 +3,11 @@
   "2024": {
    "headline": "L'année du bilan : un effet constant, des preuves fragiles",
    "l1": "En 2024, les méta-analyses confirment que la PBM réduit d'environ moitié la mucite sévère en ORL, mais une revue parapluie montre que les revues sont de faible qualité, et une méta-analyse pédiatrique est négative.",
-   "l2": "La méta-analyse de Head & Neck (14 essais, 869 patients ORL) chiffre l'effet : mucite sévère réduite de 55 % en fin de traitement (RR 0,45), douleur diminuée d'environ 1 point, meilleurs résultats à faible puissance (10–25 mW). La revue parapluie de BMC Oral Health tempère ce résultat : 71 % des revues sont de qualité critiquement faible et une seule estimation est « fortement suggestive ». En pédiatrie, la méta-analyse d'In Vivo ne trouve pas d'effet préventif (RR 0,99). Cochrane publie le protocole d'une revue dédiée.\n\nSur le terrain, les études montrent l'importance du moment et de la fréquence : la PBM préventive dès le conditionnement fait mieux que la curative dans le myélome, la PBM quotidienne fait mieux qu'un jour sur trois. Les programmes pédiatriques de greffe (infirmière dédiée, Children's Oncology Group) prouvent la faisabilité et réduisent les coûts. Côté sécurité, deux signaux précliniques (mélanome à 808 nm, cellules de cancer buccal) et la synthèse du Bulletin du Cancer rappellent de respecter les doses et d'informer le patient.",
+   "l2": "La méta-analyse de Head & Neck (14 essais, 869 patients ORL) chiffre l'effet : mucite sévère réduite de 55 % en fin de traitement (RR 0,45), douleur diminuée d'environ 1 point, meilleurs résultats à faible puissance (10–25 mW) [1]. La revue parapluie de BMC Oral Health tempère ce résultat : 71 % des revues sont de qualité critiquement faible et une seule estimation est « fortement suggestive ». En pédiatrie, la méta-analyse d'In Vivo ne trouve pas d'effet préventif (RR 0,99) [2]. Cochrane publie le protocole d'une revue dédiée.\n\nSur le terrain, les études montrent l'importance du moment et de la fréquence : la PBM préventive dès le conditionnement fait mieux que la curative dans le myélome, la PBM quotidienne fait mieux qu'un jour sur trois. Les programmes pédiatriques de greffe (infirmière dédiée, Children's Oncology Group) prouvent la faisabilité et réduisent les coûts. Côté sécurité, deux signaux précliniques (mélanome à 808 nm, cellules de cancer buccal) et la synthèse du Bulletin du Cancer rappellent de respecter les doses et d'informer le patient.",
    "l3": [
     {
      "h": "Efficacité",
-     "p": "Méta-analyse ORL de référence : RR 0,45 (0,24–0,85) pour la mucite sévère en fin de traitement ; effet dès la 2e semaine sur l'incidence. La méta-analyse des interventions non médicamenteuses (27 essais) va dans le même sens (RR 0,54 toutes interventions confondues). En revanche, chez l'enfant, la méta-analyse In Vivo (5 essais poolés) ne montre pas d'effet ; l'essai égyptien en LAM (42 enfants, double aveugle) est, lui, nettement positif."
+     "p": "Méta-analyse ORL de référence : RR 0,45 (0,24–0,85) pour la mucite sévère en fin de traitement  [1]; effet dès la 2e semaine sur l'incidence. La méta-analyse des interventions non médicamenteuses (27 essais) va dans le même sens (RR 0,54 toutes interventions confondues) [3]. En revanche, chez l'enfant, la méta-analyse In Vivo (5 essais poolés) ne montre pas d'effet ; l'essai égyptien en LAM (42 enfants, double aveugle) est, lui, nettement positif."
     },
     {
      "h": "Qualité des preuves",
@@ -25,6 +25,19 @@
      "h": "Sécurité oncologique",
      "p": "Signal préclinique à 808 nm sur le mélanome murin ; effets dépendants de la puissance sur les cellules de carcinome buccal ; revue de Frontiers in Oncology aux résultats discordants. Cliniquement, la cohorte brésilienne de 751 patients ne montre pas de surmortalité (le gain de survie apparent est probablement un biais). La synthèse francophone du Bulletin du Cancer fixe le cadre : doses validées, information et consentement en zone tumorale."
     }
+   ],
+   "refs": [
+    "38265122",
+    "38688628",
+    "38840131",
+    "39457676",
+    "39294629",
+    "38615257",
+    "38944404",
+    "38556719",
+    "39439950",
+    "39032372",
+    "39625051"
    ]
   },
   "2025": {
@@ -38,15 +51,15 @@
     },
     {
      "h": "Nouveaux dispositifs",
-     "p": "Gouttière intrabuccale à 43 points (6,6 % de mucites sévères chez 15 patients), appareil à domicile (60 % d'observance, mais 41 % de mucites sévères en fin de radiothérapie), LED (5 études, GRADE faible). Ce sont des preuves de faisabilité, pas encore d'efficacité comparative."
+     "p": "Gouttière intrabuccale à 43 points (6,6 % de mucites sévères chez 15 patients), appareil à domicile (60 % d'observance, mais 41 % de mucites sévères en fin de radiothérapie), LED (5 études, GRADE faible) [1]. Ce sont des preuves de faisabilité, pas encore d'efficacité comparative."
     },
     {
      "h": "Chimiothérapie et pédiatrie",
-     "p": "Préconditionnement avant la première cure : 80 à 87 % des patients sans mucite contre 7 % (deux publications issues probablement de la même cohorte syrienne). Méta-analyse pédiatrique de J Dent (5 essais, 177 enfants) positive. Essai iranien chez l'enfant sous MTX : incidence de 66,7 % à 6,7 % (avant-après) et thérapie photodynamique au vert d'indocyanine en curatif."
+     "p": "Préconditionnement avant la première cure : 80 à 87 % des patients sans mucite contre 7 % (deux publications issues probablement de la même cohorte syrienne). Méta-analyse pédiatrique de J Dent (5 essais, 177 enfants) positive. Essai iranien chez l'enfant sous MTX : incidence de 66,7 % à 6,7 % (avant-après) et thérapie photodynamique au vert d'indocyanine en curatif [2]."
     },
     {
      "h": "Associations et comparateurs",
-     "p": "L-glutamine et acide hyaluronique ajoutés à la PBM : bénéfice sur l'échelle OMS seulement. Gel d'A. chica supérieur au laser pour la cicatrisation (5,2 contre 11,2 jours, essai ouvert). Dispositif Germinator équivalent au laser (sans bras témoin)."
+     "p": "L-glutamine et acide hyaluronique ajoutés à la PBM : bénéfice sur l'échelle OMS seulement. Gel d'A. chica supérieur au laser pour la cicatrisation (5,2 contre 11,2 jours, essai ouvert) [3]. Dispositif Germinator équivalent au laser (sans bras témoin)."
     },
     {
      "h": "Implantation",
@@ -54,18 +67,30 @@
     },
     {
      "h": "Sécurité",
-     "p": "Signal sur l'épithélium de xénope à 660 nm (anomalies chez 30,6 % des têtards contre 3,8 %), sans équivalent clinique connu. Les revues mécanistiques confirment la modulation des cytokines (IL-6, TNF-α) et du stress oxydatif (nitrite salivaire, SOD)."
+     "p": "Signal sur l'épithélium de xénope à 660 nm (anomalies chez 30,6 % des têtards contre 3,8 %), sans équivalent clinique connu [4]. Les revues mécanistiques confirment la modulation des cytokines (IL-6, TNF-α) et du stress oxydatif (nitrite salivaire, SOD)."
     }
+   ],
+   "refs": [
+    "41058057",
+    "40316940",
+    "41394293",
+    "40238654",
+    "41410110",
+    "40889543",
+    "40002682",
+    "40928526",
+    "40549226",
+    "41201561"
    ]
   },
   "2026": {
    "headline": "L'année de la consolidation : de grands essais et de nouveaux critères",
    "l1": "En 2026, la plus grande méta-analyse (30 essais, 1 748 patients ORL) confirme une baisse de 54 % des mucites sévères, un essai multicentrique contre simulation valide un dispositif LED, et l'attention se porte sur la douleur, les opioïdes et la voie extrabuccale chez l'enfant.",
-   "l2": "Deux méta-analyses convergent : RR 0,46 pour la mucite sévère en ORL (avec un RR de 0,35 pour la douleur sévère) et RR 0,50 sur les essais récents, avec une certitude toujours faible. Les essais randomisés contre placebo ou simulation se multiplient : dispositif LED intrabuccal (85 patients, 12 centres américains, 36,8 % contre 57,1 % de mucites sévères), méthotrexate haute dose chez l'adulte (11,5 % contre 51,9 %, il suffit de traiter 2 patients), greffe (POMFITT, 0 % contre 26,6 %). Un essai en bouche divisée montre aussi un effet curatif (guérison 52,4 % contre 11,9 %).\n\nEn pédiatrie, deux essais brésiliens et une enquête de préférence placent la PBM extrabuccale au moins à égalité avec l'intrabuccale, avec un temps de séance divisé par dix et beaucoup moins d'inconfort. En France, une cohorte appariée de 280 patients montre que la PBM préventive réduit la morphine sans changer le grade de mucite : un argument pour mesurer la douleur et pas seulement le grade. Les revues parapluie et une étude sur le « spin » des résumés rappellent les limites méthodologiques du domaine.",
+   "l2": "Deux méta-analyses convergent : RR 0,46 pour la mucite sévère en ORL (avec un RR de 0,35 pour la douleur sévère) et RR 0,50 sur les essais récents, avec une certitude toujours faible. Les essais randomisés contre placebo ou simulation se multiplient : dispositif LED intrabuccal (85 patients, 12 centres américains, 36,8 % contre 57,1 % de mucites sévères), méthotrexate haute dose chez l'adulte (11,5 % contre 51,9 %, il suffit de traiter 2 patients), greffe (POMFITT, 0 % contre 26,6 %) [1]. Un essai en bouche divisée montre aussi un effet curatif (guérison 52,4 % contre 11,9 %) [2].\n\nEn pédiatrie, deux essais brésiliens et une enquête de préférence placent la PBM extrabuccale au moins à égalité avec l'intrabuccale, avec un temps de séance divisé par dix et beaucoup moins d'inconfort. En France, une cohorte appariée de 280 patients montre que la PBM préventive réduit la morphine sans changer le grade de mucite : un argument pour mesurer la douleur et pas seulement le grade. Les revues parapluie et une étude sur le « spin » des résumés rappellent les limites méthodologiques du domaine.",
    "l3": [
     {
      "h": "Synthèses quantitatives",
-     "p": "Méta-analyse à trois niveaux (Supportive Care in Cancer, mars) : mucite sévère RR 0,46 (0,29–0,71), douleur sévère RR 0,35 (0,23–0,53), débit salivaire DMS 0,75, xérostomie et qualité de vie non significatives ; certitude très faible à faible. Méta-analyse des essais 2020–2026 : RR 0,50 (0,35–0,73). Revue de 15 essais contre simulation chez l'adulte : bénéfice surtout en prévention intrabuccale. Revues parapluie (LLLT toutes indications ; complications ORL) : signal favorable sur la mucite, mais 90 % des revues de confiance faible ou critiquement faible."
+     "p": "Méta-analyse à trois niveaux (Supportive Care in Cancer, mars) : mucite sévère RR 0,46 (0,29–0,71), douleur sévère RR 0,35 (0,23–0,53), débit salivaire DMS 0,75, xérostomie et qualité de vie non significatives  [3]; certitude très faible à faible. Méta-analyse des essais 2020–2026 : RR 0,50 (0,35–0,73) [4]. Revue de 15 essais contre simulation chez l'adulte : bénéfice surtout en prévention intrabuccale. Revues parapluie (LLLT toutes indications ; complications ORL) : signal favorable sur la mucite, mais 90 % des revues de confiance faible ou critiquement faible."
     },
     {
      "h": "Essais majeurs",
@@ -73,16 +98,33 @@
     },
     {
      "h": "Extrabuccal chez l'enfant",
-     "p": "Essai de 155 enfants : 30,5 % contre 41,1 % (NS), 30 s contre 6 min. Essai de 31 enfants randomisés par cure : avantage à l'extrabuccal (RR 1,84 en défaveur de l'intrabuccal). Préférence des parents : 65,6 % pour l'extrabuccal, 6,3 % d'inconfort contre 43,8 %. Un protocole d'essai de non-infériorité en ORL adulte (808 nm transcutané) est en cours."
+     "p": "Essai de 155 enfants : 30,5 % contre 41,1 % (NS), 30 s contre 6 min [5]. Essai de 31 enfants randomisés par cure : avantage à l'extrabuccal (RR 1,84 en défaveur de l'intrabuccal). Préférence des parents : 65,6 % pour l'extrabuccal, 6,3 % d'inconfort contre 43,8 % [6]. Un protocole d'essai de non-infériorité en ORL adulte (808 nm transcutané) est en cours."
     },
     {
      "h": "Douleur, opioïdes, odynophagie",
-     "p": "Cohorte française appariée : morphine 22,9 contre 37,4 mg/j en fin de radiothérapie et 10,3 contre 27,2 mg/j à un mois, avec des grades de mucite identiques (63 %). PBM haute puissance 940 nm sur l'odynophagie : baisse de 40 % de la douleur sur près de 4 jours. Vie réelle italienne : 10 séances ou plus réduisent odynophagie et dysphagie persistante, sans effet sur la survie."
+     "p": "Cohorte française appariée : morphine 22,9 contre 37,4 mg/j en fin de radiothérapie et 10,3 contre 27,2 mg/j à un mois, avec des grades de mucite identiques (63 %) [7]. PBM haute puissance 940 nm sur l'odynophagie : baisse de 40 % de la douleur sur près de 4 jours. Vie réelle italienne : 10 séances ou plus réduisent odynophagie et dysphagie persistante, sans effet sur la survie."
     },
     {
      "h": "Méthodologie et implantation",
      "p": "Spin dans 14 des 16 résumés d'essais analysés. Microbiome : hypothèse de recherche et non mécanisme établi. Royaume-Uni : l'adoption dépend de l'organisation locale, les LED réduisent les obstacles. Australie et Nouvelle-Zélande : PBM rarement utilisée, absente des recommandations nationales EviQ."
     }
+   ],
+   "refs": [
+    "42360517",
+    "41864516",
+    "41880047",
+    "42098536",
+    "42897331",
+    "42776303",
+    "41841486",
+    "42878931",
+    "42319507",
+    "42082093",
+    "41760795",
+    "41647299",
+    "41584371",
+    "42969421",
+    "42438170"
    ]
   },
   "2000–2009": {
@@ -106,24 +148,28 @@
      "h": "Recommandations",
      "p": "MASCC/ISOO 2006 : peu de préventions validées ; le laser est jugé prometteur mais pas encore recommandé, faute d'essais suffisants."
     }
+   ],
+   "refs": [
+    "16517417",
+    "17053058"
    ]
   },
   "2010–2019": {
    "headline": "La preuve se construit : méta-analyses, grands essais ORL et recommandations",
    "l1": "Entre 2010 et 2019, la PBM passe du statut de piste prometteuse à celui de traitement recommandé. Les méta-analyses convergent (RR de 0,37 à 0,40 contre la mucite sévère), de grands essais ORL confirment l'effet (phase III brésilienne : 6,4 % contre 40,5 % de mucite de grade 3–4) et la MASCC/ISOO recommande la PBM préventive en 2019 dans trois situations.",
-   "l2": "La Cochrane de 2010 juge encore les preuves faibles. Les méta-analyses suivantes changent la donne : 11 essais en 2011 (effet surtout au-delà de 1 J), 18 essais en 2014 (risque de mucite sévère réduit de 63 %, douleur sévère de 74 %), 2019 en curatif (−62 % de mucite sévère à J7, guérison 4,2 jours plus tôt). Une méta-analyse en réseau de 57 essais classe laser + soins buccaux en tête des préventions de la mucite radio-induite.\n\nLes grands essais ORL sont positifs : Inde (121 et 221 patients, mucite sévère de 89 % à 29 %), Brésil (phase III, 94 patients, grade 3–4 divisé par six, coût de 4 961 USD par mucite sévère évitée, et même une meilleure survie sans progression à 41 mois). Deux essais restent négatifs : le laser à 2,5 J/cm² en radiochimiothérapie et l'essai français de phase III en curatif (2019). En greffe, les essais confirment l'effet (57 % sans mucite contre 5 % ; 18 % contre 61 % de mucite sévère).\n\nLa MASCC/ISOO passe d'une recommandation limitée à la greffe (2012–2014) à une recommandation en greffe, en radiothérapie ORL seule et en radiochimiothérapie ORL (2019), avec des protocoles précis. Les premières revues de sécurité tumorale (27 études) sont rassurantes, même si les données in vitro restent ambivalentes.",
+   "l2": "La Cochrane de 2010 juge encore les preuves faibles. Les méta-analyses suivantes changent la donne : 11 essais en 2011 (effet surtout au-delà de 1 J), 18 essais en 2014 (risque de mucite sévère réduit de 63 %, douleur sévère de 74 %), 2019 en curatif (−62 % de mucite sévère à J7, guérison 4,2 jours plus tôt). Une méta-analyse en réseau de 57 essais classe laser + soins buccaux en tête des préventions de la mucite radio-induite.\n\nLes grands essais ORL sont positifs : Inde (121 et 221 patients, mucite sévère de 89 % à 29 %), Brésil (phase III, 94 patients, grade 3–4 divisé par six, coût de 4 961 USD par mucite sévère évitée, et même une meilleure survie sans progression à 41 mois) [1]. Deux essais restent négatifs : le laser à 2,5 J/cm² en radiochimiothérapie et l'essai français de phase III en curatif (2019). En greffe, les essais confirment l'effet (57 % sans mucite contre 5 % ; 18 % contre 61 % de mucite sévère).\n\nLa MASCC/ISOO passe d'une recommandation limitée à la greffe (2012–2014) à une recommandation en greffe, en radiothérapie ORL seule et en radiochimiothérapie ORL (2019), avec des protocoles précis. Les premières revues de sécurité tumorale (27 études) sont rassurantes, même si les données in vitro restent ambivalentes.",
    "l3": [
     {
      "h": "Méta-analyses",
-     "p": "Cochrane 2010 : preuves faibles. 2011 : 11 ECR, effet dose-dépendant (> 1 J). 2014 : 18 ECR, 1 144 patients, RR 0,37 [0,20–0,67] contre la mucite sévère. 2017 : réseau de 57 ECR, laser + soins buccaux en tête (SUCRA 95,8 %). 2019 : curatif, RR 0,38 ; effet net chez l'adulte (RR 0,28), pas chez l'enfant (RR 0,90)."
+     "p": "Cochrane 2010 : preuves faibles. 2011 : 11 ECR, effet dose-dépendant (> 1 J). 2014 : 18 ECR, 1 144 patients, RR 0,37 [0,20–0,67] contre la mucite sévère [2]. 2017 : réseau de 57 ECR, laser + soins buccaux en tête (SUCRA 95,8 %) [3]. 2019 : curatif, RR 0,38 ; effet net chez l'adulte (RR 0,28), pas chez l'enfant (RR 0,90) [4]."
     },
     {
      "h": "Radiothérapie ORL",
-     "p": "Phase III brésilienne (2013) : 6,4 % contre 40,5 % de grade 3–4 ; suivi à 41 mois : survie sans progression 62 % contre 40 %. Inde : 29 % contre 89 % de mucite sévère (121 patients), puis 221 patients en triple aveugle. Essais négatifs : 2,5 J/cm² (2012) et phase III française en curatif (54,8 % contre 43,9 %, 2019)."
+     "p": "Phase III brésilienne (2013) : 6,4 % contre 40,5 % de grade 3–4  [5]; suivi à 41 mois : survie sans progression 62 % contre 40 %. Inde : 29 % contre 89 % de mucite sévère (121 patients), puis 221 patients en triple aveugle [1]. Essais négatifs : 2,5 J/cm² (2012) et phase III française en curatif (54,8 % contre 43,9 %, 2019) [6]."
     },
     {
      "h": "Greffe et pédiatrie",
-     "p": "Greffe : 57 % sans mucite contre 5 % (2011), 17,6 % contre 61,1 % de mucite sévère (2016) ; LED extrabuccale 670 nm (NASA) sur la douleur. Pédiatrie : essai italien laMPO (101 enfants) : guérison accélérée (93,7 % contre 72 % sous le grade 3 à J7)."
+     "p": "Greffe : 57 % sans mucite contre 5 % (2011), 17,6 % contre 61,1 % de mucite sévère (2016) ; LED extrabuccale 670 nm (NASA) sur la douleur. Pédiatrie : essai italien laMPO (101 enfants) : guérison accélérée (93,7 % contre 72 % sous le grade 3 à J7) [7]."
     },
     {
      "h": "Paramètres",
@@ -133,12 +179,29 @@
      "h": "Recommandations et sécurité",
      "p": "MASCC/ISOO 2012–2014 : 650 nm en greffe, 632,8 nm suggéré en radiothérapie seule. 2019 : recommandation en greffe, radiothérapie ORL et radiochimiothérapie ORL. Revue de 27 études : pas de signal de sécurité tumorale ; in vitro, 7 études sur 13 montrent une inhibition et 6 une stimulation des cellules tumorales."
     }
+   ],
+   "refs": [
+    "22502814",
+    "25198431",
+    "29224830",
+    "30729351",
+    "24044799",
+    "31118057",
+    "29727048",
+    "31286228",
+    "31092370",
+    "31264186",
+    "29128883",
+    "27918734",
+    "24615748",
+    "24119379",
+    "23001179"
    ]
   },
   "2020–2023": {
    "headline": "Consolidation : coût-efficacité, extrabuccal et position de la WALT",
    "l1": "De 2020 à 2023, l'efficacité préventive est considérée comme acquise (méta-analyses : RR de 0,28 à 0,40). La recherche se déplace vers le coût-efficacité, la PBM extrabuccale, la LED et l'association avec la cryothérapie. En 2022, la WALT étend la PBM à d'autres toxicités des traitements du cancer.",
-   "l2": "Les méta-analyses confirment et précisent : 30 études en 2020 (RR 0,40 contre la mucite sévère), ORL (RR 0,36, coût-efficace au Brésil), chimiothérapie avec analyse séquentielle concluante (RR 0,28, GRADE modéré), greffe (facteur de protection de 94 % avec 660 nm, 40 mW, 4 J/cm²). Une méta-analyse en réseau de 26 essais place l'association laser + cryothérapie en tête.\n\nLes essais testent la délivrance : PBM extrabuccale aussi efficace que l'intrabuccale en greffe, LED équivalente au laser chez l'enfant sous méthotrexate, association rouge + infrarouge meilleure que chaque longueur d'onde seule. Le coût par mucite sévère évitée est de 2 867 USD dans un essai brésilien et de 3 050 à 5 592 USD dans une revue. En pédiatrie, une revue de l'Archives of Disease in Childhood reste prudente en raison du risque de biais élevé.",
+   "l2": "Les méta-analyses confirment et précisent : 30 études en 2020 (RR 0,40 contre la mucite sévère), ORL (RR 0,36, coût-efficace au Brésil), chimiothérapie avec analyse séquentielle concluante (RR 0,28, GRADE modéré), greffe (facteur de protection de 94 % avec 660 nm, 40 mW, 4 J/cm²). Une méta-analyse en réseau de 26 essais place l'association laser + cryothérapie en tête.\n\nLes essais testent la délivrance : PBM extrabuccale aussi efficace que l'intrabuccale en greffe, LED équivalente au laser chez l'enfant sous méthotrexate, association rouge + infrarouge meilleure que chaque longueur d'onde seule. Le coût par mucite sévère évitée est de 2 867 USD dans un essai brésilien et de 3 050 à 5 592 USD dans une revue [1]. En pédiatrie, une revue de l'Archives of Disease in Childhood reste prudente en raison du risque de biais élevé.",
    "l3": [
     {
      "h": "Méta-analyses",
@@ -150,12 +213,28 @@
     },
     {
      "h": "Économie",
-     "p": "2 867 USD par mucite sévère évitée et 2 757 USD par interruption de radiothérapie évitée (Brésil) ; revue de quatre études : 3 050 à 5 592 USD par mucite de grade 3–4 évitée."
+     "p": "2 867 USD par mucite sévère évitée et 2 757 USD par interruption de radiothérapie évitée (Brésil)  [2]; revue de quatre études : 3 050 à 5 592 USD par mucite de grade 3–4 évitée [1]."
     },
     {
      "h": "Recommandations",
      "p": "WALT 2022 : reprend la MASCC/ISOO pour la mucite et propose des paramètres pour une quinzaine d'autres toxicités (radiodermite, xérostomie, neuropathie, lymphœdème…)."
     }
+   ],
+   "refs": [
+    "33411048",
+    "32621262",
+    "37629703",
+    "37853254",
+    "38057605",
+    "36110957",
+    "35013780",
+    "34299869",
+    "33716203",
+    "34230010",
+    "32624448",
+    "32666214",
+    "32062592",
+    "37858427"
    ]
   }
  },
@@ -281,6 +360,20 @@
      ]
     }
    ]
-  }
+  },
+  "refs": [
+   "42878931",
+   "42319507",
+   "42098536",
+   "42082093",
+   "41880047",
+   "41760795",
+   "41647299",
+   "41584371",
+   "41410110",
+   "40889543",
+   "40002682",
+   "39457676"
+  ]
  }
 }

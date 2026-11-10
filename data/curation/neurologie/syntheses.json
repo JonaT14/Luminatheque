@@ -3,7 +3,7 @@
   "2000–2009": {
    "headline": "Laser-acupuncture et premiers essais dans l'AVC",
    "l1": "Avant 2010, la neurologie compte deux pistes : la laser-acupuncture (céphalées de tension, céphalées de l'enfant, dépression), avec de petits essais positifs, et le laser transcrânien dans l'AVC ischémique aigu, avec NEST-1 positif en 2007 puis NEST-2 négatif en 2009.",
-   "l2": "Laser-acupuncture : céphalée de tension chronique (−15 jours par mois contre −2 sous placebo, 50 patients), céphalées de l'enfant (essai bicentrique en double aveugle) et dépression légère en soins primaires (30 patients) sont favorables ; une revue de 2008 confirme l'intérêt pour la céphalée de tension.\n\nAVC : NEST-1 (120 patients, 808 nm dans les 24 h) améliore le pronostic à 90 jours, mais NEST-2 (660 patients) n'atteint pas son critère principal. L'irradiation laser intravasculaire (ILIB) est alors surtout étudiée en Chine et en Russie, sur des marqueurs biologiques.",
+   "l2": "Laser-acupuncture : céphalée de tension chronique (−15 jours par mois contre −2 sous placebo, 50 patients), céphalées de l'enfant (essai bicentrique en double aveugle) et dépression légère en soins primaires (30 patients) sont favorables ; une revue de 2008 confirme l'intérêt pour la céphalée de tension.\n\nAVC : NEST-1 (120 patients, 808 nm dans les 24 h) améliore le pronostic à 90 jours, mais NEST-2 (660 patients) n'atteint pas son critère principal [1]. L'irradiation laser intravasculaire (ILIB) est alors surtout étudiée en Chine et en Russie, sur des marqueurs biologiques.",
    "l3": [
     {
      "h": "AVC",
@@ -13,6 +13,9 @@
      "h": "Céphalées et humeur",
      "p": "Laser-acupuncture : trois petits essais contre placebo favorables."
     }
+   ],
+   "refs": [
+    "17463313"
    ]
   },
   "2010–2019": {
@@ -32,7 +35,8 @@
      "h": "Psychiatrie",
      "p": "Laser-acupuncture et PBM transcrânienne dans la dépression : petits essais positifs."
     }
-   ]
+   ],
+   "refs": []
   },
   "2020–2022": {
    "headline": "Démences, Parkinson, traumatisme crânien : l'essor des pilotes",
@@ -47,6 +51,10 @@
      "h": "Préclinique",
      "p": "Revues animales sur la neuro-inflammation, la lésion médullaire et les maladies neurodégénératives : base biologique solide."
     }
+   ],
+   "refs": [
+    "36404359",
+    "34119804"
    ]
   },
   "2023–2024": {
@@ -62,6 +70,11 @@
      "h": "Covid long",
      "p": "Premiers essais : goût et odorat, céphalées. Brouillard cérébral seulement en ouvert."
     }
+   ],
+   "refs": [
+    "38356614",
+    "36967820",
+    "37843594"
    ]
   },
   "2025": {
@@ -73,6 +86,10 @@
      "h": "Trouble cognitif léger ou démence",
      "p": "Les résultats sont meilleurs au stade de trouble cognitif léger qu'au stade de démence avérée : la PBM agirait plutôt en prévention."
     }
+   ],
+   "refs": [
+    "40394373",
+    "40523998"
    ]
   },
   "2026": {
@@ -84,6 +101,11 @@
      "h": "À suivre",
      "p": "Les essais en cours sont nombreux : Alzheimer (NirsCure, RGn600, casque LUCIOLE en France), autisme, dépression, fatigue chronique (voir « Études en cours »)."
     }
+   ],
+   "refs": [
+    "42512223",
+    "42487022",
+    "42798437"
    ]
   }
  },
@@ -190,6 +212,18 @@
      ]
     }
    ]
-  }
+  },
+  "refs": [
+   "42512223",
+   "42487022",
+   "42798437",
+   "40394373",
+   "40523998",
+   "38356614",
+   "36967820",
+   "37843594",
+   "36404359",
+   "34119804"
+  ]
  }
 }

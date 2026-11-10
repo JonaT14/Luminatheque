@@ -21,6 +21,11 @@
      "h": "Neuropathie chimio-induite",
      "p": "Pas d'essai clinique spécifique en 2024 ; la synthèse française classe la PBM comme encore peu étayée dans cette indication."
     }
+   ],
+   "refs": [
+    "38207201",
+    "39327309",
+    "38759478"
    ]
   },
   "2025": {
@@ -30,7 +35,7 @@
    "l3": [
     {
      "h": "Neuropathie diabétique",
-     "p": "Essai de 200 patients (Diabetes Res Clin Pract) : le plus solide de la période. Essai 10,6 μm (68 patients, double aveugle) : symptômes et qualité de vie améliorés, pas la conduction. Essai laser contre ultrasons (55 patients) : effet sur la qualité de vie, pas sur le score de symptômes."
+     "p": "Essai de 200 patients (Diabetes Res Clin Pract)  [1]: le plus solide de la période. Essai 10,6 μm (68 patients, double aveugle)  [2]: symptômes et qualité de vie améliorés, pas la conduction. Essai laser contre ultrasons (55 patients) : effet sur la qualité de vie, pas sur le score de symptômes."
     },
     {
      "h": "Canal carpien et compressions",
@@ -44,6 +49,19 @@
      "h": "Consensus et orofacial",
      "p": "Consensus Delphi du JAAD (21 experts) : PBM sûre et efficace dans la neuropathie périphérique. Revue maxillo-faciale (18 essais, 1 220 patients) : douleur −3,5 et récupération sensitive plus rapide."
     }
+   ],
+   "refs": [
+    "40090424",
+    "41093021",
+    "41302361",
+    "40253006",
+    "40315975",
+    "40121869",
+    "39776290",
+    "40523998",
+    "39929358",
+    "41091232",
+    "40186772"
    ]
   },
   "2026": {
@@ -53,7 +71,7 @@
    "l3": [
     {
      "h": "Neuropathie diabétique",
-     "p": "Essai multicentrique NCT05291975 (64 patients) : 72,7 % contre 32,3 % de répondeurs, EVA −33,4 contre −20,0, effet maintenu à 7 semaines. Pilote PBM ± ILIB (26 patients) : douleur en baisse dans le temps, sans interaction avec le groupe."
+     "p": "Essai multicentrique NCT05291975 (64 patients) : 72,7 % contre 32,3 % de répondeurs, EVA −33,4 contre −20,0, effet maintenu à 7 semaines [1]. Pilote PBM ± ILIB (26 patients) : douleur en baisse dans le temps, sans interaction avec le groupe."
     },
     {
      "h": "Neuropathie chimio-induite",
@@ -67,6 +85,13 @@
      "h": "Recommandations",
      "p": "WALT 2026 : bouche brûlante (niveau I), névralgie trigéminale idiopathique et post-zostérienne (niveau II, avis d'experts). Revue de 14 essais sur la douleur chronique : effets les plus nets dans la fibromyalgie et la neuropathie."
     }
+   ],
+   "refs": [
+    "42860829",
+    "41710353",
+    "41682985",
+    "41831101",
+    "42870113"
    ]
   },
   "2000–2009": {
@@ -76,7 +101,7 @@
    "l3": [
     {
      "h": "Canal carpien",
-     "p": "Essais positifs : 2007 (polyarthrite), 2008 (latences et force), 2008 (ligament transverse), 2009 (laser + attelle > ultrasons + attelle). Négatifs : 860 nm (n = 15), 81 patients (seule la force s'améliore), ultrasons > laser (2004). Revue de 2007 : preuves limitées."
+     "p": "Essais positifs : 2007 (polyarthrite), 2008 (latences et force), 2008 (ligament transverse), 2009 (laser + attelle > ultrasons + attelle). Négatifs : 860 nm (n = 15), 81 patients (seule la force s'améliore), ultrasons > laser (2004) [1]. Revue de 2007 : preuves limitées."
     },
     {
      "h": "Neuropathie diabétique",
@@ -86,16 +111,20 @@
      "h": "Lésions nerveuses",
      "p": "Lésions incomplètes anciennes : 780 nm, amélioration motrice sur 6 mois contre placebo en double aveugle. Une base pour les essais de régénération nerveuse."
     }
+   ],
+   "refs": [
+    "15266633",
+    "17613571"
    ]
   },
   "2010–2019": {
    "headline": "Méta-analyses discordantes dans le canal carpien, premier essai positif dans la neuropathie chimio-induite",
    "l1": "Entre 2010 et 2019, les méta-analyses du canal carpien divergent : effet sur la force, la douleur et le potentiel sensitif à 12 semaines pour l'une, pas mieux que le placebo pour l'autre. Le fait marquant de la décennie est le premier essai contre simulation dans la neuropathie chimio-induite (2016), avec 53 % de réduction du score à 8 semaines.",
-   "l2": "Dans le canal carpien, les essais s'accumulent : laser haute intensité supérieur à la TENS, laser + attelle supérieur à l'attelle seule, laser-acupuncture efficace, mais aussi essais négatifs et supériorité de la manipulation fasciale. Les synthèses de 2016 à 2018 concluent à un effet à court terme, surtout sur la force, dont la portée est discutée (un essai pèse plus de 95 % d'une méta-analyse). Les paramètres les plus efficaces semblent se situer entre 780 et 860 nm, à 9–11 J/cm².\n\nLa neuropathie chimio-induite apparaît avec l'essai de Gynecologic Oncology (2016, −32 % puis −53 % du score de neuropathie), et une revue de 2018 classe la PBM avec la duloxétine parmi les deux options de bénéfice modéré. Dans la neuropathie diabétique, une revue de six études et un essai pilote chez le sujet âgé sont favorables. En chirurgie maxillo-faciale, le laser améliore la récupération sensitive du nerf alvéolaire inférieur.",
+   "l2": "Dans le canal carpien, les essais s'accumulent : laser haute intensité supérieur à la TENS, laser + attelle supérieur à l'attelle seule, laser-acupuncture efficace, mais aussi essais négatifs et supériorité de la manipulation fasciale. Les synthèses de 2016 à 2018 concluent à un effet à court terme, surtout sur la force, dont la portée est discutée (un essai pèse plus de 95 % d'une méta-analyse). Les paramètres les plus efficaces semblent se situer entre 780 et 860 nm, à 9–11 J/cm² [1].\n\nLa neuropathie chimio-induite apparaît avec l'essai de Gynecologic Oncology (2016, −32 % puis −53 % du score de neuropathie), et une revue de 2018 classe la PBM avec la duloxétine parmi les deux options de bénéfice modéré. Dans la neuropathie diabétique, une revue de six études et un essai pilote chez le sujet âgé sont favorables. En chirurgie maxillo-faciale, le laser améliore la récupération sensitive du nerf alvéolaire inférieur.",
    "l3": [
     {
      "h": "Canal carpien",
-     "p": "Méta-analyse 2016 (7 ECR) : force, douleur et potentiel sensitif à 12 semaines, mais un essai domine. Méta-analyse 2017 : seule la force s'améliore. Revue 2017 : 780–860 nm à 9–11 J/cm². Haute intensité > TENS (2013). Laser-acupuncture positive (2019)."
+     "p": "Méta-analyse 2016 (7 ECR) : force, douleur et potentiel sensitif à 12 semaines, mais un essai domine. Méta-analyse 2017 : seule la force s'améliore. Revue 2017 : 780–860 nm à 9–11 J/cm² [1]. Haute intensité > TENS (2013). Laser-acupuncture positive (2019)."
     },
     {
      "h": "Neuropathie chimio-induite",
@@ -109,6 +138,17 @@
      "h": "Autres",
      "p": "Nerf ulnaire au coude : laser ≈ ultrasons. Nerf alvéolaire inférieur après ostéotomie : six études favorables. Douleur neuropathique (revue de 14 articles, surtout animaux) : effet meilleur au-delà de 70 mW."
     }
+   ],
+   "refs": [
+    "28272964",
+    "32026843",
+    "30508986",
+    "28580494",
+    "28629992",
+    "28942118",
+    "27495063",
+    "27887804",
+    "31109692"
    ]
   },
   "2020–2023": {
@@ -132,6 +172,13 @@
      "h": "Diabète et orofacial",
      "p": "ILIB modifiée (660 nm, 30 séances) favorable ; revue de 8 études : douleur, conduction et pressions plantaires. Orofacial (13 études) : névralgie trigéminale et bouche brûlante soulagées."
     }
+   ],
+   "refs": [
+    "37563725",
+    "36110957",
+    "36535605",
+    "33735212",
+    "35312857"
    ]
   }
  },
@@ -231,6 +278,20 @@
      ]
     }
    ]
-  }
+  },
+  "refs": [
+   "41710353",
+   "41682985",
+   "41302361",
+   "40253006",
+   "40315975",
+   "40121869",
+   "39776290",
+   "40523998",
+   "39929358",
+   "38207201",
+   "37563725",
+   "36110957"
+  ]
  }
 }

@@ -9,6 +9,14 @@
      "h": "Pionniers",
      "p": "Laser He-Ne sur les incisions gingivales (2000), premiers essais après extraction et en endodontie (2004–2005, souvent négatifs avec un placebo marqué)."
     }
+   ],
+   "refs": [
+    "24740534",
+    "24554452",
+    "25098769",
+    "23001570",
+    "21329811",
+    "20578865"
    ]
   },
   "2015–2019": {
@@ -20,6 +28,19 @@
      "h": "Dosimétrie",
      "p": "Les revues insistent sur le manque de description des paramètres, qui empêche de reproduire les protocoles."
     }
+   ],
+   "refs": [
+    "30661183",
+    "31802332",
+    "29330655",
+    "29374364",
+    "28621287",
+    "29053658",
+    "26932392",
+    "27016661",
+    "25738176",
+    "25800534",
+    "26576758"
    ]
   },
   "2020–2022": {
@@ -31,28 +52,62 @@
      "h": "Paramètres",
      "p": "Douleur orthodontique : 780–830 nm, faible énergie. Injection : 900–980 nm."
     }
+   ],
+   "refs": [
+    "35013845",
+    "35298283",
+    "35690502",
+    "35545921",
+    "33733872",
+    "34114609",
+    "34342772",
+    "34662524",
+    "34238645",
+    "34791563",
+    "32314880",
+    "32609566"
    ]
   },
   "2023–2026": {
    "headline": "Consolidation : anesthésie, endodontie, diabète, et un essai multicentrique négatif",
    "l1": "Depuis 2023, les méta-analyses confirment la PBM contre la douleur de l'injection anesthésique (adulte et enfant), la douleur post-endodontique et en complément du traitement parodontal du diabétique. Mais l'essai multicentrique italien BIOSTOTT (2025) ne montre pas d'effet après extraction de dent de sagesse, et la méta-analyse 2026 juge le laser inutile en routine pour cicatriser les lésions périapicales.",
-   "l2": "Anesthésie : méta-analyses 2024 (972 patients) et 2025 favorables ; la PBM accélère la fin de l'anesthésie chez l'enfant (revue 2025). Endodontie : méta-analyses 2023, 2024 et 2026 favorables sur la douleur post-opératoire ; pulpotomie au laser alternative au formocrésol (2024). Parodontologie : bénéfices jusqu'à 24 semaines (méta-analyse 2024), effets chez le diabétique (2023, 2025), cicatrisation du site donneur (2025, 2026).\n\nChirurgie : méta-analyse 2024 favorable à une séance infrarouge intra et extrabuccale, mais méta-analyses 2023 et 2025 de faible certitude et BIOSTOTT négatif. Orthodontie : réduction de la résorption radiculaire (méta-analyses 2025) ; les revues parapluie 2024 et 2026 restent prudentes sur l'accélération. Implants : résultats contrastés.",
+   "l2": "Anesthésie : méta-analyses 2024 (972 patients) et 2025 favorables ; la PBM accélère la fin de l'anesthésie chez l'enfant (revue 2025). Endodontie : méta-analyses 2023, 2024 et 2026 favorables sur la douleur post-opératoire ; pulpotomie au laser alternative au formocrésol (2024). Parodontologie : bénéfices jusqu'à 24 semaines (méta-analyse 2024), effets chez le diabétique (2023, 2025), cicatrisation du site donneur (2025, 2026).\n\nChirurgie : méta-analyse 2024 favorable à une séance infrarouge intra et extrabuccale, mais méta-analyses 2023 et 2025 de faible certitude et BIOSTOTT négatif. Orthodontie : réduction de la résorption radiculaire (méta-analyses 2025) ; les revues parapluie 2024 et 2026 restent prudentes sur l'accélération. Implants : résultats contrastés.\n\nChirurgie maxillo-faciale : deux méta-analyses de 2023 fixent le niveau de preuve. La PBM améliore la sensibilité du nerf alvéolaire inférieur à partir de 30 jours (15 essais) [13] et réduit l'œdème (−4,27 mm) et la douleur après chirurgie orthognathique (205 patients) [14]. Les essais récents confirment l'intérêt d'un traitement même tardif après extraction de troisième molaire (36 patients atteints depuis plus de six mois) [15] ou pose d'implant (24 patients) [16], alors qu'un essai en triple aveugle ne montre pas de récupération plus rapide après Le Fort I [17].",
    "l3": [
     {
      "h": "À suivre",
      "p": "Hypersensibilité des molaires hypominéralisées de l'enfant, péri-implantite, ostéonécrose des mâchoires."
     }
-   ]
+   ],
+   "refs": [
+    "41578029",
+    "41580743",
+    "41817644",
+    "41863036",
+    "41950291",
+    "42259468",
+    "42706468",
+    "42995303",
+    "40716837",
+    "40725907",
+    "41139001",
+    "41410039",
+    "37561792",
+    "37610457",
+    "38900722",
+    "41273740",
+    "41429186"
+   ],
+   "maj": "2026-11-10"
   }
  },
  "global": {
-  "headline": "2000 → 2026 : la PBM au fauteuil, utile contre la douleur, discutée sur le reste",
-  "l1": "En 26 ans et plus de 500 fiches, l'odontologie est devenue le premier domaine d'essais de PBM. Le bénéfice le plus constant porte sur la douleur : injection anesthésique, douleur orthodontique, douleur post-endodontique, hypersensibilité dentinaire, alvéolite. Les effets sur la cicatrisation (site donneur palatin, alvéole) sont favorables à court terme. Les promesses d'accélérer le traitement orthodontique, de stabiliser les implants ou de régénérer l'os parodontal ne sont pas confirmées.",
-  "l2": "Ce qui se confirme : douleur de l'injection (méta-analyses 2024–2026), retour plus rapide de la sensibilité après anesthésie chez l'enfant, douleur post-endodontique, hypersensibilité dentinaire et sensibilité après blanchiment, alvéolite (mieux que l'Alvogyl), cicatrisation du site donneur palatin. Résultats favorables mais de faible certitude : suites des dents de sagesse (avec un essai multicentrique négatif en 2025), douleur orthodontique (faibles énergies, 780–830 nm), traitement parodontal du diabétique.\n\nCe qui ne se confirme pas : accélération du mouvement orthodontique (méta-analyse 2022, revues Cochrane), stabilité implantaire (résultats contrastés), recouvrement des récessions à long terme, cicatrisation des lésions périapicales (méta-analyse 2026), pulpite irréversible (à éviter). Une grande partie des essais sont petits, monocentriques, et les paramètres sont mal rapportés.",
+  "headline": "2000 → 2026 : la PBM au fauteuil et au bloc, utile contre la douleur et les troubles sensitifs, discutée sur le reste",
+  "l1": "En 26 ans et plus de 500 fiches, l'odontologie est devenue le premier domaine d'essais de PBM. Le bénéfice le plus constant porte sur la douleur : injection anesthésique, douleur orthodontique, douleur post-endodontique, hypersensibilité dentinaire, alvéolite. Les effets sur la cicatrisation (site donneur palatin, alvéole) sont favorables à court terme. En chirurgie maxillo-faciale, la PBM accélère la récupération sensitive du nerf alvéolaire inférieur et réduit la douleur et l'œdème après chirurgie orthognathique. Les promesses d'accélérer le traitement orthodontique, de stabiliser les implants ou de régénérer l'os parodontal ne sont pas confirmées.",
+  "l2": "Ce qui se confirme : douleur de l'injection (méta-analyses 2024–2026), retour plus rapide de la sensibilité après anesthésie chez l'enfant, douleur post-endodontique, hypersensibilité dentinaire et sensibilité après blanchiment, alvéolite (mieux que l'Alvogyl), cicatrisation du site donneur palatin. Résultats favorables mais de faible certitude : suites des dents de sagesse (avec un essai multicentrique négatif en 2025), douleur orthodontique (faibles énergies, 780–830 nm), traitement parodontal du diabétique. En chirurgie maxillo-faciale : récupération sensitive du nerf alvéolaire inférieur après ostéotomie, extraction, implant ou fracture (méta-analyse de 15 essais randomisés, bénéfice à partir de 30 jours) [13], douleur et œdème après chirurgie orthognathique (205 patients, œdème −4,27 mm, douleur DMS −1,37) [14].\n\nCe qui ne se confirme pas : prévention du trismus après fracture maxillo-faciale (méta-analyse de neuf études) [15], accélération du mouvement orthodontique (méta-analyse 2022, revues Cochrane), stabilité implantaire (résultats contrastés), recouvrement des récessions à long terme, cicatrisation des lésions périapicales (méta-analyse 2026), pulpite irréversible (à éviter). Une grande partie des essais sont petits, monocentriques, et les paramètres sont mal rapportés.",
   "l3": [
    {
     "h": "0. Le temps long",
-    "p": "2000–2014 : 67 fiches. 2015–2019 : 133. 2020–2022 : 127. 2023–2026 : 196. Les essais sont nombreux, souvent iraniens, brésiliens, turcs ou égyptiens, et de petite taille."
+    "p": "2000–2014 : 72 fiches. 2015–2019 : 144. 2020–2022 : 138. 2023–2026 : 213. Les essais sont nombreux, souvent iraniens, brésiliens, turcs ou égyptiens, et de petite taille."
    },
    {
     "h": "1. PBM ou laser chirurgical ?",
@@ -69,6 +124,10 @@
    {
     "h": "4. L'enfant",
     "p": "Douleur de l'injection, fin de l'anesthésie, réflexe nauséeux (laser-acupuncture), pulpotomie, molaires hypominéralisées : un champ en plein essor."
+   },
+   {
+    "h": "5. Chirurgie maxillo-faciale",
+    "p": "Trois situations dominent. Les troubles sensitifs du nerf alvéolaire inférieur : sur 15 essais randomisés, pas d'effet dans les deux premières semaines mais un bénéfice net au-delà de 30 jours, que le traitement commence tôt ou plus de six mois après la lésion [13] ; la revue de 15 essais après chirurgie orthognathique retrouve un gain sur au moins un test sensitif dans les 11 essais concernés [16]. Les suites de la chirurgie orthognathique : œdème réduit de 4,27 mm entre J5 et deux semaines et douleur nettement plus faible, sans effet sur l'ouverture buccale [14]. La traumatologie : cicatrisation cutanée plus rapide après chirurgie de fracture (211 patients) [17], mais pas de prévention du trismus [15]. Diode proche infrarouge 808–830 nm, 100–200 mW, 4–12 J/cm² par point le long du trajet du nerf, 8 à 15 séances. Les fentes labio-palatines ne disposent d'aucun essai de PBM."
    }
   ],
   "table": {
@@ -132,8 +191,37 @@
       "Stabilité précoce +",
       "Résultats contrastés ; ONM adjuvant +"
      ]
+    },
+    {
+     "label": "Chirurgie maxillo-faciale",
+     "cells": [
+      "Essais pilotes après ostéotomie sagittale + ; revue Cochrane : preuves insuffisantes",
+      "Nerf alvéolaire inférieur + (essais en hémiface) ; trismus post-traumatique : neutre",
+      "Revues systématiques + (douleur, sensibilité) ; œdème discuté",
+      "Méta-analyses + (nerf, œdème, douleur) ; Le Fort I : neutre"
+     ]
     }
    ]
-  }
+  },
+  "refs": [
+   "41578029",
+   "41580743",
+   "41817644",
+   "41863036",
+   "41950291",
+   "42259468",
+   "42706468",
+   "42995303",
+   "40716837",
+   "40725907",
+   "41139001",
+   "41410039",
+   "37561792",
+   "37610457",
+   "31802332",
+   "34238645",
+   "39840628"
+  ],
+  "maj": "2026-11-10"
  }
 }

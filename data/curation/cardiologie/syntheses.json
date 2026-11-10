@@ -9,7 +9,8 @@
      "h": "Prudence",
      "p": "Les essais russes de cette période sont rapportés de façon très succincte et rarement contre placebo."
     }
-   ]
+   ],
+   "refs": []
   },
   "2013–2019": {
    "headline": "Chirurgie cardiaque : la sternotomie, terrain le mieux étudié",
@@ -20,7 +21,8 @@
      "h": "À retenir",
      "p": "La sternotomie après pontage est l'indication cardiologique la plus solide, mais elle repose surtout sur une seule équipe."
     }
-   ]
+   ],
+   "refs": []
   },
   "2020–2026": {
    "headline": "Irradiation sanguine et pistes systémiques",
@@ -31,7 +33,8 @@
      "h": "Prudence",
      "p": "L'ILIB reste une technique expérimentale, sans essai clinique robuste sur des critères cardiovasculaires."
     }
-   ]
+   ],
+   "refs": []
   }
  },
  "global": {
@@ -84,6 +87,7 @@
      ]
     }
    ]
-  }
+  },
+  "refs": []
  }
 }

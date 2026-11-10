@@ -11,11 +11,11 @@
     },
     {
      "h": "Dysménorrhée",
-     "p": "LED sur points CV4 et CV6 contre pilule (156 femmes) : 73,6 % contre 85,7 % de répondeuses (NS), pilule plus antalgique. Laser haute intensité équivalent au basse énergie (30 femmes)."
+     "p": "LED sur points CV4 et CV6 contre pilule (156 femmes) : 73,6 % contre 85,7 % de répondeuses (NS), pilule plus antalgique [1]. Laser haute intensité équivalent au basse énergie (30 femmes)."
     },
     {
      "h": "Urogynécologie",
-     "p": "Patch LED de phase III dans l'hyperactivité vésicale : fuites par urgence −1,0 contre −0,4 par jour. Laser-acupuncture dans l'hyperactivité vésicale et PBM + rééducation dans l'incontinence d'effort : petits essais favorables."
+     "p": "Patch LED de phase III dans l'hyperactivité vésicale : fuites par urgence −1,0 contre −0,4 par jour [2]. Laser-acupuncture dans l'hyperactivité vésicale et PBM + rééducation dans l'incontinence d'effort : petits essais favorables."
     },
     {
      "h": "Après cancer et recommandations",
@@ -25,6 +25,15 @@
      "h": "Fertilité (préclinique)",
      "p": "Protection ovarienne contre le cyclophosphamide chez la souris, synéchies utérines, SOPK chez le rat : une base mécanistique pour l'oncofertilité."
     }
+   ],
+   "refs": [
+    "35028764",
+    "35389054",
+    "33757917",
+    "35028769",
+    "37183056",
+    "36116559",
+    "33989716"
    ]
   },
   "2024": {
@@ -38,7 +47,7 @@
     },
     {
      "h": "Ménopause",
-     "p": "Laser diode non ablatif : VHI 12 → 19,3, sécheresse 7,7 → 3,7. Protocoles PBM vulvaire 808 nm et PBM + rééducation."
+     "p": "Laser diode non ablatif : VHI 12 → 19,3, sécheresse 7,7 → 3,7 [1]. Protocoles PBM vulvaire 808 nm et PBM + rééducation."
     },
     {
      "h": "Obstétrique",
@@ -48,16 +57,23 @@
      "h": "Dysménorrhée et fertilité",
      "p": "Chez l'animal, le rouge 630 nm pulsé est le plus efficace contre la dysménorrhée. Vieillissement ovarien amélioré chez la souris ; trois grossesses après PBM dans une série de cas d'infertilité inexpliquée."
     }
+   ],
+   "refs": [
+    "39470875",
+    "38837198",
+    "39223951",
+    "38727718",
+    "38843530"
    ]
   },
   "2025": {
    "headline": "Méta-analyses : favorable sur la dysménorrhée et l'allaitement, neutre sur le périnée",
    "l1": "En 2025, les méta-analyses tranchent : la PBM réduit la douleur de la dysménorrhée (−4 points contre simulation) et la douleur des crevasses (OR 0,43), mais pas la douleur périnéale après accouchement. Un premier essai contre simulation est positif dans la vestibulodynie.",
-   "l2": "Dysménorrhée : la méta-analyse de 12 essais (645 femmes) montre une baisse de la douleur de 4 points à 12 semaines contre simulation. Allaitement : la méta-analyse de 7 essais est favorable (OR 0,43 sur la douleur de succion), alors qu'une autre plus ancienne, à 3 essais, ne l'était pas. Périnée : l'infrarouge aide un peu, mais pas le laser basse énergie (13 études), et une séance unique de PBM ne bat pas la simulation (60 femmes).\n\nVulve : l'essai canadien dans la vestibulodynie provoquée (30 femmes, 15 séances) réduit la douleur avec des tailles d'effet de 0,6 à 0,9, sans gain sur la sexualité. La lumière bleue soulage 79 % des candidoses récidivantes résistantes aux azolés. Ménopause : en France, la première étude chez l'humain de la sonde MILTA GYNECO montre une bonne tolérance et une dyspareunie réduite de moitié. En sénologie, la lumière bleue aide à cicatriser les plaies compliquées de reconstruction mammaire.",
+   "l2": "Dysménorrhée : la méta-analyse de 12 essais (645 femmes) montre une baisse de la douleur de 4 points à 12 semaines contre simulation [1]. Allaitement : la méta-analyse de 7 essais est favorable (OR 0,43 sur la douleur de succion), alors qu'une autre plus ancienne, à 3 essais, ne l'était pas. Périnée : l'infrarouge aide un peu, mais pas le laser basse énergie (13 études), et une séance unique de PBM ne bat pas la simulation (60 femmes).\n\nVulve : l'essai canadien dans la vestibulodynie provoquée (30 femmes, 15 séances) réduit la douleur avec des tailles d'effet de 0,6 à 0,9, sans gain sur la sexualité [2]. La lumière bleue soulage 79 % des candidoses récidivantes résistantes aux azolés. Ménopause : en France, la première étude chez l'humain de la sonde MILTA GYNECO montre une bonne tolérance et une dyspareunie réduite de moitié. En sénologie, la lumière bleue aide à cicatriser les plaies compliquées de reconstruction mammaire.",
    "l3": [
     {
      "h": "Dysménorrhée",
-     "p": "Méta-analyse : DM −4,02 contre simulation à 12 semaines ; avantage contre la pilule. Laser-acupuncture équivalente à l'électroacupuncture (114 femmes)."
+     "p": "Méta-analyse : DM −4,02 contre simulation à 12 semaines  [1]; avantage contre la pilule. Laser-acupuncture équivalente à l'électroacupuncture (114 femmes)."
     },
     {
      "h": "Obstétrique",
@@ -69,12 +85,20 @@
     },
     {
      "h": "Ménopause et urogynécologie",
-     "p": "Sonde MILTA GYNECO : 146 événements mineurs sur 148, VHI 12,7 → 17,6, dyspareunie 7,7 → 3,9. Laser basse énergie dans l'incontinence d'effort et le syndrome génito-urinaire : cohorte de 41 femmes favorable."
+     "p": "Sonde MILTA GYNECO : 146 événements mineurs sur 148, VHI 12,7 → 17,6, dyspareunie 7,7 → 3,9 [3]. Laser basse énergie dans l'incontinence d'effort et le syndrome génito-urinaire : cohorte de 41 femmes favorable."
     },
     {
      "h": "Après cancer et sénologie",
      "p": "Lumière bleue sur plaies de reconstruction mammaire (27 patientes, 5 séances médianes). Infection de prothèse traitée par pression négative + PBM."
     }
+   ],
+   "refs": [
+    "40840565",
+    "39940084",
+    "41404945",
+    "41450164",
+    "40500396",
+    "40242016"
    ]
   },
   "2026": {
@@ -84,7 +108,7 @@
    "l3": [
     {
      "h": "Ménopause",
-     "p": "Essai contre placebo 808 nm : fuites et ICIQ-SF améliorés, sexualité inchangée. PBM + rééducation : FSFI DM 4,55, ICIQ-SF −3,06. Étude 660 nm : 100 % au-dessus du seuil non atrophique à 3 mois, mais seulement 13 % retrouvent une fonction sexuelle normale."
+     "p": "Essai contre placebo 808 nm : fuites et ICIQ-SF améliorés, sexualité inchangée. PBM + rééducation : FSFI DM 4,55, ICIQ-SF −3,06 [1]. Étude 660 nm : 100 % au-dessus du seuil non atrophique à 3 mois, mais seulement 13 % retrouvent une fonction sexuelle normale."
     },
     {
      "h": "Après cancer",
@@ -102,12 +126,25 @@
      "h": "Fertilité",
      "p": "Ovocytes humains immatures : maturation deux fois plus rapide sous 810 nm, sans stress oxydatif. LED portable 630 nm : compte de follicules antraux 2 → 6 dans un pilote."
     }
+   ],
+   "refs": [
+    "42566226",
+    "41975391",
+    "42809639",
+    "42217018",
+    "41682644",
+    "41616809",
+    "42857478",
+    "42060269",
+    "42307744",
+    "42228167",
+    "42030720"
    ]
   },
   "2000–2019": {
    "headline": "Vingt ans de pionniers : obstétrique, dysménorrhée et premiers essais vulvaires",
    "l1": "Avant 2020, la PBM en gynécologie reste marginale : une vingtaine d'études, surtout en obstétrique (mamelons, épisiotomie), dans la dysménorrhée et, à la fin de la période, dans la vulve (vestibulodynie, lichen scléreux). Les patchs lumineux contre la dysménorrhée et le laser contre les crevasses sont positifs ; le laser après épisiotomie ne l'est pas.",
-   "l2": "En obstétrique, le laser après épisiotomie échoue dans trois essais (52, 114 et 54 femmes), alors que la LED et le laser 660 nm soulagent les lésions et la douleur des mamelons (8 et 59 femmes). Le laser sur la cicatrice de césarienne ne perturbe pas l'allaitement. La laser-acupuncture ne réduit ni les bouffées de chaleur (40 femmes) ni la dysménorrhée (48 femmes), mais un patch lumineux adhésif est efficace dans deux essais coréens (31 puis 88 femmes, −4,3 contre −1,8 points).\n\nÀ la fin de la décennie apparaissent les premiers essais vulvaires et pelviens : vestibulodynie (78 % contre 44 % d'amélioration, critère principal seulement), lichen scléreux (Nd:YAG non ablatif > dermocorticoïdes), endométriose (laser haute intensité pulsé, douleur et qualité de vie). Trois protocoles brésiliens annoncent les essais de la décennie suivante.",
+   "l2": "En obstétrique, le laser après épisiotomie échoue dans trois essais (52, 114 et 54 femmes), alors que la LED et le laser 660 nm soulagent les lésions et la douleur des mamelons (8 et 59 femmes). Le laser sur la cicatrice de césarienne ne perturbe pas l'allaitement. La laser-acupuncture ne réduit ni les bouffées de chaleur (40 femmes) ni la dysménorrhée (48 femmes), mais un patch lumineux adhésif est efficace dans deux essais coréens (31 puis 88 femmes, −4,3 contre −1,8 points) [1].\n\nÀ la fin de la décennie apparaissent les premiers essais vulvaires et pelviens : vestibulodynie (78 % contre 44 % d'amélioration, critère principal seulement), lichen scléreux (Nd:YAG non ablatif > dermocorticoïdes), endométriose (laser haute intensité pulsé, douleur et qualité de vie). Trois protocoles brésiliens annoncent les essais de la décennie suivante.",
    "l3": [
     {
      "h": "Obstétrique",
@@ -115,12 +152,16 @@
     },
     {
      "h": "Dysménorrhée et ménopause",
-     "p": "Patch lumineux sur acupoints : 83 % de soulagement (pilote), puis −4,3 contre −1,8 points (88 femmes, multicentrique). Laser-acupuncture : négative dans la dysménorrhée et les bouffées de chaleur."
+     "p": "Patch lumineux sur acupoints : 83 % de soulagement (pilote), puis −4,3 contre −1,8 points (88 femmes, multicentrique) [1]. Laser-acupuncture : négative dans la dysménorrhée et les bouffées de chaleur."
     },
     {
      "h": "Vulve et pelvis",
      "p": "Vestibulodynie (34 femmes) : amélioration chez 78 % contre 44 %. Lichen scléreux : Nd:YAG non ablatif > corticoïdes jusqu'à 6 mois (40 femmes). Endométriose : laser haute intensité pulsé, douleur et adhérences réduites (40 femmes)."
     }
+   ],
+   "refs": [
+    "26797192",
+    "30981618"
    ]
   }
  },
@@ -224,6 +265,20 @@
      ]
     }
    ]
-  }
+  },
+  "refs": [
+   "41975391",
+   "42809639",
+   "42217018",
+   "41682644",
+   "41616809",
+   "42857478",
+   "40840565",
+   "41450164",
+   "40500396",
+   "40242016",
+   "38837198",
+   "33757917"
+  ]
  }
 }

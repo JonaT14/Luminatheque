@@ -17,6 +17,10 @@
      "h": "Herpès et esthétique",
      "p": "1 072 nm contre placebo dans l'herpès labial : essai favorable. LED 590 nm pulsée sur les rides : 90 patients, plus de collagène en biopsie, mais sans groupe témoin."
     }
+   ],
+   "refs": [
+    "19450317",
+    "10796615"
    ]
   },
   "2010–2019": {
@@ -40,6 +44,20 @@
      "h": "Cicatrices et brûlures",
      "p": "Prurit après brûlure (laser pulsé, 49 patients) et cicatrices de brûlure de l'enfant : favorables. Les revues animales sont positives, mais les doses sont trop disparates."
     }
+   ],
+   "refs": [
+    "30706177",
+    "31264186",
+    "31550398",
+    "31746251",
+    "30009935",
+    "29802585",
+    "29797431",
+    "29863806",
+    "28116536",
+    "28396101",
+    "28536905",
+    "28628685"
    ]
   },
   "2020–2022": {
@@ -59,6 +77,20 @@
      "h": "Alopécie",
      "p": "Le seul essai neutre est l'essai en hémicrâne avec minoxidil (21 hommes) ; tous les autres sont favorables."
     }
+   ],
+   "refs": [
+    "36110957",
+    "36201144",
+    "36214942",
+    "35510860",
+    "34546105",
+    "34696155",
+    "33751853",
+    "33989768",
+    "32250713",
+    "32394760",
+    "32478968",
+    "32790116"
    ]
   },
   "2023–2024": {
@@ -74,6 +106,20 @@
      "h": "Lichen plan buccal",
      "p": "Méta-analyse GRADE 2024 : la PBM fait aussi bien que les corticoïdes, avec moins d'effets indésirables."
     }
+   ],
+   "refs": [
+    "38189223",
+    "38387618",
+    "38598529",
+    "38725143",
+    "38837237",
+    "38902432",
+    "39404126",
+    "39426526",
+    "36755885",
+    "36952036",
+    "36990615",
+    "37017292"
    ]
   },
   "2025": {
@@ -85,6 +131,18 @@
      "h": "Consensus JAAD 2025",
      "p": "Premières recommandations dermatologiques internationales dédiées à la PBM. Ce consensus d'experts s'appuie sur les preuves disponibles, avec des niveaux variables selon l'indication."
     }
+   ],
+   "refs": [
+    "39828269",
+    "40335193",
+    "39982518",
+    "40108006",
+    "40186874",
+    "40253006",
+    "40419363",
+    "40821981",
+    "40826200",
+    "40993440"
    ]
   },
   "2026": {
@@ -96,6 +154,13 @@
      "h": "À suivre",
      "p": "Radiodermite par LED (revue 2026 mitigée), alopécie chimio-induite, essais à domicile en esthétique."
     }
+   ],
+   "refs": [
+    "41605843",
+    "41706328",
+    "41889013",
+    "42315692",
+    "42752735"
    ]
   }
  },
@@ -106,7 +171,7 @@
   "l3": [
    {
     "h": "0. Le temps long",
-    "p": "2000–2009 : 29 fiches, surtout des ulcères veineux négatifs. 2010–2019 : 91 fiches, avec l'essor du pied diabétique et de l'alopécie. Depuis 2020 : 136 fiches, des méta-analyses en série et l'arrivée des recommandations (WALT 2022, MASCC 2023, JAAD 2025)."
+    "p": "2000–2009 : 29 fiches, surtout des ulcères veineux négatifs. 2010–2019 : 91 fiches, avec l'essor du pied diabétique et de l'alopécie. Depuis 2020 : 137 fiches, des méta-analyses en série et l'arrivée des recommandations (WALT 2022, MASCC 2023, JAAD 2025)."
    },
    {
     "h": "1. Hors du champ : les lasers ablatifs et vasculaires",
@@ -202,6 +267,20 @@
      ]
     }
    ]
-  }
+  },
+  "refs": [
+   "41605843",
+   "41706328",
+   "41889013",
+   "42315692",
+   "42752735",
+   "39828269",
+   "40335193",
+   "39982518",
+   "40108006",
+   "40186874",
+   "40253006",
+   "40419363"
+  ]
  }
 }

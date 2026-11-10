@@ -9,17 +9,23 @@
      "h": "Contexte",
      "p": "Les lasers ophtalmologiques classiques (photocoagulation, micropulsé) ne relèvent pas de la PBM et sont exclus."
     }
-   ]
+   ],
+   "refs": []
   },
   "2020–2023": {
    "headline": "L'arrivée de la lumière rouge contre la myopie de l'enfant",
    "l1": "À partir de 2021, des essais chinois multicentriques montrent que la lumière rouge basse intensité répétée (650 nm, 3 minutes deux fois par jour) freine nettement la myopie de l'enfant, et prévient son apparition chez l'enfant pré-myope. Dans la DMLA sèche, LIGHTSITE III (2023) est positif, mais la revue Cochrane 2021 reste prudente.",
-   "l2": "Myopie : essai multicentrique de 264 enfants (Ophthalmology 2021), essai contre sham en double aveugle (2022), prévention chez l'enfant pré-myope (JAMA Netw Open 2023), supériorité sur l'atropine 0,01 % ; un rebond survient à l'arrêt. Sécheresse oculaire : masques LED et association avec la lumière pulsée efficaces dans la dysfonction meibomienne.\n\nDMLA : LIGHTSITE III réduit l'apparition de l'atrophie géographique à 13 mois.",
+   "l2": "Myopie : essai multicentrique de 264 enfants (Ophthalmology 2021), essai contre sham en double aveugle (2022), prévention chez l'enfant pré-myope (JAMA Netw Open 2023), supériorité sur l'atropine 0,01 %  [1]; un rebond survient à l'arrêt. Sécheresse oculaire : masques LED et association avec la lumière pulsée efficaces dans la dysfonction meibomienne.\n\nDMLA : LIGHTSITE III réduit l'apparition de l'atrophie géographique à 13 mois.",
    "l3": [
     {
      "h": "Mécanisme",
      "p": "La lumière rouge épaissit la choroïde ; la variation à 3 mois prédit l'efficacité."
     }
+   ],
+   "refs": [
+    "34863776",
+    "37565498",
+    "38099371"
    ]
   },
   "2024–2026": {
@@ -31,6 +37,16 @@
      "h": "Prudence",
      "p": "Le recul de sécurité au-delà de deux ans reste limité."
     }
+   ],
+   "refs": [
+    "41680682",
+    "41846466",
+    "39826095",
+    "40219611",
+    "40528385",
+    "40610049",
+    "41451106",
+    "38378527"
    ]
   }
  },
@@ -96,6 +112,18 @@
      ]
     }
    ]
-  }
+  },
+  "refs": [
+   "41680682",
+   "41846466",
+   "39826095",
+   "40219611",
+   "40528385",
+   "40610049",
+   "41451106",
+   "38378527",
+   "37565498",
+   "38099371"
+  ]
  }
 }

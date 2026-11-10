@@ -614,15 +614,16 @@
   "effect": "favorable",
   "theme": "Démences & déclin cognitif",
   "l1": "La PBM améliore la cognition globale, la mémoire de travail et l'attention, aussi bien chez les patients que chez les sujets sains.",
-  "l2": "Revue systématique avec méta-analyse (PROSPERO).",
+  "l2": "Méta-analyse d'essais randomisés (PROSPERO CRD42024552832 ; PubMed, Web of Science, Embase, Cochrane, jusqu'en octobre 2024) de la PBM sur les fonctions cognitives.\n\nChez les personnes avec troubles cognitifs : amélioration de la cognition globale, de la mémoire de travail et des fonctions exécutives (temps de réaction, DMS −1,10 ; IC −1,86 à −0,33). Chez les sujets sains : amélioration partielle de la cognition globale, de la mémoire de travail et de l'attention.",
   "l3": {
    "points": [
-    "Effet chez les sujets sains."
+    "Distingue patients et sujets sains.",
+    "Analyse par domaine cognitif."
    ],
    "limites": [
-    "Hétérogénéité."
+    "Hétérogénéité importante ; essais petits."
    ],
-   "pratique": "Prometteur, avec prudence."
+   "pratique": "Effet plus net chez les personnes avec troubles cognitifs que chez les sujets sains."
   }
  },
  {
@@ -733,16 +734,18 @@
   "effect": "mitigé",
   "theme": "Autres atteintes : céphalées, moelle, acouphènes",
   "l1": "Dans les lésions médullaires incomplètes et nerveuses périphériques, la PBM tend à améliorer la force, la sensibilité et la douleur, mais les essais sont petits.",
-  "l2": "Revue systématique d'essais randomisés.",
+  "l2": "Revue systématique (PubMed, Embase, Scopus, Web of Science, 2012 à mai 2024) d'essais randomisés de PBM (620–1 400 nm) dans les lésions médullaires incomplètes et les lésions nerveuses périphériques : 19 essais.\n\nQuatorze portent sur le syndrome du canal carpien, un sur la compression ulnaire, un sur le plexus brachial, un sur la radiculopathie lombaire et deux sur la lésion médullaire incomplète. Tendance à l'amélioration de la force, de la sensibilité et de la douleur.",
   "l3": {
    "points": [
-    "Tendance favorable."
+    "Essais randomisés uniquement."
    ],
    "limites": [
-    "Petits effectifs, suivis courts."
+    "En réalité dominée par le canal carpien : deux essais seulement sur la moelle.",
+    "Paramètres trop hétérogènes pour une synthèse chiffrée."
    ],
-   "pratique": "Prometteur."
-  }
+   "pratique": "Données solides surtout pour le canal carpien ; rien de concluant pour la lésion médullaire."
+  },
+  "k": 19
  },
  {
   "pmid": "40668423",
@@ -1420,15 +1423,16 @@
   "effect": "favorable",
   "theme": "Dépression, anxiété & sommeil",
   "l1": "La laser-auriculothérapie réduit les symptômes anxieux dans des populations variées, avec prudence vu la base de preuves limitée.",
-  "l2": "Méta-analyse d'essais randomisés.",
+  "l2": "Revue systématique et méta-analyse (PRISMA 2020, PROSPERO CRD420251159376) d'essais randomisés de laser-auriculothérapie sur les symptômes anxieux.\n\nL'effet global est favorable, mais l'analyse de sensibilité excluant les essais à haut risque de biais n'est plus significative (DMS −0,35 ; IC −0,94 à 0,25). Certitude très faible pour l'anxiété, faible pour la douleur et le handicap. Effets indésirables locaux bénins (douleur, rougeur, démangeaison de l'oreille).",
   "l3": {
    "points": [
-    "Populations diverses."
+    "Analyse de sensibilité transparente."
    ],
    "limites": [
-    "Hétérogénéité importante."
+    "L'effet disparaît quand on retire les essais à haut risque de biais.",
+    "Certitude très faible."
    ],
-   "pratique": "Option prometteuse."
+   "pratique": "Ne pas présenter la laser-auriculothérapie comme un traitement validé de l'anxiété."
   }
  },
  {
@@ -1450,15 +1454,16 @@
   "effect": "favorable",
   "theme": "Démences & déclin cognitif",
   "l1": "Dans l'Alzheimer, la PBM a une efficacité et une sécurité comparables à la tDCS et à la rTMS.",
-  "l2": "Méta-analyse en réseau d'essais randomisés.",
+  "l2": "Méta-analyse en réseau bayésienne d'essais randomisés comparant la PBM, la stimulation transcrânienne à courant continu (tDCS) et la stimulation magnétique répétitive (rTMS) dans la maladie d'Alzheimer.\n\nLes trois améliorent la cognition globale. La PBM a les effets estimés les plus élevés : MMSE +3,14 points (ICr 1,71–4,60) et ADAS-Cog −8,01 (ICr −12,82 à −3,13). En comparaison indirecte, elle fait mieux que la rTMS sur l'ADAS-Cog (−5,24). Faisabilité et sécurité comparables.",
   "l3": {
    "points": [
-    "Faisabilité de la PBM à domicile."
+    "Compare la PBM aux techniques de neurostimulation établies."
    ],
    "limites": [
-    "Peu d'essais."
+    "Comparaisons indirectes ; peu d'essais de PBM.",
+    "Résultat non retrouvé par une autre méta-analyse en réseau de 2026."
    ],
-   "pratique": "Alternative crédible."
+   "pratique": "Signal favorable à confirmer par de grands essais ; deux méta-analyses en réseau récentes ne concordent pas."
   }
  },
  {
@@ -1510,15 +1515,15 @@
   "effect": "mitigé",
   "theme": "Démences & déclin cognitif",
   "l1": "Dans l'Alzheimer, aucune technique de neuromodulation ne domine ; la stimulation par ondes pulsées et la rTMS sont les mieux classées, la PBM n'arrive pas en tête.",
-  "l2": "Méta-analyse en réseau d'essais randomisés jusqu'en février 2026.",
+  "l2": "Méta-analyse en réseau (PROSPERO CRD420261364193) des techniques de neuromodulation dans la maladie d'Alzheimer, sur la cognition, l'autonomie et les symptômes neuropsychiatriques.\n\nAucune technique ne domine sur tous les critères. La stimulation par ondes pulsées est la mieux classée pour la cognition globale et les symptômes neuropsychiatriques (SUCRA 92 %), la rTMS pour l'ADAS-Cog (DM −11,10 ; SUCRA 91 %), la stimulation électrique pour l'autonomie. La PBM n'arrive en tête sur aucun critère.",
   "l3": {
    "points": [
-    "Comparaison large."
+    "Évalue plusieurs domaines, pas seulement la cognition."
    ],
    "limites": [
-    "Petits effectifs, protocoles hétérogènes."
+    "Petits effectifs, protocoles hétérogènes, peu de suivi à long terme."
    ],
-   "pratique": "La PBM reste une option parmi d'autres."
+   "pratique": "La PBM n'est pas la technique de neuromodulation la mieux classée dans l'Alzheimer."
   }
  },
  {

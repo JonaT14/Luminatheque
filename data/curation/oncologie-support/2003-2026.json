@@ -514,15 +514,17 @@
   "effect": "favorable",
   "theme": "Lymphœdème",
   "l1": "Le laser peut être considéré comme un traitement efficace du lymphœdème lié au cancer du sein ; il fait mieux que l'absence de traitement à court terme.",
-  "l2": "Revue systématique (BMC Cancer, 2017).",
+  "l2": "Revue systématique des essais cliniques de laser basse énergie dans le lymphœdème lié au cancer du sein (PubMed, AMED, Web of Science, bases chinoises).\n\nPreuve forte (trois essais de bonne qualité) d'une réduction de la circonférence ou du volume du membre supérieure au placebo à court terme ; preuve modérée (un essai) sur la douleur à court terme ; preuve limitée contre l'absence de traitement. La qualité méthodologique des essais est bonne, mais les paramètres de traitement sont mal rapportés.",
   "l3": {
    "points": [
-    "Effet à court terme sur le gonflement."
+    "Classement explicite du niveau de preuve par critère.",
+    "Essais contre placebo de bonne qualité."
    ],
    "limites": [
-    "Peu d'essais ; paramètres non définis."
+    "Peu d'essais ; suivi court.",
+    "Paramètres optimaux inconnus."
    ],
-   "pratique": "Option efficace à court terme."
+   "pratique": "Le laser peut compléter le drainage et la compression, sur des cures courtes."
   }
  },
  {
@@ -627,20 +629,22 @@
    "laser"
   ],
   "nm": [],
-  "n": null,
+  "n": 316,
   "effect": "mitigé",
   "theme": "Lymphœdème",
   "l1": "La PBM réduit légèrement la circonférence et le volume du bras, sans bénéfice significatif sur le lymphœdème dans cette méta-analyse de 2019.",
-  "l2": "Méta-analyse d'essais randomisés.",
+  "l2": "Méta-analyse d'essais randomisés (PROSPERO CRD42018102107 ; PubMed, Embase, PEDro, Scopus, CINAHL, CENTRAL) : neuf essais, 316 patientes, six poolés.\n\nPas de différence significative sur la circonférence ou le volume du bras après traitement, à un mois et à trois mois, ni sur la force de préhension et la douleur. La tendance reste légèrement favorable à la PBM.",
   "l3": {
    "points": [
-    "Tendance favorable."
+    "Méta-analyse d'essais randomisés avec suivi à trois mois."
    ],
    "limites": [
-    "Peu de patientes ; suivi court."
+    "Six essais poolés seulement, petits effectifs.",
+    "Résultat contradictoire avec d'autres synthèses."
    ],
-   "pratique": "Bénéfice incertain."
-  }
+   "pratique": "Ne pas promettre de réduction de volume : le bénéfice, s'il existe, est modeste."
+  },
+  "k": 9
  },
  {
   "pmid": "31754836",
@@ -925,15 +929,17 @@
   "effect": "mitigé",
   "theme": "Trismus & fibrose radio-induite",
   "l1": "Dans le trismus des cancers ORL, les exercices et dispositifs d'ouverture sont comparables ; le laser associé à l'exercice pourrait être bénéfique.",
-  "l2": "Revue systématique d'essais randomisés.",
+  "l2": "Revue systématique d'essais randomisés (PubMed, Embase, CINAHL, Cochrane, mars 2020) des interventions contre le trismus des cancers ORL.\n\nLes programmes d'exercices et les dispositifs d'ouverture buccale ont une efficacité comparable. Un essai chez des patients avec trismus installé montre qu'associer le laser basse énergie (ou les ultrasons) aux exercices fait mieux que les exercices seuls. Les rappels de suivi améliorent l'ouverture buccale dans deux essais.",
   "l3": {
    "points": [
-    "L'observance compte le plus."
+    "Essais randomisés uniquement.",
+    "Souligne le rôle de l'observance."
    ],
    "limites": [
-    "Peu d'essais laser."
+    "Un seul essai avec laser.",
+    "Pas de consensus sur l'intervention optimale."
    ],
-   "pratique": "Complément de la rééducation."
+   "pratique": "Le laser se discute en complément des exercices, jamais à leur place."
   }
  },
  {
@@ -1013,15 +1019,16 @@
   "effect": "mitigé",
   "theme": "Lymphœdème",
   "l1": "Le laser est sûr, mais sa supériorité sur les autres traitements n'est pas établie dans le lymphœdème lié au cancer du sein.",
-  "l2": "Revue de revues systématiques (Lasers Med Sci).",
+  "l2": "Revue des revues systématiques, complétée par une revue systématique actualisée d'essais randomisés (PubMed, Embase, Cochrane), sur le laser basse énergie dans le lymphœdème lié au cancer du sein.\n\nLa qualité de preuve est faible à très faible pour la plupart des critères. Le laser apporte un bénéfice par rapport à la compression, au placebo ou à l'absence de traitement, mais ne fait pas mieux que les autres interventions actives. Aucun effet indésirable n'est rapporté.",
   "l3": {
    "points": [
-    "Sécurité confirmée."
+    "Évalue la qualité des revues existantes (GRADE).",
+    "Sécurité rassurante."
    ],
    "limites": [
-    "Qualité méthodologique faible des revues."
+    "Essais à risque de biais élevé ou incertain."
    ],
-   "pratique": "Option sûre, efficacité discutée."
+   "pratique": "Traitement sûr, à proposer en complément ; sa supériorité sur les soins de référence n'est pas établie."
   }
  },
  {
@@ -1042,15 +1049,16 @@
   "effect": "favorable",
   "theme": "Lymphœdème",
   "l1": "Le laser réduit la circonférence et le volume du bras plus qu'il n'améliore la mobilité de l'épaule et la douleur.",
-  "l2": "Revue systématique (BMC Cancer, 2022).",
+  "l2": "Revue systématique (PROSPERO CRD42022315076 ; PubMed, PEDro, Medline, Cochrane) des essais randomisés de laser basse énergie dans le lymphœdème après cancer du sein.\n\nLa circonférence et le volume du bras diminuent nettement à quatre semaines, et le bénéfice se maintient au suivi prolongé. En revanche, ni la mobilité de l'épaule ni la douleur ne diffèrent du placebo à 0, 1, 2 et 3 mois.",
   "l3": {
    "points": [
-    "Effet surtout volumétrique."
+    "Essais de bonne qualité.",
+    "Distingue l'effet sur le volume de l'effet sur la fonction."
    ],
    "limites": [
-    "Suivis courts."
+    "Peu d'essais, durées courtes."
    ],
-   "pratique": "Option bénéfique."
+   "pratique": "Attendre un effet sur le volume du bras plutôt que sur la douleur ou la mobilité."
   }
  },
  {
@@ -1237,7 +1245,7 @@
   "pmid": "38244087",
   "title_fr": "Laser basse énergie et qualité de vie dans la xérostomie de la radiothérapie ORL : revue",
   "type": "sr",
-  "level": 1,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "xérostomie"
@@ -1247,20 +1255,21 @@
    "laser"
   ],
   "nm": [],
-  "n": null,
+  "n": 126,
   "effect": "favorable",
   "theme": "Xérostomie",
   "l1": "Le laser améliore la sensation de bouche sèche et le débit salivaire, et donc la qualité de vie des patients irradiés pour un cancer ORL.",
-  "l2": "Revue systématique.",
+  "l2": "Revue systématique (Embase, Medline, Cochrane, Scopus, Web of Science, LILACS, clinicaltrials.gov ; RoB 2.0 et ROBINS-I) sur le laser basse énergie et la qualité de vie des patients souffrant de xérostomie après radiothérapie ORL.\n\nQuatre études de 2014 à 2023, 126 patients : trois essais randomisés (dont un pilote) et un essai prospectif. Toutes utilisent l'infrarouge, deux y associent le rouge. La sensation de bouche sèche diminue, les débits salivaires stimulé et non stimulé augmentent, la qualité de vie s'améliore.",
   "l3": {
    "points": [
-    "Qualité de vie."
+    "Critère centré sur le patient : la qualité de vie."
    ],
    "limites": [
-    "Hétérogénéité."
+    "Quatre études, 126 patients ; une étude non randomisée."
    ],
-   "pratique": "Résultats prometteurs."
-  }
+   "pratique": "Piste sérieuse pour la bouche sèche après radiothérapie, à confirmer par des essais plus grands."
+  },
+  "k": 4
  },
  {
   "pmid": "38608541",
@@ -1311,16 +1320,19 @@
   "effect": "favorable",
   "theme": "Lymphœdème",
   "l1": "Le laser et l'endermologie réduisent mieux le volume du bras que la thérapie conventionnelle, sans différence sur la circonférence ni la douleur.",
-  "l2": "Revue systématique avec méta-analyse.",
+  "l2": "Méta-analyse de 18 essais randomisés, de bonne qualité selon l'outil Cochrane, comparant le laser basse énergie, le Kinesio taping et l'endermologie à la prise en charge conventionnelle du lymphœdème après mastectomie.\n\nRéduction du volume du bras plus importante avec le laser (DM 91,98 mL ; IC 41,99–141,97) et l'endermologie (DM 34,61 mL), ainsi que pour l'ensemble des interventions (DM 76,27 mL). Pas de différence sur la circonférence du bras ni sur la douleur.",
   "l3": {
    "points": [
-    "Comparaison de trois techniques."
+    "18 essais randomisés.",
+    "Effet chiffré en millilitres."
    ],
    "limites": [
-    "Revue peu rigoureuse."
+    "Critères discordants : volume amélioré, circonférence non.",
+    "Interventions hétérogènes."
    ],
-   "pratique": "Complément possible."
-  }
+   "pratique": "Le laser est l'option complémentaire la mieux étayée pour réduire le volume du bras."
+  },
+  "k": 18
  },
  {
   "pmid": "39792256",
@@ -1341,15 +1353,16 @@
   "effect": "mitigé",
   "theme": "Xérostomie",
   "l1": "Pour prévenir l'hyposialie, limiter la dose de radiothérapie aux glandes salivaires est le plus efficace ; la PBM n'est qu'une option parmi d'autres.",
-  "l2": "Revue systématique d'essais randomisés (MASCC/ISOO).",
+  "l2": "Mise à jour de la revue systématique MASCC/ISOO de 2010 (Medline, Embase, Cochrane) sur la prévention de l'hyposialie et de la xérostomie induites par les traitements non chirurgicaux du cancer, limitée aux essais randomisés.\n\nLes techniques d'épargne des glandes salivaires et la radiothérapie avec modulation d'intensité restent les seules mesures bien étayées. Les preuves sont limitées pour la vitamine E, l'amifostine, l'acupuncture, le béthanéchol et la photobiomodulation. Aucune donnée pour les immunothérapies.",
   "l3": {
    "points": [
-    "Prévention à la source."
+    "Revue de société savante (MASCC/ISOO).",
+    "Essais randomisés uniquement."
    ],
    "limites": [
-    "Peu d'essais PBM."
+    "La PBM n'y est qu'une intervention parmi d'autres, peu étudiée en prévention."
    ],
-   "pratique": "La PBM vient en complément."
+   "pratique": "En prévention, la priorité reste de limiter la dose reçue par les glandes salivaires ; la PBM n'est pas recommandée dans cette indication."
   }
  },
  {
@@ -1547,15 +1560,16 @@
   "effect": "mitigé",
   "theme": "Xérostomie",
   "l1": "Aucun traitement de la xérostomie radio-induite ne s'impose ; les données sur la PBM restent non concluantes.",
-  "l2": "Revue systématique avec méta-analyse.",
+  "l2": "Méta-analyse d'essais randomisés (PubMed, Google Scholar) comparant les traitements de la xérostomie radio-induite des cancers ORL.\n\nPas de réduction significative de la sévérité de la xérostomie à 3, 4 ou 6 semaines ni à 6 mois. Le débit salivaire non stimulé augmente (DM 0,13 ; IC 0,09–0,17), pas le débit stimulé (DM 0,22 ; p = 0,15). La douleur buccale diminue (DM −2,25). Pas d'effet sur la mucite, la dysphagie ou la fatigue. Hétérogénéité importante.",
   "l3": {
    "points": [
-    "Comparaison large."
+    "Compare l'ensemble des options disponibles."
    ],
    "limites": [
-    "Critères non standardisés."
+    "Deux bases interrogées seulement.",
+    "Aucune intervention n'a d'efficacité constante."
    ],
-   "pratique": "Incertain."
+   "pratique": "Ne pas présenter la PBM comme un traitement établi de la xérostomie installée."
   }
  },
  {
@@ -1607,15 +1621,16 @@
   "effect": "favorable",
   "theme": "Xérostomie",
   "l1": "Dans les cancers ORL, la PBM réduit la mucite sévère et la douleur buccale et pourrait améliorer le débit salivaire, avec une certitude faible à très faible.",
-  "l2": "Revue systématique avec méta-analyse d'essais randomisés.",
+  "l2": "Méta-analyse d'essais randomisés (six bases, jusqu'en avril 2025) des effets de la PBM chez les patients traités pour un cancer ORL.\n\nMucite sévère réduite (RR 0,46 ; IC 0,29–0,71) et douleur buccale sévère réduite (RR 0,35 ; IC 0,23–0,53). Débit salivaire amélioré (DMS 0,75 ; IC 0,03–1,46). Pas d'effet significatif sur la xérostomie ressentie (DMS −0,07) ni sur la qualité de vie (DMS 1,06 ; p = 0,06). Résultats cohérents quel que soit le protocole.",
   "l3": {
    "points": [
-    "Vue d'ensemble des effets buccaux."
+    "Confirme l'effet sur la mucite sévère avec un RR proche des méta-analyses précédentes.",
+    "Évalue aussi la salive et la qualité de vie."
    ],
    "limites": [
-    "Risque de biais élevé."
+    "Certitude faible à très faible ; risque de biais élevé dans la plupart des essais."
    ],
-   "pratique": "Prometteur."
+   "pratique": "Le bénéfice sur la mucite et la douleur justifie la PBM ; ne pas en attendre un effet net sur la sécheresse buccale."
   }
  },
  {

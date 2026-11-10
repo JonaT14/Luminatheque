@@ -701,7 +701,7 @@ function viewHome() {
   const latest = list.filter((a) => a.week === lastWeek || a.date >= iso(new Date(Date.now() - 21 * 864e5))).slice(0, 4);
   const keys = list.filter((a) => a.key && a.level && a.level <= 2 && !latest.includes(a)).slice(0, 5);
   const rct = list.filter((a) => a.type === "rct").length; const syn = list.filter((a) => groupOf(a) === "syn").length;
-  const synBody = !g ? "" : state.level === 1 ? `<p>${esc(g.l1)}</p>` : state.level === 2 ? paras(g.l2) : g.l3.map((s) => `<h4>${esc(s.h)}</h4><p>${esc(s.p)}</p>`).join("");
+  const synBody = !g ? "" : state.level === 1 ? `<p>${esc(g.l1)}</p>` : state.level === 2 ? citeLinks(paras(g.l2), g.refs) : g.l3.map((s) => `<h4>${esc(s.h)}</h4><p>${citeLinks(esc(s.p), g.refs)}</p>`).join("");
   app().innerHTML = `<div class="view">
   <section class="hero">
     <div class="hero-text">
@@ -911,7 +911,7 @@ function viewSyntheses() {
   const cur = state.synTab === "global" ? S.global : S.years?.[state.synTab];
   const inTab = (a, k) => { if (k === "global") return true; const m = String(k).match(/^(\d{4})\s*[–-]\s*(\d{4})$/); return m ? a.year >= +m[1] && a.year <= +m[2] : String(a.year) === String(k); };
   const yearList = all().filter((a) => inTab(a, state.synTab));
-  const body = !cur ? "" : state.level === 1 ? `<div class="prose l1"><p>${esc(cur.l1)}</p></div>` : state.level === 2 ? `<div class="prose">${paras(cur.l2)}</div>` : `<div class="prose">${cur.l3.map((s) => `<h4>${esc(s.h)}</h4><p>${esc(s.p)}</p>`).join("")}</div>`;
+  const body = !cur ? "" : state.level === 1 ? `<div class="prose l1"><p>${esc(cur.l1)}</p></div>` : state.level === 2 ? `<div class="prose">${citeLinks(paras(cur.l2), cur.refs)}</div>` : `<div class="prose">${cur.l3.map((s) => `<h4>${esc(s.h)}</h4><p>${citeLinks(esc(s.p), cur.refs)}</p>`).join("")}</div>`;
   const tbl = state.synTab === "global" && S.global?.table ? `<section class="panel"><div class="panel-head"><h2>Tableau comparatif</h2><p>Les faits marquants de chaque année, côte à côte</p></div><div class="cmp-table"><table><thead><tr><th></th>${S.global.table.cols.map((c) => `<th>${c}</th>`).join("")}</tr></thead><tbody>${S.global.table.rows.map((r) => `<tr><th>${esc(r.label)}</th>${r.cells.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div></section>` : "";
   const periods = [...new Set(yearsOf(all()).map((y) => (y < 2020 ? `${Math.floor(y / 10) * 10}–${Math.floor(y / 10) * 10 + 9}` : String(y))))];
   const counts = (y) => { const xs = all().filter((a) => inTab(a, y)); return [xs.length, xs.filter((a) => a.type === "rct").length, xs.filter((a) => groupOf(a) === "syn").length, xs.filter((a) => a.level && a.level <= 2).length, xs.filter((a) => a.effect === "favorable").length]; };
@@ -921,8 +921,8 @@ function viewSyntheses() {
     <div style="display:grid;gap:14px"><span class="eyebrow">Synthèses · ${esc(topic().label)}</span><h1>Bilans annuels et étude comparative</h1>
       <div class="syn-tabs">${tabs.map(([k, l]) => `<button class="chip" data-syn="${k}" aria-pressed="${state.synTab === k}">${l}</button>`).join("")}</div>
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="eyebrow">Niveau de lecture</span>${levelSwitch(state.level)}
-        <span style="flex:1"></span><button type="button" class="btn small primary" data-synpdf>${'<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M12 11v6M9 14l3 3 3-3"/></svg>'} Exporter en PDF</button>${exportBtns("syn", synRefs(yearList).length)}</div></div>
-    <section class="panel syn-body"><h2>${esc(cur?.headline || "")}</h2>${body}
+        <span style="flex:1"></span><button type="button" class="btn small primary" data-synpdf>${'<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M12 11v6M9 14l3 3 3-3"/></svg>'} Exporter en PDF</button>${exportBtns("syn", synRefs(yearList, cur).length)}</div></div>
+    <section class="panel syn-body"><h2>${esc(cur?.headline || "")}</h2>${cur?.maj ? `<p class="muted" style="font-size:.8rem;margin:-4px 0 4px">Synthèse mise à jour le ${fmtDate(cur.maj)}</p>` : ""}${body}${synSources(cur)}
       <p class="muted" style="font-size:.85rem">Rédigé à partir des ${yearList.filter((a) => a.curated !== false).length} publications évaluées de la période (${yearList.length} notices indexées). Pour un autre découpage (semaines, trimestres, sélection d'articles), utilisez le <a href="/comparer">comparateur</a>.</p></section>
     ${(() => { const ps = parsOf(state.topic), pts = (D.patients || []).filter((f) => f.topic === state.topic); return ps.length || pts.length ? `<section class="panel"><div class="panel-head"><div><span class="eyebrow">Du diagnostic au réglage</span><h2>Passer à la pratique</h2></div></div>
       <div class="bridge-grid">${ps.map(([p, i]) => `<div class="bg-it"><a href="${parHref(state.topic, i)}"><b>${esc(p.indication)}</b><small>${esc(CTX[p.ctx] || p.ctx)}${p.params?.Dose && p.params.Dose !== "—" ? " · " + esc(p.params.Dose) : ""}</small></a>
@@ -970,23 +970,36 @@ function citeHtml(a, i) {
   return `<li><span class="ref-n">${i}</span><span>${esc(au.join(", "))}${etal ? ", et al." : ""}. ${esc(a.title)} <i>${esc(a.journal_abbr || a.journal || "")}</i>. ${a.year}.${a.doi ? ` doi:${esc(a.doi)}.` : ""} PMID ${a.pmid}.
     <small>${esc(READ_STATE[rstate(a)][1])}${a.level ? ` · niveau ${a.level}` : ""}${EFFECTS[a.effect] ? ` · ${EFFECTS[a.effect][0].toLowerCase()}` : ""}</small></span></li>`;
 }
-function synRefs(list) {
+/* renvois [n] des synthèses : liens vers les fiches sources */
+function citeLinks(html, refs) {
+  return String(html).replace(/\s?\[(\d+)\]/g, (m, n) => { const pm = (refs || [])[+n - 1]; if (!pm) return ""; const a = byId(pm);
+    return `<a class="cit" href="/article/${pm}" title="${esc(a ? a.title_fr || a.title : "PMID " + pm)}">${n}</a>`; });
+}
+function synSources(cur) {
+  const refs = (cur?.refs || []).map((pm) => byId(pm)).filter(Boolean); if (!refs.length) return "";
+  return `<details class="syn-src" open><summary>Sources de cette synthèse <span class="muted">· ${refs.length}</span></summary>
+    <p class="muted" style="font-size:.78rem;margin:6px 0 8px">Un numéro dans le texte renvoie à la publication dont viennent les chiffres cités, quand le rattachement est certain. Les autres sont les synthèses d'essais et les publications marquantes de la période.</p>
+    <ol class="syn-refs">${refs.map((a) => `<li><a href="/article/${a.pmid}">${esc(a.title_fr || a.title)}</a> <span class="muted">· ${esc(a.journal_abbr || "")} ${a.year} · ${esc(READ_STATE[rstate(a)][1].toLowerCase())}${a.level ? ` · niveau ${a.level}` : ""}</span></li>`).join("")}</ol></details>`;
+}
+function synRefs(list, cur) {
+  if (cur?.refs?.length) { const first = cur.refs.map((pm) => byId(pm)).filter(Boolean); const rest = synRefs(list).filter((a) => !cur.refs.includes(a.pmid)); return [...first, ...rest].slice(0, 80); }
   const ev = list.filter((a) => rstate(a) > 0);
   const strong = ev.filter((a) => (a.level && a.level <= 2) || a.key);
   return (strong.length >= 8 ? strong : ev).sort((x, y) => (x.level || 9) - (y.level || 9) || y.year - x.year).slice(0, 80);
 }
 function synthesisPrint(S, tabKey, list) {
   const t = topic(), cur = tabKey === "global" ? S.global : S.years?.[tabKey]; if (!cur) return "";
-  const refs = synRefs(list), url = `${SITE}/${t.id}/syntheses`;
+  const refs = synRefs(list, cur), url = `${SITE}/${t.id}/syntheses`; const nCited = (cur.refs || []).length;
+  const pc = (h) => String(h).replace(/\s?\[(\d+)\]/g, (m, n) => +n <= nCited ? `<sup>[${n}]</sup>` : "");
   const tbl = tabKey === "global" && S.global?.table ? `<h2>Tableau comparatif</h2><table class="sp-t"><thead><tr><th></th>${S.global.table.cols.map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${S.global.table.rows.map((r) => `<tr><th>${esc(r.label)}</th>${r.cells.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>` : "";
   return `<div class="sp-head"><div><b>Luminathèque</b><span>Veille scientifique · photobiomodulation</span></div><div class="sp-meta">${esc(t.label)} · ${tabKey === "global" ? "étude comparative" : "bilan " + esc(tabKey)}<br>Exporté le ${fmtDate(today())} · données au ${fmtDate(D.generated)}</div></div>
     <h1>${esc(cur.headline)}</h1>
     <p class="sp-basis">Synthèse rédigée à partir de ${list.filter((a) => rstate(a) > 0).length} publications évaluées (${list.length} notices indexées), dont ${list.filter((a) => rstate(a) === 2).length} analyses approfondies. Version en ligne, mise à jour chaque semaine : ${url}</p>
     <h2>En bref</h2><p class="sp-l1">${esc(cur.l1)}</p>
-    <h2>L'essentiel</h2>${paras(cur.l2)}
-    <h2>Analyse détaillée</h2>${(cur.l3 || []).map((x) => `<h3>${esc(x.h)}</h3><p>${esc(x.p)}</p>`).join("")}
+    <h2>L'essentiel</h2>${pc(paras(cur.l2))}
+    <h2>Analyse détaillée</h2>${(cur.l3 || []).map((x) => `<h3>${esc(x.h)}</h3><p>${pc(esc(x.p))}</p>`).join("")}
     ${tbl}
-    <h2>Références</h2><p class="sp-note">Publications évaluées de la période sur lesquelles repose la synthèse, des plus probantes (synthèses d'essais, essais randomisés, publications « à retenir ») aux autres ; ${refs.length} sur ${list.filter((a) => rstate(a) > 0).length}. Liste complète exportable en RIS ou BibTeX depuis la page en ligne.</p>
+    <h2>Références</h2><p class="sp-note">Les numéros entre crochets du texte renvoient aux premières références de cette liste. Suivent les publications évaluées de la période sur lesquelles repose la synthèse, des plus probantes (synthèses d'essais, essais randomisés, publications « à retenir ») aux autres ; ${refs.length} sur ${list.filter((a) => rstate(a) > 0).length}. Liste complète exportable en RIS ou BibTeX depuis la page en ligne.</p>
     <ol class="sp-refs">${refs.map((a, i) => citeHtml(a, i + 1)).join("")}</ol>
     <p class="sp-foot">Luminathèque · outil de veille ; ne remplace ni l'avis médical ni les recommandations officielles. ${url}</p>`;
 }
@@ -1994,7 +2007,7 @@ document.addEventListener("click", async (e) => {
     let xs = [], base = "luminatheque";
     if (d.exp === "list") { xs = filtered(all()); base = `luminatheque-${state.topic}`; }
     else if (d.exp === "sel") { xs = [...state.selected].map(byId).filter(Boolean); base = "luminatheque-selection"; }
-    else if (d.exp === "syn") { const k = state.synTab; const inTab = (a) => { if (k === "global") return true; const m = String(k).match(/^(\d{4})\s*[–-]\s*(\d{4})$/); return m ? a.year >= +m[1] && a.year <= +m[2] : String(a.year) === String(k); }; xs = synRefs(all().filter(inTab)); base = `luminatheque-synthese-${state.topic}`; }
+    else if (d.exp === "syn") { const k = state.synTab; const inTab = (a) => { if (k === "global") return true; const m = String(k).match(/^(\d{4})\s*[–-]\s*(\d{4})$/); return m ? a.year >= +m[1] && a.year <= +m[2] : String(a.year) === String(k); }; xs = synRefs(all().filter(inTab), k === "global" ? D.syntheses[state.topic]?.global : D.syntheses[state.topic]?.years?.[k]); base = `luminatheque-synthese-${state.topic}`; }
     else if (d.exp === "art") { const id = legacyHash().slice(8); const a = byId(id); xs = a ? [a] : []; base = `pmid-${id}`; }
     exportRefs(xs, d.fmt, base); return; }
   if ("offlist" in d) { t.disabled = true; try { if (!window.LUMINA_X) await loadScript(D.offtopic_file); } catch { $("#offlist").textContent = "Liste indisponible."; return; }

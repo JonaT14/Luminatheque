@@ -9,6 +9,10 @@
      "h": "Dose",
      "p": "5–6 J par point, avant l'effort."
     }
+   ],
+   "refs": [
+    "24249354",
+    "23672326"
    ]
   },
   "2015–2022": {
@@ -20,6 +24,14 @@
      "h": "Paradoxe",
      "p": "Effet net chez le sujet peu entraîné, faible ou nul chez le sportif déjà entraîné."
     }
+   ],
+   "refs": [
+    "35802348",
+    "34428975",
+    "34669081",
+    "29933277",
+    "27272746",
+    "26563953"
    ]
   },
   "2023–2026": {
@@ -31,13 +43,22 @@
      "h": "Commotion",
      "p": "Deux essais récents explorent la PBM transcrânienne chez le sportif commotionné ou exposé aux chocs."
     }
+   ],
+   "refs": [
+    "42473844",
+    "40205065",
+    "40995827",
+    "38758297",
+    "38781474",
+    "38150056",
+    "37419235"
    ]
   }
  },
  "global": {
   "headline": "2000 → 2026 : la PBM en sport, un coup de pouce avant l'effort plutôt qu'un dopant",
   "l1": "En médecine du sport, la PBM appliquée avant l'effort améliore modestement la performance et la récupération, surtout chez les sujets peu entraînés, à des doses désormais bien décrites. Elle soulage la douleur des blessures sans accélérer le retour au jeu. Chez le sportif déjà entraîné, ajoutée à l'entraînement, et en version corps entier, elle n'apporte pas de bénéfice démontré.",
-  "l2": "Ce qui se confirme : préconditionnement (méta-analyses 2013, 2017, 2025), récupération et créatine kinase (2018, 2021), antalgie immédiate des blessures et des entorses. Doses : 20–60 J par petit groupe musculaire, 60–300 J par grand groupe, jusqu'à 200 mW par diode.\n\nCe qui ne se confirme pas : bénéfice chez le sujet entraîné en programme chronique (essai 2022), retour au jeu plus rapide, lésions des ischio-jambiers, PBM corps entier. Les populations malades (BPCO, sujet âgé) sont une piste en réhabilitation.",
+  "l2": "Ce qui se confirme : préconditionnement (méta-analyses 2013, 2017, 2025), récupération et créatine kinase (2018, 2021), antalgie immédiate des blessures et des entorses. Doses : 20–60 J par petit groupe musculaire, 60–300 J par grand groupe, jusqu'à 200 mW par diode [1].\n\nCe qui ne se confirme pas : bénéfice chez le sujet entraîné en programme chronique (essai 2022), retour au jeu plus rapide, lésions des ischio-jambiers, PBM corps entier. Les populations malades (BPCO, sujet âgé) sont une piste en réhabilitation.",
   "l3": [
    {
     "h": "0. Le temps long",
@@ -92,6 +113,21 @@
      ]
     }
    ]
-  }
+  },
+  "refs": [
+   "29090398",
+   "42473844",
+   "40205065",
+   "40995827",
+   "38758297",
+   "38781474",
+   "38150056",
+   "37419235",
+   "35802348",
+   "34428975",
+   "34669081",
+   "29933277",
+   "27272746"
+  ]
  }
 }

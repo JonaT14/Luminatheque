@@ -49,13 +49,17 @@ jobs:
         run: |
           pip install argostranslate
           python3 scripts/traduire_titres.py --max 800 --minutes 25
-      - name: Reconstruire le site (tri de pertinence et contrôle qualité)
-        run: python3 scripts/build_site.py
-      - name: Publier
+      - name: Reconstruire le site (tri de pertinence, contrôle qualité) et publier
         run: |
           git config user.name "Luminathèque (automate)"
           git config user.email "actions@users.noreply.github.com"
+          # 1) n'enregistrer que les données, 2) se synchroniser, 3) reconstruire le site sur la version à jour :
+          #    les fichiers générés (assets, index.html) ne peuvent ainsi jamais entrer en conflit.
+          git add -A data
+          git diff --cached --quiet || git commit -m "Veille hebdomadaire automatique du $(date -u +%F)"
+          git checkout -- . && git clean -fdq assets flux
+          git pull --rebase
+          python3 scripts/build_site.py
           git add -A data assets flux index.html
-          if git diff --cached --quiet; then echo "Rien de nouveau cette semaine."; exit 0; fi
-          git commit -m "Veille hebdomadaire automatique du $(date -u +%F)"
-          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+          git diff --cached --quiet || git commit -m "Veille hebdomadaire automatique du $(date -u +%F) : site reconstruit"
+          for i in 1 2 3; do git push && break; sleep 5; git pull --rebase; done

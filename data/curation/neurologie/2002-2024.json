@@ -1169,7 +1169,7 @@
   "pmid": "34119804",
   "title_fr": "PBM transcrânienne dans les troubles cérébraux : revue",
   "type": "sr",
-  "level": 1,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "autres"
@@ -1184,15 +1184,16 @@
   "effect": "favorable",
   "theme": "Autres atteintes : céphalées, moelle, acouphènes",
   "l1": "La PBM transcrânienne est prometteuse dans plusieurs troubles cérébraux et les acouphènes ; la revue propose des paramètres utiles.",
-  "l2": "Revue systématique.",
+  "l2": "Revue (Cochrane, PubMed, Embase, Google Scholar) des preuves d'efficacité, des paramètres utiles et de la sécurité de la PBM transcrânienne dans le traumatisme crânien, l'AVC, la maladie de Parkinson et la maladie d'Alzheimer, à partir d'essais randomisés et d'études animales contrôlées.\n\nLes résultats des essais randomisés ne sont pas homogènes, ce que les auteurs attribuent à des paramètres inadaptés. Ils proposent une fenêtre de paramètres tirée des études animales, dans la perspective d'un protocole pour les acouphènes.",
   "l3": {
    "points": [
-    "Paramètres recommandés."
+    "Propose des paramètres de départ."
    ],
    "limites": [
-    "Hétérogénéité."
+    "Mélange d'essais cliniques et d'études animales.",
+    "Conclusions orientées par le projet des auteurs."
    ],
-   "pratique": "Aide à la conception de protocoles."
+   "pratique": "Source de paramètres, pas preuve d'efficacité clinique."
   }
  },
  {
@@ -1648,7 +1649,7 @@
   "pmid": "36404359",
   "title_fr": "PBM dans les troubles de l'humeur : revue systématique",
   "type": "sr",
-  "level": 1,
+  "level": 3,
   "pop": "adulte",
   "ctx": [
    "humeur"
@@ -1663,16 +1664,18 @@
   "effect": "favorable",
   "theme": "Dépression, anxiété & sommeil",
   "l1": "La PBM serait fortement recommandable dans la dépression majeure modérée et recommandable dans l'anxiété ; les données manquent pour le trouble bipolaire.",
-  "l2": "Revue systématique avec gradation.",
+  "l2": "Revue systématique (PRISMA ; Google Scholar, PubMed, Scopus, ScienceDirect) des études humaines ou animales publiées de 2009 à août 2021 sur la PBM dans les troubles de l'humeur : 16 études, dont quatre essais randomisés (deux de bonne qualité).\n\nParamètres les plus utilisés : 800–830 nm, 250 mW/cm², 60 à 120 J/cm². Les auteurs classent la PBM « fortement recommandée » dans la dépression majeure modérée et « recommandée » dans l'anxiété ; données insuffisantes dans le trouble bipolaire.",
   "l3": {
    "points": [
-    "Gradation des recommandations."
+    "Synthèse des paramètres utilisés."
    ],
    "limites": [
-    "Peu d'essais."
+    "Quatre essais randomisés seulement, dont deux de qualité.",
+    "Le niveau de recommandation avancé dépasse la force des données."
    ],
-   "pratique": "Prometteur."
-  }
+   "pratique": "Lire les recommandations des auteurs avec réserve ; préférer les méta-analyses d'essais randomisés plus récentes."
+  },
+  "k": 16
  },
  {
   "pmid": "36967820",
@@ -1689,20 +1692,23 @@
    "LED"
   ],
   "nm": [],
-  "n": null,
+  "n": 3412,
   "effect": "favorable",
   "theme": "Démences & déclin cognitif",
   "l1": "Parmi les thérapies non médicamenteuses de la démence, la PBM est la mieux classée pour améliorer la cognition, devant la stimulation cognitive.",
-  "l2": "Méta-analyse en réseau d'essais randomisés.",
+  "l2": "Méta-analyse en réseau (PROSPERO CRD42022363746) d'essais randomisés comparant cinq thérapies non médicamenteuses de la démence : 38 essais, 3 412 participants.\n\nPar rapport au témoin, la PBM (DMS 0,90 ; IC 0,43–1,37), l'environnement enrichi (0,71), l'exercice (0,42) et la stimulation cognitive (0,36) améliorent la cognition ; l'entraînement cognitif informatisé non. La PBM est classée première (P = 0,90) et fait mieux que la stimulation cognitive (DMS 0,54).",
   "l3": {
    "points": [
-    "PBM probablement la meilleure (P = 0,90)."
+    "Grand réseau d'essais randomisés.",
+    "Compare la PBM aux approches de référence."
    ],
    "limites": [
-    "Peu d'essais PBM."
+    "Peu d'essais de PBM dans le réseau ; classement fragile.",
+    "Protocoles de PBM hétérogènes."
    ],
-   "pratique": "Prometteur."
-  }
+   "pratique": "Résultat encourageant, mais le classement repose sur peu d'essais de PBM."
+  },
+  "k": 38
  },
  {
   "pmid": "37301483",
@@ -1902,15 +1908,16 @@
   "effect": "favorable",
   "theme": "Démences & déclin cognitif",
   "l1": "La PBM améliore la cognition du sujet âgé ; la durée cumulée, la source et le site d'application modulent l'effet.",
-  "l2": "Revue systématique avec méta-analyse.",
+  "l2": "Revue systématique et méta-analyse de la PBM dans le déclin cognitif lié à l'âge, avec analyse des paramètres.\n\nEffet du laser (DMS 0,68 ; IC 0,37–0,99) un peu supérieur à celui des LED (DMS 0,58). Les protocoles à plusieurs longueurs d'onde sont efficaces, pas ceux à une seule (DMS 0,39 ; NS). Effet significatif en milieu clinique (DMS 0,47), non significatif à domicile (DMS 0,62 ; p = 0,10). La durée cumulée d'irradiation module l'effet.",
   "l3": {
    "points": [
-    "Modérateurs identifiés."
+    "Analyse fine des paramètres : source, lieu, modalité."
    ],
    "limites": [
-    "Hétérogénéité."
+    "Analyses en sous-groupes sur peu d'essais.",
+    "Hétérogénéité des tests cognitifs."
    ],
-   "pratique": "Prometteur."
+   "pratique": "Les protocoles encadrés et à durée cumulée suffisante semblent les plus efficaces."
   }
  },
  {
@@ -1964,15 +1971,16 @@
   "effect": "favorable",
   "theme": "Dépression, anxiété & sommeil",
   "l1": "La PBM réduit les symptômes dépressifs ; les paramètres associés à l'effet sont 808 nm, ≤1 J/cm², 50–100 mW/cm², ≥3 séances par semaine et >15 séances.",
-  "l2": "Méta-analyse d'essais randomisés (10 bases).",
+  "l2": "Méta-analyse d'essais randomisés (PROSPERO CRD42023444677 ; dix bases, jusqu'au 25 septembre 2023) de la PBM dans la dépression.\n\nLa PBM réduit les symptômes dépressifs. La PBM systémique fait mieux que la transcrânienne. Meilleurs résultats en transcrânien : 823 nm, 10–100 J/cm², 50–100 mW/cm², 30 minutes, plus de 15 séances. En systémique : 808 nm, 1 J/cm² au plus, 50–100 mW/cm², 5 minutes au plus, au moins 3 séances par semaine, plus de 15 séances. Pas de biais de publication.",
   "l3": {
    "points": [
-    "Repères de dose."
+    "Essais randomisés uniquement.",
+    "Paramètres associés à l'effet détaillés."
    ],
    "limites": [
-    "Certitude modérée à très faible."
+    "Peu d'essais ; qualité de preuve modérée à très faible."
    ],
-   "pratique": "Prometteur."
+   "pratique": "Prévoir plus de 15 séances ; la PBM reste un complément du traitement de la dépression."
   }
  },
  {

@@ -1149,3 +1149,10 @@ dialog.adapt::backdrop { background: rgba(15, 18, 25, .45); backdrop-filter: blu
 /* ---------- titres traduits automatiquement ---------- */
 .orig-t { margin: 2px 0 0; font-size: .8rem; color: var(--muted); line-height: 1.4; font-style: italic; }
 .tr-auto { font: 600 .62rem var(--f-display); font-style: normal; text-transform: uppercase; letter-spacing: .06em; border: 1px dashed var(--line-2, var(--line)); border-radius: 99px; padding: 2px 7px; white-space: nowrap; cursor: help; }
+
+/* ---------- renvois et sources des synthèses ---------- */
+.cit { display: inline-block; font: 600 .68em/1 var(--f-mono); vertical-align: super; margin-left: 2px; padding: 2px 5px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); text-decoration: none; }
+.cit:hover { background: var(--accent); color: var(--on-accent, #fff); }
+.syn-src { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 12px; } .syn-src summary { cursor: pointer; font: 600 .9rem var(--f-display); }
+.syn-refs { margin: 0; padding-left: 22px; display: grid; gap: 6px; font-size: .86rem; line-height: 1.4; } .syn-refs a { color: var(--ink); }
+#syn-print sup { font-size: 7pt; color: #c62f45; }
