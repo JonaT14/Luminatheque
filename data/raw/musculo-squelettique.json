@@ -1,5 +1,207 @@
 [
  {
+  "pmid": "43033295",
+  "doi": "10.1007/s10103-026-05097-8",
+  "pmcid": "PMC13769726",
+  "title": "Correction to: Three-dimensional alveolar ridge augmentation combined with photobiomodulation therapy for post-traumatic bone loss: clinical protocol, case report, and evidence review.",
+  "journal": "Lasers in medical science",
+  "journal_abbr": "Lasers Med Sci",
+  "authors": [
+   "Derikvand N",
+   "Piriaei H",
+   "Ebrahimi H",
+   "Ebrahimi N"
+  ],
+  "first_affiliation": "Department of Periodontics, Bo.C., Islamic Azad University, Borujerd, Islamic Republic of Iran. derikvand1@iau.ac.ir.",
+  "date_online": "2026-11-14",
+  "date_pub": "2026-11-14",
+  "pub_types": [
+   "Published Erratum"
+  ],
+  "mesh": [],
+  "keywords": [],
+  "language": "eng",
+  "abstract": [],
+  "open_access": false,
+  "license": "cc by-nc-nd",
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s10103-026-05097-8"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
+  "pmid": "43007501",
+  "doi": "10.1007/s00784-026-07238-3",
+  "pmcid": null,
+  "title": "Evaluation of the acceleration of orthodontic movements by applying low-level laser therapy. A randomized clinical trial.",
+  "journal": "Clinical oral investigations",
+  "journal_abbr": "Clin Oral Investig",
+  "authors": [
+   "Lazăr L",
+   "Bud E",
+   "Sufaru IG",
+   "Solomon SM",
+   "Dakó T",
+   "Oprica M",
+   "Vlasa A",
+   "Lazăr AP"
+  ],
+  "first_affiliation": "Department of Periodontology, George Emil Palade University of Medicine, Pharmacy, Science, and Technology of Targu Mures, 38 Ghe. Marinescu Street, Târgu Mures, 540139, Romania.",
+  "date_online": "2026-11-10",
+  "date_pub": "2026-11-10",
+  "pub_types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ],
+  "mesh": [
+   "Humans",
+   "Tooth Movement Techniques",
+   "Low-Level Light Therapy",
+   "Osteocalcin",
+   "Female",
+   "Adult",
+   "Gingival Crevicular Fluid",
+   "Adolescent",
+   "Bone Remodeling",
+   "Male",
+   "Collagen Type I",
+   "Enzyme-Linked Immunosorbent Assay",
+   "Biomarkers",
+   "Peptides",
+   "Young Adult",
+   "Cuspid",
+   "Treatment Outcome"
+  ],
+  "keywords": [
+   "Bone remodeling",
+   "Laser therapy",
+   "N-telopeptide",
+   "Orthodontic treatment",
+   "Osteocalcin"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND AND OBJECTIVES",
+    "text": "Adult orthodontic treatment is often prolonged due to biological factors. This randomized split-mouth clinical trial evaluated the effects of low-level laser therapy (LLLT) on orthodontic tooth movement in adults by assessing osteocalcin (OC) and N-telopeptide (NTx) levels as biomarkers of bone remodeling, together with the rate of canine distalization."
+   },
+   {
+    "label": "MATERIALS AND METHODS",
+    "text": "Thirty adults (18-35 years) requiring extraction of the maxillary first premolars and canine distalization were included. LLLT (980 nm, 1000 mW, 15 s/point) was applied to selected hemiarches immediately after appliance activation and every two weeks for four months. Gingival crevicular fluid samples were collected before, and 14 days after activation to determine OC and NTx concentrations by ELISA. Canine distalization was measured monthly over four months."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Laser-treated hemiarches showed a significant increase in OC levels compared with baseline (mean difference 0.251 ng/mL, p < 0.0001), whereas changes in control hemiarches were not significant. NTx concentrations also increased significantly following orthodontic activation and were higher in laser-treated than control hemiarches (1.374 ± 0.400 vs. 1.169 ± 0.325 ng/mL, p < 0.0001). After four months, canine distalization was significantly greater in laser-treated hemiarches (4.95 ± 0.64 mm) than in controls (3.79 ± 0.56 mm, p < 0.001)."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "LLLT enhanced bone remodeling by stimulating both bone formation and resorption, resulting in accelerated orthodontic tooth movement."
+   },
+   {
+    "label": "CLINICAL RELEVANCE",
+    "text": "These findings support LLLT as a promising adjunctive approach for reducing treatment time and contribute to the evidence needed to optimize laser-assisted orthodontic protocols."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s00784-026-07238-3"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
+  "pmid": "43008713",
+  "doi": "10.1002/jbio.70390",
+  "pmcid": "PMC13750874",
+  "title": "Noninvasive Intracranial Compliance Monitoring Following Hand-Applied Photobiomodulation and Ultrasound in Fibromyalgia: A Pilot Study.",
+  "journal": "Journal of biophotonics",
+  "journal_abbr": "J Biophotonics",
+  "authors": [
+   "Antonio MHC",
+   "Rodrigues TZ",
+   "Canelada ACN",
+   "Carbinatto FM",
+   "Garcia V",
+   "Bagnato VS",
+   "de Aquino Junior AE"
+  ],
+  "first_affiliation": "Instituto de Ensino e Pesquisa (IEP), Irmandade da Santa Casa de Misericórdia de São Carlos, São Carlos, São Paulo, Brazil.",
+  "date_online": "2026-11-10",
+  "date_pub": "2026-11-01",
+  "pub_types": [
+   "Journal Article",
+   "Clinical Trial"
+  ],
+  "mesh": [
+   "Humans",
+   "Pilot Projects",
+   "Fibromyalgia",
+   "Female",
+   "Low-Level Light Therapy",
+   "Hand",
+   "Middle Aged",
+   "Ultrasonic Therapy",
+   "Adult",
+   "Brain",
+   "Monitoring, Physiologic"
+  ],
+  "keywords": [
+   "brain monitoring",
+   "central sensitization",
+   "chronic pain",
+   "fibromyalgia",
+   "intracranial compliance",
+   "neurophysiology",
+   "photobiomodulation",
+   "therapeutic ultrasound"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Fibromyalgia (FM) is associated with chronic pain and altered neurophysiological regulation. This exploratory pilot study examined intracranial pulse waveform parameters and clinical outcomes following combined photobiomodulation therapy (PBMT) and therapeutic ultrasound (TUS) applied bilaterally to the hands. Twenty women participated (FM, n = 10; healthy comparators, n = 10); both groups received 10 sessions over 5 weeks. Noninvasive measurements included waveform morphology, P2/P1 ratio, and time to peak. Pain intensity, Fibromyalgia Impact Questionnaire, and Pittsburgh Sleep Quality Index scores were also assessed. At baseline, participants with FM showed a higher proportion of P2 > P1 waveforms and longer time to peak than healthy participants. Following treatment, the FM group showed fewer P2 > P1 waveforms, shorter time to peak, and lower pain, functional impact, and sleep disturbance scores. The P2/P1 ratio did not change significantly. Without a sham-treated group, these findings indicate preliminary associations rather than treatment efficacy or causality."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1002/jbio.70390"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13750874"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13750874?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
   "pmid": "43002583",
   "doi": "10.1093/bmb/ldag045",
   "pmcid": null,
@@ -78,6 +280,143 @@
    }
   ],
   "fetched": "2026-11-10"
+ },
+ {
+  "pmid": "43005739",
+  "doi": "10.1117/1.JBO.31.11.115001",
+  "pmcid": "PMC13746244",
+  "title": "Deriving a set of representative optical coefficients from the literature: an illustrative statistical framework for Monte Carlo simulations applied to the human skin.",
+  "journal": "Journal of biomedical optics",
+  "journal_abbr": "J Biomed Opt",
+  "authors": [
+   "Gerelli E",
+   "Wagnières G",
+   "Joniová J"
+  ],
+  "first_affiliation": "Swiss Federal Institute of Technology (EPFL), Institute of Physics, Laboratory for Functional and Metabolic Imaging, Lausanne, Switzerland.",
+  "date_online": "2026-11-09",
+  "date_pub": "2026-11-01",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [
+   "Monte Carlo Method",
+   "Humans",
+   "Skin",
+   "Scattering, Radiation",
+   "Anisotropy",
+   "Refractometry",
+   "Computer Simulation",
+   "Light",
+   "Models, Biological"
+  ],
+  "keywords": [
+   "Monte Carlo simulation",
+   "absorption coefficient",
+   "anisotropy factor",
+   "refractive index",
+   "scattering coefficient",
+   "skin optical properties"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "SIGNIFICANCE",
+    "text": "Accurate characterization of light propagation in biological tissues is essential for applications such as phototherapy, photodermatology, photobiomodulation, and photodiagnosis. Because many organs are stratified, Monte Carlo simulations require sets of optical coefficients-absorption (  μ a    ), reduced scattering (  μ s '    ), anisotropy factor ( g  ), and refractive index ( n  )-in addition to tissue geometry, to model light transport in each tissue layer. However, published values of these coefficients often differ significantly for a given tissue and wavelength."
+   },
+   {
+    "label": "AIM",
+    "text": "This work aims to address the challenge of selecting representative optical coefficients for Monte Carlo simulations by compiling and critically evaluating reported optical properties of human skin (Phototype III) and muscle as an illustrative example."
+   },
+   {
+    "label": "APPROACH",
+    "text": "Published optical coefficients reported for selected visible and near-infrared wavelengths were analyzed and compared. A statistical framework was applied to derive representative sets of optical coefficients for different skin layers from heterogeneous literature data."
+   },
+   {
+    "label": "RESULTS",
+    "text": "The analysis revealed substantial variability among reported optical coefficients. Representative sets of absorption, reduced scattering, anisotropy, and refractive-index values were derived for distinct skin layers and muscle at selected wavelengths."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "The proposed framework provides a practical approach for deriving representative optical coefficients from heterogeneous literature data and highlights the importance of standardized, multilayered tissue models for accurate and reproducible light-dosimetry simulations."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1117/1.JBO.31.11.115001"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13746244"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13746244?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
+  "pmid": "43030893",
+  "doi": "10.3390/jcm15218751",
+  "pmcid": "PMC13763982",
+  "title": "Physical and Rehabilitation Medicine Modalities in Pediatric Immune-Mediated Rheumatic Diseases: A Narrative Review of Current Evidence and Future Directions.",
+  "journal": "Journal of clinical medicine",
+  "journal_abbr": "J Clin Med",
+  "authors": [
+   "Lamot L",
+   "Grubišić F",
+   "Lamot L"
+  ],
+  "first_affiliation": "Department of Physical and Rehabilitation Medicine, Zabok General Hospital and the Croatian Veterans Hospital, 49210 Zabok, Croatia.",
+  "date_online": "2026-11-09",
+  "date_pub": "2026-11-09",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "TECAR therapy",
+   "electrotherapy",
+   "high-intensity laser therapy",
+   "hydrotherapy",
+   "juvenile idiopathic arthritis",
+   "pediatric rheumatology",
+   "photobiomodulation",
+   "physical and rehabilitation medicine modalities",
+   "therapeutic exercise"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Even when inflammation is controlled, impairments in strength, mobility, physical capacity, and participation may persist in children with immune-mediated rheumatic diseases. This narrative review examines therapeutic interventions relevant to physical and rehabilitation medicine (PRM) in multidisciplinary care. Literature identified through a narrative PubMed/MEDLINE search and examination of reference lists was synthesized by modality. Evidence was most extensive for land-based therapeutic exercise, particularly in juvenile idiopathic arthritis, whereas studies in juvenile dermatomyositis, childhood-onset systemic lupus erythematosus, and childhood-onset Takayasu arteritis were fewer and smaller. Aquatic therapeutic exercise has improved selected measures of pain, fitness, strength, fatigue, or function but has not demonstrated consistent superiority over well-designed land-based therapy. Digital delivery methods have shown potential to support access, feedback, and engagement within goal-directed, appropriately dosed programs. A small number of trials suggest possible adjunctive benefits of photobiomodulation, high-intensity laser therapy, and electromyographic biofeedback, whereas TECAR/CRET should remain investigational because direct evidence in pediatric rheumatic diseases is lacking. Individualized land-based therapeutic exercise should remain the core PRM modality, while aquatic therapeutic exercise may serve as an alternative or transitional option. Future trials should clarify prescription, dose, therapist involvement, adherence, adverse events, growth-plate safety, and participation outcomes."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3390/jcm15218751"
+   }
+  ],
+  "fetched": "2026-11-16"
  },
  {
   "pmid": "42998202",
@@ -301,6 +640,119 @@
   "fetched": "2026-11-07"
  },
  {
+  "pmid": "43012290",
+  "doi": "10.2174/011574888X518528261029042157",
+  "pmcid": null,
+  "title": "Toward Germline-Like Differentiation of Human Mesenchymal Stem Cells: Induction Strategies, Signaling Pathways and Current Limitations.",
+  "journal": "Current stem cell research & therapy",
+  "journal_abbr": "Curr Stem Cell Res Ther",
+  "authors": [
+   "Seyyedin S",
+   "Rezaei M"
+  ],
+  "first_affiliation": "Department of Anatomical Sciences, Afzalipour School of Medicine, Kerman University of Medical Sciences, Kerman, Iran.",
+  "date_online": "2026-11-03",
+  "date_pub": "2026-11-03",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Bone morphogenetic protein",
+   "Epigenetic reprogramming",
+   "Gamete-like cells",
+   "Germline-Like differentiation",
+   "In vitro gametogenesis",
+   "Mesenchymal stem cells",
+   "Primordial germ cells",
+   "Retinoic acid"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "The generation of human gametes from somatic cells represents a major goal in reproductive medicine, with significant implications for infertility treatment and disease modeling. Among candidate sources, mesenchymal stem cells (MSCs) have emerged as a promising platform due to their multipotency, accessibility, and immunomodulatory properties. Increasing evidence indicates that MSCs can be directed toward germline- and gamete-like phenotypes; however, differentiation efficiency, reproducibility, and functional competence remain major challenges. The present narrative review analyzes current advances in the differentiation of human MSCs into germline- and gametelike phenotypes, integrating findings from 36 studies published between 2000 and 2026. Key chemical and biological drivers, including retinoic acid and bone morphogenetic proteins, are highlighted for their roles in meiotic initiation and primordial germ cell specification. Importantly, germline induction depends on the coordinated interplay of biochemical signals, genetic and epigenetic regulators, and microenvironmental cues. Niche-mimicking strategies, such as co-culture systems, gonadalconditioned media, three-dimensional scaffolds, and in vivo transplantation, enhance differentiation by partially recapitulating the native germline environment. Emerging approaches, including microRNA modulation, gene overexpression, and photobiomodulation, further improve lineage commitment. Despite these advances, most MSC-derived cells remain at early or pre-meiotic stages, with limited evidence of complete meiosis or functional competence. Major barriers to clinical translation include low differentiation efficiency, lack of standardized protocols, incomplete epigenetic reprogramming, and insufficient functional validation. Addressing these challenges will require the development of integrative, stage-specific differentiation systems that better replicate human germline development, advancing the goal of generating functional human gametes in vitro."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.2174/011574888X518528261029042157"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
+  "pmid": "43028084",
+  "doi": "10.3390/ijms27219839",
+  "pmcid": "PMC13763763",
+  "title": "Modulatory Effects of the Er,Cr:YSGG-Diode Laser Combination Irradiation on Human Osteoblasts-Might Be Relevant for Periapical Bone Regeneration?",
+  "journal": "International journal of molecular sciences",
+  "journal_abbr": "Int J Mol Sci",
+  "authors": [
+   "Ripszky A",
+   "Kably I",
+   "Neculau C",
+   "Voicu Balasea B",
+   "Melis I",
+   "Bancu S",
+   "Cernega A",
+   "Radulescu R",
+   "Pituru S"
+  ],
+  "first_affiliation": "The Interdisciplinary Center for Dental Research and Development, \"Carol Davila\" University of Medicine and Pharmacy, 19-21 Jean Louis Calderon, 030167 Bucharest, Romania.",
+  "date_online": "2026-11-03",
+  "date_pub": "2026-11-03",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [
+   "Humans",
+   "Osteoblasts",
+   "Bone Regeneration",
+   "Cell Survival",
+   "Lasers, Solid-State",
+   "Alkaline Phosphatase",
+   "Osteogenesis",
+   "Cell Proliferation",
+   "Lasers, Semiconductor",
+   "Nitric Oxide",
+   "Cells, Cultured"
+  ],
+  "keywords": [
+   "Er,Cr:YSGG laser",
+   "alkaline phosphatase",
+   "diode laser",
+   "osteoblasts",
+   "periapical bone regeneration",
+   "photobiomodulation"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "This in vitro study evaluated how Er,Cr:YSGG irradiation at three energy levels (1, 3, and 6 J/cm2), 810 nm diode irradiation, and their combinations can influence human osteoblast viability and osteogenic activity. Human osteoblasts (hOB) were assigned to eight groups: control, diode, Er,Cr:YSGG at 1, 3, and 6 J/cm2, and each Er,Cr:YSGG dose followed immediately by diode irradiation. 24 h after irradiation, metabolic activity (MTT), membrane integrity (LDH), nitric oxide (NO) production, and alkaline phosphatase (ALP) activity were assessed, and cell morphology was tracked by holographic live-cell imaging. Cell viability and membrane integrity were preserved across all protocols (MTT p = 0.325; LDH p = 0.057; both n.s.), and live-cell imaging showed osteoblast morphology and proliferation. Diode irradiation significantly increased ALP activity versus control (12.96 vs. 5.40 IU/L; p = 0.011), confirming a biostimulatory osteogenic effect, whereas Er,Cr:YSGG at 6 J/cm2 almost completely suppressed ALP activity (0.42 IU/L; p < 0.001 vs. diode). Both Er,Cr:YSGG 3 J + diode and 6 J + diode combinations significantly attenuated the diode-induced ALP increase and NO elevation in a dose-dependent manner. No protocol was cytotoxic. The 810 nm diode laser was the most osteogenically favorable condition, whereas higher-energy Er,Cr:YSGG irradiation suppressed ALP activity and, when combined with the diode, attenuated its osteogenic effect."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3390/ijms27219839"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
   "pmid": "42997425",
   "doi": "10.2147/JPR.S650033",
   "pmcid": "PMC13741997",
@@ -426,6 +878,67 @@
    }
   ],
   "fetched": "2026-11-07"
+ },
+ {
+  "pmid": "43017579",
+  "doi": "10.3389/froh.2026.1978161",
+  "pmcid": "PMC13753969",
+  "title": "Biophotonics in oral health: bridging light-based innovation and clinical practice.",
+  "journal": "Frontiers in oral health",
+  "journal_abbr": "Front Oral Health",
+  "authors": [
+   "Bensadoun RJ",
+   "Lairedj K",
+   "Carlotti BR"
+  ],
+  "first_affiliation": "RJB-Consulting, Nice, France.",
+  "date_online": "2026-10-28",
+  "date_pub": "2026-01-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "biophotonics",
+   "dosimetry",
+   "oral health",
+   "oral mucositis",
+   "photobiomodulation",
+   "precision medicine"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Biophotonics is reshaping oral healthcare by transitioning light-based technologies from isolated procedural applications toward integrated diagnostic, therapeutic, and regenerative strategies. Among these approaches, photobiomodulation (PBM) therapy has achieved substantial clinical visibility due to its capacity to modulate inflammation, pain, mitochondrial metabolism, vascular responses, and tissue repair without producing destructive thermal effects. While oral and oropharyngeal mucositis represent the most clinically and quantitatively mature models for PBM, its applications now encompass salivary dysfunction, periodontal therapy, oral surgery, temporomandibular disorders (TMD), implant osseointegration, orthodontics, and inflammatory mucosal conditions. However, translating positive biological outcomes into routine practice remains limited by substantial heterogeneity in device architectures, wavelengths, beam profiles, and reporting standards. This comprehensive narrative review examines the physical, clinical, and dosimetric landscape of oral biophotonics. We address critical gaps in current literature-including reporting shortfalls, negative clinical trials, and general safety risks-and outline the technological evolution toward target-tissue dosimetry. By integrating computational photon-transport models, biological monitoring, and artificial intelligence-assisted dosimetry, we propose a transitional framework toward precision oral photomedicine, wherein anatomical and optical tissue properties guide individualized, patient-centered light delivery."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3389/froh.2026.1978161"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13753969"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13753969?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-16"
  },
  {
   "pmid": "42944934",
@@ -633,6 +1146,80 @@
    }
   ],
   "fetched": "2026-11-07"
+ },
+ {
+  "pmid": "43005223",
+  "doi": "10.3389/fbioe.2026.1956053",
+  "pmcid": "PMC13745678",
+  "title": "Effects of different recovery and regeneration modalities on delayed-onset muscle soreness and post-exercise muscle damage markers: a systematic review and network meta-analysis.",
+  "journal": "Frontiers in bioengineering and biotechnology",
+  "journal_abbr": "Front Bioeng Biotechnol",
+  "authors": [
+   "Li J",
+   "Wang S",
+   "Wei M",
+   "Liu W"
+  ],
+  "first_affiliation": "School of Strength and Conditioning, Shenyang Sport University, Shenyang, China.",
+  "date_online": "2026-10-26",
+  "date_pub": "2026-01-01",
+  "pub_types": [
+   "Journal Article",
+   "Systematic Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "creatine kinase",
+   "delayed-onset muscle soreness",
+   "exercise-induced muscle damage",
+   "interleukin-6",
+   "network meta-analysis",
+   "post-exercise recovery"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "OBJECTIVE",
+    "text": "This study employed a systematic review and Bayesian network meta-analysis to compare the effects of multiple post-exercise interventions during the early recovery period, examine whether these effects varied across recovery time points, and provide evidence to inform the selection of post-exercise recovery strategies."
+   },
+   {
+    "label": "METHODS",
+    "text": "PubMed, Embase, the Cochrane Library, and Web of Science were systematically searched, and randomized controlled trials, including parallel-group and crossover designs, were included. A Bayesian random-effects network meta-analysis was used to estimate mean differences (MDs) and 95% credible intervals (CrIs). The revised Cochrane risk-of-bias tool for randomized trials (RoB 2) and the Confidence in Network Meta-Analysis (CINeMA) framework were used to assess risk of bias and confidence in the evidence, respectively. Sensitivity analyses and exploratory univariable network meta-regression analyses were also performed."
+   },
+   {
+    "label": "RESULTS",
+    "text": "A total of 35 studies were included in this review. For delayed-onset muscle soreness (DOMS), whole-body cryotherapy (WBC) and photobiomodulation/phototherapy-related interventions (PHO) showed relatively large reductions in soreness at both 24 and 48 h after exercise. Compared with the combined control/placebo condition (CON/PBO), the effect estimates for WBC were MD = -38.92 (95% CrI: -69.08 to -9.15) at 24 h and MD = -40.03 (95% CrI: -67.74 to -12.44) at 48 h. The corresponding estimates for PHO were MD = -18.20 (95% CrI: -32.91 to -3.72) and MD = -19.46 (95% CrI: -33.55 to -5.99), respectively. For creatine kinase (CK), low-level laser therapy (LLLT) and PHO were associated with lower CK levels at both 24 and 48 h, with the largest estimated effect for LLLT at 48 h (MD = -499.96, 95% CrI: -831.59 to -203.59). For interleukin-6 (IL-6), CWI showed favorable estimates at both 24 and 48 h, although the evidence base was limited and the network was sparse."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "WBC and PHO showed relatively consistent favorable effects on DOMS at 24 and 48 h, whereas LLLT and PHO showed relatively consistent associations with lower CK levels. The IL-6 findings should be interpreted as exploratory because of the limited evidence base. Selection of post-exercise recovery strategies should consider the target outcome, recovery time window, evidence certainty, and network structure."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3389/fbioe.2026.1956053"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13745678"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13745678?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-16"
  },
  {
   "pmid": "42922303",
@@ -1642,6 +2229,106 @@
   "fetched": "2026-11-07"
  },
  {
+  "pmid": "43034705",
+  "doi": "10.7759/cureus.117985",
+  "pmcid": "PMC13769498",
+  "title": "Isolated Gracilis Muscle Tear in a Ballet Dancer: A Case Report.",
+  "journal": "Cureus",
+  "journal_abbr": "Cureus",
+  "authors": [
+   "Wu WT",
+   "Hsu YC",
+   "Chang KV",
+   "Özçakar L"
+  ],
+  "first_affiliation": "Physical Medicine and Rehabilitation, National Taiwan University Hospital Bei-Hu Branch, Taipei, TWN.",
+  "date_online": "2026-10-15",
+  "date_pub": "2026-10-01",
+  "pub_types": [
+   "Case Reports",
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "gracilis muscle",
+   "rehabilitation",
+   "tear",
+   "thigh",
+   "ultrasonography"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Isolated gracilis muscle tears are uncommon and may be overlooked because their clinical presentation can mimic injuries of the adductor or hamstring muscles. We report a 33-year-old female ballet dancer who developed acute posteromedial thigh pain while rising from a split position. Symptoms persisted despite initial conservative treatment, and she presented three weeks after the injury. Physical examination revealed tenderness along the medial thigh, with mild pain during resisted knee flexion, hip adduction, and internal rotation. Musculoskeletal ultrasonography demonstrated a focal partial tear of the gracilis at the musculotendinous junction, characterized by a hypoechoic defect, disruption of the normal muscle architecture, and increased vascularity on color Doppler imaging. Conservative management consisting of activity modification with avoidance of strenuous exercise and low-level laser therapy was initiated, with the visual analog scale (VAS) score decreasing from 7 to 0 within two weeks. At the two-month follow-up, the patient remained asymptomatic and had begun graded exercises in preparation for returning to ballet training. This report suggests that isolated gracilis injury should be considered in the differential diagnosis of acute posteromedial thigh pain after a mechanism involving rapid lengthening and active contraction. It illustrates how targeted musculoskeletal ultrasonography may assist diagnosis and follow-up when an isolated gracilis injury is clinically suspected."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.7759/cureus.117985"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
+  "pmid": "43036334",
+  "doi": "10.7759/cureus.117988",
+  "pmcid": "PMC13769677",
+  "title": "Low-Level Laser Therapy in Dentistry: Biological Effects, Clinical Applications, and Future Perspectives.",
+  "journal": "Cureus",
+  "journal_abbr": "Cureus",
+  "authors": [
+   "Katara A",
+   "Avhad R",
+   "Kanodia S",
+   "Tayade VI",
+   "Chauhan S",
+   "Bind P",
+   "Surana P"
+  ],
+  "first_affiliation": "Department of Dentistry, Omni Family Health, California, USA.",
+  "date_online": "2026-10-15",
+  "date_pub": "2026-10-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "dental lasers",
+   "dentistry",
+   "laser dentistry",
+   "low level laser therapy",
+   "photobiomodulation",
+   "wound healing"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Low-level laser therapy (LLLT), also referred to as photobiomodulation therapy (PBMT), is being integrated into dental treatment progressively. It has biological effects through light exposure, modulating cellular activity, helping to reduce pain, control inflammation, and heal tissue. LLLT has been demonstrated to have potential uses in periodontal therapy, endodontics, oral surgery, implantology, orthodontics, temporomandibular disorders (TMDs), and pediatric dentistry. However, considerable variations in laser parameters and treatment protocols limit the comparability of findings across studies and make it difficult to draw definitive conclusions. This review highlights the biological mechanisms, clinical application, current evidence, safety, limitations, and future perspectives of LLLT for dental purposes."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.7759/cureus.117988"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
   "pmid": "42872376",
   "doi": "10.1177/21524971261497225",
   "pmcid": null,
@@ -1899,6 +2586,67 @@
    }
   ],
   "fetched": "2026-11-07"
+ },
+ {
+  "pmid": "43017297",
+  "doi": "10.7759/cureus.117795",
+  "pmcid": "PMC13754058",
+  "title": "Clinical and Technical Considerations for Low-Level Laser Therapy in Temporomandibular Disorders: A Narrative Review.",
+  "journal": "Cureus",
+  "journal_abbr": "Cureus",
+  "authors": [
+   "Ben El Hammi N",
+   "Amessegher FZ",
+   "Eddaouri K",
+   "Jouhadi EM"
+  ],
+  "first_affiliation": "Department of Fixed Prosthodontics, Faculty of Dentistry Casablanca, Hassan II University, Casablanca, MAR.",
+  "date_online": "2026-10-12",
+  "date_pub": "2026-10-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "dental lasers",
+   "low-level laser therapy",
+   "orofacial pain disorders",
+   "photobiomodulation",
+   "tmds (temporomandibular joint disorders)"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Temporomandibular disorders (TMD) are common, often heterogeneous musculoskeletal conditions involving the temporomandibular joint, the masticatory muscles, and associated structures, and they are a leading cause of nondental orofacial pain. Low-level laser therapy (LLLT), also known as photobiomodulation (PBM), has attracted growing interest as a conservative, noninvasive option because of its analgesic and anti-inflammatory effects. This narrative review focuses on the practical technical parameters of LLLT, including wavelength, fluence, output power, emission mode, application sites, session number and frequency, and irradiation time per point, and on its clinical effects on the principal symptoms of TMD. A narrative search of PubMed, Scopus, Google Scholar, and ScienceDirect was conducted, prioritizing systematic reviews, meta-analyses, randomized controlled trials, and clinically relevant studies reporting technical parameters and outcomes. Because the marked heterogeneity of diagnostic criteria is a principal source of variability in this literature, the review also emphasizes the Diagnostic Criteria for Temporomandibular Disorders (DC/TMD) and the distinction between myogenic, arthrogenic, and mixed subtypes, whose optimal parameters are likely to differ. Current evidence suggests that LLLT may reduce pain intensity, improve maximum mouth opening, and decrease muscular tender points and joint sounds in selected patients; however, the magnitude of these effects varies considerably across studies, reflecting substantial heterogeneity in diagnostic criteria, dosimetric protocols, and outcome measures, and these findings should not be interpreted as a uniformly predictable clinical response. Near-infrared wavelengths of approximately 810 to 1100 nm are supported, although the optimal subrange differs between reviews (810 to 940 nm vs. 910 to 1100 nm); reported protocols commonly use energy densities of 3 to 12 J/cm² and three to 12 sessions applied one to three times per week, with highly variable irradiation times per point, mainly targeting the temporomandibular joint region and the masseter and temporalis muscles. In the limited number of active-comparator trials, generally short-term, LLLT appeared comparable or superior to occlusal splints, nonsteroidal anti-inflammatory drugs (NSAIDs), and transcutaneous electrical nerve stimulation (TENS), and it was well-tolerated, with only rare and transient adverse effects. However, considerable heterogeneity persists regarding diagnostic criteria, dosimetry reporting, device characteristics, treatment duration, and follow-up, and this variability, rather than a consistent dose-effect relationship, is a central finding of the present review. LLLT may therefore be a useful adjunctive treatment for TMD within multidisciplinary conservative management, but standardized, fully reported dosimetric protocols and high-quality randomized trials are needed to determine optimal parameters by TMD subtype, chronicity, and patient characteristics."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.7759/cureus.117795"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13754058"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13754058?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-16"
  },
  {
   "pmid": "42858917",

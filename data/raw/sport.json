@@ -57,6 +57,80 @@
   "fetched": "2026-11-08"
  },
  {
+  "pmid": "43005223",
+  "doi": "10.3389/fbioe.2026.1956053",
+  "pmcid": "PMC13745678",
+  "title": "Effects of different recovery and regeneration modalities on delayed-onset muscle soreness and post-exercise muscle damage markers: a systematic review and network meta-analysis.",
+  "journal": "Frontiers in bioengineering and biotechnology",
+  "journal_abbr": "Front Bioeng Biotechnol",
+  "authors": [
+   "Li J",
+   "Wang S",
+   "Wei M",
+   "Liu W"
+  ],
+  "first_affiliation": "School of Strength and Conditioning, Shenyang Sport University, Shenyang, China.",
+  "date_online": "2026-10-26",
+  "date_pub": "2026-01-01",
+  "pub_types": [
+   "Journal Article",
+   "Systematic Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "creatine kinase",
+   "delayed-onset muscle soreness",
+   "exercise-induced muscle damage",
+   "interleukin-6",
+   "network meta-analysis",
+   "post-exercise recovery"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "OBJECTIVE",
+    "text": "This study employed a systematic review and Bayesian network meta-analysis to compare the effects of multiple post-exercise interventions during the early recovery period, examine whether these effects varied across recovery time points, and provide evidence to inform the selection of post-exercise recovery strategies."
+   },
+   {
+    "label": "METHODS",
+    "text": "PubMed, Embase, the Cochrane Library, and Web of Science were systematically searched, and randomized controlled trials, including parallel-group and crossover designs, were included. A Bayesian random-effects network meta-analysis was used to estimate mean differences (MDs) and 95% credible intervals (CrIs). The revised Cochrane risk-of-bias tool for randomized trials (RoB 2) and the Confidence in Network Meta-Analysis (CINeMA) framework were used to assess risk of bias and confidence in the evidence, respectively. Sensitivity analyses and exploratory univariable network meta-regression analyses were also performed."
+   },
+   {
+    "label": "RESULTS",
+    "text": "A total of 35 studies were included in this review. For delayed-onset muscle soreness (DOMS), whole-body cryotherapy (WBC) and photobiomodulation/phototherapy-related interventions (PHO) showed relatively large reductions in soreness at both 24 and 48 h after exercise. Compared with the combined control/placebo condition (CON/PBO), the effect estimates for WBC were MD = -38.92 (95% CrI: -69.08 to -9.15) at 24 h and MD = -40.03 (95% CrI: -67.74 to -12.44) at 48 h. The corresponding estimates for PHO were MD = -18.20 (95% CrI: -32.91 to -3.72) and MD = -19.46 (95% CrI: -33.55 to -5.99), respectively. For creatine kinase (CK), low-level laser therapy (LLLT) and PHO were associated with lower CK levels at both 24 and 48 h, with the largest estimated effect for LLLT at 48 h (MD = -499.96, 95% CrI: -831.59 to -203.59). For interleukin-6 (IL-6), CWI showed favorable estimates at both 24 and 48 h, although the evidence base was limited and the network was sparse."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "WBC and PHO showed relatively consistent favorable effects on DOMS at 24 and 48 h, whereas LLLT and PHO showed relatively consistent associations with lower CK levels. The IL-6 findings should be interpreted as exploratory because of the limited evidence base. Selection of post-exercise recovery strategies should consider the target outcome, recovery time window, evidence certainty, and network structure."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3389/fbioe.2026.1956053"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13745678"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13745678?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
   "pmid": "42902543",
   "doi": "10.1080/17581869.2026.2748285",
   "pmcid": null,

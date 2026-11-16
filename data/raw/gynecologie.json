@@ -62,6 +62,54 @@
   "fetched": "2026-11-07"
  },
  {
+  "pmid": "43012290",
+  "doi": "10.2174/011574888X518528261029042157",
+  "pmcid": null,
+  "title": "Toward Germline-Like Differentiation of Human Mesenchymal Stem Cells: Induction Strategies, Signaling Pathways and Current Limitations.",
+  "journal": "Current stem cell research & therapy",
+  "journal_abbr": "Curr Stem Cell Res Ther",
+  "authors": [
+   "Seyyedin S",
+   "Rezaei M"
+  ],
+  "first_affiliation": "Department of Anatomical Sciences, Afzalipour School of Medicine, Kerman University of Medical Sciences, Kerman, Iran.",
+  "date_online": "2026-11-03",
+  "date_pub": "2026-11-03",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Bone morphogenetic protein",
+   "Epigenetic reprogramming",
+   "Gamete-like cells",
+   "Germline-Like differentiation",
+   "In vitro gametogenesis",
+   "Mesenchymal stem cells",
+   "Primordial germ cells",
+   "Retinoic acid"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "The generation of human gametes from somatic cells represents a major goal in reproductive medicine, with significant implications for infertility treatment and disease modeling. Among candidate sources, mesenchymal stem cells (MSCs) have emerged as a promising platform due to their multipotency, accessibility, and immunomodulatory properties. Increasing evidence indicates that MSCs can be directed toward germline- and gamete-like phenotypes; however, differentiation efficiency, reproducibility, and functional competence remain major challenges. The present narrative review analyzes current advances in the differentiation of human MSCs into germline- and gametelike phenotypes, integrating findings from 36 studies published between 2000 and 2026. Key chemical and biological drivers, including retinoic acid and bone morphogenetic proteins, are highlighted for their roles in meiotic initiation and primordial germ cell specification. Importantly, germline induction depends on the coordinated interplay of biochemical signals, genetic and epigenetic regulators, and microenvironmental cues. Niche-mimicking strategies, such as co-culture systems, gonadalconditioned media, three-dimensional scaffolds, and in vivo transplantation, enhance differentiation by partially recapitulating the native germline environment. Emerging approaches, including microRNA modulation, gene overexpression, and photobiomodulation, further improve lineage commitment. Despite these advances, most MSC-derived cells remain at early or pre-meiotic stages, with limited evidence of complete meiosis or functional competence. Major barriers to clinical translation include low differentiation efficiency, lack of standardized protocols, incomplete epigenetic reprogramming, and insufficient functional validation. Addressing these challenges will require the development of integrative, stage-specific differentiation systems that better replicate human germline development, advancing the goal of generating functional human gametes in vitro."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.2174/011574888X518528261029042157"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
   "pmid": "42867706",
   "doi": "10.1007/s10103-026-05062-5",
   "pmcid": "PMC13661724",

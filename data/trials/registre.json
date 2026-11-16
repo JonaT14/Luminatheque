@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-10",
+ "fetched": "2026-11-16",
  "studies": [
   {
    "nct": "NCT07699679",
@@ -251,6 +251,55 @@
    ]
   },
   {
+   "nct": "NCT07895862",
+   "title": "Acute Effects of High-Intensity Laser Therapy on Pain, Muscle Stiffness, and Grip Strength in Healthy Adults",
+   "official": "Acute Effects of High-Intensity Laser Therapy on Pain, Muscle Stiffness, and Grip Strength in Healthy Adults",
+   "acronym": "HILT",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-12-01",
+   "end": "2027-02-01",
+   "completion": "2027-03-01",
+   "first_posted": "2026-10-26",
+   "updated": "2026-11-05",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 30,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Exercise-Induced Muscle Fatigue",
+    "Fatigue Recovery",
+    "Health Adult Subjects",
+    "Healthy Adult"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "High-Intensity Laser Therapy (HILT) and sham HILT"
+    }
+   ],
+   "summary": "The goal of this clinical trial is to learn whether high-intensity laser therapy applied before exercise reduces the loss of handgrip strength, muscle stiffness, and pain after a tiring forearm exercise in healthy adults. This therapy delivers laser light through the skin to the underlying tissues.\n\nThe main questions this study aims to answer are:\n\nDoes laser therapy reduce the loss of handgrip strength after exercise compared with placebo treatment?\n\nDoes laser therapy reduce the increase in forearm muscle stiffness after exercise?\n\nDoes laser therapy reduce pain after exercise?\n\nResearchers will compare active laser therapy with placebo laser treatment to assess whether the active treatment affects the muscles' response to exercise. Each participant will receive both treatments on separate visits. The order of treatments will be assigned by chance.\n\nParticipants will attend two labora",
+   "outcome": "Handgrip Strength",
+   "sponsor": "University of Primorska",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Matej Voglar",
+    "title": "Associate Professor",
+    "affiliation": "University of Primorska"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "musculo-squelettique",
+    "sport"
+   ]
+  },
+  {
    "nct": "NCT05569486",
    "title": "Elucidating the Central Mechanisms of Action for Green Light Therapy in Managing Chronic Pain",
    "official": "Elucidating the Central Mechanism(s) of Action for Green Light Therapy in Managing Chronic Pain",
@@ -309,55 +358,6 @@
    "n_sites": 1,
    "matched": [
     "musculo-squelettique"
-   ]
-  },
-  {
-   "nct": "NCT07895862",
-   "title": "Acute Effects of High-Intensity Laser Therapy on Pain, Muscle Stiffness, and Grip Strength in Healthy Adults",
-   "official": "Acute Effects of High-Intensity Laser Therapy on Pain, Muscle Stiffness, and Grip Strength in Healthy Adults",
-   "acronym": "HILT",
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-12-01",
-   "end": "2027-02-01",
-   "completion": "2027-03-01",
-   "first_posted": "2026-10-26",
-   "updated": "2026-11-05",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 30,
-   "allocation": "RANDOMIZED",
-   "masking": "NONE",
-   "conditions": [
-    "Exercise-Induced Muscle Fatigue",
-    "Fatigue Recovery",
-    "Health Adult Subjects",
-    "Healthy Adult"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "High-Intensity Laser Therapy (HILT) and sham HILT"
-    }
-   ],
-   "summary": "The goal of this clinical trial is to learn whether high-intensity laser therapy applied before exercise reduces the loss of handgrip strength, muscle stiffness, and pain after a tiring forearm exercise in healthy adults. This therapy delivers laser light through the skin to the underlying tissues.\n\nThe main questions this study aims to answer are:\n\nDoes laser therapy reduce the loss of handgrip strength after exercise compared with placebo treatment?\n\nDoes laser therapy reduce the increase in forearm muscle stiffness after exercise?\n\nDoes laser therapy reduce pain after exercise?\n\nResearchers will compare active laser therapy with placebo laser treatment to assess whether the active treatment affects the muscles' response to exercise. Each participant will receive both treatments on separate visits. The order of treatments will be assigned by chance.\n\nParticipants will attend two labora",
-   "outcome": "Handgrip Strength",
-   "sponsor": "University of Primorska",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Matej Voglar",
-    "title": "Associate Professor",
-    "affiliation": "University of Primorska"
-   },
-   "officials": [],
-   "countries": [],
-   "sites": [],
-   "n_sites": 0,
-   "matched": [
-    "musculo-squelettique",
-    "sport"
    ]
   },
   {
@@ -425,6 +425,68 @@
    "n_sites": 0,
    "matched": [
     "neurologie"
+   ]
+  },
+  {
+   "nct": "NCT07931833",
+   "title": "Laser-Assisted Disinfection With and Without Photobiomodulation in Regenerative Endodontic Procedures for Necrotic Mature Teeth",
+   "official": "Radiographic and Clinical Evaluation of Regenerative Endodontic Procedures in Necrotic Mature Teeth With Apical Periodontitis Using Laser-Assisted Disinfection With and Without Adjunctive Photobiomodulation: A Three-Arm Randomized Clinical Trial",
+   "acronym": "LASER",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-12-01",
+   "end": "2027-12",
+   "completion": "2028-01",
+   "first_posted": "2026-11-12",
+   "updated": "2026-11-12",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 81,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Mature Teeth",
+    "Endodontic Regeneration"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "regenerative endodontic procedure (REP)"
+    },
+    {
+     "type": "DEVICE",
+     "name": "810 nm diode laser-assisted canal disinfection"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Photobiomodulation (810 nm diode laser)"
+    }
+   ],
+   "summary": "This study will compare three ways of treating adult teeth with a dead nerve (pulp) and an infection at the root tip. All three groups receive a regenerative endodontic procedure, which aims to help healthy tissue grow back inside the tooth. The groups differ in how the root canal is cleaned: (1) standard cleaning without a laser, (2) standard cleaning plus a diode laser to help disinfect the canal, or (3) standard cleaning plus the diode laser plus a single session of low-level light therapy (photobiomodulation) applied over the gum to support healing. Eighty-one patients aged 20 to 40 will be randomly placed into one of the three groups. Healing of the infection at the root tip will be measured with a 3D dental scan (CBCT) before treatment and 12 months later. Pain after treatment, painkiller use, and clinical signs such as swelling, tenderness, and gum pimples (sinus tract) will also ",
+   "outcome": "Change in periapical lesion volume (mm3) measured on CBCT",
+   "sponsor": "Future University in Egypt",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "mohamed khalid moselhy",
+    "title": "Master Degree Candidate, Departmemt of Endodontics, Faculty of Oral and Dental Medicine",
+    "affiliation": "Future University in Egypt"
+   },
+   "officials": [],
+   "countries": [
+    "Egypt"
+   ],
+   "sites": [
+    {
+     "facility": "Future University in Egypt",
+     "city": "Cairo",
+     "country": "Egypt"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
    ]
   },
   {
@@ -938,12 +1000,12 @@
    "title": "Laser Acupuncture for Chronic Migraine: Clinical Response, Traditional Chinese Medicine Syndrome Patterns, and Brain Function",
    "official": "Clinical Response, Traditional Chinese Medicine Syndrome Patterns, and Brain Functional Characteristics Associated With Laser Acupuncture in Chronic Migraine",
    "acronym": "PRISM-CM",
-   "status": "NOT_YET_RECRUITING",
+   "status": "RECRUITING",
    "start": "2026-11-01",
    "end": "2030-12-31",
    "completion": "2032-12-31",
    "first_posted": "2026-10-23",
-   "updated": "2026-10-23",
+   "updated": "2026-11-12",
    "type": "INTERVENTIONAL",
    "phases": [
     "NA"
@@ -983,9 +1045,14 @@
      "facility": "Taichung Veterans General Hospital Copy",
      "city": "Taichung",
      "country": "Taiwan"
+    },
+    {
+     "facility": "Taichung Veterans General Hospital",
+     "city": "Taichung",
+     "country": "Taiwan"
     }
    ],
-   "n_sites": 1,
+   "n_sites": 2,
    "matched": [
     "neurologie"
    ]
@@ -2121,6 +2188,63 @@
    ]
   },
   {
+   "nct": "NCT07790094",
+   "title": "Segmental Laser Acupuncture for Constipation and Sleep in Patients With Parkinson's Disease",
+   "official": "Segmental Laser Acupuncture at T10-L2 and S2-S4 for Gut-Brain Axis Modulation in Parkinson's Disease: A Randomized Double-Blind Clinical Trial on Constipation and Sleep Outcomes",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-09-01",
+   "end": "2027-08-31",
+   "completion": "2027-08-31",
+   "first_posted": "2026-08-27",
+   "updated": "2026-08-27",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Parkinson's Disease"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "TI-816-3E3 Portable Laser Phototherapy Device"
+    },
+    {
+     "type": "DEVICE",
+     "name": "TI-816-3E3 Portable Laser Phototherapy Device - Sham (0 J/cm²)"
+    }
+   ],
+   "summary": "Parkinson's disease (PD) is characterized not only by motor symptoms but also by common and clinically significant non-motor symptoms, including constipation and sleep disturbances, which can substantially impair quality of life. The concept of the \"gut-brain axis\" describes bidirectional communication among the central nervous system, autonomic nervous system, enteric nervous system, and gut microbiota. Increasing evidence from animal models suggests that the gut-brain axis may play an important role in the pathophysiology and progression of PD.\n\nGiven the central role of autonomic nervous system regulation in the gut-brain axis, this study will use laser acupuncture as a safe, non-invasive form of photobiomodulation (PBM) with potential neuromodulatory effects. Based on the concept of segmental neuromodulation, laser stimulation will be applied to the thoracolumbar paraspinal regions (",
+   "outcome": "Change in Constipation Scoring System (CSS; Agachan score)",
+   "sponsor": "China Medical University Hospital",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Yu-Chen Lee",
+    "title": "Director, Department of Acupuncture",
+    "affiliation": "China Medical University Hospital"
+   },
+   "officials": [],
+   "countries": [
+    "Taiwan"
+   ],
+   "sites": [
+    {
+     "facility": "China Medical University Hospital",
+     "city": "Taichung",
+     "country": "Taiwan"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "neurologie"
+   ]
+  },
+  {
    "nct": "NCT07224607",
    "title": "Transcranial Photobiomodulation (tPBM) in Alzheimer's Disease Study",
    "official": "A Longitudinal Study Investigating the Effects of Photobiomodulation (PBM) on Cognitive Function and Alzheimer's Disease (AD)-Related Biomarkers in Individuals With Mild Cognitive Impairment (MCI) or Dementia Due to AD",
@@ -2172,63 +2296,6 @@
      "facility": "CSMC",
      "city": "Los Angeles",
      "country": "United States"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "neurologie"
-   ]
-  },
-  {
-   "nct": "NCT07790094",
-   "title": "Segmental Laser Acupuncture for Constipation and Sleep in Patients With Parkinson's Disease",
-   "official": "Segmental Laser Acupuncture at T10-L2 and S2-S4 for Gut-Brain Axis Modulation in Parkinson's Disease: A Randomized Double-Blind Clinical Trial on Constipation and Sleep Outcomes",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-09-01",
-   "end": "2027-08-31",
-   "completion": "2027-08-31",
-   "first_posted": "2026-08-27",
-   "updated": "2026-08-27",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 60,
-   "allocation": "RANDOMIZED",
-   "masking": "DOUBLE",
-   "conditions": [
-    "Parkinson's Disease"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "TI-816-3E3 Portable Laser Phototherapy Device"
-    },
-    {
-     "type": "DEVICE",
-     "name": "TI-816-3E3 Portable Laser Phototherapy Device - Sham (0 J/cm²)"
-    }
-   ],
-   "summary": "Parkinson's disease (PD) is characterized not only by motor symptoms but also by common and clinically significant non-motor symptoms, including constipation and sleep disturbances, which can substantially impair quality of life. The concept of the \"gut-brain axis\" describes bidirectional communication among the central nervous system, autonomic nervous system, enteric nervous system, and gut microbiota. Increasing evidence from animal models suggests that the gut-brain axis may play an important role in the pathophysiology and progression of PD.\n\nGiven the central role of autonomic nervous system regulation in the gut-brain axis, this study will use laser acupuncture as a safe, non-invasive form of photobiomodulation (PBM) with potential neuromodulatory effects. Based on the concept of segmental neuromodulation, laser stimulation will be applied to the thoracolumbar paraspinal regions (",
-   "outcome": "Change in Constipation Scoring System (CSS; Agachan score)",
-   "sponsor": "China Medical University Hospital",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Yu-Chen Lee",
-    "title": "Director, Department of Acupuncture",
-    "affiliation": "China Medical University Hospital"
-   },
-   "officials": [],
-   "countries": [
-    "Taiwan"
-   ],
-   "sites": [
-    {
-     "facility": "China Medical University Hospital",
-     "city": "Taichung",
-     "country": "Taiwan"
     }
    ],
    "n_sites": 1,
@@ -2358,60 +2425,6 @@
    ]
   },
   {
-   "nct": "NCT07568288",
-   "title": "The Effectiveness of High-intensity Laser Therapy After Arthroscopic Shoulder Rotator Cuff Repair.",
-   "official": "The Effectiveness of High-intensity Laser Therapy After Arthroscopic Shoulder Rotator Cuff Repair. A Randomized Controlled Trial",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-09",
-   "end": "2028-11",
-   "completion": "2029-09",
-   "first_posted": "2026-05-05",
-   "updated": "2026-05-05",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 46,
-   "allocation": "RANDOMIZED",
-   "masking": "TRIPLE",
-   "conditions": [
-    "Rotator Cuff Tears"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "High intensity laser therapy"
-    },
-    {
-     "type": "OTHER",
-     "name": "Sham laser therapy"
-    }
-   ],
-   "summary": "This randomized controlled trial aims to evaluate the effectiveness of high-intensity laser therapy (HILT) as an adjunct to conventional rehabilitation in patients undergoing arthroscopic rotator cuff repair.\n\nDespite surgical repair, patients frequently experience postoperative pain, limited range of motion, and delayed functional recovery. Conventional physiotherapy represents the standard of care; however, additional strategies may be needed to optimize outcomes. High-intensity laser therapy has been proposed as a non-invasive intervention with potential analgesic and anti-inflammatory effects, but its effectiveness in the postoperative setting remains unclear.\n\nParticipants will be randomly allocated to one of two groups: an experimental group receiving HILT in addition to conventional physiotherapy, and a control group receiving sham laser therapy combined with the same rehabilitati",
-   "outcome": "Visual Analogue Scale",
-   "sponsor": "Istituto Ortopedico Rizzoli",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": null,
-   "officials": [],
-   "countries": [
-    "Italy"
-   ],
-   "sites": [
-    {
-     "facility": "Istituto Ortopedico Rizzoli",
-     "city": "Bologna",
-     "country": "Italy"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "dermatologie",
-    "musculo-squelettique"
-   ]
-  },
-  {
    "nct": "NCT07806526",
    "title": "The Use of Photobiomodulation for Pain and Healing in Cesarean Section",
    "official": "The Use of Photobiomodulation for Pain and Healing in Cesarean Section: A Randomized, Controlled Clinical Trial",
@@ -2468,47 +2481,56 @@
    ]
   },
   {
-   "nct": "NCT07800338",
-   "title": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus Therapeutic Ultrasound On Patients With Myofascial Pain Disorder : A Randomized Clinical Trial",
-   "official": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus Therapeutic Ultrasound On Patients With Myofascial Pain Disorder : A Randomized Clinical Trial",
+   "nct": "NCT07568288",
+   "title": "The Effectiveness of High-intensity Laser Therapy After Arthroscopic Shoulder Rotator Cuff Repair.",
+   "official": "The Effectiveness of High-intensity Laser Therapy After Arthroscopic Shoulder Rotator Cuff Repair. A Randomized Controlled Trial",
    "acronym": null,
    "status": "NOT_YET_RECRUITING",
    "start": "2026-09",
-   "end": "2027-01",
-   "completion": "2027-02",
-   "first_posted": "2026-09-02",
-   "updated": "2026-09-02",
+   "end": "2028-11",
+   "completion": "2029-09",
+   "first_posted": "2026-05-05",
+   "updated": "2026-05-05",
    "type": "INTERVENTIONAL",
    "phases": [
     "NA"
    ],
-   "n": 36,
+   "n": 46,
    "allocation": "RANDOMIZED",
    "masking": "TRIPLE",
    "conditions": [
-    "TMJ"
+    "Rotator Cuff Tears"
    ],
    "interventions": [
     {
      "type": "DEVICE",
-     "name": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus therapeutic Ultrasound On Patients With Myofascial Pain Disorder"
+     "name": "High intensity laser therapy"
+    },
+    {
+     "type": "OTHER",
+     "name": "Sham laser therapy"
     }
    ],
-   "summary": "Myofascial pain dysfunction (MPD) is one of the most common causes of chronic orofacial pain, primarily affecting the masticatory muscles such as the masseter and temporalis. It leads to facial pain, muscle tenderness, and restricted mouth opening, significantly impacting patients' quality of life and daily function.\n\nDespite the wide range of conservative treatment modalities-such as medications, splint therapy, and physiotherapy-there is still no universally accepted approach that provides consistent and long-lasting relief.\n\nLow-level laser therapy (LLLT) and therapeutic ultrasound (US) are two non-invasive physical modalities frequently used in dentistry for pain control and tissue healing. Each has shown promising outcomes individually.\n\nAzizi et al. (2007) demonstrated that LLLT at 780 nm can significantly reduce pain and tenderness for up to three months, while Khairy (2018) repor",
-   "outcome": "pain",
-   "sponsor": "Cairo University",
+   "summary": "This randomized controlled trial aims to evaluate the effectiveness of high-intensity laser therapy (HILT) as an adjunct to conventional rehabilitation in patients undergoing arthroscopic rotator cuff repair.\n\nDespite surgical repair, patients frequently experience postoperative pain, limited range of motion, and delayed functional recovery. Conventional physiotherapy represents the standard of care; however, additional strategies may be needed to optimize outcomes. High-intensity laser therapy has been proposed as a non-invasive intervention with potential analgesic and anti-inflammatory effects, but its effectiveness in the postoperative setting remains unclear.\n\nParticipants will be randomly allocated to one of two groups: an experimental group receiving HILT in addition to conventional physiotherapy, and a control group receiving sham laser therapy combined with the same rehabilitati",
+   "outcome": "Visual Analogue Scale",
+   "sponsor": "Istituto Ortopedico Rizzoli",
    "sponsor_class": "OTHER",
    "collaborators": [],
-   "responsible": {
-    "name": "mohamed mostafa",
-    "title": "dentist",
-    "affiliation": "Cairo University"
-   },
+   "responsible": null,
    "officials": [],
-   "countries": [],
-   "sites": [],
-   "n_sites": 0,
+   "countries": [
+    "Italy"
+   ],
+   "sites": [
+    {
+     "facility": "Istituto Ortopedico Rizzoli",
+     "city": "Bologna",
+     "country": "Italy"
+    }
+   ],
+   "n_sites": 1,
    "matched": [
+    "dermatologie",
     "musculo-squelettique"
    ]
   },
@@ -2561,6 +2583,51 @@
     }
    ],
    "n_sites": 1,
+   "matched": [
+    "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT07800338",
+   "title": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus Therapeutic Ultrasound On Patients With Myofascial Pain Disorder : A Randomized Clinical Trial",
+   "official": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus Therapeutic Ultrasound On Patients With Myofascial Pain Disorder : A Randomized Clinical Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-09",
+   "end": "2027-01",
+   "completion": "2027-02",
+   "first_posted": "2026-09-02",
+   "updated": "2026-09-02",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 36,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "TMJ"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus therapeutic Ultrasound On Patients With Myofascial Pain Disorder"
+    }
+   ],
+   "summary": "Myofascial pain dysfunction (MPD) is one of the most common causes of chronic orofacial pain, primarily affecting the masticatory muscles such as the masseter and temporalis. It leads to facial pain, muscle tenderness, and restricted mouth opening, significantly impacting patients' quality of life and daily function.\n\nDespite the wide range of conservative treatment modalities-such as medications, splint therapy, and physiotherapy-there is still no universally accepted approach that provides consistent and long-lasting relief.\n\nLow-level laser therapy (LLLT) and therapeutic ultrasound (US) are two non-invasive physical modalities frequently used in dentistry for pain control and tissue healing. Each has shown promising outcomes individually.\n\nAzizi et al. (2007) demonstrated that LLLT at 780 nm can significantly reduce pain and tenderness for up to three months, while Khairy (2018) repor",
+   "outcome": "pain",
+   "sponsor": "Cairo University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "mohamed mostafa",
+    "title": "dentist",
+    "affiliation": "Cairo University"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
    "matched": [
     "musculo-squelettique"
    ]
@@ -2943,6 +3010,64 @@
    ]
   },
   {
+   "nct": "NCT07170397",
+   "title": "Effects of Laser Acupuncture Treatment in Hypertension Haemodialysis Patients",
+   "official": "Effects of a Single Session of Laser Acupuncture Treatment on Blood Pressure and in Hypertension Haemodialysis Patients",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-08-03",
+   "end": "2027-10-01",
+   "completion": "2027-12-01",
+   "first_posted": "2025-09-12",
+   "updated": "2026-08-04",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "NA",
+   "masking": "NONE",
+   "conditions": [
+    "Hypertension"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Acupuncture Laser Therapy"
+    }
+   ],
+   "summary": "The purpose of this study is to find the effect of acupuncture laser therapy on Blood Pressure in Hypertension Haemodialysis Patients",
+   "outcome": "Change in systolic and diastolic blood pressure",
+   "sponsor": "Sinai University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Amany Gomaa Atiaa",
+    "title": "Lecturer in Physical Therapy",
+    "affiliation": "Sinai University"
+   },
+   "officials": [],
+   "countries": [
+    "Egypt"
+   ],
+   "sites": [
+    {
+     "facility": "Cairo university- Faculity of physical therapy",
+     "city": "Cairo",
+     "country": "Egypt"
+    },
+    {
+     "facility": "Sinai university- Faculity of physical therapy",
+     "city": "El Arish",
+     "country": "Egypt"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "cardiologie"
+   ]
+  },
+  {
    "nct": "NCT07123285",
    "title": "Effect of Photobiomodulation on Healing of Venous Leg Ulcers",
    "official": "Effect of Photobiomodulation on the Healing of Lower-Limb Venous Ulcers: A Randomized, Double-Blind, Controlled Clinical Trial",
@@ -3014,64 +3139,6 @@
    ]
   },
   {
-   "nct": "NCT07170397",
-   "title": "Effects of Laser Acupuncture Treatment in Hypertension Haemodialysis Patients",
-   "official": "Effects of a Single Session of Laser Acupuncture Treatment on Blood Pressure and in Hypertension Haemodialysis Patients",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-08-03",
-   "end": "2027-10-01",
-   "completion": "2027-12-01",
-   "first_posted": "2025-09-12",
-   "updated": "2026-08-04",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 60,
-   "allocation": "NA",
-   "masking": "NONE",
-   "conditions": [
-    "Hypertension"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Acupuncture Laser Therapy"
-    }
-   ],
-   "summary": "The purpose of this study is to find the effect of acupuncture laser therapy on Blood Pressure in Hypertension Haemodialysis Patients",
-   "outcome": "Change in systolic and diastolic blood pressure",
-   "sponsor": "Sinai University",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Amany Gomaa Atiaa",
-    "title": "Lecturer in Physical Therapy",
-    "affiliation": "Sinai University"
-   },
-   "officials": [],
-   "countries": [
-    "Egypt"
-   ],
-   "sites": [
-    {
-     "facility": "Cairo university- Faculity of physical therapy",
-     "city": "Cairo",
-     "country": "Egypt"
-    },
-    {
-     "facility": "Sinai university- Faculity of physical therapy",
-     "city": "El Arish",
-     "country": "Egypt"
-    }
-   ],
-   "n_sites": 2,
-   "matched": [
-    "cardiologie"
-   ]
-  },
-  {
    "nct": "NCT07099352",
    "title": "Efficacy of of Acupuncture Laser Therapy on Hemodialysis Patients",
    "official": "Efficacy of of Acupuncture Laser Therapy on Neck Pain Severity and Quality of Life in Hemodialysis Patients",
@@ -3120,6 +3187,70 @@
     }
    ],
    "n_sites": 1,
+   "matched": [
+    "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT07666061",
+   "title": "Laser vs Lontophoresis in KOA",
+   "official": "Effectiveness of Laser Therapy Versus Lontophoresis in the Management of Knee Osteoarthritis: A Randomized Controlled Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-08-01",
+   "end": "2026-10-30",
+   "completion": "2027-04-01",
+   "first_posted": "2026-06-24",
+   "updated": "2026-06-24",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 66,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Knee Arthritis Osteoarthritis"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Low-Level Laser Therapy"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Iontophoresis"
+    },
+    {
+     "type": "OTHER",
+     "name": "Conventional Physical Therapy Only"
+    }
+   ],
+   "summary": "This randomized controlled trial aims to compare the effectiveness of laser therapy and iontophoresis in patients with knee osteoarthritis. The study will evaluate pain reduction, functional improvement, and knee joint mobility following",
+   "outcome": "Pain intensity measured using Visual Analogue Scale (VAS)",
+   "sponsor": "Kafrelsheikh University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Abdulaziz Fahad Ahmed Alsulaimani",
+    "title": "Princpal Investigator",
+    "affiliation": "Kafrelsheikh University"
+   },
+   "officials": [
+    {
+     "name": "hane mohamed hamed, PHD",
+     "role": "STUDY_CHAIR",
+     "affiliation": "professor of orthopedic surgery depaetment of orthopedic surgery faculty of medicine kafrelsheikh university"
+    },
+    {
+     "name": "mahmoud mohamed ewida, PHD",
+     "role": "STUDY_CHAIR",
+     "affiliation": "professor of basic sciences for physical therapy department of basic sciences for physical therapy faculty oh physical therapy kafrelsheikh university"
+    }
+   ],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
    "matched": [
     "musculo-squelettique"
    ]
@@ -3184,70 +3315,6 @@
      "name": "HOSSAM MOHAMMED GAD, PHD",
      "role": "STUDY_DIRECTOR",
      "affiliation": "Professor of Orthopaedic Surgery Department of Orthopaedic Surgery Faculty of medicine Kafrelsheikh University"
-    }
-   ],
-   "countries": [],
-   "sites": [],
-   "n_sites": 0,
-   "matched": [
-    "musculo-squelettique"
-   ]
-  },
-  {
-   "nct": "NCT07666061",
-   "title": "Laser vs Lontophoresis in KOA",
-   "official": "Effectiveness of Laser Therapy Versus Lontophoresis in the Management of Knee Osteoarthritis: A Randomized Controlled Trial",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-08-01",
-   "end": "2026-10-30",
-   "completion": "2027-04-01",
-   "first_posted": "2026-06-24",
-   "updated": "2026-06-24",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 66,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Knee Arthritis Osteoarthritis"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Low-Level Laser Therapy"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Iontophoresis"
-    },
-    {
-     "type": "OTHER",
-     "name": "Conventional Physical Therapy Only"
-    }
-   ],
-   "summary": "This randomized controlled trial aims to compare the effectiveness of laser therapy and iontophoresis in patients with knee osteoarthritis. The study will evaluate pain reduction, functional improvement, and knee joint mobility following",
-   "outcome": "Pain intensity measured using Visual Analogue Scale (VAS)",
-   "sponsor": "Kafrelsheikh University",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Abdulaziz Fahad Ahmed Alsulaimani",
-    "title": "Princpal Investigator",
-    "affiliation": "Kafrelsheikh University"
-   },
-   "officials": [
-    {
-     "name": "hane mohamed hamed, PHD",
-     "role": "STUDY_CHAIR",
-     "affiliation": "professor of orthopedic surgery depaetment of orthopedic surgery faculty of medicine kafrelsheikh university"
-    },
-    {
-     "name": "mahmoud mohamed ewida, PHD",
-     "role": "STUDY_CHAIR",
-     "affiliation": "professor of basic sciences for physical therapy department of basic sciences for physical therapy faculty oh physical therapy kafrelsheikh university"
     }
    ],
    "countries": [],
@@ -3652,6 +3719,60 @@
    ]
   },
   {
+   "nct": "NCT07584603",
+   "title": "Effect of High-Intensity Laser Therapy on Femoral Cartilage in Knee Osteoarthritis",
+   "official": "The Role of High-intensity Laser Therapy on Femoral Cartilage Thickness in Patients With Knee Osteoarthritis",
+   "acronym": "HILT-KOA",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-07-01",
+   "end": "2027-01-15",
+   "completion": "2027-05-10",
+   "first_posted": "2026-05-13",
+   "updated": "2026-05-13",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 58,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Osteoarthritis (OA) of the Knee",
+    "Osteoarthitis"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "High-Intensity Laser Therapy (HILT) + Conventional Physiotherapy"
+    },
+    {
+     "type": "OTHER",
+     "name": "Conventional Physiotherapy"
+    }
+   ],
+   "summary": "This clinical trial will evaluate the effects of High-Intensity Laser Therapy (HILT) on femoral cartilage thickness and other clinical outcomes in people with knee osteoarthritis. Participants aged 40 to 60 years with grade II or III knee osteoarthritis will be randomly assigned to receive either HILT plus conventional physiotherapy or conventional physiotherapy alone. Both groups will receive 12 treatment sessions on alternate days for 4 weeks. The study will assess changes in cartilage thickness using ultrasound, as well as improvements in pain, knee movement, muscle strength, and daily function. Findings from this research may help improve physiotherapy treatment strategies for patients with knee osteoarthritis.",
+   "outcome": "Femoral Cartilage Thickness",
+   "sponsor": "University of Lahore",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "Pakistan"
+   ],
+   "sites": [
+    {
+     "facility": "London Aesthetics and Rejuvenation Center",
+     "city": "Lahore",
+     "country": "Pakistan"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "musculo-squelettique"
+   ]
+  },
+  {
    "nct": "NCT07615920",
    "title": "HILT vs ESWT in Supraspinatus Tendinitis",
    "official": "Comparative Effectiveness of High-Intensity Laser Therapy Versus Extracorporeal Shock Wave Therapy in Patients With Supraspinatus Tendinitis",
@@ -3726,60 +3847,6 @@
      "facility": "King Faisal Medical Complex",
      "city": "Ta'if",
      "country": "Saudi Arabia"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "musculo-squelettique"
-   ]
-  },
-  {
-   "nct": "NCT07584603",
-   "title": "Effect of High-Intensity Laser Therapy on Femoral Cartilage in Knee Osteoarthritis",
-   "official": "The Role of High-intensity Laser Therapy on Femoral Cartilage Thickness in Patients With Knee Osteoarthritis",
-   "acronym": "HILT-KOA",
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-07-01",
-   "end": "2027-01-15",
-   "completion": "2027-05-10",
-   "first_posted": "2026-05-13",
-   "updated": "2026-05-13",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 58,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Osteoarthritis (OA) of the Knee",
-    "Osteoarthitis"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "High-Intensity Laser Therapy (HILT) + Conventional Physiotherapy"
-    },
-    {
-     "type": "OTHER",
-     "name": "Conventional Physiotherapy"
-    }
-   ],
-   "summary": "This clinical trial will evaluate the effects of High-Intensity Laser Therapy (HILT) on femoral cartilage thickness and other clinical outcomes in people with knee osteoarthritis. Participants aged 40 to 60 years with grade II or III knee osteoarthritis will be randomly assigned to receive either HILT plus conventional physiotherapy or conventional physiotherapy alone. Both groups will receive 12 treatment sessions on alternate days for 4 weeks. The study will assess changes in cartilage thickness using ultrasound, as well as improvements in pain, knee movement, muscle strength, and daily function. Findings from this research may help improve physiotherapy treatment strategies for patients with knee osteoarthritis.",
-   "outcome": "Femoral Cartilage Thickness",
-   "sponsor": "University of Lahore",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": null,
-   "officials": [],
-   "countries": [
-    "Pakistan"
-   ],
-   "sites": [
-    {
-     "facility": "London Aesthetics and Rejuvenation Center",
-     "city": "Lahore",
-     "country": "Pakistan"
     }
    ],
    "n_sites": 1,
@@ -4966,61 +5033,6 @@
    ]
   },
   {
-   "nct": "NCT07313826",
-   "title": "Treatment of Chronic Lower Back Pain With a Combination of Electrical Stimulation, LED, and Laser Therapy",
-   "official": "Neurolumen for Chronic Lower Back Pain: A Pilot RCT Study",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-05-01",
-   "end": "2028-01-01",
-   "completion": "2028-01-01",
-   "first_posted": "2026-01-02",
-   "updated": "2026-02-13",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 50,
-   "allocation": "RANDOMIZED",
-   "masking": "QUADRUPLE",
-   "conditions": [
-    "Chronic Low Back Pain"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Active Neurolumen"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Inactive Neurolumen"
-    }
-   ],
-   "summary": "This study will evaluate the impact of the Neurolumen medical device on chronic low back pain.",
-   "outcome": "Pain Intensity",
-   "sponsor": "Defense and Veterans Center for Integrative Pain Management",
-   "sponsor_class": "OTHER",
-   "collaborators": [
-    "Neurolumen LLC"
-   ],
-   "responsible": null,
-   "officials": [],
-   "countries": [
-    "United States"
-   ],
-   "sites": [
-    {
-     "facility": "Naval Medical Center Portsmouth",
-     "city": "Portsmouth",
-     "country": "United States"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "musculo-squelettique"
-   ]
-  },
-  {
    "nct": "NCT07531654",
    "title": "Comparative Effectiveness of Standard and Modified Laser Therapy in Myofascial Pain Management.",
    "official": "Comparative Effectiveness of Standard and Modified Laser Therapy in Myofascial Pain Management: A Randomized Clinical Trial",
@@ -5070,6 +5082,61 @@
      "facility": "Cairo University",
      "city": "Cairo",
      "country": "Egypt"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT07313826",
+   "title": "Treatment of Chronic Lower Back Pain With a Combination of Electrical Stimulation, LED, and Laser Therapy",
+   "official": "Neurolumen for Chronic Lower Back Pain: A Pilot RCT Study",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-05-01",
+   "end": "2028-01-01",
+   "completion": "2028-01-01",
+   "first_posted": "2026-01-02",
+   "updated": "2026-02-13",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 50,
+   "allocation": "RANDOMIZED",
+   "masking": "QUADRUPLE",
+   "conditions": [
+    "Chronic Low Back Pain"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Active Neurolumen"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Inactive Neurolumen"
+    }
+   ],
+   "summary": "This study will evaluate the impact of the Neurolumen medical device on chronic low back pain.",
+   "outcome": "Pain Intensity",
+   "sponsor": "Defense and Veterans Center for Integrative Pain Management",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Neurolumen LLC"
+   ],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "Naval Medical Center Portsmouth",
+     "city": "Portsmouth",
+     "country": "United States"
     }
    ],
    "n_sites": 1,
@@ -5805,56 +5872,6 @@
    ]
   },
   {
-   "nct": "NCT07449169",
-   "title": "Diode Laser Plus CPP-ACPF vs CPP-ACPF Alone for Dentin Hypersensitivity",
-   "official": "Comparative Efficacy of Diode Laser Photobiomodulation Combined With CPP-ACPF Varnish Versus CPP-ACPF Varnish Alone in the Management of Dentin Hypersensitivity: A Randomized Clinical Trial",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-04-01",
-   "end": "2027-06-01",
-   "completion": "2027-10-01",
-   "first_posted": "2026-03-04",
-   "updated": "2026-03-04",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 70,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Dentin Hypersensitivity",
-    "Tooth Hypersensitivity"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Diode laser photobiomodulation combined with CPP-ACPF varnish"
-    },
-    {
-     "type": "OTHER",
-     "name": "CPP-ACPF varnish"
-    }
-   ],
-   "summary": "This study aims to compare the effectiveness of diode laser photobiomodulation combined with CPP-ACPF varnish versus CPP-ACPF varnish alone in reducing dentin hypersensitivity. Participants diagnosed with dentin hypersensitivity will receive either the combined treatment or varnish application alone. Pain levels will be evaluated using a standardized visual analog scale before and after treatment sessions. The results of this study may help determine whether adding diode laser therapy enhances the effectiveness of conventional varnish treatment in managing dentin hypersensitivity.",
-   "outcome": "Reduction in dentin hypersensitivity in response to evaporative (air-blast) stimulus",
-   "sponsor": "Cairo University",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Mariam Mamdouh Mohamed Kamal",
-    "title": "Dentist",
-    "affiliation": "Cairo University"
-   },
-   "officials": [],
-   "countries": [],
-   "sites": [],
-   "n_sites": 0,
-   "matched": [
-    "odontologie"
-   ]
-  },
-  {
    "nct": "NCT07466641",
    "title": "LLLLT vs Piezocision in Accelerating Orthodontic Canine Retraction",
    "official": "Effectiveness of Piezocision Versus Low-level Laser Therapy During Orthodontic Canine Retraction: A Comparative Controlled Clinical Study",
@@ -5917,6 +5934,56 @@
     }
    ],
    "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
+   "nct": "NCT07449169",
+   "title": "Diode Laser Plus CPP-ACPF vs CPP-ACPF Alone for Dentin Hypersensitivity",
+   "official": "Comparative Efficacy of Diode Laser Photobiomodulation Combined With CPP-ACPF Varnish Versus CPP-ACPF Varnish Alone in the Management of Dentin Hypersensitivity: A Randomized Clinical Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-04-01",
+   "end": "2027-06-01",
+   "completion": "2027-10-01",
+   "first_posted": "2026-03-04",
+   "updated": "2026-03-04",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 70,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Dentin Hypersensitivity",
+    "Tooth Hypersensitivity"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Diode laser photobiomodulation combined with CPP-ACPF varnish"
+    },
+    {
+     "type": "OTHER",
+     "name": "CPP-ACPF varnish"
+    }
+   ],
+   "summary": "This study aims to compare the effectiveness of diode laser photobiomodulation combined with CPP-ACPF varnish versus CPP-ACPF varnish alone in reducing dentin hypersensitivity. Participants diagnosed with dentin hypersensitivity will receive either the combined treatment or varnish application alone. Pain levels will be evaluated using a standardized visual analog scale before and after treatment sessions. The results of this study may help determine whether adding diode laser therapy enhances the effectiveness of conventional varnish treatment in managing dentin hypersensitivity.",
+   "outcome": "Reduction in dentin hypersensitivity in response to evaporative (air-blast) stimulus",
+   "sponsor": "Cairo University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Mariam Mamdouh Mohamed Kamal",
+    "title": "Dentist",
+    "affiliation": "Cairo University"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
    "matched": [
     "odontologie"
    ]
@@ -8370,9 +8437,9 @@
    "status": "ENROLLING_BY_INVITATION",
    "start": "2025-12-09",
    "end": "2026-02-21",
-   "completion": "2026-10-02",
+   "completion": "2026-11-20",
    "first_posted": "2026-01-06",
-   "updated": "2026-10-06",
+   "updated": "2026-11-12",
    "type": "INTERVENTIONAL",
    "phases": [
     "NA"
@@ -8549,59 +8616,6 @@
    ]
   },
   {
-   "nct": "NCT06812611",
-   "title": "Effects of High Intensity Laser Therapy in Muscle Injuries",
-   "official": "Effects of High Intensity Laser Therapy In Lower Limb Muscle Injuries: a Randomized Controlled Study",
-   "acronym": "THEALinMJ",
-   "status": "RECRUITING",
-   "start": "2025-12-01",
-   "end": "2027-01-01",
-   "completion": "2027-04-01",
-   "first_posted": "2025-02-06",
-   "updated": "2026-05-14",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 24,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Muscle Tear"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "High Energy Laser Group"
-    },
-    {
-     "type": "OTHER",
-     "name": "Exercise"
-    }
-   ],
-   "summary": "Muscle injuries are frequent traumatic events in daily life, particularly during sports. In sports, their incidence varies from 10% to 55% of total injuries. According to the Mueller Wohlfart classification, muscle injuries are classified into direct traumatic injuries (contusion-laceration) and indirect traumatic injuries, which are further divided into non-structural injuries (grade I and II) and structural injuries. Structural lesions are further divided into partial muscle lesions (grade III): 3 A, minor partial lesion, i.e. lesion of one or more primary bundles with a secondary bundle; 3 B, moderate partial lesion, i.e. lesion of at least one secondary bundle and with a rupture area \\< 50% of the muscle surface; and (sub)total muscle injury (grade IV).",
-   "outcome": "recovery of pain",
-   "sponsor": "Azienda Ospedaliero-Universitaria Consorziale Policlinico di Bari",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": null,
-   "officials": [],
-   "countries": [
-    "Italy"
-   ],
-   "sites": [
-    {
-     "facility": "Policlinico di Bari",
-     "city": "Bari",
-     "country": "Italy"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "dermatologie"
-   ]
-  },
-  {
    "nct": "NCT07205640",
    "title": "Improving Healing in Children After Tooth Extraction Using Laser Therapy or Hyaluronic Acid",
    "official": "Effect of Low-Level Laser Therapy Versus Hyaluronic Acid on Wound Healing After First Permanent Molar Extraction in Children.",
@@ -8668,6 +8682,59 @@
    "matched": [
     "dermatologie",
     "odontologie"
+   ]
+  },
+  {
+   "nct": "NCT06812611",
+   "title": "Effects of High Intensity Laser Therapy in Muscle Injuries",
+   "official": "Effects of High Intensity Laser Therapy In Lower Limb Muscle Injuries: a Randomized Controlled Study",
+   "acronym": "THEALinMJ",
+   "status": "RECRUITING",
+   "start": "2025-12-01",
+   "end": "2027-01-01",
+   "completion": "2027-04-01",
+   "first_posted": "2025-02-06",
+   "updated": "2026-05-14",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 24,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Muscle Tear"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "High Energy Laser Group"
+    },
+    {
+     "type": "OTHER",
+     "name": "Exercise"
+    }
+   ],
+   "summary": "Muscle injuries are frequent traumatic events in daily life, particularly during sports. In sports, their incidence varies from 10% to 55% of total injuries. According to the Mueller Wohlfart classification, muscle injuries are classified into direct traumatic injuries (contusion-laceration) and indirect traumatic injuries, which are further divided into non-structural injuries (grade I and II) and structural injuries. Structural lesions are further divided into partial muscle lesions (grade III): 3 A, minor partial lesion, i.e. lesion of one or more primary bundles with a secondary bundle; 3 B, moderate partial lesion, i.e. lesion of at least one secondary bundle and with a rupture area \\< 50% of the muscle surface; and (sub)total muscle injury (grade IV).",
+   "outcome": "recovery of pain",
+   "sponsor": "Azienda Ospedaliero-Universitaria Consorziale Policlinico di Bari",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "Italy"
+   ],
+   "sites": [
+    {
+     "facility": "Policlinico di Bari",
+     "city": "Bari",
+     "country": "Italy"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "dermatologie"
    ]
   },
   {
@@ -9266,66 +9333,6 @@
    "matched": [
     "dermatologie",
     "neurologie"
-   ]
-  },
-  {
-   "nct": "NCT07414069",
-   "title": "High-Intensity Laser Therapy in Carpal Tunnel Syndrome: Clinical, Sonographic, and Electrophysiological Outcomes",
-   "official": "Evaluation of the Clinical, Sonographic, and Electrophysiological Efficacy of High-Intensity Laser Therapy (HILT) in Carpal Tunnel Syndrome",
-   "acronym": null,
-   "status": "RECRUITING",
-   "start": "2025-11-02",
-   "end": "2026-03-05",
-   "completion": "2026-04-30",
-   "first_posted": "2026-02-17",
-   "updated": "2026-02-17",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 80,
-   "allocation": "RANDOMIZED",
-   "masking": "DOUBLE",
-   "conditions": [
-    "Carpal Tunnel Syndrome"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "High-Intensity Laser Therapy (HILT)"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Sham High-Intensity Laser Therapy"
-    }
-   ],
-   "summary": "Carpal tunnel syndrome (CTS) is the most common entrapment neuropathy of the upper extremity and is characterized by pain, paresthesia, and functional impairment resulting from increased pressure within the carpal tunnel. Although conservative treatment approaches such as splinting and pharmacological therapy are commonly used, High-Intensity Laser Therapy (HILT) has emerged as a non-invasive modality with potential analgesic, anti-inflammatory, and biostimulatory effects. However, evidence regarding its efficacy remains limited, particularly from sham-controlled studies incorporating objective outcome measures. This prospective, randomized, double-blind, sham-controlled clinical trial aims to evaluate the clinical, sonographic, and electrophysiological effectiveness of HILT in patients with mild-to-moderate CTS. Eligible patients aged 18 to 65 years with electrophysiologically confirmed",
-   "outcome": "Pain Severity assessed by Visual Analog Scale (VAS)",
-   "sponsor": "Ankara City Hospital Bilkent",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": null,
-   "officials": [
-    {
-     "name": "Filiz Eser, professor",
-     "role": "PRINCIPAL_INVESTIGATOR",
-     "affiliation": "Ankara City Hospital Bilkent"
-    }
-   ],
-   "countries": [
-    "Turkey (Türkiye)"
-   ],
-   "sites": [
-    {
-     "facility": "Ankara Bilkent City Hospital",
-     "city": "Ankara",
-     "country": "Turkey (Türkiye)"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "dermatologie",
-    "neuropathie-peripherique"
    ]
   },
   {
@@ -10772,66 +10779,6 @@
    "n_sites": 0,
    "matched": [
     "dermatologie"
-   ]
-  },
-  {
-   "nct": "NCT07688915",
-   "title": "High-Intensity Laser Therapy Versus Transforaminal Epidural Steroid Injection in Chronic Lumbar Disc Herniation-Related Low Back and Radicular Pain",
-   "official": "Comparison of the Effectiveness of High-Intensity Laser Therapy and Transforaminal Epidural Steroid Injection in Patients With Chronic Axial and Radicular Low Back Pain Due to Lumbar Disc Herniation: A Prospective Randomized Controlled Trial",
-   "acronym": null,
-   "status": "RECRUITING",
-   "start": "2025-08-01",
-   "end": "2026-10-01",
-   "completion": "2026-10-01",
-   "first_posted": "2026-07-07",
-   "updated": "2026-07-07",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 24,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Lumbar Disc Herniation",
-    "Chronic Low Back Pain",
-    "Radicular Pain",
-    "Lumbar Radiculopathy"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "High-Intensity Laser Therapy"
-    },
-    {
-     "type": "PROCEDURE",
-     "name": "Transforaminal Epidural Steroid Injections"
-    }
-   ],
-   "summary": "This prospective, randomized, single-blinded, controlled clinical trial aims to compare the effectiveness of high-intensity laser therapy and fluoroscopy-guided transforaminal epidural steroid injection in patients with chronic low back pain and lumbar radiculopathy. Eligible patients will be randomized into two parallel groups. One group will receive high-intensity laser therapy, and the other group will receive transforaminal epidural steroid injection. All participants will also receive a standardized home-based exercise program. Outcomes will be assessed at baseline, 2 weeks, 6 weeks, and 12 weeks after treatment. The primary outcome will be pain intensity measured by the Visual Analog Scale. Secondary outcomes will include functional disability, neuropathic pain symptoms, quality of life, and functional walking capacity.",
-   "outcome": "Change in Low Back and Leg Pain Intensity Assessed by Visual Analog Scale",
-   "sponsor": "Ankara City Hospital Bilkent",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Esra Ülgen Kıratlıoğlu",
-    "title": "MD",
-    "affiliation": "Ankara City Hospital Bilkent"
-   },
-   "officials": [],
-   "countries": [
-    "Turkey (Türkiye)"
-   ],
-   "sites": [
-    {
-     "facility": "Ankara Bilkent City Hospital, Physical Medicine and Rehabilitation Hospital",
-     "city": "Ankara",
-     "country": "Turkey (Türkiye)"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "musculo-squelettique"
    ]
   },
   {

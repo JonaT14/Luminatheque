@@ -160,6 +160,67 @@
   "fetched": "2026-11-07"
  },
  {
+  "pmid": "43017579",
+  "doi": "10.3389/froh.2026.1978161",
+  "pmcid": "PMC13753969",
+  "title": "Biophotonics in oral health: bridging light-based innovation and clinical practice.",
+  "journal": "Frontiers in oral health",
+  "journal_abbr": "Front Oral Health",
+  "authors": [
+   "Bensadoun RJ",
+   "Lairedj K",
+   "Carlotti BR"
+  ],
+  "first_affiliation": "RJB-Consulting, Nice, France.",
+  "date_online": "2026-10-28",
+  "date_pub": "2026-01-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "biophotonics",
+   "dosimetry",
+   "oral health",
+   "oral mucositis",
+   "photobiomodulation",
+   "precision medicine"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Biophotonics is reshaping oral healthcare by transitioning light-based technologies from isolated procedural applications toward integrated diagnostic, therapeutic, and regenerative strategies. Among these approaches, photobiomodulation (PBM) therapy has achieved substantial clinical visibility due to its capacity to modulate inflammation, pain, mitochondrial metabolism, vascular responses, and tissue repair without producing destructive thermal effects. While oral and oropharyngeal mucositis represent the most clinically and quantitatively mature models for PBM, its applications now encompass salivary dysfunction, periodontal therapy, oral surgery, temporomandibular disorders (TMD), implant osseointegration, orthodontics, and inflammatory mucosal conditions. However, translating positive biological outcomes into routine practice remains limited by substantial heterogeneity in device architectures, wavelengths, beam profiles, and reporting standards. This comprehensive narrative review examines the physical, clinical, and dosimetric landscape of oral biophotonics. We address critical gaps in current literature-including reporting shortfalls, negative clinical trials, and general safety risks-and outline the technological evolution toward target-tissue dosimetry. By integrating computational photon-transport models, biological monitoring, and artificial intelligence-assisted dosimetry, we propose a transitional framework toward precision oral photomedicine, wherein anatomical and optical tissue properties guide individualized, patient-centered light delivery."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3389/froh.2026.1978161"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13753969"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13753969?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
   "pmid": "42931937",
   "doi": "10.1007/s00520-026-11412-4",
   "pmcid": null,

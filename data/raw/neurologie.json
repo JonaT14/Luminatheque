@@ -1,5 +1,53 @@
 [
  {
+  "pmid": "43026152",
+  "doi": "10.1177/25785478261508034",
+  "pmcid": null,
+  "title": "Intranasal Photobiomodulation as a Potential Treatment for Parkinson's Disease: A Randomized Placebo-Controlled Pilot Study.",
+  "journal": "Photobiomodulation, photomedicine, and laser surgery",
+  "journal_abbr": "Photobiomodul Photomed Laser Surg",
+  "authors": [
+   "Gois AM",
+   "Gianini C",
+   "Panhoca VH",
+   "Santos HF",
+   "Lins LCRF",
+   "Bagnato VS"
+  ],
+  "first_affiliation": "University of São Paulo, São Carlos Institute Physics, São Carlos, Brazil.",
+  "date_online": "2026-11-13",
+  "date_pub": "2026-11-13",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Parkinson’s disease",
+   "intranasal light therapy",
+   "neurodegeneration",
+   "photobiomodulation"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Parkinson's disease (PD) is a rapidly growing neurological disorder characterized by motor and non-motor symptoms associated with mitochondrial dysfunction and oxidative stress. Photobiomodulation (PBM) may modulate mitochondrial pathways. This randomized, controlled, single-blind pilot trial investigated intranasal and transpalatal PBM, individually or combined, in 48 individuals with idiopathic PD allocated to TP + IN (intranasal + transpalatal PBM), IN (intranasal PBM), TP (transpalatal PBM), or Sham. Participants underwent 24 sessions over 12 weeks using near-infrared light (808 nm, 100 mW, 60 J, or 120 J per point). Outcomes were assessed at baseline (T1), 1 week after the intervention (T2), and 1-month follow-up (T3) using the Montreal Cognitive Assessment (MoCA) and Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS). Forty participants completed the study. IN significantly improved MoCA and MDS-UPDRS scores, with benefits persisting at follow-up. Sham showed a decline in MoCA. These findings suggest that intranasal PBM may be a promising adjunctive therapy for PD; further studies are needed to elucidate mechanisms and optimize treatment protocols."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1177/25785478261508034"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
   "pmid": "42979929",
   "doi": "10.31083/JIN50308",
   "pmcid": null,
@@ -215,6 +263,65 @@
    }
   ],
   "fetched": "2026-11-08"
+ },
+ {
+  "pmid": "43027299",
+  "doi": "10.3390/cells15211941",
+  "pmcid": "PMC13762199",
+  "title": "MT-CO2 Dysregulation in Alzheimer's Disease and Its Modulation by Photobiomodulation: Implications for Mitochondrial Function.",
+  "journal": "Cells",
+  "journal_abbr": "Cells",
+  "authors": [
+   "Sabbir MG",
+   "Hsiao K"
+  ],
+  "first_affiliation": "Alzo Biosciences Inc., San Diego, CA 92121, USA.",
+  "date_online": "2026-10-25",
+  "date_pub": "2026-10-25",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [
+   "Humans",
+   "Alzheimer Disease",
+   "Mitochondria",
+   "Electron Transport Complex IV",
+   "Male",
+   "Female",
+   "Cell Line, Tumor",
+   "Aged"
+  ],
+  "keywords": [
+   "Alzheimer’s disease",
+   "MT-CO2",
+   "complex IV",
+   "cytochrome c oxidase",
+   "mitochondrial bioenergetics",
+   "mitochondrial dysfunction",
+   "near-infrared light",
+   "neurodegeneration",
+   "oxidative phosphorylation",
+   "photobiomodulation"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Mitochondrial dysfunction contributes to Alzheimer's disease (AD), but the roles of individual respiratory-chain proteins remain incompletely understood. We examined mitochondrially encoded cytochrome c oxidase subunit II (MT-CO2) and nuclear encoded succinate dehydrogenase complex iron-sulfur subunit B (SDHB) in postmortem temporal cortex from cognitively normal (CN) individuals and patients with AD, Lewy body dementia/Parkinson's disease (LBD/PD), or progressive supranuclear palsy (PSP). MT-CO2 abundance was lower in AD than in CN and LBD/PD, whereas SDHB was lower in AD than in CN, LBD/PD, and PSP. A significant protein × diagnosis interaction indicated distinct diagnostic-group patterns for MT-CO2 and SDHB. In BE(2)-C neuroblastoma cells, repeated 650 nm red-light and 808 nm near-infrared (NIR) photobiomodulation increased MT-CO2 abundance, with the largest responses following 10- and 15-min exposures. shRNA-mediated MT-CO2 reduction impaired Complex IV-dependent respiration and attenuated the bioenergetic response to 808 nm treatment. Photobiomodulation did not significantly alter mitochondrially encoded MT-CO1 or MT-CO3 abundance. These findings identify alterations in MT-CO2 and SDHB in AD temporal cortex and demonstrate that MT-CO2 contributes to Complex IV-dependent respiration and photobiomodulation-associated bioenergetic enhancement. Because mitochondrial content was not independently measured, the tissue findings cannot distinguish broader mitochondrial loss from protein-specific dysregulation."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3390/cells15211941"
+   }
+  ],
+  "fetched": "2026-11-16"
  },
  {
   "pmid": "42926088",
@@ -6071,6 +6178,54 @@
   "fetched": "2026-11-08"
  },
  {
+  "pmid": "43034346",
+  "doi": "10.1007/s44164-026-00129-7",
+  "pmcid": "PMC13768525",
+  "title": "From neurotoxicity to neuroprotection: photobiomodulation against the effects of the SARS-CoV-2 spike protein in a 2D neurodegenerative model using differentiated SH-SY5Y cells.",
+  "journal": "In vitro models",
+  "journal_abbr": "In Vitro Model",
+  "authors": [
+   "de Andrade EJN",
+   "Salles GR",
+   "de Andrade Giraldi L",
+   "Sudo MYR",
+   "de Paula Ramos L",
+   "Pacheco-Soares C"
+  ],
+  "first_affiliation": "Laboratory of Cellular and Tissue Biology, Dynamics of Cellular Compartments, Research and Development Institute, Vale do Paraíba University, São José dos Campos, SP CEP 12244-000 Brazil.",
+  "date_online": "2026-05-20",
+  "date_pub": "2026-12-01",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Morphology",
+   "Neuroprotective",
+   "Neurotoxicity",
+   "Oxidative Stress"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Alzheimer's disease (AD) is a major cause of dementia and remains a significant global health challenge, with no curative treatments currently available. The COVID-19 pandemic has raised concerns regarding neurological complications associated with SARS-CoV-2, particularly the role of the Spike protein in neurotoxicity. This study investigated the neurotoxic effects of recombinant Spike protein in a two-dimensional (2D) in vitro model of oxidative-induced neuronal injury, as well as the potential protective role of photobiomodulation (PBM, 3 J/cm²) using a red LED (660 nm). Differentiated SH-SY5Y cells were exposed to Spike protein (0.5 µg/mL) and H₂O₂ (200 µM), individually or in combination, with or without PBM. Cell viability was assessed using the Alamar Blue assay, while immunofluorescence analysis was performed to evaluate nuclear morphology, mitochondrial integrity, cytoskeletal organization, and focal adhesion dynamics. Flow cytometry (Annexin V/PI and CellROX) was used to quantify apoptosis, cell death, and intracellular reactive oxygen species (ROS). Results demonstrated that the Spike protein induced mitochondrial fragmentation, cytoskeletal disorganization, and increased oxidative stress, leading to enhanced apoptotic susceptibility. These effects were exacerbated under oxidative conditions, indicating a synergistic interaction. PBM attenuated these alterations by reducing ROS levels, apoptosis, and structural damage, while preserving cellular integrity. Overall, these findings indicate that the Spike protein acts as a modulator of redox imbalance, contributing to neuronal dysfunction in an in vitro oxidative stress model. PBM emerges as a promising non-pharmacological strategy capable of mitigating these effects through modulation of mitochondrial function and cellular redox homeostasis."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s44164-026-00129-7"
+   }
+  ],
+  "fetched": "2026-11-16"
+ },
+ {
   "pmid": "42151696",
   "doi": "10.1002/alz.71451",
   "pmcid": "PMC13183606",
@@ -6441,6 +6596,65 @@
    }
   ],
   "fetched": "2026-11-08"
+ },
+ {
+  "pmid": "43034419",
+  "doi": "10.1007/s44164-026-00122-0",
+  "pmcid": "PMC13768535",
+  "title": "Neurotherapeutic potential of photobiomodulation in a 3D Model of Alzheimer's disease induced by oxidative stress.",
+  "journal": "In vitro models",
+  "journal_abbr": "In Vitro Model",
+  "authors": [
+   "de Andrade Giraldi L",
+   "Rodrigues Salles G",
+   "Nogueira de Andrade EJ",
+   "Pacheco-Soares C"
+  ],
+  "first_affiliation": "Research & Development Institute, Universidade do Vale do Paraíba, São José dos Campos, São Paulo, Brazil.",
+  "date_online": "2026-05-04",
+  "date_pub": "2026-12-01",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "3D modeling",
+   "Alzheimer’s disease",
+   "Oxidative stress",
+   "Photobiomodulation",
+   "SH-SY5Y"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "PURPOSE",
+    "text": "Alzheimer's disease (AD) is a progressive neurodegenerative condition that, despite its high global incidence, still lacks effective treatments capable of altering its course. Therefore, this study aimed to investigate the neuroprotective effects of photobiomodulation (PBM, 660 nm) in a three-dimensional (3D) neuronal model of AD induced by oxidative stress. We sought to determine whether PBM could attenuate cellular damage, reduce oxidative imbalance, and preserve neuronal morphology under AD-like conditions."
+   },
+   {
+    "label": "METHODS",
+    "text": "A previously validated 3D neuronal model of AD, based on differentiated SH-SY5Y spheroids stressed with H2O2 (200 µM, 1 h), was used. Spheroids were assigned to four experimental groups (Control, PBM, H2O2, H2O2+PBM). PBM was performed by 660 nm LED irradiation (3 J/cm²). Cell viability, intracellular reactive oxygen species (ROS) levels, and neuronal morphology were assessed."
+   },
+   {
+    "label": "RESULTS",
+    "text": "PBM increased cell viability in both control and H2O2-exposed spheroids, with partial recovery of metabolic activity following oxidative injury. Intracellular ROS levels were significantly reduced by PBM, indicating attenuation of the oxidative imbalance. Morphological evaluation showed partial preservation of neuronal architecture, with PBM reducing nuclear and structural disruptions characteristic of oxidative stress."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "PBM attenuated oxidative damage in a 3D model of AD, by increasing cell viability, reducing intracellular ROS, and partially preserving neuronal morphology. These findings support PBM as a promising adjuvant therapeutic approach for neurodegenerative conditions and reinforce the relevance of 3D neuronal spheroids as a platform for in vitro AD research."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s44164-026-00122-0"
+   }
+  ],
+  "fetched": "2026-11-16"
  },
  {
   "pmid": "42050654",
