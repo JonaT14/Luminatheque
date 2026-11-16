@@ -5345,6 +5345,10 @@
 [
 "2026-10-23",
 "NOT_YET_RECRUITING"
+],
+[
+"2026-11-16",
+"RECRUITING"
 ]
 ],
 "theme": "neurologie",
@@ -14239,6 +14243,7 @@
 "gynecologie:42809639": "2026-09-29",
 "gynecologie:42857478": "2026-10-07",
 "gynecologie:42889154": "2026-10-01",
+"gynecologie:43012290": "2026-11-16",
 "mucite-orale:11051858": "2000-10-29",
 "mucite-orale:11521390": "2001-08-28",
 "mucite-orale:11769997": "2002-01-05",
@@ -14702,6 +14707,7 @@
 "mucite-orale:42931937": "2026-10-26",
 "mucite-orale:42941485": "2026-10-15",
 "mucite-orale:42969421": "2026-11-02",
+"mucite-orale:43017579": "2026-11-16",
 "musculo-squelettique:10630935": "2000-01-12",
 "musculo-squelettique:10706474": "2000-03-08",
 "musculo-squelettique:10751018": "2000-04-06",
@@ -18070,6 +18076,17 @@
 "musculo-squelettique:42997425": "2026-11-02",
 "musculo-squelettique:42998202": "2026-11-07",
 "musculo-squelettique:43002583": "2026-11-10",
+"musculo-squelettique:43005223": "2026-11-16",
+"musculo-squelettique:43005739": "2026-11-16",
+"musculo-squelettique:43007501": "2026-11-16",
+"musculo-squelettique:43008713": "2026-11-16",
+"musculo-squelettique:43012290": "2026-11-16",
+"musculo-squelettique:43017297": "2026-11-16",
+"musculo-squelettique:43017579": "2026-11-16",
+"musculo-squelettique:43030893": "2026-11-16",
+"musculo-squelettique:43033295": "2026-11-16",
+"musculo-squelettique:43034705": "2026-11-16",
+"musculo-squelettique:43036334": "2026-11-16",
 "neurologie:10630935": "2000-01-12",
 "neurologie:11789263": "2002-01-16",
 "neurologie:11857597": "2002-02-22",
@@ -19187,6 +19204,10 @@
 "neurologie:42964993": "2026-10-16",
 "neurologie:42979929": "2026-11-04",
 "neurologie:42999359": "2026-11-10",
+"neurologie:43026152": "2026-11-16",
+"neurologie:43027299": "2026-11-16",
+"neurologie:43034346": "2026-11-16",
+"neurologie:43034419": "2026-11-16",
 "neuropathie-peripherique:10626465": "2000-01-08",
 "neuropathie-peripherique:11109606": "2000-12-08",
 "neuropathie-peripherique:12098159": "2002-07-05",
@@ -24910,6 +24931,7 @@
 "sport:42841071": "2026-10-02",
 "sport:42902543": "2026-10-20",
 "sport:42924695": "2026-10-13",
-"sport:42997425": "2026-11-02"
+"sport:42997425": "2026-11-02",
+"sport:43005223": "2026-11-16"
 }
 }
