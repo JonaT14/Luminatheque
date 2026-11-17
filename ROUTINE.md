@@ -3,6 +3,36 @@
 Procédure suivie à chaque mise à jour (par défaut chaque semaine). Elle peut être lancée à la main
 (« fais la veille Luminathèque ») ou par une tâche planifiée Claude Code qui exécute ce fichier.
 
+## Point hebdomadaire du lundi (validation avant publication)
+
+Rien n'apparaît sur le site sans l'accord de l'éditeur. Chaque lundi :
+
+1. **4 h 17 UTC, automatique** (`.github/workflows/veille.yml`) : collecte PubMed de chaque spécialité, mise à jour
+   des essais, traduction des titres. Les publications nouvelles sont placées **en attente**
+   (`data/en_attente.json`) : `build_site.py` ne les publie pas.
+2. **8 h (heure de Paris), point avec l'éditeur** (tâche planifiée Claude Code) :
+   ```bash
+   git pull --rebase origin claude/sleepy-tesla-zeaezf
+   python3 scripts/en_attente.py --liste        # ou --json
+   ```
+   Présenter en français, par spécialité : d'abord les **études clés** (★ essais randomisés, méta-analyses, revues
+   systématiques, recommandations) avec une phrase de résultat et la fiche évaluée proposée, puis les autres notices,
+   puis celles que le tri a écartées (hors photobiomodulation) et celles qu'il paraît préférable d'écarter. Signaler
+   les nouveaux essais cliniques « à trier ». Puis **attendre la réponse** : ne rien publier.
+3. **Après validation** (tout, une partie, ou avec corrections) :
+   ```bash
+   python3 scripts/en_attente.py --valider PMID ...   # ou --valider tout
+   python3 scripts/en_attente.py --refuser PMID ...   # écartées : exclus.json
+   ```
+   Rédiger les fiches évaluées validées dans `data/curation/<thème>/<année>.json` (schéma ci-dessous ; `k` pour le
+   nombre d'études d'une synthèse, niveau 1 réservé aux synthèses d'essais randomisés), mettre à jour si besoin
+   paramètres, synthèses et fiches patients, puis `python3 scripts/build_site.py` (contrôle qualité bloquant),
+   `python3 scripts/build_pages.py`, commit, push, vérification en ligne.
+4. Ce qui n'a pas reçu de réponse reste en attente et est représenté le lundi suivant.
+
+Périmètre : photobiomodulation uniquement (laser basse énergie ou LLLT, LED). Les lasers haute intensité, classe 4,
+CO2, Er:YAG, Nd:YAG, excimer, à colorant pulsé et la lumière pulsée intense sont écartés (`scripts/pertinence.py`).
+
 ## 1. Collecter les nouveautés
 
 Pour chaque thème actif de `data/topics/` (aujourd'hui : `mucite-orale`, `neuropathie-peripherique`, `gynecologie`, `musculo-squelettique`, `dermatologie`, `neurologie`, `odontologie`, `ophtalmologie`, `oncologie-support`, `orl`, `sport` et `cardiologie` ; les thèmes marqués `"status": "à venir"` sont ignorés), en partant de la date de la dernière veille moins 14 jours (pour rattraper les retards d'indexation PubMed) :

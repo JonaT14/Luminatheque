@@ -156,6 +156,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from pertinence import is_pbm, non_pbm_laser  # noqa: E402  filtre des notices hors sujet
 from controle import check_cards  # noqa: E402  contrôle qualité des fiches avant publication
 TITRES_FR = json.loads((ROOT / "data/titres_fr.json").read_text()) if (ROOT / "data/titres_fr.json").exists() else {}  # traduction automatique
+# publications collectées mais pas encore validées : invisibles sur le site (scripts/en_attente.py)
+EN_ATTENTE = json.loads((ROOT / "data/en_attente.json").read_text()) if (ROOT / "data/en_attente.json").exists() else {}
 QA_ERRORS: list = []
 QA_WARNINGS: list = []
 
@@ -279,6 +281,8 @@ def build_topic(topic_id: str) -> tuple[dict, list, dict, dict]:
     for pmid, r in raw.items():
         if pmid in curated or pmid in excluded:
             continue
+        if pmid in EN_ATTENTE and topic_id in EN_ATTENTE[pmid].get("themes", []):
+            continue  # en attente de validation
         date = article_date(r, since)
         if date[:4] < since[:4]:
             continue

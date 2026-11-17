@@ -1,5 +1,64 @@
 [
  {
+  "pmid": "43009159",
+  "doi": "10.1136/bmjophth-2026-002934",
+  "pmcid": "PMC13756410",
+  "title": "Repeated low-level red light therapy for childhood myopia management.",
+  "journal": "BMJ open ophthalmology",
+  "journal_abbr": "BMJ Open Ophthalmol",
+  "authors": [
+   "Gao S",
+   "Yu Z",
+   "Li C",
+   "Yang X",
+   "Yang X",
+   "Yu C"
+  ],
+  "first_affiliation": "School of Basic Medicine, Qingdao University, Qingdao, China.",
+  "date_online": "2026-11-10",
+  "date_pub": "2026-11-10",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Epidemiology",
+   "Eye (Globe)",
+   "Optics and Refraction"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "Myopia has emerged as a major global public health challenge, with an urgent need for effective treatment strategies. Repeated low-level red light (RLRL) therapy has recently gained attention as a promising approach, with an increasing number of meta-analyses revealing its efficacy in myopia management. Therefore, we conducted the umbrella review to illustrate the overall evidence landscape, assess the reliability of previous studies, and identify potential evidence gaps of RLRL therapy for myopia control in children."
+   },
+   {
+    "label": "METHODS",
+    "text": "We searched PubMed, Embase, Scopus, Cochrane Library, CNKI, Wanfang, Epistemonikos and Web of Science up to 13 February 2026. Systematic reviews and meta-analyses primarily comparing RLRL with single-vision spectacles in myopic children were eligible. Primary outcomes were changes in axial length and spherical equivalent refraction. Subgroup, meta-regression and sensitivity analyses were conducted."
+   },
+   {
+    "label": "RESULTS",
+    "text": "22 systematic reviews involving 73 993 participants were included, with 14 contributing to the primary meta-analysis. RLRL significantly reduced axial elongation (mean difference (MD): −0.24 mm, 95% CI −0.27 to −0.20) and spherical equivalent refraction progression (MD: 0.49 D, 95% CI 0.41 to 0.57). Subgroup analyses revealed increased treatment effect with longer follow-up (p<0.001). Sensitivity analyses confirmed the robustness of the findings."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "RLRL therapy is an effective intervention for slowing myopia progression in children, with longer follow-up duration associated with greater efficacy. However, its safety profile still requires further validation."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1136/bmjophth-2026-002934"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
   "pmid": "42999938",
   "doi": "10.1080/14656566.2026.2761125",
   "pmcid": null,
@@ -63,6 +122,53 @@
   "fetched": "2026-11-10"
  },
  {
+  "pmid": "43034523",
+  "doi": "10.1016/j.isci.2026.118111",
+  "pmcid": "PMC13769013",
+  "title": "Retinal Müller glial nestin reduction parallels behavioral impairment after blue light exposure in rats.",
+  "journal": "iScience",
+  "journal_abbr": "iScience",
+  "authors": [
+   "A A",
+   "Roy SB",
+   "Theruveethi N"
+  ],
+  "first_affiliation": "Department of Optometry, Manipal College of Health Professions, Manipal Academy of Higher Education (MAHE), Manipal 576104, India.",
+  "date_online": "2026-11-06",
+  "date_pub": "2026-11-20",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Müller cells",
+   "behavioral analysis",
+   "blue light exposure",
+   "nestin expression",
+   "retinal phototoxicity",
+   "rodent models"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Blue light from light-emitting diode (LED) displays is widely encountered; however, its effects beyond the retina are poorly understood. We investigated whether short-term blue light exposure alters retinal Müller glial nestin immunoreactivity and whether these changes accompany behavioral changes. Male Wistar rats were exposed to blue light (450 nm, 4 h daily) for 7 (D-7) or 14 days and compared with controls. Passive avoidance and elevated plus maze tests showed impaired memory retention and increased anxiety-like behavior, whereas rotarod performance was reduced at 7-D but not at 14-D. Immunofluorescence showed a progressive decline in nestin signal in the inner nuclear layer, which correlated with a composite behavioral deficit score across animals. These data reveal a temporal association between changes in Müller glial markers and behavioral outcomes, identifying the glial marker nestin as a candidate indicator of light-induced stress and motivating mechanistic studies."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1016/j.isci.2026.118111"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
   "pmid": "42975852",
   "doi": "10.1007/s44402-026-00178-1",
   "pmcid": null,
@@ -112,6 +218,124 @@
    }
   ],
   "fetched": "2026-11-08"
+ },
+ {
+  "pmid": "43030637",
+  "doi": "10.3390/jcm15218493",
+  "pmcid": "PMC13764491",
+  "title": "Effectiveness and Safety of Low-Level Red Light and Short-Wavelength Light Therapy for Myopia Control and Prevention in Children: A Systematic Review.",
+  "journal": "Journal of clinical medicine",
+  "journal_abbr": "J Clin Med",
+  "authors": [
+   "Alrasheed SH",
+   "Challa NK"
+  ],
+  "first_affiliation": "Department of Optometry, College of Applied Medical Sciences, Qassim University, Buraydah 51452, Saudi Arabia.",
+  "date_online": "2026-11-01",
+  "date_pub": "2026-11-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "child",
+   "clinical feature",
+   "follow-up",
+   "light therapy",
+   "myopia control"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Background: Myopia is a major public health challenge, particularly among children, with prevalence increasing worldwide. Emerging light-based interventions, including low-level red light (LLRL) and short-wavelength light therapy, may be effective for myopia control. This systematic review aimed to assess the effectiveness and safety of LLRL and short-wavelength light therapy for myopia control in children. Methods: A systematic search was performed in PubMed, Web of Science, Scopus, Google Scholar, and EBSCO in accordance with PRISMA 2020 guidelines. Studies published between 2013 and 2026 assessing the effectiveness and safety of LLRL and short-wavelength therapies for myopia control were included. The quality of the included studies was assessed using the Downs and Black checklist. Intervention outcomes included changes in axial length (AL), spherical equivalent refraction (SER), and choroidal thickness (CT). Safety outcomes comprised evaluations of both structural and functional retinal damage, along with assessment of ocular surface complications following the intervention. The review protocol was registered in PROSPERO (with registration number CRD420261289443). Results: Twenty-six studies reported that LLRL therapy effectively slowed myopia progression in children; however, some retinal structural and functional changes warrant further long-term safety evaluation. LLRL significantly reduced AL elongation and SER progression, increased macular CT, and delayed the onset of myopia. Some studies indicated that LLRL therapy may achieve greater efficacy in myopia control compared with 0.01% atropine. Reported adverse events include photophobia, dry eye symptoms, altered color perception, conjunctivitis, and visual discomfort. Six studies showed that short-wavelength light therapy reduced AL elongation and induced short-term choroidal changes. No serious ocular or systemic adverse events were reported with short-wavelength light therapy; however, long-term safety requires further investigation. Conclusions: Light-based therapies, particularly LLRL and short-wavelength light interventions, show promise as non-pharmacological approaches for myopia control; conversely, current evidence remains insufficient to establish their long-term safety. LLRL therapy has demonstrated efficacy in reducing AL, increasing CT, and delaying SER progression. However, reported retinal changes and ocular surface symptoms underscore the importance of close monitoring, standardized treatment protocols, and long-term safety evaluation in large-scale clinical trials."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3390/jcm15218493"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
+  "pmid": "43028050",
+  "doi": "10.3390/ijms27219802",
+  "pmcid": "PMC13763280",
+  "title": "Low-Level Light Therapy for Dry Eye Disease in Thyroid Eye Disease: A Randomized, Double-Masked, Sham-Controlled Trial.",
+  "journal": "International journal of molecular sciences",
+  "journal_abbr": "Int J Mol Sci",
+  "authors": [
+   "Timofte-Zorila MM",
+   "Pînzariu AC",
+   "Pavel-Tanasa M",
+   "Giannaccare G",
+   "Istrate S",
+   "Vlas N",
+   "Alecu D",
+   "Rotaru TS",
+   "Tanasa R",
+   "Lixi F",
+   "Troisi M",
+   "Preda C",
+   "Branisteanu DC"
+  ],
+  "first_affiliation": "Grigore T. Popa University of Medicine and Pharmacy Iasi, 700115 Iasi, Romania.",
+  "date_online": "2026-10-31",
+  "date_pub": "2026-10-31",
+  "pub_types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ],
+  "mesh": [
+   "Humans",
+   "Dry Eye Syndromes",
+   "Double-Blind Method",
+   "Female",
+   "Male",
+   "Graves Ophthalmopathy",
+   "Low-Level Light Therapy",
+   "Middle Aged",
+   "Treatment Outcome",
+   "Tears",
+   "Adult",
+   "Prospective Studies"
+  ],
+  "keywords": [
+   "Graves’ ophthalmopathy",
+   "dry eye disease",
+   "low-level light therapy",
+   "ocular surface disease index",
+   "photobiomodulation",
+   "tear osmolarity",
+   "thyroid eye disease"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Dry eye disease (DED) affects the majority of patients with thyroid eye disease (TED) and frequently persists despite maximal conservative therapy. Low-level light therapy (LLLT), or photobiomodulation, is a non-invasive treatment with anti-inflammatory and pro-reparative properties whose value in autoimmune, chronically driven ocular surface disease is unknown. In this prospective, randomized, double-masked, sham-controlled trial, eyes of patients with TED-associated DED that remained symptomatic despite intensive preservative-free lubrication, bedtime ophthalmic ointment and daily periocular hygiene were allocated 2:1 to periocular LLLT (630 nm LED mask, 15 min per session, applied over closed eyelids) or to sham treatment (identical procedure with light emission reduced to <30% of therapeutic output). Background ocular surface therapy was maintained unchanged in both arms. Assessments were performed at baseline (T0), weekly during treatment (T1-T3) and at one month (T4) and two months (T5) after the last session. The primary outcome was the Ocular Surface Disease Index (OSDI); secondary outcomes were non-invasive break-up time (NIBUT), fluorescein break-up time (FBUT), Schirmer I test, tear osmolarity, upper- and lower-eyelid meibography, corneal fluorescein staining and lipid-layer grade. The primary OSDI assessment was the change from baseline to T3, the end-of-treatment visit. Additional follow-up assessments were performed at T4 and T5. Forty-six eyes of 46 patients were analyzed (30 LLLT, 16 sham); baseline disease was active in 14/30 (46.7%) and 6/16 (37.5%) eyes, respectively. At T3, adjusted OSDI was lower with LLLT than with sham (between-group difference -7.49 points; 95% CI -11.66 to -3.32; p < 0.001). The difference persisted at T4 and T5 (-11.97 and -16.86 points, respectively; both Holm-adjusted p < 0.001). Tear osmolarity was lower with LLLT at T4 (-10.91 mOsm/L; 95% CI -18.96 to -2.87; p = 0.009) and T5 (-13.81 mOsm/L; 95% CI -22.55 to -5.06; p = 0.004). No multiplicity-adjusted between-group differences were demonstrated for NIBUT, FBUT, Schirmer I test or meibography. The adjusted probability of corneal staining was numerically lower with LLLT (T4: 15.7% vs. 34.7%; risk difference -19.0 percentage points; p = 0.100). In exploratory analyses, the treatment-by-visit-by-activity interaction was significant (p = 0.0159), with OSDI differences of -21.45 and -25.90 points in active disease versus -5.50 and -10.09 points in inactive disease at T4 and T5. CAS and OSDI were positively correlated at baseline (Spearman ρ = 0.547; Holm-adjusted p < 0.001) and at T5 (Spearman ρ = 0.428; Holm-adjusted p = 0.003). No treatment-related adverse events occurred. In conclusion, in TED-associated DED refractory to maximal conservative therapy, LLLT produced a significant and progressively increasing reduction in symptom burden together with an objective reduction in tear hyperosmolarity. Effects on break-up time, aqueous secretion, gland morphology, and lipid layer grade were not demonstrable within two months. The pattern and pace of response differ from those observed with the same technology after cataract surgery and are consistent with a chronic, systemically driven disease in which the ocular surface insult is continuously renewed."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3390/ijms27219802"
+   }
+  ],
+  "fetched": "2026-11-17"
  },
  {
   "pmid": "42955214",
@@ -4319,6 +4543,64 @@
    }
   ],
   "fetched": "2026-11-08"
+ },
+ {
+  "pmid": "43036791",
+  "doi": "10.1016/j.aopr.2026.06.002",
+  "pmcid": "PMC13770577",
+  "title": "Five-year efficacy and safety of repeated low-level red light therapy for myopia control in children: a multicenter, real-world study.",
+  "journal": "Advances in ophthalmology practice and research",
+  "journal_abbr": "Adv Ophthalmol Pract Res",
+  "authors": [
+   "Zhang J",
+   "Yu J",
+   "Zou H",
+   "Xu Y"
+  ],
+  "first_affiliation": "Shanghai Eye Diseases Prevention &Treatment Center/ Shanghai Eye Hospital, School of Medicine, Tongji University, Shanghai, China.",
+  "date_online": "2026-06-12",
+  "date_pub": "2026-01-01",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Children and adolescent",
+   "Control",
+   "Myopia",
+   "Repeated low-level red light"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "OBJECTIVE",
+    "text": "Repeated low-level red light (RLRL) therapy has emerged as a promising intervention for pediatric myopia control; however, large-scale evidence on its long-term efficacy and safety remains limited. This study aimed to evaluate the sustained effectiveness and safety of RLRL therapy in children and adolescents with myopia."
+   },
+   {
+    "label": "METHODS",
+    "text": "This multicenter retrospective cohort study included patients aged 3-17 years who received RLRL therapy for at least 1 year across 12 clinical sites, with follow-up extending up to 5 years. The primary efficacy outcome was effective axial length (AL) control, defined as annual AL elongation <0.1 mm, assessed from years 1-5. Safety outcomes included the proportions of patients with a ≥2-line reduction in best-corrected visual acuity (BCVA) or BCVA worse than 20/25."
+   },
+   {
+    "label": "RESULTS",
+    "text": "A total of 2885 patients were included. Effective AL control was observed in 53.8%-62.3% of patients across follow-up years, with consistent findings in sensitivity analyses. Efficacy peaked in year 1 and remained stable through year 5, with ≤5% annual fluctuation. Mean annual AL changes were 0.04, 0.12, 0.10, 0.11, and 0.08 mm in years 1 to 5, respectively. Control rates varied significantly by age, highest among patients aged 13-17 years and lowest among those aged 3-5 years (P < 0.05 for years 1-3). Baseline AL was associated with treatment outcomes, with 1-year control rates of 90.9% in the 28-31 mm group and 29.0% in the 21-23 mm group. Higher adherence was associated with better control (54.9%-63.5%) rates than lower adherence (25.0%-56.0%). No serious safety concerns were reported."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "In this large real-world cohort with follow-up of up to 5 years, RLRL therapy was associated with sustained AL control and no serious safety signals based on available clinical records. These findings support its potential role as a long-term myopia management strategy."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1016/j.aopr.2026.06.002"
+   }
+  ],
+  "fetched": "2026-11-17"
  },
  {
   "pmid": "42549280",

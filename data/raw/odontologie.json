@@ -1,5 +1,159 @@
 [
  {
+  "pmid": "43007501",
+  "doi": "10.1007/s00784-026-07238-3",
+  "pmcid": null,
+  "title": "Evaluation of the acceleration of orthodontic movements by applying low-level laser therapy. A randomized clinical trial.",
+  "journal": "Clinical oral investigations",
+  "journal_abbr": "Clin Oral Investig",
+  "authors": [
+   "Lazăr L",
+   "Bud E",
+   "Sufaru IG",
+   "Solomon SM",
+   "Dakó T",
+   "Oprica M",
+   "Vlasa A",
+   "Lazăr AP"
+  ],
+  "first_affiliation": "Department of Periodontology, George Emil Palade University of Medicine, Pharmacy, Science, and Technology of Targu Mures, 38 Ghe. Marinescu Street, Târgu Mures, 540139, Romania.",
+  "date_online": "2026-11-10",
+  "date_pub": "2026-11-10",
+  "pub_types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ],
+  "mesh": [
+   "Humans",
+   "Tooth Movement Techniques",
+   "Low-Level Light Therapy",
+   "Osteocalcin",
+   "Female",
+   "Adult",
+   "Gingival Crevicular Fluid",
+   "Adolescent",
+   "Bone Remodeling",
+   "Male",
+   "Collagen Type I",
+   "Enzyme-Linked Immunosorbent Assay",
+   "Biomarkers",
+   "Peptides",
+   "Young Adult",
+   "Cuspid",
+   "Treatment Outcome"
+  ],
+  "keywords": [
+   "Bone remodeling",
+   "Laser therapy",
+   "N-telopeptide",
+   "Orthodontic treatment",
+   "Osteocalcin"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND AND OBJECTIVES",
+    "text": "Adult orthodontic treatment is often prolonged due to biological factors. This randomized split-mouth clinical trial evaluated the effects of low-level laser therapy (LLLT) on orthodontic tooth movement in adults by assessing osteocalcin (OC) and N-telopeptide (NTx) levels as biomarkers of bone remodeling, together with the rate of canine distalization."
+   },
+   {
+    "label": "MATERIALS AND METHODS",
+    "text": "Thirty adults (18-35 years) requiring extraction of the maxillary first premolars and canine distalization were included. LLLT (980 nm, 1000 mW, 15 s/point) was applied to selected hemiarches immediately after appliance activation and every two weeks for four months. Gingival crevicular fluid samples were collected before, and 14 days after activation to determine OC and NTx concentrations by ELISA. Canine distalization was measured monthly over four months."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Laser-treated hemiarches showed a significant increase in OC levels compared with baseline (mean difference 0.251 ng/mL, p < 0.0001), whereas changes in control hemiarches were not significant. NTx concentrations also increased significantly following orthodontic activation and were higher in laser-treated than control hemiarches (1.374 ± 0.400 vs. 1.169 ± 0.325 ng/mL, p < 0.0001). After four months, canine distalization was significantly greater in laser-treated hemiarches (4.95 ± 0.64 mm) than in controls (3.79 ± 0.56 mm, p < 0.001)."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "LLLT enhanced bone remodeling by stimulating both bone formation and resorption, resulting in accelerated orthodontic tooth movement."
+   },
+   {
+    "label": "CLINICAL RELEVANCE",
+    "text": "These findings support LLLT as a promising adjunctive approach for reducing treatment time and contribute to the evidence needed to optimize laser-assisted orthodontic protocols."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s00784-026-07238-3"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
+  "pmid": "43008848",
+  "doi": "10.1016/j.joen.2026.11.001",
+  "pmcid": null,
+  "title": "Efficacy of Preoperative High-Power Diode Laser Irradiation in Reducing Local Anesthetic Volume: A Randomized Clinical Trial.",
+  "journal": "Journal of endodontics",
+  "journal_abbr": "J Endod",
+  "authors": [
+   "Leonardi RT",
+   "Berbert FLCV",
+   "Aranda J",
+   "Herrera H",
+   "Chávez-Andrade GM",
+   "Faria G",
+   "Accorsi FO",
+   "Paulo AO",
+   "Haddad-Filho MS",
+   "Bernardes RA",
+   "Cintra LTA"
+  ],
+  "first_affiliation": "Department of Restorative Dentistry, Araraquara Dental School, Universidade Estadual Paulista (UNESP), São Paulo-SP, Brazil.",
+  "date_online": "2026-11-10",
+  "date_pub": "2026-11-10",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Diode laser",
+   "Endodontics",
+   "Inferior alveolar nerve block",
+   "Local anesthesia",
+   "Photobiomodulation",
+   "Symptomatic irreversible pulpitis"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "INTRODUCTION",
+    "text": "Local anesthesia is fundamental in dental practice to ensure patient comfort and pain control during invasive procedures. This study evaluated whether preoperative high-power diode laser (HPDL) irradiation reduces the volume of local anesthetic required to achieve effective anesthesia during endodontic treatment of teeth with symptomatic irreversible pulpitis (SIP) without compromising clinical efficacy or patient comfort."
+   },
+   {
+    "label": "METHODS",
+    "text": "Sixty patients (ASA I-II, aged 18-60 years) diagnosed with SIP in mandibular posterior teeth were randomly allocated into two groups (n = 30): Control Group (CG)- 1.8 mL 4% articaine with epinephrine, and Experimental Group (EG)- HPDL irradiation (810 nm; 1.2 W) at the puncture site prior to administering a volume of 0.9 mL. Primary outcomes were anesthetic success rate and onset latency. Pain intensity (VAS 0-10) was measured during needle insertion, coronal access, and instrumentation."
+   },
+   {
+    "label": "RESULTS",
+    "text": "In the CG, mean VAS scores were 4.27 at puncture, 2.74 during coronal access, and 1.56 during instrumentation. Anesthetic success was achieved in 76.7% of CG, with 23.3% requiring supplemental anesthesia. The EG demonstrated a 100% anesthetic success rate with 0% requiring supplemental reinforcement (P< .05). Mean VAS scores in the EG were significantly lower: 2.33 at puncture, 1.50 during coronal access, and 0.20 during instrumentation. Profound anesthesia onset within 3 minutes was observed in 60% of EG compared to 40% in CG."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "Preoperative HPDL irradiation effectively halves the required local anesthetic volume while maintaining 100% clinical efficacy and superior patient comfort during endodontic treatment of mandibular teeth with SIP."
+   }
+  ],
+  "open_access": false,
+  "license": "cc by",
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1016/j.joen.2026.11.001"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
   "pmid": "42998202",
   "doi": "10.1007/s10103-025-04794-0",
   "pmcid": null,
@@ -211,6 +365,61 @@
    }
   ],
   "fetched": "2026-11-08"
+ },
+ {
+  "pmid": "43038561",
+  "doi": "10.14336/AD.2026.11026",
+  "pmcid": null,
+  "title": "Toward Closed-Loop Cognitive Modulation in Alzheimer's Disease: BCI-Relevant Evidence and a Translational Roadmap.",
+  "journal": "Aging and disease",
+  "journal_abbr": "Aging Dis",
+  "authors": [
+   "Zhang W",
+   "Hu Q",
+   "Ding M",
+   "Qi J",
+   "Wang X",
+   "Chang X",
+   "Li C",
+   "Wang H",
+   "Zhang L",
+   "Gao S",
+   "Guo S",
+   "Geng Y",
+   "Wei Y",
+   "Zhang S",
+   "Qing W",
+   "Wang J",
+   "Cheng Y"
+  ],
+  "first_affiliation": "The Second School of Clinical Medicine, Hangzhou Normal University, Hangzhou, Zhejiang, China.",
+  "date_online": "2026-11-05",
+  "date_pub": "2026-11-05",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Alzheimer's disease (AD) has entered a biomarker-defined era, yet most cognitive and neuromodulatory interventions continue to use fixed targets, timing, and doses. This targeted narrative review maps brain-computer interface (BCI) and closed-loop-relevant evidence in AD and mild cognitive impairment (MCI) by examining how sensing, control, and intervention modules are used prospectively. Read modules include electroencephalography (EEG), functional near-infrared spectroscopy (fNIRS), real-time functional magnetic resonance imaging (fMRI), functional ultrasound (fUS) and transcranial ultrasound localization microscopy (t-ULM), and digital measures. Control functions include feature extraction, within-person state decoding, uncertainty-aware decision rules, target-engagement assessment, and safety oversight. Write modules include neurofeedback, sensory gamma and sleep-phase acoustic stimulation, transcranial alternating-current stimulation (tACS), transcranial direct-current stimulation (tDCS), repetitive transcranial magnetic stimulation (rTMS), transcranial pulse stimulation (TPS), transcranial ultrasound stimulation (TUS), transcranial photobiomodulation (tPBM), and focused ultrasound-mediated blood-brain barrier (FUS-BBB) opening. Human studies have separately demonstrated signal-contingent feedback, individualized targeting, physiological target engagement, home delivery, and emerging sensing, while preclinical studies provide mechanistic support for gamma, optical, and ultrasound approaches. Sleep-phase acoustic stimulation additionally demonstrates early automated signal-to-stimulus control. Passive sensing provides observations, personalization sets baseline parameters, state-informed control uses current signals to alter delivery, and target engagement verifies the proximal response without establishing clinical efficacy. Reliable decoding of waking cognitive states, broader controller utility, and durable clinical benefit remain unvalidated. We therefore organize the field around disease context, state sensing, feature extraction, state decoding, bounded decision/intervention, response verification, and safety oversight. The decisive early design compares assignments to an adaptive policy with otherwise matched fixed delivery; a sham arm can additionally test intervention efficacy. Such trials must prespecify decoder calibration, uncertainty, abstention, safety limits, and mechanistic and clinical endpoints. Closed-loop cognitive modulation therefore defines a translational research agenda for AD."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.14336/AD.2026.11026"
+   }
+  ],
+  "fetched": "2026-11-17"
  },
  {
   "pmid": "42975697",
@@ -568,6 +777,67 @@
    }
   ],
   "fetched": "2026-11-08"
+ },
+ {
+  "pmid": "43017579",
+  "doi": "10.3389/froh.2026.1978161",
+  "pmcid": "PMC13753969",
+  "title": "Biophotonics in oral health: bridging light-based innovation and clinical practice.",
+  "journal": "Frontiers in oral health",
+  "journal_abbr": "Front Oral Health",
+  "authors": [
+   "Bensadoun RJ",
+   "Lairedj K",
+   "Carlotti BR"
+  ],
+  "first_affiliation": "RJB-Consulting, Nice, France.",
+  "date_online": "2026-10-28",
+  "date_pub": "2026-01-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "biophotonics",
+   "dosimetry",
+   "oral health",
+   "oral mucositis",
+   "photobiomodulation",
+   "precision medicine"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Biophotonics is reshaping oral healthcare by transitioning light-based technologies from isolated procedural applications toward integrated diagnostic, therapeutic, and regenerative strategies. Among these approaches, photobiomodulation (PBM) therapy has achieved substantial clinical visibility due to its capacity to modulate inflammation, pain, mitochondrial metabolism, vascular responses, and tissue repair without producing destructive thermal effects. While oral and oropharyngeal mucositis represent the most clinically and quantitatively mature models for PBM, its applications now encompass salivary dysfunction, periodontal therapy, oral surgery, temporomandibular disorders (TMD), implant osseointegration, orthodontics, and inflammatory mucosal conditions. However, translating positive biological outcomes into routine practice remains limited by substantial heterogeneity in device architectures, wavelengths, beam profiles, and reporting standards. This comprehensive narrative review examines the physical, clinical, and dosimetric landscape of oral biophotonics. We address critical gaps in current literature-including reporting shortfalls, negative clinical trials, and general safety risks-and outline the technological evolution toward target-tissue dosimetry. By integrating computational photon-transport models, biological monitoring, and artificial intelligence-assisted dosimetry, we propose a transitional framework toward precision oral photomedicine, wherein anatomical and optical tissue properties guide individualized, patient-centered light delivery."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3389/froh.2026.1978161"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13753969"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13753969?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-17"
  },
  {
   "pmid": "42945268",
@@ -1393,6 +1663,58 @@
   "fetched": "2026-11-08"
  },
  {
+  "pmid": "43036334",
+  "doi": "10.7759/cureus.117988",
+  "pmcid": "PMC13769677",
+  "title": "Low-Level Laser Therapy in Dentistry: Biological Effects, Clinical Applications, and Future Perspectives.",
+  "journal": "Cureus",
+  "journal_abbr": "Cureus",
+  "authors": [
+   "Katara A",
+   "Avhad R",
+   "Kanodia S",
+   "Tayade VI",
+   "Chauhan S",
+   "Bind P",
+   "Surana P"
+  ],
+  "first_affiliation": "Department of Dentistry, Omni Family Health, California, USA.",
+  "date_online": "2026-10-15",
+  "date_pub": "2026-10-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "dental lasers",
+   "dentistry",
+   "laser dentistry",
+   "low level laser therapy",
+   "photobiomodulation",
+   "wound healing"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Low-level laser therapy (LLLT), also referred to as photobiomodulation therapy (PBMT), is being integrated into dental treatment progressively. It has biological effects through light exposure, modulating cellular activity, helping to reduce pain, control inflammation, and heal tissue. LLLT has been demonstrated to have potential uses in periodontal therapy, endodontics, oral surgery, implantology, orthodontics, temporomandibular disorders (TMDs), and pediatric dentistry. However, considerable variations in laser parameters and treatment protocols limit the comparability of findings across studies and make it difficult to draw definitive conclusions. This review highlights the biological mechanisms, clinical application, current evidence, safety, limitations, and future perspectives of LLLT for dental purposes."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.7759/cureus.117988"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
   "pmid": "42872376",
   "doi": "10.1177/21524971261497225",
   "pmcid": null,
@@ -1558,6 +1880,67 @@
    }
   ],
   "fetched": "2026-11-08"
+ },
+ {
+  "pmid": "43017297",
+  "doi": "10.7759/cureus.117795",
+  "pmcid": "PMC13754058",
+  "title": "Clinical and Technical Considerations for Low-Level Laser Therapy in Temporomandibular Disorders: A Narrative Review.",
+  "journal": "Cureus",
+  "journal_abbr": "Cureus",
+  "authors": [
+   "Ben El Hammi N",
+   "Amessegher FZ",
+   "Eddaouri K",
+   "Jouhadi EM"
+  ],
+  "first_affiliation": "Department of Fixed Prosthodontics, Faculty of Dentistry Casablanca, Hassan II University, Casablanca, MAR.",
+  "date_online": "2026-10-12",
+  "date_pub": "2026-10-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "dental lasers",
+   "low-level laser therapy",
+   "orofacial pain disorders",
+   "photobiomodulation",
+   "tmds (temporomandibular joint disorders)"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Temporomandibular disorders (TMD) are common, often heterogeneous musculoskeletal conditions involving the temporomandibular joint, the masticatory muscles, and associated structures, and they are a leading cause of nondental orofacial pain. Low-level laser therapy (LLLT), also known as photobiomodulation (PBM), has attracted growing interest as a conservative, noninvasive option because of its analgesic and anti-inflammatory effects. This narrative review focuses on the practical technical parameters of LLLT, including wavelength, fluence, output power, emission mode, application sites, session number and frequency, and irradiation time per point, and on its clinical effects on the principal symptoms of TMD. A narrative search of PubMed, Scopus, Google Scholar, and ScienceDirect was conducted, prioritizing systematic reviews, meta-analyses, randomized controlled trials, and clinically relevant studies reporting technical parameters and outcomes. Because the marked heterogeneity of diagnostic criteria is a principal source of variability in this literature, the review also emphasizes the Diagnostic Criteria for Temporomandibular Disorders (DC/TMD) and the distinction between myogenic, arthrogenic, and mixed subtypes, whose optimal parameters are likely to differ. Current evidence suggests that LLLT may reduce pain intensity, improve maximum mouth opening, and decrease muscular tender points and joint sounds in selected patients; however, the magnitude of these effects varies considerably across studies, reflecting substantial heterogeneity in diagnostic criteria, dosimetric protocols, and outcome measures, and these findings should not be interpreted as a uniformly predictable clinical response. Near-infrared wavelengths of approximately 810 to 1100 nm are supported, although the optimal subrange differs between reviews (810 to 940 nm vs. 910 to 1100 nm); reported protocols commonly use energy densities of 3 to 12 J/cm² and three to 12 sessions applied one to three times per week, with highly variable irradiation times per point, mainly targeting the temporomandibular joint region and the masseter and temporalis muscles. In the limited number of active-comparator trials, generally short-term, LLLT appeared comparable or superior to occlusal splints, nonsteroidal anti-inflammatory drugs (NSAIDs), and transcutaneous electrical nerve stimulation (TENS), and it was well-tolerated, with only rare and transient adverse effects. However, considerable heterogeneity persists regarding diagnostic criteria, dosimetry reporting, device characteristics, treatment duration, and follow-up, and this variability, rather than a consistent dose-effect relationship, is a central finding of the present review. LLLT may therefore be a useful adjunctive treatment for TMD within multidisciplinary conservative management, but standardized, fully reported dosimetric protocols and high-quality randomized trials are needed to determine optimal parameters by TMD subtype, chronicity, and patient characteristics."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.7759/cureus.117795"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13754058"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13754058?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-17"
  },
  {
   "pmid": "42860563",

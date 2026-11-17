@@ -1,5 +1,353 @@
 [
  {
+  "pmid": "43038830",
+  "doi": "10.1016/j.abd.2026.501491",
+  "pmcid": null,
+  "title": "Low-level laser therapy for treating pressure ulcers: a systematic review and meta-analysis.",
+  "journal": "Anais brasileiros de dermatologia",
+  "journal_abbr": "An Bras Dermatol",
+  "authors": [
+   "Amorim TC",
+   "Amorim IDB",
+   "Gomes CM",
+   "Crocco EI"
+  ],
+  "first_affiliation": "Department of Dermatology, Faculdade de Ciências Médicas, Santa Casa de São Paulo, São Paulo, SP, Brazil. Electronic address: thiago@institutocdt.com.br.",
+  "date_online": "2026-11-16",
+  "date_pub": "2026-11-16",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Low-level light therapy",
+   "Meta-analysis",
+   "Photobiomodulation",
+   "Pressure ulcer",
+   "Systematic review",
+   "Wound healing"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "Pressure ulcers are prevalent and burdensome. Low-Level Laser Therapy (LLLT) is a proposed photobiomodulation adjunct, but evidence is contested, and coherent lasers are frequently pooled with non-coherent Light-Emitting Diode (LED) sources."
+   },
+   {
+    "label": "OBJECTIVES",
+    "text": "To synthesize Randomized Controlled Trial (RCT) evidence on LLLT and LED phototherapy for pressure ulcer healing, distinguishing true laser from combined (laser-plus-LED) photobiomodulation."
+   },
+   {
+    "label": "METHODS",
+    "text": "Four databases were searched through January 2025. RCTs of LLLT or LED phototherapy versus standard care or sham in adults with pressure ulcers were eligible. Risk of bias used RoB2; complete healing was pooled as Risk Ratios (RR) using random-effects models, with GRADE certainty. Reporting followed PRISMA 2020 (PROSPERO CRD42025631008)."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Thirteen RCTs (779 participants) were included. Combined photobiomodulation (4 studies, 353 participants) showed no benefit (RR = 1.34; 95% CI 0.84-2.12; p = 0.22; I² = 58%). True laser LLLT (3 studies, 190 participants) improved healing (RR = 1.62; 95% CI 1.07-2.44; p = 0.02; I² = 1%; Number Needed to Treat [NNT] = 5, 95% CI 3-18). Adverse events were mild (∼3%)."
+   },
+   {
+    "label": "STUDY LIMITATIONS",
+    "text": "Small samples, methodological heterogeneity, variable follow-up (4-12 weeks), and blinding challenges; only two trials were low-risk, and the significant subgroup's significance was not robust to leave-one-out testing. GRADE certainty was moderate (true laser) and low (combined)."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "True laser LLLT was associated with improved healing and excellent safety; however, it rests on three small trials with a lower confidence bound approaching no effect, warranting caution. The coherent-laser versus LED distinction merits confirmation in adequately powered trials."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1016/j.abd.2026.501491"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
+  "pmid": "43033286",
+  "doi": "10.1007/s10103-026-05098-7",
+  "pmcid": "PMC13769748",
+  "title": "Exosome-based topical formulations as adjuncts to fractional Nd: YAG laser for postoperative facial scars.",
+  "journal": "Lasers in medical science",
+  "journal_abbr": "Lasers Med Sci",
+  "authors": [
+   "Park JH",
+   "Park JY",
+   "Park JU"
+  ],
+  "first_affiliation": "Department of Plastic and Reconstructive Surgery, Seoul National University College of Medicine, SMG-SNU Boramae Medical Center, Seoul, Korea, Republic of.",
+  "date_online": "2026-11-14",
+  "date_pub": "2026-11-14",
+  "pub_types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ],
+  "mesh": [
+   "Humans",
+   "Cicatrix",
+   "Lasers, Solid-State",
+   "Female",
+   "Adult",
+   "Male",
+   "Middle Aged",
+   "Exosomes",
+   "Face",
+   "Treatment Outcome",
+   "Postoperative Complications",
+   "Low-Level Light Therapy"
+  ],
+  "keywords": [
+   "Exosome",
+   "Laser therapy",
+   "Nd:YAG",
+   "Scar"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Commercial topical formulations marketed as exosome skin boosters are increasingly used as adjuncts to laser treatment, but their additional benefit for postoperative facial scars remains uncertain. This randomized controlled trial allocated 150 patients to fractional 1064-nm Nd laser treatment followed by a control hydrogel, a human-derived formulation, or a plant-derived formulation (50 per group). Five treatment sessions were performed at 2-week intervals. Outcomes were assessed at baseline and 2 weeks after the final session using the modified Vancouver Scar Scale (mVSS), patient and observer components of the Patient and Observer Scar Assessment Scale (POSAS), and grayscale intensity (GSI) quantified from Mark-Vu images using ImageJ. Eleven participants were lost to follow-up, leaving 139 participants in the complete-case analysis: 46, 47, and 46 in the respective groups. Both adjunctive formulation groups showed significantly greater reductions in mVSS, observer POSAS, and GSI than the control group. Patient POSAS improved over time but did not demonstrate a significant time × group interaction. No statistically significant difference was detected between the human-derived and plant-derived formulations; equivalence was not established. No serious adverse events were reported during the observed period. Adjunctive formulations were associated with additional short-term improvements in clinician-rated scar outcomes and an exploratory optical measure, without a demonstrated additional patient-reported benefit. These findings apply to the complete formulations and do not establish an exosome-specific effect, sustained scar remodeling, or long-term safety."
+   }
+  ],
+  "open_access": false,
+  "license": "cc by",
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s10103-026-05098-7"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
+  "pmid": "43033465",
+  "doi": "10.1111/phpp.70139",
+  "pmcid": null,
+  "title": "Photo- and Temperature-Conditioned Versus Conventional Platelet-Rich Plasma for Androgenetic Alopecia: A Split-Scalp, Double-Blind, and Randomized Active-Comparator Trial.",
+  "journal": "Photodermatology, photoimmunology & photomedicine",
+  "journal_abbr": "Photodermatol Photoimmunol Photomed",
+  "authors": [
+   "Charoensuksira S",
+   "Siriphanit R",
+   "Valerie C",
+   "Thanasarnaksorn W",
+   "Suwanchinda A",
+   "Meephansan J"
+  ],
+  "first_affiliation": "Division of Dermatology, Chulabhorn International College of Medicine, Thammasat University, Pathum Thani, Thailand.",
+  "date_online": "2026-11-14",
+  "date_pub": "2026-11-01",
+  "pub_types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Comparative Study"
+  ],
+  "mesh": [
+   "Humans",
+   "Alopecia",
+   "Platelet-Rich Plasma",
+   "Double-Blind Method",
+   "Female",
+   "Adult",
+   "Male",
+   "Middle Aged",
+   "Red Light",
+   "Scalp",
+   "Temperature"
+  ],
+  "keywords": [
+   "androgenetic alopecia",
+   "hair loss",
+   "hair regeneration",
+   "photobiomodulation",
+   "platelet‐rich plasma",
+   "regenerative dermatology"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "Androgenetic alopecia (AGA) is a progressive hair disorder characterized by follicular miniaturization and gradual reductions in hair density and hair shaft diameter. Platelet-rich plasma (PRP) has emerged as a regenerative therapeutic modality for AGA. Experimental literature suggests that physical conditioning may influence platelet activation and the release of platelet-derived mediators. However, whether combined red-light and low-temperature conditioning of PRP provides additional clinical benefit in AGA has not been investigated. This study therefore compared photo- and temperature-conditioned platelet-rich plasma (PTC-PRP), prepared using red-light exposure under low-temperature conditions, with conventional PRP (C-PRP) in patients with AGA."
+   },
+   {
+    "label": "METHODS",
+    "text": "This split-scalp, double-blind randomized active-comparator trial enrolled 21 adults with mild-to-moderate AGA. Each participant received four intradermal treatment sessions at 4-week intervals. One randomized scalp side received PTC-PRP, while the contralateral side received C-PRP. Trichoscopic assessments were performed at baseline and Weeks 4, 8, 12, 16, and 24. Outcomes included hair density, non-vellus hair density, and non-vellus hair diameter. Pain scores and adverse events were recorded."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Longitudinal improvements from baseline were observed for several trichoscopic outcomes on both treatment sides. However, treatment-by-time interactions were not significant for hair density (p = 0.966), non-vellus hair density (p = 0.869), or non-vellus hair diameter (p = 0.627). Post hoc baseline-adjusted comparisons, three-way treatment-by-time-by-sex interactions, and sensitivity analyses excluding two stable topical-minoxidil users were also nonsignificant. No serious adverse events were observed, and both treatments were well tolerated."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "Both C-PRP and PTC-PRP were associated with increases in hair shaft diameter over 24 weeks, while improvements in hair density were modest and variable. No statistically significant efficacy or tolerability difference was detected between PTC-PRP and C-PRP."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1111/phpp.70139"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
+  "pmid": "43009060",
+  "doi": "10.1016/j.jaad.2026.10.110",
+  "pmcid": null,
+  "title": "Scarring Alopecias Part 2: Treatments.",
+  "journal": "Journal of the American Academy of Dermatology",
+  "journal_abbr": "J Am Acad Dermatol",
+  "authors": [
+   "Ajmani A",
+   "Klufas T",
+   "Humen S",
+   "Freitas G",
+   "Mallett JR",
+   "Tosti A",
+   "Lipner SR",
+   "Shapiro J",
+   "Lo Sicco KI",
+   "Zhou AE",
+   "Grant-Kels JM"
+  ],
+  "first_affiliation": "Geisel School of Medicine, Dartmouth College, Hanover, New Hampshire.",
+  "date_online": "2026-11-10",
+  "date_pub": "2026-11-10",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "CCCA",
+   "JAK inhibitor",
+   "cicatricial alopecia",
+   "folliculitis decalvans",
+   "frontal fibrosing alopecia",
+   "lichen planopilaris",
+   "scarring alopecia",
+   "treatment"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Primary cicatricial alopecias (PCAs) are a heterogeneous group of inflammatory disorders causing permanent, irreversible hair loss through hair follicle destruction and fibrotic replacement. Currently, there are no FDA-approved therapies. All treatments are used off label with the primary goals of halting inflammatory progression, providing symptom relief, and preserving viable follicles. Additionally, agents that prolong anagen are often utilized to increase the background hair density as a camouflaging method. Therapeutic selection is stratified by histologic inflammatory infiltrate pattern. Lymphocytic PCAs, including lichen planopilaris (LPP), frontal fibrosing alopecia (FFA), central centrifugal cicatricial alopecia (CCCA), and discoid lupus erythematosus (DLE), may respond to immunomodulatory agents. Meanwhile, neutrophilic variants, including folliculitis decalvans (FD) and dissecting cellulitis (DC), historically requires antimicrobial strategies. Emerging therapies address fibrotic mechanisms via topical and oral metformin, and Th17-mediated mechanisms via topical and oral JAK inhibitors and biologics targeting IL-17 and IL-23. Adjunctive modalities including topical and oral minoxidil, platelet-rich plasma (PRP), low-level light therapy (LLLT), and narrowband UVB (nbUVB) complement inflammation-directed care. This second part of the two-part CME series reviews evidence-based and emerging treatment options for PCAs."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1016/j.jaad.2026.10.110"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
+  "pmid": "43005739",
+  "doi": "10.1117/1.JBO.31.11.115001",
+  "pmcid": "PMC13746244",
+  "title": "Deriving a set of representative optical coefficients from the literature: an illustrative statistical framework for Monte Carlo simulations applied to the human skin.",
+  "journal": "Journal of biomedical optics",
+  "journal_abbr": "J Biomed Opt",
+  "authors": [
+   "Gerelli E",
+   "Wagnières G",
+   "Joniová J"
+  ],
+  "first_affiliation": "Swiss Federal Institute of Technology (EPFL), Institute of Physics, Laboratory for Functional and Metabolic Imaging, Lausanne, Switzerland.",
+  "date_online": "2026-11-09",
+  "date_pub": "2026-11-01",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [
+   "Monte Carlo Method",
+   "Humans",
+   "Skin",
+   "Scattering, Radiation",
+   "Anisotropy",
+   "Refractometry",
+   "Computer Simulation",
+   "Light",
+   "Models, Biological"
+  ],
+  "keywords": [
+   "Monte Carlo simulation",
+   "absorption coefficient",
+   "anisotropy factor",
+   "refractive index",
+   "scattering coefficient",
+   "skin optical properties"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "SIGNIFICANCE",
+    "text": "Accurate characterization of light propagation in biological tissues is essential for applications such as phototherapy, photodermatology, photobiomodulation, and photodiagnosis. Because many organs are stratified, Monte Carlo simulations require sets of optical coefficients-absorption (  μ a    ), reduced scattering (  μ s '    ), anisotropy factor ( g  ), and refractive index ( n  )-in addition to tissue geometry, to model light transport in each tissue layer. However, published values of these coefficients often differ significantly for a given tissue and wavelength."
+   },
+   {
+    "label": "AIM",
+    "text": "This work aims to address the challenge of selecting representative optical coefficients for Monte Carlo simulations by compiling and critically evaluating reported optical properties of human skin (Phototype III) and muscle as an illustrative example."
+   },
+   {
+    "label": "APPROACH",
+    "text": "Published optical coefficients reported for selected visible and near-infrared wavelengths were analyzed and compared. A statistical framework was applied to derive representative sets of optical coefficients for different skin layers from heterogeneous literature data."
+   },
+   {
+    "label": "RESULTS",
+    "text": "The analysis revealed substantial variability among reported optical coefficients. Representative sets of absorption, reduced scattering, anisotropy, and refractive-index values were derived for distinct skin layers and muscle at selected wavelengths."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "The proposed framework provides a practical approach for deriving representative optical coefficients from heterogeneous literature data and highlights the importance of standardized, multilayered tissue models for accurate and reproducible light-dosimetry simulations."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1117/1.JBO.31.11.115001"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13746244"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13746244?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
   "pmid": "42993140",
   "doi": "10.1111/scd.70289",
   "pmcid": null,
@@ -471,6 +819,72 @@
   "fetched": "2026-11-07"
  },
  {
+  "pmid": "43028668",
+  "doi": "10.3390/healthcare14213647",
+  "pmcid": "PMC13762892",
+  "title": "Effects of Laser Therapy for Pain and Wound Recovery After Cesarean Section: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+  "journal": "Healthcare (Basel, Switzerland)",
+  "journal_abbr": "Healthcare (Basel)",
+  "authors": [
+   "Abu-Zaid A",
+   "Boresli HGH",
+   "Madooh LM",
+   "Alsadi SO",
+   "Altamimi DM",
+   "AlAnezi DM",
+   "Abdullah RY",
+   "Bin Naser BA",
+   "Alharran AM"
+  ],
+  "first_affiliation": "College of Medicine, Alfaisal University, Riyadh 11533, Saudi Arabia.",
+  "date_online": "2026-10-28",
+  "date_pub": "2026-10-28",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "analgesia",
+   "analgesic consumption",
+   "cesarean section",
+   "obstetrics",
+   "photobiomodulation",
+   "scar"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "Evidence regarding laser therapy for acute incisional pain after cesarean section (CS) remains inconclusive, with individual trials reporting inconsistent findings. This study presents the first meta-analysis to systematically evaluate the efficacy and safety of laser therapy for postoperative pain following CS."
+   },
+   {
+    "label": "METHODS",
+    "text": "Five databases were searched through July 2026 for randomized controlled trials (RCTs) evaluating laser therapy after CS. The primary outcome was pain intensity; secondary outcomes included time to first analgesic request, total analgesic consumption, scar outcomes, maternal prolactin level, and adverse events. Standardized mean differences (SMDs), mean differences (MDs), and risk ratios (RRs), with 95% confidence intervals (CIs), were pooled using random-effects models."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Eight RCTs involving 670 women were included. Laser therapy was associated with significant reduction in postoperative pain at 24 h (SMD: -0.95, 95% CI [-1.35, -0.55], p < 0.001, I2 = 44.27%) and at 48 h (SMD: -0.71, 95% CI [-1.01, -0.41], p < 0.001, I2 = 0%). Exploratory analyses suggested a longer time to first analgesic request (MD: 118.05 min, 95% CI [78.37, 157.74], p < 0.001, I2 = 97.10%) and lower total postoperative analgesic consumption (SMD: -2.18, 95% CI [-3.41, -0.96], p < 0.001, I2 = 93.83%) with laser therapy compared with control. However, each analysis included only two trials and demonstrated substantial heterogeneity, limiting confidence in these findings. There were no significant differences in Vancouver Scar Scale scores (p = 0.15), proportion of patients requesting any analgesia (p = 0.11), or adverse events (p = 0.45)."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "This meta-analysis suggests that laser therapy may reduce acute incisional pain and analgesic requirements during the first 48 h after CS. However, substantial heterogeneity and limited evidence preclude conclusive recommendations. Larger, standardized RCTs are required to confirm efficacy, establish optimal treatment protocols, and clarify long-term benefits and safety."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3390/healthcare14213647"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
   "pmid": "42944934",
   "doi": "10.1007/s10103-026-05077-y",
   "pmcid": "PMC13714148",
@@ -785,6 +1199,74 @@
    }
   ],
   "fetched": "2026-11-07"
+ },
+ {
+  "pmid": "43027648",
+  "doi": "10.3390/ijms27219395",
+  "pmcid": "PMC13762798",
+  "title": "Photobiomodulation Modulates Temporal VEGF Dynamics and Tissue Repair During Diabetic Oral Mucosal Wound Healing in Rats.",
+  "journal": "International journal of molecular sciences",
+  "journal_abbr": "Int J Mol Sci",
+  "authors": [
+   "Đorđević NS",
+   "Dragojević IM",
+   "Mijović M",
+   "Todić JT",
+   "Marjanović D",
+   "Đorđević AM",
+   "Milanović Z",
+   "Rašić J",
+   "Kisić B",
+   "Anđelković Z",
+   "Stašević MZ",
+   "Kostić MM"
+  ],
+  "first_affiliation": "Department of Dentistry, Faculty of Medicine, University of Priština in Kosovska Mitrovica, 38220 Kosovska Mitrovica, Serbia.",
+  "date_online": "2026-10-22",
+  "date_pub": "2026-10-22",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [
+   "Animals",
+   "Wound Healing",
+   "Male",
+   "Vascular Endothelial Growth Factor A",
+   "Diabetes Mellitus, Experimental",
+   "Rats",
+   "Low-Level Light Therapy",
+   "Rats, Wistar",
+   "Mouth Mucosa"
+  ],
+  "keywords": [
+   "angiogenesis",
+   "diabetes mellitus",
+   "low-level laser therapy",
+   "oral mucosa",
+   "photobiomodulation",
+   "tissue repair",
+   "vascular endothelial growth factor",
+   "wound healing"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Photobiomodulation (PBM) may improve diabetic wound repair, but the temporal relationship between local angiogenic signaling and tissue-level healing remains incompletely defined. We examined previously unreported tissue vascular endothelial growth factor (VEGF) and histopathological outcomes from 72 ulcer-bearing male Wistar rats from a previously reported experimental cohort, using a balanced 2 × 2 × 3 design comprising metabolic status, PBM treatment, and healing day (3, 7, or 10; n = 6 per cell). Tissue VEGF was quantified by ELISA and normalized to total protein; histopathological outcomes included exploratory inflammation/injury and tissue repair composite scores. In the factorial log-VEGF model, diabetes × day (p = 0.0017) and LLLT × day (p = 0.0010) interactions demonstrated phase-dependent responses. On day 3, PBM-treated animals had an adjusted VEGF ratio of 2.13 versus untreated animals (95% CI 1.63-2.78; Holm-adjusted p < 0.001), whereas diabetic animals had lower VEGF than healthy animals (ratio 0.50, 95% CI 0.39-0.66; adjusted p < 0.001). VEGF concentrations converged by day 10. PBM remained associated with a higher exploratory tissue repair score after adjustment for healing day, diabetes status, and contemporaneous VEGF, whereas VEGF itself was not independently associated with repair. These findings demonstrate phase-dependent differences in tissue VEGF and suggest that contemporaneous VEGF concentrations do not fully explain treatment-associated variation in exploratory histopathological repair scores."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3390/ijms27219395"
+   }
+  ],
+  "fetched": "2026-11-17"
  },
  {
   "pmid": "42905344",
@@ -1378,6 +1860,58 @@
    }
   ],
   "fetched": "2026-11-07"
+ },
+ {
+  "pmid": "43036334",
+  "doi": "10.7759/cureus.117988",
+  "pmcid": "PMC13769677",
+  "title": "Low-Level Laser Therapy in Dentistry: Biological Effects, Clinical Applications, and Future Perspectives.",
+  "journal": "Cureus",
+  "journal_abbr": "Cureus",
+  "authors": [
+   "Katara A",
+   "Avhad R",
+   "Kanodia S",
+   "Tayade VI",
+   "Chauhan S",
+   "Bind P",
+   "Surana P"
+  ],
+  "first_affiliation": "Department of Dentistry, Omni Family Health, California, USA.",
+  "date_online": "2026-10-15",
+  "date_pub": "2026-10-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "dental lasers",
+   "dentistry",
+   "laser dentistry",
+   "low level laser therapy",
+   "photobiomodulation",
+   "wound healing"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Low-level laser therapy (LLLT), also referred to as photobiomodulation therapy (PBMT), is being integrated into dental treatment progressively. It has biological effects through light exposure, modulating cellular activity, helping to reduce pain, control inflammation, and heal tissue. LLLT has been demonstrated to have potential uses in periodontal therapy, endodontics, oral surgery, implantology, orthodontics, temporomandibular disorders (TMDs), and pediatric dentistry. However, considerable variations in laser parameters and treatment protocols limit the comparability of findings across studies and make it difficult to draw definitive conclusions. This review highlights the biological mechanisms, clinical application, current evidence, safety, limitations, and future perspectives of LLLT for dental purposes."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.7759/cureus.117988"
+   }
+  ],
+  "fetched": "2026-11-17"
  },
  {
   "pmid": "42875609",

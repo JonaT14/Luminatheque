@@ -6,8 +6,9 @@ name: Veille hebdomadaire
 #   3) traduit en français les titres des nouvelles notices (traduction automatique, signalée sur le site) ;
 #   3 bis) reconstruit le site : tri de pertinence (scripts/pertinence.py) puis contrôle qualité (scripts/controle.py),
 #      qui bloque la publication en cas d'erreur ;
-#   4) publie. Les nouvelles publications arrivent en « notice indexée » ; elles ne deviennent « évaluées »
-#      qu'après lecture (page Brouillons ou rédaction manuelle, voir ROUTINE.md).
+#   4) enregistre. Les nouvelles publications NE SONT PAS publiées : elles sont placées en attente
+#      (data/en_attente.json, scripts/en_attente.py) et présentées lors du point hebdomadaire du lundi à 8 h ;
+#      seules celles qui sont validées apparaissent sur le site (voir ROUTINE.md).
 on:
   schedule:
     - cron: "17 4 * * 1"
@@ -41,6 +42,8 @@ jobs:
             python3 scripts/fetch_pubmed.py --topic "$t" --since "$DEPUIS" || echo "::warning::collecte incomplète pour $t"
             echo "::endgroup::"
           done
+      - name: Mettre les nouveautés en attente de validation
+        run: python3 scripts/en_attente.py --ajouter
       - name: Mettre à jour les essais cliniques
         continue-on-error: true
         run: python3 scripts/fetch_trials.py
@@ -56,10 +59,10 @@ jobs:
           # 1) n'enregistrer que les données, 2) se synchroniser, 3) reconstruire le site sur la version à jour :
           #    les fichiers générés (assets, index.html) ne peuvent ainsi jamais entrer en conflit.
           git add -A data
-          git diff --cached --quiet || git commit -m "Veille hebdomadaire automatique du $(date -u +%F)"
+          git diff --cached --quiet || git commit -m "Veille du $(date -u +%F) : nouveautés en attente de validation"
           git checkout -- . && git clean -fdq assets flux
           git pull --rebase
           python3 scripts/build_site.py
           git add -A data assets flux index.html
-          git diff --cached --quiet || git commit -m "Veille hebdomadaire automatique du $(date -u +%F) : site reconstruit"
+          git diff --cached --quiet || git commit -m "Veille du $(date -u +%F) : site reconstruit (nouveautés en attente)"
           for i in 1 2 3; do git push && break; sleep 5; git pull --rebase; done

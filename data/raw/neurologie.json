@@ -48,6 +48,61 @@
   "fetched": "2026-11-16"
  },
  {
+  "pmid": "43038561",
+  "doi": "10.14336/AD.2026.11026",
+  "pmcid": null,
+  "title": "Toward Closed-Loop Cognitive Modulation in Alzheimer's Disease: BCI-Relevant Evidence and a Translational Roadmap.",
+  "journal": "Aging and disease",
+  "journal_abbr": "Aging Dis",
+  "authors": [
+   "Zhang W",
+   "Hu Q",
+   "Ding M",
+   "Qi J",
+   "Wang X",
+   "Chang X",
+   "Li C",
+   "Wang H",
+   "Zhang L",
+   "Gao S",
+   "Guo S",
+   "Geng Y",
+   "Wei Y",
+   "Zhang S",
+   "Qing W",
+   "Wang J",
+   "Cheng Y"
+  ],
+  "first_affiliation": "The Second School of Clinical Medicine, Hangzhou Normal University, Hangzhou, Zhejiang, China.",
+  "date_online": "2026-11-05",
+  "date_pub": "2026-11-05",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Alzheimer's disease (AD) has entered a biomarker-defined era, yet most cognitive and neuromodulatory interventions continue to use fixed targets, timing, and doses. This targeted narrative review maps brain-computer interface (BCI) and closed-loop-relevant evidence in AD and mild cognitive impairment (MCI) by examining how sensing, control, and intervention modules are used prospectively. Read modules include electroencephalography (EEG), functional near-infrared spectroscopy (fNIRS), real-time functional magnetic resonance imaging (fMRI), functional ultrasound (fUS) and transcranial ultrasound localization microscopy (t-ULM), and digital measures. Control functions include feature extraction, within-person state decoding, uncertainty-aware decision rules, target-engagement assessment, and safety oversight. Write modules include neurofeedback, sensory gamma and sleep-phase acoustic stimulation, transcranial alternating-current stimulation (tACS), transcranial direct-current stimulation (tDCS), repetitive transcranial magnetic stimulation (rTMS), transcranial pulse stimulation (TPS), transcranial ultrasound stimulation (TUS), transcranial photobiomodulation (tPBM), and focused ultrasound-mediated blood-brain barrier (FUS-BBB) opening. Human studies have separately demonstrated signal-contingent feedback, individualized targeting, physiological target engagement, home delivery, and emerging sensing, while preclinical studies provide mechanistic support for gamma, optical, and ultrasound approaches. Sleep-phase acoustic stimulation additionally demonstrates early automated signal-to-stimulus control. Passive sensing provides observations, personalization sets baseline parameters, state-informed control uses current signals to alter delivery, and target engagement verifies the proximal response without establishing clinical efficacy. Reliable decoding of waking cognitive states, broader controller utility, and durable clinical benefit remain unvalidated. We therefore organize the field around disease context, state sensing, feature extraction, state decoding, bounded decision/intervention, response verification, and safety oversight. The decisive early design compares assignments to an adaptive policy with otherwise matched fixed delivery; a sham arm can additionally test intervention efficacy. Such trials must prespecify decoder calibration, uncertainty, abstention, safety limits, and mechanistic and clinical endpoints. Closed-loop cognitive modulation therefore defines a translational research agenda for AD."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.14336/AD.2026.11026"
+   }
+  ],
+  "fetched": "2026-11-17"
+ },
+ {
   "pmid": "42979929",
   "doi": "10.31083/JIN50308",
   "pmcid": null,
@@ -2886,6 +2941,82 @@
    }
   ],
   "fetched": "2026-11-08"
+ },
+ {
+  "pmid": "43040529",
+  "doi": "10.1186/s12984-026-02122-3",
+  "pmcid": null,
+  "title": "A specific transcranial near-infrared stimulation parameter combination targeting the motor cortex improves cortical excitability and hemodynamics.",
+  "journal": "Journal of neuroengineering and rehabilitation",
+  "journal_abbr": "J Neuroeng Rehabil",
+  "authors": [
+   "Ma X",
+   "Liu L",
+   "Liang R",
+   "Yuan M",
+   "Yan F",
+   "Wang S",
+   "Liang J",
+   "Qu S",
+   "Qiu H",
+   "Wang Y"
+  ],
+  "first_affiliation": "Department of Neurology, The First Hospital of Hebei Medical University, No. 89 Donggang Road, Yuhua District, Shijiazhuang, 050031, China. 58000952@hebmu.edu.cn.",
+  "date_online": "2026-08-21",
+  "date_pub": "2026-08-21",
+  "pub_types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ],
+  "mesh": [
+   "Humans",
+   "Motor Cortex",
+   "Male",
+   "Female",
+   "Evoked Potentials, Motor",
+   "Hemodynamics",
+   "Adult",
+   "Spectroscopy, Near-Infrared",
+   "Young Adult",
+   "Cortical Excitability"
+  ],
+  "keywords": [
+   "Functional near-infrared spectroscopy",
+   "Motor evoked potentials",
+   "Parameter optimization",
+   "Transcranial near-infrared stimulation"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "Transcranial near-infrared stimulation (tNIRS) is an emerging, light-based, non-invasive neuromodulation technique with great potential to improve functions like cognition and motor performance. Cortical excitability and hemodynamic changes represent key neurophysiological mechanisms of tNIRS effects. The selection of tNIRS parameters is closely associated with their functional effects, and the neurophysiological alterations induced in the human cerebral cortex by different parameter combinations warrant further exploration."
+   },
+   {
+    "label": "METHODS",
+    "text": "Twenty-two healthy participants received four types of active tNIRS and a Sham condition of tNIRS over the left motor cortex in a randomized order, which included five stimulus conditions: Sham, 810-nm continuous wave (CW), 810-nm 40-Hz pulsed wave (PW), 1064-nm CW, and 1064-nm 40-Hz PW. Each session was divided into three phases, namely pre-stimulation, stimulation, and post-stimulation. Changes in cortical excitability were assessed by recording motor evoked potentials (MEPs) before and for up to 30 min after stimulation. Concurrently, behavioral performance and cortical hemodynamic changes induced by tNIRS were evaluated using functional near-infrared spectroscopy (fNIRS) during a finger-opposition task."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Compared to the Sham condition, all active tNIRS protocols induced an increase in MEPs recorded from the right abductor pollicis brevis muscle. At 30 min post-stimulation, the 1064-nm 40-Hz PW condition elicited significantly larger MEP amplitudes than both the 810-nm CW and 1064-nm CW conditions. For behavior, the number of completed cycles during the right-hand finger-opposition task was significantly higher in the 1064-nm 40-Hz PW condition compared to the Sham condition. Regarding cortical hemodynamics, the 1064-nm 40-Hz PW condition showed decreased activation in broad regions of the frontal and motor cortices during the left-hand finger-opposition task compared to baseline. Conversely, the 810-nm 40-Hz PW condition exhibited decreased hemodynamic activation only in the motor cortex during the right-hand finger-opposition task."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "The 40 Hz pulsed tNIRS protocol with a wavelength of 1064 nm, irradiance of 120 mW/cm2, duration of 20 min, and stimulation area of 0.24 cm2 induced more pronounced changes in cortical excitability and hemodynamics. This enhanced effect may be attributed to the more significant neurophysiological cumulative response elicited by this specific parameter combination. This specific parameter set represents a promising candidate for future clinical applications of tNIRS."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1186/s12984-026-02122-3"
+   }
+  ],
+  "fetched": "2026-11-17"
  },
  {
   "pmid": "42610546",
