@@ -1,5 +1,305 @@
 [
  {
+  "pmid": "43055965",
+  "doi": "10.1007/s10103-026-05072-3",
+  "pmcid": "PMC13785369",
+  "title": "Impact of photobiomodulation combined with leukocyte- and platelet-rich fibrin on healing, pain, and quality of life after third molar surgery: a randomized split-mouth clinical trial.",
+  "journal": "Lasers in medical science",
+  "journal_abbr": "Lasers Med Sci",
+  "authors": [
+   "Pessoa da Costa EH",
+   "Brito Guimarães HN",
+   "de Almeida LN",
+   "da Silva Pereira CM",
+   "Beiruth Freire GC",
+   "Froes Meyer P",
+   "Rocha Germano A",
+   "Pereira da Silva JS"
+  ],
+  "first_affiliation": "Department of Dentistry, Instituto Federal do Rio Grande do Norte, Natal, Brazil. evaldohenrique98@gmail.com.",
+  "date_online": "2026-11-19",
+  "date_pub": "2026-11-19",
+  "pub_types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ],
+  "mesh": [
+   "Humans",
+   "Molar, Third",
+   "Platelet-Rich Fibrin",
+   "Low-Level Light Therapy",
+   "Female",
+   "Quality of Life",
+   "Wound Healing",
+   "Adult",
+   "Postoperative Pain",
+   "Male",
+   "Leukocytes",
+   "Young Adult",
+   "Tooth Extraction",
+   "Pain Measurement",
+   "Adolescent"
+  ],
+  "keywords": [
+   "L-PRF",
+   "Oral surgery",
+   "Photobiomodulation",
+   "Third molar",
+   "Wound healing"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Pain, edema, and transient limitation of mouth opening are expected manifestations after third molar surgery. Photobiomodulation (PBM) may modulate postoperative morbidity, while leukocyte- and platelet-rich fibrin (L-PRF) may support tissue repair. To evaluate healing, pain, and quality of life after third molar surgery using PBM plus L-PRF. In this randomized split-mouth study, 20 participants completed bilateral treatment. Both conditions received L-PRF prepared by centrifugation at 2700 rpm for 12 min. The test condition additionally received intraoral PBM (808 nm, 220 mW, 41 s per point, four points, approximately 36 J per session) immediately after surgery and at 24 h, 48 h, and 7 days; the control condition received simulated irradiation. Pain was assessed by the visual analogue scale (VAS) at 2, 6, 12, 24, 48, and 72 h. Healing was evaluated using the Landry index at 24 h, 48 h, and 7 days. The 14-item Oral Health Impact Profile (OHIP-14) assessed quality of life before and 7 days after each surgery. No statistically significant between-condition differences were found in VAS, OHIP-14, or healing. Within-condition changes were observed for pain and healing, but these findings alone do not establish a difference in treatment effects. Under the conditions of this study, adding PBM to L-PRF did not demonstrate statistically significant additional benefits for pain, soft tissue healing, or quality of life."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s10103-026-05072-3"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43051957",
+  "doi": "10.1177/25785478261499528",
+  "pmcid": null,
+  "title": "Bibliometric and Visualization Analysis of the Research Status and Development Trends of Laser Therapy for Skin Wounds Healing.",
+  "journal": "Photobiomodulation, photomedicine, and laser surgery",
+  "journal_abbr": "Photobiomodul Photomed Laser Surg",
+  "authors": [
+   "Su X",
+   "Liu Z",
+   "Zhu H",
+   "Wang X",
+   "Guo C",
+   "Li J",
+   "Yu F",
+   "Chen K"
+  ],
+  "first_affiliation": "Department of Plastic and Aesthetic Surgery, Shunyi Maternal and Children's Hospital of Beijing Children's Hospital, Beijing, China.",
+  "date_online": "2026-11-18",
+  "date_pub": "2026-11-18",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "bibliometric analysis",
+   "laser",
+   "visualization",
+   "wound healing"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "Laser therapy, as an important physical treatment modality, has been gradually applied in wound treatment. This study aimed to investigate the literature on laser treatment of wounds using bibliometric methods and conduct visualization analysis so as to explore the current research status, hotspots, and development trends in this field."
+   },
+   {
+    "label": "METHOD",
+    "text": "Relevant publications on laser treatment of wounds published between 1970 and 2024 were retrieved from the Web of Science Core Collection. We used the software Bibliometrix, CiteSpace, VOSviewer, Tableau, and Scimago Graphica to conduct visualization analysis in this research field."
+   },
+   {
+    "label": "RESULT",
+    "text": "A total of 493 publications were included, showing an overall fluctuating upward trend in annual publication output. The most productive journal in this field was Lasers in Medical Science. In terms of publication output, Brazil ranked first. Chronic wounds have emerged as a recent research hotspot. \"CO2 laser\" and \"carbon dioxide laser\" were high-frequency burst keywords mainly active during 1990-2005, whereas after 2005, \"low-level laser therapy (LLLT),\" \"photobiomodulation (PBM),\" and their mechanisms became research hotspots."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "The findings reveal the major contributors, hotspot evolution, and developmental trends in this field, thereby providing readers with a reference for understanding the research landscape and future directions of laser-based wound treatment."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1177/25785478261499528"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43043553",
+  "doi": "10.1007/s10103-026-05099-6",
+  "pmcid": "PMC13777827",
+  "title": "Dual-wavelength superpulsed photobiomodulation in children and adolescents with orofacial pain: clinical, thermal, and optical transmission outcomes in a pilot study.",
+  "journal": "Lasers in medical science",
+  "journal_abbr": "Lasers Med Sci",
+  "authors": [
+   "De Camargo CCB",
+   "Mandetta ARH",
+   "Lago ADN",
+   "Martins MD",
+   "Sobral APT",
+   "Fernandes KPS",
+   "Horliana ACRT",
+   "Duran CCG",
+   "Mesquita-Ferrari RA",
+   "Bussadori SK"
+  ],
+  "first_affiliation": "Postgraduate Programme in Rehabilitation Sciences, Universidade Nove de Julho, São Paulo, Brazil.",
+  "date_online": "2026-11-17",
+  "date_pub": "2026-11-17",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [
+   "Humans",
+   "Child",
+   "Pilot Projects",
+   "Female",
+   "Adolescent",
+   "Male",
+   "Low-Level Light Therapy",
+   "Facial Pain",
+   "Lasers, Semiconductor",
+   "Masseter Muscle",
+   "Treatment Outcome",
+   "Pain Measurement"
+  ],
+  "keywords": [
+   "Diode laser",
+   "Dual wavelength",
+   "Headache",
+   "Orofacial pain",
+   "Pediatrics",
+   "Photobiomodulation"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "To report the preliminary results of a photobiomodulation protocol using a dual-emission diode laser (810 nm and 980 nm) in children and adolescents with orofacial pain, considering clinical findings, thermal behavior, and optical transmission in the region of the masseter muscle. An uncontrolled exploratory pilot study was conducted involving seven participants six to 17 years of age with orofacial pain submitted to photobiomodulation twice a week for four weeks, totaling eight sessions. Application was performed bilaterally in direct contact at four points per side: masseter muscle, temporalis muscle, cervical trapezius muscle, and temporomandibular joint (TMJ) region, totaling eight points per session. A 7-mm adapter was used, with an average power of 0.3 W, 3.9 J per point, and 13 s per point. Orofacial pain, regional temperature, skin phototype, power, and irradiance transmitted in the masseteric region were investigated. Mean age was 11.4 ± 3.6 years and the female sex accounted for 57.1% of the sample. Lower pain values were found over time. Mean optical power detected at the buccal mucosa after transmission in the masseteric region was 0.41 ± 0.10 mW, corresponding to mean irradiance of 0.64 ± 0.16 mW/cm². Exploratory correlations between irradiance and anthropometric variables, and between phototype and temperature, had wide confidence intervals, indicating substantial uncertainty regarding the direction and magnitude of these associations. In this pilot study, descriptive reductions in pain outcomes were found over the four-week intervention period. Given the uncontrolled design, these exploratory findings should not be interpreted as evidence of clinical efficacy or causality, but may assist in the design of future controlled clinical trials with larger samples."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s10103-026-05099-6"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13777827"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13777827?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43044664",
+  "doi": "10.1002/jbio.70406",
+  "pmcid": "PMC13777450",
+  "title": "Photobiomodulation and Polydeoxyribonucleotide (PDRN) on Dermal Fibroblast Proliferation and Extracellular Matrix Expression: A Short Communication.",
+  "journal": "Journal of biophotonics",
+  "journal_abbr": "J Biophotonics",
+  "authors": [
+   "Puccia EVG",
+   "Bueno RSC",
+   "Carvalho GL",
+   "Nascimento RB",
+   "Cecatto RB",
+   "Labat RM",
+   "Nunes FD",
+   "Moreira MS",
+   "Rodrigues MFSD"
+  ],
+  "first_affiliation": "Medicine-Biophotonics PostGraduate Program, Universidade Nove de Julho/UNINOVE, São Paulo, Brazil.",
+  "date_online": "2026-11-17",
+  "date_pub": "2026-11-01",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [
+   "Humans",
+   "Fibroblasts",
+   "Polydeoxyribonucleotides",
+   "Cell Proliferation",
+   "Extracellular Matrix",
+   "Gene Expression Regulation",
+   "Red Light",
+   "Cell Line",
+   "Skin",
+   "Cell Survival",
+   "Dermis",
+   "Low-Level Light Therapy"
+  ],
+  "keywords": [
+   "PDRN",
+   "extracellular matrix",
+   "fibroblast",
+   "photobiomodulation",
+   "skin aging"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "PURPOSE",
+    "text": "To evaluate the effects of photobiomodulation (PBM; 660 and 810 nm), polydeoxyribonucleotide (PDRN), and their combination on human dermal fibroblasts."
+   },
+   {
+    "label": "METHODS",
+    "text": "HFF-2 fibroblasts received PDRN (0.5 or 1.0 mg/mL), PBM, or combined treatments. Viability, proliferation, and extracellular matrix-related gene expression were assessed using MTS, crystal violet, and RT-qPCR assays, respectively (n = 3)."
+   },
+   {
+    "label": "RESULTS",
+    "text": "No treatments affected cell viability. PDRN (0.5 mg/mL) increased proliferation at 24, 48, and 72 h, whereas combined treatments showed no additive effects. PBM induced greater COL3A1 and ELN expression, while PDRN promoted the highest TGFB1 expression."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "PDRN enhanced fibroblast proliferation and TGFB1 expression, whereas PBM favored COL3A1 and ELN expression. Further studies should optimize treatment parameters and investigate the therapeutic potential of combining PBM and PDRN for skin rejuvenation."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1002/jbio.70406"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13777450"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13777450?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
   "pmid": "43038830",
   "doi": "10.1016/j.abd.2026.501491",
   "pmcid": null,
@@ -670,6 +970,77 @@
    }
   ],
   "fetched": "2026-11-07"
+ },
+ {
+  "pmid": "43041549",
+  "doi": "10.3389/fcell.2026.1924507",
+  "pmcid": "PMC13771306",
+  "title": "Neuropeptides as neuroimmune modulators in chronic wound healing: mechanistic insights and emerging therapeutic strategies.",
+  "journal": "Frontiers in cell and developmental biology",
+  "journal_abbr": "Front Cell Dev Biol",
+  "authors": [
+   "Wu J",
+   "Zhao M",
+   "Wu H",
+   "Duan X",
+   "Tian D",
+   "Xu S",
+   "Shi T",
+   "Lan J",
+   "Wang Z",
+   "Wang J",
+   "Xing L"
+  ],
+  "first_affiliation": "First Clinical Medical College, Yunnan University of Chinese Medicine, Kunming Yunnan, China.",
+  "date_online": "2026-11-02",
+  "date_pub": "2026-01-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "calcitonin gene-related peptide",
+   "chronic wounds",
+   "inflammatory reprogramming",
+   "neuroimmune regulation",
+   "neuropeptide Y",
+   "neuropeptides",
+   "substance P",
+   "vasoactive intestinal peptide"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Chronic wounds, typified by diabetic foot ulcers, pressure ulcers, and venous leg ulcers, represent a major clinical challenge worldwide. Persistent inflammation associated with disrupted neuroimmune crosstalk is increasingly recognized as an important contributor to impaired chronic wound healing. Neuropeptides, including substance P, calcitonin gene-related peptide, neuropeptide Y, and vasoactive intestinal peptide, act as context-dependent neuroimmune mediators that regulate immune-cell states, inflammation resolution, angiogenesis, re-epithelialization, and extracellular-matrix remodeling through partly distinct mechanisms. This review systematically examines the molecular and cellular mechanisms through which these neuropeptides influence the chronic wound microenvironment, with particular attention to their dose-, phase-, receptor-, and cell-dependent effects. Emerging therapeutic strategies are also summarized, including conventional and stimuli-responsive hydrogels, nanoparticle-hydrogel composites, hydrogel microspheres, microneedles, electrospun scaffolds, cell-based approaches, extracellular-vesicle-based combination strategies, electrical stimulation, photobiomodulation, and anti-infective combination platforms. Most of the available evidence remains preclinical. Key translational challenges include peptide instability, receptor desensitization, wound heterogeneity, delivery-system manufacturing and standardization, and peptide-specific long-term safety. Collectively, current evidence supports neuropeptide signaling as a promising but context-dependent target for precision neuroimmune modulation in chronic wound healing."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3389/fcell.2026.1924507"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13771306"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13771306?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
  },
  {
   "pmid": "42965343",
@@ -2516,6 +2887,77 @@
    }
   ],
   "fetched": "2026-11-07"
+ },
+ {
+  "pmid": "43047239",
+  "doi": "10.1111/jocd.71195",
+  "pmcid": "PMC13631374",
+  "title": "Treatment Efficacy for Androgenetic Alopecia (Hair Loss): Combination Therapy of Clinical Low-Level Laser (Light) Therapy and Proprietary Hair Growth Serum: A Pilot Study.",
+  "journal": "Journal of cosmetic dermatology",
+  "journal_abbr": "J Cosmet Dermatol",
+  "authors": [
+   "Ni G",
+   "Saltsgaver M",
+   "Cahill G",
+   "Kang R"
+  ],
+  "first_affiliation": "Division of Facial Plastic & Reconstructive Surgery, Department of Otolaryngology - Head and Neck Surgery University of California Los Angeles Los Angeles California USA.",
+  "date_online": "2026-10-01",
+  "date_pub": "2026-10-01",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "androgenetic alopecia",
+   "growth serum",
+   "hair health",
+   "low‐level laser therapy"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "INTRODUCTION",
+    "text": "Androgenetic alopecia (AGA) is a common cause of hair loss with limited non-surgical treatment options. Low-level laser therapy (LLLT) and topical serums are emerging as promising therapies. This study evaluates the combined efficacy of Sunetics Clinical LLLT and a proprietary hair growth serum in promoting hair regrowth."
+   },
+   {
+    "label": "METHODS",
+    "text": "A prospective study was conducted on 8 patients (5 males, 3 females; mean age 56.4) with AGA. Each underwent 24 Clinical LLLT treatments over 3 months, along with 3 monthly applications of the proprietary hair growth serum delivered using IonFuse needleless infusion. Objective hair metrics were analyzed using the Canfield HairMetrix system. Parameters measured included hair density, terminal-to-vellus hair ratio, hair width, and follicular unit characteristics."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Significant improvements were observed after 3 months. Hair count/cm2 increased by 25.45%, hairs per follicular unit by 42.27%, terminal-to-vellus ratio by 24.51%, and average hair width by 3.53%. Follicular unit density improved by 14.01%. Subjective improvements were modest, though all participants found the treatment tolerable and would recommend it."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "The combination of Clinical LLLT and the proprietary hair growth serum appears effective and well-tolerated for AGA treatment. While early results are encouraging, larger, controlled studies are necessary to validate findings and assess long-term efficacy."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1111/jocd.71195"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13631374"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13631374?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
  },
  {
   "pmid": "42816895",
@@ -4781,6 +5223,78 @@
   "fetched": "2026-11-07"
  },
  {
+  "pmid": "43047232",
+  "doi": "10.1111/jocd.71146",
+  "pmcid": "PMC13501208",
+  "title": "Efficacy and Safety of Yellow Light Monotherapy Versus Yellow Light Combined With 20% Vitamin C for the Treatment of Melasma: A Single-Center, Randomized, Double-Blind, Placebo-Controlled Clinical Study.",
+  "journal": "Journal of cosmetic dermatology",
+  "journal_abbr": "J Cosmet Dermatol",
+  "authors": [
+   "Du D",
+   "Liu X",
+   "Huang Y",
+   "Wu S",
+   "Jiang X"
+  ],
+  "first_affiliation": "Department of Dermatology, West China Hospital Sichuan University Chengdu China.",
+  "date_online": "2026-08-23",
+  "date_pub": "2026-09-01",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "low‐level light therapy",
+   "melasma",
+   "vitamin C",
+   "yellow light phototherapy"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "Melasma treatment remains challenging due to limited effective and safe options. This study evaluated the efficacy and safety of yellow light phototherapy alone versus combined with 20% vitamin C in treating melasma."
+   },
+   {
+    "label": "METHODS",
+    "text": "Seventy-one patients were randomly assigned to receive twice-weekly yellow light phototherapy combined with either 20% vitamin C solution (n = 35) or its corresponding vehicle (n = 36). The primary outcome was the change from baseline in modified Melasma Area and Severity Index (mMASI) score. Secondary outcomes consisted of changes relative to baseline in Physician Global Assessment (PGA), Subjective Satisfaction Assessment (SA), melanin index (MI), individual typology angle (ITA°), transepidermal water loss (TEWL), skin hydration content (SCH), skin pore and skin texture parameters."
+   },
+   {
+    "label": "RESULTS",
+    "text": "At Week 12, the combination group exhibited significantly greater reductions in mMASI scores (-1.95 ± 2.11 vs. -0.69 ± 2.19, p = 0.027) and lower Physician Global Assessment (PGA) scores (4.48 ± 0.80 vs. 5.06 ± 0.54, p = 0.002) compared with the monotherapy group. The combination group exhibited a more remarkable decrease in melanin index (MI) (-13.07, 95% CI: -17.82, -8.32 vs. -3.16, 95% CI: -7.86, 1.54, p = 0.005) and a more prominent elevation in individual typology angle (ITA°) (6.23, 95% CI: 4.38, 8.08 vs. 1.23, 95% CI: -0.60, 3.05) (p < 0.001). Moreover, significant improvements in skin pore status and skin texture were noted in the combination group (p < 0.05). No statistically significant between-group differences were found in transepidermal water loss (TEWL) and skin hydration (SCH). No adverse events occurred throughout the trial. The participant treatment satisfaction rate reached 60.00% in the combination group, which was significantly higher than 22.55% in the control group."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "Combined 20% vitamin C plus yellow light phototherapy yielded statistically superior melasma improvements relative to yellow light monotherapy, though the absolute reduction in mMASI was modest. The combination regimen preserved skin barrier function and exhibited good tolerability."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1111/jocd.71146"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13501208"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13501208?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
   "pmid": "42631884",
   "doi": "10.1007/s10103-026-05007-y",
   "pmcid": "PMC13499719",
@@ -6413,6 +6927,78 @@
    }
   ],
   "fetched": "2026-11-07"
+ },
+ {
+  "pmid": "43047124",
+  "doi": "10.1111/jocd.71040",
+  "pmcid": "PMC13413624",
+  "title": "The Role of Photobiomodulation and Light Therapy in Enhancing Burn Wound Recovery.",
+  "journal": "Journal of cosmetic dermatology",
+  "journal_abbr": "J Cosmet Dermatol",
+  "authors": [
+   "Chrabieh E",
+   "El Hajj M",
+   "Emsieh S",
+   "Omaish H",
+   "Kurban M"
+  ],
+  "first_affiliation": "Faculty of Medicine American University of Beirut Beirut Lebanon.",
+  "date_online": "2026-07-28",
+  "date_pub": "2026-08-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "Photobiomodulation (PBM) is a non-invasive treatment using low-intensity red or near-infrared light to stimulate tissue repair and reduce inflammation. While used in aesthetic and rehabilitative medicine, its role in burn wound healing remains underexplored. Given biological parallels between post-injury remodeling and cosmetic rejuvenation, a systematic review of PBM in burn care is warranted."
+   },
+   {
+    "label": "AIMS",
+    "text": "To evaluate the clinical effectiveness, safety, and outcomes of PBM-such as low-level laser and light-emitting diode (LED) therapy-in human burn patients."
+   },
+   {
+    "label": "METHODS",
+    "text": "A systematic search of Ovid MEDLINE, Embase, and LILACS was conducted up to 2024. The MEDLINE search was conducted via Ovid MEDLINE, which includes all records indexed in PubMed, ensuring comprehensive coverage of the biomedical literature. Studies were included if they investigated PBM in human burn patients and reported at least one clinical outcome. Two reviewers independently screened studies; a third resolved conflicts. Risk of bias was assessed using a modified Cochrane tool. Due to outcome heterogeneity, narrative synthesis was performed. A binary heatmap visualized patterns across six domains: wound area, healing time, pain (VAS), scar quality (VSS), patient satisfaction, and adverse events."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Seven studies involving 190 patients were included. Healing time and pain (VAS) were most frequently reported, followed by wound area and scar quality. Only one study assessed patient satisfaction, and adverse events were inconsistently reported. PBM showed promising effects, including reduced healing time and pain. However, limited comparable data precluded meta-analysis."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "PBM appears to be a promising adjunct in burn care, with benefits in healing, pain, and scar remodeling. However, methodological limitations, dosing variability, and inconsistent outcome reporting limit conclusions. High-quality, standardized trials using validated patient-reported outcomes are needed."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1111/jocd.71040"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13413624"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13413624?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
  },
  {
   "pmid": "42507053",
@@ -8259,6 +8845,90 @@
    }
   ],
   "fetched": "2026-11-07"
+ },
+ {
+  "pmid": "43047012",
+  "doi": "10.1111/jocd.71047",
+  "pmcid": "PMC13354859",
+  "title": "Photobiomodulation Therapy in Facial Aesthetic Surgery: A Systematic Review of Efficacy and Safety.",
+  "journal": "Journal of cosmetic dermatology",
+  "journal_abbr": "J Cosmet Dermatol",
+  "authors": [
+   "Knoedler L",
+   "Fenske J",
+   "Taggiasco A",
+   "Gaillard R",
+   "Machado GF",
+   "Knoedler S",
+   "Brown T",
+   "Yang D",
+   "Sadati K",
+   "Schaschinger T",
+   "Oubari H",
+   "Cetrulo CL",
+   "Lellouch AG"
+  ],
+  "first_affiliation": "Division of Plastic and Reconstructive Surgery Cedars Sinai Hospital Los Angeles USA.",
+  "date_online": "2026-07-10",
+  "date_pub": "2026-07-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "clinical global impression of change (CGIC)",
+   "light‐emitting diode (LED)",
+   "low‐level laser therapy (LLLT)",
+   "near‐infrared (NIR)",
+   "photobiomodulation therapy (PBMT)",
+   "visual analogue scale (VAS)",
+   "wound‐healing grade (WH)"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "INTRODUCTION",
+    "text": "Advances in facial plastic surgery have increased interest in therapies that expedite recovery and enhance comfort. PBMT, including low-level laser/light and LED modalities, has been proposed to reduce pain, edema, and ecchymosis and support wound healing after facial procedures. However, clinical adoption is limited by heterogeneous dosing parameters, inconsistent nomenclature, and nonstandardized outcome measures. This study synthesizes clinical evidence on the efficacy, time course, safety, and treatment parameters of PBMT to guide standardization and trial design."
+   },
+   {
+    "label": "METHODS",
+    "text": "We conducted a PRISMA 2020-guided systematic review of PubMed, Embase, Cochrane, and Web of Science for English-language studies using PBMT after blepharoplasty, rhinoplasty, or facelift with measurable outcomes and parameters. In vitro/cadaver/animal studies, ablative-laser primary interventions, and non-original studies were excluded."
+   },
+   {
+    "label": "RESULTS",
+    "text": "The search retrieved 940 articles; after removing 83 duplicates, 857 records were screened and six studies met inclusion criteria. A total of 298 patients were reported, of whom 155 received PBMT; 83 underwent blepharoplasty, 71 nasal surgery, and 1 facelift. PBMT was associated with reduced ecchymosis at POD7, accelerated POR on EBEC composites, POD7 wound-healing grades, and lower pain/swelling on VAS in periocular and septoplasty cohorts; between-group rhinoplasty PI was neutral despite within-group improvement over time. Reporting of parameters and outcome scales was heterogeneous; adverse events were rare."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "PBMT appears to reduce pain, edema, ecchymosis, and improve wound healing after facial surgery; however, current evidence is sparse and requires validation in larger cohorts. Standardized protocols and adequately powered blinded trials are needed to confirm efficacy."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1111/jocd.71047"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13354859"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13354859?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
  },
  {
   "pmid": "42494954",

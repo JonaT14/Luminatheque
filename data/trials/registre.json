@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-16",
+ "fetched": "2026-11-23",
  "studies": [
   {
    "nct": "NCT07699679",
@@ -192,6 +192,55 @@
    "n_sites": 0,
    "matched": [
     "dermatologie"
+   ]
+  },
+  {
+   "nct": "NCT07764107",
+   "title": "Photobiomodulation for Reducing Sedative-Hypnotic Use:Clinical Trial of a Light-Therapy Device",
+   "official": "Photobiomodulation for Reducing Sedative-Hypnotic Use: Clinical Trial of a Light-Therapy Device",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-12-20",
+   "end": "2027-05-05",
+   "completion": "2027-05-05",
+   "first_posted": "2026-08-13",
+   "updated": "2026-11-16",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 90,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Insomnia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "660 nm Visible Red Light"
+    },
+    {
+     "type": "DEVICE",
+     "name": "850 nm Near-Infrared Light"
+    },
+    {
+     "type": "DEVICE",
+     "name": "630 nm Sham Control"
+    }
+   ],
+   "summary": "Background: Insomnia is a prevalent and growing public health issue, with one in three adults affected globally and one in five Taiwanese adults reporting significant sleep disturbances. Long-term use of sedative-hypnotic medications remains common in Taiwan despite clinical guidelines recommending short-term use only, contributing to adverse outcomes such as impaired sleep architecture, cognitive deficits, and elevated dementia risk. Non-pharmacological interventions-particularly light-based therapies-offer promising alternatives but existing bright-light therapy is limited by melatonin suppression and the need for precise daytime timing. Recent advances in photobiomodulation (PBM) suggest that red and near-infrared light, which do not suppress melatonin, may enhance sleep quality and support glymphatic clearance when applied during sleep. Preliminary findings from our prior NSTC-funded",
+   "outcome": "Sleep quality measured by the Pittsburgh Sleep Quality Index (PSQI)",
+   "sponsor": "National Health Research Institutes, Taiwan",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "neurologie"
    ]
   },
   {
@@ -499,7 +548,7 @@
    "end": "2030-12-31",
    "completion": "2031-12-31",
    "first_posted": "2026-11-06",
-   "updated": "2026-11-06",
+   "updated": "2026-11-18",
    "type": "INTERVENTIONAL",
    "phases": [
     "NA"
@@ -1441,6 +1490,59 @@
    ]
   },
   {
+   "nct": "NCT07554690",
+   "title": "Photobiomodulation Laser for Reticular Pseudodrusen in Age-Related Macular Degeneration",
+   "official": "Photobiomodulation Laser in Reticular Pseudodrusen Secondary to Age-related Macular Degeneration",
+   "acronym": "PBM in iAMD",
+   "status": "RECRUITING",
+   "start": "2026-10-09",
+   "end": "2027-12-31",
+   "completion": "2027-12-31",
+   "first_posted": "2026-04-28",
+   "updated": "2026-11-16",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 67,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "AMD - Age-Related Macular Degeneration"
+   ],
+   "interventions": [
+    {
+     "type": "PROCEDURE",
+     "name": "Photobiomodulation Therapy"
+    },
+    {
+     "type": "PROCEDURE",
+     "name": "Sham Photobiomodulation"
+    }
+   ],
+   "summary": "This study evaluates whether a low-energy laser treatment called photobiomodulation (PBM) can improve visual function and retinal structure in patients with age-related macular degeneration (AMD) who have reticular pseudodrusen. PBM is a non-invasive therapy that uses specific wavelengths of light to stimulate cellular activity and reduce inflammation without causing tissue damage.\n\nParticipants will be randomly assigned to receive either active PBM treatment or a sham (inactive) treatment. The study will assess changes in visual performance under low-light conditions and retinal structure over a 12-month period.\n\nThe goal is to determine whether PBM can slow disease progression and improve visual function in patients with early stages of AMD.",
+   "outcome": "Change in Low-Luminance Visual Acuity (LLVA)",
+   "sponsor": "Fondazione G.B. Bietti, IRCCS",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "Italy"
+   ],
+   "sites": [
+    {
+     "facility": "IRCCS Fondazione G.B.Bietti c/o Ospedale Britannico",
+     "city": "Roma",
+     "country": "Italy"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT07895667",
    "title": "Adjunctive Diode Laser Therapy for Peri-Implant Mucositis",
    "official": "Clinical and Biological Effects of Adjunctive Diode Laser Therapy in the Non-Surgical Treatment of Peri-Implant Mucositis: A 12-Month Randomized Controlled Clinical Trial",
@@ -1662,59 +1764,6 @@
    "n_sites": 0,
    "matched": [
     "dermatologie"
-   ]
-  },
-  {
-   "nct": "NCT07554690",
-   "title": "Photobiomodulation Laser for Reticular Pseudodrusen in Age-Related Macular Degeneration",
-   "official": "Photobiomodulation Laser in Reticular Pseudodrusen Secondary to Age-related Macular Degeneration",
-   "acronym": "PBM in iAMD",
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-10",
-   "end": "2027-12-31",
-   "completion": "2027-12-31",
-   "first_posted": "2026-04-28",
-   "updated": "2026-09-04",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 67,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "AMD - Age-Related Macular Degeneration"
-   ],
-   "interventions": [
-    {
-     "type": "PROCEDURE",
-     "name": "Photobiomodulation Therapy"
-    },
-    {
-     "type": "PROCEDURE",
-     "name": "Sham Photobiomodulation"
-    }
-   ],
-   "summary": "This study evaluates whether a low-energy laser treatment called photobiomodulation (PBM) can improve visual function and retinal structure in patients with age-related macular degeneration (AMD) who have reticular pseudodrusen. PBM is a non-invasive therapy that uses specific wavelengths of light to stimulate cellular activity and reduce inflammation without causing tissue damage.\n\nParticipants will be randomly assigned to receive either active PBM treatment or a sham (inactive) treatment. The study will assess changes in visual performance under low-light conditions and retinal structure over a 12-month period.\n\nThe goal is to determine whether PBM can slow disease progression and improve visual function in patients with early stages of AMD.",
-   "outcome": "Change in Low-Luminance Visual Acuity (LLVA)",
-   "sponsor": "Fondazione G.B. Bietti, IRCCS",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": null,
-   "officials": [],
-   "countries": [
-    "Italy"
-   ],
-   "sites": [
-    {
-     "facility": "IRCCS Fondazione G.B.Bietti c/o Ospedale Britannico",
-     "city": "Roma",
-     "country": "Italy"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "ophtalmologie"
    ]
   },
   {
@@ -2135,59 +2184,6 @@
    ]
   },
   {
-   "nct": "NCT07309406",
-   "title": "Effect of a Nurse-Led Environmental Stressor Reduction Package on Perceived Stress and Sleep Quality in Intensive Care Unit Patients",
-   "official": "Evaluating the Effects of a Nurse-Led Multicomponent Environmental Intervention on Stress Perception and Sleep Quality in ICU Patients: A Quasi-Experimental Study",
-   "acronym": "ICU-SLEEP",
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-09-01",
-   "end": "2026-12-31",
-   "completion": "2027-01-31",
-   "first_posted": "2025-12-30",
-   "updated": "2026-08-18",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 68,
-   "allocation": "NON_RANDOMIZED",
-   "masking": "NONE",
-   "conditions": [
-    "Sleep Disturbance"
-   ],
-   "interventions": [
-    {
-     "type": "BEHAVIORAL",
-     "name": "Environmental Stressor Reduction Package"
-    }
-   ],
-   "summary": "This study aims to evaluate the effect of a nurse-led Environmental Stressor Reduction Package on perceived environmental stress and sleep quality among adult patients in the intensive care unit (ICU).\n\nThe Environmental Stressor Reduction Package is a structured, multicomponent nursing intervention designed to reduce potentially disturbing environmental stimuli during nighttime care. The package focuses on reducing unnecessary noise, optimizing nighttime lighting, supporting thermal comfort, limiting nighttime visitor activity, and organizing nursing care to minimize avoidable sleep interruptions while maintaining patient safety and essential clinical care.\n\nParticipants in the intervention group will receive the Environmental Stressor Reduction Package during their ICU stay, while participants in the control group will receive standard ICU care. The study will assess whether the nurse-",
-   "outcome": "Change in environmental stress perception",
-   "sponsor": "Fenerbahce University",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "öznur balkan",
-    "title": "Research Assistant",
-    "affiliation": "Fenerbahce University"
-   },
-   "officials": [],
-   "countries": [
-    "Turkey (Türkiye)"
-   ],
-   "sites": [
-    {
-     "facility": "Umraniye Education and Research Hospital",
-     "city": "Istanbul",
-     "country": "Turkey (Türkiye)"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "neurologie"
-   ]
-  },
-  {
    "nct": "NCT07790094",
    "title": "Segmental Laser Acupuncture for Constipation and Sleep in Patients With Parkinson's Disease",
    "official": "Segmental Laser Acupuncture at T10-L2 and S2-S4 for Gut-Brain Axis Modulation in Parkinson's Disease: A Randomized Double-Blind Clinical Trial on Constipation and Sleep Outcomes",
@@ -2296,6 +2292,59 @@
      "facility": "CSMC",
      "city": "Los Angeles",
      "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "neurologie"
+   ]
+  },
+  {
+   "nct": "NCT07309406",
+   "title": "Effect of a Nurse-Led Environmental Stressor Reduction Package on Perceived Stress and Sleep Quality in Intensive Care Unit Patients",
+   "official": "Evaluating the Effects of a Nurse-Led Multicomponent Environmental Intervention on Stress Perception and Sleep Quality in ICU Patients: A Quasi-Experimental Study",
+   "acronym": "ICU-SLEEP",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-09-01",
+   "end": "2026-12-31",
+   "completion": "2027-01-31",
+   "first_posted": "2025-12-30",
+   "updated": "2026-08-18",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 68,
+   "allocation": "NON_RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Sleep Disturbance"
+   ],
+   "interventions": [
+    {
+     "type": "BEHAVIORAL",
+     "name": "Environmental Stressor Reduction Package"
+    }
+   ],
+   "summary": "This study aims to evaluate the effect of a nurse-led Environmental Stressor Reduction Package on perceived environmental stress and sleep quality among adult patients in the intensive care unit (ICU).\n\nThe Environmental Stressor Reduction Package is a structured, multicomponent nursing intervention designed to reduce potentially disturbing environmental stimuli during nighttime care. The package focuses on reducing unnecessary noise, optimizing nighttime lighting, supporting thermal comfort, limiting nighttime visitor activity, and organizing nursing care to minimize avoidable sleep interruptions while maintaining patient safety and essential clinical care.\n\nParticipants in the intervention group will receive the Environmental Stressor Reduction Package during their ICU stay, while participants in the control group will receive standard ICU care. The study will assess whether the nurse-",
+   "outcome": "Change in environmental stress perception",
+   "sponsor": "Fenerbahce University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "öznur balkan",
+    "title": "Research Assistant",
+    "affiliation": "Fenerbahce University"
+   },
+   "officials": [],
+   "countries": [
+    "Turkey (Türkiye)"
+   ],
+   "sites": [
+    {
+     "facility": "Umraniye Education and Research Hospital",
+     "city": "Istanbul",
+     "country": "Turkey (Türkiye)"
     }
    ],
    "n_sites": 1,
@@ -2588,51 +2637,6 @@
    ]
   },
   {
-   "nct": "NCT07800338",
-   "title": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus Therapeutic Ultrasound On Patients With Myofascial Pain Disorder : A Randomized Clinical Trial",
-   "official": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus Therapeutic Ultrasound On Patients With Myofascial Pain Disorder : A Randomized Clinical Trial",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-09",
-   "end": "2027-01",
-   "completion": "2027-02",
-   "first_posted": "2026-09-02",
-   "updated": "2026-09-02",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 36,
-   "allocation": "RANDOMIZED",
-   "masking": "TRIPLE",
-   "conditions": [
-    "TMJ"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus therapeutic Ultrasound On Patients With Myofascial Pain Disorder"
-    }
-   ],
-   "summary": "Myofascial pain dysfunction (MPD) is one of the most common causes of chronic orofacial pain, primarily affecting the masticatory muscles such as the masseter and temporalis. It leads to facial pain, muscle tenderness, and restricted mouth opening, significantly impacting patients' quality of life and daily function.\n\nDespite the wide range of conservative treatment modalities-such as medications, splint therapy, and physiotherapy-there is still no universally accepted approach that provides consistent and long-lasting relief.\n\nLow-level laser therapy (LLLT) and therapeutic ultrasound (US) are two non-invasive physical modalities frequently used in dentistry for pain control and tissue healing. Each has shown promising outcomes individually.\n\nAzizi et al. (2007) demonstrated that LLLT at 780 nm can significantly reduce pain and tenderness for up to three months, while Khairy (2018) repor",
-   "outcome": "pain",
-   "sponsor": "Cairo University",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "mohamed mostafa",
-    "title": "dentist",
-    "affiliation": "Cairo University"
-   },
-   "officials": [],
-   "countries": [],
-   "sites": [],
-   "n_sites": 0,
-   "matched": [
-    "musculo-squelettique"
-   ]
-  },
-  {
    "nct": "NCT07832422",
    "title": "Ischemic Compression and Low-Level Laser Therapy for Myofascial Low Back Pain",
    "official": "Effects of Ischemic Compression and Low-Level Laser Therapy in Combination With Exercise Versus Exercise Alone in Managing Myofascial Low Back Pain: A Randomized Controlled Study",
@@ -2696,6 +2700,51 @@
     }
    ],
    "n_sites": 1,
+   "matched": [
+    "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT07800338",
+   "title": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus Therapeutic Ultrasound On Patients With Myofascial Pain Disorder : A Randomized Clinical Trial",
+   "official": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus Therapeutic Ultrasound On Patients With Myofascial Pain Disorder : A Randomized Clinical Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-09",
+   "end": "2027-01",
+   "completion": "2027-02",
+   "first_posted": "2026-09-02",
+   "updated": "2026-09-02",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 36,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "TMJ"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Evaluation Of The Effect Of Low-Level Laser Therapy On Masseter Muscle Versus therapeutic Ultrasound On Patients With Myofascial Pain Disorder"
+    }
+   ],
+   "summary": "Myofascial pain dysfunction (MPD) is one of the most common causes of chronic orofacial pain, primarily affecting the masticatory muscles such as the masseter and temporalis. It leads to facial pain, muscle tenderness, and restricted mouth opening, significantly impacting patients' quality of life and daily function.\n\nDespite the wide range of conservative treatment modalities-such as medications, splint therapy, and physiotherapy-there is still no universally accepted approach that provides consistent and long-lasting relief.\n\nLow-level laser therapy (LLLT) and therapeutic ultrasound (US) are two non-invasive physical modalities frequently used in dentistry for pain control and tissue healing. Each has shown promising outcomes individually.\n\nAzizi et al. (2007) demonstrated that LLLT at 780 nm can significantly reduce pain and tenderness for up to three months, while Khairy (2018) repor",
+   "outcome": "pain",
+   "sponsor": "Cairo University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "mohamed mostafa",
+    "title": "dentist",
+    "affiliation": "Cairo University"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
    "matched": [
     "musculo-squelettique"
    ]
@@ -3325,51 +3374,6 @@
    ]
   },
   {
-   "nct": "NCT07764107",
-   "title": "Photobiomodulation for Reducing Sedative-Hypnotic Use:Clinical Trial of a Light-Therapy Device",
-   "official": "Photobiomodulation for Reducing Sedative-Hypnotic Use: Clinical Trial of a Light-Therapy Device",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-08-01",
-   "end": "2027-05-05",
-   "completion": "2027-05-05",
-   "first_posted": "2026-08-13",
-   "updated": "2026-08-21",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 60,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Insomnia"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "PBM intervention"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Inactive sham control"
-    }
-   ],
-   "summary": "Background: Insomnia is a prevalent and growing public health issue, with one in three adults affected globally and one in five Taiwanese adults reporting significant sleep disturbances. Long-term use of sedative-hypnotic medications remains common in Taiwan despite clinical guidelines recommending short-term use only, contributing to adverse outcomes such as impaired sleep architecture, cognitive deficits, and elevated dementia risk. Non-pharmacological interventions-particularly light-based therapies-offer promising alternatives but existing bright-light therapy is limited by melatonin suppression and the need for precise daytime timing. Recent advances in photobiomodulation (PBM) suggest that red and near-infrared light, which do not suppress melatonin, may enhance sleep quality and support glymphatic clearance when applied during sleep. Preliminary findings from our prior NSTC-funded",
-   "outcome": "Sleep quality",
-   "sponsor": "National Health Research Institutes, Taiwan",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": null,
-   "officials": [],
-   "countries": [],
-   "sites": [],
-   "n_sites": 0,
-   "matched": [
-    "neurologie"
-   ]
-  },
-  {
    "nct": "NCT07697768",
    "title": "Photobiomodulation for Vaginal Dysfunctions: Home-Based vs Outpatient Treatment",
    "official": "Therapeutic Response to Photobiomodulation in Home-Based and Outpatient Protocols for Vaginal Dysfunctions: A Randomized Clinical Trial",
@@ -3719,60 +3723,6 @@
    ]
   },
   {
-   "nct": "NCT07584603",
-   "title": "Effect of High-Intensity Laser Therapy on Femoral Cartilage in Knee Osteoarthritis",
-   "official": "The Role of High-intensity Laser Therapy on Femoral Cartilage Thickness in Patients With Knee Osteoarthritis",
-   "acronym": "HILT-KOA",
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-07-01",
-   "end": "2027-01-15",
-   "completion": "2027-05-10",
-   "first_posted": "2026-05-13",
-   "updated": "2026-05-13",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 58,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Osteoarthritis (OA) of the Knee",
-    "Osteoarthitis"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "High-Intensity Laser Therapy (HILT) + Conventional Physiotherapy"
-    },
-    {
-     "type": "OTHER",
-     "name": "Conventional Physiotherapy"
-    }
-   ],
-   "summary": "This clinical trial will evaluate the effects of High-Intensity Laser Therapy (HILT) on femoral cartilage thickness and other clinical outcomes in people with knee osteoarthritis. Participants aged 40 to 60 years with grade II or III knee osteoarthritis will be randomly assigned to receive either HILT plus conventional physiotherapy or conventional physiotherapy alone. Both groups will receive 12 treatment sessions on alternate days for 4 weeks. The study will assess changes in cartilage thickness using ultrasound, as well as improvements in pain, knee movement, muscle strength, and daily function. Findings from this research may help improve physiotherapy treatment strategies for patients with knee osteoarthritis.",
-   "outcome": "Femoral Cartilage Thickness",
-   "sponsor": "University of Lahore",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": null,
-   "officials": [],
-   "countries": [
-    "Pakistan"
-   ],
-   "sites": [
-    {
-     "facility": "London Aesthetics and Rejuvenation Center",
-     "city": "Lahore",
-     "country": "Pakistan"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "musculo-squelettique"
-   ]
-  },
-  {
    "nct": "NCT07615920",
    "title": "HILT vs ESWT in Supraspinatus Tendinitis",
    "official": "Comparative Effectiveness of High-Intensity Laser Therapy Versus Extracorporeal Shock Wave Therapy in Patients With Supraspinatus Tendinitis",
@@ -3847,6 +3797,60 @@
      "facility": "King Faisal Medical Complex",
      "city": "Ta'if",
      "country": "Saudi Arabia"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT07584603",
+   "title": "Effect of High-Intensity Laser Therapy on Femoral Cartilage in Knee Osteoarthritis",
+   "official": "The Role of High-intensity Laser Therapy on Femoral Cartilage Thickness in Patients With Knee Osteoarthritis",
+   "acronym": "HILT-KOA",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-07-01",
+   "end": "2027-01-15",
+   "completion": "2027-05-10",
+   "first_posted": "2026-05-13",
+   "updated": "2026-05-13",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 58,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Osteoarthritis (OA) of the Knee",
+    "Osteoarthitis"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "High-Intensity Laser Therapy (HILT) + Conventional Physiotherapy"
+    },
+    {
+     "type": "OTHER",
+     "name": "Conventional Physiotherapy"
+    }
+   ],
+   "summary": "This clinical trial will evaluate the effects of High-Intensity Laser Therapy (HILT) on femoral cartilage thickness and other clinical outcomes in people with knee osteoarthritis. Participants aged 40 to 60 years with grade II or III knee osteoarthritis will be randomly assigned to receive either HILT plus conventional physiotherapy or conventional physiotherapy alone. Both groups will receive 12 treatment sessions on alternate days for 4 weeks. The study will assess changes in cartilage thickness using ultrasound, as well as improvements in pain, knee movement, muscle strength, and daily function. Findings from this research may help improve physiotherapy treatment strategies for patients with knee osteoarthritis.",
+   "outcome": "Femoral Cartilage Thickness",
+   "sponsor": "University of Lahore",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "Pakistan"
+   ],
+   "sites": [
+    {
+     "facility": "London Aesthetics and Rejuvenation Center",
+     "city": "Lahore",
+     "country": "Pakistan"
     }
    ],
    "n_sites": 1,
@@ -4151,6 +4155,86 @@
    ]
   },
   {
+   "nct": "NCT07939360",
+   "title": "Evaluation of the Espansione Equinox System Safety & Effectiveness for the Treatment of Meibomian Gland Dysfunction.",
+   "official": "Evaluation of the Espansione Equinox System Safety & Effectiveness for the Treatment of Meibomian Gland Dysfunction: A Prospective, Multicenter, Randomized Controlled Investigation",
+   "acronym": null,
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2026-06-12",
+   "end": "2026-12-31",
+   "completion": "2026-12-31",
+   "first_posted": "2026-11-16",
+   "updated": "2026-11-16",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 144,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Dry Eye",
+    "Dry Eyes Chronic"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "low-level light therapy"
+    }
+   ],
+   "summary": "The purpose of this study is to demonstrate the non-inferiority of the Equinox System with respect to iLux 2020.\n\nApproximately 120 participants are expected to take part in the research trial at a minimum of three (3) and up to five (5) sites across the United States.\n\nThe expected duration of the study will be six (6) months, and subject participation will take approximately four (4) weeks, including three (4) visits; pretreatment visit, Treatment Day, two (2) week follow-up and four (4) week follow-up visits.\n\nThe investigational therapy in this study is the use of low-level light therapy (LLLT) for the treatment of evaporative dry eye disease due to meibomian gland dysfunction (MGD), when used in conjunction with manual expression of the meibomian glands.\n\nLow-Level Light Therapy (LLLT) is a treatment that uses gentle light to help patient cells work better. The light is applied to t",
+   "outcome": "Equinox System not-inferiority to iLux® System with the respect of change from baseline to Week 4 in Meibomian Gland Score (MGS)",
+   "sponsor": "Essilor International",
+   "sponsor_class": "INDUSTRY",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "MRB Eye Consultants, LLC",
+     "city": "Scottsdale",
+     "country": "United States"
+    },
+    {
+     "facility": "East West Eye Institute",
+     "city": "Torrance",
+     "country": "United States"
+    },
+    {
+     "facility": "Louisville Eye Center PLLC",
+     "city": "Louisville",
+     "country": "United States"
+    },
+    {
+     "facility": "NothEast Eye Research Associates",
+     "city": "Stoneham",
+     "country": "United States"
+    },
+    {
+     "facility": "Southern College of Optometry",
+     "city": "Medina",
+     "country": "United States"
+    },
+    {
+     "facility": "Laser Defined Vision",
+     "city": "Greensboro",
+     "country": "United States"
+    },
+    {
+     "facility": "Southern College of Optometry",
+     "city": "Memphis",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 7,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
    "nct": "NCT07661667",
    "title": "This Study Aims to Investigate the Efficacy of Photobiomodulation in the Treatment of Anti-MAG-induced Peripheral Neuropathy (LASER-MAG)",
    "official": "The Efficacy of Photobiomodulation in the Treatment of Anti-MAG-Induced Peripheral Neuropathy: LASER-MAG Study.",
@@ -4363,67 +4447,6 @@
    ]
   },
   {
-   "nct": "NCT07672327",
-   "title": "Efficacy of Short Wave and Laser Therapy in Patients With Plantar Fasciitis",
-   "official": "Efficacy of Extracorporeal Shock Wave Therapy Versus High-intensity Laser Therapy in Patients With Plantar Fasciitis",
-   "acronym": "Blind assessor",
-   "status": "ACTIVE_NOT_RECRUITING",
-   "start": "2026-06-01",
-   "end": "2026-06-01",
-   "completion": "2026-07-01",
-   "first_posted": "2026-06-26",
-   "updated": "2026-06-26",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 60,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Plantar Fasciitis, Chronic"
-   ],
-   "interventions": [
-    {
-     "type": "OTHER",
-     "name": "conventional physical therapy"
-    },
-    {
-     "type": "OTHER",
-     "name": "Extracorporeal shock wave therapy"
-    },
-    {
-     "type": "OTHER",
-     "name": "High-intensity laser therapy"
-    }
-   ],
-   "summary": "Plantar fasciitis is a common painful condition. It accounts for 10-15% of all foot painful conditions. Recently, Extracorporeal shock wave therapy (ESWT) was used as an effective method in treatment of different musculoskeletal disorders. High-intensity laser therapy (HILT) is a relatively recent treatment option that has shown benefits in a wide range of musculoskeletal disorders.",
-   "outcome": "Hand held dynamometer",
-   "sponsor": "Ibrahim Abuomar Fadulaalhq Alramadhani",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Ibrahim Abuomar Fadulaalhq Alramadhani",
-    "title": "M. Sc. in Physical Therapy, Sport Physical Therapy (2021) College of Applied Medical Sciences, Umm Al-Qura University, Kingdom of Saudi Arabia",
-    "affiliation": "Umm Al-Qura University"
-   },
-   "officials": [],
-   "countries": [
-    "Saudi Arabia"
-   ],
-   "sites": [
-    {
-     "facility": "Mecca",
-     "city": "Mecca",
-     "country": "Saudi Arabia"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "musculo-squelettique"
-   ]
-  },
-  {
    "nct": "NCT07602933",
    "title": "Photobiomodulation Effects on Fatigue and Muscle Damage Induced by NMES",
    "official": "Effects of Photobiomodulation on Fatigue and Muscle Damage Induced by Neuromuscular Electrical Stimulation in Healthy Individuals: a Randomized Clinical Trial",
@@ -4505,6 +4528,67 @@
    "matched": [
     "musculo-squelettique",
     "sport"
+   ]
+  },
+  {
+   "nct": "NCT07672327",
+   "title": "Efficacy of Short Wave and Laser Therapy in Patients With Plantar Fasciitis",
+   "official": "Efficacy of Extracorporeal Shock Wave Therapy Versus High-intensity Laser Therapy in Patients With Plantar Fasciitis",
+   "acronym": "Blind assessor",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2026-06-01",
+   "end": "2026-06-01",
+   "completion": "2026-07-01",
+   "first_posted": "2026-06-26",
+   "updated": "2026-06-26",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Plantar Fasciitis, Chronic"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "conventional physical therapy"
+    },
+    {
+     "type": "OTHER",
+     "name": "Extracorporeal shock wave therapy"
+    },
+    {
+     "type": "OTHER",
+     "name": "High-intensity laser therapy"
+    }
+   ],
+   "summary": "Plantar fasciitis is a common painful condition. It accounts for 10-15% of all foot painful conditions. Recently, Extracorporeal shock wave therapy (ESWT) was used as an effective method in treatment of different musculoskeletal disorders. High-intensity laser therapy (HILT) is a relatively recent treatment option that has shown benefits in a wide range of musculoskeletal disorders.",
+   "outcome": "Hand held dynamometer",
+   "sponsor": "Ibrahim Abuomar Fadulaalhq Alramadhani",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Ibrahim Abuomar Fadulaalhq Alramadhani",
+    "title": "M. Sc. in Physical Therapy, Sport Physical Therapy (2021) College of Applied Medical Sciences, Umm Al-Qura University, Kingdom of Saudi Arabia",
+    "affiliation": "Umm Al-Qura University"
+   },
+   "officials": [],
+   "countries": [
+    "Saudi Arabia"
+   ],
+   "sites": [
+    {
+     "facility": "Mecca",
+     "city": "Mecca",
+     "country": "Saudi Arabia"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "musculo-squelettique"
    ]
   },
   {
@@ -4977,6 +5061,60 @@
    ]
   },
   {
+   "nct": "NCT07543211",
+   "title": "Effectiveness of Laser Irradiation on the Veins and Acupoints on Arterial Stiffness in Patients With Cardio-renal Metabolic Syndrome",
+   "official": "Effectiveness of Laser Acupuncture in Improving Arterial Stiffness Among Patients With Cardiorenal Metabolic Syndrome",
+   "acronym": null,
+   "status": "ENROLLING_BY_INVITATION",
+   "start": "2026-05-01",
+   "end": "2026-12",
+   "completion": "2026-12",
+   "first_posted": "2026-04-21",
+   "updated": "2026-11-17",
+   "type": "OBSERVATIONAL",
+   "phases": [],
+   "n": 35,
+   "allocation": null,
+   "masking": null,
+   "conditions": [
+    "Hypertension",
+    "Diabetes Mellitus",
+    "Chronic Kidney Disease",
+    "Cardio-Renal-Metabolic Syndrome"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "laser acupuncture"
+    }
+   ],
+   "summary": "Background: Cardio-renal metabolic syndrome (CRMS) is a vicious cycle of cardiac, renal, and metabolic disease, representing a high-risk for atherosclerosis. Laser acupuncture modulates vascular inflammation and improves endothelial function via low-level laser therapy (LLLT, \\<500mW) at acupoints or musculoskeletal pain sites. Few studies have focused on CRMS populations. This study evaluates laser acupuncture effects on arterial stiffness in CRMS.\n\nPurpose: To assess the effects of improvement of laser acupuncture in patients with CRMS, and to evaluate its feasibility as supportive therapy.\n\nMethods: A single-group pre-post design is used. Participants are patients with CRMS receiving laser acupuncture at a Chinese medicine clinic in Taiwan. CRMS is interrelated by cardiac, renal, and metabolic disease. Inclusion criteria require diagnosis in ≥2 of 3 systems (cardiovascular, renal, or ",
+   "outcome": "Change in Pulse Wave Velocity (PWV)",
+   "sponsor": "National Yang Ming Chiao Tung University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Li-Yin Chien",
+    "title": "Professor",
+    "affiliation": "National Yang Ming Chiao Tung University"
+   },
+   "officials": [],
+   "countries": [
+    "Taiwan"
+   ],
+   "sites": [
+    {
+     "facility": "Yi-An Wu",
+     "city": "New Taipei City",
+     "country": "Taiwan"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "cardiologie"
+   ]
+  },
+  {
    "nct": "NCT07307885",
    "title": "The Effect of Photobiomodulation on Pressure Ulcers",
    "official": "The Effect of Photobiomodulation on Pressure Ulcers: A Randomized Controlled Trial",
@@ -5142,52 +5280,6 @@
    "n_sites": 1,
    "matched": [
     "musculo-squelettique"
-   ]
-  },
-  {
-   "nct": "NCT07543211",
-   "title": "Effectiveness of Laser Acupuncture in Improving Arterial Stiffness Among Patients With Cardiorenal Metabolic Syndrome",
-   "official": "Effectiveness of Laser Acupuncture in Improving Arterial Stiffness Among Patients With Cardiorenal Metabolic Syndrome",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-05",
-   "end": "2026-08",
-   "completion": "2026-10",
-   "first_posted": "2026-04-21",
-   "updated": "2026-04-21",
-   "type": "OBSERVATIONAL",
-   "phases": [],
-   "n": 35,
-   "allocation": null,
-   "masking": null,
-   "conditions": [
-    "Hypertension",
-    "Diabetes Mellitus",
-    "Chronic Kidney Disease",
-    "Cardio-Renal-Metabolic Syndrome"
-   ],
-   "interventions": [
-    {
-     "type": "OTHER",
-     "name": "laser acupuncture"
-    }
-   ],
-   "summary": "Background: Cardio-renal metabolic syndrome (CRMS) is a vicious cycle of cardiac, renal, and metabolic disease, representing a high-risk for atherosclerosis. Laser acupuncture modulates vascular inflammation and improves endothelial function via low-level laser therapy (LLLT, \\<500mW) at acupoints or musculoskeletal pain sites. Few studies have focused on CRMS populations. This study evaluates laser acupuncture effects on arterial stiffness in CRMS.\n\nPurpose: To assess the effects of improvement of laser acupuncture in patients with CRMS, and to evaluate its feasibility as supportive therapy.\n\nMethods: A single-group pre-post design is used. Participants are patients with CRMS receiving laser acupuncture at a Chinese medicine clinic in Taiwan. CRMS is interrelated by cardiac, renal, and metabolic disease. Inclusion criteria require diagnosis in ≥2 of 3 systems (cardiovascular, renal, or ",
-   "outcome": "Change in Pulse Wave Velocity (PWV)",
-   "sponsor": "National Yang Ming Chiao Tung University",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Li-Yin Chien",
-    "title": "Professor",
-    "affiliation": "National Yang Ming Chiao Tung University"
-   },
-   "officials": [],
-   "countries": [],
-   "sites": [],
-   "n_sites": 0,
-   "matched": [
-    "cardiologie"
    ]
   },
   {
@@ -5531,58 +5623,6 @@
    ]
   },
   {
-   "nct": "NCT07511790",
-   "title": "Photobiomodulation on Performance in Female Futsal Athletes",
-   "official": "Effects of Photobiomodulation Therapy on Physical Performance in Female Futsal Athletes",
-   "acronym": "PBMT",
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-04-15",
-   "end": "2026-06-01",
-   "completion": "2026-06-10",
-   "first_posted": "2026-04-06",
-   "updated": "2026-04-06",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 15,
-   "allocation": "RANDOMIZED",
-   "masking": "DOUBLE",
-   "conditions": [
-    "Muscle Performance",
-    "Exercise",
-    "Phototherapy",
-    "Futsal"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Active PBMT"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Placebo PBMT"
-    }
-   ],
-   "summary": "The aim of this study is to investigate the effects of photobiomodulation therapy (PBMT) on physical performance in female futsal athletes. It is hypothesized that PBMT is superior to placebo condition in improving the ability to perform repeated sprints and aerobic capacity in high-intensity, intermittent activity (i.e., Bangsbo sprint test and yoyo intermittent recovery level-1, respectively).",
-   "outcome": "Physical performance in the Bangsbo Sprint Test",
-   "sponsor": "Universidade Norte do Paraná",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Andreo Fernando Aguiar",
-    "title": "Principal Investigator",
-    "affiliation": "Universidade Norte do Paraná"
-   },
-   "officials": [],
-   "countries": [],
-   "sites": [],
-   "n_sites": 0,
-   "matched": [
-    "sport"
-   ]
-  },
-  {
    "nct": "NCT07511803",
    "title": "Photobiomodulation on Recovery in Female Futsal Athletes",
    "official": "Effects of Photobiomodulation Therapy on Recovery After Exercise in Female Futsal Athletes",
@@ -5617,6 +5657,58 @@
     }
    ],
    "summary": "The aim of this study is to investigate the effects of photobiomodulation therapy (PBMT) on recovery after high-intensity, intermittent exercises in female futsal athletes. It is hypothesized that PBMT is superior to placebo condition in improving the recovery of muscle function after high-intensity, intermittent exercises.",
+   "outcome": "Physical performance in the Bangsbo Sprint Test",
+   "sponsor": "Universidade Norte do Paraná",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Andreo Fernando Aguiar",
+    "title": "Principal Investigator",
+    "affiliation": "Universidade Norte do Paraná"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "sport"
+   ]
+  },
+  {
+   "nct": "NCT07511790",
+   "title": "Photobiomodulation on Performance in Female Futsal Athletes",
+   "official": "Effects of Photobiomodulation Therapy on Physical Performance in Female Futsal Athletes",
+   "acronym": "PBMT",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-04-15",
+   "end": "2026-06-01",
+   "completion": "2026-06-10",
+   "first_posted": "2026-04-06",
+   "updated": "2026-04-06",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 15,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Muscle Performance",
+    "Exercise",
+    "Phototherapy",
+    "Futsal"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Active PBMT"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Placebo PBMT"
+    }
+   ],
+   "summary": "The aim of this study is to investigate the effects of photobiomodulation therapy (PBMT) on physical performance in female futsal athletes. It is hypothesized that PBMT is superior to placebo condition in improving the ability to perform repeated sprints and aerobic capacity in high-intensity, intermittent activity (i.e., Bangsbo sprint test and yoyo intermittent recovery level-1, respectively).",
    "outcome": "Physical performance in the Bangsbo Sprint Test",
    "sponsor": "Universidade Norte do Paraná",
    "sponsor_class": "OTHER",
@@ -6537,6 +6629,80 @@
    ]
   },
   {
+   "nct": "NCT07947316",
+   "title": "A RANDOMİZED CONTROLLED TRİAL COMPARİNG THE EFFECTİVENESS OF MYOFASCİAL RELEASE, LOW-LEVEL LASER THERAPY, AND PELOİD THERAPY İN PATİENTS DİAGNOSED WİTH MİLD TO MODERATE CARPAL TUNNEL SYNDROME",
+   "official": "A RANDOMİZED CONTROLLED TRİAL COMPARİNG THE EFFECTİVENESS OF MYOFASCİAL RELEASE, LOW-LEVEL LASER THERAPY, AND PELOİD THERAPY İN PATİENTS DİAGNOSED WİTH MİLD TO MODERATE CARPAL TUNNEL SYNDROME",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2026-03-05",
+   "end": "2027-03-01",
+   "completion": "2027-07-01",
+   "first_posted": "2026-11-18",
+   "updated": "2026-11-18",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 88,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Carpal Tunnel Syndrome (CTS)"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Low-Level Laser Therapy"
+    },
+    {
+     "type": "OTHER",
+     "name": "Myofascial Release"
+    },
+    {
+     "type": "OTHER",
+     "name": "Peloid Therapy"
+    }
+   ],
+   "summary": "This randomized controlled trial aims to compare the effectiveness of low-level laser therapy (LLLT), myofascial release (MFR), and peloid therapy in patients diagnosed with mild to moderate carpal tunnel syndrome (CTS). A total of 84 eligible participants aged 18-65 years will be randomly assigned to one of three treatment groups. Group 1 (LLLT): Patients will receive low-level laser therapy 5 days a week for 3 weeks (total 15 sessions). Group 2 (Myofascial Release): Patients will receive manual myofascial release therapy 3 days a week for 5 weeks. Group 3 (Peloid Therapy): Patients will receive peloid (mud) therapy at 45°C for 20 minutes, 5 days a week for 3 weeks (total 15 sessions). Clinical evaluations will be performed at baseline, at the end of the treatment (15th session), and at the 12-week follow-up. The primary outcome measures are the Boston Carpal Tunnel Questionnaire (BCTSQ",
+   "outcome": "Boston Carpal Tunnel Questionnaire (BCTSQ) Score",
+   "sponsor": "Konya Beyhekim Training and Research Hospital",
+   "sponsor_class": "OTHER_GOV",
+   "collaborators": [],
+   "responsible": {
+    "name": "RAİKAN BÜYÜKAVCI",
+    "title": "Associate Professor of Physical Medicine and Rehabilitation",
+    "affiliation": "Konya Beyhekim Training and Research Hospital"
+   },
+   "officials": [
+    {
+     "name": "ERDİ İNCİGÜZ, M.D.",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "University of Health Sciences, Konya Beyhekim Training and Research Hospital"
+    },
+    {
+     "name": "RAİKAN BÜYÜKAVCI, MD, Prof.",
+     "role": "STUDY_CHAIR",
+     "affiliation": "University of Health Sciences, Konya Beyhekim Training and Research Hospital"
+    }
+   ],
+   "countries": [
+    "Turkey (Türkiye)"
+   ],
+   "sites": [
+    {
+     "facility": "University of Health Sciences, Konya Beyhekim Training and Research Hospital",
+     "city": "Konya",
+     "country": "Turkey (Türkiye)"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "dermatologie",
+    "musculo-squelettique",
+    "neuropathie-peripherique"
+   ]
+  },
+  {
    "nct": "NCT07405008",
    "title": "Laser Acupuncture on Carpal Tunnel Syndrome .",
    "official": "Effect of Laser Acupuncture on Carpal Tunnel Syndrome Post Aromatase Inhibitors in Breast Cancer Patient .",
@@ -6907,63 +7073,6 @@
    ]
   },
   {
-   "nct": "NCT07208617",
-   "title": "Development of Bioluminescent Myopia Prevention and Control Instrument and Evaluation of Its Effect on Myopia",
-   "official": "Efficacy Superiority Trial of Red Light Myopia Control Device Based on LED Light Source",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-02-12",
-   "end": "2026-09-30",
-   "completion": "2026-09-30",
-   "first_posted": "2025-10-06",
-   "updated": "2026-02-10",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 206,
-   "allocation": "RANDOMIZED",
-   "masking": "TRIPLE",
-   "conditions": [
-    "Myopia"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "RED-light device using LED light source"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Control"
-    }
-   ],
-   "summary": "Based on the Tongren Myopia and Amblyopia Therapeutic Apparatus (a 650nm low-level red-light device) developed by the research team in the previous phase, the device was modified by replacing the light source with LED light. Subsequently, a population study was conducted to evaluate its efficacy and safety in myopia prevention and control.",
-   "outcome": "Axial length",
-   "sponsor": "Beijing Tongren Hospital",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Ying Jie",
-    "title": "Dr",
-    "affiliation": "Beijing Tongren Hospital"
-   },
-   "officials": [],
-   "countries": [
-    "China"
-   ],
-   "sites": [
-    {
-     "facility": "Beijing Tongren Hospital",
-     "city": "Beijing",
-     "country": "China"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "ophtalmologie"
-   ]
-  },
-  {
    "nct": "NCT07412678",
    "title": "Evaluation of the Efficacy of Red Light in Adult Patients With High and Extreme Myopia",
    "official": "Evaluation of the Efficacy of Red Light in Adult Patients With High and Extreme Myopia",
@@ -7002,6 +7111,63 @@
    "responsible": {
     "name": "Ying Jie",
     "title": "Researcher",
+    "affiliation": "Beijing Tongren Hospital"
+   },
+   "officials": [],
+   "countries": [
+    "China"
+   ],
+   "sites": [
+    {
+     "facility": "Beijing Tongren Hospital",
+     "city": "Beijing",
+     "country": "China"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "ophtalmologie"
+   ]
+  },
+  {
+   "nct": "NCT07208617",
+   "title": "Development of Bioluminescent Myopia Prevention and Control Instrument and Evaluation of Its Effect on Myopia",
+   "official": "Efficacy Superiority Trial of Red Light Myopia Control Device Based on LED Light Source",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-02-12",
+   "end": "2026-09-30",
+   "completion": "2026-09-30",
+   "first_posted": "2025-10-06",
+   "updated": "2026-02-10",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 206,
+   "allocation": "RANDOMIZED",
+   "masking": "TRIPLE",
+   "conditions": [
+    "Myopia"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "RED-light device using LED light source"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Control"
+    }
+   ],
+   "summary": "Based on the Tongren Myopia and Amblyopia Therapeutic Apparatus (a 650nm low-level red-light device) developed by the research team in the previous phase, the device was modified by replacing the light source with LED light. Subsequently, a population study was conducted to evaluate its efficacy and safety in myopia prevention and control.",
+   "outcome": "Axial length",
+   "sponsor": "Beijing Tongren Hospital",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Ying Jie",
+    "title": "Dr",
     "affiliation": "Beijing Tongren Hospital"
    },
    "officials": [],
@@ -9996,22 +10162,22 @@
    ]
   },
   {
-   "nct": "NCT07160036",
-   "title": "Repeatability of AO-SLO (Mona IIa) Technology and Cone Cell Density of Individuals Use Repeated Low-level Red-light Therapy",
-   "official": "Exploring the Repeatability of Adaptive Optics Scanning Laser Ophthalmoscope Technology (AO-SLO Mona IIa) and the Differences in Cone Cell Density Between Individuals Who Undergone and Not Undergone Repeated Low-level Red-light",
-   "acronym": "AO-SLO",
-   "status": "RECRUITING",
+   "nct": "NCT07186088",
+   "title": "Therapeutic Efficacy of Different Repeated Low-Intensity Red Light Devices and Different Usage Frequencies",
+   "official": "Study on the Therapeutic Efficacy of Different Repeated Low-Intensity Red Light Devices and Different Usage Frequencies for Adult Myopia Treatment",
+   "acronym": null,
+   "status": "ENROLLING_BY_INVITATION",
    "start": "2025-09-20",
-   "end": "2025-11-20",
-   "completion": "2025-12-20",
-   "first_posted": "2025-09-08",
-   "updated": "2025-09-15",
+   "end": "2026-06-20",
+   "completion": "2026-12-31",
+   "first_posted": "2025-09-22",
+   "updated": "2026-10-29",
    "type": "INTERVENTIONAL",
    "phases": [
     "NA"
    ],
-   "n": 180,
-   "allocation": "NON_RANDOMIZED",
+   "n": 60,
+   "allocation": "RANDOMIZED",
    "masking": "QUADRUPLE",
    "conditions": [
     "Myopia"
@@ -10019,11 +10185,15 @@
    "interventions": [
     {
      "type": "DEVICE",
-     "name": "RLRL(Model RS-200-2A, Eyerising; Suzhou Xuanjia Optoelectronic Technology Co., Ltd., Suzhou, China))"
+     "name": "Eyerising RS-200-2A"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Eyerising SLX-1A"
     }
    ],
-   "summary": "To explore the repeatability of AO-SLO (Mona IIa) technology and the difference of cone cell density between individuals who used or not used repeated low-intensity red light treatment",
-   "outcome": "The density of cone cells",
+   "summary": "To explore the effectiveness and safety of repeated exposure to repeated low-intensity red light",
+   "outcome": "Axial length",
    "sponsor": "Ruihua Wei",
    "sponsor_class": "OTHER",
    "collaborators": [
@@ -10057,22 +10227,22 @@
    ]
   },
   {
-   "nct": "NCT07186088",
-   "title": "Therapeutic Efficacy of Different Repeated Low-Intensity Red Light Devices and Different Usage Frequencies",
-   "official": "Study on the Therapeutic Efficacy of Different Repeated Low-Intensity Red Light Devices and Different Usage Frequencies for Adult Myopia Treatment",
-   "acronym": null,
-   "status": "ENROLLING_BY_INVITATION",
+   "nct": "NCT07160036",
+   "title": "Repeatability of AO-SLO (Mona IIa) Technology and Cone Cell Density of Individuals Use Repeated Low-level Red-light Therapy",
+   "official": "Exploring the Repeatability of Adaptive Optics Scanning Laser Ophthalmoscope Technology (AO-SLO Mona IIa) and the Differences in Cone Cell Density Between Individuals Who Undergone and Not Undergone Repeated Low-level Red-light",
+   "acronym": "AO-SLO",
+   "status": "RECRUITING",
    "start": "2025-09-20",
-   "end": "2026-06-20",
-   "completion": "2026-12-31",
-   "first_posted": "2025-09-22",
-   "updated": "2026-10-29",
+   "end": "2025-11-20",
+   "completion": "2025-12-20",
+   "first_posted": "2025-09-08",
+   "updated": "2025-09-15",
    "type": "INTERVENTIONAL",
    "phases": [
     "NA"
    ],
-   "n": 60,
-   "allocation": "RANDOMIZED",
+   "n": 180,
+   "allocation": "NON_RANDOMIZED",
    "masking": "QUADRUPLE",
    "conditions": [
     "Myopia"
@@ -10080,15 +10250,11 @@
    "interventions": [
     {
      "type": "DEVICE",
-     "name": "Eyerising RS-200-2A"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Eyerising SLX-1A"
+     "name": "RLRL(Model RS-200-2A, Eyerising; Suzhou Xuanjia Optoelectronic Technology Co., Ltd., Suzhou, China))"
     }
    ],
-   "summary": "To explore the effectiveness and safety of repeated exposure to repeated low-intensity red light",
-   "outcome": "Axial length",
+   "summary": "To explore the repeatability of AO-SLO (Mona IIa) technology and the difference of cone cell density between individuals who used or not used repeated low-intensity red light treatment",
+   "outcome": "The density of cone cells",
    "sponsor": "Ruihua Wei",
    "sponsor_class": "OTHER",
    "collaborators": [
@@ -10604,7 +10770,7 @@
    "end": "2027-10-31",
    "completion": "2027-11-30",
    "first_posted": "2025-04-13",
-   "updated": "2026-09-14",
+   "updated": "2026-11-16",
    "type": "INTERVENTIONAL",
    "phases": [
     "NA"
@@ -12612,10 +12778,10 @@
    "acronym": "EVABIOSEIN",
    "status": "RECRUITING",
    "start": "2025-03-13",
-   "end": "2027-12",
-   "completion": "2027-12",
+   "end": "2027-06",
+   "completion": "2027-06",
    "first_posted": "2024-04-04",
-   "updated": "2025-11-18",
+   "updated": "2026-11-20",
    "type": "INTERVENTIONAL",
    "phases": [
     "NA"
@@ -14504,63 +14670,6 @@
    "n_sites": 4,
    "matched": [
     "ophtalmologie"
-   ]
-  },
-  {
-   "nct": "NCT07523204",
-   "title": "Photobiomodulation Therapy for Scar Quality After Facial Wound Closure",
-   "official": "Effect of Photobiomodulation Therapy (PBMT) on Scar Quality Following Traumatic Facial Wound Closure: A Prospective Pilot Randomized Controlled Trial",
-   "acronym": "PBMT-SCAR",
-   "status": "ACTIVE_NOT_RECRUITING",
-   "start": "2024-10-17",
-   "end": "2026-10-07",
-   "completion": "2026-10-20",
-   "first_posted": "2026-04-13",
-   "updated": "2026-04-15",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 36,
-   "allocation": "RANDOMIZED",
-   "masking": "DOUBLE",
-   "conditions": [
-    "Traumatic Facial Wounds"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Photobiomodulation Therapy (PBMT)"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Sham Photobiomodulation Therapy"
-    }
-   ],
-   "summary": "This study is a prospective pilot randomized controlled trial designed to evaluate the effect of photobiomodulation therapy (PBMT) on scar quality following traumatic facial wound closure. Traumatic facial wounds often result in aesthetically and functionally significant scars, which may negatively affect patients' quality of life. PBMT has been proposed as a non-invasive adjunctive therapy that may enhance tissue repair, reduce inflammation, and improve scar outcomes.\n\nIn this study, patients with traumatic facial wounds undergoing primary closure will be randomly assigned to receive either PBMT or sham treatment following suture removal. Scar quality will be assessed using validated clinical scales over a defined follow-up period. The findings of this study aim to provide clinical evidence regarding the effectiveness of PBMT in improving scar appearance and overall healing outcomes.",
-   "outcome": "Scar Quality Assessed by POSAS",
-   "sponsor": "Hani M. Al-Kufi",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Hani M. Al-Kufi",
-    "title": "Assistant Lecturer, College of Dentistry, Islamic University",
-    "affiliation": "Islamic University of Najaf"
-   },
-   "officials": [],
-   "countries": [
-    "Iraq"
-   ],
-   "sites": [
-    {
-     "facility": "Department of Oral and Maxillofacial Surgery, College of Dentistry, The Islamic University, Najaf, Iraq",
-     "city": "Kufa",
-     "country": "Iraq"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "dermatologie"
    ]
   },
   {

@@ -1,5 +1,85 @@
 [
  {
+  "pmid": "43043553",
+  "doi": "10.1007/s10103-026-05099-6",
+  "pmcid": "PMC13777827",
+  "title": "Dual-wavelength superpulsed photobiomodulation in children and adolescents with orofacial pain: clinical, thermal, and optical transmission outcomes in a pilot study.",
+  "journal": "Lasers in medical science",
+  "journal_abbr": "Lasers Med Sci",
+  "authors": [
+   "De Camargo CCB",
+   "Mandetta ARH",
+   "Lago ADN",
+   "Martins MD",
+   "Sobral APT",
+   "Fernandes KPS",
+   "Horliana ACRT",
+   "Duran CCG",
+   "Mesquita-Ferrari RA",
+   "Bussadori SK"
+  ],
+  "first_affiliation": "Postgraduate Programme in Rehabilitation Sciences, Universidade Nove de Julho, São Paulo, Brazil.",
+  "date_online": "2026-11-17",
+  "date_pub": "2026-11-17",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [
+   "Humans",
+   "Child",
+   "Pilot Projects",
+   "Female",
+   "Adolescent",
+   "Male",
+   "Low-Level Light Therapy",
+   "Facial Pain",
+   "Lasers, Semiconductor",
+   "Masseter Muscle",
+   "Treatment Outcome",
+   "Pain Measurement"
+  ],
+  "keywords": [
+   "Diode laser",
+   "Dual wavelength",
+   "Headache",
+   "Orofacial pain",
+   "Pediatrics",
+   "Photobiomodulation"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "To report the preliminary results of a photobiomodulation protocol using a dual-emission diode laser (810 nm and 980 nm) in children and adolescents with orofacial pain, considering clinical findings, thermal behavior, and optical transmission in the region of the masseter muscle. An uncontrolled exploratory pilot study was conducted involving seven participants six to 17 years of age with orofacial pain submitted to photobiomodulation twice a week for four weeks, totaling eight sessions. Application was performed bilaterally in direct contact at four points per side: masseter muscle, temporalis muscle, cervical trapezius muscle, and temporomandibular joint (TMJ) region, totaling eight points per session. A 7-mm adapter was used, with an average power of 0.3 W, 3.9 J per point, and 13 s per point. Orofacial pain, regional temperature, skin phototype, power, and irradiance transmitted in the masseteric region were investigated. Mean age was 11.4 ± 3.6 years and the female sex accounted for 57.1% of the sample. Lower pain values were found over time. Mean optical power detected at the buccal mucosa after transmission in the masseteric region was 0.41 ± 0.10 mW, corresponding to mean irradiance of 0.64 ± 0.16 mW/cm². Exploratory correlations between irradiance and anthropometric variables, and between phototype and temperature, had wide confidence intervals, indicating substantial uncertainty regarding the direction and magnitude of these associations. In this pilot study, descriptive reductions in pain outcomes were found over the four-week intervention period. Given the uncontrolled design, these exploratory findings should not be interpreted as evidence of clinical efficacy or causality, but may assist in the design of future controlled clinical trials with larger samples."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s10103-026-05099-6"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13777827"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13777827?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
   "pmid": "43026152",
   "doi": "10.1177/25785478261508034",
   "pmcid": null,

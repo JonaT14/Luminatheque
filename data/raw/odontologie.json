@@ -1,5 +1,587 @@
 [
  {
+  "pmid": "43055965",
+  "doi": "10.1007/s10103-026-05072-3",
+  "pmcid": "PMC13785369",
+  "title": "Impact of photobiomodulation combined with leukocyte- and platelet-rich fibrin on healing, pain, and quality of life after third molar surgery: a randomized split-mouth clinical trial.",
+  "journal": "Lasers in medical science",
+  "journal_abbr": "Lasers Med Sci",
+  "authors": [
+   "Pessoa da Costa EH",
+   "Brito Guimarães HN",
+   "de Almeida LN",
+   "da Silva Pereira CM",
+   "Beiruth Freire GC",
+   "Froes Meyer P",
+   "Rocha Germano A",
+   "Pereira da Silva JS"
+  ],
+  "first_affiliation": "Department of Dentistry, Instituto Federal do Rio Grande do Norte, Natal, Brazil. evaldohenrique98@gmail.com.",
+  "date_online": "2026-11-19",
+  "date_pub": "2026-11-19",
+  "pub_types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ],
+  "mesh": [
+   "Humans",
+   "Molar, Third",
+   "Platelet-Rich Fibrin",
+   "Low-Level Light Therapy",
+   "Female",
+   "Quality of Life",
+   "Wound Healing",
+   "Adult",
+   "Postoperative Pain",
+   "Male",
+   "Leukocytes",
+   "Young Adult",
+   "Tooth Extraction",
+   "Pain Measurement",
+   "Adolescent"
+  ],
+  "keywords": [
+   "L-PRF",
+   "Oral surgery",
+   "Photobiomodulation",
+   "Third molar",
+   "Wound healing"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Pain, edema, and transient limitation of mouth opening are expected manifestations after third molar surgery. Photobiomodulation (PBM) may modulate postoperative morbidity, while leukocyte- and platelet-rich fibrin (L-PRF) may support tissue repair. To evaluate healing, pain, and quality of life after third molar surgery using PBM plus L-PRF. In this randomized split-mouth study, 20 participants completed bilateral treatment. Both conditions received L-PRF prepared by centrifugation at 2700 rpm for 12 min. The test condition additionally received intraoral PBM (808 nm, 220 mW, 41 s per point, four points, approximately 36 J per session) immediately after surgery and at 24 h, 48 h, and 7 days; the control condition received simulated irradiation. Pain was assessed by the visual analogue scale (VAS) at 2, 6, 12, 24, 48, and 72 h. Healing was evaluated using the Landry index at 24 h, 48 h, and 7 days. The 14-item Oral Health Impact Profile (OHIP-14) assessed quality of life before and 7 days after each surgery. No statistically significant between-condition differences were found in VAS, OHIP-14, or healing. Within-condition changes were observed for pain and healing, but these findings alone do not establish a difference in treatment effects. Under the conditions of this study, adding PBM to L-PRF did not demonstrate statistically significant additional benefits for pain, soft tissue healing, or quality of life."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s10103-026-05072-3"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43057550",
+  "doi": "10.1016/j.pdpdt.2026.105727",
+  "pmcid": null,
+  "title": "Curcumin and Photobiomodulation in Drug-Induced Gingival Overgrowth: Critical Evidence and Testable Mechanisms.",
+  "journal": "Photodiagnosis and photodynamic therapy",
+  "journal_abbr": "Photodiagnosis Photodyn Ther",
+  "authors": [
+   "Eftekharian S",
+   "Rastkar S"
+  ],
+  "first_affiliation": "Department of Orthodontics, School of Dentistry, Iran University of Medical Sciences, Tehran, Iran. Electronic address: dr.shahriar.eftekharian92@gmail.com.",
+  "date_online": "2026-11-19",
+  "date_pub": "2026-11-19",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "curcumin",
+   "drug-induced gingival overgrowth",
+   "extracellular matrix",
+   "phenytoin",
+   "photobiomodulation",
+   "photodynamic therapy"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "Drug-induced gingival overgrowth (DIGO) combines medication-specific responses, inflammation and defective extracellular matrix (ECM) turnover. Curcumin and photobiomodulation (PBM) have separately altered experimental markers, but no clinical non-photodynamic combination has been validated."
+   },
+   {
+    "label": "METHODS",
+    "text": "This critical narrative review prioritizes drug-associated animal and human gingival models while distinguishing biological replication, direct ECM outcomes and calibrated optical exposure from indirect mechanistic analogies."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Curcumin reduced selected enlargement-related outcomes during concurrent phenytoin exposure in rats and modulated Smad/CCN2 signaling in vitro. A PBM study using gingival fibroblasts from one described calcium-channel-blocker-associated lesion reduced MTT and CCN2 in some comparisons but did not demonstrate significant improvement in collagen I. A curcumin-photodynamic therapy protocol followed by PBM is not a factorial test of conventional curcumin-PBM interaction."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "Donor-replicated, medication-stratified, radiometrically verified factorial experiments must demonstrate non-cytotoxic net matrix remodeling before a clinical adjunct is justified."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1016/j.pdpdt.2026.105727"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43049837",
+  "doi": "10.1007/s10103-026-05101-1",
+  "pmcid": "PMC13782097",
+  "title": "Effect of photobiomodulation and botulinum toxin type a on temporomandibular joint monoarthritis: an in vivo study.",
+  "journal": "Lasers in medical science",
+  "journal_abbr": "Lasers Med Sci",
+  "authors": [
+   "Emam NA",
+   "Gheith ME",
+   "Al Balah OFA",
+   "Benedicenti S",
+   "Sakr SSA",
+   "Signore A"
+  ],
+  "first_affiliation": "National Institute of Laser enhanced Science, Faculty of Dentistry, Cairo University, Cairo, Egypt. dr.nesrin.emam@gmail.com.",
+  "date_online": "2026-11-18",
+  "date_pub": "2026-11-18",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [
+   "Animals",
+   "Botulinum Toxins, Type A",
+   "Male",
+   "Low-Level Light Therapy",
+   "Rats, Wistar",
+   "Rats",
+   "Temporomandibular Joint Disorders",
+   "Temporomandibular Joint",
+   "Freund's Adjuvant",
+   "Combined Modality Therapy",
+   "Neuromuscular Agents",
+   "Arthritis",
+   "Disease Models, Animal"
+  ],
+  "keywords": [
+   "Botulinum toxin type-A",
+   "Complete Freund's adjuvant",
+   "Low-level laser therapy",
+   "Photobiomodulation",
+   "Rat model",
+   "Temporomandibular joint disorders"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Temporomandibular disorders (TMDs) are often accompanied by inflammatory conditions such as joint monoarthritis that cause progressive structural degradation. However, conventional monotherapies offer only limited relief, but combined neurotoxin and biomodulatory approaches are a promising alternative that needs systematic histological evaluation. The aim of this study was to evaluate the histological and Histomorphometric effect of combined photobiomodulation (PBM) and botulinum toxin type-A (BTX-A) compared to the monotherapy of each treatment in a rat model of complete Freund's adjuvant (CFA)-induced temporomandibular joint (TMJ) monoarthritis. Forty Wistar male rats were injected unilaterally with 100 µL (1 mg/mL) of complete Freund's adjuvant (CFA) intra-articularly in the left temporomandibular joint (TMJ) area and then divided into four groups: untreated CFA control group, PBM received group (980 nm, 0.5 W, 20 J/cm², four sessions), BTX-A injection group (5 units intramuscular) and combined PBM + BTX-A group. Three weeks after CFA injection, mandibular condyles, synovial tissue and masseter muscles were harvested for histological analysis. The combined therapy group achieved superior results in organization of cartilage zones, subchondral bone architecture, synovial membrane architecture and muscle fiber alignment in comparison with the active untreated TMJ monoarthritis group (Group I). Moreover, the combined PBM + BTX-A group had a significantly lower chondroblastic thickness and significantly higher hypertrophic thickness compared to all other groups (p < 0.05). Correlation analysis showed a strong positive correlation between the chondroblastic and hypertrophic zones only in the untreated CFA group (r = 0.934, p < 0.001). Combined PBM and BTX-A therapy demonstrated superior structural tissue recovery in an experimentally induced rat model of TMJ monoarthritis compared to monotherapies or untreated control, establishing an effective multimodal framework that addresses inflammatory and neuromuscular components of the disease simultaneously."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by-nc-nd",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s10103-026-05101-1"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13782097"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13782097?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43049942",
+  "doi": "10.1007/s10103-026-05094-x",
+  "pmcid": "PMC13782023",
+  "title": "Clinical research progress in the application of laser therapy for ankyloglossia.",
+  "journal": "Lasers in medical science",
+  "journal_abbr": "Lasers Med Sci",
+  "authors": [
+   "Yang G",
+   "Liu Z",
+   "Wu J",
+   "Zhang M",
+   "Li Q",
+   "Jing B"
+  ],
+  "first_affiliation": "Department of Stomatology, Affiliated Hospital of North Sichuan Medical College, Nanchong, China. YGJ@nsmc.edu.cn.",
+  "date_online": "2026-11-18",
+  "date_pub": "2026-11-18",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [
+   "Humans",
+   "Ankyloglossia",
+   "Laser Therapy",
+   "Oral Frenectomy"
+  ],
+  "keywords": [
+   "Ankyloglossia",
+   "Laser therapy",
+   "Lingual frenulum",
+   "Minimally invasive surgery",
+   "Orofacial myofunctional rehabilitation",
+   "Surgical standardization"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Ankyloglossia restricts breastfeeding, speech articulation and maxillofacial skeletal development. Although laser-assisted surgical correction for ankyloglossia has replaced conventional scalpel-based frenotomy as the first-line intervention, inconsistent operation parameters, unpredictable thermal tissue injury and high postoperative re-adhesion rates hinder standardized clinical popularization. This narrative review systematically integrates current clinical evidence of multiple laser modalities and establishes standardized stratified diagnosis-treatment and multi-dimensional evaluation frameworks for laser-assisted ankyloglossia correction. This narrative review was conducted, referring to key reporting items of extended PRISMA-N for narrative reviews to improve report transparency, rather than complying with full systematic-review PRISMA procedural standards. Clinical studies published from January 2021 to June 2026 were retrieved from six authoritative databases (SCIE, ESCI, Scopus, PubMed, PMC, DOAJ), covering five mainstream dental laser systems. Independent literature screening, data extraction and bias evaluation were completed to synthesize cross-age clinical evidence of different laser therapies. Lasers yield minimally invasive advantages through photothermal, photochemical, and photobiomodulation (PBM) mechanisms, with minimal intraoperative tissue trauma, reliable haemostasis, and attenuated postoperative inflammation. Distinct laser wavelengths present unique tissue absorption characteristics and targeted clinical indications. This study innovatively constructs a three-dimensional stratified treatment model, multi-faceted multi-dimensional efficacy evaluation system and individualized dynamic laser parameter regulation protocols to resolve current clinical inconsistencies in surgical practice. Laser-assisted surgical correction for ankyloglossia represents a safe and promising minimally-invasive intervention. Individualized laser selection and dynamic parameter optimization may improve surgical precision and long-term clinical outcomes. The proposed theoretical frameworks await prospective clinical validation before achieving real-world standardization. Establishing unified clinical operation specifications and improving accessibility of high-precision laser devices will be required to support future potential standardized, large-scale clinical application of laser therapy for ankyloglossia. This work provides theoretically-derived stratified laser treatment protocols suitable for primary and tertiary dental institutions. Such protocols have the theoretical potential to reduce thermal injury and postoperative re-adhesion risks, though prospective clinical verification is still required. It addresses the absence of unified postoperative rehabilitation criteria and proposes low-cost laser equipment and artificial intelligence (AI)-assisted parameter matching as promising future directions to realize precise, accessible minimally invasive management for patients of all age groups."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by-nc-nd",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s10103-026-05094-x"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13782023"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13782023?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43050822",
+  "doi": "10.1016/j.ortho.2026.101262",
+  "pmcid": null,
+  "title": "Evaluation of the effectiveness of repeated piezocision versus repeated low-level laser therapy in the acceleration of upper canine retraction in terms of dentoalveolar and periodontal changes: A three-arm randomized controlled clinical trial.",
+  "journal": "International orthodontics",
+  "journal_abbr": "Int Orthod",
+  "authors": [
+   "Alfailany DT",
+   "Hajeer MY",
+   "Brad B",
+   "Hamadah O",
+   "Heshmeh OA",
+   "Darwich KMA"
+  ],
+  "first_affiliation": "Department of Orthodontics, Faculty of Dentistry, University of Damascus, Damascus, Syria.",
+  "date_online": "2026-11-18",
+  "date_pub": "2026-11-18",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Accelerated tooth movement",
+   "Canine retraction",
+   "Dentoalveolar changes",
+   "Low-level laser therapy",
+   "Periodontal indices",
+   "Piezocision"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "INTRODUCTION",
+    "text": "Shortening treatment time is key to improving orthodontic patient satisfaction. This study aimed to compare repeated piezocision and repeated low-level laser therapy (LLLT) with conventional maxillary canine retraction, evaluating retraction rate and duration, anchorage loss, canine rotation, and periodontal indices."
+   },
+   {
+    "label": "MATERIAL AND METHODS",
+    "text": "This three-arm randomized controlled trial enrolled 60 participants (recruited between November 2020 and April 2021) with Class II Division 1 malocclusion requiring upper first premolar extractions. Participants were allocated (1:1:1) into three groups (n=20 each): Piezocision Group (PG; cortical incisions at baseline and 6 weeks), Low-Level Laser Therapy Group (LLLTG; 810-nm laser applied at baseline, days 3, 7, 14, 28, and biweekly thereafter), and Control Group (CG; conventional retraction). Allocation sequence was computer-generated, with allocation concealment maintained using sequentially numbered, opaque, sealed envelopes until space closure initiation. Upper canines were retracted using 150-g NiTi closed-coil springs. Outcome measures included the retraction rate, total duration, dentoalveolar changes (canine rotation and anchorage loss), and periodontal indices."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Data from 58 participants were analysed. Overall retraction rates were 1.41, 1.09, and 0.76mm/month for PG, LLLTG, and CG, respectively. Both accelerated groups showed significantly greater retraction than control (PG vs. CG: MD=0.65mm/month, 95% CI: 0.53-0.76; LLLTG vs. CG: MD=0.33, 95% CI: 0.21-0.45; both P<0.001), with PG surpassing LLLTG (MD=0.32, 95% CI: 0.20-0.43; P<0.001). Total retraction time was significantly shorter in PG (3.62 months) and LLLTG (4.61 months) compared to CG (5.97 months), representing reductions of 2.35 months (95% CI: -2.96 to -1.75; P<0.001) and 1.36 months (95% CI: -1.98 to -0.75; P<0.001), respectively. Regarding dentoalveolar and periodontal changes, anchorage loss was similar; canine rotation differed only in the final interval, and the gingival index differed at retraction completion (P=0.015)."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "While both repeated piezocision and LLLT accelerate upper canine retraction during the initial three months without harming periodontal health, piezocision seems to be more effective than LLLT in speed and time reduction."
+   },
+   {
+    "label": "TRIAL REGISTRATION",
+    "text": "ClinicalTrials.gov, NCT05227859."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1016/j.ortho.2026.101262"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43051965",
+  "doi": "10.1177/25785478261509939",
+  "pmcid": null,
+  "title": "Effect of 810-nm Diode Laser Photobiomodulation on Pain and Patient-Reported Satisfaction after Initial Fixed Orthodontic Appliance Placement: A Randomized Sham-Controlled Single-Blind Clinical Trial.",
+  "journal": "Photobiomodulation, photomedicine, and laser surgery",
+  "journal_abbr": "Photobiomodul Photomed Laser Surg",
+  "authors": [
+   "Li S",
+   "Zhuang M",
+   "Chen L",
+   "Bo S",
+   "Liu B"
+  ],
+  "first_affiliation": "Department of Stomatology, Zhunqi People's Hospital, Ordos City, P.R. China.",
+  "date_online": "2026-11-18",
+  "date_pub": "2026-11-18",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "diode laser",
+   "orthodontic pain",
+   "patient satisfaction",
+   "photobiomodulation",
+   "randomized clinical trial"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "OBJECTIVE",
+    "text": "To evaluate the effect of a two-session 810-nm diode laser photobiomodulation (PBM) protocol on pain and patient-reported satisfaction after initial fixed orthodontic appliance placement."
+   },
+   {
+    "label": "METHODS",
+    "text": "Thirty-eight patients receiving fixed orthodontic appliances were randomly assigned to a laser group or a sham group. The laser group received 810-nm diode laser PBM immediately after bracket bonding and again 24 h later. The sham group underwent the same procedure without laser emission. Pain was assessed using a 10-point visual analog scale (VAS) immediately after bonding and on days 1, 3, and 7. Self-reported satisfaction with dietary comfort, psychological comfort, and speech-related comfort was recorded on days 1, 3, and 7."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Pain scores were significantly lower in the laser group than in the sham group on day 1 (p < 0.001). No significant between-group differences were found immediately after bonding or on days 3 and 7 (p > 0.05). Both dietary satisfaction and speech-related comfort satisfaction were significantly higher in the laser group on days 1 and 7 (p < 0.001), whereas no significant difference was found on day 3. Psychological comfort was significantly higher in the laser group on day 1 (p < 0.001), 3 (p < 0.001) and 7 (p = 0.002). No adverse events were observed in either group."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "A two-session 810-nm diode laser PBM protocol reduced pain on day 1 after initial fixed orthodontic appliance placement and was associated with higher patient-reported satisfaction in dietary, psychological, and speech-related domains during the first week. This simple and well-tolerated protocol may serve as a useful nonpharmacological adjunct in early orthodontic pain management."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1177/25785478261509939"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43061644",
+  "doi": "10.1117/1.JBO.31.11.116501",
+  "pmcid": "PMC13784537",
+  "title": "Robust position-misalignment calibration architecture with spectral decoupling for Fourier ptychographic microscopy.",
+  "journal": "Journal of biomedical optics",
+  "journal_abbr": "J Biomed Opt",
+  "authors": [
+   "Liang J",
+   "Liu M",
+   "Wu Y",
+   "Zhen J",
+   "Yang Z",
+   "Wei J",
+   "Luo J"
+  ],
+  "first_affiliation": "Foshan University, School of Physics and Optoelectronic Engineering, Foshan, China.",
+  "date_online": "2026-11-18",
+  "date_pub": "2026-11-01",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [
+   "Calibration",
+   "Fourier Analysis",
+   "Microscopy",
+   "Algorithms",
+   "Image Processing, Computer-Assisted",
+   "Artifacts"
+  ],
+  "keywords": [
+   "Fourier ptychographic microscopy",
+   "light-emitting diode position misalignment correction",
+   "microscopy"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "SIGNIFICANCE",
+    "text": "Balancing computational efficiency and light-emitting diode calibration accuracy remains a major challenge in Fourier ptychographic microscopy (FPM)."
+   },
+   {
+    "label": "AIM",
+    "text": "We present a robust calibration framework based on spectral decoupling and artifact suppression, termed SAAS-FPM."
+   },
+   {
+    "label": "APPROACH",
+    "text": "Unlike conventional methods that estimate parameters directly from full or naively cropped spectra, the proposed method addresses the mechanism by which cross-shaped spectral coherence artifacts induced by compressed imaging regions destabilize the position-search process. By incorporating an improved periodic-plus-smooth image decomposition method as a physics-informed prior, SAAS-FPM decouples spatial boundary discontinuities from intrinsic structural features in low-resolution spectra. Localized mean interpolation and energy compensation are then used to restore spectral features affected by the artifact distribution, thereby reducing feature-extraction errors within compressed imaging regions."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Experimental results demonstrate that SAAS-FPM improves the trade-off between computational cost and calibration robustness: the proposed framework reduces execution time by more than 14.2% and decreases the simulated annealing search error by more than 51.1% while maintaining high localization precision."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "These findings provide a robust and efficient system-calibration strategy for large-scale, high-throughput computational microscopy."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1117/1.JBO.31.11.116501"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13784537"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13784537?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43067094",
+  "doi": "10.1016/j.ultras.2026.108385",
+  "pmcid": null,
+  "title": "Dual-model-optimized ultrasonic sensor for high-contrast under-display human fingerprint imaging.",
+  "journal": "Ultrasonics",
+  "journal_abbr": "Ultrasonics",
+  "authors": [
+   "Zhang J",
+   "Qin H",
+   "Pu C",
+   "Li X",
+   "Jiang X",
+   "Peng C"
+  ],
+  "first_affiliation": "School of Biomedical Engineering & State Key Laboratory of Advanced Medical Materials and Devices, ShanghaiTech University, Shanghai 201210, China.",
+  "date_online": "2026-11-18",
+  "date_pub": "2026-11-18",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Sensor design",
+   "Ultrasonic sensor",
+   "Ultrasonic wave propagation model",
+   "Under-display fingerprint imaging"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Under-display ultrasonic fingerprint sensing is a pivotal technology for next-generation biometric authentication, addressing critical challenges in mobile security and seamless user experience. However, severe signal degradation caused by multi-layer organic light-emitting diode (OLED) structures has long hindered its adoption, with acoustic impedance mismatches leading to dramatic wave reflection losses and diminished fingerprint contrast. Commercial under-display ultrasonic fingerprint sensors, most notably those deployed by Qualcomm in smartphones, provide the current practical benchmark for this technology; however, the public literature offers only limited transducer-level details for rigorous system-level comparison. This work presents a dual-model-optimized PZT-based under-OLED imaging module that combines OLED-stack acoustic transmission analysis with Krimholtz-Leedom-Matthaei (KLM) equivalent-circuit modeling to guide the selection of the operating frequency and transducer-layer parameters under the tested display load. Using this workflow, we developed a 64-element ultrasonic sensor array that demonstrates high-contrast fingerprint imaging through an actual OLED screen, with a measured ridge-valley intensity contrast ratio of approximately 5:1. The integrated segmentation algorithm enables clear visualization of representative fingerprint minutiae, supporting image-level feature extraction for future authentication workflows. Rather than claiming direct product-level replacement of commercial smartphone modules, this work establishes a quantitatively optimized, stack-aware PZT 1-3 composite array approach for under-OLED ultrasonic fingerprint imaging and verifies strong ridge-valley discrimination through a real OLED panel. This advancement provides a practical design methodology for adapting ultrasonic fingerprint sensors to multilayer OLED stacks and supports future integration studies for smartphones, wearables, and other smart terminals."
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43043322",
+  "doi": "10.1016/j.adaj.2026.07.020",
+  "pmcid": null,
+  "title": "The interpretation of heterogeneity in meta-analysis: A tutorial.",
+  "journal": "Journal of the American Dental Association (1939)",
+  "journal_abbr": "J Am Dent Assoc",
+  "authors": [
+   "Glick M"
+  ],
+  "first_affiliation": "Center for Integrative Global Oral Health, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA. Electronic address: glickmi@upenn.edu.",
+  "date_online": "2026-11-16",
+  "date_pub": "2026-11-16",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Cochran Q",
+   "GRADE",
+   "Heterogeneity",
+   "I(2) statistic",
+   "evidence-informed dentistry",
+   "forest plot",
+   "meta-analysis",
+   "prediction interval",
+   "systematic review",
+   "τ(2)"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "The volume of meta-analyses in the dental literature has grown rapidly, but clinicians and reviewers receive little training in interpreting heterogeneity. Heterogeneity is not a nuisance parameter; it is a diagnostic concept that determines whether a pooled estimate is meaningful or a statistical artifact."
+   },
+   {
+    "label": "TYPES OF STUDIES REVIEWED",
+    "text": "The author conducted a narrative review of the methodological literature on heterogeneity in meta-analysis and applied key principles to a worked example using low-level laser therapy for oral mucositis, illustrated with an annotated hypothetical forest plot, with the aim of providing a tutorial on heterogeneity."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Six patterns are commonly recognized in the methodological literature as sources of interpretive error: (1) statistical, methodological, and clinical heterogeneity are routinely conflated; (2) I2 is misread as an absolute measure of variance rather than a relative index requiring τ2 and a 95% CI; (3) the Cochran QP value is mistakenly attributed to I2 itself; (4) CIs around pooled estimates are treated as the range of plausible effects across settings, when only the prediction interval (PI) serves that role; (5) Grading of Recommendations Assessment, Development and Evaluation inconsistency ratings are driven mechanically by I2 thresholds rather than judgment about unexplained variability; and (6) narrative synthesis under the Synthesis Without Meta-analysis framework is treated as a fallback rather than a methodologically sound alternative."
+   },
+   {
+    "label": "CONCLUSIONS AND PRACTICAL IMPLICATIONS",
+    "text": "Judicious interpretation by authors, reviewers, and readers requires triangulating Cochran Q and its P value, I2 with its CI, τ2, and the PI. No single statistic suffices, and the PI is the most clinically actionable of the 4 statistics."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1016/j.adaj.2026.07.020"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
   "pmid": "43007501",
   "doi": "10.1007/s00784-026-07238-3",
   "pmcid": null,
@@ -420,6 +1002,68 @@
    }
   ],
   "fetched": "2026-11-17"
+ },
+ {
+  "pmid": "43060881",
+  "doi": "10.3389/froh.2026.1996808",
+  "pmcid": "PMC13783060",
+  "title": "Light-based therapies in dentistry: applications in cariology, endodontics, and periodontology.",
+  "journal": "Frontiers in oral health",
+  "journal_abbr": "Front Oral Health",
+  "authors": [
+   "Hong F",
+   "Niu JY"
+  ],
+  "first_affiliation": "Huizhou Stomatology Hospital, Huizhou, China.",
+  "date_online": "2026-11-05",
+  "date_pub": "2026-01-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "antimicrobial photodynamic therapy",
+   "cariology",
+   "dental lasers",
+   "endodontics",
+   "minimally invasive dentistry",
+   "periodontology",
+   "photoactivated disinfection",
+   "photobiomodulation"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Light-based therapies are increasingly used in dentistry as adjunctive and minimally invasive tools. They support diagnosis, microbial reduction, tissue modulation, pain control and healing. This mini review summarizes their applications in cariology, endodontics and periodontology. The main modalities include dental lasers, antimicrobial photodynamic therapy, photoactivated disinfection and photobiomodulation. In cariology, light-based therapies assist in caries detection, selective caries removal, bacterial reduction, enamel and dentin modification, remineralisation support and dentin hypersensitivity management. However, most data are derived from in vitro or short-term clinical studies, and their long-term benefits over conventional preventive and restorative care remain unclear. In endodontics, laser-assisted irrigation and antimicrobial photodynamic therapy may improve root canal disinfection and biofilm disruption and may be helpful in managing persistent infections. However, differences in wavelengths, power settings, photosensitizers and clinical protocols limit standardisation. In periodontology, light-based therapies have been studied as adjuncts to scaling and root planing, peri-implant disease treatment, postoperative pain control and soft-tissue healing. Current evidence suggests short-term reductions in inflammation and microbial load, but clinical outcomes remain variable. Important limitations include unclear indications, variable dosimetry, thermal safety concerns, high cost and limited long-term clinical evidence. Standardised protocols and high-quality randomised clinical trials are needed. Future progress will depend on precise dosimetry, device standardisation, and improved understanding of light-tissue-microbe interactions. Overall, light-based therapies show promising potential in dentistry, with existing literature supporting their various applications and effects; however, substantial heterogeneity in study designs and treatment parameters precludes standardised recommendations."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.3389/froh.2026.1996808"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13783060"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13783060?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
  },
  {
   "pmid": "42975697",

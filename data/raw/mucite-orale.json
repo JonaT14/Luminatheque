@@ -1,5 +1,126 @@
 [
  {
+  "pmid": "43057549",
+  "doi": "10.1016/j.pdpdt.2026.105723",
+  "pmcid": null,
+  "title": "Photobiomodulation for Oral Mucositis Prevention in Hematopoietic Stem Cell Transplantation: Evidence and Unresolved Supportive-Care Outcomes.",
+  "journal": "Photodiagnosis and photodynamic therapy",
+  "journal_abbr": "Photodiagnosis Photodyn Ther",
+  "authors": [
+   "Eftekharian S",
+   "Rastkar S"
+  ],
+  "first_affiliation": "Department of Orthodontics, School of Dentistry, Iran University of Medical Sciences, Tehran, Iran. Electronic address: dr.shahriar.eftekharian92@gmail.com.",
+  "date_online": "2026-11-19",
+  "date_pub": "2026-11-19",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "causal inference",
+   "dosimetry",
+   "hematopoietic stem cell transplantation",
+   "oral mucositis",
+   "photobiomodulation",
+   "supportive care"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "PURPOSE",
+    "text": "To evaluate whether protocol-defined photobiomodulation therapy (PBMT) for prevention of oral mucositis (OM) in hematopoietic stem cell transplantation (HSCT) has demonstrable benefits beyond mucosal endpoints."
+   },
+   {
+    "label": "METHODS",
+    "text": "A critical narrative synthesis prioritizes HSCT trials, guidelines and recent evidence; source identification and unrecorded systematic-search elements are explicitly distinguished."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Mucositis prevention has the strongest direct support. In POMFITT (n = 30), severe OM occurred in 0/15 PBMT-treated and 4/15 control patients (absolute difference -26.7 percentage points), but this sparse comparison is sensitive to the statistical test used. Hospitalization, physical function and quality of life did not differ significantly at discharge. Pediatric controlled and abstract-only findings are indirect or preliminary for several supportive-care endpoints. Associations between OM and infection, opioid use or nutrition cannot establish causal PBMT effects."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "PBMT should be positioned as a preventive OM intervention in defined HSCT settings, not an established multidimensional supportive-care treatment. Adequately powered endpoint-specific studies with reproducible optical dosimetry are needed."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1016/j.pdpdt.2026.105723"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43043322",
+  "doi": "10.1016/j.adaj.2026.07.020",
+  "pmcid": null,
+  "title": "The interpretation of heterogeneity in meta-analysis: A tutorial.",
+  "journal": "Journal of the American Dental Association (1939)",
+  "journal_abbr": "J Am Dent Assoc",
+  "authors": [
+   "Glick M"
+  ],
+  "first_affiliation": "Center for Integrative Global Oral Health, School of Dental Medicine, University of Pennsylvania, Philadelphia, PA. Electronic address: glickmi@upenn.edu.",
+  "date_online": "2026-11-16",
+  "date_pub": "2026-11-16",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Cochran Q",
+   "GRADE",
+   "Heterogeneity",
+   "I(2) statistic",
+   "evidence-informed dentistry",
+   "forest plot",
+   "meta-analysis",
+   "prediction interval",
+   "systematic review",
+   "τ(2)"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "The volume of meta-analyses in the dental literature has grown rapidly, but clinicians and reviewers receive little training in interpreting heterogeneity. Heterogeneity is not a nuisance parameter; it is a diagnostic concept that determines whether a pooled estimate is meaningful or a statistical artifact."
+   },
+   {
+    "label": "TYPES OF STUDIES REVIEWED",
+    "text": "The author conducted a narrative review of the methodological literature on heterogeneity in meta-analysis and applied key principles to a worked example using low-level laser therapy for oral mucositis, illustrated with an annotated hypothetical forest plot, with the aim of providing a tutorial on heterogeneity."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Six patterns are commonly recognized in the methodological literature as sources of interpretive error: (1) statistical, methodological, and clinical heterogeneity are routinely conflated; (2) I2 is misread as an absolute measure of variance rather than a relative index requiring τ2 and a 95% CI; (3) the Cochran QP value is mistakenly attributed to I2 itself; (4) CIs around pooled estimates are treated as the range of plausible effects across settings, when only the prediction interval (PI) serves that role; (5) Grading of Recommendations Assessment, Development and Evaluation inconsistency ratings are driven mechanically by I2 thresholds rather than judgment about unexplained variability; and (6) narrative synthesis under the Synthesis Without Meta-analysis framework is treated as a fallback rather than a methodologically sound alternative."
+   },
+   {
+    "label": "CONCLUSIONS AND PRACTICAL IMPLICATIONS",
+    "text": "Judicious interpretation by authors, reviewers, and readers requires triangulating Cochran Q and its P value, I2 with its CI, τ2, and the PI. No single statistic suffices, and the PI is the most clinically actionable of the 4 statistics."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1016/j.adaj.2026.07.020"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
   "pmid": "42969421",
   "doi": "10.1111/scd.70279",
   "pmcid": "PMC13725932",

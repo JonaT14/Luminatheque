@@ -1,5 +1,74 @@
 [
  {
+  "pmid": "43049942",
+  "doi": "10.1007/s10103-026-05094-x",
+  "pmcid": "PMC13782023",
+  "title": "Clinical research progress in the application of laser therapy for ankyloglossia.",
+  "journal": "Lasers in medical science",
+  "journal_abbr": "Lasers Med Sci",
+  "authors": [
+   "Yang G",
+   "Liu Z",
+   "Wu J",
+   "Zhang M",
+   "Li Q",
+   "Jing B"
+  ],
+  "first_affiliation": "Department of Stomatology, Affiliated Hospital of North Sichuan Medical College, Nanchong, China. YGJ@nsmc.edu.cn.",
+  "date_online": "2026-11-18",
+  "date_pub": "2026-11-18",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [
+   "Humans",
+   "Ankyloglossia",
+   "Laser Therapy",
+   "Oral Frenectomy"
+  ],
+  "keywords": [
+   "Ankyloglossia",
+   "Laser therapy",
+   "Lingual frenulum",
+   "Minimally invasive surgery",
+   "Orofacial myofunctional rehabilitation",
+   "Surgical standardization"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "Ankyloglossia restricts breastfeeding, speech articulation and maxillofacial skeletal development. Although laser-assisted surgical correction for ankyloglossia has replaced conventional scalpel-based frenotomy as the first-line intervention, inconsistent operation parameters, unpredictable thermal tissue injury and high postoperative re-adhesion rates hinder standardized clinical popularization. This narrative review systematically integrates current clinical evidence of multiple laser modalities and establishes standardized stratified diagnosis-treatment and multi-dimensional evaluation frameworks for laser-assisted ankyloglossia correction. This narrative review was conducted, referring to key reporting items of extended PRISMA-N for narrative reviews to improve report transparency, rather than complying with full systematic-review PRISMA procedural standards. Clinical studies published from January 2021 to June 2026 were retrieved from six authoritative databases (SCIE, ESCI, Scopus, PubMed, PMC, DOAJ), covering five mainstream dental laser systems. Independent literature screening, data extraction and bias evaluation were completed to synthesize cross-age clinical evidence of different laser therapies. Lasers yield minimally invasive advantages through photothermal, photochemical, and photobiomodulation (PBM) mechanisms, with minimal intraoperative tissue trauma, reliable haemostasis, and attenuated postoperative inflammation. Distinct laser wavelengths present unique tissue absorption characteristics and targeted clinical indications. This study innovatively constructs a three-dimensional stratified treatment model, multi-faceted multi-dimensional efficacy evaluation system and individualized dynamic laser parameter regulation protocols to resolve current clinical inconsistencies in surgical practice. Laser-assisted surgical correction for ankyloglossia represents a safe and promising minimally-invasive intervention. Individualized laser selection and dynamic parameter optimization may improve surgical precision and long-term clinical outcomes. The proposed theoretical frameworks await prospective clinical validation before achieving real-world standardization. Establishing unified clinical operation specifications and improving accessibility of high-precision laser devices will be required to support future potential standardized, large-scale clinical application of laser therapy for ankyloglossia. This work provides theoretically-derived stratified laser treatment protocols suitable for primary and tertiary dental institutions. Such protocols have the theoretical potential to reduce thermal injury and postoperative re-adhesion risks, though prospective clinical verification is still required. It addresses the absence of unified postoperative rehabilitation criteria and proposes low-cost laser equipment and artificial intelligence (AI)-assisted parameter matching as promising future directions to realize precise, accessible minimally invasive management for patients of all age groups."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by-nc-nd",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s10103-026-05094-x"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13782023"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13782023?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
   "pmid": "42989030",
   "doi": "10.1007/s10103-026-05089-8",
   "pmcid": null,

@@ -1,5 +1,155 @@
 [
  {
+  "pmid": "43049921",
+  "doi": "10.1007/s00417-026-07612-7",
+  "pmcid": null,
+  "title": "Efficacy and safety of current interventions for high myopia control in children: a systematic review and network meta-analysis.",
+  "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+  "journal_abbr": "Graefes Arch Clin Exp Ophthalmol",
+  "authors": [
+   "Li L",
+   "Xiao K",
+   "Cui H",
+   "Hu W",
+   "Wang W",
+   "Ding X",
+   "Chen Y",
+   "Huang Y",
+   "Loke WT",
+   "Aung YY",
+   "He X",
+   "Xu X",
+   "Saw SM",
+   "Ohno-Matsui K",
+   "He M",
+   "Congdon N",
+   "Tham YC",
+   "Zhu Z"
+  ],
+  "first_affiliation": "Department of Ophthalmology, Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China. lleye1988@gmail.com.",
+  "date_online": "2026-11-18",
+  "date_pub": "2026-11-18",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "Axial length",
+   "Children",
+   "High myopia",
+   "Myopia control",
+   "Refractive error"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "BACKGROUND",
+    "text": "High myopia in children and adolescents is a growing public health concern associated with increased risk of irreversible vision impairment. Identifying the most effective and safe intervention to slow its progression is critical."
+   },
+   {
+    "label": "METHODS",
+    "text": "We searched PubMed, EMBASE, Scopus, Cochrane Library, ClinicalTrials.gov, and WHO ICTRP for randomized controlled trials and observational studies (NOS score ≥ 6 or low/moderate ROBINS-I bias risk) published until March 16, 2025. Twelve interventions were evaluated."
+   },
+   {
+    "label": "PRIMARY OUTCOMES",
+    "text": "annual change in refractive error (D/year) and axial length (mm/year)."
+   },
+   {
+    "label": "SECONDARY OUTCOMES",
+    "text": "adverse events. Random-effects pairwise and network meta-analyses were performed. Inconsistency (node-splitting) and sensitivity analyses (restricting follow-up duration, heterogeneity, and high myopia definition [ ≤ - 6.00D]) assessed robustness."
+   },
+   {
+    "label": "RESULTS",
+    "text": "Twenty-eight studies (2,885 eyes; 2,202 participants) were included. Repeated Low-level Red Light (RLRL) showed the greatest reduction in axial elongation (-0.43 mm; 95% CI, - 0.51 to - 0.36) and refractive progression (+ 0.95 D; +0.68 to + 1.22) versus control. Rigid gas permeable lenses (RGP: - 0.13 mm [-0.21 to - 0.05]; +0.83 D [+ 0.52 to + 1.14]), orthokeratology (-0.19 mm [-0.26 to - 0.12]; +0.36 D [+ 0.14 to + 0.58]), and posterior scleral reinforcement (PSR: - 0.18 mm [-0.24 to - 0.13]; +0.55 D [+ 0.38 to + 0.73]) were also effective. Multifocal soft contact lenses modestly improved refraction (+ 0.42 D [+ 0.05 to + 0.78]) but not axial length (-0.11 mm [-0.24 to + 0.02]). Atropine 0.01% and DIMS lenses did not significantly affect refraction. RLRL ranked highest (SUCRA: 95.0% axial length; 89.6% refraction). Results were consistent in sensitivity analyses. Adverse events were mild, with no sight-threatening complications."
+   },
+   {
+    "label": "CONCLUSIONS",
+    "text": "RLRL showed the largest estimated effects and ranked highest among the evaluated interventions for one-year control of pediatric high myopia, while PSR, RGP, and orthokeratology also showed potential benefits. These comparative findings should be interpreted cautiously given the predominance of non-randomized evidence, and further head-to-head RCTs are needed to confirm the relative efficacy and long-term safety of these interventions."
+   },
+   {
+    "label": "KEY MESSAGES",
+    "text": "WHAT IS KNOWN : Evidence for myopia-control interventions is well established in children with low-to-moderate myopia, but comparative evidence specifically for pediatric high myopia remains limited."
+   },
+   {
+    "label": "WHAT IS NEW",
+    "text": "This systematic review and network meta-analysis compares 12 single and combined interventions for pediatric high myopia across 28 studies. Repeated low-level red-light therapy showed the largest estimated effects and ranked highest for both refractive and axial-length control, while posterior scleral reinforcement, rigid gas-permeable lenses, and orthokeratology also showed potential benefits. Evidence for 0.01% atropine and DIMS lenses was limited, and the comparative estimates should be interpreted cautiously because most included studies were non-randomized."
+   }
+  ],
+  "open_access": false,
+  "has_pdf": false,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1007/s00417-026-07612-7"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
+  "pmid": "43054670",
+  "doi": "10.1155/joph/9646505",
+  "pmcid": "PMC13778768",
+  "title": "Research Progress and Safety Controversies of Repeated Low-Level Red Light Therapy for Myopia Prevention and Control.",
+  "journal": "Journal of ophthalmology",
+  "journal_abbr": "J Ophthalmol",
+  "authors": [
+   "Long X",
+   "Yi X"
+  ],
+  "first_affiliation": "Department of Ophthalmology Xinjiang Medical University Affiliated First Hospital Urumqi Xinjiang China.",
+  "date_online": "2026-11-18",
+  "date_pub": "2026-01-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "axial elongation",
+   "choroidal thickening",
+   "mitochondrial metabolism",
+   "myopia prevention and control",
+   "repeated low-level red light therapy",
+   "safety"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "",
+    "text": "In recent years, the global prevalence of myopia has continued to rise. Complications associated with high myopia have become important risk factors for vision impairment, underscoring the need to identify safe and effective strategies for myopia prevention and control. Repeated low-level red light (RLRL) therapy, an emerging nonpharmacological intervention, has shown potential to slow axial elongation and mitigate myopia progression. This review systematically summarizes recent advances in RLRL research. Starting from the physical properties of red light, we outline putative mechanisms, including activation of mitochondrial metabolism, modulation of dopamine and nitric oxide signaling, and structural responses such as choroidal thickening and scleral remodeling. We further synthesize evidence on efficacy and parameter optimization from animal models and randomized controlled clinical studies. Although current evidence suggests that RLRL is generally well tolerated in the short term, the retinal structural effects of long-term cumulative exposure and the boundaries of dose-related safety remain debated. Future work should further clarify its safety profile and indications based on standardized treatment parameters, long-term follow-up, and multimodal structural-functional assessment."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1155/joph/9646505"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13778768"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13778768?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
+ },
+ {
   "pmid": "43009159",
   "doi": "10.1136/bmjophth-2026-002934",
   "pmcid": "PMC13756410",
@@ -3566,6 +3716,90 @@
    }
   ],
   "fetched": "2026-11-08"
+ },
+ {
+  "pmid": "43047012",
+  "doi": "10.1111/jocd.71047",
+  "pmcid": "PMC13354859",
+  "title": "Photobiomodulation Therapy in Facial Aesthetic Surgery: A Systematic Review of Efficacy and Safety.",
+  "journal": "Journal of cosmetic dermatology",
+  "journal_abbr": "J Cosmet Dermatol",
+  "authors": [
+   "Knoedler L",
+   "Fenske J",
+   "Taggiasco A",
+   "Gaillard R",
+   "Machado GF",
+   "Knoedler S",
+   "Brown T",
+   "Yang D",
+   "Sadati K",
+   "Schaschinger T",
+   "Oubari H",
+   "Cetrulo CL",
+   "Lellouch AG"
+  ],
+  "first_affiliation": "Division of Plastic and Reconstructive Surgery Cedars Sinai Hospital Los Angeles USA.",
+  "date_online": "2026-07-10",
+  "date_pub": "2026-07-01",
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [],
+  "keywords": [
+   "clinical global impression of change (CGIC)",
+   "light‐emitting diode (LED)",
+   "low‐level laser therapy (LLLT)",
+   "near‐infrared (NIR)",
+   "photobiomodulation therapy (PBMT)",
+   "visual analogue scale (VAS)",
+   "wound‐healing grade (WH)"
+  ],
+  "language": "eng",
+  "abstract": [
+   {
+    "label": "INTRODUCTION",
+    "text": "Advances in facial plastic surgery have increased interest in therapies that expedite recovery and enhance comfort. PBMT, including low-level laser/light and LED modalities, has been proposed to reduce pain, edema, and ecchymosis and support wound healing after facial procedures. However, clinical adoption is limited by heterogeneous dosing parameters, inconsistent nomenclature, and nonstandardized outcome measures. This study synthesizes clinical evidence on the efficacy, time course, safety, and treatment parameters of PBMT to guide standardization and trial design."
+   },
+   {
+    "label": "METHODS",
+    "text": "We conducted a PRISMA 2020-guided systematic review of PubMed, Embase, Cochrane, and Web of Science for English-language studies using PBMT after blepharoplasty, rhinoplasty, or facelift with measurable outcomes and parameters. In vitro/cadaver/animal studies, ablative-laser primary interventions, and non-original studies were excluded."
+   },
+   {
+    "label": "RESULTS",
+    "text": "The search retrieved 940 articles; after removing 83 duplicates, 857 records were screened and six studies met inclusion criteria. A total of 298 patients were reported, of whom 155 received PBMT; 83 underwent blepharoplasty, 71 nasal surgery, and 1 facelift. PBMT was associated with reduced ecchymosis at POD7, accelerated POR on EBEC composites, POD7 wound-healing grades, and lower pain/swelling on VAS in periocular and septoplasty cohorts; between-group rhinoplasty PI was neutral despite within-group improvement over time. Reporting of parameters and outcome scales was heterogeneous; adverse events were rare."
+   },
+   {
+    "label": "CONCLUSION",
+    "text": "PBMT appears to reduce pain, edema, ecchymosis, and improve wound healing after facial surgery; however, current evidence is sparse and requires validation in larger cohorts. Standardized protocols and adequately powered blinded trials are needed to confirm efficacy."
+   }
+  ],
+  "open_access": true,
+  "license": "cc by",
+  "has_pdf": true,
+  "cited_by": 0,
+  "fulltext_urls": [
+   {
+    "site": "DOI",
+    "style": "doi",
+    "availability": "Subscription required",
+    "url": "https://doi.org/10.1111/jocd.71047"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "html",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13354859"
+   },
+   {
+    "site": "Europe_PMC",
+    "style": "pdf",
+    "availability": "Open access",
+    "url": "https://europepmc.org/articles/PMC13354859?pdf=render"
+   }
+  ],
+  "fetched": "2026-11-23"
  },
  {
   "pmid": "42412099",
