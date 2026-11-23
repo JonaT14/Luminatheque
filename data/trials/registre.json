@@ -730,6 +730,69 @@
    ]
   },
   {
+   "nct": "NCT07953491",
+   "title": "Effectiveness of High-Intensity Laser Therapy in Patients With Diabetic Peripheral Neuropathy : Randomized, Placebo-Controlled Trial",
+   "official": "Effectiveness of High-Intensity Laser Therapy in Patients With Diabetic Peripheral Neuropathy : Randomized, Placebo-Controlled Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-11-18",
+   "end": "2027-02-12",
+   "completion": "2027-02-12",
+   "first_posted": "2026-11-23",
+   "updated": "2026-11-23",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 44,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Diabetic Peripheral Neuropathy"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "High-Intensity Laser Therapy (HILT)"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham High-Intensity Laser Therapy"
+    },
+    {
+     "type": "OTHER",
+     "name": "Physiotherapy and Exercise Program"
+    }
+   ],
+   "summary": "Diabetic peripheral neuropathy (DPN) is one of the most common chronic complications of diabetes mellitus. The main symptoms of DPN include numbness, pain, paresthesia, and burning sensations in the extremities, which can significantly affect patients' quality of life. Pharmacological treatments for DPN are associated with uncertain therapeutic benefits, potential side effects, and high costs. Previous clinical studies have reported that low-level laser therapy (LLLT) may relieve clinical symptoms and improve nerve function. However, studies investigating the effects of high-intensity laser therapy (HILT), which promotes tissue repair through its biostimulatory effects, on the symptoms of DPN remain limited.\n\nThe aim of this study is to investigate the clinical effectiveness of high-intensity laser therapy combined with exercise on pain, pain coping strategies, functional mobility, and q",
+   "outcome": "Change in Pain Assessed by the McGill Pain Questionnaire",
+   "sponsor": "European University of Lefke",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Beliz Belgen Kaygısız, PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "European University of Lefke"
+    }
+   ],
+   "countries": [
+    "Cyprus"
+   ],
+   "sites": [
+    {
+     "facility": "Yenikent Fizik Tedavi Rehabilitasyon & Sağlıklı Yaşam Merkezi",
+     "city": "Nicosia",
+     "country": "Cyprus"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "neuropathie-peripherique"
+   ]
+  },
+  {
    "nct": "NCT07594678",
    "title": "Minoxidil With or Without Low-Level Red-Light Therapy for Improving Chemotherapy-Induced Alopecia in Breast Cancer Patients",
    "official": "A Pilot Study of Low-Level Red-Light Therapy Combined With Topical Minoxidil Compared With Topical Minoxidil Alone in Breast Cancer Patients With Chemotherapy-Induced Alopecia",
@@ -2184,63 +2247,6 @@
    ]
   },
   {
-   "nct": "NCT07790094",
-   "title": "Segmental Laser Acupuncture for Constipation and Sleep in Patients With Parkinson's Disease",
-   "official": "Segmental Laser Acupuncture at T10-L2 and S2-S4 for Gut-Brain Axis Modulation in Parkinson's Disease: A Randomized Double-Blind Clinical Trial on Constipation and Sleep Outcomes",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-09-01",
-   "end": "2027-08-31",
-   "completion": "2027-08-31",
-   "first_posted": "2026-08-27",
-   "updated": "2026-08-27",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 60,
-   "allocation": "RANDOMIZED",
-   "masking": "DOUBLE",
-   "conditions": [
-    "Parkinson's Disease"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "TI-816-3E3 Portable Laser Phototherapy Device"
-    },
-    {
-     "type": "DEVICE",
-     "name": "TI-816-3E3 Portable Laser Phototherapy Device - Sham (0 J/cm²)"
-    }
-   ],
-   "summary": "Parkinson's disease (PD) is characterized not only by motor symptoms but also by common and clinically significant non-motor symptoms, including constipation and sleep disturbances, which can substantially impair quality of life. The concept of the \"gut-brain axis\" describes bidirectional communication among the central nervous system, autonomic nervous system, enteric nervous system, and gut microbiota. Increasing evidence from animal models suggests that the gut-brain axis may play an important role in the pathophysiology and progression of PD.\n\nGiven the central role of autonomic nervous system regulation in the gut-brain axis, this study will use laser acupuncture as a safe, non-invasive form of photobiomodulation (PBM) with potential neuromodulatory effects. Based on the concept of segmental neuromodulation, laser stimulation will be applied to the thoracolumbar paraspinal regions (",
-   "outcome": "Change in Constipation Scoring System (CSS; Agachan score)",
-   "sponsor": "China Medical University Hospital",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Yu-Chen Lee",
-    "title": "Director, Department of Acupuncture",
-    "affiliation": "China Medical University Hospital"
-   },
-   "officials": [],
-   "countries": [
-    "Taiwan"
-   ],
-   "sites": [
-    {
-     "facility": "China Medical University Hospital",
-     "city": "Taichung",
-     "country": "Taiwan"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "neurologie"
-   ]
-  },
-  {
    "nct": "NCT07224607",
    "title": "Transcranial Photobiomodulation (tPBM) in Alzheimer's Disease Study",
    "official": "A Longitudinal Study Investigating the Effects of Photobiomodulation (PBM) on Cognitive Function and Alzheimer's Disease (AD)-Related Biomarkers in Individuals With Mild Cognitive Impairment (MCI) or Dementia Due to AD",
@@ -2292,6 +2298,63 @@
      "facility": "CSMC",
      "city": "Los Angeles",
      "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "neurologie"
+   ]
+  },
+  {
+   "nct": "NCT07790094",
+   "title": "Segmental Laser Acupuncture for Constipation and Sleep in Patients With Parkinson's Disease",
+   "official": "Segmental Laser Acupuncture at T10-L2 and S2-S4 for Gut-Brain Axis Modulation in Parkinson's Disease: A Randomized Double-Blind Clinical Trial on Constipation and Sleep Outcomes",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-09-01",
+   "end": "2027-08-31",
+   "completion": "2027-08-31",
+   "first_posted": "2026-08-27",
+   "updated": "2026-08-27",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Parkinson's Disease"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "TI-816-3E3 Portable Laser Phototherapy Device"
+    },
+    {
+     "type": "DEVICE",
+     "name": "TI-816-3E3 Portable Laser Phototherapy Device - Sham (0 J/cm²)"
+    }
+   ],
+   "summary": "Parkinson's disease (PD) is characterized not only by motor symptoms but also by common and clinically significant non-motor symptoms, including constipation and sleep disturbances, which can substantially impair quality of life. The concept of the \"gut-brain axis\" describes bidirectional communication among the central nervous system, autonomic nervous system, enteric nervous system, and gut microbiota. Increasing evidence from animal models suggests that the gut-brain axis may play an important role in the pathophysiology and progression of PD.\n\nGiven the central role of autonomic nervous system regulation in the gut-brain axis, this study will use laser acupuncture as a safe, non-invasive form of photobiomodulation (PBM) with potential neuromodulatory effects. Based on the concept of segmental neuromodulation, laser stimulation will be applied to the thoracolumbar paraspinal regions (",
+   "outcome": "Change in Constipation Scoring System (CSS; Agachan score)",
+   "sponsor": "China Medical University Hospital",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Yu-Chen Lee",
+    "title": "Director, Department of Acupuncture",
+    "affiliation": "China Medical University Hospital"
+   },
+   "officials": [],
+   "countries": [
+    "Taiwan"
+   ],
+   "sites": [
+    {
+     "facility": "China Medical University Hospital",
+     "city": "Taichung",
+     "country": "Taiwan"
     }
    ],
    "n_sites": 1,
@@ -2406,12 +2469,12 @@
    "title": "Acceleration of Tooth Movement Using PRP and Photobiomodulation With Clear Aligners",
    "official": "Evaluation and Comparison of Acceleration of Tooth Movement Using Platelet-Rich Plasma (PRP) and Photobiomodulation (PBM) With Clear Orthodontic Appliances (Aligners): A Randomized Controlled Clinical Trial",
    "acronym": null,
-   "status": "NOT_YET_RECRUITING",
+   "status": "RECRUITING",
    "start": "2026-09-01",
    "end": "2027-04-01",
    "completion": "2027-05-01",
    "first_posted": "2026-08-31",
-   "updated": "2026-08-31",
+   "updated": "2026-11-23",
    "type": "INTERVENTIONAL",
    "phases": [
     "PHASE1",
@@ -2584,59 +2647,6 @@
    ]
   },
   {
-   "nct": "NCT07079969",
-   "title": "Effects of Photobiomodulation on Inflammation and Chronic Pain in Knee Osteoarthritis (EPIC-KO)",
-   "official": "Effects of Photobiomodulation on Inflammation and Chronic Pain in Knee Osteoarthritis",
-   "acronym": "EPIC-KO",
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-09",
-   "end": "2027-09",
-   "completion": "2027-09",
-   "first_posted": "2025-07-23",
-   "updated": "2026-08-20",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 30,
-   "allocation": "RANDOMIZED",
-   "masking": "DOUBLE",
-   "conditions": [
-    "Chronic Knee Pain"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Photobiomodulation therapy (PBM) device"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Sham PBM device"
-    }
-   ],
-   "summary": "This study aims to determine analgesic and anti-inflammatory effects of dual-wavelength PBM in people with symptomatic knee OA.",
-   "outcome": "Change in Knee Pain Intensity (Numeric Rating Scale)",
-   "sponsor": "University of Florida",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": null,
-   "officials": [],
-   "countries": [
-    "United States"
-   ],
-   "sites": [
-    {
-     "facility": "University of Florida",
-     "city": "Gainesville",
-     "country": "United States"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "musculo-squelettique"
-   ]
-  },
-  {
    "nct": "NCT07832422",
    "title": "Ischemic Compression and Low-Level Laser Therapy for Myofascial Low Back Pain",
    "official": "Effects of Ischemic Compression and Low-Level Laser Therapy in Combination With Exercise Versus Exercise Alone in Managing Myofascial Low Back Pain: A Randomized Controlled Study",
@@ -2696,6 +2706,59 @@
     {
      "facility": "Attia Rehabilitation Pt Pc",
      "city": "Brooklyn",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT07079969",
+   "title": "Effects of Photobiomodulation on Inflammation and Chronic Pain in Knee Osteoarthritis (EPIC-KO)",
+   "official": "Effects of Photobiomodulation on Inflammation and Chronic Pain in Knee Osteoarthritis",
+   "acronym": "EPIC-KO",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-09",
+   "end": "2027-09",
+   "completion": "2027-09",
+   "first_posted": "2025-07-23",
+   "updated": "2026-08-20",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 30,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Chronic Knee Pain"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Photobiomodulation therapy (PBM) device"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham PBM device"
+    }
+   ],
+   "summary": "This study aims to determine analgesic and anti-inflammatory effects of dual-wavelength PBM in people with symptomatic knee OA.",
+   "outcome": "Change in Knee Pain Intensity (Numeric Rating Scale)",
+   "sponsor": "University of Florida",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "University of Florida",
+     "city": "Gainesville",
      "country": "United States"
     }
    ],
@@ -3059,64 +3122,6 @@
    ]
   },
   {
-   "nct": "NCT07170397",
-   "title": "Effects of Laser Acupuncture Treatment in Hypertension Haemodialysis Patients",
-   "official": "Effects of a Single Session of Laser Acupuncture Treatment on Blood Pressure and in Hypertension Haemodialysis Patients",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-08-03",
-   "end": "2027-10-01",
-   "completion": "2027-12-01",
-   "first_posted": "2025-09-12",
-   "updated": "2026-08-04",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 60,
-   "allocation": "NA",
-   "masking": "NONE",
-   "conditions": [
-    "Hypertension"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Acupuncture Laser Therapy"
-    }
-   ],
-   "summary": "The purpose of this study is to find the effect of acupuncture laser therapy on Blood Pressure in Hypertension Haemodialysis Patients",
-   "outcome": "Change in systolic and diastolic blood pressure",
-   "sponsor": "Sinai University",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Amany Gomaa Atiaa",
-    "title": "Lecturer in Physical Therapy",
-    "affiliation": "Sinai University"
-   },
-   "officials": [],
-   "countries": [
-    "Egypt"
-   ],
-   "sites": [
-    {
-     "facility": "Cairo university- Faculity of physical therapy",
-     "city": "Cairo",
-     "country": "Egypt"
-    },
-    {
-     "facility": "Sinai university- Faculity of physical therapy",
-     "city": "El Arish",
-     "country": "Egypt"
-    }
-   ],
-   "n_sites": 2,
-   "matched": [
-    "cardiologie"
-   ]
-  },
-  {
    "nct": "NCT07123285",
    "title": "Effect of Photobiomodulation on Healing of Venous Leg Ulcers",
    "official": "Effect of Photobiomodulation on the Healing of Lower-Limb Venous Ulcers: A Randomized, Double-Blind, Controlled Clinical Trial",
@@ -3188,6 +3193,64 @@
    ]
   },
   {
+   "nct": "NCT07170397",
+   "title": "Effects of Laser Acupuncture Treatment in Hypertension Haemodialysis Patients",
+   "official": "Effects of a Single Session of Laser Acupuncture Treatment on Blood Pressure and in Hypertension Haemodialysis Patients",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-08-03",
+   "end": "2027-10-01",
+   "completion": "2027-12-01",
+   "first_posted": "2025-09-12",
+   "updated": "2026-08-04",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 60,
+   "allocation": "NA",
+   "masking": "NONE",
+   "conditions": [
+    "Hypertension"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Acupuncture Laser Therapy"
+    }
+   ],
+   "summary": "The purpose of this study is to find the effect of acupuncture laser therapy on Blood Pressure in Hypertension Haemodialysis Patients",
+   "outcome": "Change in systolic and diastolic blood pressure",
+   "sponsor": "Sinai University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Amany Gomaa Atiaa",
+    "title": "Lecturer in Physical Therapy",
+    "affiliation": "Sinai University"
+   },
+   "officials": [],
+   "countries": [
+    "Egypt"
+   ],
+   "sites": [
+    {
+     "facility": "Cairo university- Faculity of physical therapy",
+     "city": "Cairo",
+     "country": "Egypt"
+    },
+    {
+     "facility": "Sinai university- Faculity of physical therapy",
+     "city": "El Arish",
+     "country": "Egypt"
+    }
+   ],
+   "n_sites": 2,
+   "matched": [
+    "cardiologie"
+   ]
+  },
+  {
    "nct": "NCT07099352",
    "title": "Efficacy of of Acupuncture Laser Therapy on Hemodialysis Patients",
    "official": "Efficacy of of Acupuncture Laser Therapy on Neck Pain Severity and Quality of Life in Hemodialysis Patients",
@@ -3236,70 +3299,6 @@
     }
    ],
    "n_sites": 1,
-   "matched": [
-    "musculo-squelettique"
-   ]
-  },
-  {
-   "nct": "NCT07666061",
-   "title": "Laser vs Lontophoresis in KOA",
-   "official": "Effectiveness of Laser Therapy Versus Lontophoresis in the Management of Knee Osteoarthritis: A Randomized Controlled Trial",
-   "acronym": null,
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-08-01",
-   "end": "2026-10-30",
-   "completion": "2027-04-01",
-   "first_posted": "2026-06-24",
-   "updated": "2026-06-24",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 66,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Knee Arthritis Osteoarthritis"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Low-Level Laser Therapy"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Iontophoresis"
-    },
-    {
-     "type": "OTHER",
-     "name": "Conventional Physical Therapy Only"
-    }
-   ],
-   "summary": "This randomized controlled trial aims to compare the effectiveness of laser therapy and iontophoresis in patients with knee osteoarthritis. The study will evaluate pain reduction, functional improvement, and knee joint mobility following",
-   "outcome": "Pain intensity measured using Visual Analogue Scale (VAS)",
-   "sponsor": "Kafrelsheikh University",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Abdulaziz Fahad Ahmed Alsulaimani",
-    "title": "Princpal Investigator",
-    "affiliation": "Kafrelsheikh University"
-   },
-   "officials": [
-    {
-     "name": "hane mohamed hamed, PHD",
-     "role": "STUDY_CHAIR",
-     "affiliation": "professor of orthopedic surgery depaetment of orthopedic surgery faculty of medicine kafrelsheikh university"
-    },
-    {
-     "name": "mahmoud mohamed ewida, PHD",
-     "role": "STUDY_CHAIR",
-     "affiliation": "professor of basic sciences for physical therapy department of basic sciences for physical therapy faculty oh physical therapy kafrelsheikh university"
-    }
-   ],
-   "countries": [],
-   "sites": [],
-   "n_sites": 0,
    "matched": [
     "musculo-squelettique"
    ]
@@ -3364,6 +3363,70 @@
      "name": "HOSSAM MOHAMMED GAD, PHD",
      "role": "STUDY_DIRECTOR",
      "affiliation": "Professor of Orthopaedic Surgery Department of Orthopaedic Surgery Faculty of medicine Kafrelsheikh University"
+    }
+   ],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT07666061",
+   "title": "Laser vs Lontophoresis in KOA",
+   "official": "Effectiveness of Laser Therapy Versus Lontophoresis in the Management of Knee Osteoarthritis: A Randomized Controlled Trial",
+   "acronym": null,
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-08-01",
+   "end": "2026-10-30",
+   "completion": "2027-04-01",
+   "first_posted": "2026-06-24",
+   "updated": "2026-06-24",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 66,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Knee Arthritis Osteoarthritis"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Low-Level Laser Therapy"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Iontophoresis"
+    },
+    {
+     "type": "OTHER",
+     "name": "Conventional Physical Therapy Only"
+    }
+   ],
+   "summary": "This randomized controlled trial aims to compare the effectiveness of laser therapy and iontophoresis in patients with knee osteoarthritis. The study will evaluate pain reduction, functional improvement, and knee joint mobility following",
+   "outcome": "Pain intensity measured using Visual Analogue Scale (VAS)",
+   "sponsor": "Kafrelsheikh University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Abdulaziz Fahad Ahmed Alsulaimani",
+    "title": "Princpal Investigator",
+    "affiliation": "Kafrelsheikh University"
+   },
+   "officials": [
+    {
+     "name": "hane mohamed hamed, PHD",
+     "role": "STUDY_CHAIR",
+     "affiliation": "professor of orthopedic surgery depaetment of orthopedic surgery faculty of medicine kafrelsheikh university"
+    },
+    {
+     "name": "mahmoud mohamed ewida, PHD",
+     "role": "STUDY_CHAIR",
+     "affiliation": "professor of basic sciences for physical therapy department of basic sciences for physical therapy faculty oh physical therapy kafrelsheikh university"
     }
    ],
    "countries": [],
@@ -5623,58 +5686,6 @@
    ]
   },
   {
-   "nct": "NCT07511803",
-   "title": "Photobiomodulation on Recovery in Female Futsal Athletes",
-   "official": "Effects of Photobiomodulation Therapy on Recovery After Exercise in Female Futsal Athletes",
-   "acronym": "PBMT",
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-04-15",
-   "end": "2026-06-01",
-   "completion": "2026-06-10",
-   "first_posted": "2026-04-06",
-   "updated": "2026-04-06",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 15,
-   "allocation": "RANDOMIZED",
-   "masking": "DOUBLE",
-   "conditions": [
-    "Muscle Recovery",
-    "Exercise",
-    "Phototherapy",
-    "Futsal"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Active PBMT"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Placebo PBMT"
-    }
-   ],
-   "summary": "The aim of this study is to investigate the effects of photobiomodulation therapy (PBMT) on recovery after high-intensity, intermittent exercises in female futsal athletes. It is hypothesized that PBMT is superior to placebo condition in improving the recovery of muscle function after high-intensity, intermittent exercises.",
-   "outcome": "Physical performance in the Bangsbo Sprint Test",
-   "sponsor": "Universidade Norte do Paraná",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Andreo Fernando Aguiar",
-    "title": "Principal Investigator",
-    "affiliation": "Universidade Norte do Paraná"
-   },
-   "officials": [],
-   "countries": [],
-   "sites": [],
-   "n_sites": 0,
-   "matched": [
-    "sport"
-   ]
-  },
-  {
    "nct": "NCT07511790",
    "title": "Photobiomodulation on Performance in Female Futsal Athletes",
    "official": "Effects of Photobiomodulation Therapy on Physical Performance in Female Futsal Athletes",
@@ -5709,6 +5720,58 @@
     }
    ],
    "summary": "The aim of this study is to investigate the effects of photobiomodulation therapy (PBMT) on physical performance in female futsal athletes. It is hypothesized that PBMT is superior to placebo condition in improving the ability to perform repeated sprints and aerobic capacity in high-intensity, intermittent activity (i.e., Bangsbo sprint test and yoyo intermittent recovery level-1, respectively).",
+   "outcome": "Physical performance in the Bangsbo Sprint Test",
+   "sponsor": "Universidade Norte do Paraná",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Andreo Fernando Aguiar",
+    "title": "Principal Investigator",
+    "affiliation": "Universidade Norte do Paraná"
+   },
+   "officials": [],
+   "countries": [],
+   "sites": [],
+   "n_sites": 0,
+   "matched": [
+    "sport"
+   ]
+  },
+  {
+   "nct": "NCT07511803",
+   "title": "Photobiomodulation on Recovery in Female Futsal Athletes",
+   "official": "Effects of Photobiomodulation Therapy on Recovery After Exercise in Female Futsal Athletes",
+   "acronym": "PBMT",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-04-15",
+   "end": "2026-06-01",
+   "completion": "2026-06-10",
+   "first_posted": "2026-04-06",
+   "updated": "2026-04-06",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 15,
+   "allocation": "RANDOMIZED",
+   "masking": "DOUBLE",
+   "conditions": [
+    "Muscle Recovery",
+    "Exercise",
+    "Phototherapy",
+    "Futsal"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Active PBMT"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Placebo PBMT"
+    }
+   ],
+   "summary": "The aim of this study is to investigate the effects of photobiomodulation therapy (PBMT) on recovery after high-intensity, intermittent exercises in female futsal athletes. It is hypothesized that PBMT is superior to placebo condition in improving the recovery of muscle function after high-intensity, intermittent exercises.",
    "outcome": "Physical performance in the Bangsbo Sprint Test",
    "sponsor": "Universidade Norte do Paraná",
    "sponsor_class": "OTHER",
@@ -6507,66 +6570,6 @@
    ]
   },
   {
-   "nct": "NCT07352787",
-   "title": "High-Intensity Laser Therapy for Trapezius Myofascial Pain (HILT-TRAP Study)",
-   "official": "High-Intensity Laser Therapy for Trapezius Myofascial Pain Syndrome: Effects on Pain, ROM, Function, and Depression A Four-Phase Development, Validation, and Evaluation Study",
-   "acronym": "HILT-TRAP Stud",
-   "status": "NOT_YET_RECRUITING",
-   "start": "2026-03-10",
-   "end": "2026-12-15",
-   "completion": "2027-04-10",
-   "first_posted": "2026-01-20",
-   "updated": "2026-01-20",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 104,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Myofascial Pain Syndrome (MPS)"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "High-Intensity Laser Therapy"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Sham Laser Therapy"
-    }
-   ],
-   "summary": "This study aims to evaluate the effectiveness of optimized High-Intensity Laser Therapy (HILT) compared with sham treatment in patients with trapezius myofascial pain syndrome. Outcomes include pain intensity, cervical range of motion, functional disability, and depressive symptoms measured at baseline, post-intervention, and 16-week follow-up.",
-   "outcome": "Pain Intensity",
-   "sponsor": "Neveen Abd El Maksoad Kohaf",
-   "sponsor_class": "OTHER",
-   "collaborators": [
-    "Universiti Kebangsaan Malaysia Medical Centre"
-   ],
-   "responsible": {
-    "name": "Neveen Abd El Maksoad Kohaf",
-    "title": "Clinical Pharmacy Department, Faculty of Pharmacy (Girls), Al-Azhar University, Cairo, Egypt.",
-    "affiliation": "Al-Azhar University"
-   },
-   "officials": [],
-   "countries": [
-    "Iraq"
-   ],
-   "sites": [
-    {
-     "facility": "Al-Hussein Teaching Hospital",
-     "city": "Nasiriyah",
-     "country": "Iraq"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "musculo-squelettique",
-    "neurologie"
-   ]
-  },
-  {
    "nct": "NCT07460895",
    "title": "Effectiveness of Photobiomodulation for Myofascial Pain in Temporomandibular Disorders",
    "official": "Photobiomodulation in the Management of Myofascial Pain: A Randomized and Blinded Clinical Trial",
@@ -6626,6 +6629,66 @@
    "n_sites": 0,
    "matched": [
     "musculo-squelettique"
+   ]
+  },
+  {
+   "nct": "NCT07352787",
+   "title": "High-Intensity Laser Therapy for Trapezius Myofascial Pain (HILT-TRAP Study)",
+   "official": "High-Intensity Laser Therapy for Trapezius Myofascial Pain Syndrome: Effects on Pain, ROM, Function, and Depression A Four-Phase Development, Validation, and Evaluation Study",
+   "acronym": "HILT-TRAP Stud",
+   "status": "NOT_YET_RECRUITING",
+   "start": "2026-03-10",
+   "end": "2026-12-15",
+   "completion": "2027-04-10",
+   "first_posted": "2026-01-20",
+   "updated": "2026-01-20",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 104,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Myofascial Pain Syndrome (MPS)"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "High-Intensity Laser Therapy"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham Laser Therapy"
+    }
+   ],
+   "summary": "This study aims to evaluate the effectiveness of optimized High-Intensity Laser Therapy (HILT) compared with sham treatment in patients with trapezius myofascial pain syndrome. Outcomes include pain intensity, cervical range of motion, functional disability, and depressive symptoms measured at baseline, post-intervention, and 16-week follow-up.",
+   "outcome": "Pain Intensity",
+   "sponsor": "Neveen Abd El Maksoad Kohaf",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Universiti Kebangsaan Malaysia Medical Centre"
+   ],
+   "responsible": {
+    "name": "Neveen Abd El Maksoad Kohaf",
+    "title": "Clinical Pharmacy Department, Faculty of Pharmacy (Girls), Al-Azhar University, Cairo, Egypt.",
+    "affiliation": "Al-Azhar University"
+   },
+   "officials": [],
+   "countries": [
+    "Iraq"
+   ],
+   "sites": [
+    {
+     "facility": "Al-Hussein Teaching Hospital",
+     "city": "Nasiriyah",
+     "country": "Iraq"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "musculo-squelettique",
+    "neurologie"
    ]
   },
   {
@@ -7888,65 +7951,6 @@
    ]
   },
   {
-   "nct": "NCT07446127",
-   "title": "Adjunctive Diode Laser Therapy in Non-Surgical Periodontal Therapy",
-   "official": "Evaluation of the Effect of Adjunctive Diode Laser Therapy in Mechanical Scaling and Root Surface Debridement in Non-Surgical Periodontal Therapy",
-   "acronym": null,
-   "status": "RECRUITING",
-   "start": "2026-01-01",
-   "end": "2026-12-31",
-   "completion": "2026-12-31",
-   "first_posted": "2026-03-03",
-   "updated": "2026-03-03",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 20,
-   "allocation": "RANDOMIZED",
-   "masking": "NONE",
-   "conditions": [
-    "Periodontal Disease",
-    "Periodontal Pockets",
-    "Periodontal Attachment Loss"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "LASER assisted SRP"
-    },
-    {
-     "type": "DEVICE",
-     "name": "RsD"
-    }
-   ],
-   "summary": "The goal of this clinical trial is to evaluate the efficacy of adjunctive application of diode laser to mechanical, non-surgical root surface debridement in patients attending periodontal office. The main question it aims to answer is:\n\nTo compare the clinical effectiveness of adjunctive application of a 940-nm diode laser with root surface debridement to the effectiveness of root surface debridement alone.\n\nThis study is a split-mouth design, where each quadrant will be randomly allocated to one of the following groups:\n\nControl group (root surface debridement - RsD): scaling and root planing alone. Laser group (RsD + laser): scaling and root planing with adjunctive diode laser therapy Quadrants will be randomly allocated to the treatment groups",
-   "outcome": "PPD",
-   "sponsor": "Tel Aviv University",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": {
-    "name": "Michael Saminsky",
-    "title": "Doctor",
-    "affiliation": "Tel Aviv University"
-   },
-   "officials": [],
-   "countries": [
-    "Israel"
-   ],
-   "sites": [
-    {
-     "facility": "Dr Younis Mahmoud",
-     "city": "Afula",
-     "country": "Israel"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "odontologie"
-   ]
-  },
-  {
    "nct": "NCT07286474",
    "title": "Effects of Laser Therapy and Vitamin D Pills on Braces Tooth Movement: A Random Controlled Study",
    "official": "The Effects of Combined Low-Level Laser Therapy (LLLT) and Oral Vitamin D3 Supplements on Orthodontic Tooth Movements: A Randomized Controlled Trial.",
@@ -8006,6 +8010,65 @@
      "facility": "Armed Forces Hospital",
      "city": "Madinah",
      "country": "Saudi Arabia"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "odontologie"
+   ]
+  },
+  {
+   "nct": "NCT07446127",
+   "title": "Adjunctive Diode Laser Therapy in Non-Surgical Periodontal Therapy",
+   "official": "Evaluation of the Effect of Adjunctive Diode Laser Therapy in Mechanical Scaling and Root Surface Debridement in Non-Surgical Periodontal Therapy",
+   "acronym": null,
+   "status": "RECRUITING",
+   "start": "2026-01-01",
+   "end": "2026-12-31",
+   "completion": "2026-12-31",
+   "first_posted": "2026-03-03",
+   "updated": "2026-03-03",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 20,
+   "allocation": "RANDOMIZED",
+   "masking": "NONE",
+   "conditions": [
+    "Periodontal Disease",
+    "Periodontal Pockets",
+    "Periodontal Attachment Loss"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "LASER assisted SRP"
+    },
+    {
+     "type": "DEVICE",
+     "name": "RsD"
+    }
+   ],
+   "summary": "The goal of this clinical trial is to evaluate the efficacy of adjunctive application of diode laser to mechanical, non-surgical root surface debridement in patients attending periodontal office. The main question it aims to answer is:\n\nTo compare the clinical effectiveness of adjunctive application of a 940-nm diode laser with root surface debridement to the effectiveness of root surface debridement alone.\n\nThis study is a split-mouth design, where each quadrant will be randomly allocated to one of the following groups:\n\nControl group (root surface debridement - RsD): scaling and root planing alone. Laser group (RsD + laser): scaling and root planing with adjunctive diode laser therapy Quadrants will be randomly allocated to the treatment groups",
+   "outcome": "PPD",
+   "sponsor": "Tel Aviv University",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": {
+    "name": "Michael Saminsky",
+    "title": "Doctor",
+    "affiliation": "Tel Aviv University"
+   },
+   "officials": [],
+   "countries": [
+    "Israel"
+   ],
+   "sites": [
+    {
+     "facility": "Dr Younis Mahmoud",
+     "city": "Afula",
+     "country": "Israel"
     }
    ],
    "n_sites": 1,
@@ -8782,6 +8845,59 @@
    ]
   },
   {
+   "nct": "NCT06812611",
+   "title": "Effects of High Intensity Laser Therapy in Muscle Injuries",
+   "official": "Effects of High Intensity Laser Therapy In Lower Limb Muscle Injuries: a Randomized Controlled Study",
+   "acronym": "THEALinMJ",
+   "status": "RECRUITING",
+   "start": "2025-12-01",
+   "end": "2027-01-01",
+   "completion": "2027-04-01",
+   "first_posted": "2025-02-06",
+   "updated": "2026-05-14",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 24,
+   "allocation": "RANDOMIZED",
+   "masking": "SINGLE",
+   "conditions": [
+    "Muscle Tear"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "High Energy Laser Group"
+    },
+    {
+     "type": "OTHER",
+     "name": "Exercise"
+    }
+   ],
+   "summary": "Muscle injuries are frequent traumatic events in daily life, particularly during sports. In sports, their incidence varies from 10% to 55% of total injuries. According to the Mueller Wohlfart classification, muscle injuries are classified into direct traumatic injuries (contusion-laceration) and indirect traumatic injuries, which are further divided into non-structural injuries (grade I and II) and structural injuries. Structural lesions are further divided into partial muscle lesions (grade III): 3 A, minor partial lesion, i.e. lesion of one or more primary bundles with a secondary bundle; 3 B, moderate partial lesion, i.e. lesion of at least one secondary bundle and with a rupture area \\< 50% of the muscle surface; and (sub)total muscle injury (grade IV).",
+   "outcome": "recovery of pain",
+   "sponsor": "Azienda Ospedaliero-Universitaria Consorziale Policlinico di Bari",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [],
+   "countries": [
+    "Italy"
+   ],
+   "sites": [
+    {
+     "facility": "Policlinico di Bari",
+     "city": "Bari",
+     "country": "Italy"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "dermatologie"
+   ]
+  },
+  {
    "nct": "NCT07205640",
    "title": "Improving Healing in Children After Tooth Extraction Using Laser Therapy or Hyaluronic Acid",
    "official": "Effect of Low-Level Laser Therapy Versus Hyaluronic Acid on Wound Healing After First Permanent Molar Extraction in Children.",
@@ -8848,59 +8964,6 @@
    "matched": [
     "dermatologie",
     "odontologie"
-   ]
-  },
-  {
-   "nct": "NCT06812611",
-   "title": "Effects of High Intensity Laser Therapy in Muscle Injuries",
-   "official": "Effects of High Intensity Laser Therapy In Lower Limb Muscle Injuries: a Randomized Controlled Study",
-   "acronym": "THEALinMJ",
-   "status": "RECRUITING",
-   "start": "2025-12-01",
-   "end": "2027-01-01",
-   "completion": "2027-04-01",
-   "first_posted": "2025-02-06",
-   "updated": "2026-05-14",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 24,
-   "allocation": "RANDOMIZED",
-   "masking": "SINGLE",
-   "conditions": [
-    "Muscle Tear"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "High Energy Laser Group"
-    },
-    {
-     "type": "OTHER",
-     "name": "Exercise"
-    }
-   ],
-   "summary": "Muscle injuries are frequent traumatic events in daily life, particularly during sports. In sports, their incidence varies from 10% to 55% of total injuries. According to the Mueller Wohlfart classification, muscle injuries are classified into direct traumatic injuries (contusion-laceration) and indirect traumatic injuries, which are further divided into non-structural injuries (grade I and II) and structural injuries. Structural lesions are further divided into partial muscle lesions (grade III): 3 A, minor partial lesion, i.e. lesion of one or more primary bundles with a secondary bundle; 3 B, moderate partial lesion, i.e. lesion of at least one secondary bundle and with a rupture area \\< 50% of the muscle surface; and (sub)total muscle injury (grade IV).",
-   "outcome": "recovery of pain",
-   "sponsor": "Azienda Ospedaliero-Universitaria Consorziale Policlinico di Bari",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": null,
-   "officials": [],
-   "countries": [
-    "Italy"
-   ],
-   "sites": [
-    {
-     "facility": "Policlinico di Bari",
-     "city": "Bari",
-     "country": "Italy"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "dermatologie"
    ]
   },
   {
@@ -9823,66 +9886,6 @@
    ]
   },
   {
-   "nct": "NCT07651787",
-   "title": "Using Light Therapy for Mild Cognitive Impairment",
-   "official": "Neurovascular and Mitochondrial Mechanisms of Transcranial Photobiomodulation in Vascular Mild Cognitive Impairment",
-   "acronym": "LTMC",
-   "status": "RECRUITING",
-   "start": "2025-10-01",
-   "end": "2026-12-31",
-   "completion": "2026-12-31",
-   "first_posted": "2026-06-16",
-   "updated": "2026-06-16",
-   "type": "INTERVENTIONAL",
-   "phases": [
-    "NA"
-   ],
-   "n": 40,
-   "allocation": "RANDOMIZED",
-   "masking": "QUADRUPLE",
-   "conditions": [
-    "Mild Cognitive Impairment (MCI)",
-    "Amyloid Pathology"
-   ],
-   "interventions": [
-    {
-     "type": "DEVICE",
-     "name": "Active Vielight Neuro RX-Duo device -Active transcranial photobiomodulation"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Sham Vielight Neuro RX-Duo device -Sham transcranial photobiomodulation"
-    }
-   ],
-   "summary": "The goal of this clinical trial is to test whether transcranial photobiomodulation (tPBM), a non-invasive brain stimulation technique using near-infrared light, can improve brain blood flow regulation (neurovascular coupling) and cognitive function in people with mild cognitive impairment (MCI). The main questions it aims to answer are:\n\n* Does tPBM enhance cognitive function and cerebral hemodynamic responses during memory and finger tapping tasks?\n* Does tPBM reduce oxidative stress, inflammation, and mitigate brain cell damage?\n* Is cognitive improvement linked to amyloid status, greater cerebral hemodynamic response, and lower levels of brain inflammation and oxidative stress? Researchers will compare an active tPBM treatment arm to a sham treatment arm to see if tPBM leads to measurable improvements in brain activity and cognitive function compared to no active stimulation.\n\nPartici",
-   "outcome": "Change in cortical neurovascular coupling",
-   "sponsor": "University of Oklahoma",
-   "sponsor_class": "OTHER",
-   "collaborators": [],
-   "responsible": null,
-   "officials": [
-    {
-     "name": "Peter Mukli, MD, PhD",
-     "role": "PRINCIPAL_INVESTIGATOR",
-     "affiliation": "Department of Neurosurgery, University of Oklahoma Health Campus, Oklahoma, USA"
-    }
-   ],
-   "countries": [
-    "United States"
-   ],
-   "sites": [
-    {
-     "facility": "University of Oklahoma Health Campus",
-     "city": "Oklahoma City",
-     "country": "United States"
-    }
-   ],
-   "n_sites": 1,
-   "matched": [
-    "neurologie"
-   ]
-  },
-  {
    "nct": "NCT07204145",
    "title": "Laser Acupuncture for Behavioral and Psychological Symptoms of Dementia",
    "official": "The Efficacy of Laser Acupuncture for Behavioral and Psychological Symptoms of Dementia: A Randomized Controlled Trial",
@@ -9947,6 +9950,66 @@
     }
    ],
    "n_sites": 2,
+   "matched": [
+    "neurologie"
+   ]
+  },
+  {
+   "nct": "NCT07651787",
+   "title": "Using Light Therapy for Mild Cognitive Impairment",
+   "official": "Neurovascular and Mitochondrial Mechanisms of Transcranial Photobiomodulation in Vascular Mild Cognitive Impairment",
+   "acronym": "LTMC",
+   "status": "RECRUITING",
+   "start": "2025-10-01",
+   "end": "2026-12-31",
+   "completion": "2026-12-31",
+   "first_posted": "2026-06-16",
+   "updated": "2026-06-16",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 40,
+   "allocation": "RANDOMIZED",
+   "masking": "QUADRUPLE",
+   "conditions": [
+    "Mild Cognitive Impairment (MCI)",
+    "Amyloid Pathology"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Active Vielight Neuro RX-Duo device -Active transcranial photobiomodulation"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Sham Vielight Neuro RX-Duo device -Sham transcranial photobiomodulation"
+    }
+   ],
+   "summary": "The goal of this clinical trial is to test whether transcranial photobiomodulation (tPBM), a non-invasive brain stimulation technique using near-infrared light, can improve brain blood flow regulation (neurovascular coupling) and cognitive function in people with mild cognitive impairment (MCI). The main questions it aims to answer are:\n\n* Does tPBM enhance cognitive function and cerebral hemodynamic responses during memory and finger tapping tasks?\n* Does tPBM reduce oxidative stress, inflammation, and mitigate brain cell damage?\n* Is cognitive improvement linked to amyloid status, greater cerebral hemodynamic response, and lower levels of brain inflammation and oxidative stress? Researchers will compare an active tPBM treatment arm to a sham treatment arm to see if tPBM leads to measurable improvements in brain activity and cognitive function compared to no active stimulation.\n\nPartici",
+   "outcome": "Change in cortical neurovascular coupling",
+   "sponsor": "University of Oklahoma",
+   "sponsor_class": "OTHER",
+   "collaborators": [],
+   "responsible": null,
+   "officials": [
+    {
+     "name": "Peter Mukli, MD, PhD",
+     "role": "PRINCIPAL_INVESTIGATOR",
+     "affiliation": "Department of Neurosurgery, University of Oklahoma Health Campus, Oklahoma, USA"
+    }
+   ],
+   "countries": [
+    "United States"
+   ],
+   "sites": [
+    {
+     "facility": "University of Oklahoma Health Campus",
+     "city": "Oklahoma City",
+     "country": "United States"
+    }
+   ],
+   "n_sites": 1,
    "matched": [
     "neurologie"
    ]
@@ -10162,22 +10225,22 @@
    ]
   },
   {
-   "nct": "NCT07186088",
-   "title": "Therapeutic Efficacy of Different Repeated Low-Intensity Red Light Devices and Different Usage Frequencies",
-   "official": "Study on the Therapeutic Efficacy of Different Repeated Low-Intensity Red Light Devices and Different Usage Frequencies for Adult Myopia Treatment",
-   "acronym": null,
-   "status": "ENROLLING_BY_INVITATION",
+   "nct": "NCT07160036",
+   "title": "Repeatability of AO-SLO (Mona IIa) Technology and Cone Cell Density of Individuals Use Repeated Low-level Red-light Therapy",
+   "official": "Exploring the Repeatability of Adaptive Optics Scanning Laser Ophthalmoscope Technology (AO-SLO Mona IIa) and the Differences in Cone Cell Density Between Individuals Who Undergone and Not Undergone Repeated Low-level Red-light",
+   "acronym": "AO-SLO",
+   "status": "RECRUITING",
    "start": "2025-09-20",
-   "end": "2026-06-20",
-   "completion": "2026-12-31",
-   "first_posted": "2025-09-22",
-   "updated": "2026-10-29",
+   "end": "2025-11-20",
+   "completion": "2025-12-20",
+   "first_posted": "2025-09-08",
+   "updated": "2025-09-15",
    "type": "INTERVENTIONAL",
    "phases": [
     "NA"
    ],
-   "n": 60,
-   "allocation": "RANDOMIZED",
+   "n": 180,
+   "allocation": "NON_RANDOMIZED",
    "masking": "QUADRUPLE",
    "conditions": [
     "Myopia"
@@ -10185,15 +10248,11 @@
    "interventions": [
     {
      "type": "DEVICE",
-     "name": "Eyerising RS-200-2A"
-    },
-    {
-     "type": "DEVICE",
-     "name": "Eyerising SLX-1A"
+     "name": "RLRL(Model RS-200-2A, Eyerising; Suzhou Xuanjia Optoelectronic Technology Co., Ltd., Suzhou, China))"
     }
    ],
-   "summary": "To explore the effectiveness and safety of repeated exposure to repeated low-intensity red light",
-   "outcome": "Axial length",
+   "summary": "To explore the repeatability of AO-SLO (Mona IIa) technology and the difference of cone cell density between individuals who used or not used repeated low-intensity red light treatment",
+   "outcome": "The density of cone cells",
    "sponsor": "Ruihua Wei",
    "sponsor_class": "OTHER",
    "collaborators": [
@@ -10227,22 +10286,22 @@
    ]
   },
   {
-   "nct": "NCT07160036",
-   "title": "Repeatability of AO-SLO (Mona IIa) Technology and Cone Cell Density of Individuals Use Repeated Low-level Red-light Therapy",
-   "official": "Exploring the Repeatability of Adaptive Optics Scanning Laser Ophthalmoscope Technology (AO-SLO Mona IIa) and the Differences in Cone Cell Density Between Individuals Who Undergone and Not Undergone Repeated Low-level Red-light",
-   "acronym": "AO-SLO",
-   "status": "RECRUITING",
+   "nct": "NCT07186088",
+   "title": "Therapeutic Efficacy of Different Repeated Low-Intensity Red Light Devices and Different Usage Frequencies",
+   "official": "Study on the Therapeutic Efficacy of Different Repeated Low-Intensity Red Light Devices and Different Usage Frequencies for Adult Myopia Treatment",
+   "acronym": null,
+   "status": "ENROLLING_BY_INVITATION",
    "start": "2025-09-20",
-   "end": "2025-11-20",
-   "completion": "2025-12-20",
-   "first_posted": "2025-09-08",
-   "updated": "2025-09-15",
+   "end": "2026-06-20",
+   "completion": "2026-12-31",
+   "first_posted": "2025-09-22",
+   "updated": "2026-10-29",
    "type": "INTERVENTIONAL",
    "phases": [
     "NA"
    ],
-   "n": 180,
-   "allocation": "NON_RANDOMIZED",
+   "n": 60,
+   "allocation": "RANDOMIZED",
    "masking": "QUADRUPLE",
    "conditions": [
     "Myopia"
@@ -10250,11 +10309,15 @@
    "interventions": [
     {
      "type": "DEVICE",
-     "name": "RLRL(Model RS-200-2A, Eyerising; Suzhou Xuanjia Optoelectronic Technology Co., Ltd., Suzhou, China))"
+     "name": "Eyerising RS-200-2A"
+    },
+    {
+     "type": "DEVICE",
+     "name": "Eyerising SLX-1A"
     }
    ],
-   "summary": "To explore the repeatability of AO-SLO (Mona IIa) technology and the difference of cone cell density between individuals who used or not used repeated low-intensity red light treatment",
-   "outcome": "The density of cone cells",
+   "summary": "To explore the effectiveness and safety of repeated exposure to repeated low-intensity red light",
+   "outcome": "Axial length",
    "sponsor": "Ruihua Wei",
    "sponsor_class": "OTHER",
    "collaborators": [
@@ -14670,6 +14733,62 @@
    "n_sites": 4,
    "matched": [
     "ophtalmologie"
+   ]
+  },
+  {
+   "nct": "NCT06501313",
+   "title": "PhotobiomoduLation for pAtientS With Advanced hEart failuRe",
+   "official": "PhotobiomoduLation for pAtientS With Advanced hEart failuRe",
+   "acronym": "LASER",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start": "2024-10-07",
+   "end": "2026-12-31",
+   "completion": "2026-12-31",
+   "first_posted": "2024-07-15",
+   "updated": "2026-11-23",
+   "type": "INTERVENTIONAL",
+   "phases": [
+    "NA"
+   ],
+   "n": 70,
+   "allocation": "RANDOMIZED",
+   "masking": "QUADRUPLE",
+   "conditions": [
+    "Heart Failure With Reduced Ejection Fraction",
+    "Heart Failure, Systolic"
+   ],
+   "interventions": [
+    {
+     "type": "DEVICE",
+     "name": "Photobiomodulation"
+    }
+   ],
+   "summary": "The objective of the study is to examine the effectiveness of photobiomodulation therapy in patients with advanced-stage heart failure with reduced ejection fraction (HFrEF), who have been referred but ineligible for a heart transplantation. The primary endpoint is a 15% relative reduction in left ventricular end-systolic volume (LV ESV) as determined by echocardiography over a 12-month follow-up period. The secondary objective is to determine the change in NT-proBNP, a biomarker for heart failure, the change in heart failure symptoms based on the NYHA functional classification, the change in quality of life questionnaire (KCCQ), additional echocardiographic parameters, and the detection of changes in heart failure and fibrosis biomarkers. Additionally, the study aims to examine hospitalization due to heart failure and overall mortality.",
+   "outcome": "Echocardiographic response",
+   "sponsor": "Semmelweis University Heart and Vascular Center",
+   "sponsor_class": "OTHER",
+   "collaborators": [
+    "Laser Light Medical Innovations Ltd."
+   ],
+   "responsible": {
+    "name": "Annamaria Kosztin MD, PhD",
+    "title": "Principal Investigator",
+    "affiliation": "Semmelweis University Heart and Vascular Center"
+   },
+   "officials": [],
+   "countries": [
+    "Hungary"
+   ],
+   "sites": [
+    {
+     "facility": "Semmelweis University",
+     "city": "Budapest",
+     "country": "Hungary"
+    }
+   ],
+   "n_sites": 1,
+   "matched": [
+    "cardiologie"
    ]
   },
   {
