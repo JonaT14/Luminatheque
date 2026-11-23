@@ -4675,6 +4675,10 @@
 [
 "2026-04-21",
 "NOT_YET_RECRUITING"
+],
+[
+"2026-11-23",
+"ENROLLING_BY_INVITATION"
 ]
 ],
 "theme": "cardiologie",
@@ -4725,6 +4729,10 @@
 [
 "2026-04-28",
 "NOT_YET_RECRUITING"
+],
+[
+"2026-11-23",
+"RECRUITING"
 ]
 ],
 "theme": "ophtalmologie",
@@ -5165,6 +5173,10 @@
 [
 "2026-08-31",
 "NOT_YET_RECRUITING"
+],
+[
+"2026-11-23",
+"RECRUITING"
 ]
 ],
 "theme": "odontologie",
