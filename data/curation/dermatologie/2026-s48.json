@@ -1,0 +1,125 @@
+[
+ {
+  "pmid": "43038830",
+  "title_fr": "Laser basse énergie dans les escarres : revue systématique et méta-analyse",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "plaies"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 779,
+  "effect": "favorable",
+  "theme": "Plaies & ulcères",
+  "l1": "Sur 13 essais randomisés (779 patients), le laser basse énergie seul augmente les chances de cicatrisation complète des escarres (RR 1,62 ; un patient guéri de plus pour 5 traités), ce que l'association laser et LED ne montre pas.",
+  "l2": "Revue systématique et méta-analyse (PRISMA 2020, PROSPERO CRD42025631008 ; quatre bases jusqu'en janvier 2025) des essais randomisés de laser basse énergie ou de LED contre soins standard ou simulation dans les escarres de l'adulte.\n\nLaser seul (3 essais, 190 patients) : cicatrisation complète plus fréquente (RR 1,62 ; IC 1,07–2,44 ; I² 1 %), certitude modérée. Laser associé aux LED (4 essais, 353 patients) : pas de bénéfice (RR 1,34 ; IC 0,84–2,12). Effets indésirables légers, environ 3 %.",
+  "l3": {
+   "points": [
+    "Distingue le laser cohérent des sources combinées laser et LED.",
+    "Critère dur : la cicatrisation complète."
+   ],
+   "limites": [
+    "Résultat significatif porté par trois petits essais, non robuste au retrait d'un essai.",
+    "Suivi de 4 à 12 semaines ; deux essais seulement à faible risque de biais."
+   ],
+   "pratique": "Option complémentaire des soins d'escarre, avec une bonne sécurité ; le bénéfice reste à confirmer."
+  },
+  "k": 13
+ },
+ {
+  "pmid": "43028668",
+  "title_fr": "Laser après césarienne, douleur et cicatrisation : méta-analyse d'essais randomisés",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "cicatrices"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 670,
+  "effect": "favorable",
+  "theme": "Cicatrices & brûlures",
+  "l1": "Sur 8 essais (670 femmes), le laser réduit la douleur de la cicatrice de césarienne à 24 h (DMS −0,95) et à 48 h (DMS −0,71), sans effet démontré sur la qualité de la cicatrice.",
+  "l2": "Première méta-analyse sur le sujet (cinq bases jusqu'en juillet 2026) : huit essais randomisés, 670 femmes.\n\nDouleur réduite à 24 h (DMS −0,95 ; IC −1,35 à −0,55) et à 48 h (DMS −0,71 ; IC −1,01 à −0,41 ; I² 0 %). Premier antalgique demandé plus tard (environ 2 heures) et consommation moindre, mais sur deux essais et avec une hétérogénéité supérieure à 90 %. Pas de différence sur l'échelle de cicatrice de Vancouver ni sur les effets indésirables.",
+  "l3": {
+   "points": [
+    "Essais randomisés uniquement.",
+    "Effet sur la douleur homogène à 48 h."
+   ],
+   "limites": [
+    "Peu d'essais par critère ; forte hétérogénéité sur les antalgiques.",
+    "Pas de bénéfice démontré sur la cicatrice."
+   ],
+   "pratique": "Peut soulager la douleur des deux premiers jours ; ne pas la présenter comme un traitement de la cicatrice."
+  },
+  "k": 8
+ },
+ {
+  "pmid": "43047012",
+  "title_fr": "PBM après chirurgie esthétique du visage : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "adulte",
+  "ctx": [
+   "esthétique"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser",
+   "LED"
+  ],
+  "nm": [],
+  "n": 298,
+  "effect": "favorable",
+  "theme": "Vieillissement & esthétique",
+  "l1": "Six études (298 patients, surtout blépharoplastie et chirurgie nasale) : la PBM réduit ecchymoses, œdème et douleur de la première semaine, sur des données encore minces.",
+  "l2": "Revue systématique (PRISMA 2020 ; PubMed, Embase, Cochrane, Web of Science) des études de PBM après blépharoplastie, rhinoplastie ou lifting, hors lasers ablatifs : six études sur 857 notices, 298 patients dont 155 traités.\n\nMoins d'ecchymoses à J7, récupération plus rapide, meilleure cicatrisation à J7 et moins de douleur et de gonflement en chirurgie périoculaire et après septoplastie ; résultat neutre entre groupes après rhinoplastie. Effets indésirables rares.",
+  "l3": {
+   "points": [
+    "Exclut explicitement les lasers ablatifs."
+   ],
+   "limites": [
+    "Six études seulement ; paramètres et échelles hétérogènes."
+   ],
+   "pratique": "Piste intéressante pour les suites opératoires du visage, sans protocole standard à ce jour."
+  },
+  "k": 6
+ },
+ {
+  "pmid": "43047232",
+  "title_fr": "Lumière jaune seule ou avec vitamine C à 20 % dans le mélasma : essai randomisé en double aveugle",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "pigmentation"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [],
+  "n": 71,
+  "effect": "mitigé",
+  "theme": "Vitiligo & pigmentation",
+  "l1": "Chez 71 patientes, la lumière jaune associée à la vitamine C réduit davantage le mélasma à 12 semaines que la lumière jaune seule (mMASI −1,95 contre −0,69), avec un gain absolu modeste.",
+  "l2": "Essai monocentrique randomisé en double aveugle : lumière jaune deux fois par semaine, avec vitamine C à 20 % (35 patientes) ou son excipient (36). L'essai ne comporte pas de groupe sans lumière : il ne mesure pas l'effet propre de la lumière jaune.",
+  "l3": {
+   "points": [],
+   "limites": [
+    "Pas de bras sans lumière.",
+    "Gain absolu modeste."
+   ],
+   "pratique": "—"
+  }
+ }
+]

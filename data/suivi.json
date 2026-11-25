@@ -5436,6 +5436,46 @@
 "theme": "ophtalmologie",
 "vu": "2026-11-06"
 },
+"NCT07923916": {
+"statuts": [
+[
+"2026-11-25",
+"ACTIVE_NOT_RECRUITING"
+]
+],
+"theme": "odontologie",
+"vu": "2026-11-25"
+},
+"NCT07931833": {
+"statuts": [
+[
+"2026-11-25",
+"NOT_YET_RECRUITING"
+]
+],
+"theme": "odontologie",
+"vu": "2026-11-25"
+},
+"NCT07939360": {
+"statuts": [
+[
+"2026-11-25",
+"ACTIVE_NOT_RECRUITING"
+]
+],
+"theme": "ophtalmologie",
+"vu": "2026-11-25"
+},
+"NCT07947316": {
+"statuts": [
+[
+"2026-11-25",
+"RECRUITING"
+]
+],
+"theme": "musculo-squelettique",
+"vu": "2026-11-25"
+},
 "NL-OMON58081": {
 "statuts": [
 [
@@ -6870,6 +6910,10 @@
 "dermatologie:42921882": "2026-10-24",
 "dermatologie:42965343": "2026-10-30",
 "dermatologie:42970422": "2026-11-02",
+"dermatologie:43028668": "2026-11-25",
+"dermatologie:43038830": "2026-11-25",
+"dermatologie:43047012": "2026-11-25",
+"dermatologie:43047232": "2026-11-25",
 "gynecologie:16941885": "2006-09-01",
 "gynecologie:19295224": "2009-02-04",
 "gynecologie:19405857": "2009-05-02",
@@ -7871,6 +7915,7 @@
 "musculo-squelettique:42945268": "2026-10-27",
 "musculo-squelettique:42995454": "2026-11-06",
 "musculo-squelettique:42997425": "2026-11-02",
+"musculo-squelettique:43064839": "2026-11-25",
 "neurologie:11789263": "2002-01-16",
 "neurologie:15844435": "2005-04-23",
 "neurologie:15916378": "2005-05-27",
@@ -8005,6 +8050,7 @@
 "neurologie:42751984": "2026-09-17",
 "neurologie:42798437": "2026-09-11",
 "neurologie:42840704": "2026-09-22",
+"neurologie:43040529": "2026-11-25",
 "neuropathie-peripherique:12098159": "2002-07-05",
 "neuropathie-peripherique:15047649": "2004-03-30",
 "neuropathie-peripherique:15162107": "2004-05-27",
@@ -8692,6 +8738,10 @@
 "odontologie:42946902": "2026-10-28",
 "odontologie:42947294": "2026-10-28",
 "odontologie:42995303": "2026-11-06",
+"odontologie:43007501": "2026-11-25",
+"odontologie:43050822": "2026-11-25",
+"odontologie:43051965": "2026-11-25",
+"odontologie:43055965": "2026-11-25",
 "oncologie-support:12973834": "2003-09-16",
 "oncologie-support:16673054": "2006-05-04",
 "oncologie-support:17018707": "2006-10-03",
@@ -8836,6 +8886,11 @@
 "ophtalmologie:42527621": "2026-07-29",
 "ophtalmologie:42895250": "2026-10-19",
 "ophtalmologie:42995527": "2026-08-10",
+"ophtalmologie:43009159": "2026-11-25",
+"ophtalmologie:43028050": "2026-11-25",
+"ophtalmologie:43030637": "2026-11-25",
+"ophtalmologie:43036791": "2026-11-25",
+"ophtalmologie:43049921": "2026-11-25",
 "orl:11016286": "2000-10-04",
 "orl:11981384": "2002-05-01",
 "orl:14505199": "2003-09-25",
@@ -13977,6 +14032,18 @@
 "dermatologie:42993140": "2026-11-06",
 "dermatologie:42995289": "2026-11-10",
 "dermatologie:42995303": "2026-11-10",
+"dermatologie:43009060": "2026-11-25",
+"dermatologie:43027648": "2026-11-25",
+"dermatologie:43028668": "2026-11-25",
+"dermatologie:43036334": "2026-11-25",
+"dermatologie:43038830": "2026-11-25",
+"dermatologie:43043553": "2026-11-25",
+"dermatologie:43044664": "2026-11-25",
+"dermatologie:43047012": "2026-11-25",
+"dermatologie:43047124": "2026-11-25",
+"dermatologie:43047232": "2026-11-25",
+"dermatologie:43047239": "2026-11-25",
+"dermatologie:43051957": "2026-11-25",
 "gynecologie:11702632": "2001-11-13",
 "gynecologie:11799979": "2002-01-22",
 "gynecologie:11805774": "2002-01-24",
@@ -14720,6 +14787,7 @@
 "mucite-orale:42941485": "2026-10-15",
 "mucite-orale:42969421": "2026-11-02",
 "mucite-orale:43017579": "2026-11-16",
+"mucite-orale:43057549": "2026-11-25",
 "musculo-squelettique:10630935": "2000-01-12",
 "musculo-squelettique:10706474": "2000-03-08",
 "musculo-squelettique:10751018": "2000-04-06",
@@ -18099,6 +18167,9 @@
 "musculo-squelettique:43033295": "2026-11-16",
 "musculo-squelettique:43034705": "2026-11-16",
 "musculo-squelettique:43036334": "2026-11-16",
+"musculo-squelettique:43043553": "2026-11-25",
+"musculo-squelettique:43049837": "2026-11-25",
+"musculo-squelettique:43064839": "2026-11-25",
 "neurologie:10630935": "2000-01-12",
 "neurologie:11789263": "2002-01-16",
 "neurologie:11857597": "2002-02-22",
@@ -19220,6 +19291,8 @@
 "neurologie:43027299": "2026-11-16",
 "neurologie:43034346": "2026-11-16",
 "neurologie:43034419": "2026-11-16",
+"neurologie:43040529": "2026-11-25",
+"neurologie:43043553": "2026-11-25",
 "neuropathie-peripherique:10626465": "2000-01-08",
 "neuropathie-peripherique:11109606": "2000-12-08",
 "neuropathie-peripherique:12098159": "2002-07-05",
@@ -23185,6 +23258,16 @@
 "odontologie:42995303": "2026-11-06",
 "odontologie:42996452": "2026-07-28",
 "odontologie:42998202": "2026-11-07",
+"odontologie:43007501": "2026-11-25",
+"odontologie:43017297": "2026-11-25",
+"odontologie:43017579": "2026-11-25",
+"odontologie:43036334": "2026-11-25",
+"odontologie:43049837": "2026-11-25",
+"odontologie:43050822": "2026-11-25",
+"odontologie:43051965": "2026-11-25",
+"odontologie:43055965": "2026-11-25",
+"odontologie:43057550": "2026-11-25",
+"odontologie:43060881": "2026-11-25",
 "oncologie-support:12973834": "2003-09-16",
 "oncologie-support:16673054": "2006-05-04",
 "oncologie-support:17018707": "2006-10-03",
@@ -24322,6 +24405,13 @@
 "ophtalmologie:42975852": "2026-11-03",
 "ophtalmologie:42995527": "2026-08-10",
 "ophtalmologie:42999938": "2026-11-10",
+"ophtalmologie:43009159": "2026-11-25",
+"ophtalmologie:43028050": "2026-11-25",
+"ophtalmologie:43030637": "2026-11-25",
+"ophtalmologie:43036791": "2026-11-25",
+"ophtalmologie:43047012": "2026-11-25",
+"ophtalmologie:43049921": "2026-11-25",
+"ophtalmologie:43054670": "2026-11-25",
 "orl:11016286": "2000-10-04",
 "orl:11332876": "2001-05-03",
 "orl:11521390": "2001-08-28",

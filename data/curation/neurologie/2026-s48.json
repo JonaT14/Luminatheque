@@ -1,0 +1,34 @@
+[
+ {
+  "pmid": "43040529",
+  "title_fr": "Stimulation transcrânienne proche infrarouge du cortex moteur : comparaison de quatre réglages",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "autres"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810,
+   1064
+  ],
+  "n": 22,
+  "effect": "favorable",
+  "theme": "Autres atteintes : céphalées, moelle, acouphènes",
+  "l1": "Chez 22 volontaires sains, les quatre réglages testés augmentent l'excitabilité du cortex moteur par rapport à la simulation ; le 1 064 nm pulsé à 40 Hz a l'effet le plus marqué.",
+  "l2": "Essai croisé randomisé contre simulation : 810 nm continu, 810 nm pulsé à 40 Hz, 1 064 nm continu et 1 064 nm pulsé à 40 Hz (120 mW/cm², 20 minutes, 0,24 cm²) sur le cortex moteur gauche. Potentiels évoqués moteurs plus amples jusqu'à 30 minutes et meilleure performance à une tâche d'opposition des doigts avec le 1 064 nm pulsé.",
+  "l3": {
+   "points": [
+    "Compare longueur d'onde et mode d'émission dans un même essai."
+   ],
+   "limites": [
+    "Sujets sains, critères physiologiques : pas de preuve clinique."
+   ],
+   "pratique": "Repère de paramètres pour la recherche, sans application clinique directe."
+  }
+ }
+]

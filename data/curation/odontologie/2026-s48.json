@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "43055965",
+  "title_fr": "PBM associée au L-PRF après extraction de dents de sagesse : essai en bouche divisée",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "chirurgie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   808
+  ],
+  "n": 20,
+  "effect": "neutre",
+  "theme": "Dents de sagesse & extractions",
+  "l1": "Chez 20 patients, ajouter la PBM (808 nm) au L-PRF n'améliore ni la douleur, ni la cicatrisation, ni la qualité de vie après extraction de dents de sagesse.",
+  "l2": "Essai randomisé en bouche divisée contre irradiation simulée : PBM intrabuccale 808 nm, 220 mW, 41 s par point sur quatre points (environ 36 J par séance), juste après l'intervention puis à 24 h, 48 h et 7 jours. Aucune différence sur l'EVA, l'indice de Landry ou l'OHIP-14.",
+  "l3": {
+   "points": [
+    "Contre simulation, protocole entièrement décrit."
+   ],
+   "limites": [
+    "Vingt patients ; le L-PRF peut masquer un effet additionnel."
+   ],
+   "pratique": "Pas d'intérêt démontré à ajouter la PBM quand un L-PRF est déjà posé."
+  }
+ },
+ {
+  "pmid": "43007501",
+  "title_fr": "Laser et accélération du mouvement orthodontique : essai randomisé en bouche divisée",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   980
+  ],
+  "n": 30,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "Chez 30 adultes, le côté irradié (980 nm) recule la canine de 4,95 mm en quatre mois contre 3,79 mm du côté témoin, avec des marqueurs de remodelage osseux augmentés.",
+  "l2": "Essai randomisé en bouche divisée : laser 980 nm, 1 000 mW, 15 s par point, à l'activation puis toutes les deux semaines pendant quatre mois. Ostéocalcine et N-télopeptide du fluide gingival augmentés du côté laser.",
+  "l3": {
+   "points": [
+    "Critère clinique et marqueurs biologiques concordants."
+   ],
+   "limites": [
+    "Puissance de 1 W : au-dessus des appareils de laser basse énergie habituels.",
+    "Pas de simulation décrite."
+   ],
+   "pratique": "—"
+  }
+ },
+ {
+  "pmid": "43050822",
+  "title_fr": "Piézocision répétée ou laser basse énergie répété pour accélérer la rétraction canine : essai à trois bras",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810
+  ],
+  "n": 58,
+  "effect": "mitigé",
+  "theme": "Orthodontie",
+  "l1": "Chez 58 patients, le laser 810 nm accélère la rétraction canine (1,09 contre 0,76 mm par mois), mais moins que la piézocision (1,41 mm par mois).",
+  "l2": "Essai randomisé à trois bras (60 inclus, 58 analysés) : piézocision à J0 et 6 semaines, laser 810 nm répété (J0, J3, J7, J14, J28 puis toutes les deux semaines) ou rétraction classique. Durée totale : 3,6 mois avec la piézocision, 4,6 avec le laser, 6,0 sans. Pas d'atteinte parodontale.",
+  "l3": {
+   "points": [
+    "Trois bras, allocation dissimulée."
+   ],
+   "limites": [
+    "Pas d'aveugle possible entre les techniques."
+   ],
+   "pratique": "Le laser accélère sans geste invasif, mais moins que la piézocision."
+  }
+ },
+ {
+  "pmid": "43051965",
+  "title_fr": "PBM 810 nm et douleur après pose d'un appareil orthodontique fixe : essai contre simulation",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "ortho"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   810
+  ],
+  "n": 38,
+  "effect": "favorable",
+  "theme": "Orthodontie",
+  "l1": "Chez 38 patients, deux séances de laser 810 nm (à la pose et 24 h après) réduisent la douleur du premier jour et améliorent le confort alimentaire, psychologique et de parole la première semaine.",
+  "l2": "Essai randomisé en simple aveugle contre laser éteint. Différence de douleur significative à J1 seulement ; pas de différence juste après la pose, à J3 ni à J7. Aucun effet indésirable.",
+  "l3": {
+   "points": [
+    "Contre simulation."
+   ],
+   "limites": [
+    "Effet limité au premier jour."
+   ],
+   "pratique": "Protocole simple : deux séances suffisent à passer le pic de douleur."
+  }
+ }
+]

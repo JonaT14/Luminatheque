@@ -1,0 +1,34 @@
+[
+ {
+  "pmid": "43064839",
+  "title_fr": "Laser dans le conflit sous-acromial : méta-analyse en réseau d'essais randomisés",
+  "type": "ma",
+  "level": 1,
+  "pop": "adulte",
+  "ctx": [
+   "épaule"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [],
+  "n": 989,
+  "effect": "mitigé",
+  "theme": "Épaule",
+  "l1": "Sur 19 essais (989 patients), le laser basse énergie ajouté à la kinésithérapie réduit la douleur du conflit sous-acromial autant que le laser haute intensité, sans améliorer la fonction de l'épaule.",
+  "l2": "Méta-analyse en réseau (huit bases) des essais randomisés comparant le laser basse énergie, le laser haute intensité et la kinésithérapie conventionnelle dans le conflit sous-acromial : 19 essais, 989 participants.\n\nAssociés à la kinésithérapie, les deux lasers réduisent la douleur (EVA) par rapport à la kinésithérapie seule, sans différence entre eux (certitude faible à modérée). Aucun des deux n'améliore le score fonctionnel SPADI (certitude très faible à faible).",
+  "l3": {
+   "points": [
+    "Compare directement laser basse énergie et haute intensité dans un même réseau.",
+    "Résultat clair : le laser basse énergie ne fait pas moins bien."
+   ],
+   "limites": [
+    "Certitude faible ; pas d'effet sur la fonction.",
+    "Protocoles hétérogènes."
+   ],
+   "pratique": "Le laser basse énergie peut compléter la kinésithérapie pour la douleur ; ne pas en attendre un gain fonctionnel."
+  },
+  "k": 19
+ }
+]

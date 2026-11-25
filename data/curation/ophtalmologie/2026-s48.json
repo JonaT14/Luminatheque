@@ -1,0 +1,168 @@
+[
+ {
+  "pmid": "43049921",
+  "title_fr": "Interventions de freination de la forte myopie de l'enfant : méta-analyse en réseau",
+  "type": "ma",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 2202,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Sur 28 études (2 202 enfants) dans la forte myopie, la lumière rouge répétée est l'intervention la plus efficace à un an : longueur axiale −0,43 mm et réfraction +0,95 D par rapport au témoin.",
+  "l2": "Revue systématique et méta-analyse en réseau (six bases et registres jusqu'en mars 2025) d'essais randomisés et d'études observationnelles de bonne qualité, douze interventions comparées.\n\nLumière rouge répétée : −0,43 mm (IC −0,51 à −0,36) et +0,95 D, classée première (SUCRA 95 % pour la longueur axiale). Orthokératologie (−0,19 mm), lentilles rigides et renforcement scléral postérieur sont aussi efficaces ; l'atropine 0,01 % et les verres DIMS ne modifient pas significativement la réfraction.",
+  "l3": {
+   "points": [
+    "Première synthèse centrée sur la forte myopie.",
+    "Résultats stables en analyses de sensibilité."
+   ],
+   "limites": [
+    "Mélange d'essais randomisés et d'études observationnelles.",
+    "Suivi d'un an ; sécurité rétinienne à long terme non couverte."
+   ],
+   "pratique": "Dans la forte myopie, la lumière rouge est l'option la mieux classée à un an, sous surveillance rétinienne."
+  },
+  "k": 28
+ },
+ {
+  "pmid": "43030637",
+  "title_fr": "Lumière rouge et lumière de courte longueur d'onde contre la myopie de l'enfant : revue systématique",
+  "type": "sr",
+  "level": 3,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Sur 26 études, la lumière rouge freine l'allongement axial et la myopie de l'enfant, mais des modifications rétiniennes et des symptômes de surface oculaire imposent une surveillance.",
+  "l2": "Revue systématique (PRISMA 2020, PROSPERO CRD420261289443 ; cinq bases, 2013–2026), qualité évaluée par la grille de Downs et Black.\n\nLa lumière rouge réduit l'allongement axial et la progression de la réfraction, épaissit la choroïde maculaire et retarde l'apparition de la myopie ; dans certaines études elle fait mieux que l'atropine 0,01 %. Effets indésirables rapportés : photophobie, sécheresse oculaire, altération de la vision des couleurs, conjonctivite, inconfort visuel, ainsi que des modifications rétiniennes structurelles et fonctionnelles.",
+  "l3": {
+   "points": [
+    "Recense précisément les effets indésirables."
+   ],
+   "limites": [
+    "Études de plans variés ; pas de méta-analyse."
+   ],
+   "pratique": "Informer les familles des effets indésirables possibles et organiser un suivi rétinien."
+  },
+  "k": 26
+ },
+ {
+  "pmid": "43009159",
+  "title_fr": "Lumière rouge répétée dans la myopie de l'enfant : revue parapluie",
+  "type": "umbrella",
+  "level": 1,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": null,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "La revue parapluie de 22 revues systématiques confirme l'effet de la lumière rouge répétée : longueur axiale −0,24 mm et réfraction +0,49 D, avec un effet qui augmente avec la durée du suivi.",
+  "l2": "Revue parapluie (huit bases jusqu'au 13 février 2026) des revues systématiques et méta-analyses comparant la lumière rouge répétée aux verres simples chez l'enfant myope : 22 revues, dont 14 dans la méta-analyse principale.\n\nAllongement axial réduit de 0,24 mm (IC −0,27 à −0,20) et progression de la réfraction réduite de 0,49 D (IC 0,41–0,57). L'effet croît avec la durée du suivi (p < 0,001) ; résultats robustes en analyses de sensibilité. Le profil de sécurité reste à valider.",
+  "l3": {
+   "points": [
+    "Vue d'ensemble de toutes les méta-analyses existantes.",
+    "Estimations très précises."
+   ],
+   "limites": [
+    "Les revues incluses reposent en grande partie sur les mêmes essais, surtout chinois.",
+    "Sécurité peu documentée."
+   ],
+   "pratique": "L'efficacité à court terme est acquise ; la question ouverte est la sécurité rétinienne."
+  },
+  "k": 22
+ },
+ {
+  "pmid": "43036791",
+  "title_fr": "Lumière rouge répétée dans la myopie : efficacité et sécurité à cinq ans en vie réelle",
+  "type": "cohort",
+  "level": 4,
+  "pop": "pédiatrie",
+  "ctx": [
+   "myopie"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "laser"
+  ],
+  "nm": [
+   650
+  ],
+  "n": 2885,
+  "effect": "favorable",
+  "theme": "Myopie de l'enfant",
+  "l1": "Chez 2 885 enfants suivis jusqu'à cinq ans dans 12 centres, l'allongement axial reste contrôlé chez 54 à 62 % d'entre eux chaque année, sans signal de sécurité grave.",
+  "l2": "Cohorte rétrospective multicentrique (12 centres), enfants de 3 à 17 ans traités au moins un an. Contrôle défini par un allongement annuel inférieur à 0,1 mm.\n\nAllongement moyen de 0,04 mm la première année puis de 0,08 à 0,12 mm par an. Contrôle meilleur chez les 13–17 ans, les yeux les plus longs au départ (91 % contre 29 %) et les patients les plus observants. Aucune baisse d'acuité préoccupante rapportée.",
+  "l3": {
+   "points": [
+    "Première donnée à cinq ans, sur un très grand effectif.",
+    "Identifie les facteurs de réponse : âge, longueur axiale, observance."
+   ],
+   "limites": [
+    "Rétrospective, sans groupe témoin.",
+    "Sécurité jugée sur l'acuité visuelle des dossiers, sans imagerie rétinienne systématique."
+   ],
+   "pratique": "Données rassurantes sur la durée ; elles ne remplacent pas un suivi rétinien structuré."
+  }
+ },
+ {
+  "pmid": "43028050",
+  "title_fr": "Lumière de faible intensité dans la sécheresse oculaire de l'orbitopathie thyroïdienne : essai en double insu",
+  "type": "rct",
+  "level": 2,
+  "pop": "adulte",
+  "ctx": [
+   "sécheresse"
+  ],
+  "aim": "traitement",
+  "mode": [
+   "LED"
+  ],
+  "nm": [
+   630
+  ],
+  "n": 46,
+  "effect": "mitigé",
+  "theme": "Sécheresse oculaire & paupières",
+  "l1": "Chez 46 patients, le masque LED 630 nm améliore les symptômes de sécheresse (OSDI −7,5 points contre simulation), sans effet démontré à deux mois sur le film lacrymal ni les glandes de Meibomius.",
+  "l2": "Essai prospectif randomisé en double insu contre simulation (émission réduite à moins de 30 %) : masque LED 630 nm, 15 minutes par séance sur paupières fermées, chez des patients restant symptomatiques malgré un traitement lubrifiant intensif ; 30 yeux traités, 16 témoins.\n\nOSDI ajusté plus bas en fin de traitement (différence −7,49 ; IC −11,66 à −3,32). Temps de rupture du film lacrymal, sécrétion aqueuse, morphologie des glandes et couche lipidique non modifiés à deux mois.",
+  "l3": {
+   "points": [
+    "Double insu contre simulation.",
+    "Première évaluation dans cette population."
+   ],
+   "limites": [
+    "Bénéfice limité aux symptômes.",
+    "Effectif modeste, suivi de deux mois."
+   ],
+   "pratique": "Peut soulager les symptômes quand les lubrifiants ne suffisent pas ; ne pas en attendre une amélioration objective rapide."
+  }
+ }
+]
